@@ -31,57 +31,6 @@ Bulgaria|Country|0
 Poland|Country|0
 Bosnia and Herzegovina|Country|0
 Serbia|Country|0
-work process design|Function|0
-product-service purchase|Function|0
-purchase|Function|0
-finance|Function|0
-regulation|Function|0
-IT|Function|0
-governance|Function|0
-development and research|Function|0
-infrastructure|Function|0
-human resources|Function|0
-security|Function|0
-logistics|Function|0
-assets management|Function|0
-product service delivery|Function|0
-project methodology|Function|0
-documentation|Function|0
-regulations|Function|0
-strategy|Function|0
-planning|Function|0
-analysis|Function|0
-data processing|Function|0
-product-service delivery|Function|0
-outsourcing|Function|0
-monitoring|Function|0
-coordination|Function|0
-training|Function|0
-archives|Function|0
-planning|Process|0
-implementation|Process|0
-review-audit|Process|0
-measurement|Process|0
-registering|Process|0
-monitoring-supervision|Process|0
-coordination|Process|0
-reporting|Process|0
-authorization|Process|0
-testing|Process|0
-good health and well-being|Goal|0
-consumption production|Goal|0
-quality education|Goal|0
-institutions justice|Goal|0
-energy|Goal|0
-responsible consumption and production|Goal|0
-peace, justice and strong institutions|Goal|0
-industry, innovation and infrastructure|Goal|0
-sustainable cities and communities|Goal|0
-efficient office|Goal|0
-useful service|Goal|0
-effective state|Goal|0
-better settlements|Goal|0
-inclusive industrialisation|Goal|0
 requirements management|Topics|0
 information society|Topics|0
 large scale undertaking|Topics|0
@@ -199,6 +148,9 @@ STAKEHOLDER|Topics|0
 Directorate|Topics|0
 Taxpayer|Topics|0
 Collaborator|Topics|0
+Regulator|Topics|0
+Municipality|Topics|0
+County|Topics|0
 health |ActivityDomain|0
 geodata|ActivityDomain|0
 energy|ActivityDomain|0
@@ -376,3 +328,16 @@ Federal government|ActivityDomain|0
 Housing|ActivityDomain|0
 Import|ActivityDomain|0
 Review|ActivityDomain|0
+Economics|ActivityDomain|0
+General public services|ActivityDomain|0
+Cost|ActivityDomain|0
+Bid|ActivityDomain|0
+Procurement|ActivityDomain|0
+Modelling|ActivityDomain|0
+Communications|ActivityDomain|0
+Effort|ActivityDomain|0
+Public service|ActivityDomain|0
+Fast|ActivityDomain|0
+Realistic|ActivityDomain|0
+Approach|ActivityDomain|0
+Roll-out|ActivityDomain|0

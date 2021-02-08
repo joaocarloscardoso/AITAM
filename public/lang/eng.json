@@ -1,0 +1,28 @@
+{
+	"messages":{},
+	"pageNavigation":{},
+	"buttons":{
+		"save": "Save",
+		"close": "Close"
+	},
+	"audit" : {
+		"reference" : {
+			"pageTitle": "Audit Reference",
+			"auditID": "Audit ID",
+			"auitTitle": "Audit title",
+			"auditBackground":"Audit background",
+			"auditScope":"Audit scope"
+		},
+		"plugins" : {},
+		"preliminaryActivities" : {},
+		"plan" : {},
+		"findings" : {},
+		"analytics" : {},
+		"donwload" : {},
+		"close" : {}
+	},
+	"recommendations": {
+		"browse" : {},
+		"managePortfolios" : {}
+	}
+}
