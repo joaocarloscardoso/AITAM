@@ -2,10 +2,49 @@
 	"messages":{},
 	"pageNavigation":{},
 	"buttons":{
-		"save": "Save",
-		"close": "Close"
+		"save": {
+			"name": "Save", 
+			"tooltip":""
+		},
+		"close": {
+			"name": "Close", 
+			"tooltip":""
+		},
+		"reloadList": {
+			"name": "Reload List", 
+			"tooltip":""
+		},
+		"generateDocument": {
+			"name": "Generate document", 
+			"tooltip":""
+		},
+		"planSyncPreassessment": {
+			"name": "Sync with pre-assessment", 
+			"tooltip":"This functionality relies on the previous use of A2.02 matrix (02 Understanding the IT-systems)"
+		},
+		"planExportList": {
+			"name": "Export list", 
+			"tooltip":"This functionality generates a word processing document containing the planning list"
+		},
+		"planAuditProgramme": {
+			"name": "Audit programme", 
+			"tooltip":"This functionality generates a word processing document containing the audit programme"
+		},
+		"planAuditMatrix": {
+			"name": "Audit matrix", 
+			"tooltip":"This functionality generates the methodological audit matrix"
+		},
+		"planRiskHeatMatrix": {
+			"name": "Risk heat matrix", 
+			"tooltip":"This functionality generates the risk heat matrix"
+		},
+		"planCollectionMatrices": {
+			"name": "Collection of matrices", 
+			"tooltip":"This functionality generates the matrices collection of all issues included in audit"
+		}
 	},
 	"audit" : {
+		"newUpload":{},
 		"reference" : {
 			"pageTitle": "Audit Reference",
 			"auditID": "Audit ID",
@@ -13,10 +52,44 @@
 			"auditBackground":"Audit background",
 			"auditScope":"Audit scope"
 		},
-		"plugins" : {},
-		"preliminaryActivities" : {},
-		"plan" : {},
+		"plugins" : {
+			"pageTitle": "Plug-ins available to use in audit",
+			"nopluginsMsg": "No Plug-Ins available!",
+			"referenceHeader": "Reference",
+			"selectedHeader": "Selected",
+			"selectedValues": {
+				"Yes":"Yes",
+				"No": "No"
+			},
+			"descriptionHeader": "Description",
+			"versionHeader": "Version",
+			"fileHeader": "File"
+		},
+		"preliminaryActivities" : {
+			"pageTitle": "Preliminary Activities and planning (start) the audit",
+			"noPreliminaryActivitiesMsg": "No pre-assessment issues available!",
+			"areaHeader": "Area",
+			"itemHeader": "Item (and related support matrix)"
+		},
+		"plan" : {
+			"pageTitle": "Domains, areas and issues",
+			"noPlan": "No Domains, areas and issues available!",
+			"riskFilter": {
+				"description": "Filter by",
+				"criteria1": "high risk",
+				"criteria2": "medium/high risk",
+				"criteria3": "include in audit",
+				"criteria4": "all issues"
+			},
+			"domainHeader": "Domain",
+			"areaHeader": "Area",
+			"issueHeader": "Issue",
+			"risksHeader": "Risks (weight)",
+			"includeHeader": "Include in audit",
+			"reasonsHeader": "Reasons, risks and remarks"
+		},
 		"findings" : {},
+		"recommendations": {},
 		"analytics" : {},
 		"donwload" : {},
 		"close" : {}

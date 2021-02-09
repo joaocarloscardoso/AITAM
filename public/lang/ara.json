@@ -1,0 +1,100 @@
+{
+	"messages":{},
+	"pageNavigation":{},
+	"buttons":{
+		"save": {
+			"name": "حفظ", 
+			"tooltip":""
+		},
+		"close": {
+			"name": "قريب", 
+			"tooltip":""
+		},
+		"reloadList": {
+			"name": "إعادة تحميل القائمة", 
+			"tooltip":""
+		},
+		"generateDocument": {
+			"name": "توليد وثيقة", 
+			"tooltip":""
+		},
+		"planSyncPreassessment": {
+			"name": "تزامن مع التقييم المسبق", 
+			"tooltip":"تعتمد هذه الوظيفة على الاستخدام السابق لمصفوفة A2.02 (02 فهم أنظمة تكنولوجيا المعلومات)"
+		},
+		"planExportList": {
+			"name": "قائمة التصدير", 
+			"tooltip":"تقوم هذه الوظيفة بإنشاء مستند معالجة كلمات يحتوي على القائمة"
+		},
+		"planAuditProgramme": {
+			"name": "برنامج المراجعة", 
+			"tooltip":"هذه الوظيفة يولد مستند معالجة النصوص التي تحتوي على برنامج التدقيق"
+		},
+		"planAuditMatrix": {
+			"name": "مصفوفة المراجعة", 
+			"tooltip":"هذه الوظيفة تولد مصفوفة التدقيق"
+		},
+		"planRiskHeatMatrix": {
+			"name": "مصفوفة المخاطر", 
+			"tooltip":"هذه الوظيفة تولد مصفوفة المخاطر"
+		},
+		"planCollectionMatrices": {
+			"name": "مجموعة من المصفوفات", 
+			"tooltip":"هذه الوظيفة يولد جمع المصفوفات جميع العناصر الواردة في التدقيق"
+		}
+	},
+	"audit" : {
+		"newUpload":{},
+		"reference" : {
+			"pageTitle": "مرجع المراجعة",
+			"auditID": "معرف التدقيق",
+			"auitTitle": "عنوان التدقيق",
+			"auditBackground":"خلفية التدقيق",
+			"auditScope":"نطاق التدقيق"
+		},
+		"plugins" : {
+			"pageTitle": "المكونات الإضافية المتاحة للاستخدام في التدقيق",
+			"nopluginsMsg": "لا توجد مكونات إضافية متاحة!",
+			"referenceHeader": "مرجع",
+			"selectedHeader": "المحدد",
+			"selectedValues": {
+				"Yes":"أجل",
+				"No":"لا"},
+			"descriptionHeader": "وصف",
+			"versionHeader": "الإصدار",
+			"fileHeader": "ملف"
+		},
+		"preliminaryActivities" : {
+			"pageTitle": "الأنشطة الأولية والتخطيط (بدء) التدقيق",
+			"noPreliminaryActivitiesMsg": "لا توجد قضايا تقييم مسبق متاحة!",
+			"areaHeader": "منطقة",
+			"itemHeader": "البند (ومصفوفة الدعم ذات الصلة)"
+		},
+		"plan" : {
+			"pageTitle": "المجالات والمناطق والعناصر",
+			"noPlan": "لا المجالات والمناطق والقضايا المتاحة!",
+			"riskFilter": {
+				"description": "تصفية حسب",
+				"criteria1": "مخاطرة عالية",
+				"criteria2": "متوسطة/عالية المخاطر",
+				"criteria3": "تدرج في التدقيق",
+				"criteria4": "جميع العناصر"
+			},
+			"domainHeader": "نطاق",
+			"areaHeader": "منطقة",
+			"issueHeader": "قضية",
+			"risksHeader": "المخاطر (الوزن)",
+			"includeHeader": "تدرج في التدقيق",
+			"reasonsHeader": "الأسباب والمخاطر والملاحظات"
+		},
+		"findings" : {},
+		"recommendations": {},
+		"analytics" : {},
+		"donwload" : {},
+		"close" : {}
+	},
+	"portfolios": {
+		"browse" : {},
+		"managePortfolios" : {}
+	}
+}

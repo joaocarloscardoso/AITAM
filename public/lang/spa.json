@@ -1,0 +1,101 @@
+{
+	"messages":{},
+	"pageNavigation":{},
+	"buttons":{
+		"save": {
+			"name": "Guardar", 
+			"tooltip":""
+		},
+		"close": {
+			"name": "Cerrar", 
+			"tooltip":""
+		},
+		"reloadList": {
+			"name": "Recargar lista", 
+			"tooltip":""
+		},
+		"generateDocument": {
+			"name": "Generar documento", 
+			"tooltip":""
+		},
+		"planSyncPreassessment": {
+			"name": "Sincronizar con las actividades preliminares", 
+			"tooltip":"Esta funcionalidad se basa en el uso previo de la matriz A2.02 (02 Comprensión de los sistemas de TI)"
+		},
+		"planExportList": {
+			"name": "Exportar lista", 
+			"tooltip":"Esta funcionalidad genera un documento de procesamiento de texto que contiene la lista de planificación"
+		},
+		"planAuditProgramme": {
+			"name": "Programa de auditoria", 
+			"tooltip":"Esta funcionalidad genera un documento de procesamiento de texto que contiene el programa de auditoría"
+		},
+		"planAuditMatrix": {
+			"name": "Matriz de auditoría", 
+			"tooltip":"Esta funcionalidad genera la matriz de auditoría metodológica"
+		},
+		"planRiskHeatMatrix": {
+			"name": "Matriz de riesgo", 
+			"tooltip":"Esta funcionalidad genera la matriz de riesgo"
+		},
+		"planCollectionMatrices": {
+			"name": "Colección de matrices", 
+			"tooltip":"Esta funcionalidad genera la colección de matrices de todos los elementos incluidos en la auditoría"
+		}
+	},
+	"audit" : {
+		"newUpload":{},
+		"reference" : {
+			"pageTitle": "Referencia de la auditoría",
+			"auditID": "ID de la Auditoría",
+			"auitTitle": "Título de la auditoría",
+			"auditBackground":"Antecedentes de la auditoría",
+			"auditScope":"Alcance de auditoría"
+		},
+		"plugins" : {
+			"pageTitle": "Complementos disponibles para usar en la auditoría",
+			"nopluginsMsg": "¡No hay complementos disponibles!",
+			"referenceHeader": "Referencia",
+			"selectedHeader": "Seleccionado",
+			"selectedValues": {
+				"Yes":"Si",
+				"No": "No"
+			},
+			"descriptionHeader": "Descripción",
+			"versionHeader": "Versión",
+			"fileHeader": "Archivo"
+		},
+		"preliminaryActivities" : {
+			"pageTitle": "Actividades preliminares y de planificación (inicio) de la auditoría",
+			"noPreliminaryActivitiesMsg": "¡No hay actividades de preliminares y de planificación disponibles!",
+			"areaHeader": "Área",
+			"itemHeader": "Elemento (y matriz de soporte relacionada)"
+		},
+		"plan" : {
+			"pageTitle": "Dominios, áreas y elementos",
+			"noPlan": "¡No hay dominios, áreas y elementos disponibles!",
+			"riskFilter": {
+				"description": "Filtrado por",
+				"criteria1": "alto riesgo",
+				"criteria2": "riesgo medio/alto",
+				"criteria3": "incluir en auditoría",
+				"criteria4": "todos los elementos"
+			},
+			"domainHeader": "Dominio",
+			"areaHeader": "Área",
+			"issueHeader": "Elemento",
+			"risksHeader": "Riesgos (peso)",
+			"includeHeader": "Incluir en auditoría",
+			"reasonsHeader": "Razones, riesgos y observaciones"
+		},
+		"findings" : {},
+		"recommendations": {},
+		"analytics" : {},
+		"donwload" : {},
+		"close" : {}
+	},
+	"portfolios": {
+		"browse" : {},
+		"managePortfolios" : {}
+	}
+}

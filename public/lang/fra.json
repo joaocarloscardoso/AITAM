@@ -1,0 +1,101 @@
+{
+	"messages":{},
+	"pageNavigation":{},
+	"buttons":{
+		"save": {
+			"name": "Sauvegarder", 
+			"tooltip":""
+		},
+		"close": {
+			"name": "Fermer", 
+			"tooltip":""
+		},
+		"reloadList": {
+			"name": "Recharger la liste", 
+			"tooltip":""
+		},
+		"generateDocument": {
+			"name": "Générer document", 
+			"tooltip":""
+		},
+		"planSyncPreassessment": {
+			"name": "Synchroniser avec les activités préliminaires", 
+			"tooltip":"Cette fonctionnalité repose sur l'utilisation précédente de la matrice A2.02 (02 Comprendre les systèmes informatiques)"
+		},
+		"planExportList": {
+			"name": "Exporter la liste", 
+			"tooltip":"Cette fonctionnalité génère un document de traitement de texte contenant la liste planifiée"
+		},
+		"planAuditProgramme": {
+			"name": "Programme d'audit", 
+			"tooltip":"Cette fonctionnalité génère un document de traitement de texte contenant le programme d'audit"
+		},
+		"planAuditMatrix": {
+			"name": "Matrice d'audit", 
+			"tooltip":"Cette fonctionnalité génère la matrice d'audit méthodologique"
+		},
+		"planRiskHeatMatrix": {
+			"name": "Matrice des risques", 
+			"tooltip":"Cette fonctionnalité génère la matrice des risques"
+		},
+		"planCollectionMatrices": {
+			"name": "Collection de matrices", 
+			"tooltip":"Cette fonctionnalité génère la collection de matrices de tous les éléments inclus dans l'audit"
+		}
+	},
+	"audit" : {
+		"newUpload":{},
+		"reference" : {
+			"pageTitle": "Référence de l'audit",
+			"auditID": "ID de l'Audit",
+			"auitTitle": "Titre de l'audit",
+			"auditBackground":"Contexte de l'audit",
+			"auditScope":"Étendue de l'audit"
+		},
+		"plugins" : {
+			"pageTitle": "Plug-ins disponibles pour une utilisation dans l'audit",
+			"nopluginsMsg": "Aucun plug-in disponible!",
+			"referenceHeader": "Référence",
+			"selectedHeader": "Choisi",
+			"selectedValues": {
+				"Yes":"Oui",
+				"No": "Non"
+			},
+			"descriptionHeader": "Description",
+			"versionHeader": "Version",
+			"fileHeader": "Fichier"
+		},
+		"preliminaryActivities" : {
+			"pageTitle": "Activités préliminaires et de planification (démarrer) de l'audit",
+			"noPreliminaryActivitiesMsg": "Aucun activité préliminaire et de planification disponible!",
+			"areaHeader": "Zone",
+			"itemHeader": "Item (et matrice de support associée)"
+		},
+		"plan" : {
+			"pageTitle": "Domaines, zones et éléments",
+			"noPlan": "Aucun domaine, zone et élément disponible!",
+			"riskFilter": {
+				"description": "Filtrer par",
+				"criteria1": "risque élevé",
+				"criteria2": "risque moyen/élevé",
+				"criteria3": "inclure dans l'audit",
+				"criteria4": "tous les éléments"
+			},
+			"domainHeader": "Domaine",
+			"areaHeader": "Zone",
+			"issueHeader": "Item",
+			"risksHeader": "Risques (poids)",
+			"includeHeader": "Inclure dans l'audit",
+			"reasonsHeader": "Raisons, risques et remarques"
+		},
+		"findings" : {},
+		"recommendations": {},
+		"analytics" : {},
+		"donwload" : {},
+		"close" : {}
+	},
+	"portfolios": {
+		"browse" : {},
+		"managePortfolios" : {}
+	}
+}
