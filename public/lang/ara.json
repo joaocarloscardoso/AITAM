@@ -41,6 +41,18 @@
 		"planCollectionMatrices": {
 			"name": "مجموعة من المصفوفات", 
 			"tooltip":"هذه الوظيفة يولد جمع المصفوفات جميع العناصر الواردة في التدقيق"
+		},
+		"findingCreateFinding": {
+			"name": "إنشاء نتائج التدقيق", 
+			"tooltip":""
+		},
+		"findingExecutiveSummary": {
+			"name": "ملخص تنفيذي", 
+			"tooltip":"تقوم هذه الوظيفة بإنشاء مستند معالجة كلمات يحتوي على الملخص التنفيذي"
+		},
+		"findingExecutiveSummaryRecommendations": {
+			"name": "ملخص تنفيذي (يشمل التوصيات)", 
+			"tooltip":"تقوم هذه الوظيفة بإنشاء مستند معالجة كلمات يحتوي على الملخص التنفيذي مع التوصيات"
 		}
 	},
 	"audit" : {
@@ -85,9 +97,41 @@
 			"issueHeader": "قضية",
 			"risksHeader": "المخاطر (الوزن)",
 			"includeHeader": "تدرج في التدقيق",
-			"reasonsHeader": "الأسباب والمخاطر والملاحظات"
+			"reasonsHeader": "الأسباب والمخاطر والملاحظات",
+			"matrix": {
+				"objectives": "الأهداف",
+				"criteria":"المعايير",
+				"informationRequired":"المعلومات المطلوبة",
+				"methodOfAnalysis":"طريقة التحليل",
+				"foundPreviously":"وجدت سابقا",
+				"conclusion":"خاتمة"
+			}
 		},
-		"findings" : {},
+		"findings" : {
+			"pageTitle": "نتائج التدقيق",
+			"noFindings": "لا توجد نتائج متاحة!",
+			"findingFilter":"استخدم الارتباط التشعبي على المعرف لعرض / تحرير النتائج",
+			"NumberHeader": "الرقم والاسم",
+			"sourceHeader": "مصدر> المجال> المنطقة> عنصر",
+			"causeHeader": "السبب والنتيجة",
+			"descriptionHeader": "وصف",
+			"relevantHeader": "ذو صلة",
+			"operationHeader": "عملية",
+			"matrix": {
+				"source": "مصدر",
+				"domain":"نطاق",
+				"area":"منطقة",
+				"issue":"قضية",
+				"findingName":"اسم دليل المراجعة",
+				"cause":"سبب",
+				"result":"نتيجة",
+				"findingNumber":"رقم دليل المراجعة",
+				"findingDescription":"وصف النتيجة",
+				"recommendation":"توصية",
+				"referenceLegalAct":"إشارة إلى القانون القانوني",
+				"referenceReport":"مرجع في التقرير"
+			}
+		},
 		"recommendations": {},
 		"analytics" : {},
 		"donwload" : {},

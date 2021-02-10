@@ -41,6 +41,18 @@
 		"planCollectionMatrices": {
 			"name": "Collection de matrices", 
 			"tooltip":"Cette fonctionnalité génère la collection de matrices de tous les éléments inclus dans l'audit"
+		},
+		"findingCreateFinding": {
+			"name": "Créer des preuves d'audit", 
+			"tooltip":""
+		},
+		"findingExecutiveSummary": {
+			"name": "Résumé exécutif", 
+			"tooltip":"Cette fonctionnalité génère un document de traitement de texte contenant le résumé exécutif"
+		},
+		"findingExecutiveSummaryRecommendations": {
+			"name": "Résumé exécutif (comprend les recommandations) ", 
+			"tooltip":"Cette fonctionnalité génère un document de traitement de texte contenant le résumé exécutif avec des recommandations"
 		}
 	},
 	"audit" : {
@@ -86,9 +98,41 @@
 			"issueHeader": "Item",
 			"risksHeader": "Risques (poids)",
 			"includeHeader": "Inclure dans l'audit",
-			"reasonsHeader": "Raisons, risques et remarques"
+			"reasonsHeader": "Raisons, risques et remarques",
+			"matrix": {
+				"objectives": "Objectifs",
+				"criteria":"Critères",
+				"informationRequired":"Information requise",
+				"methodOfAnalysis":"Méthode d'analyse",
+				"foundPreviously":"Trouvé précédemment",
+				"conclusion":"Conclusion"
+			}
 		},
-		"findings" : {},
+		"findings" : {
+			"pageTitle": "constatations de l'audit",
+			"noFindings": "Aucun résultat disponible!",
+			"findingFilter":"Utiliser le lien hypertexte sur l'ID pour afficher / modifier le résultat",
+			"NumberHeader": "Numéro et nom",
+			"sourceHeader": "Source > Domaine > Zone > Item",
+			"causeHeader": "Cause et résultat",
+			"descriptionHeader": "Description",
+			"relevantHeader": "Pertinent",
+			"operationHeader": "Opération",
+			"matrix": {
+				"source": "Source",
+				"domain":"Domaine",
+				"area":"Zone",
+				"issue":"Item",
+				"findingName":"Nome de la constatations d'audit",
+				"cause":"Cause",
+				"result":"Résultat",
+				"findingNumber":"Nombre de la constatations d'audit",
+				"findingDescription":"Description de la constatations d'audit",
+				"recommendation":"Recommandation",
+				"referenceLegalAct":"Référence à l'acte juridique",
+				"referenceReport":"Référence dans le rapport"
+			}
+		},
 		"recommendations": {},
 		"analytics" : {},
 		"donwload" : {},

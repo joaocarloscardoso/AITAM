@@ -41,6 +41,18 @@
 		"planCollectionMatrices": {
 			"name": "Collection of matrices", 
 			"tooltip":"This functionality generates the matrices collection of all issues included in audit"
+		},
+		"findingCreateFinding": {
+			"name": "Create finding", 
+			"tooltip":""
+		},
+		"findingExecutiveSummary": {
+			"name": "Executive summary", 
+			"tooltip":"This functionality generates a word processing document containing the Executive summary"
+		},
+		"findingExecutiveSummaryRecommendations": {
+			"name": "Executive summary (include recommendations)", 
+			"tooltip":"This functionality generates a word processing document containing the Executive summary with recommendations"
 		}
 	},
 	"audit" : {
@@ -86,10 +98,46 @@
 			"issueHeader": "Issue",
 			"risksHeader": "Risks (weight)",
 			"includeHeader": "Include in audit",
-			"reasonsHeader": "Reasons, risks and remarks"
+			"reasonsHeader": "Reasons, risks and remarks",
+			"matrix": {
+				"objectives": "Objectives",
+				"criteria":"Criteria",
+				"informationRequired":"Information required",
+				"methodOfAnalysis":"Method of analysis",
+				"foundPreviously":"Found previously",
+				"conclusion":"Conclusion"
+			}
 		},
-		"findings" : {},
-		"recommendations": {},
+		"findings" : {
+			"pageTitle": "Findings in audit",
+			"noFindings": "No findings available!",
+			"findingFilter":"Use hyperlink on ID to visualize/edit the finding",
+			"NumberHeader": "Number & Name",
+			"sourceHeader": "Source > Domain > Area > Issue",
+			"causeHeader": "Cause & Result",
+			"descriptionHeader": "Description",
+			"relevantHeader": "Relevant",
+			"operationHeader": "Operation",
+			"matrix": {
+				"source": "Source",
+				"domain":"Domain",
+				"area":"Area",
+				"issue":"Issue",
+				"findingName":"Finding Name",
+				"cause":"Cause",
+				"result":"Result",
+				"findingNumber":"Finding number",
+				"findingDescription":"Description of the finding",
+				"recommendation":"Recommendation",
+				"referenceLegalAct":"Reference to Legal Act",
+				"referenceReport":"Reference to the report"
+			}
+		},
+		"recommendations": {
+			"pageTitle": "",
+			"noRecommendations": ""
+
+		},
 		"analytics" : {},
 		"donwload" : {},
 		"close" : {}

@@ -41,6 +41,18 @@
 		"planCollectionMatrices": {
 			"name": "Colección de matrices", 
 			"tooltip":"Esta funcionalidad genera la colección de matrices de todos los elementos incluidos en la auditoría"
+		},
+		"findingCreateFinding": {
+			"name": "Crear evidencia de auditoría", 
+			"tooltip":""
+		},
+		"findingExecutiveSummary": {
+			"name": "Resumen ejecutivo", 
+			"tooltip":"Esta funcionalidad genera un documento de procesamiento de texto que contiene el resumen ejecutivo"
+		},
+		"findingExecutiveSummaryRecommendations": {
+			"name": "Resumen ejecutivo (incluye recomendaciones) ", 
+			"tooltip":"Esta funcionalidad genera un documento de procesamiento de texto que contiene el resumen ejecutivo con recomendaciones"
 		}
 	},
 	"audit" : {
@@ -86,9 +98,41 @@
 			"issueHeader": "Elemento",
 			"risksHeader": "Riesgos (peso)",
 			"includeHeader": "Incluir en auditoría",
-			"reasonsHeader": "Razones, riesgos y observaciones"
+			"reasonsHeader": "Razones, riesgos y observaciones",
+			"matrix": {
+				"objectives": "Objetivos",
+				"criteria":"Criterios",
+				"informationRequired":"Informacion requerida",
+				"methodOfAnalysis":"Método de análisis",
+				"foundPreviously":"Encontrado anteriormente",
+				"conclusion":"Conclusión"
+			}
 		},
-		"findings" : {},
+		"findings" : {
+			"pageTitle": "Resultados de la auditoría",
+			"noFindings": "¡No hay resultados disponibles!",
+			"findingFilter":"Use lo hipervínculo en ID para ver / editar el resultado",
+			"NumberHeader": "Número y nombre",
+			"sourceHeader": "Fuente > Dominio > Área > Elemento",
+			"causeHeader": "Causa y resultado",
+			"descriptionHeader": "Descripción",
+			"relevantHeader": "Pertinente",
+			"operationHeader": "Operación",
+			"matrix": {
+				"source": "Fuente",
+				"domain":"Dominio",
+				"area":"Área",
+				"issue":"Elemento",
+				"findingName":"Nombre de lo resultado de auditoría",
+				"cause":"Causa",
+				"result":"Resultado",
+				"findingNumber":"Número de lo resultado de auditoría",
+				"findingDescription":"Descripción de lo resultado de auditoría",
+				"recommendation":"Recomendación",
+				"referenceLegalAct":"Referencia a acto legal",
+				"referenceReport":"Referencia en el informe"
+			}
+		},
 		"recommendations": {},
 		"analytics" : {},
 		"donwload" : {},
