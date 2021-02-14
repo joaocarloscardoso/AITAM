@@ -53,6 +53,18 @@
 		"findingExecutiveSummaryRecommendations": {
 			"name": "Résumé exécutif (comprend les recommandations) ", 
 			"tooltip":"Cette fonctionnalité génère un document de traitement de texte contenant le résumé exécutif avec des recommandations"
+		},
+		"recommendationCreateRecommendation":{
+			"name":"Créer une recommandation",
+			"tooltip":""
+		},
+		"recommendationTrackReport":{
+			"name":"Rapport de suivi",
+			"tooltip":"Cette fonctionnalité génère un document de traitement de texte contenant le rapport de suivi des recommandations d'audit"
+		},
+		"recommendationsAddFinding":{
+			"name":"Ajouter un nouvel élément...",
+			"tooltip":""
 		}
 	},
 	"audit" : {
@@ -133,7 +145,58 @@
 				"referenceReport":"Référence dans le rapport"
 			}
 		},
-		"recommendations": {},
+		"recommendations": {
+			"pageTitle": "Recommandations d'audit",
+			"noRecommendations": "Aucune recommandation disponible!",
+			"recommendationFilter":"Utilisez le lien hypertexte sur l'ID pour visualiser / modifier la recommandation d'audit",
+			"NumberHeader":"Nombre",
+			"RecommendationHeader":"Recommandation",
+			"PriorityHeader":"Priorité",
+			"RiskHeader":"Risque",
+			"TimelineHeader":"Chronologie",
+			"StatusHeader":"Situation",
+			"OperationHeader":"Opération",
+			"matrix": {
+				"recommendationDescription": "Description de la recommandation",
+				"recommendationNumber":"Numéro de recommandation",
+				"priority":"Priorité",
+				"riskCharacterization":"Caractérisation du risque",
+				"riskCharacterizationTooltip":"(Catégorie plus pertinente de) Risque auquel les organisations sont confrontées directement et indirectement en raison de la non-mise en œuvre des recommandations d'audit",
+				"riskLevel":"Niveau de risque",
+				"importance":"Importance",
+				"accepted":"Accepté (par l'audité)",
+				"acceptedTooltip":"Recommandation acceptée par l'audité",
+				"categorizing":"Catégorisation de la recommandation d'audit",
+				"categorizingTooltip":"Catégorisation de la recommandation d'audit (100 caractères maximum)",
+				"repetead":"Répété lors des audits précédents? (enregistrer dans le champ des remarques l'historique)",
+				"repeteadTooltip":"Recommandation répétée lors des audits précédents",
+				"actionPlan":"Plan d'action",
+				"actionPlanTooltip":"Plan d'action / correctif proposé",
+				"timeline":"Chronologie",
+				"timelineTooltip":"Calendrier prévu pour mettre en œuvre le plan d'action / correctif proposé",
+				"outcome":"Résultat souhaité",
+				"outcomeTooltip":"Description du résultat souhaité par la mise en œuvre de la recommandation",
+				"responsible":"Responsable",
+				"responsibleTooltip":"Identifier et adresser des recommandations à ceux qui ont la responsabilité et l'autorité d'agir en conséquence",
+				"remarks":"Observaciones",
+				"remarksTooltip":"(Non structuré) Notes et remarques sur la recommandation enregistrée par l'auditeur",
+				"relatedFindings":"constatations d'audit connexes",
+				"relatedFindingsMatrix":{
+					"operation":"Opération",
+					"number":"Nombre",
+					"description":"Description",
+					"source":"Source > Domaine > Zone > Item",
+					"relevant":"Pertinent"
+				},
+				"monitoring":"Activités de surveillance et de suivi",
+				"monitoringMatrix":{
+					"operation":"Opération",
+					"assessment":"La date d'évaluation",
+					"status":"Situation",
+					"trackNote":"Note"
+				}
+			}
+		},
 		"analytics" : {},
 		"donwload" : {},
 		"close" : {}

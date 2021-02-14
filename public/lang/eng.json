@@ -53,6 +53,18 @@
 		"findingExecutiveSummaryRecommendations": {
 			"name": "Executive summary (include recommendations)", 
 			"tooltip":"This functionality generates a word processing document containing the Executive summary with recommendations"
+		},
+		"recommendationCreateRecommendation":{
+			"name":"Create Recommendation",
+			"tooltip":""
+		},
+		"recommendationTrackReport":{
+			"name":"Track report",
+			"tooltip":"This functionality generates a word processing document containing the audit recommendations track report"
+		},
+		"recommendationsAddFinding":{
+			"name":"add new item...",
+			"tooltip":""
 		}
 	},
 	"audit" : {
@@ -134,9 +146,56 @@
 			}
 		},
 		"recommendations": {
-			"pageTitle": "",
-			"noRecommendations": ""
-
+			"pageTitle": "Audit Recommendations",
+			"noRecommendations": "No recommendations available!",
+			"recommendationFilter":"Use hyperlink on ID to visualize/edit the audit recommendation",
+			"NumberHeader":"Number",
+			"RecommendationHeader":"Recommendation",
+			"PriorityHeader":"Priority",
+			"RiskHeader":"Risk",
+			"TimelineHeader":"Timeline",
+			"StatusHeader":"Status",
+			"OperationHeader":"Operation",
+			"matrix": {
+				"recommendationDescription": "Recommendation description",
+				"recommendationNumber":"Recommendation number",
+				"priority":"Priority",
+				"riskCharacterization":"Risk characterization",
+				"riskCharacterizationTooltip":"(Most relevant category of) Risk faced by organizations directly and indirectly as a result of non-implementation of audit recommendations",
+				"riskLevel":"Risk level",
+				"importance":"Importance",
+				"accepted":"Accepted (by the auditee)",
+				"acceptedTooltip":"Recommendation accepted by the auditee",
+				"categorizing":"Categorizing the audit recommendation",
+				"categorizingTooltip":"Categorizing the audit recommendation (max 100 characters)",
+				"repetead":"Repeated in previous audit(s)? (register in remarks field the history)",
+				"repeteadTooltip":"Recommendation repeated in previous audit(s)",
+				"actionPlan":"Action plan",
+				"actionPlanTooltip":"Action/remedial plan proposed",
+				"timeline":"Timeline",
+				"timelineTooltip":"Timeline planned to implement the action/remedial plan proposed",
+				"outcome":"Desired outcome",
+				"outcomeTooltip":"Description of the outcome desired by the implementation of the recommendation",
+				"responsible":"Responsible",
+				"responsibleTooltip":"Identify and direct recommendation to those who have responsibility and authority to act on them",
+				"remarks":"Remarks",
+				"remarksTooltip":"(Unstructured) Notes and remarks about recommendation registered by the auditor",
+				"relatedFindings":"Related reported findings",
+				"relatedFindingsMatrix":{
+					"operation":"Operation",
+					"number":"Number",
+					"description":"Description",
+					"source":"Source > Domain > Area > Issue",
+					"relevant":"Relevant"
+				},
+				"monitoring":"Monitoring and follow-up activities",
+				"monitoringMatrix":{
+					"operation":"Operation",
+					"assessment":"Assessment date",
+					"status":"Status",
+					"trackNote":"Track note"
+				}
+			}
 		},
 		"analytics" : {},
 		"donwload" : {},

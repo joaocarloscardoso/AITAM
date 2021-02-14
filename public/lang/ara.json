@@ -53,6 +53,18 @@
 		"findingExecutiveSummaryRecommendations": {
 			"name": "ملخص تنفيذي (يشمل التوصيات)", 
 			"tooltip":"تقوم هذه الوظيفة بإنشاء مستند معالجة كلمات يحتوي على الملخص التنفيذي مع التوصيات"
+		},
+		"recommendationCreateRecommendation":{
+			"name":"إنشاء توصية",
+			"tooltip":""
+		},
+		"recommendationTrackReport":{
+			"name":"تقرير المسار",
+			"tooltip":"تقوم هذه الوظيفة بإنشاء مستند معالجة كلمات يحتوي على تقرير تتبع توصيات التدقيق"
+		},
+		"recommendationsAddFinding":{
+			"name":"أضف أداة جديدة...",
+			"tooltip":""
 		}
 	},
 	"audit" : {
@@ -132,7 +144,58 @@
 				"referenceReport":"مرجع في التقرير"
 			}
 		},
-		"recommendations": {},
+		"recommendations": {
+			"pageTitle": "توصيات المراجعة",
+			"noRecommendations": "لا توجد توصيات متاحة!",
+			"recommendationFilter":"استخدم الارتباط التشعبي على المعرف لتصور / تحرير توصية التدقيق",
+			"NumberHeader":"عدد",
+			"RecommendationHeader":"توصية",
+			"PriorityHeader":"أفضلية",
+			"RiskHeader":"مخاطرة",
+			"TimelineHeader":"الجدول الزمني",
+			"StatusHeader":"حالة",
+			"OperationHeader":"عملية",
+			"matrix": {
+				"recommendationDescription": "وصف التوصية",
+				"recommendationNumber":"رقم التوصية",
+				"priority":"أفضلية",
+				"riskCharacterization":"توصيف المخاطر",
+				"riskCharacterizationTooltip":"(الفئة الأكثر صلة من) المخاطر التي تواجهها المنظمات بشكل مباشر وغير مباشر نتيجة عدم تنفيذ توصيات المراجعة",
+				"riskLevel":"مستوى الخطر",
+				"importance":"أهمية",
+				"accepted":"مقبولة (من قبل الجهة الخاضعة للرقابة)",
+				"acceptedTooltip":"قبول التوصية من قبل الجهة الخاضعة للرقابة",
+				"categorizing":"تصنيف توصية المراجعة",
+				"categorizingTooltip":"تصنيف توصية المراجعة (بحد أقصى 100 حرف)",
+				"repetead":"متكرر في التدقيق (عمليات) السابقة؟ (سجل في خانة الملاحظات)",
+				"repeteadTooltip":"تكرار التوصية في عملية (عمليات) مراجعة سابقة",
+				"actionPlan":"خطة عمل",
+				"actionPlanTooltip":"العمل / خطة العلاج المقترحة",
+				"timeline":"الجدول الزمني",
+				"timelineTooltip":"الجدول الزمني المخطط لتنفيذ خطة العمل / العلاج المقترحة",
+				"outcome":"النتيجة المرجوة",
+				"outcomeTooltip":"وصف النتيجة المرجوة من تنفيذ التوصية",
+				"responsible":"مسؤول",
+				"responsibleTooltip":"تحديد وتوجيه التوصيات إلى أولئك الذين لديهم المسؤولية والسلطة للتصرف بناءً عليها",
+				"remarks":"ملاحظات",
+				"remarksTooltip":"(غير منظم) ملاحظات وملاحظات حول التوصية التي سجلها المدقق",
+				"relatedFindings":"النتائج ذات الصلة المبلغ عنها",
+				"relatedFindingsMatrix":{
+					"operation":"عملية",
+					"number":"عدد",
+					"description":"وصف",
+					"source":"مصدر> المجال> المنطقة> عنصر",
+					"relevant":"ذو صلة"
+				},
+				"monitoring":"أنشطة المراقبة والمتابعة",
+				"monitoringMatrix":{
+					"operation":"عملية",
+					"assessment":"تاريخ التقييم",
+					"status":"حالة",
+					"trackNote":"ملحوظة"
+				}
+			}
+		},
 		"analytics" : {},
 		"donwload" : {},
 		"close" : {}

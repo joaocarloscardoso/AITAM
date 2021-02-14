@@ -53,6 +53,18 @@
 		"findingExecutiveSummaryRecommendations": {
 			"name": "Resumen ejecutivo (incluye recomendaciones) ", 
 			"tooltip":"Esta funcionalidad genera un documento de procesamiento de texto que contiene el resumen ejecutivo con recomendaciones"
+		},
+		"recommendationCreateRecommendation":{
+			"name":"Crear recomendación",
+			"tooltip":""
+		},
+		"recommendationTrackReport":{
+			"name":"Informe de seguimiento",
+			"tooltip":"Esta funcionalidad genera un documento de procesamiento de texto que contiene el informe de seguimiento de recomendaciones de auditoría"
+		},
+		"recommendationsAddFinding":{
+			"name":"Agregar ítem nuevo...",
+			"tooltip":""
 		}
 	},
 	"audit" : {
@@ -133,7 +145,58 @@
 				"referenceReport":"Referencia en el informe"
 			}
 		},
-		"recommendations": {},
+		"recommendations": {
+			"pageTitle": "Recomendaciones de auditoría",
+			"noRecommendations": "¡No hay recomendaciones disponibles!",
+			"recommendationFilter":"Use lo hipervínculo en ID para ver / editar la recomendación de auditoría",
+			"NumberHeader":"Número",
+			"RecommendationHeader":"Recomendación",
+			"PriorityHeader":"Prioridad",
+			"RiskHeader":"Riesgo",
+			"TimelineHeader":"Cronología",
+			"StatusHeader":"Estado",
+			"OperationHeader":"Operación",
+			"matrix": {
+				"recommendationDescription": "Descripción de la recomendación",
+				"recommendationNumber":"Número de recomendación",
+				"priority":"Prioridad",
+				"riskCharacterization":"Caracterización del riesgo",
+				"riskCharacterizationTooltip":"(Categoría más relevante de) Riesgo que enfrentan las organizaciones directa e indirectamente como resultado de la no implementación de las recomendaciones de auditoría",
+				"riskLevel":"Nivel de riesgo",
+				"importance":"Importancia",
+				"accepted":"Aceptado (por el auditado)",
+				"acceptedTooltip":"Recomendación aceptada por el auditado",
+				"categorizing":"Categorizar la recomendación de auditoría",
+				"categorizingTooltip":"Categorización de la recomendación de auditoría (máximo 100 caracteres)",
+				"repetead":"¿Repetido en auditorías anteriores? (registrar en el campo de comentarios el historial)",
+				"repeteadTooltip":"Recomendación repetida en auditorías anteriores",
+				"actionPlan":"Plan de accion",
+				"actionPlanTooltip":"Plan de acción / remedio propuesto",
+				"timeline":"Cronología",
+				"timelineTooltip":"Cronograma previsto para ejecutar lo plan de acción / remedio propuesto",
+				"outcome":"Resultado deseado",
+				"outcomeTooltip":"Descripción del resultado deseado por la implementación de la recomendación",
+				"responsible":"Responsable",
+				"responsibleTooltip":"Identificar y dirigir recomendaciones a quienes tienen la responsabilidad y autoridad para actuar en consecuencia.",
+				"remarks":"Remarks",
+				"remarksTooltip":"(Unstructured) Notes and remarks about recommendation registered by the auditor",
+				"relatedFindings":"Resultados de la auditoría relacionados",
+				"relatedFindingsMatrix":{
+					"operation":"Operación",
+					"number":"Número",
+					"description":"Descripción",
+					"source":"Fuente > Dominio > Área > Elemento",
+					"relevant":"Pertinente"
+				},
+				"monitoring":"Actividades de seguimiento y monitoreo",
+				"monitoringMatrix":{
+					"operation":"Operación",
+					"assessment":"Fecha de evaluación",
+					"status":"Estado",
+					"trackNote":"Nota de seguimiento"
+				}
+			}
+		},
 		"analytics" : {},
 		"donwload" : {},
 		"close" : {}
