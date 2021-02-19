@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <!-- based on no-side bar template -->
+    <%- include('../partials/head'); %>
+    <body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<%- include('../partials/header'); %>
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<form method="POST" action="/portal/language">					
+						<div class="container">
+							<div id="content">
+								<!-- Content -->
+									<article>
+										<header>
+											<h2>Working language</h2>
+											<p>
+												We currently offer <%=catalog.length %> languages to work with the tool.<br/>
+												Please select the preferred working language from the list bellow.
+											</p>
+											<p>
+												<b>Note:</b> The default language is english. Missing translation items will be displayed in this language!
+											</p>
+										</header>
+										<p>
+											<% if(catalog.length > 0) { %>
+												<%- include('../partials/langoption'); %>
+											<% } %>
+										</p>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" class="button alt" value="Apply" /></li>
+											</ul>
+										</div>
+				
+									</article>
+							</div>
+						</div>
+					</form>
+				</section>
+
+			<!-- Footer -->
+			<%- include('../partials/footer'); %>
+
+		</div>
+
+		<!-- Scripts -->
+		<%- include('../partials/scripts'); -%>
+
+	</body>
+</html>

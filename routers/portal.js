@@ -14,6 +14,9 @@ var pluginsService = require('../lib/catplugins.js')(credentials.PlugInsPath);
 var log = require('../lib/log.js');
 //portfolios
 var portfolio = require('../lib/portfolio.js');
+//language
+var AvailableLang = require('../lib/language.js');
+
 
 //generation of uuid
 //const uuid = require('uuid/v4');
@@ -157,6 +160,33 @@ portal.get('/newsdesktopv2',function(req,res){
     res.render('portal/newsdesktopv2', {
         //action: req.query.action,
         action: req.params.name,
+        auditfile: 'work/' + req.sessionID + '.xml',
+        audit: status,
+        rectracking: credentials.portfolio,
+        user: user
+    });  
+});
+
+portal.get('/language',function(req,res){
+    var AuditFile = credentials.WorkSetPath;
+    AuditFile = AuditFile + req.sessionID + '.xml';
+    var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
+    var status = InitialAudit.VerifyAuditFile(AuditFile);
+    var LastDate = ''
+    var user = '';
+    try {
+        user = req.session.passport.user;
+    } catch (error) {
+        user ='';
+    };
+
+    var LangCatalog = AvailableLang.GetWorkingLanguages();
+    //console.log(PluginsCatalog.length)
+    res.render('portal/language', {
+        //action: req.query.action,
+        action: req.params.name,
+        lastupdate: LastDate,
+        catalog: LangCatalog,
         auditfile: 'work/' + req.sessionID + '.xml',
         audit: status,
         rectracking: credentials.portfolio,

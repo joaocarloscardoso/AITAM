@@ -150,7 +150,7 @@ app.get('/',function(req,res){
     } catch (error) {
         user ='';
     };
-
+    
     res.render('index', {
         action: 'home',
         auditfile: AuditFile,
