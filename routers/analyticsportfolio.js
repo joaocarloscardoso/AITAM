@@ -52,6 +52,14 @@ analyticsportfolio.get('/portfolio',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     portfolio.LoadPortfolioOverview(req.query.id).then(function(Result){
         res.render('toolaudit/portfolioanalytics', {
             //action: req.query.action,
@@ -77,6 +85,14 @@ analyticsportfolio.get('/audit',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     //var DataRecommendations = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile);

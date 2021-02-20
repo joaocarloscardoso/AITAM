@@ -46,6 +46,14 @@ matricesaudit.get('/planMatrix',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         var PlanMatrix = Matrices.LoadPlanMatrix(NewAuditFile, req.query.plugin, req.query.domain, req.query.area, req.query.issue);
         res.render('toolaudit/supportmatrix', {
@@ -84,6 +92,14 @@ matricesaudit.get('/findingMatrix',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (status) {
@@ -126,6 +142,14 @@ matricesaudit.get('/FindingData',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id);
         res.render('toolaudit/supportmatrix', {
@@ -166,7 +190,15 @@ matricesaudit.get('/recMatrix',function(req,res){
         user ='';
     };
 
-    console.log(req.session.passport.user);
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    //console.log(req.session.passport.user);
 
     if (status) {
         var RecommendationMatrix = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id);
@@ -206,6 +238,14 @@ matricesaudit.get('/preassessMatrix',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (status) {
@@ -362,6 +402,14 @@ matricesaudit.post('/findingMatrix', function(req, res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
@@ -429,6 +477,14 @@ matricesaudit.post('/recMatrix', function(req, res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (status) {
@@ -527,6 +583,14 @@ matricesaudit.get('/portfolio',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     //console.log('user:' + user);
 
     if (user != '') {
@@ -579,6 +643,14 @@ matricesaudit.post('/portfolio', function(req, res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (user != '') {
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
@@ -612,7 +684,7 @@ matricesaudit.post('/portfolio', function(req, res){
                     });
                 }else{
                     portfolio.UpdatePortfolio(req.body.portid, Catalog, user).then(function(Result){
-                       portfolio.LoadPortfolioOverview(req.body.portid).then(function(Result){
+                        portfolio.LoadPortfolioOverview(req.body.portid).then(function(Result){
                             res.render('toolaudit/supportmatrix', {
                                 //action: req.query.action,
                                 action: 'portfolio',
@@ -666,6 +738,14 @@ matricesaudit.get('/portfoliodetach', function(req, res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (user != '') {
         portfolio.DeleteAuditFromPortfolio(req.query.id, req.query.auditid, user).then(function(Result){
             portfolio.LoadPortfolioOverview(req.query.id).then(function(Result){
@@ -701,6 +781,14 @@ matricesaudit.get('/portfolioattach', function(req, res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (user != '') {
@@ -747,6 +835,14 @@ matricesaudit.post('/toolAttachaudit', function(req, res){
             user ='';
         };
 
+        try {
+            if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+                req.session.lang=credentials.WorkLang;
+            };
+        } catch (error) {
+            req.session.lang=credentials.WorkLang;
+        };
+    
         if(err) { 
             log.warn('Error loading file from user ' + req.session.passport.user +'!');
             return res.render('/portal/toolindex', {

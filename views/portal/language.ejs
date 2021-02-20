@@ -24,7 +24,7 @@
 											<h2>Working language</h2>
 											<p>
 												We currently offer <%=catalog.length %> languages to work with the tool.<br/>
-												Please select the preferred working language from the list bellow.
+												Please select the preferred language during working  session from the list bellow.
 											</p>
 											<p>
 												<b>Note:</b> The default language is english. Missing translation items will be displayed in this language!
@@ -35,9 +35,10 @@
 												<%- include('../partials/langoption'); %>
 											<% } %>
 										</p>
+										<input type="hidden" id="langSelected" name="langSelected" value="<%= sessionlang %>"/>
 										<div class="col-12">
 											<ul class="actions">
-												<li><input type="submit" class="button alt" value="Apply" /></li>
+												<li><input type="submit" class="button alt" value="Save" /></li>
 											</ul>
 										</div>
 				
@@ -47,6 +48,11 @@
 					</form>
 				</section>
 
+				<script>
+					function handleClick(myRadio) {
+						document.getElementById("langSelected").value = myRadio.value;
+					}
+				</script>
 			<!-- Footer -->
 			<%- include('../partials/footer'); %>
 

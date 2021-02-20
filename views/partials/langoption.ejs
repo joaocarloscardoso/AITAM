@@ -1,4 +1,9 @@
 <% catalog.forEach(function(item) { %>
-    <input type="radio" name="languageSel" value="<%= item.code %>"/> <%= item.name %>
+    <%  if (item.code == sessionlang) { %>
+        <input type="radio" name="languageSel" value="<%= item.code %>" onclick="handleClick(this);" checked="checked"/> <%= item.name %>
+    <% } else { %>
+        <input type="radio" name="languageSel" value="<%= item.code %>" onclick="handleClick(this);"/> <%= item.name %>
+    <% } %>
     <br/>
+
 <% }) %>

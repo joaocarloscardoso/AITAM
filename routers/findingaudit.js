@@ -45,6 +45,14 @@ findingaudit.get('/auditfindings',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         var findingscatalog = Findings.LoadFindings(NewAuditFile);
         //var teste = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
@@ -133,6 +141,14 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (status) {

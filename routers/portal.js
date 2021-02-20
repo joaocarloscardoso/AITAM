@@ -62,6 +62,14 @@ portal.get('/toolindex', (req, res) => {
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     //console.log('Inside GET /authrequired callback');
     //console.log(`User authenticated? ${req.isAuthenticated()}`);
     if(req.isAuthenticated()) {
@@ -89,6 +97,14 @@ portal.get('/contactfeedback',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     //res.send('Hello e-gov');
     //res.json(persons);
     res.render('portal/contactfeedback', {
@@ -112,6 +128,14 @@ portal.get('/project',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     res.render('./portal/project', {
         //action: req.query.action,
         action: req.params.name,
@@ -132,6 +156,14 @@ portal.get('/desktop',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     res.render('portal/desktop', {
@@ -157,6 +189,14 @@ portal.get('/newsdesktopv2',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     res.render('portal/newsdesktopv2', {
         //action: req.query.action,
         action: req.params.name,
@@ -180,6 +220,14 @@ portal.get('/language',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     var LangCatalog = AvailableLang.GetWorkingLanguages();
     //console.log(PluginsCatalog.length)
     res.render('portal/language', {
@@ -190,9 +238,45 @@ portal.get('/language',function(req,res){
         auditfile: 'work/' + req.sessionID + '.xml',
         audit: status,
         rectracking: credentials.portfolio,
-        user: user
+        user: user,
+        sessionlang: req.session.lang
     });  
 });
+
+portal.post('/language',function(req,res){
+    var AuditFile = credentials.WorkSetPath;
+    AuditFile = AuditFile + req.sessionID + '.xml';
+    var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
+    var status = InitialAudit.VerifyAuditFile(AuditFile);
+    var LastDate = ''
+    var user = '';
+    try {
+        user = req.session.passport.user;
+    } catch (error) {
+        user ='';
+    };
+
+    try {
+        req.session.lang=req.body['langSelected'];
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var LangCatalog = AvailableLang.GetWorkingLanguages();
+    //console.log(PluginsCatalog.length)
+    res.render('portal/language', {
+        //action: req.query.action,
+        action: req.params.name,
+        lastupdate: LastDate,
+        catalog: LangCatalog,
+        auditfile: 'work/' + req.sessionID + '.xml',
+        audit: status,
+        rectracking: credentials.portfolio,
+        user: user,
+        sessionlang: req.session.lang
+    });  
+});
+
 
 portal.get('/catalogplugins',function(req,res){
     var AuditFile = credentials.WorkSetPath;
@@ -204,6 +288,14 @@ portal.get('/catalogplugins',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     var LastDate = pluginsService.getMostRecentFileName();
@@ -238,6 +330,14 @@ portal.get('/rectracking',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     //console.log(PluginsCatalog.length)
     portfolio.ListPortfolios(user, '1').then(function(Result){
         if (Result.length > 0) {
@@ -266,6 +366,14 @@ portal.get('/recmanagement',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     //console.log(PluginsCatalog.length)
@@ -299,6 +407,14 @@ portal.post('/contactus', [
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     // Get content

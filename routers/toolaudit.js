@@ -48,6 +48,14 @@ tooleaudit.get('/toolauditreference',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         var AuditReference = InitialAudit.GetAuditReference(NewAuditFile);
         //console.log(AuditReference);
@@ -89,6 +97,14 @@ tooleaudit.get('/toolauditplugins',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile);
         res.render('toolaudit/toolwork', {
@@ -126,6 +142,14 @@ tooleaudit.get('/auditstatistics',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (status) {
@@ -189,7 +213,15 @@ tooleaudit.post('/tooleditaudit', function(req, res){
         } catch (error) {
             user ='';
         };
-    
+
+        try {
+            if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+                req.session.lang=credentials.WorkLang;
+            };
+        } catch (error) {
+            req.session.lang=credentials.WorkLang;
+        };
+            
         if(err) { 
             log.warn('Error loading file from user ' + req.session.passport.user +'!');
             return res.render('/portal/toolindex', {
@@ -237,6 +269,14 @@ tooleaudit.post('/toolnewaudit', function(req, res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     //Create new audit file
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
     InitialAudit.CreateInitialAuditXML();
@@ -271,6 +311,14 @@ tooleaudit.post('/toolauditreference', [
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     // Finds the validation errors in this request and wraps them in an object with handy functions
@@ -322,7 +370,15 @@ tooleaudit.post('/toolauditplugins', function(req, res){
     } catch (error) {
         user ='';
     };
-    
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {

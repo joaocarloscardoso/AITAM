@@ -44,6 +44,14 @@ preassessaudit.get('/auditpreassessment',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         var preassesscatalog = PreAssessment.LoadPreAssessment(NewAuditFile);
         res.render('toolaudit/toolwork', {

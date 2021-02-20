@@ -49,7 +49,7 @@ fileWatcher.on('start', function(info){
 fileWatcher.on('delete', function(file){
     log.info('garbage collector deleted  ' + file.name + ' on folder: ' + file.folder  + ', path: ' +file.path); 
 });
-   
+
 fileWatcher.on('error', function(err){
     log.info('garbage collector error:  ' + err);
 });
@@ -101,7 +101,7 @@ passport.deserializeUser((id, done) => {
     .then(res => done(null, res.data) )
     .catch(error => done(error, false))
 });
-      
+
 var app = express();
 
 //View Engine
@@ -150,6 +150,14 @@ app.get('/',function(req,res){
     } catch (error) {
         user ='';
     };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
     
     res.render('index', {
         action: 'home',
@@ -173,6 +181,14 @@ app.get('/index',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     res.render('index', {
@@ -211,7 +227,7 @@ app.post(('/work/delete'),function(req,res){
         if (err) throw err;
         log.info('working audit file closed and deleted : ' + vfile);
     });
- 
+
     var vDocfile = credentials.WorkSetPath;
     vDocfile = vDocfile + req.sessionID + '.' + credentials.ReportFormat
     var InitialAudit = require('./lib/initialaudit.js')(vDocfile);
@@ -221,6 +237,14 @@ app.post(('/work/delete'),function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (status) {
@@ -256,6 +280,14 @@ app.get(('/toolaudit/work/download'),function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     var newFileName = FileAuditID.GetAuditID(file);
     if (newFileName == '') {
         newFileName  = req.sessionID;
@@ -287,6 +319,14 @@ app.get(('/toolaudit/work/onclose'),function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (status) {

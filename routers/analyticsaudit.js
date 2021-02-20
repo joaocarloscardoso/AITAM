@@ -54,6 +54,14 @@ analyticsaudit.get('/Findings',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         var GeneralDomainCatalog = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
         var Domain01Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '01');
@@ -113,6 +121,14 @@ analyticsaudit.get('/Recommendations',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         var CrawlerFile = credentials.WorkSetPath;
         CrawlerFile = CrawlerFile + req.sessionID + '.src';
@@ -160,6 +176,14 @@ analyticsaudit.post('/Recommendations',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (status) {
@@ -249,6 +273,14 @@ analyticsaudit.get('/SentimentFindings',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         var SentimentFile = credentials.WorkSetPath;
         SentimentFile = SentimentFile + req.sessionID + '.sent';
@@ -289,6 +321,14 @@ analyticsaudit.get('/SentimentFindingsDetailed',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (status) {
@@ -335,6 +375,14 @@ analyticsaudit.get('/StatsRecommendations',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         var SentimentFile = credentials.WorkSetPath;
         SentimentFile = SentimentFile + req.sessionID + '.sent';
@@ -375,6 +423,14 @@ analyticsaudit.get('/AuditMap',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (status) {

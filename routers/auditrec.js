@@ -44,6 +44,14 @@ auditrec.get('/auditrecs',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
     if (status) {
         var reccatalog = AuditRecommendations.LoadAuditRecommendations(NewAuditFile);
         //var teste = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
@@ -83,6 +91,14 @@ auditrec.get('/deleteauditrec/:auditrecId',function(req,res){
         user = req.session.passport.user;
     } catch (error) {
         user ='';
+    };
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
     };
 
     if (status) {

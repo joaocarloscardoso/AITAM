@@ -45,7 +45,15 @@ login.get('/login',function(req,res){
     } catch (error) {
         user ='';
     };
-
+    
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+    
     res.render('login/login', {
         action: 'login',
         auditfile: '',
