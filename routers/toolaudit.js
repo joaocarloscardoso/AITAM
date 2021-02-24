@@ -14,6 +14,8 @@ var pluginsService = require('../lib/catplugins.js')(credentials.PlugInsPath);
 var statisticsService = require('../lib/statistics.js');
 //logging system
 var log = require('../lib/log.js');
+//multilanguage support
+var appLang = require('../lib/language.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');
@@ -56,6 +58,8 @@ tooleaudit.get('/toolauditreference',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var AuditReference = InitialAudit.GetAuditReference(NewAuditFile);
         //console.log(AuditReference);
@@ -69,7 +73,9 @@ tooleaudit.get('/toolauditreference',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
@@ -105,6 +111,8 @@ tooleaudit.get('/toolauditplugins',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile);
         res.render('toolaudit/toolwork', {
@@ -116,7 +124,9 @@ tooleaudit.get('/toolauditplugins',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
@@ -152,6 +162,8 @@ tooleaudit.get('/auditstatistics',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var GeneralDomainCatalog = statisticsService.GeneralDomainCharacterization(NewAuditFile);
         var GeneralRiskCatalog = statisticsService.GeneralRiskCharacterization(NewAuditFile);
@@ -179,7 +191,9 @@ tooleaudit.get('/auditstatistics',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
@@ -222,6 +236,8 @@ tooleaudit.post('/tooleditaudit', function(req, res){
             req.session.lang=credentials.WorkLang;
         };
             
+        var appObjects = appLang.GetData(req.session.lang);
+
         if(err) { 
             log.warn('Error loading file from user ' + req.session.passport.user +'!');
             return res.render('/portal/toolindex', {
@@ -244,7 +260,9 @@ tooleaudit.post('/tooleditaudit', function(req, res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     });
     /*
@@ -277,6 +295,8 @@ tooleaudit.post('/toolnewaudit', function(req, res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     //Create new audit file
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
     InitialAudit.CreateInitialAuditXML();
@@ -288,7 +308,9 @@ tooleaudit.post('/toolnewaudit', function(req, res){
         auditfile: 'work/' + req.sessionID + '.xml',
         audit: true,
         rectracking: credentials.portfolio,
-        user: user
+        user: user,
+        appButtons:  appObjects.buttons,
+        appAudit: appObjects.audit
     });
 });  
 
@@ -321,6 +343,8 @@ tooleaudit.post('/toolauditreference', [
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     // Finds the validation errors in this request and wraps them in an object with handy functions
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
@@ -335,7 +359,9 @@ tooleaudit.post('/toolauditreference', [
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: true,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     }
     else {
@@ -379,6 +405,8 @@ tooleaudit.post('/toolauditplugins', function(req, res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
@@ -405,7 +433,9 @@ tooleaudit.post('/toolauditplugins', function(req, res){
                 auditfile: 'work/' + req.sessionID + '.xml',
                 audit: status,
                 rectracking: credentials.portfolio,
-                user: user
+                user: user,
+                appButtons:  appObjects.buttons,
+                appAudit: appObjects.audit
             });
         }
     } else {

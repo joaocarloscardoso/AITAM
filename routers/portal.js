@@ -16,7 +16,8 @@ var log = require('../lib/log.js');
 var portfolio = require('../lib/portfolio.js');
 //language
 var AvailableLang = require('../lib/language.js');
-
+//multilanguage support
+var appLang = require('../lib/language.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');

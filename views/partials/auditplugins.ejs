@@ -1,7 +1,7 @@
 <section id="contact" class="col-6 col-12-narrower">
     <header>
         <h2></h2>
-        <h2>Plug-ins available to use in audit</h2>
+        <h2><%=appAudit.plugins.pageTitle %></h2>
         <p></p>
     </header>
     <% if(msg != ''){ %>
@@ -25,14 +25,14 @@
                     </table>
                     <input type="hidden" name="rows_count" id="rows_count" value="<%= catalog.length %>"/> 
                 <% } else { %>
-                    <p>No Plug-Ins available!</p>
+                    <p><%=appAudit.plugins.nopluginsMsg %></p>
                 <% } %>
             </p>
             <div class="col-12">
                     <ul class="actions">
-                        <li><a href="/toolaudit/toolauditplugins" class="button">Reload List</a></li>
+                        <li><a href="/toolaudit/toolauditplugins" class="button"><%=appButtons.reloadList.name %></a></li>
                         <% if(catalog.length > 0) { %>
-                            <li><input type="submit" class="button alt" value="Save" /></li>
+                            <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                         <% } %>
                     </ul>
                 </div>

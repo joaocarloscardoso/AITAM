@@ -14,6 +14,8 @@ var Recommendations = require('../lib/auditrec.js');
 var Excel = require('../lib/excel.js');
 //logging system
 var log = require('../lib/log.js');
+//multilanguage support
+var appLang = require('../lib/language.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');

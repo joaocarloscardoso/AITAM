@@ -10,6 +10,9 @@ var credentials = require('../credentials.js');
 var AuditRecommendations = require('../lib/auditrec.js');
 //logging system
 var log = require('../lib/log.js');
+//multilanguage support
+var appLang = require('../lib/language.js');
+
 
 //generation of uuid
 //const uuid = require('uuid/v4');

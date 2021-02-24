@@ -10,6 +10,8 @@ var credentials = require('../credentials.js');
 var PreAssessment = require('../lib/preassessment.js');
 //logging system
 var log = require('../lib/log.js');
+//multilanguage support
+var appLang = require('../lib/language.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');

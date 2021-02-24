@@ -1,7 +1,7 @@
 <section id="contact" class="col-6 col-12-narrower">
     <header>
         <h2></h2>
-        <h2>Audit Reference</h2>
+        <h2><%=appAudit.reference.pageTitle %></h2>
         <p></p>
     </header>
     <% if(msg != ''){ %>
@@ -23,23 +23,23 @@
     <form method="POST" action="/toolaudit/toolauditreference">
         <div class="row gtr-50">
             <div class="col-12">
-                <input type="text" name="auditid" id="auditid" placeholder="Audit ID" value="<%= AuditReference.AuditId %>" />
+                <input type="text" name="auditid" id="auditid" placeholder="<%=appAudit.reference.auditID %>" value="<%= AuditReference.AuditId %>" />
             </div>
             <div class="col-12">
-                <input type="text" name="title" id="title" placeholder="Audit title" value="<%= AuditReference.Title %>" />
+                <input type="text" name="title" id="title" placeholder="<%=appAudit.reference.auditTitle %>" value="<%= AuditReference.Title %>" />
             </div>
             <div class="col-12">
-                <textarea name="background" id="background" placeholder="Audit background" rows="5"><%= AuditReference.Background %></textarea>
+                <textarea name="background" id="background" placeholder="<%=appAudit.reference.auditBackground %>" rows="5"><%= AuditReference.Background %></textarea>
             </div>
             <div class="col-12">
-                <textarea name="scope" id="scope" placeholder="Audit scope" rows="5"><%= AuditReference.Scope %></textarea>
+                <textarea name="scope" id="scope" placeholder="<%=appAudit.reference.auditScope %>" rows="5"><%= AuditReference.Scope %></textarea>
             </div>
             <div class="col-12">
                 <ul class="actions">
                     <% if (source === "map") { %>
-                        <li><a href="/analytics/AuditMap" class="button">Close</a></li>
+                        <li><a href="/analytics/AuditMap" class="button"><%=appButtons.close.name %></a></li>
                     <% } %>
-                    <li><input type="submit" class="button alt" value="Save" /></li>
+                    <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                 </ul>
             </div>
         </div>

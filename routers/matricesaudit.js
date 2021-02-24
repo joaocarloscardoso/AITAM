@@ -12,6 +12,8 @@ var Matrices = require('../lib/matrices.js');
 var log = require('../lib/log.js');
 //portfolios
 var portfolio = require('../lib/portfolio.js');
+//multilanguage support
+var appLang = require('../lib/language.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');

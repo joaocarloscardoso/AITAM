@@ -12,6 +12,8 @@ var emailService = require('../lib/email.js')(credentials);
 var pluginsService = require('../lib/catplugins.js')(credentials.PlugInsPath);
 //logging system
 var log = require('../lib/log.js');
+//multilanguage support
+var appLang = require('../lib/language.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');

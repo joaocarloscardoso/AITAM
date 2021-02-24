@@ -16,6 +16,9 @@ var nlp = require('../lib/nlp.js');
 var Recommendations = require('../lib/auditrec.js');
 //audit maps
 var AuditMap = require('../lib/auditmap.js');
+//multilanguage support
+var appLang = require('../lib/language.js');
+
 
 //generation of uuid
 //const uuid = require('uuid/v4');
