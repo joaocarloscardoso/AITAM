@@ -1,7 +1,7 @@
 <section id="contact" class="col-6 col-12-narrower">
         <header>
             <h2></h2>
-            <h2>Domains, areas and issues</h2>
+            <h2><%=appAudit.plan.pageTitle %></h2>
             <p></p>
         </header>
         <% if(msg != ''){ %>
@@ -15,27 +15,27 @@
             <div class="row gtr-50">
                 <div class="col-12">
                     <ul class="actions">
-                        <li><a href="/planaudit/auditplanning" class="button">Reload List</a></li>
+                        <li><a href="/planaudit/auditplanning" class="button"><%=appButtons.reloadList.name %></a></li>
                         <% if(plancatalog.length > 0) { %>
-                            <li><a href="/planaudit/syncauditplanning" class="button" data-tooltip="This functionality relies on the previous use of A2.02 matrix (02 Understanding the IT-systems)">Sync with pre-assessment</a></li>
+                            <li><a href="/planaudit/syncauditplanning" class="button" data-tooltip="<%=appButtons.planSyncPreassessment.tooltip %>"><%=appButtons.planSyncPreassessment.name %></a></li>
                             <li><a style="border-style: none;" target="_blank" href="../support/sync-preassessment.html"><img src="../images/info-32a.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/></a></li>
-                            <li><input type="submit" class="button alt" value="Save" /></li>
+                            <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                         <% } %>
                     </ul>
                 </div>
                 <p>
                     <% if(plancatalog.length > 0) { %>
-                        <p>Filter by <a href="#" onclick="filterRisk('3'); return false;">high risk</a>, <a href="#" onclick="filterRisk('2'); return false;">medium/high risk</a>, <a href="#" onclick="filterInclude(); return false;">include in audit</a>, <a href="#" onclick="showAllRows(); return false;">all issues</a>
+                        <p><%=appAudit.plan.riskFilter.description %> <a href="#" onclick="filterRisk('3'); return false;"><%=appAudit.plan.riskFilter.criteria1 %></a>, <a href="#" onclick="filterRisk('2'); return false;"><%=appAudit.plan.riskFilter.criteria2 %></a>, <a href="#" onclick="filterInclude(); return false;"><%=appAudit.plan.riskFilter.criteria3 %></a>, <a href="#" onclick="showAllRows(); return false;"><%=appAudit.plan.riskFilter.criteria4 %></a>
                         <p><div class="row gtr-50">
-                        <a style="border-style: none;" href="javascript:GetListOptions();" data-tooltip="This functionality generates a word processing document containing the planning list"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Export list</a>
+                        <a style="border-style: none;" href="javascript:GetListOptions();" data-tooltip="<%=appButtons.planExportList.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.planExportList.name %></a>
                         &nbsp;
-                        <a style="border-style: none;" href="/generatedocs/docauditprogramme" data-tooltip="This functionality generates a word processing document containing the audit programme"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Audit programme</a>
+                        <a style="border-style: none;" href="/generatedocs/docauditprogramme" data-tooltip="<%=appButtons.planAuditProgramme.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.planAuditProgramme.name %></a>
                         &nbsp;
-                        <a style="border-style: none;" href="/generatedocs/docmethodmatrix" data-tooltip="This functionality generates the methodological audit matrix"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Audit matrix</a>
+                        <a style="border-style: none;" href="/generatedocs/docmethodmatrix" data-tooltip="<%=appButtons.planAuditMatrix.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.planAuditMatrix.name %></a>
                         &nbsp;
-                        <a target="_blank" style="border-style: none;" href="/generatedocs/heatmatrix" data-tooltip="This functionality generates the risk heat matrix"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Risk heat matrix</a>
+                        <a target="_blank" style="border-style: none;" href="/generatedocs/heatmatrix" data-tooltip="<%=appButtons.planRiskHeatMatrix.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.planRiskHeatMatrix.name %></a>
                         &nbsp;
-                        <a style="border-style: none;" href="/generatedocs/docmatricesList" data-tooltip="This functionality generates the matrices collection of all issues included in audit"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Collection of matrices</a></p>
+                        <a style="border-style: none;" href="/generatedocs/docmatricesList" data-tooltip="<%=appButtons.planCollectionMatrices.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.planCollectionMatrices.name %></a></p>
                         &nbsp;</div></p>
                         <table id='tablecatalog'>
                             <thead>
@@ -47,26 +47,26 @@
                         </table>
                         <input type="hidden" name="rows_count" id="rows_count" value="<%= plancatalog.length %>"/> 
                         <p>
-                        <a style="border-style: none;" href="javascript:GetListOptions();" data-tooltip="This functionality generates a word processing document containing the planning list"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Export list</a>
+                        <a style="border-style: none;" href="javascript:GetListOptions();" data-tooltip="<%=appButtons.planExportList.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.planExportList.name %></a>
                         &nbsp;
-                        <a style="border-style: none;" href="/generatedocs/docauditprogramme" data-tooltip="This functionality generates a word processing document containing the audit programme"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Audit programme</a>
+                        <a style="border-style: none;" href="/generatedocs/docauditprogramme" data-tooltip="<%=appButtons.planAuditProgramme.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.planAuditProgramme.name %></a>
                         &nbsp;
-                        <a style="border-style: none;" href="/generatedocs/docmethodmatrix" data-tooltip="This functionality generates the methodological audit matrix"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Audit matrix</a>
+                        <a style="border-style: none;" href="/generatedocs/docmethodmatrix" data-tooltip="<%=appButtons.planAuditMatrix.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.planAuditMatrix.name %></a>
                         &nbsp;
-                        <a target="_blank" style="border-style: none;" href="/generatedocs/heatmatrix" data-tooltip="This functionality generates the risk heat matrix"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Risk heat matrix</a>
+                        <a target="_blank" style="border-style: none;" href="/generatedocs/heatmatrix" data-tooltip="<%=appButtons.planRiskHeatMatrix.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.planRiskHeatMatrix.name %></a>
                         &nbsp;
-                        <a style="border-style: none;" href="/generatedocs/docmatricesList" data-tooltip="This functionality generates the matrices collection of all issues included in audit"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Collection of matrices</a></p>
+                        <a style="border-style: none;" href="/generatedocs/docmatricesList" data-tooltip="<%=appButtons.planCollectionMatrices.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.planCollectionMatrices.name %></a></p>
                     <% } else { %>
-                        <p>No Domains, areas and issues available!</p>
+                        <p><%=appAudit.plan.noPlan %></p>
                     <% } %>
                 </p>
                 <div class="col-12">
                     <ul class="actions">
-                        <li><a href="/planaudit/auditplanning" class="button">Reload List</a></li>
+                        <li><a href="/planaudit/auditplanning" class="button"><%=appButtons.reloadList.name %></a></li>
                         <% if(plancatalog.length > 0) { %>
-                            <li><a href="/planaudit/syncauditplanning" class="button" data-tooltip="This functionality relies on the previous use of A2.02 matrix (02 Understanding the IT-systems)">Sync with pre-assessment</a></li>
+                            <li><a href="/planaudit/syncauditplanning" class="button" data-tooltip="<%=appButtons.planSyncPreassessment.tooltip %>"><%=appButtons.planSyncPreassessment.name %></a></li>
                             <li><a style="border-style: none;" target="_blank" href="../support/sync-preassessment.html"><img src="../images/info-32a.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/></a></li>
-                            <li><input type="submit" class="button alt" value="Save" /></li>
+                            <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                         <% } %>
                     </ul>
                 </div>

@@ -54,6 +54,8 @@ planaudit.get('/auditplanning',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var plancatalog = Planning.LoadPlanning(NewAuditFile);
         res.render('toolaudit/toolwork', {
@@ -65,7 +67,9 @@ planaudit.get('/auditplanning',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
@@ -157,6 +161,8 @@ planaudit.get('/syncauditplanning',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var status = Planning.SyncPreAssessmentWithRiskAnalysis(NewAuditFile);
         var plancatalog = Planning.LoadPlanning(NewAuditFile);
@@ -169,7 +175,9 @@ planaudit.get('/syncauditplanning',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
