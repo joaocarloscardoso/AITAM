@@ -130,6 +130,7 @@
 			"descriptionHeader": "Description",
 			"relevantHeader": "Relevant",
 			"operationHeader": "Operation",
+			"delete": "Delete...",
 			"matrix": {
 				"source": "Source",
 				"domain":"Domain",
@@ -156,6 +157,11 @@
 			"TimelineHeader":"Timeline",
 			"StatusHeader":"Status",
 			"OperationHeader":"Operation",
+			"delete": "Delete...",
+			"relatedFindings":"Related findings:",
+			"norelatedFindings":"(none so far)",
+			"selFindingTooltip":"Use hyperlink on finding #number to visualize it",
+			"currentStatus":"Current status is collected from last assessment, otherwise the value (not yet accessed) is displayed!",
 			"matrix": {
 				"recommendationDescription": "Recommendation description",
 				"recommendationNumber":"Recommendation number",

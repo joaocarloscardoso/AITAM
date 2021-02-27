@@ -130,6 +130,7 @@
 			"descriptionHeader": "Descripción",
 			"relevantHeader": "Pertinente",
 			"operationHeader": "Operación",
+			"delete": "Borrar...",
 			"matrix": {
 				"source": "Fuente",
 				"domain":"Dominio",
@@ -156,6 +157,11 @@
 			"TimelineHeader":"Cronología",
 			"StatusHeader":"Estado",
 			"OperationHeader":"Operación",
+			"delete": "Borrar...",
+			"relatedFindings":"Resultados relacionados:",
+			"norelatedFindings":"(ninguno hasta ahora)",
+			"selFindingTooltip":"Usa el hipervínculo en lo #número de lo resultado para visualizarlo",
+			"currentStatus":"El estado actual se recopila de la última evaluación; de lo contrario, se muestra el valor (aún no se ha accedido).",
 			"matrix": {
 				"recommendationDescription": "Descripción de la recomendación",
 				"recommendationNumber":"Número de recomendación",

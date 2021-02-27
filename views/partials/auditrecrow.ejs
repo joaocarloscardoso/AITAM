@@ -6,11 +6,11 @@
         </td>
         <td>
             <span><%= item.Description %></span>
-            <p><span><b>Related findings:&nbsp;</b>
+            <p><span><b><%=appAudit.recommendations.relatedFindings %>&nbsp;</b>
                 <% if(item.Findings.length > 0) { %>
                     <% item.Findings.split("|").forEach(function(finding) { -%>
                         <% subitem = finding.split("#") -%>
-                        <a  target="_blank" href="/auditMatrices/FindingData?id=<%= subitem[0] %>&src=tbl" data-tooltip-bottom="Use hyperlink on finding #number to visualize it">#<%= subitem[1] %></a> - 
+                        <a  target="_blank" href="/auditMatrices/FindingData?id=<%= subitem[0] %>&src=tbl" data-tooltip-bottom="<%=appAudit.recommendations.selFindingTooltip %>">#<%= subitem[1] %></a> - 
                     <% }) -%>
                 <% } else { %>
                     <span>(none so far)</span>
@@ -33,10 +33,10 @@
             <span><%= item.Timeline %></span>
         </td>
         <td>
-            <span data-tooltip-right="Current status is collected from last assessment, otherwise the value (not yet accessed) is displayed!"><%= item.Status %></span>
+            <span data-tooltip-right="<%=appAudit.recommendations.currentStatus %>"><%= item.Status %></span>
         </td>
         <td>
-            <a href="/auditrec/deleteauditrec/<%= item.Id %>">Delete...</a>
+            <a href="/auditrec/deleteauditrec/<%= item.Id %>"><%=appAudit.recommendations.delete %></a>
         </td>
      </tr>
 <% }) %>

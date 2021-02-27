@@ -1,7 +1,7 @@
 <section id="contact" class="col-6 col-12-narrower">
     <header>
         <h2></h2>
-        <h2>Audit Recommendations</h2>
+        <h2><%=appAudit.recommendations.pageTitle %></h2>
         <p></p>
     </header>
     <% if(msg != ''){ %>
@@ -11,22 +11,22 @@
             </p>
         </div>
     <% } %>    
-   <form method="POST" action="/auditrec/auditrecs">
+    <form method="POST" action="/auditrec/auditrecs">
         <div class="row gtr-50">
             <% if(reccatalog.length > 6) { %>
                 <div class="col-12">
                     <ul class="actions">
-                        <li><a href="/auditrec/auditrecs" class="button">Reload List</a></li>
-                        <li><a href="/auditMatrices/recMatrix?id=New" class="button">Create Recommendation</a></li>
+                        <li><a href="/auditrec/auditrecs" class="button"><%=appButtons.reloadList.name %></a></li>
+                        <li><a href="/auditMatrices/recMatrix?id=New" class="button"><%=appButtons.recommendationCreateRecommendation.name %></a></li>
                     </ul>
                 </div>
                 <p>
-                    <a style="border-style: none;" href="/generatedocs/rectrackreport" data-tooltip="This functionality generates a word processing document containing the audit recommendations track report"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Track report</a>    
+                    <a style="border-style: none;" href="/generatedocs/rectrackreport" data-tooltip="<%=appButtons.recommendationTrackReport.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.recommendationTrackReport.name %></a>    
                 </p>
         <% } %>
             <p>
                 <% if(reccatalog.length > 0) { %>
-                    <p>Use hyperlink on ID to visualize/edit the audit recommendation</p>
+                    <p><%=appAudit.recommendations.recommendationFilter %></p>
                     <table id='tablecatalog'>
                         <thead>
                             <%- include('./auditrecheader'); %>
@@ -37,16 +37,16 @@
                     </table>
                     <input type="hidden" name="rows_count" id="rows_count" value="<%= reccatalog.length %>"/> 
                     <p>
-                        <a style="border-style: none;" href="/generatedocs/rectrackreport" data-tooltip="This functionality generates a word processing document containing the audit recommendations track report"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Track report</a>    
+                        <a style="border-style: none;" href="/generatedocs/rectrackreport" data-tooltip="<%=appButtons.recommendationTrackReport.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.recommendationTrackReport.name %></a>    
                     </p>
                 <% } else { %>
-                    <p>No recommendations available!</p>
+                    <p><%=appAudit.recommendations.noRecommendations %></p>
                 <% } %>
             </p>
             <div class="col-12">
                 <ul class="actions">
-                    <li><a href="/auditrec/auditrecs" class="button">Reload List</a></li>
-                    <li><a href="/auditMatrices/recMatrix?id=New" class="button">Create Recommendation</a></li>
+                    <li><a href="/auditrec/auditrecs" class="button"><%=appButtons.reloadList.name %></a></li>
+                    <li><a href="/auditMatrices/recMatrix?id=New" class="button"><%=appButtons.recommendationCreateRecommendation.name %></a></li>
                 </ul>
             </div>
         </div>

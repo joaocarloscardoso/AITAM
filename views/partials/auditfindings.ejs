@@ -1,7 +1,7 @@
 <section id="contact" class="col-6 col-12-narrower">
         <header>
             <h2></h2>
-            <h2>Findings in audit</h2>
+            <h2><%=appAudit.findings.pageTitle %></h2>
             <p></p>
         </header>
         <% if(msg != ''){ %>
@@ -11,27 +11,27 @@
                 </p>
             </div>
         <% } %>    
-       <form method="POST" action="/findingaudit/auditfindings">
+        <form method="POST" action="/findingaudit/auditfindings">
             <div class="row gtr-50">
                 <% if(findingcatalog.length > 6) { %>
                     <div class="col-12">
                         <ul class="actions">
-                            <li><a href="/findingaudit/auditfindings" class="button">Reload List</a></li>
-                            <li><a href="/auditMatrices/findingMatrix?id=New" class="button">Create finding</a></li>
+                            <li><a href="/findingaudit/auditfindings" class="button"><%=appButtons.reloadList.name %></a></li>
+                            <li><a href="/auditMatrices/findingMatrix?id=New" class="button"><%=appButtons.findingCreateFinding.name %></a></li>
                             <% if(findingcatalog.length > 0) { %>
-                                <li><input type="submit" class="button alt" value="Save" /></li>
+                                <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                             <% } %>
                         </ul>
                     </div>        
                 <% } %>
                 <p>
                     <% if(findingcatalog.length > 0) { %>
-                        <p>Use hyperlink on ID to visualize/edit the finding
+                        <p><%=appAudit.findings.findingFilter %>
                             <% if(findingcatalog.length > 6) { %>
                                 <br/>&nbsp;<br/>
-                                <a style="border-style: none;" href="/generatedocs/docexecutivesummary" data-tooltip="This functionality generates a word processing document containing the Executive summary"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Executive summary</a>    
+                                <a style="border-style: none;" href="/generatedocs/docexecutivesummary" data-tooltip="<%=appButtons.findingExecutiveSummary.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.findingExecutiveSummary.name %></a>    
                                 &nbsp;
-                                <a style="border-style: none;" href="/generatedocs/docexecutivesummarywrecs" data-tooltip="This functionality generates a word processing document containing the Executive summary with recommendations"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Executive summary (include recommendations)</a>    
+                                <a style="border-style: none;" href="/generatedocs/docexecutivesummarywrecs" data-tooltip="<%=appButtons.findingExecutiveSummaryRecommendations.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.findingExecutiveSummaryRecommendations.name %></a>    
                             <% } %>
                         </p>
                         <table id='tablecatalog'>
@@ -44,20 +44,20 @@
                         </table>
                         <input type="hidden" name="rows_count" id="rows_count" value="<%= findingcatalog.length %>"/> 
                         <p>
-                            <a style="border-style: none;" href="/generatedocs/docexecutivesummary" data-tooltip="This functionality generates a word processing document containing the Executive summary"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Executive summary</a>    
+                            <a style="border-style: none;" href="/generatedocs/docexecutivesummary" data-tooltip="<%=appButtons.findingExecutiveSummary.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.findingExecutiveSummary.name %></a>    
                             &nbsp;
-                            <a style="border-style: none;" href="/generatedocs/docexecutivesummarywrecs" data-tooltip="This functionality generates a word processing document containing the Executive summary with recommendations"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; Executive summary (include recommendations)</a>    
+                            <a style="border-style: none;" href="/generatedocs/docexecutivesummarywrecs" data-tooltip="<%=appButtons.findingExecutiveSummaryRecommendations.tooltip %>"><img src="../images/export32t.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp; <%=appButtons.findingExecutiveSummaryRecommendations.name %></a>    
                     </p>
                     <% } else { %>
-                        <p>No findings available!</p>
+                        <p><%=appAudit.findings.noFindings %></p>
                     <% } %>
                 </p>
                 <div class="col-12">
                     <ul class="actions">
-                        <li><a href="/findingaudit/auditfindings" class="button">Reload List</a></li>
-                        <li><a href="/auditMatrices/findingMatrix?id=New" class="button">Create finding</a></li>
+                        <li><a href="/findingaudit/auditfindings" class="button"><%=appButtons.reloadList.name %></a></li>
+                        <li><a href="/auditMatrices/findingMatrix?id=New" class="button"><%=appButtons.findingCreateFinding.name %></a></li>
                         <% if(findingcatalog.length > 0) { %>
-                            <li><input type="submit" class="button alt" value="Save" /></li>
+                            <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                         <% } %>
                     </ul>
                 </div>

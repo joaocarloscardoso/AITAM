@@ -129,6 +129,7 @@
 			"descriptionHeader": "وصف",
 			"relevantHeader": "ذو صلة",
 			"operationHeader": "عملية",
+			"delete": "...حذف",
 			"matrix": {
 				"source": "مصدر",
 				"domain":"نطاق",
@@ -155,6 +156,11 @@
 			"TimelineHeader":"الجدول الزمني",
 			"StatusHeader":"حالة",
 			"OperationHeader":"عملية",
+			"delete": "...حذف",
+			"relatedFindings":"النتائج ذات الصلة:",
+			"norelatedFindings":"(لا شيء حتى الان)",
+			"selFindingTooltip":"استخدم الارتباط التشعبي لإيجاد رقم # لتصوره",
+			"currentStatus":"يتم جمع الحالة الحالية من التقييم الأخير ، وإلا سيتم عرض القيمة (لم يتم الوصول إليها بعد)!",
 			"matrix": {
 				"recommendationDescription": "وصف التوصية",
 				"recommendationNumber":"رقم التوصية",

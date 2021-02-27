@@ -130,6 +130,7 @@
 			"descriptionHeader": "Description",
 			"relevantHeader": "Pertinent",
 			"operationHeader": "Opération",
+			"delete": "Effacer...",
 			"matrix": {
 				"source": "Source",
 				"domain":"Domaine",
@@ -156,6 +157,11 @@
 			"TimelineHeader":"Chronologie",
 			"StatusHeader":"Situation",
 			"OperationHeader":"Opération",
+			"delete": "Effacer...",
+			"relatedFindings":"Constations connexes:",
+			"norelatedFindings":"(aucun pour l'instant)",
+			"selFindingTooltip":"Utilisez le lien hypertexte sur le #numéro de la constation pour la visualiser",
+			"currentStatus":"L'état actuel est collecté à partir de la dernière évaluation, sinon la valeur (pas encore accédée) est affichée!",
 			"matrix": {
 				"recommendationDescription": "Description de la recommandation",
 				"recommendationNumber":"Numéro de recommandation",
