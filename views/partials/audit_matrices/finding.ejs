@@ -24,18 +24,18 @@
                 <div class="col-12">
                     <ul class="actions">
                         <% if (Matrix.FindingId != "(New)") { %>
-                            <li><a href="/generatedocs/docfindingMatrix?id=<%= Matrix.FindingId %>" class="button">Generate document</a></li>
+                            <li><a href="/generatedocs/docfindingMatrix?id=<%= Matrix.FindingId %>" class="button"><%=appButtons.generateDocument.name %></a></li>
                         <% } %>
                         <% if (source === "map") { %>
-                            <li><a href="/analytics/AuditMap" class="button">Close</a></li>
+                            <li><a href="/analytics/AuditMap" class="button"><%=appButtons.close.name %></a></li>
                         <% } else { %>
-                            <li><a href="/findingaudit/auditfindings" class="button">Close</a></li>
+                            <li><a href="/findingaudit/auditfindings" class="button"><%=appButtons.close.name %></a></li>
                         <% } %>
-                        <li><input type="submit" class="button alt" value="Save" /></li>
+                        <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                     </ul>
                 </div>
                 <div class="col-12">
-                    Source<br/>
+                    <%=appAudit.findings.matrix.source %><br/>
                     <select name="source" id="source" size="1" autofocus onchange="RedoDomains()">
                         <% Matrix.Sources.split("|").forEach(function(item) { -%>
                             <% if (Matrix.Source === item) { %>
@@ -48,7 +48,7 @@
                     <input type="hidden" id="findingid" name="findingid" value="<%= Matrix.FindingId %>"/>
                 </div>
                 <div class="col-12">
-                    Domain<br/>
+                    <%=appAudit.findings.matrix.domain %><br/>
                     <select name="domain" id="domain" size="1" autofocus onchange="RedoAreas()">
                         <% Matrix.Domains.split("|").forEach(function(item) { -%>
                             <% subitem = item.split("#") %>
@@ -63,7 +63,7 @@
                     </select>
                 </div>
                 <div class="col-12">
-                    Area<br/>
+                    <%=appAudit.findings.matrix.area %><br/>
                     <select name="area" id="area" size="1" autofocus onchange="RedoIssues()">
                         <% Matrix.Areas.split("|").forEach(function(item) { -%>
                             <% subitem = item.split("#") %>                    
@@ -78,7 +78,7 @@
                     </select>
                 </div>
                 <div class="col-12">
-                    Issue<br/>
+                    <%=appAudit.findings.matrix.issue %><br/>
                     <select name="issue" id="issue" size="1" autofocus>
                         <% Matrix.Issues.split("|").forEach(function(item) { -%>
                             <% subitem = item.split("#") %>
@@ -93,48 +93,48 @@
                     </select>
                 </div>
                 <div class="col-12">
-                    Finding Name<br/>
+                    <%=appAudit.findings.matrix.findingName %><br/>
                     <textarea name="findname" id="findname" placeholder="Short name of the finding" rows="1"><%= Matrix.Name %></textarea>
                 </div>
                 <div class="col-12">
-                    Cause<br/>
+                    <%=appAudit.findings.matrix.cause %><br/>
                     <textarea name="cause" id="cause" placeholder="Cause" rows="1"><%= Matrix.Cause %></textarea>
                 </div>
                 <div class="col-12">
-                    Result<br/>
+                    <%=appAudit.findings.matrix.result %><br/>
                     <textarea name="result" id="result" placeholder="Result" rows="1"><%= Matrix.Result %></textarea>
                 </div>
                 <div class="col-12">
-                    Finding number<br/>
+                    <%=appAudit.findings.matrix.findingNumber %><br/>
                     <textarea name="number" id="number" placeholder="Number" rows="1" style="width: 150px;"><%= Matrix.Number %></textarea>
                 </div>
                 <div class="col-12">
-                    Description of the finding<br/>
+                    <%=appAudit.findings.matrix.findingDescription %><br/>
                     <textarea name="description" id="description" placeholder="Description" rows="18"><%= Matrix.Description %></textarea>
                 </div>
                 <div class="col-12">
-                    Recommendation<br/>
+                    <%=appAudit.findings.matrix.recommendation %><br/>
                     <textarea name="recommendation" id="recommendation" placeholder="Recommendation" rows="6"><%= Matrix.Recommendation %></textarea>
                 </div>
                 <div class="col-12">
-                    Reference to Legal Act<br/>
+                    <%=appAudit.findings.matrix.referenceLegalAct %><br/>
                     <textarea name="legalact" id="legalact" placeholder="Reference to Legal Act" rows="2"><%= Matrix.LegalAct %></textarea>
                 </div>
                 <div class="col-12">
-                    Reference to the report<br/>
+                    <%=appAudit.findings.matrix.referenceReport %><br/>
                     <textarea name="report" id="report" placeholder="Reference to the report" rows="2"><%= Matrix.ReportReference %></textarea>
                 </div>
                 <div class="col-12">
                     <ul class="actions">
                         <% if (Matrix.FindingId != "(New)") { %>
-                            <li><a href="/generatedocs/docfindingMatrix?id=<%= Matrix.FindingId %>" class="button">Generate document</a></li>
+                            <li><a href="/generatedocs/docfindingMatrix?id=<%= Matrix.FindingId %>" class="button"><%=appButtons.generateDocument.name %></a></li>
                         <% } %>
                         <% if (source === "map") { %>
-                            <li><a href="/analytics/AuditMap" class="button">Close</a></li>
+                            <li><a href="/analytics/AuditMap" class="button"><%=appButtons.close.name %></a></li>
                         <% } else { %>
-                            <li><a href="/findingaudit/auditfindings" class="button">Close</a></li>
+                            <li><a href="/findingaudit/auditfindings" class="button"><%=appButtons.close.name %></a></li>
                         <% } %>
-                        <li><input type="submit" class="button alt" value="Save" /></li>
+                        <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                     </ul>
                 </div>
             </div>

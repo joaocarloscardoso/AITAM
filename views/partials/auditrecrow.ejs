@@ -13,7 +13,7 @@
                         <a  target="_blank" href="/auditMatrices/FindingData?id=<%= subitem[0] %>&src=tbl" data-tooltip-bottom="<%=appAudit.recommendations.selFindingTooltip %>">#<%= subitem[1] %></a> - 
                     <% }) -%>
                 <% } else { %>
-                    <span>(none so far)</span>
+                    <span><%=appAudit.recommendations.norelatedFindings %></span>
                 <% } %>   
             </span></p>
         </td>

@@ -23,9 +23,9 @@
         <div class="row gtr-50">
             <div class="col-12">
                 <ul class="actions">
-                    <li><a href="/generatedocs/docpreassessMatrix?area=<%= Matrix.AreaId %>&issue=<%= Matrix.IssueId %>" class="button">Generate document</a></li>
-                    <li><a href="/preassessaudit/auditpreassessment" class="button">Close</a></li>
-                    <li><input type="submit" class="button alt" value="Save" /></li>
+                    <li><a href="/generatedocs/docpreassessMatrix?area=<%= Matrix.AreaId %>&issue=<%= Matrix.IssueId %>" class="button"><%=appButtons.generateDocument.name %></a></li>
+                    <li><a href="/preassessaudit/auditpreassessment" class="button"><%=appButtons.close.name %></a></li>
+                    <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                 </ul>
             </div>
         </div>
@@ -66,9 +66,9 @@
         <div class="row gtr-50">
             <div class="col-12">
                 <ul class="actions">
-                    <li><a href="/generatedocs/docpreassessMatrix?area=<%= Matrix.AreaId %>&issue=<%= Matrix.IssueId %>" class="button">Generate document</a></li>
-                    <li><a href="/preassessaudit/auditpreassessment" class="button">Close</a></li>
-                    <li><input type="submit" class="button alt" value="Save" /></li>
+                    <li><a href="/generatedocs/docpreassessMatrix?area=<%= Matrix.AreaId %>&issue=<%= Matrix.IssueId %>" class="button"><%=appButtons.generateDocument.name %></a></li>
+                    <li><a href="/preassessaudit/auditpreassessment" class="button"><%=appButtons.close.name %></a></li>
+                    <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                 </ul>
             </div>
             <input type="hidden" id="areaid" name="areaid" value="<%= Matrix.AreaId %>"/>

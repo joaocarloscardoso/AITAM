@@ -65,6 +65,10 @@
 		"recommendationsAddFinding":{
 			"name":"Ajouter un nouvel élément...",
 			"tooltip":""
+		},
+		"recommendationsDeleteFinding":{
+			"name":"Effacer...",
+			"tooltip":""
 		}
 	},
 	"audit" : {
@@ -143,7 +147,8 @@
 				"findingDescription":"Description de la constatations d'audit",
 				"recommendation":"Recommandation",
 				"referenceLegalAct":"Référence à l'acte juridique",
-				"referenceReport":"Référence dans le rapport"
+				"referenceReport":"Référence dans le rapport",
+				"domainsAreasIssuesMap": "Carte des domaines, des zones et des éléments"
 			}
 		},
 		"recommendations": {
@@ -165,6 +170,7 @@
 			"matrix": {
 				"recommendationDescription": "Description de la recommandation",
 				"recommendationNumber":"Numéro de recommandation",
+				"numberTooltip":"Numéro",
 				"priority":"Priorité",
 				"riskCharacterization":"Caractérisation du risque",
 				"riskCharacterizationTooltip":"(Catégorie plus pertinente de) Risque auquel les organisations sont confrontées directement et indirectement en raison de la non-mise en œuvre des recommandations d'audit",
@@ -187,6 +193,8 @@
 				"remarks":"Observaciones",
 				"remarksTooltip":"(Non structuré) Notes et remarques sur la recommandation enregistrée par l'auditeur",
 				"relatedFindings":"constatations d'audit connexes",
+				"selectFinding":"(Sélectionnez la constation dans la liste pour obtenir des informations connexes!)",
+				"trackNotes":"Note(s)",
 				"relatedFindingsMatrix":{
 					"operation":"Opération",
 					"number":"Nombre",

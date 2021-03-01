@@ -12,7 +12,7 @@ let i=1;
     %>
     <tr id="F_<%= i %>Row" style="display: table-row;">
         <td>
-            <a id="a<%= i %>Row" href="#" onclick="deleteFindingRow(this);return false;">Delete...</a>
+            <a id="a<%= i %>Row" href="#" onclick="deleteFindingRow(this);return false;"><%=appButtons.recommendationsDeleteFinding.name %></a>
         </td>
         <td>
             <select name="RF_<%= i %>" id="RF_<%= i %>" size="1" autofocus onchange="GetFindingInfo(this.id);">

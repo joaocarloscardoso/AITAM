@@ -2,7 +2,7 @@
 <% Matrix.Monitoring.forEach(function(item) { %>
     <tr id="M_<%= i %>Row" style="display: table-row;">
         <td>
-            <a id="a<%= i %>Row" href="#" onclick="deleteMonitoringRow(this);return false;">Delete...</a>
+            <a id="a<%= i %>Row" href="#" onclick="deleteMonitoringRow(this);return false;"><%=appButtons.recommendationsDeleteFinding.name %></a>
         </td>
         <td><input type="date" name="MD_<%= i %>" id="MD_<%= i %>" value="<%= item.Date %>" />
         </td>
@@ -17,7 +17,7 @@
                 <% }) -%>         
             </select>
         </td>
-        <td><textarea name="MT_<%= i %>" id="MT_<%= i %>" placeholder="Track note(s)" rows="3"><%= item.Note %></textarea> 
+        <td><textarea name="MT_<%= i %>" id="MT_<%= i %>" placeholder="<%=appAudit.recommendations.matrix.trackNotes %>" rows="3"><%= item.Note %></textarea> 
         </td>
     </tr>
     <% i++ %>

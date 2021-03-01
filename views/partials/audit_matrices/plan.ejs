@@ -25,17 +25,17 @@
         <div class="row gtr-50">
             <div class="col-12">
                 <ul class="actions">
-                    <li><a href="/generatedocs/docplanMatrix?plugin=<%= Matrix.PluginId %>&domain=<%= Matrix.DomainId %>&area=<%= Matrix.AreaId %>&issue=<%= Matrix.IssueId %>" class="button">Generate document</a></li>
+                    <li><a href="/generatedocs/docplanMatrix?plugin=<%= Matrix.PluginId %>&domain=<%= Matrix.DomainId %>&area=<%= Matrix.AreaId %>&issue=<%= Matrix.IssueId %>" class="button"><%=appButtons.generateDocument.name %></a></li>
                     <% if (source === "map") { %>
-                        <li><a href="/analytics/AuditMap" class="button">Close</a></li>
+                        <li><a href="/analytics/AuditMap" class="button"><%=appButtons.close.name %></a></li>
                     <% } else { %>
-                        <li><a href="/planaudit/auditplanning" class="button">Close</a></li>
+                        <li><a href="/planaudit/auditplanning" class="button"><%=appButtons.close.name %></a></li>
                     <% } %>
-                    <li><input type="submit" class="button alt" value="Save" /></li>
+                    <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                 </ul>
             </div>
             <div class="col-12">
-                Objectives<br/>
+                <%=appAudit.plan.matrix.objectives %><br/>
                 <textarea name="objectives" id="objectives" placeholder="Objectives" rows="2"><%= Matrix.Objectives %></textarea>
                 <input type="hidden" id="plugin" name="plugin" value="<%= Matrix.PluginId %>"/>
                 <input type="hidden" id="domain" name="domain" value="<%= Matrix.DomainId %>"/>
@@ -43,34 +43,34 @@
                 <input type="hidden" id="issue" name="issue" value="<%= Matrix.IssueId %>"/>
             </div>
             <div class="col-12">
-                Criteria<br/>
+                <%=appAudit.plan.matrix.criteria %><br/>
                 <textarea name="criteria" id="criteria" placeholder="Criteria" rows="4"><%= Matrix.Criteria %></textarea>
             </div>
             <div class="col-12">
-                Information required<br/>
+                <%=appAudit.plan.matrix.informationRequired %><br/>
                 <textarea name="inforequired" id="inforequired" placeholder="Information required" rows="6"><%= Matrix.Inforequired %></textarea>
             </div>
             <div class="col-12">
-                Method of analysis<br/>
+                <%=appAudit.plan.matrix.methodOfAnalysis %><br/>
                 <textarea name="method" id="method" placeholder="Method of analysis" rows="6"><%= Matrix.Method %></textarea>
             </div>
             <div class="col-12">
-                Found previously<br/>
+                <%=appAudit.plan.matrix.foundPreviously %><br/>
                 <textarea name="foundpreviously" id="foundpreviously" placeholder="Found previously" rows="4"><%= Matrix.Found %></textarea>
             </div>
             <div class="col-12">
-                Conclusion<br/>
+                <%=appAudit.plan.matrix.conclusion %><br/>
                 <textarea name="conclusion" id="conclusion" placeholder="Conclusion" rows="4"><%= Matrix.Conclusion %></textarea>
             </div>
             <div class="col-12">
                 <ul class="actions">
-                    <li><a href="/generatedocs/docplanMatrix?plugin=<%= Matrix.PluginId %>&domain=<%= Matrix.DomainId %>&area=<%= Matrix.AreaId %>&issue=<%= Matrix.IssueId %>" class="button">Generate document</a></li>
+                    <li><a href="/generatedocs/docplanMatrix?plugin=<%= Matrix.PluginId %>&domain=<%= Matrix.DomainId %>&area=<%= Matrix.AreaId %>&issue=<%= Matrix.IssueId %>" class="button"><%=appButtons.generateDocument.name %></a></li>
                     <% if (source === "map") { %>
-                        <li><a href="/analytics/AuditMap" class="button">Close</a></li>
+                        <li><a href="/analytics/AuditMap" class="button"><%=appButtons.close.name %></a></li>
                     <% } else { %>
-                        <li><a href="/planaudit/auditplanning" class="button">Close</a></li>
+                        <li><a href="/planaudit/auditplanning" class="button"><%=appButtons.close.name %></a></li>
                     <% } %>
-                    <li><input type="submit" class="button alt" value="Save" /></li>
+                    <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
                 </ul>
             </div>
         </div>

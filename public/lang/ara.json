@@ -65,6 +65,10 @@
 		"recommendationsAddFinding":{
 			"name":"أضف أداة جديدة...",
 			"tooltip":""
+		},
+		"recommendationsDeleteFinding":{
+			"name":"حذف...",
+			"tooltip":""
 		}
 	},
 	"audit" : {
@@ -142,7 +146,8 @@
 				"findingDescription":"وصف النتيجة",
 				"recommendation":"توصية",
 				"referenceLegalAct":"إشارة إلى القانون القانوني",
-				"referenceReport":"مرجع في التقرير"
+				"referenceReport":"مرجع في التقرير",
+				"domainsAreasIssuesMap": "خريطة المجالات والمناطق والعناصر"
 			}
 		},
 		"recommendations": {
@@ -164,6 +169,7 @@
 			"matrix": {
 				"recommendationDescription": "وصف التوصية",
 				"recommendationNumber":"رقم التوصية",
+				"numberTooltip":"عدد",
 				"priority":"أفضلية",
 				"riskCharacterization":"توصيف المخاطر",
 				"riskCharacterizationTooltip":"(الفئة الأكثر صلة من) المخاطر التي تواجهها المنظمات بشكل مباشر وغير مباشر نتيجة عدم تنفيذ توصيات المراجعة",
@@ -186,6 +192,8 @@
 				"remarks":"ملاحظات",
 				"remarksTooltip":"(غير منظم) ملاحظات وملاحظات حول التوصية التي سجلها المدقق",
 				"relatedFindings":"النتائج ذات الصلة المبلغ عنها",
+				"selectFinding":"(حدد البحث في القائمة المنسدلة للحصول على المعلومات ذات الصلة!)",
+				"trackNotes":"تتبع الملاحظات",
 				"relatedFindingsMatrix":{
 					"operation":"عملية",
 					"number":"عدد",

@@ -4,39 +4,39 @@
         <h2><%= Matrix.FindingId %></h2>
     </header>
     <div class="col-12">
-        <b>Finding number: </b>
+        <b><%=appAudit.findings.matrix.findingNumber %>: </b>
         <span><%= Matrix.Number %></span>
         <br/>&nbsp;
     </div>
     <div class="col-12">
-        <b>Finding name: </b>
+        <b><%=appAudit.findings.matrix.findingNumber %>: </b>
         <span><%= Matrix.Name %></span>
         <br/>&nbsp;
     </div>
     <div class="col-12">
-        <b>Description:</b><br/>
+        <b><%=appAudit.findings.matrix.findingDescription %>:</b><br/>
         <span><%= Matrix.Description %></span>
         <br/>&nbsp;
     </div>
     <div class="col-12">
-        <b>Cause:</b><br/>
+        <b><%=appAudit.findings.matrix.cause %>:</b><br/>
         <span><%= Matrix.Cause %></span>
         <br/>&nbsp;
     </div>
     <div class="col-12">
-        <b>Result:</b><br/>
+        <b><%=appAudit.findings.matrix.result %>:</b><br/>
         <span><%= Matrix.Result %></span>
         <br/>&nbsp;
     </div>
     <hr/>
-    <h3>Domains, areas and issues map</h3>
+    <h3><%=appAudit.findings.matrix.domainsAreasIssuesMap %></h3>
     <div class="col-12">
-        <b>Source:</b><br/>
+        <b><%=appAudit.findings.matrix.source %>:</b><br/>
         <span><%= Matrix.Source %></span>
         <br/>&nbsp;
     </div>
     <div class="col-12">
-        <b>Domain:</b><br/>
+        <b><%=appAudit.findings.matrix.domain %>:</b><br/>
         <% Matrix.Domains.split("|").forEach(function(item) { -%>
             <% subitem = item.split("#") %>
             <% if (subitem[0].indexOf(Matrix.Source) > -1) { %>
@@ -48,7 +48,7 @@
         <br/>&nbsp;
     </div>
     <div class="col-12">
-        <b>Area:</b><br/>
+        <b><%=appAudit.findings.matrix.area %>:</b><br/>
         <% Matrix.Areas.split("|").forEach(function(item) { -%>
             <% subitem = item.split("#") %>                    
             <% if (subitem[0].indexOf(Matrix.Domain) > -1) { %>
@@ -60,7 +60,7 @@
         <br/>&nbsp;
     </div>
     <div class="col-12">
-        <b>Issue:</b><br/>
+        <b><%=appAudit.findings.matrix.issue %>:</b><br/>
         <% Matrix.Issues.split("|").forEach(function(item) { -%>
             <% subitem = item.split("#") %>
             <% if (subitem[0].indexOf(Matrix.Area) > -1) { %>

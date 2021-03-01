@@ -65,6 +65,10 @@
 		"recommendationsAddFinding":{
 			"name":"add new item...",
 			"tooltip":""
+		},
+		"recommendationsDeleteFinding":{
+			"name":"Delete...",
+			"tooltip":""
 		}
 	},
 	"audit" : {
@@ -143,7 +147,8 @@
 				"findingDescription":"Description of the finding",
 				"recommendation":"Recommendation",
 				"referenceLegalAct":"Reference to Legal Act",
-				"referenceReport":"Reference to the report"
+				"referenceReport":"Reference to the report",
+				"domainsAreasIssuesMap": "Domains, areas and issues map"
 			}
 		},
 		"recommendations": {
@@ -165,6 +170,7 @@
 			"matrix": {
 				"recommendationDescription": "Recommendation description",
 				"recommendationNumber":"Recommendation number",
+				"numberTooltip":"Number",
 				"priority":"Priority",
 				"riskCharacterization":"Risk characterization",
 				"riskCharacterizationTooltip":"(Most relevant category of) Risk faced by organizations directly and indirectly as a result of non-implementation of audit recommendations",
@@ -187,6 +193,8 @@
 				"remarks":"Remarks",
 				"remarksTooltip":"(Unstructured) Notes and remarks about recommendation registered by the auditor",
 				"relatedFindings":"Related reported findings",
+				"selectFinding":"(Select finding in dropdown to get related information!)",
+				"trackNotes":"Track note(s)",
 				"relatedFindingsMatrix":{
 					"operation":"Operation",
 					"number":"Number",
