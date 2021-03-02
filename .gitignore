@@ -2,3 +2,5 @@ node_modules
 *~
 .DS_Store
 credentials.js
+cert.pem
+key.pem
