@@ -54,6 +54,8 @@ findingaudit.get('/auditfindings',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var findingscatalog = Findings.LoadFindings(NewAuditFile);
         //var teste = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
@@ -66,7 +68,9 @@ findingaudit.get('/auditfindings',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
@@ -152,6 +156,8 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var status = Findings.DeleteFinding(NewAuditFile, req.params.findingId);
         var findingscatalog = Findings.LoadFindings(NewAuditFile);
@@ -164,7 +170,9 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {

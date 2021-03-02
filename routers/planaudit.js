@@ -161,7 +161,7 @@ planaudit.get('/syncauditplanning',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
-    var appObjects = appLang.GetData(req.session.lang);
+    var appObjects = appLang.GetData(req.session.lang); 
 
     if (status) {
         var status = Planning.SyncPreAssessmentWithRiskAnalysis(NewAuditFile);

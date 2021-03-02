@@ -55,6 +55,8 @@ auditrec.get('/auditrecs',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var reccatalog = AuditRecommendations.LoadAuditRecommendations(NewAuditFile);
         //var teste = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
@@ -67,7 +69,9 @@ auditrec.get('/auditrecs',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
@@ -104,6 +108,8 @@ auditrec.get('/deleteauditrec/:auditrecId',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var status = AuditRecommendations.DeleteAuditRecommendation(NewAuditFile, req.params.auditrecId);
         var reccatalog = AuditRecommendations.LoadAuditRecommendations(NewAuditFile);
@@ -116,7 +122,9 @@ auditrec.get('/deleteauditrec/:auditrecId',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
