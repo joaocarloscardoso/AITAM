@@ -220,6 +220,19 @@
 		"managePortfolios" : {}
 	},
 	"ListsOfValues":{
+		"Generic":{
+			"YesNo":{
+				"Yes":{ "name":"Yes","value":"0" },
+				"No":{ "name":"No", "value":"0" }
+			}
+		},
+		"Plan":{
+			"Risk":{
+				"High":{ "name":"High","value":"3" },
+				"Medium":{ "name":"Medium","value":"2" },
+				"Low":{ "name":"Low", "value":"1" }
+			}
+		},
 		"Recommendation": {
 			"Priority": {
 				"Urgent":{ "name":"Urgent","value":"0" },

@@ -33,6 +33,8 @@ var fs = require("fs");
 //garbage collector / file cleaner
 var FileCleaner = require('cron-file-cleaner').FileCleaner;
 
+const https = require('https');
+
 //graphdb access
 var graphdb = require('./lib/graphdb.js');
 //issue #110 retain audit id to form downloaded xml file
@@ -389,7 +391,17 @@ app.use(function(req,res,next){
     //res.send('500 - Server Error');
 });
 
-app.listen(3000,function(){
-    graphdb.CreateDictionary();
+// app.listen(3000,function(){
+//     graphdb.CreateDictionary();
+//     console.log('Server started on port 3000...');
+// })
+
+//pass app to https server
+https.createServer({
+    key: fs.readFileSync('./key.pem'),
+    cert: fs.readFileSync('./cert.pem'),
+    passphrase: 'aitam'
+},app).listen(3000,function(){
+    graphdb.CreateDictionary()
     console.log('Server started on port 3000...');
-})
+});
