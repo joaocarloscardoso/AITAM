@@ -218,5 +218,41 @@
 	"recommendations": {
 		"browse" : {},
 		"managePortfolios" : {}
+	},
+	"ListsOfValues":{
+		"Recommendation": {
+			"Priority": {
+				"Urgent":{ "name":"Urgent","value":"0" },
+				"Regular":{ "name":"Regular", "value":"0" }
+			},
+			"RiskCharacterization": {
+				"Governance":{ "name":"Governance", "value":"0" },
+				"Operational":{ "name":"Operational", "value":"0" },
+				"Reputational":{ "name":"Reputational", "value":"0" },
+				"Financial":{ "name":"Financial", "value":"0" },
+				"Compliance":{ "name":"Compliance", "value":"0" },
+				"MisappropriationOfAssets":{ "name":"Misappropriation of assets", "value":"0" }
+			},
+			"RiskEvaluation": {
+				"State":{ "name":"State", "value":"0" },
+				"Region":{ "name":"Region", "value":"0" },
+				"Municipality":{ "name":"Municipality", "value":"0" },
+				"ActivityArea":{ "name":"Activity Area", "value":"0" },
+				"Entity":{ "name":"Entity", "value":"0" }
+			},
+			"Importance": {
+				"Strategic":{ "name":"Strategic", "value":"0" },
+				"Important":{ "name":"Important, but not essential", "value":"0" }
+			},
+			"ImplementationStatus": {
+				"Implemented":{ "name":"Implemented", "value":"0" },
+				"StartedImplementation":{ "name":"Started Implementation", "value":"0" },
+				"PartiallyImplemented":{ "name":"Partially implemented", "value":"0" },
+				"FinalStageImplementation":{ "name":"Final Stage Implementation", "value":"0" },
+				"NotStartedImplementation":{ "name":"Not started Implementation", "value":"0" },
+				"NotAddressed":{ "name":"Not addressed", "value":"0" },
+				"NoLongerApplicable":{ "name":"No longer applicable", "value":"0" }
+			}
+		}
 	}
 }
