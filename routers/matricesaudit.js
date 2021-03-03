@@ -104,6 +104,8 @@ matricesaudit.get('/findingMatrix',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id);
         res.render('toolaudit/supportmatrix', {
@@ -116,7 +118,9 @@ matricesaudit.get('/findingMatrix',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
@@ -152,6 +156,8 @@ matricesaudit.get('/FindingData',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id);
         res.render('toolaudit/supportmatrix', {
@@ -164,7 +170,9 @@ matricesaudit.get('/FindingData',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
@@ -200,6 +208,7 @@ matricesaudit.get('/recMatrix',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
     //console.log(req.session.passport.user);
 
     if (status) {
@@ -214,7 +223,9 @@ matricesaudit.get('/recMatrix',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
@@ -250,6 +261,8 @@ matricesaudit.get('/preassessMatrix',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var preassessMatrix = Matrices.LoadPreAssessMatrix(NewAuditFile, req.query.area, req.query.issue);
         res.render('toolaudit/supportmatrix', {
@@ -262,7 +275,9 @@ matricesaudit.get('/preassessMatrix',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {
@@ -412,6 +427,8 @@ matricesaudit.post('/findingMatrix', function(req, res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
@@ -449,7 +466,9 @@ matricesaudit.post('/findingMatrix', function(req, res){
                         auditfile: 'work/' + req.sessionID + '.xml',
                         audit: 'true',
                         rectracking: credentials.portfolio,
-                        user: user
+                        user: user,
+                        appButtons:  appObjects.buttons,
+                        appAudit: appObjects.audit
                     });                    
                 }
             }else{
@@ -488,6 +507,8 @@ matricesaudit.post('/recMatrix', function(req, res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         //check if req.body is filled
@@ -552,7 +573,9 @@ matricesaudit.post('/recMatrix', function(req, res){
                         auditfile: 'work/' + req.sessionID + '.xml',
                         audit: status,
                         rectracking: credentials.portfolio,
-                        user: user
+                        user: user,
+                        appButtons:  appObjects.buttons,
+                        appAudit: appObjects.audit
                     });            
                 }
             }else{
@@ -593,6 +616,7 @@ matricesaudit.get('/portfolio',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
     //console.log('user:' + user);
 
     if (user != '') {
@@ -652,6 +676,8 @@ matricesaudit.post('/portfolio', function(req, res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (user != '') {
         //check if req.body is filled
@@ -748,6 +774,8 @@ matricesaudit.get('/portfoliodetach', function(req, res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (user != '') {
         portfolio.DeleteAuditFromPortfolio(req.query.id, req.query.auditid, user).then(function(Result){
             portfolio.LoadPortfolioOverview(req.query.id).then(function(Result){
@@ -792,6 +820,8 @@ matricesaudit.get('/portfolioattach', function(req, res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (user != '') {
         portfolio.ListPortfolioBasic(req.query.id).then(function(Result){
@@ -844,7 +874,9 @@ matricesaudit.post('/toolAttachaudit', function(req, res){
         } catch (error) {
             req.session.lang=credentials.WorkLang;
         };
-    
+
+        var appObjects = appLang.GetData(req.session.lang);
+        
         if(err) { 
             log.warn('Error loading file from user ' + req.session.passport.user +'!');
             return res.render('/portal/toolindex', {
