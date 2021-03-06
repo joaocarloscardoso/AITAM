@@ -16,6 +16,8 @@ var statisticsService = require('../lib/statistics.js');
 var log = require('../lib/log.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
+//common utilities
+var common = require('../lib/common.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');

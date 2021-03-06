@@ -14,7 +14,8 @@ var pluginsService = require('../lib/catplugins.js')(credentials.PlugInsPath);
 var log = require('../lib/log.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
-
+//common utilities
+var common = require('../lib/common.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');

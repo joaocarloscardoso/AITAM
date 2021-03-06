@@ -18,7 +18,8 @@ var Recommendations = require('../lib/auditrec.js');
 var AuditMap = require('../lib/auditmap.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
-
+//common utilities
+var common = require('../lib/common.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');
