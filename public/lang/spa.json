@@ -218,5 +218,54 @@
 	"portfolios": {
 		"browse" : {},
 		"managePortfolios" : {}
+	},
+	"ListsOfValues":{
+		"Generic":{
+			"YesNo":{
+				"Yes":{ "name":"Sí","value":"0" },
+				"No":{ "name":"No", "value":"0" }
+			}
+		},
+		"Plan":{
+			"Risk":{
+				"High":{ "name":"Alto","value":"3" },
+				"Medium":{ "name":"Medio","value":"2" },
+				"Low":{ "name":"Bajo", "value":"1" }
+			}
+		},
+		"Recommendation": {
+			"Priority": {
+				"Urgent":{ "name":"Urgente","value":"0" },
+				"Regular":{ "name":"Regular", "value":"0" }
+			},
+			"RiskCharacterization": {
+				"Governance":{ "name":"Gobernancia", "value":"0" },
+				"Operational":{ "name":"Operacional", "value":"0" },
+				"Reputational":{ "name":"Reputacional", "value":"0" },
+				"Financial":{ "name":"Financiero", "value":"0" },
+				"Compliance":{ "name":"Conformidad", "value":"0" },
+				"MisappropriationOfAssets":{ "name":"Apropiación indebida de activos", "value":"0" }
+			},
+			"RiskEvaluation": {
+				"State":{ "name":"Estado", "value":"0" },
+				"Region":{ "name":"Región", "value":"0" },
+				"Municipality":{ "name":"Municipio", "value":"0" },
+				"ActivityArea":{ "name":"Área de actividad", "value":"0" },
+				"Entity":{ "name":"Entidad", "value":"0" }
+			},
+			"Importance": {
+				"Strategic":{ "name":"Estratégico", "value":"0" },
+				"Important":{ "name":"Importante, pero no esencial", "value":"0" }
+			},
+			"ImplementationStatus": {
+				"Implemented":{ "name":"Implementado", "value":"0" },
+				"StartedImplementation":{ "name":"Implementación iniciada", "value":"0" },
+				"PartiallyImplemented":{ "name":"Implementado parcialmente", "value":"0" },
+				"FinalStageImplementation":{ "name":"Implementación en la etapa final", "value":"0" },
+				"NotStartedImplementation":{ "name":"Implementación no iniciada", "value":"0" },
+				"NotAddressed":{ "name":"No abordado", "value":"0" },
+				"NoLongerApplicable":{ "name":"Ya no es aplicable", "value":"0" }
+			}
+		}
 	}
 }

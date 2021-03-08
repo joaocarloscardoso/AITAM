@@ -217,5 +217,55 @@
 	"portfolios": {
 		"browse" : {},
 		"managePortfolios" : {}
+	},
+	"ListsOfValues":{
+		"Generic":{
+			"YesNo":{
+				"Yes":{ "name":"نعم","value":"0" },
+				"No":{ "name":"لا", "value":"0" }
+			}
+		},
+		"Plan":{
+			"Risk":{
+				"High":{ "name":"متوسط","value":"3" },
+				"Medium":{ "name":"واسطة","value":"2" },
+				"Low":{ "name":"قليل", "value":"1" }
+			}
+		},
+		"Recommendation": {
+			"Priority": {
+				"Urgent":{ "name":"العاجلة","value":"0" },
+				"Regular":{ "name":"عادي", "value":"0" }
+			},
+			"RiskCharacterization": {
+				"Governance":{ "name":"الحكم", "value":"0" },
+				"Operational":{ "name":"التشغيل", "value":"0" },
+				"Reputational":{ "name":"السمعة", "value":"0" },
+				"Financial":{ "name":"مالي", "value":"0" },
+				"Compliance":{ "name":"الامتثال", "value":"0" },
+				"MisappropriationOfAssets":{ "name":"اختلاس الأصول", "value":"0" }
+			},
+			"RiskEvaluation": {
+				"State":{ "name":"حالة", "value":"0" },
+				"Region":{ "name":"منطقة", "value":"0" },
+				"Municipality":{ "name":"البلدية", "value":"0" },
+				"ActivityArea":{ "name":"منطقة النشاط", "value":"0" },
+				"Entity":{ "name":"كيان", "value":"0" }
+			},
+			"Importance": {
+				"Strategic":{ "name":"استراتيجية", "value":"0" },
+				"Important":{ "name":"مهم ، لكنه ليس ضروريًا", "value":"0" }
+			},
+			"ImplementationStatus": {
+				"Implemented":{ "name":"منفذ", "value":"0" },
+				"StartedImplementation":{ "name":"بدأ التنفيذ", "value":"0" },
+				"PartiallyImplemented":{ "name":"نفذت جزئيا", "value":"0" },
+				"FinalStageImplementation":{ "name":"التنفيذ في المرحلة النهائية", "value":"0" },
+				"NotStartedImplementation":{ "name":"التنفيذ لم يبدأ", "value":"0" },
+				"NotAddressed":{ "name":"لم يتم التصدي لها", "value":"0" },
+				"NoLongerApplicable":{ "name":"لم تعد قابلة للتطبيق", "value":"0" }
+			}
+		}
 	}
+
 }
