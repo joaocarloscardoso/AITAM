@@ -59,7 +59,7 @@ matricesaudit.get('/planMatrix',function(req,res){
     };
 
     if (status) {
-        var PlanMatrix = Matrices.LoadPlanMatrix(NewAuditFile, req.query.plugin, req.query.domain, req.query.area, req.query.issue);
+        var PlanMatrix = Matrices.LoadPlanMatrix(NewAuditFile, req.query.plugin, req.query.domain, req.query.area, req.query.issue, req.session.lang);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
             operation: 'plan_matrix',
@@ -109,7 +109,7 @@ matricesaudit.get('/findingMatrix',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id);
+        var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
             operation: 'finding_matrix',
@@ -161,7 +161,7 @@ matricesaudit.get('/FindingData',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id);
+        var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
             operation: 'finding_data',
@@ -214,7 +214,7 @@ matricesaudit.get('/recMatrix',function(req,res){
     //console.log(req.session.passport.user);
 
     if (status) {
-        var RecommendationMatrix = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id);
+        var RecommendationMatrix = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id, req.session.lang);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
             operation: 'audit_recommendations',
@@ -266,7 +266,7 @@ matricesaudit.get('/preassessMatrix',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        var preassessMatrix = Matrices.LoadPreAssessMatrix(NewAuditFile, req.query.area, req.query.issue);
+        var preassessMatrix = Matrices.LoadPreAssessMatrix(NewAuditFile, req.query.area, req.query.issue, req.session.lang);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
             operation: 'preassess_matrix',
@@ -327,8 +327,8 @@ matricesaudit.post('/preassessMatrix', function(req, res){
                 };
                 Catalog.push(NewEntry);
             }
-            var status = Matrices.SavePreAssessMatrix(NewAuditFile, Catalog, AreaId, IssueId);
-            var preassessMatrix = Matrices.LoadPreAssessMatrix(NewAuditFile, AreaId, IssueId);
+            var status = Matrices.SavePreAssessMatrix(NewAuditFile, Catalog, AreaId, IssueId, req.session.lang);
+            var preassessMatrix = Matrices.LoadPreAssessMatrix(NewAuditFile, AreaId, IssueId, req.session.lang);
             //Issue #52: Automatic save/download on conclusion of key activities
             res.redirect('/toolaudit/work/download');
             //
@@ -380,8 +380,8 @@ matricesaudit.post('/planMatrix', function(req, res){
                 Conclusion: req.body.conclusion
             };
             //save plugins selected for audit
-            var status = Matrices.SavePlanMatrix(NewAuditFile, Catalog);
-            var PlanMatrix = Matrices.LoadPlanMatrix(NewAuditFile, Catalog.PluginId, Catalog.DomainId, Catalog.AreaId, Catalog.IssueId);
+            var status = Matrices.SavePlanMatrix(NewAuditFile, Catalog, req.session.lang);
+            var PlanMatrix = Matrices.LoadPlanMatrix(NewAuditFile, Catalog.PluginId, Catalog.DomainId, Catalog.AreaId, Catalog.IssueId, req.session.lang);
             //Issue #52: Automatic save/download on conclusion of key activities
             res.redirect('/toolaudit/work/download');
             //
@@ -453,11 +453,11 @@ matricesaudit.post('/findingMatrix', function(req, res){
                 ReportReference: req.body.report
             };
             //save plugins selected for audit
-            var RefId = Matrices.SaveFindingMatrix(NewAuditFile, Catalog);
+            var RefId = Matrices.SaveFindingMatrix(NewAuditFile, Catalog, req.session.lang);
             //Issue #52: Automatic save/download on conclusion of key activities
             if (req.body.findingid == '(New)'){
                 if (RefId.substring(0, 1) == 'F') {
-                    var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, RefId);
+                    var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, RefId, req.session.lang);
                     res.render('toolaudit/supportmatrix', {
                         action: 'audit',
                         operation: 'finding_matrix',
@@ -560,11 +560,11 @@ matricesaudit.post('/recMatrix', function(req, res){
             }
 
             //save recommendations selected for audit
-            var RefId = Matrices.SaveRecommendationMatrix(NewAuditFile, Catalog);
+            var RefId = Matrices.SaveRecommendationMatrix(NewAuditFile, Catalog, req.session.lang);
             //Issue #52: Automatic save/download on conclusion of key activities
             if (req.body.recid == '(New)'){
                 if (RefId.substring(0, 1) == 'R') {
-                    var RecommendationMatrix = Matrices.LoadRecommendationMatrix(NewAuditFile, RefId);
+                    var RecommendationMatrix = Matrices.LoadRecommendationMatrix(NewAuditFile, RefId, req.session.lang);
                     res.render('toolaudit/supportmatrix', {
                         action: 'audit',
                         operation: 'audit_recommendations',
@@ -623,7 +623,7 @@ matricesaudit.get('/portfolio',function(req,res){
 
     if (user != '') {
         if (req.query.id != 'New') {
-            portfolio.LoadPortfolioOverview(req.query.id).then(function(Result){
+            portfolio.LoadPortfolioOverview(req.query.id, req.session.lang).then(function(Result){
                 res.render('toolaudit/supportmatrix', {
                     //action: req.query.action,
                     action: 'portfolio',
@@ -698,7 +698,7 @@ matricesaudit.post('/portfolio', function(req, res){
                 if (req.body.portid == 'New') {
                     portfolio.CreatePortfolio(Catalog, user).then(function(Result){
                         var NewPortId = Result;
-                        portfolio.LoadPortfolioOverview(NewPortId).then(function(Result){
+                        portfolio.LoadPortfolioOverview(NewPortId, req.session.lang).then(function(Result){
                             res.render('toolaudit/supportmatrix', {
                                 //action: req.query.action,
                                 action: 'portfolio',
@@ -714,7 +714,7 @@ matricesaudit.post('/portfolio', function(req, res){
                     });
                 }else{
                     portfolio.UpdatePortfolio(req.body.portid, Catalog, user).then(function(Result){
-                        portfolio.LoadPortfolioOverview(req.body.portid).then(function(Result){
+                        portfolio.LoadPortfolioOverview(req.body.portid, req.session.lang).then(function(Result){
                             res.render('toolaudit/supportmatrix', {
                                 //action: req.query.action,
                                 action: 'portfolio',
@@ -731,7 +731,7 @@ matricesaudit.post('/portfolio', function(req, res){
                 };
             } else if (req.body.action == 'delaudit') {
                 portfolio.DeleteAuditFromPortfolio(req.body.portid, req.body.auditid, user).then(function(Result){
-                    portfolio.LoadPortfolioOverview(req.body.portid).then(function(Result){
+                    portfolio.LoadPortfolioOverview(req.body.portid, req.session.lang).then(function(Result){
                         res.render('toolaudit/supportmatrix', {
                             //action: req.query.action,
                             action: 'portfolio',
@@ -780,7 +780,7 @@ matricesaudit.get('/portfoliodetach', function(req, res){
 
     if (user != '') {
         portfolio.DeleteAuditFromPortfolio(req.query.id, req.query.auditid, user).then(function(Result){
-            portfolio.LoadPortfolioOverview(req.query.id).then(function(Result){
+            portfolio.LoadPortfolioOverview(req.query.id, req.session.lang).then(function(Result){
                 res.render('toolaudit/supportmatrix', {
                     //action: req.query.action,
                     action: 'portfolio',
@@ -897,7 +897,7 @@ matricesaudit.post('/toolAttachaudit', function(req, res){
         portfolio.AddAuditToPortfolio(fields.portfolioid, AuditFile, user).then(function(Result){
             if (Result.length > 1 && Result[0].hasOwnProperty('msg')){
                 var ErrorsInPortfolio = Result;
-                portfolio.LoadPortfolioOverview(fields.portfolioid).then(function(Result){
+                portfolio.LoadPortfolioOverview(fields.portfolioid, req.session.lang).then(function(Result){
                     return  res.render('toolaudit/supportmatrix', {
                         //action: req.query.action,
                         action: 'portfolio',
@@ -911,7 +911,7 @@ matricesaudit.post('/toolAttachaudit', function(req, res){
                     });     
                 });    
             } else {
-                portfolio.LoadPortfolioOverview(fields.portfolioid).then(function(Result){
+                portfolio.LoadPortfolioOverview(fields.portfolioid, req.session.lang).then(function(Result){
                     return  res.render('toolaudit/supportmatrix', {
                         //action: req.query.action,
                         action: 'portfolio',

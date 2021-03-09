@@ -302,8 +302,8 @@ portal.get('/catalogplugins',function(req,res){
     };
 
     var LastDate = pluginsService.getMostRecentFileName();
-    var PluginsCatalog = pluginsService.getListOfPlugins();
-    var AuditTemplatesCatalog = pluginsService.getListOfAuditTemplates(credentials.AuditTemplatesPath);
+    var PluginsCatalog = pluginsService.getListOfPlugins(req.session.lang);
+    var AuditTemplatesCatalog = pluginsService.getListOfAuditTemplates(credentials.AuditTemplatesPath, req.session.lang);
     //console.log(PluginsCatalog.length)
     res.render('portal/catalogplugins', {
         //action: req.query.action,

@@ -67,20 +67,20 @@ analyticsaudit.get('/Findings',function(req,res){
     };
 
     if (status) {
-        var GeneralDomainCatalog = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
-        var Domain01Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '01');
+        var GeneralDomainCatalog = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile, req.session.lang);
+        var Domain01Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '01', req.session.lang);
         //console.log('d01');
-        var Domain02Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '02');
+        var Domain02Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '02', req.session.lang);
         //console.log('d02');
-        var Domain03Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '03');
+        var Domain03Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '03', req.session.lang);
         //console.log('d03');
-        var Domain04Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '04');
+        var Domain04Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '04', req.session.lang);
         //console.log('d04');
-        var Domain05Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '05');
+        var Domain05Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '05', req.session.lang);
         //console.log('d05');
-        var Domain06Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '06');
+        var Domain06Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '06', req.session.lang);
         //console.log('d06');
-        var Domain07Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '07');
+        var Domain07Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '07', req.session.lang);
         //console.log('d07');
         res.render('toolaudit/supportanalytics', {
             action: 'audit',
@@ -141,7 +141,7 @@ analyticsaudit.get('/Recommendations',function(req,res){
         var VectorFile = credentials.WorkSetPath;
         VectorFile = VectorFile + req.sessionID + '.vec';
 
-        var vFile = nlp.LoadCrawler(NewAuditFile, CrawlerFile);
+        var vFile = nlp.LoadCrawler(NewAuditFile, CrawlerFile, req.session.lang);
         nlp.LoadNLPProcessing(CrawlerFile,TokenizerFile, VectorFile);
         var Vector = nlp.GetVector(VectorFile);
 
@@ -288,7 +288,7 @@ analyticsaudit.get('/SentimentFindings',function(req,res){
     if (status) {
         var SentimentFile = credentials.WorkSetPath;
         SentimentFile = SentimentFile + req.sessionID + '.sent';
-        Vector = nlp.NLPSentimentFindings(NewAuditFile, SentimentFile);
+        Vector = nlp.NLPSentimentFindings(NewAuditFile, SentimentFile, req.session.lang);
         
         res.render('toolaudit/supportanalytics', {
             action: 'audit',
@@ -338,7 +338,7 @@ analyticsaudit.get('/SentimentFindingsDetailed',function(req,res){
     if (status) {
         var SentimentFile = credentials.WorkSetPath;
         SentimentFile = SentimentFile + req.sessionID + '.sent';
-        Vector = nlp.NLPSentimentFindingsDetailed(SentimentFile, req.query.id);
+        Vector = nlp.NLPSentimentFindingsDetailed(SentimentFile, req.query.id, req.session.lang);
         
         res.render('toolaudit/supportanalytics', {
             action: 'audit',
@@ -390,7 +390,7 @@ analyticsaudit.get('/StatsRecommendations',function(req,res){
     if (status) {
         var SentimentFile = credentials.WorkSetPath;
         SentimentFile = SentimentFile + req.sessionID + '.sent';
-        var DataRecommendations = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile);
+        var DataRecommendations = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile, req.session.lang);
 
         res.render('toolaudit/supportanalytics', {
             action: 'audit',
@@ -441,7 +441,7 @@ analyticsaudit.get('/AuditMap',function(req,res){
         //var AuditMapFile = credentials.WorkSetPath;
         //AuditMapFile = AuditMapFile + 'test.map';
         //var DataAuditMap = AuditMap.LoadAuditMap(AuditMapFile);
-        var DataAuditMap = AuditMap.GenerateAuditMap(NewAuditFile);
+        var DataAuditMap = AuditMap.GenerateAuditMap(NewAuditFile, req.session.lang);
         res.render('toolaudit/auditmap', {
             action: 'audit',
             operation: 'auditmap',

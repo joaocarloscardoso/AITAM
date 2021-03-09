@@ -59,7 +59,7 @@ planaudit.get('/auditplanning',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        var plancatalog = Planning.LoadPlanning(NewAuditFile);
+        var plancatalog = Planning.LoadPlanning(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',
             operation: 'audit_plan',
@@ -114,7 +114,7 @@ planaudit.post('/auditplanning', function(req, res){
             }
             //save plugins selected for audit
             var status = Planning.SavePlanning(NewAuditFile, Catalog);
-            var plancatalog = Planning.LoadPlanning(NewAuditFile);
+            var plancatalog = Planning.LoadPlanning(NewAuditFile, req.session.lang);
             //Issue #52: Automatic save/download on conclusion of key activities
             res.redirect('/toolaudit/work/download');
             //
@@ -166,8 +166,8 @@ planaudit.get('/syncauditplanning',function(req,res){
     var appObjects = appLang.GetData(req.session.lang); 
 
     if (status) {
-        var status = Planning.SyncPreAssessmentWithRiskAnalysis(NewAuditFile);
-        var plancatalog = Planning.LoadPlanning(NewAuditFile);
+        var status = Planning.SyncPreAssessmentWithRiskAnalysis(NewAuditFile, req.session.lang);
+        var plancatalog = Planning.LoadPlanning(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',
             operation: 'audit_plan',

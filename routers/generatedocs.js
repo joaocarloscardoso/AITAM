@@ -52,7 +52,7 @@ generatedocs.get('/docplanMatrix',function(req,res){
     NewDocFile = NewDocFile + req.sessionID + '.' + credentials.ReportFormat;
 
     if (status) {
-        var data = Matrices.LoadPlanMatrix(NewAuditFile, req.query.plugin, req.query.domain, req.query.area, req.query.issue);
+        var data = Matrices.LoadPlanMatrix(NewAuditFile, req.query.plugin, req.query.domain, req.query.area, req.query.issue, req.session.lang);
         carbone.render('./public/templates/PlanMatrix.' + credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (plan matrix) generation error:  ' +err);
@@ -85,7 +85,7 @@ generatedocs.get('/docpreassessMatrix',function(req,res){
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
     if (status) {
-        var data = Matrices.LoadPreAssessMatrix(NewAuditFile, req.query.area, req.query.issue);
+        var data = Matrices.LoadPreAssessMatrix(NewAuditFile, req.query.area, req.query.issue, req.session.lang);
         carbone.render('./public/templates/PreAssessMatrix.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (preassessment matrix) generation error:  ' +err);
@@ -118,7 +118,7 @@ generatedocs.get('/docfindingMatrix',function(req,res){
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
     if (status) {
-        var data = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id);
+        var data = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang);
         carbone.render('./public/templates/FindingMatrix.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (finding matrix) generation error:  ' +err);
@@ -151,7 +151,7 @@ generatedocs.get('/docrecMatrix',function(req,res){
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
     if (status) {
-        var data = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id);
+        var data = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id, req.session.lang);
         carbone.render('./public/templates/RecMatrix.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (recommendation matrix) generation error:  ' +err);
@@ -184,7 +184,7 @@ generatedocs.get('/docauditprogramme',function(req,res){
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
     if (status) {
-        var data = Docs.LoadAuditProgramme(NewAuditFile);
+        var data = Docs.LoadAuditProgramme(NewAuditFile, req.session.lang);
         carbone.render('./public/templates/AuditProgramme.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (Audit Programme) generation error:  ' +err);
@@ -217,7 +217,7 @@ generatedocs.get('/docexecutivesummary',function(req,res){
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
     if (status) {
-        var data = Docs.LoadExecutiveSummary(NewAuditFile);
+        var data = Docs.LoadExecutiveSummary(NewAuditFile, req.session.lang);
         carbone.render('./public/templates/AuditExecutiveSummary.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (Executive Summary) generation error:  ' +err);
@@ -250,7 +250,7 @@ generatedocs.get('/docplanList',function(req,res){
     NewDocFile = NewDocFile + req.sessionID + '.' + credentials.ReportFormat;
 
     if (status) {
-        var data = Planning.LoadPlanning2Doc(NewAuditFile, req.query.op);
+        var data = Planning.LoadPlanning2Doc(NewAuditFile, req.query.op, req.session.lang);
         carbone.render('./public/templates/PlanList.' + credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (plan list) generation error:  ' +err);
@@ -283,7 +283,7 @@ generatedocs.get('/docmatriceslist',function(req,res){
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
     if (status) {
-        var data = Docs.LoadMatricesCollection(NewAuditFile);
+        var data = Docs.LoadMatricesCollection(NewAuditFile, req.session.lang);
         carbone.render('./public/templates/PlanMatrixCollection.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (Collection of Planning Matrices) generation error:  ' +err);
@@ -316,7 +316,7 @@ generatedocs.get('/rectrackreport',function(req,res){
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
     if (status) {
-        var data = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile);
+        var data = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile, req.session.lang);
         carbone.render('./public/templates/RecTrackReport.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (recommendations tracking report) generation error:  ' +err);
@@ -349,7 +349,7 @@ generatedocs.get('/docexecutivesummarywrecs',function(req,res){
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
     if (status) {
-        var data = Docs.LoadExecutiveSummaryWRecs(NewAuditFile);
+        var data = Docs.LoadExecutiveSummaryWRecs(NewAuditFile, req.session.lang);
         carbone.render('./public/templates/AuditExecutiveSummaryWRecs.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (Executive Summary with recommendations) generation error:  ' +err);
@@ -382,7 +382,7 @@ generatedocs.get('/docmethodmatrix',function(req,res){
     NewDocFile = NewDocFile + req.sessionID + '.xlsx';
 
     if (status) {
-        var data = Docs.LoadAuditProgramme(NewAuditFile);
+        var data = Docs.LoadAuditProgramme(NewAuditFile, req.session.lang);
         var workbook = Excel.GenerateMethologicalMatrix(data);
         workbook.xlsx.writeFile(NewDocFile)
             .then(function() {
@@ -416,7 +416,7 @@ generatedocs.get('/heatmatrix',function(req,res){
     };
 
     if (status) {
-        var heatdata = Docs.LoadPlanHeatMatrix(NewAuditFile);
+        var heatdata = Docs.LoadPlanHeatMatrix(NewAuditFile, req.session.lang);
         res.render('toolaudit/heatmatrix', {
             action: 'heatmatrix',
             operation: 'audit_plan_heatmatrix',

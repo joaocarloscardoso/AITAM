@@ -64,7 +64,7 @@ analyticsportfolio.get('/portfolio',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
-    portfolio.LoadPortfolioOverview(req.query.id).then(function(Result){
+    portfolio.LoadPortfolioOverview(req.query.id, req.session.lang).then(function(Result){
         res.render('toolaudit/portfolioanalytics', {
             //action: req.query.action,
             action: 'audit',
@@ -100,7 +100,7 @@ analyticsportfolio.get('/audit',function(req,res){
     };
 
     //var DataRecommendations = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile);
-    portfolio.LoadPortfolioAudit(req.query.id, req.query.auditid).then(function(Result){
+    portfolio.LoadPortfolioAudit(req.query.id, req.query.auditid, req.session.lang).then(function(Result){
         res.render('toolaudit/portfolioanalytics', {
             //action: req.query.action,
             action: 'audit',

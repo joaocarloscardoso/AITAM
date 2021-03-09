@@ -59,7 +59,7 @@ preassessaudit.get('/auditpreassessment',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        var preassesscatalog = PreAssessment.LoadPreAssessment(NewAuditFile);
+        var preassesscatalog = PreAssessment.LoadPreAssessment(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',
             operation: 'audit_preassess',

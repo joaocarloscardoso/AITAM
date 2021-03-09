@@ -59,7 +59,7 @@ findingaudit.get('/auditfindings',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        var findingscatalog = Findings.LoadFindings(NewAuditFile);
+        var findingscatalog = Findings.LoadFindings(NewAuditFile, req.session.lang);
         //var teste = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
         res.render('toolaudit/toolwork', {
             action: 'audit',
@@ -109,7 +109,8 @@ findingaudit.post('/auditfindings', function(req, res){
             }
             //save plugins selected for audit
             var status = Findings.SaveFindings(NewAuditFile, Catalog);
-            var findingscatalog = Findings.LoadFindings(NewAuditFile);
+            //commented on 2021-03-09 since nouse of loade findings
+            //var findingscatalog = Findings.LoadFindings(NewAuditFile, req.session.lang);
             //Issue #52: Automatic save/download on conclusion of key activities
             res.redirect('/toolaudit/work/download');
             //
@@ -162,7 +163,7 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
 
     if (status) {
         var status = Findings.DeleteFinding(NewAuditFile, req.params.findingId);
-        var findingscatalog = Findings.LoadFindings(NewAuditFile);
+        var findingscatalog = Findings.LoadFindings(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',
             operation: 'audit_findings',

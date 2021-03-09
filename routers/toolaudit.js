@@ -63,7 +63,7 @@ tooleaudit.get('/toolauditreference',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        var AuditReference = InitialAudit.GetAuditReference(NewAuditFile);
+        var AuditReference = InitialAudit.GetAuditReference(NewAuditFile, req.session.lang);
         //console.log(AuditReference);
         res.render('toolaudit/toolwork', {
             action: 'audit',
@@ -116,7 +116,7 @@ tooleaudit.get('/toolauditplugins',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile);
+        var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',
             operation: 'audit_plugins',
@@ -167,15 +167,15 @@ tooleaudit.get('/auditstatistics',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        var GeneralDomainCatalog = statisticsService.GeneralDomainCharacterization(NewAuditFile);
-        var GeneralRiskCatalog = statisticsService.GeneralRiskCharacterization(NewAuditFile);
-        var Domain01Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '01');
-        var Domain02Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '02');
-        var Domain03Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '03');
-        var Domain04Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '04');
-        var Domain05Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '05');
-        var Domain06Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '06');
-        var Domain07Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '07');
+        var GeneralDomainCatalog = statisticsService.GeneralDomainCharacterization(NewAuditFile, req.session.lang);
+        var GeneralRiskCatalog = statisticsService.GeneralRiskCharacterization(NewAuditFile, req.session.lang);
+        var Domain01Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '01', req.session.lang);
+        var Domain02Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '02', req.session.lang);
+        var Domain03Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '03', req.session.lang);
+        var Domain04Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '04', req.session.lang);
+        var Domain05Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '05', req.session.lang);
+        var Domain06Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '06', req.session.lang);
+        var Domain07Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '07', req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',
             operation: 'audit_stats',
@@ -369,7 +369,7 @@ tooleaudit.post('/toolauditreference', [
     else {
         //Save reference on audit file
         var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
-        InitialAudit.SetAuditReference(AuditFile,AuditReference)
+        InitialAudit.SetAuditReference(AuditFile, AuditReference, req.session.lang)
         //Issue #52: Automatic save/download on conclusion of key activities
         res.redirect('/toolaudit/work/download');
         //
@@ -425,7 +425,7 @@ tooleaudit.post('/toolauditplugins', function(req, res){
             var status = pluginsService.setPluginsForAudit(PlugIns2Audit, NewAuditFile);
 
             //reload plugins list and present save status
-            var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile);
+            var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile, req.session.lang);
             res.render('toolaudit/toolwork', {
                 action: 'audit',
                 operation: 'audit_plugins',
