@@ -1722,32 +1722,34 @@ Comparez les paramètres de base des performances (à savoir la disponibilité d
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the IT organization is ensuring that the system capacity and performance meets current and future business needs."/>
-							<tx l="spa" name="Vlerësimi nëse struktura e IT siguron se kapaciteti i sistemit dhe performanca e tij arrin nevojat aktuale dhe të ardhshme të biznesit"/>
-							<tx l="fre" name="Vlerësimi nëse struktura e IT siguron se kapaciteti i sistemit dhe performanca e tij arrin nevojat aktuale dhe të ardhshme të biznesit"/>
-							<tx l="ara" name="Vlerësimi nëse struktura e IT siguron se kapaciteti i sistemit dhe performanca e tij arrin nevojat aktuale dhe të ardhshme të biznesit"/>
+							<tx l="spa" name="Evalúe si la organización de TI se asegura de que la capacidad y el rendimiento del sistema satisfagan las necesidades del negocio actuales y futuras."/>
+							<tx l="fre" name="Évaluer si l'organisation informatique s'assure que la capacité et les performances du système répondent aux besoins de l'entreprise actuels et futurs."/>
+							<tx l="ara" name="قم بتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تضمن أن قدرة النظام وأدائه يلبي احتياجات العمل الحالية والمستقبلية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Monitoring - Does the IT organization collect and review system performance data on a real time/periodic basis for better alignment with business needs?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Best practices by sys/network administrators like performance base lining, collection of traffic and configuration information, system resource availability, observe traffic stats and trends, what-if analyses, use of tools to pinpoint causes of performance deterioration"/>
-							<tx l="spa" name="Praktikat më të mira nga administratorët e sistemit/rrjetit si lidhja me bazë performancën, grumbullim i informacionit mbi trafikun dhe konfigurimin, gadishmëria e burimeve të sistemit, observimi i trendeve dhe statistikave të trafikut, analizat nëse, përodrimi i mjeteve për të piketuar shkaqet e çorientimit të performancës"/>
-							<tx l="fre" name="Praktikat më të mira nga administratorët e sistemit/rrjetit si lidhja me bazë performancën, grumbullim i informacionit mbi trafikun dhe konfigurimin, gadishmëria e burimeve të sistemit, observimi i trendeve dhe statistikave të trafikut, analizat nëse, përodrimi i mjeteve për të piketuar shkaqet e çorientimit të performancës"/>
-							<tx l="ara" name="Praktikat më të mira nga administratorët e sistemit/rrjetit si lidhja me bazë performancën, grumbullim i informacionit mbi trafikun dhe konfigurimin, gadishmëria e burimeve të sistemit, observimi i trendeve dhe statistikave të trafikut, analizat nëse, përodrimi i mjeteve për të piketuar shkaqet e çorientimit të performancës"/>
+							<tx l="eng" name="Best practices by sys/network administrators like performance base lining, collection of traffic and configuration information, system resource availability, observe traffic stats and trends, what-if analyses, use of tools to pinpoint causes of performance deterioration."/>
+							<tx l="spa" name="Las mejores prácticas de los administradores de sistemas / redes, como líneas base del rendimiento, recopilación de información de tráfico y configuración, disponibilidad de recursos del sistema, observación de estadísticas y tendencias de tráfico, análisis hipotéticos, uso de herramientas para identificar las causas del deterioro del rendimiento."/>
+							<tx l="fre" name="Les meilleures pratiques des administrateurs système / réseau telles que les lignes de base des performances, la collecte d'informations sur le trafic et la configuration, la disponibilité des ressources système, l'observation des statistiques et des tendances du trafic, des analyses hypothétiques, l'utilisation d'outils pour identifier les causes de la détérioration des performances."/>
+							<tx l="ara" name="أفضل الممارسات من قبل مسؤولي النظام / الشبكة مثل الخطوط الأساسية للأداء ، وجمع معلومات حركة المرور والتكوين ، وتوافر موارد النظام ، ومراقبة إحصائيات واتجاهات حركة المرور ، وتحليلات ماذا لو ، واستخدام الأدوات لتحديد أسباب تدهور الأداء."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Reports, action items, help desk response time, and other metrics.
-
-"/>
-							<tx l="fre" name="Raporte, artikuj veprimi, koha e përgjigjes së help desk-ut, dhe matje të tjera"/>
+							<tx l="eng" name="Reports, action items, help desk response time, and other metrics."/>
+							<tx l="spa" name="Informes, elementos de acción, tiempo de respuesta del servicio de ayuda y otras métricas."/>
+							<tx l="fre" name="Rapports, éléments d'action, temps de réponse du service d'assistance et autres mesures."/>
+							<tx l="ara" name="التقارير وعناصر العمل ووقت استجابة مكتب المساعدة والمقاييس الأخرى."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Use Compliance issue in SLA matrix. Pay special attention to all elements having impact on capacity, i.e. compare actual capacity metrics to the SLA requirements etc."/>
-							<tx l="fre" name="Përdorimi i çështjes së Përputhshmërisë në matricën e SLA. Kushtoni vëmendje të veçantë ndaj gjithë elementeve që kanë ndikim në kapacitet, p.sh. krahasimi i matjeve të kapacitetit aktual me kërkesat e SLA, etj."/>
+							<tx l="spa" name="Utilice el problema de cumplimiento en la matriz de acuerdos de nivel de servicios. Preste especial atención a todos los elementos que tienen un impacto en la capacidad, por ejemplo, compare las métricas de capacidad real con los requisitos del acuerdo de nivel de servicios, etc."/>
+							<tx l="fre" name="Utilisez le problème de conformité dans la matrice d'accord de niveau de service. Portez une attention particulière à tous les éléments ayant un impact sur la capacité, par exemple, comparez les mesures de capacité réelles aux exigences de l'accord de niveau de service, etc."/>
+							<tx l="ara" name="استخدام مسألة الامتثال في مصفوفة اتفاقية مستوى الخدمات. إيلاء اهتمام خاص لجميع العناصر التي لها تأثير على السعة ، على سبيل المثال ، مقارنة مقاييس السعة الفعلية بمتطلبات اتفاقية مستوى الخدمات ، إلخ."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -1770,52 +1772,68 @@ Comparez les paramètres de base des performances (à savoir la disponibilité d
 			</Issue>
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
-					<tx l="eng" name="Analyze And tune"/>
-					<tx l="fre" name="Analiza dhe rakordimi"/>
+					<tx l="eng" name="Analyze and tune"/>
+					<tx l="spa" name="Analizar y afinar"/>
+					<tx l="fre" name="Analyser et régler"/>
+					<tx l="ara" name="تحليل وضبط"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Best practices in performance tuning are applied (ie memory, optimization of network response time, OS, I/O; efficient design of database schema, scheduling tasks according to priority and resource requirement, upgrade or tuning procedures set up to handle capacity issues on both a reactive and long-term basis).</ak>
 					</narr>
+					<narr l="spa">
+						<ak>Se aplican las mejores prácticas en el ajuste del rendimiento (por ejemplo, memoria, optimización del tiempo de respuesta de la red, sistema operativo, I/O; diseño eficiente del esquema de la base de datos, programación de tareas de acuerdo con la prioridad y el requisito de recursos, procedimientos de actualización o ajuste configurados para manejar problemas de capacidad tanto de forma reactiva como a largo plazo).</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les meilleures pratiques en matière de réglage des performances sont appliquées (par exemple, mémoire, optimisation du temps de réponse du réseau, OS, I/O; conception efficace du schéma de base de données, planification des tâches en fonction de la priorité et des besoins en ressources, procédures de mise à niveau ou de réglage mises en place pour gérer les problèmes de capacité à la fois sur une base réactive et sur le long terme).</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يتم تطبيق أفضل الممارسات في ضبط الأداء (على سبيل المثال ، الذاكرة ، تحسين وقت استجابة الشبكة ، نظام التشغيل ، الإدخال / الإخراج ؛ التصميم الفعال لمخطط قاعدة البيانات ، جدولة المهام وفقًا للأولوية ومتطلبات الموارد ، إجراءات الترقية أو الضبط المعدة للتعامل مع مشكلات السعة على أساس رد الفعل وعلى المدى الطويل).</ak>
+					</narr>
 				</Narrative>
 				<Matrix id="Capacity Management">
 					<Objectives>
 						<obj>
-							<tx l="eng" name="Assess whether the IT organization is ensuring that the system capacity and performance meets current and future business needs"/>
-							<tx l="fre" name="Vlerësimi nëse struktura e IT siguron se kapaciteti i sistemit dhe performanca e tij arrin nevojat aktuale dhe të ardhshme të biznesit"/>
+							<tx l="eng" name="Assess whether the IT organization is ensuring that the system capacity and performance meets current and future business needs."/>
+							<tx l="spa" name="Evalúe si la organización de TI se asegura de que la capacidad y el rendimiento del sistema satisfagan las necesidades del negocio actuales y futuras."/>
+							<tx l="fre" name="Évaluer si l'organisation informatique s'assure que la capacité et les performances du système répondent aux besoins de l'entreprise actuels et futurs."/>
+							<tx l="ara" name="قم بتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تضمن أن قدرة النظام وأدائه يلبي احتياجات العمل الحالية والمستقبلية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Analyze &amp; tune - Is the performance data analyzed and tuned for efficiency gains and avoidance of capacity constraints? If needed has the IT organization planned for and acquired additional resources to meet business needs? Does the IT organization hire, train, or contract for staff as the business needs change?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Parameters set in the agreement/operation guide; best practices in performance tuning ( memory, optimization of network response time, OS, I/O; efficient design of database schema, scheduling tasks according to priority and resource requirement, upgrade or tuning procedures set up to handle capacity issues on both a reactive and long-term basis)."/>
-							<tx l="fre" name="Parametrat e vendosur në marrëveshje/udhëzime
-Praktikat më të mira në rakordimin e performancës (memorja, optimizmi i kohës së përgjigjes së rrjetit, sistemi operativ, input/output; skemë efiçiente e hartimit të bazës së të dhënave, detyrat e skeduluara në përputhje me prioritetin dhe burimet e kërkesave, procedurat e rritjes ose të rakordimit të vendosura për të menaxhuar çështjet e kapacitetit mbi baza emergjente dhe afatgjata
-"/>
+							<tx l="eng" name="Parameters set in the agreement/operation guide; best practices in performance tuning ( memory, optimization of network response time, OS, I/O, efficient design of database schema, scheduling tasks according to priority and resource requirement, upgrade or tuning procedures set up to handle capacity issues on both a reactive and long-term basis)."/>
+							<tx l="spa" name="Parámetros establecidos en la guía de acuerdo / operación; mejores prácticas en el ajuste del rendimiento (memoria, optimización del tiempo de respuesta de la red, sistema operativo,  I/O, diseño eficiente del esquema de la base de datos, programación de tareas de acuerdo con la prioridad y el requisito de recursos, procedimientos de actualización o ajuste establecidos para manejar problemas de capacidad tanto en un entorno reactivo como base a largo plazo)."/>
+							<tx l="fre" name="Paramètres définis dans le guide d'accord / d'opération; meilleures pratiques en matière de réglage des performances (mémoire, optimisation du temps de réponse du réseau, OS, I/O, conception efficace du schéma de base de données, planification des tâches en fonction de la priorité et des besoins en ressources, procédures de mise à niveau ou de réglage mises en place pour gérer les problèmes de capacité à la fois à long terme)."/>
+							<tx l="ara" name="المعلمات المحددة في دليل الاتفاقية / العملية ؛ أفضل الممارسات في ضبط الأداء (الذاكرة ، تحسين وقت استجابة الشبكة ، نظام التشغيل ، الإدخال / الإخراج ، التصميم الفعال لمخطط قاعدة البيانات ، جدولة المهام وفقًا للأولوية ومتطلبات الموارد ، إجراءات الترقية أو الضبط التي تم إعدادها للتعامل مع مشكلات السعة على كل من رد الفعل و على المدى الطويل)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Reports, actions, status reports, performance metric graphs,
-
-Minutes of meeting at the apex IT organization level.
-"/>
-							<tx l="fre" name="Raporte, veprime, raporte statusi, grafikë të matjeve të performancës
-Procesverbale të mbledhjeve me temë IT në nivel organizacional
-"/>
+							<tx l="eng" name="Reports, actions, status reports, performance metric graphs, minutes of meeting at the apex IT organization level."/>
+							<tx l="spa" name="Informes, acciones, informes de estado, gráficos de métricas de rendimiento, actas de reuniones en el nivel de topo de la organización de TI"/>
+							<tx l="fre" name="Rapports, actions, rapports d'état, graphiques de mesure de performance, procès-verbaux de réunion au plus haut niveau de l'organisation informatique."/>
+							<tx l="ara" name="التقارير والإجراءات وتقارير الحالة والرسوم البيانية لمقاييس الأداء ومحاضر الاجتماع على مستوى المؤسسة العليا."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the reports that the IT Organization generates daily or at other chosen time frame, look to see if they generate and analyze trend data, identify bottlenecks to look for action items, exception reporting for capacity issues. Compare to SLA requirements.
-
 Compare reports/trend patterns to verify procedural actions taken in response to the reports.
-
 Review minutes of meetings and find whether IT staffing issues, capacity problems and any additional resource needs are discussed and highlighted at the right time.
 "/>
-							<tx l="fre" name="Rishikim i raporteve që struktura IT gjeneron mbi baza ditore dhe më gjatë, observim për të parë nëse ata gjenerojnë dhe analizojnë të dhënat e trendit, identifikojnë pengesat për të parë veprimet, raportimi për çështjet e kapacitetit. Krahasim me kërkesat e SLA.
-Krahasim i raporteve/modeleve të trendit për të verifikuar veprimet proceduriale të ndërmarra në përgjigje të raporteve.
-Rishikim i procesverbaleve të mbledhjeve dhe observimi nëse çështjet e personelit IT, problemet e kapaciteti dhe nevoja të tjera burimore diskutohen dhe theksohen në kohën e duhur.
+							<tx l="spa" name="Revise los informes que la organización de TI genera diariamente o en otro período de tiempo elegido, observe si generan y analizan datos de tendencias, identifique estrechamientos para buscar elementos de acción, informes de excepciones para problemas de capacidad. Compare con los requisitos de los acuerdos de nivel de servicio.
+Compare informes / patrones de tendencias para verificar las acciones de procedimiento tomadas en respuesta a los informes.
+Revise las actas de las reuniones y averigüe si los problemas de personal de TI, los problemas de capacidad y las necesidades de recursos adicionales se debaten y destacan en el momento adecuado.
+"/>
+							<tx l="fre" name="Passez en revue les rapports que l'organisation informatique génère quotidiennement ou à un autre intervalle de temps choisi, regardez s'ils génèrent et analysent des données de tendance, identifiez les goulots d'étranglement pour rechercher des actions, rapports d'exception pour les problèmes de capacité. Comparer avec les exigences des accords de niveau de service.
+Comparez les rapports / modèles de tendance pour vérifier les actions procédurales prises en réponse aux rapports.
+Passez en revue les procès-verbaux des réunions et vérifiez si les problèmes de personnel informatique, les problèmes de capacité et les besoins en ressources supplémentaires sont discutés et mis en évidence au bon moment.
+"/>
+							<tx l="ara" name="راجع التقارير التي تنشئها منظمة تكنولوجيا المعلومات يوميًا أو في إطار زمني آخر مختار ، وانظر لمعرفة ما إذا كانت تولد بيانات الاتجاهات وتحللها ، وتحدد الاختناقات للبحث عن عناصر العمل ، وتقارير الاستثناءات لقضايا السعة. قارن بمتطلبات اتفاقيات مستوى الخدمة.
+قارن بين التقارير / أنماط الاتجاه للتحقق من الإجراءات الإجرائية المتخذة استجابة للتقارير.
+راجع محاضر الاجتماعات واكتشف ما إذا كانت مشكلات موظفي تكنولوجيا المعلومات ومشكلات القدرات وأي احتياجات إضافية من الموارد قد تمت مناقشتها وإبرازها في الوقت المناسب.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1840,66 +1858,105 @@ Rishikim i procesverbaleve të mbledhjeve dhe observimi nëse çështjet e perso
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Problem and Incident Management"/>
-				<tx l="fre" name="Menaxhimi i problemeve dhe incidenteve"/>
+				<tx l="eng" name="Problem and incident management"/>
+				<tx l="spa" name="Gestión de incidentes y problemas"/>
+				<tx l="fre" name="Gestion des problèmes et des incidents"/>
+				<tx l="ara" name="إدارة المشاكل والحوادث"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Incident management is the systems and practices used to determine whether incidents or errors are recorded, analysed and resolved in a timely manner. Problem management aims to resolve issues through investigation and in depth analysis of a major or recurring incidents in order to identify the root cause.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La gestión de incidentes son los sistemas y prácticas utilizados para determinar si los incidentes o errores se registran, analizan y resuelven de manera oportuna. La gestión de problemas tiene como objetivo resolver problemas mediante la investigación y el análisis en profundidad de incidentes importantes o recurrentes para identificar la causa raíz.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La gestion des incidents est constituée des systèmes et des pratiques utilisés pour déterminer si les incidents ou les erreurs sont enregistrés, analysés et résolus en temps opportun. La gestion des problèmes vise à résoudre les problèmes par une enquête et une analyse approfondie d'un incident majeur ou récurrent afin d'en identifier la cause profonde.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>إدارة الحوادث هي الأنظمة والممارسات المستخدمة لتحديد ما إذا كانت الحوادث أو الأخطاء يتم تسجيلها وتحليلها وحلها في الوقت المناسب. تهدف إدارة المشكلات إلى حل المشكلات من خلال التحقيق والتحليل المتعمق للحوادث الرئيسية أو المتكررة من أجل تحديد السبب الجذري.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Policy awareness"/>
-					<tx l="fre" name="Ndërgjegjësimi ndaj politikave"/>
+					<tx l="spa" name="Conocimiento de las políticas"/>
+					<tx l="fre" name="Sensibilisation aux politiques"/>
+					<tx l="ara" name="الوعي بالسياسات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>There should be a documented incident response policy and the business users are aware of it.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Debe haber una política de respuesta a incidentes documentada y los usuarios comerciales la conozcan.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Il doit y avoir une politique de réponse aux incidents documentée et les utilisateurs métier en sont conscients.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يجب أن تكون هناك سياسة استجابة موثقة للحوادث وأن يكون مستخدمو الأعمال على دراية بها.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Problem &amp; Incident Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To evaluate the effectiveness of organization’s problem and incident management policies and procedures."/>
-							<tx l="fre" name="Vlerësimi i efektivitetit të menaxhimit të politikave dhe procedurave të menaxhimit të problemeve dhe incidenteve të organizatës"/>
+							<tx l="spa" name="Evaluar la efectividad de las políticas y procedimientos de gestión de incidentes y problemas de la organización."/>
+							<tx l="fre" name="Évaluer l’efficacité des politiques et procédures de gestion des problèmes et des incidents de l’organisation."/>
+							<tx l="ara" name="لتقييم فعالية سياسات وإجراءات إدارة المشاكل والحوادث في المنظمة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Policy awareness - Is there a documented incident response policy and are the business users aware of it?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Best practices in incident response"/>
-							<tx l="fre" name="Praktikat më të mira në përgjigjet ndaj incidenteve"/>
+							<tx l="spa" name="Mejores prácticas en respuesta a incidentes"/>
+							<tx l="fre" name="Meilleures pratiques en matière de réponse aux incidents"/>
+							<tx l="ara" name="أفضل الممارسات في الاستجابة للحوادث"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Entity’s incidents response policy
-
-Guidelines for communicating with outside parties regarding incidents
+							<tx l="eng" name="Entity’s incidents response policy.
+Guidelines for communicating with outside parties regarding .
 "/>
-							<tx l="fre" name="Politikat e subjektit për përgjigjen ndaj incidenteve
-
-Udhëzime për komunikimin me palët e jashtme në rast të incidenteve
+							<tx l="spa" name="Política de respuesta a incidentes de la entidad.
+Directrices para comunicarse con terceros en relación con incidentes.
+"/>
+							<tx l="fre" name="Politique de réponse aux incidents de l'entité.
+Lignes directrices pour la communication avec des tiers concernant les incidents.
+"/>
+							<tx l="ara" name="سياسة الاستجابة لحوادث الكيان.
+إرشادات للتواصل مع الأطراف الخارجية فيما يتعلق بالحوادث.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review the policy to find whether it contains appropriate stages
-
+							<tx l="eng" name="Review the policy to find whether it contains appropriate stages. 
 Preparation, detection and analysis, containment and eradication, post-incident activity. Does type of activity depend on high incidence or weight of incidents?
-
-Verify whether the policy assigns responsibility, scope and reporting requirements
-
-Review the actual procedures by which the business users are made aware of the policy; and the nature of communication between the incidents response team and the business stakeholders.
-
+Verify whether the policy assigns responsibility, scope and reporting requirements. 
+Review the actual procedures by which the business users are made aware of the policy, and the nature of communication between the incidents response team and the business stakeholders.
 Interview a sample of business users across the organization to get an assurance about the awareness about the incident response plan.
 "/>
-							<tx l="fre" name="Rishikim i poltikave për të verfikuar nëse përmbajnë fazat e duhura-përgatitja, zbulimi dhe analizat, kontrollin dhe çrrënjosjen, aktivitetet pas incidentit. A ndikon lloji i incidentit në madhësinë ose peshën e incidentit?
-Verifikimi nëse politikat caktojnë përgjegjësitë, qëllimin dhe kërkesat e raportimit.
-Rishikim i procedurave aktuale nëpërmjet të cilave përdoruesit e biznesit janë në njohje të politikave; dhe natyrën e komunikimit midis grupit të përgjigjes ndaj incidentit dhe palëve të interesuara ndaj biznesit.
-Intervista me një kampjon përdoruesisht të biznesit në organizatë për të marrë siguri rreth ndërgjegjësimit mbi planet e reagueshmërisë ndaj incidenteve.
+							<tx l="spa" name="Revise la política para determinar si contiene las etapas adecuadas.
+Preparación, detección y análisis, contención y erradicación, actividad post incidente. ¿Depende el tipo de actividad de la alta incidencia o peso de las incidencias?
+Verifique si la política asigna responsabilidad, alcance y requisitos de informes.
+Revise los procedimientos reales mediante los cuales los usuarios del negocio conocen la política y la naturaleza de la comunicación entre el equipo de respuesta a incidentes y las partes interesadas del negocio.
+Entreviste a una muestra de usuarios del negocio de toda la organización para asegurarse de conocer el plan de respuesta a incidentes.
+"/>
+							<tx l="fre" name="Passez en revue la politique pour déterminer si elle contient les étapes appropriées.
+Préparation, détection et analyse, confinement et éradication, activité post-incident. Le type d'activité dépend-il de l'incidence ou du poids élevé des incidents?
+Vérifiez si la politique attribue la responsabilité, la portée et les exigences en matière de rapports.
+Passez en revue les procédures réelles par lesquelles les utilisateurs métier sont informés de la politique et la nature de la communication entre l'équipe de réponse aux incidents et les parties prenantes de l'entreprise.
+Interrogez un échantillon d'utilisateurs professionnels de l'organisation pour obtenir une assurance sur la connaissance du plan de réponse aux incidents.
+"/>
+							<tx l="ara" name="راجع السياسة لمعرفة ما إذا كانت تحتوي على مراحل مناسبة.
+التحضير والكشف والتحليل والاحتواء والقضاء ونشاط ما بعد الحادث. هل نوع النشاط يعتمد على نسبة عالية من الحوادث أو وزنها؟
+تحقق مما إذا كانت السياسة تحدد المسؤولية والنطاق ومتطلبات إعداد التقارير.
+راجع الإجراءات الفعلية التي يتم من خلالها توعية مستخدمي الأعمال بالسياسة وطبيعة الاتصال بين فريق الاستجابة للحوادث وأصحاب المصلحة في الأعمال.
+قم بإجراء مقابلة مع عينة من مستخدمي الأعمال في جميع أنحاء المؤسسة للحصول على تأكيد حول الوعي بخطة الاستجابة للحوادث.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1924,77 +1981,103 @@ Intervista me një kampjon përdoruesisht të biznesit në organizatë për të 
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Skill sets and resources"/>
-					<tx l="fre" name="Përcaktimi i aftësive dhe burimeve"/>
+					<tx l="spa" name="Conjuntos de competencias y recursos"/>
+					<tx l="fre" name="Ensembles de compétences et ressources"/>
+					<tx l="ara" name="مجموعات المهارات والموارد"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>There have to be an adequately skilled incident response team having proper tools, resources and higher management support to handle incidents.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Tiene que haber un equipo de respuesta a incidentes con la capacitación adecuada que cuente con las herramientas, los recursos y el soporte de gestión adecuados para manejar los incidentes.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Il doit y avoir une équipe d'intervention en cas d'incident suffisamment qualifiée, disposant des outils, des ressources et du soutien de la direction appropriés pour gérer les incidents.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يجب أن يكون هناك فريق استجابة للحوادث يتمتع بمهارات كافية ولديه أدوات وموارد مناسبة ودعم إداري أعلى للتعامل مع الحوادث.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Problem &amp; Incident Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To evaluate the effectiveness of organization’s problem and incident management policies and procedures."/>
-							<tx l="fre" name="Vlerësimi i efektivitetit të menaxhimit të politikave dhe procedurave të menaxhimit të problemeve dhe incidenteve të organizatës"/>
+							<tx l="spa" name="Evaluar la efectividad de las políticas y procedimientos de gestión de incidentes y problemas de la organización."/>
+							<tx l="fre" name="Évaluer l’efficacité des politiques et procédures de gestion des problèmes et des incidents de l’organisation."/>
+							<tx l="ara" name="لتقييم فعالية سياسات وإجراءات إدارة المشاكل والحوادث في المنظمة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Skill sets and resources - Is there an adequately skilled incident response team having proper tools, resources and higher management support to handle incidents?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Incidents response best practices , NIST guidelines, as laid down in SLA."/>
-							<tx l="fre" name="Praktikat më të mira në përgjigjen ndaj incidenteve, udhëzimet NIST (udhëzime për mbrojtjen e infrastrukturës teknologjike), të përshrkuara si në SLA."/>
+							<tx l="eng" name="Incidents response best practices, NIST guidelines, as laid down in SLA."/>
+							<tx l="spa" name="Mejores prácticas de respuesta a incidentes, directivas del NIST, según lo establecido en el acuerdo de nivel de servicio."/>
+							<tx l="fre" name="Mejores prácticas de respuesta a incidentes, pautas del NIST, según lo establecido en el acuerdo de nivel de servicio."/>
+							<tx l="ara" name="أفضل ممارسات الاستجابة للحوادث ، إرشادات NIST ، على النحو المنصوص عليه في اتفاقية مستوى الخدمة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Information Required
-
-Incident response policy and plan, Charter of the incident response
-team, composition and expertise
-
-SLA
-
-Incident response awareness training, upgrade strategy for skill sets of IRT staff
-
-List of logging tools and applications used for network monitoring and usage
-s
-
+							<tx l="eng" name="Incident response policy and plan, Charter of the incident response.
+Team, composition and expertise.
+SLA.
+Incident response awareness training, upgrade strategy for skill sets of IT staff.
+List of logging tools and applications used for network monitoring and usages.
 "/>
-							<tx l="fre" name="Politikat dhe planet e përgjigjes ndaj incidenteve
-
-Strukturë e grupit të përgjigjes ndaj incidenteve, përbërja dhe ekspertiza e tyre
-
-SLA
-
-Trajnime mbi ndërgjegjësimin ndaj përgjigjes mbi incidentet, strategji të zgjeruara për grupin e trajnimit
-
-Lista e mjeteve të logimit dhe të aplikacioneve të përdorura në monitorimin e rrjetit dhe në përdorimin e tij
+							<tx l="spa" name="Política y plan de respuesta a incidentes, Carta de la respuesta a incidentes.
+Equipo, composición y experiencia.
+Acuerdo de nivel de servicio.
+Entrenamiento de conciencia de respuesta a incidentes, estrategia de actualización para conjuntos de habilidades del personal de TI.
+Lista de herramientas y aplicaciones de registro que se utilizan para la supervisión y el uso de la red.
+"/>
+							<tx l="fre" name="Politique et plan de réponse aux incidents, Charte de la réponse aux incidents.
+Équipe, composition et expertise.
+Accord de niveau de service.
+Formation de sensibilisation à la réponse aux incidents, stratégie de mise à niveau des compétences du personnel informatique.
+Liste des outils et applications de journalisation utilisés pour la surveillance et les utilisations du réseau.
+"/>
+							<tx l="ara" name="سياسة وخطة الاستجابة للحوادث ، ميثاق الاستجابة للحوادث.
+الفريق والتكوين والخبرة.
+اتفاقية مستوى الخدمة.
+التدريب على التوعية بالاستجابة للحوادث ، واستراتيجية الترقية لمجموعات المهارات لموظفي تكنولوجيا المعلومات.
+قائمة بأدوات التسجيل والتطبيقات المستخدمة لمراقبة الشبكة واستخداماتها.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Look at whether the team has a charter to investigate incidents,
-
+							<tx l="eng" name="Look at whether the team has a charter to investigate incidents.
 Look for expertise in networks, operating systems, and security in the team members and how they conduct their work.
-
-Review the service desk procedures to check whether escalation procedures are laid down for incidents that cannot be resolved immediately in accordance to risk categories defined in the SLA
-
+Review the service desk procedures to check whether escalation procedures are laid down for incidents that cannot be resolved immediately in accordance to risk categories defined in the SLA.
 Review what actions have been taken in response to past incidents.
-
 Review case report(s) to check whether appropriate personnel were involved in investigating incidents.
-
 Check what incident management tools are being used – are they relevant for the organization’s needs?
-
 Verify whether the organization has established logging standards and procedures to ensure that adequate information is collected by logs and security software and that the data is reviewed regularly.
 "/>
-							<tx l="fre" name="Observimi nëse grupi ka një grafik të investigimit të incidenteve.
-Observimi për ekspertizë në rrjete, sisteme operative, dhe sigurinë në anëtarët e grupit dhe sesi ata e kryejnë punën e tyre.
-Rishikim i procedurave të help desk-ut për të kontrolluar nëse procedurat e përshkallëzimit janë hedhur poshtë pët incidente të cilat nuk mund të zgjidhen menjëherë në përputhje me kategorizimin e risqeve të përcaktuar në SLA.
-Rishikim se cilat veprime janë ndërmarrë për zgjidhjen e incidenteve të mëparshme.
-Rishikim i raporteve të çështjeve për të kontrolluar nëse personeli i duhur është përfshirë në investigimin e incidenteve.
-Kontrolli se cilat mjete të menaxhimit të incidenteve janë përdorur-a janë të lidhura me nevojat e biznesit?
-Verifikimi nëse orgnizata ka hartuar standarde logimi dhe procedura për tu siguruar se informacioni mblidhet nga loget dhe programet e sigurisë dhe se të dhënat rishikohen periodikisht.
+							<tx l="spa" name="Busque si el equipo tiene un estatuto para investigar incidentes.
+Busque experiencia en redes, sistemas operativos y seguridad en los miembros del equipo y en cómo realizan su trabajo.
+Revise los procedimientos de locentro de respuesta a incidentes para verificar si se establecen procedimientos de escalamiento para incidentes que no se pueden resolver de inmediato de acuerdo con las categorías de riesgo definidas en el acuerdo de nivel de servicio.
+Revise qué acciones se han tomado en respuesta a incidentes pasados.
+Revise los informes de casos para verificar si el personal apropiado estuvo involucrado en la investigación de incidentes.
+Compruebe qué herramientas de gestión de incidentes se están utilizando: ¿son relevantes para las necesidades de la organización?
+Verifique si la organización ha establecido estándares y procedimientos de registro para garantizar que los registros y el software de seguridad recopilen la información adecuada y que los datos se revisen con regularidad.
+"/>
+							<tx l="fre" name="Vérifiez si l'équipe a une charte pour enquêter sur les incidents.
+Recherchez l'expertise dans les réseaux, les systèmes d'exploitation et la sécurité chez les membres de l'équipe et la façon dont ils mènent leur travail.
+Examiner les procédures du centre de services pour vérifier si des procédures d'escalade sont définies pour les incidents qui ne peuvent pas être résolus immédiatement conformément aux catégories de risque définies dans l'accord de niveau de service.
+Passez en revue les mesures qui ont été prises en réponse aux incidents passés.
+Examiner le (s) rapport (s) de cas pour vérifier si le personnel approprié a participé à l'enquête sur les incidents.
+Vérifiez quels outils de gestion des incidents sont utilisés - sont-ils pertinents pour les besoins de l’organisation?
+Vérifiez si l'organisation a établi des normes et des procédures de journalisation pour garantir que les informations adéquates sont collectées par les journaux et les logiciels de sécurité et que les données sont régulièrement examinées.
+"/>
+							<tx l="ara" name="انظر إلى ما إذا كان لدى الفريق ميثاق للتحقيق في الحوادث.
+ابحث عن الخبرة في الشبكات وأنظمة التشغيل والأمن في أعضاء الفريق وكيفية أدائهم لعملهم.
+راجع إجراءات مكتب الخدمة للتحقق مما إذا تم وضع إجراءات التصعيد للحوادث التي لا يمكن حلها على الفور وفقًا لفئات المخاطر المحددة في اتفاقية مستوى الخدمة.
+راجع الإجراءات التي تم اتخاذها ردًا على الأحداث الماضية.
+مراجعة تقرير (تقارير) الحالة للتحقق مما إذا كان الموظفون المناسبون قد شاركوا في التحقيق في الحوادث.
+تحقق من أدوات إدارة الحوادث التي يتم استخدامها - هل هي ذات صلة باحتياجات المنظمة؟
+تحقق مما إذا كانت المنظمة قد وضعت معايير وإجراءات التسجيل للتأكد من أن المعلومات الكافية يتم جمعها بواسطة السجلات وبرامج الأمان وأن البيانات تتم مراجعتها بانتظام.
 "/>
 						</anm>
 					</AnalysisMethod>
