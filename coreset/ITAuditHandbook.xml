@@ -408,36 +408,61 @@ Interviewer la direction pour déterminer comment l'organisation prend des déci
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="IT Strategy and Planning"/>
-				<tx l="spa" name="Strategia IT i planowanie"/>
-				<tx l="fre" name="Strategjia e IT"/>
+				<tx l="spa" name="Planificación y estrategia de TI"/>
+				<tx l="fre" name="Stratégie et planification informatiques"/>
+				<tx l="ara" name="استراتيجية تكنولوجيا المعلومات والتخطيط"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>The IT Strategy represents the mutual alignment between IT strategy and business strategic objectives. The IT strategic objectives should consider the current and future needs of the business, the current IT capacity to deliver services and the requirement of resources.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La estrategia de TI representa la alineación mutua entre la estrategia de TI y los objetivos estratégicos del negocio. Los objetivos estratégicos de TI deben considerar las necesidades actuales y futuras del negocio, la capacidad actual de TI para brindar servicios y los requisitos de recursos.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La stratégie informatique représente l'alignement mutuel entre la stratégie informatique et les objectifs stratégiques de l'entreprise. Les objectifs stratégiques informatiques doivent tenir compte des besoins actuels et futurs de l'entreprise, de la capacité informatique actuelle de fournir des services et des besoins en ressources.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تمثل استراتيجية تكنولوجيا المعلومات المواءمة المتبادلة بين استراتيجية تكنولوجيا المعلومات والأهداف الاستراتيجية للأعمال. يجب أن تراعي الأهداف الإستراتيجية لتكنولوجيا المعلومات الاحتياجات الحالية والمستقبلية للأعمال ، وقدرة تكنولوجيا المعلومات الحالية على تقديم الخدمات ومتطلبات الموارد.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Quality of IT strategy"/>
-					<tx l="fre" name="Konfirmimi nëse ekziston një strategji IT, e cila përfshin plan IT dhe proçeset për zhvillimin, aprovimin, dhe zbatimin dhe mirëmbajtjen e strategjisë, e cila është e lidhur me strategjinë dhe objektivat e organizatës. Risqet dhe burimet gjatë përmbushjes së objektivave të IT janë të menaxhuara efektivisht."/>
+					<tx l="spa" name="Calidad de la estrategia de TI"/>
+					<tx l="fre" name="Qualité de la stratégie informatique"/>
+					<tx l="ara" name="جودة استراتيجية تكنولوجيا المعلومات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>An organizational level IT strategic plan exists, it translates business objectives into IT goals and requirements, addresses the needed IT resources to support the business, it is reviewed and updated periodically.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Existe un plan estratégico de TI a nivel organizacional, que traduce los objetivos del negocio en metas y requisitos de TI, aborda los recursos de TI necesarios para respaldar el negocio, se revisa y actualiza periódicamente.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Un plan stratégique informatique au niveau organisationnel existe, il traduit les objectifs de l'entreprise en buts et exigences informatiques, traite des ressources informatiques nécessaires pour soutenir l'entreprise, il est revu et mis à jour périodiquement.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>توجد خطة استراتيجية لتكنولوجيا المعلومات على المستوى التنظيمي ، وهي تترجم أهداف العمل إلى أهداف ومتطلبات تكنولوجيا المعلومات ، وتتناول موارد تكنولوجيا المعلومات اللازمة لدعم الأعمال ، وتتم مراجعتها وتحديثها بشكل دوري.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="IT Strategy">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Confirm whether there is an IT strategy in place, including the IT plan and the processes for the strategy’s development, approval, and implementation and maintenance which is aligned with the organization’s strategies and objectives. The risks and resources while accomplishing IT objectives are effectively managed."/>
-							<tx l="fre" name="Konfirmimi nëse ekziston një strategji IT, e cila përfshin plan IT dhe proçeset për zhvillimin, aprovimin, dhe zbatimin dhe mirëmbajtjen e strategjisë, e cila është e lidhur me strategjinë dhe objektivat e organizatës. Risqet dhe burimet gjatë përmbushjes së objektivave të IT janë të menaxhuara efektivisht."/>
+							<tx l="spa" name="Confirme si existe una estrategia de TI, incluido el plan de TI y los procesos para el desarrollo, la aprobación, la implementación y el mantenimiento de la estrategia, que esté alineado con las estrategias y los objetivos de la organización. Los riesgos y recursos mientras se logran los objetivos de TI se gestionan de forma eficaz."/>
+							<tx l="fre" name="Confirmez si une stratégie informatique est en place, y compris le plan informatique et les processus de développement, d'approbation, de mise en œuvre et de maintenance de la stratégie, alignés sur les stratégies et les objectifs de l'organisation. Les risques et les ressources tout en atteignant les objectifs informatiques sont gérés efficacement."/>
+							<tx l="ara" name="تأكد مما إذا كانت هناك إستراتيجية لتكنولوجيا المعلومات ، بما في ذلك خطة تكنولوجيا المعلومات وعمليات تطوير الاستراتيجية والموافقة عليها وتنفيذها وصيانتها والتي تتماشى مع استراتيجيات وأهداف المنظمة. تتم إدارة المخاطر والموارد أثناء تحقيق أهداف تكنولوجيا المعلومات بشكل فعال."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Quality of IT strategy - Does the organization have an IT Strategy that serves to guide its IT functions?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="An organizational level IT strategic plan exists, it translates business objectives into IT goals and requirements, addresses the needed IT resources to support the business, it is reviewed and updated periodically."/>
-							<tx l="fre" name="Ekziston një plan në nivel strategjik i IT, i cili përkthen objektivat e biznesit në qëllime dhe kërkesa të IT, adreson burimet e nevojshme për të mbështetur biznesin, rishikohet dhe azhurnohet sistematikisht"/>
+							<tx l="spa" name="Existe un plan estratégico de TI a nivel organizacional, que traduce los objetivos del negocio en metas y requisitos de TI, aborda los recursos de TI necesarios para respaldar el negocio, se revisa y actualiza periódicamente."/>
+							<tx l="fre" name="Un plan stratégique informatique au niveau organisationnel existe, il traduit les objectifs de l'entreprise en buts et exigences informatiques, traite des ressources informatiques nécessaires pour soutenir l'entreprise, il est revu et mis à jour périodiquement."/>
+							<tx l="ara" name="توجد خطة استراتيجية لتكنولوجيا المعلومات على المستوى التنظيمي ، وهي تترجم أهداف العمل إلى أهداف ومتطلبات تكنولوجيا المعلومات ، وتتناول موارد تكنولوجيا المعلومات اللازمة لدعم الأعمال ، وتتم مراجعتها وتحديثها بشكل دوري."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
@@ -446,34 +471,40 @@ Interviewer la direction pour déterminer comment l'organisation prend des déci
 
 Meeting minutes from IT and Organizations Steering committee meetings
 "/>
-							<tx l="fre" name="Plani strategjik i IT, dokument ekuivalent
+							<tx l="spa" name="Plan estratégico de TI o documento equivalente
 
-Proçesverbale nga mbledhjet e Komitetit të Drejtimit të organizatës
+Actas de reuniones de las reuniones del comité directivo de TI y organizaciones
 "/>
+							<tx l="fre" name="Plan stratégique informatique ou document équivalent
+
+Compte-rendu des réunions du comité de pilotage informatique et organisations
+"/>
+							<tx l="ara" name="الخطة الإستراتيجية لتكنولوجيا المعلومات ، أو وثيقة معادلة
+
+محاضر الاجتماعات من اجتماعات اللجنة التوجيهية لتكنولوجيا المعلومات والمنظمات
+"/>
+
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review of document
+							<tx l="eng" name="Review of document.
 Interview business owners to determine if their needs are met by the IT organization Review periodic IT Committee and Organizational Steering Committee meeting minutes to ensure that business owners are represented and that strategic IT decisions are made at the Steering Committee level.
 
 Review the IT Strategy or interview management to determine resources requirements and how they are determined and approved, who approves appropriate acquisition of tools and other resources (staff, contractors, skill via training, etc).
 "/>
-							<tx l="fre" name="Rishikim i dokumentave
+							<tx l="spa" name="Revisión de documento.
+Entreviste a los propietarios del negocio para determinar si la organización de TI satisface sus necesidades. Revise las actas de las reuniones periódicas del Comité de TI y del Comité Directivo de la organización para asegurarse de que los propietarios de negocios estén representados y que las decisiones estratégicas de TI se tomen a nivel del Comité Directivo.
 
-Intervistimi i pronarëve të biznesit për të përcaktuar nëse nevojat e tyre janë arritur nga organizmi i IT.
+Revise la estrategia de TI o la gestión de entrevistas para determinar los requisitos de recursos y cómo se determinan y aprueban, quién aprueba la adquisición adecuada de herramientas y otros recursos (personal, contratistas, habilidades a través de capacitación, etc.)."/>
+							<tx l="fre" name="Examen du document.
+Interviewer les propriétaires d'entreprise pour déterminer si leurs besoins sont satisfaits par l'organisation informatique. Examiner les procès-verbaux des réunions périodiques du comité informatique et du comité de direction organisationnel pour s'assurer que les propriétaires d'entreprise sont représentés et que les décisions informatiques stratégiques sont prises au niveau du comité directeur.
 
-Rishikimi i proçesverbaleve të mbledhjeve të Komitetit të Drejtimit të organizatës për tu siguruar se pronarë e biznesit janë të përfaqësuar dhe se vendimet e strategjisë së IT janë marrë në nivel Komiteti Drejtimi.
-
-Rishikimi i Strategjisë së IT ose intervistimi i menaxhimit për të përcaktuar kërkesar për burime, si janë përcaktuar dhe aprovuar, kush aprovon blerjet e duhura të mjeteve dhe burimeve të tjera (stafin, kontraktorët, aftësitë nëpërmjet trajnimeve, etj.)
-Rishikim i dokumentave
-
-Intervistimi i pronarëve të biznesit për të përcaktuar nëse nevojat e tyre janë arritur nga organizmi i IT.
-
-Rishikimi i proçesverbaleve të mbledhjeve të Komitetit të Drejtimit të organizatës për tu siguruar se pronarë e biznesit janë të përfaqësuar dhe se vendimet e strategjisë së IT janë marrë në nivel Komiteti Drejtimi.
-
-Rishikimi i Strategjisë së IT ose intervistimi i menaxhimit për të përcaktuar kërkesar për burime, si janë përcaktuar dhe aprovuar, kush aprovon blerjet e duhura të mjeteve dhe burimeve të tjera (stafin, kontraktorët, aftësitë nëpërmjet trajnimeve, etj.)
+Examiner la stratégie informatique ou la gestion des entretiens pour déterminer les besoins en ressources et comment ils sont déterminés et approuvés, qui approuve l'acquisition appropriée d'outils et d'autres ressources (personnel, sous-traitants, compétences via la formation, etc.).
 "/>
+							<tx l="ara" name="مقابلة أصحاب الأعمال لتحديد ما إذا كان يتم تلبية احتياجاتهم من قبل منظمة تكنولوجيا المعلومات مراجعة دورية لجنة تكنولوجيا المعلومات والتنظيمية. محاضر اجتماعات لجنة التوجيه لضمان تمثيل أصحاب الأعمال واتخاذ قرارات تقنية المعلومات الاستراتيجية على مستوى اللجنة التوجيهية.
+
+قم بمراجعة استراتيجية تكنولوجيا المعلومات أو إدارة المقابلة لتحديد متطلبات الموارد وكيفية تحديدها والموافقة عليها ، ومن يوافق على الاقتناء المناسب للأدوات والموارد الأخرى (الموظفون والمتعاقدون والمهارات من خلال التدريب ، إلخ)."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -497,59 +528,79 @@ Rishikimi i Strategjisë së IT ose intervistimi i menaxhimit për të përcaktu
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Risk management"/>
-					<tx l="fre" name="Menaxhimi i riskut"/>
+					<tx l="spa" name="Gestión de riesgos"/>
+					<tx l="fre" name="Gestion des risques"/>
+					<tx l="ara" name="إدارة المخاطر"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organization has risk management policy and plan and has assigned sufficient resources to identify and manage risks.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>The organization has risk management policy and plan and has assigned sufficient resources to identify and manage risks.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation a une politique et un plan de gestion des risques et a affecté des ressources suffisantes pour identifier et gérer les risques.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>لدى المنظمة سياسة وخطة لإدارة المخاطر وقد خصصت موارد كافية لتحديد وإدارة المخاطر.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="IT Strategy">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Confirm whether there is an IT strategy in place, including the IT plan and the processes for the strategy’s development, approval, and implementation and maintenance which is aligned with the organization’s strategies and objectives. The risks and resources while accomplishing IT objectives are effectively managed."/>
-							<tx l="fre" name="Konfirmimi nëse ekziston një strategji IT, e cila përfshin plan IT dhe proçeset për zhvillimin, aprovimin, dhe zbatimin dhe mirëmbajtjen e strategjisë, e cila është e lidhur me strategjinë dhe objektivat e organizatës. Risqet dhe burimet gjatë përmbushjes së objektivave të IT janë të menaxhuara efektivisht."/>
+							<tx l="spa" name="Confirme si existe una estrategia de TI, incluido el plan de TI y los procesos para el desarrollo, la aprobación, la implementación y el mantenimiento de la estrategia, que esté alineado con las estrategias y los objetivos de la organización. Los riesgos y recursos mientras se logran los objetivos de TI se gestionan de forma eficaz."/>
+							<tx l="fre" name="Confirmez si une stratégie informatique est en place, y compris le plan informatique et les processus de développement, d'approbation, de mise en œuvre et de maintenance de la stratégie, alignés sur les stratégies et les objectifs de l'organisation. Les risques et les ressources tout en atteignant les objectifs informatiques sont gérés efficacement."/>
+							<tx l="ara" name="تأكد مما إذا كانت هناك إستراتيجية لتكنولوجيا المعلومات ، بما في ذلك خطة تكنولوجيا المعلومات وعمليات تطوير الاستراتيجية والموافقة عليها وتنفيذها وصيانتها والتي تتماشى مع استراتيجيات وأهداف المنظمة. تتم إدارة المخاطر والموارد أثناء تحقيق أهداف تكنولوجيا المعلومات بشكل فعال."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Risk management - How does the organization manage their risks?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization has risk management policy and plan and has assigned sufficient resources to identify and manage risks."/>
-							<tx l="fre" name="Organizata ka politika dhe plane të menaxhimit të riskut, si dhe ka përcaktuar burimet e mjaftueshme për të identifikuar dhe menaxhuar risqet"/>
+							<tx l="spa" name="La organización tiene una política y un plan de gestión de riesgos y ha asignado recursos suficientes para identificar y gestionar los riesgos."/>
+							<tx l="fre" name="L'organisation a une politique et un plan de gestion des risques et a affecté des ressources suffisantes pour identifier et gérer les risques."/>
+							<tx l="ara" name="لدى المنظمة سياسة وخطة لإدارة المخاطر وقد خصصت موارد كافية لتحديد وإدارة المخاطر."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Risk management plan List of risks (including IT)
-and mitigation strategies
-
-Minutes of periodic risk assessment or other meeting if available
+							<tx l="eng" name="Risk management plan. List of risks (including IT) and mitigation strategies.
+Minutes of periodic risk assessment or other meeting if available.
 "/>
-							<tx l="fre" name="Plani i menaxhimit të riskut
-
-Lista e strategjive të risqeve dhe zvogëlimit të tyre (përfshirë IT)
-
-Proçesverbalet e vlerësimeve periodike të riskut ose dokumenta të tjerë ekuivalentë
+							<tx l="spa" name="Plan de gestión de Riesgos. Lista de riesgos (incluida la TI) y estrategias de mitigación.
+Actas de la evaluación de riesgos periódica u otra reunión, si está disponible.
+"/>
+							<tx l="fre" name="Plan de gestion des risques. Liste des risques (y compris informatiques) et des stratégies d'atténuation.
+Procès-verbal de l'évaluation périodique des risques ou d'une autre réunion, si disponible.
+"/>
+							<tx l="ara" name="خطة إدارة المخاطر. قائمة المخاطر (بما في ذلك تكنولوجيا المعلومات) واستراتيجيات التخفيف.
+محضر من التقييم الدوري للمخاطر أو اجتماع آخر إن وجد.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review risk management plan or other document to ensure that risk management responsibilities are clearly and unambiguously assigned.
-Review of documents to determine whether IT risks are part of the overall governance risk and compliance (GRC) framework
-Review meeting minutes to ensure that new risks are added and analyzed as appropriate Interview personnel responsible for risk management to determine whether the risks to
-be mitigated have appropriate cost estimates and resources are allocated.
+Review of documents to determine whether IT risks are part of the overall governance risk and compliance (GRC) framework.
+Review meeting minutes to ensure that new risks are added and analyzed as appropriate Interview personnel responsible for risk management to determine whether the risks to be mitigated have appropriate cost estimates and resources are allocated.
 Interview management or review minutes of meeting to determine that leadership is aware of both IT and other risks and monitors their status on a periodic basis.
 "/>
-							<tx l="fre" name="Rishikim i planit të menaxhimit të riskut ose dokumentave të tjerë për tu siguruar se përgjegjësitë e menaxhimit të riskut janë të qarta dhe të mirëpërcaktuara
-
-Rishikim i dokumentave për të përcaktuar nëse risqet e IT janë pjesë e riskut të përgjithshëm qeverisës dhe kornizës së përputhshmërisë
-
-Rishikim i proçesverbaleve të mbledhjeve për tu siguruar se risqet e reja janë të përfshira dhe të analizuara në mënyrë të përshtatshme 
-
-Intervisitimi i prsonelit përgjegjës për menaxhimin e riskut për të përcaktuar nëse risqet që duhen reduktuar kanë vlerësime të sakta të kostove dhe burimet janë shpërncarë 
-
-Intervistimi i menaxhimit ose rishikim i proçesverbaleve për të përcaktuar nëse lidershipi është në dijeni të risqeve IT dhe risqeve të tjera, si dhe nëse moritonon gjendjen e tyre mbi baza periodike
+							<tx l="spa" name="Revise el plan de gestión de riesgos u otro documento para asegurarse de que las responsabilidades de gestión de riesgos se asignen de forma clara y sin ambigüedades.
+Revisión de documentos para determinar si los riesgos de TI son parte del marco general de cumplimiento y riesgo de gobernanza (GRC).
+Revisar las actas de las reuniones para asegurarse de que se agreguen nuevos riesgos y se analicen según corresponda. Entreviste al personal responsable de la gestión de riesgos para determinar si los riesgos que se mitigarán tienen estimaciones de costos adecuadas y se asignan los recursos.
+Entreviste a la gerencia o revise las actas de la reunión para determinar que el liderazgo está al tanto de los riesgos de TI y otros y monitorea su estado periódicamente.
+"/>
+							<tx l="fre" name="Examiner le plan de gestion des risques ou tout autre document pour s'assurer que les responsabilités de gestion des risques sont clairement et sans ambiguïté attribuées.
+Examen des documents pour déterminer si les risques informatiques font partie du cadre global de gestion des risques et de la conformité (GRC).
+Examiner les procès-verbaux des réunions pour s'assurer que de nouveaux risques sont ajoutés et analysés le cas échéant.
+Interviewer la direction ou examiner les procès-verbaux de réunion pour déterminer que la direction est consciente des risques informatiques et autres et surveille leur statut sur une base périodique.
+"/>
+							<tx l="ara" name="مراجعة خطة إدارة المخاطر أو أي مستند آخر للتأكد من تحديد مسؤوليات إدارة المخاطر بشكل واضح لا لبس فيه.
+مراجعة الوثائق لتحديد ما إذا كانت مخاطر تكنولوجيا المعلومات تشكل جزءًا من الإطار العام لمخاطر الحوكمة والامتثال (GRC).
+مراجعة محاضر الاجتماع للتأكد من إضافة المخاطر الجديدة وتحليلها حسب الاقتضاء. مقابلة الموظفين المسؤولين عن إدارة المخاطر لتحديد ما إذا كانت المخاطر التي سيتم تخفيفها لديها تقديرات التكلفة المناسبة والموارد المخصصة.
+إدارة المقابلة أو مراجعة محاضر الاجتماع لتحديد أن القيادة على دراية بكل من تكنولوجيا المعلومات والمخاطر الأخرى وتراقب وضعها على أساس دوري.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -575,47 +626,80 @@ Intervistimi i menaxhimit ose rishikim i proçesverbaleve për të përcaktuar n
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Organisational structures, Standards, Policies and Procedures"/>
-				<tx l="fre" name="Struktura organizacionale, politikat dhe procedurat"/>
+				<tx l="spa" name="Estructuras organizativas, estándares, políticas y procedimientos"/>
+				<tx l="fre" name="Structures organisationnelles, normes, politiques et procédures"/>
+				<tx l="ara" name="الهياكل التنظيمية والمعايير والسياسات والإجراءات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Organisational structures are a key element of IT governance in articulating roles of the various management and governance bodies across the business and decision making. They should assign clearly defined delegation for decision making and performance monitoring. Organisational structures must be supported with appropriate standards, policies and procedures which should enhance decision making capacity.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>Las estructuras organizativas son un elemento clave de la gobernanza de TI en la articulación de las funciones de los diversos órganos de gestión y gobernanza en todo el negocio y la toma de decisiones. Deben asignar una delegación claramente definida para la toma de decisiones y el seguimiento del desempeño. Las estructuras organizativas deben estar respaldadas por normas, políticas y procedimientos adecuados que deberían mejorar la capacidad de toma de decisiones.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Les structures organisationnelles sont un élément clé de la gouvernance informatique dans l'articulation des rôles des divers organes de gestion et de gouvernance à travers l'entreprise et la prise de décision. Ils doivent attribuer une délégation clairement définie pour la prise de décision et le suivi des performances. Les structures organisationnelles doivent être soutenues par des normes, politiques et procédures appropriées qui devraient renforcer la capacité de prise de décision.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تعتبر الهياكل التنظيمية عنصرًا أساسيًا في حوكمة تقنية المعلومات في توضيح أدوار مختلف هيئات الإدارة والحوكمة عبر الأعمال وصنع القرار. يجب عليهم تعيين تفويض محدد بوضوح لاتخاذ القرار ومراقبة الأداء. يجب دعم الهياكل التنظيمية بالمعايير والسياسات والإجراءات المناسبة التي ينبغي أن تعزز القدرة على اتخاذ القرار.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Structure of the IT Organization"/>
-					<tx l="fre" name="Struktura e organizmit IT "/>
+					<tx l="spa" name="Estructura de la organización de TI"/>
+					<tx l="fre" name="Structure de l'organisation informatique"/>
+					<tx l="ara" name="هيكل منظمة تكنولوجيا المعلومات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The IT Organization is positioned at a sufficiently high level within the organization and its roles and responsibilities are clearly defined including those of the Chief Information Officer (CIO) or equivalent.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización de TI está posicionada en un nivel suficientemente alto dentro de la organización y sus roles y responsabilidades están claramente definidos, incluidos los del director de información (CIO) o equivalente.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation informatique est positionnée à un niveau suffisamment élevé au sein de l'organisation et ses rôles et responsabilités sont clairement définis, y compris ceux du directeur des systèmes d'information (CIO) ou équivalent.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يتم وضع منظمة تكنولوجيا المعلومات على مستوى عالٍ بدرجة كافية داخل المنظمة ويتم تحديد أدوارها ومسؤولياتها بوضوح بما في ذلك تلك الخاصة بمدير المعلومات (CIO) أو ما يعادله..</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Organizational Structures, Policy &amp; Procedures">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Ensure that there are organizational structures, policy, and procedures in place that enable the organization to meet their mandate for business goals, organization’s strategies and objectives. The risks and resources while accomplishing IT objectives are effectively managed."/>
-							<tx l="fre" name="Garantimi se ekzistojnë strukturat, politikat dhe proçedurat që mundësojnë organizatën të arrijë mandatin për qëllimet e biznesit"/>
+							<tx l="spa" name="Asegúrese de que existan estructuras organizativas, políticas y procedimientos que permitan a la organización cumplir con su mandato para las metas del negocio, las estrategias y los objetivos de la organización. Los riesgos y recursos mientras se logran los objetivos de TI se gestionan de forma eficaz."/>
+							<tx l="fre" name="Assurez-vous qu'il existe des structures organisationnelles, des politiques et des procédures en place qui permettent à l'organisation de remplir son mandat en matière de buts de l'entreprise, de stratégies et d'objectifs de l'organisation. Les risques et les ressources tout en atteignant les objectifs informatiques sont gérés efficacement."/>
+							<tx l="ara" name="تأكد من وجود الهياكل التنظيمية والسياسات والإجراءات المعمول بها والتي تمكن المنظمة من تلبية تفويضاتها لأهداف العمل واستراتيجيات المنظمة وأهدافها. تتم إدارة المخاطر والموارد أثناء تحقيق أهداف تكنولوجيا المعلومات بشكل فعال."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the structure of the IT Organization enable it to meet their IT Goals and business needs?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The IT Organization is positioned at a sufficiently high level within the organization and its roles and responsibilities are clearly defined including those of the Chief Information Officer (CIO) or equivalent."/>
-							<tx l="fre" name="Organizmi i IT është pozicionuar në një nivel të kënaqshëm brenda organizatës, rolet dhe përgjegjësitë janë të përcaktuara qartë, përfshirë ato të CIO-s (ose personit ekuivalent)"/>
+							<tx l="spa" name="La organización de TI está posicionada en un nivel suficientemente alto dentro de la organización y sus roles y responsabilidades están claramente definidos, incluidos los del director de información (CIO) o equivalente."/>
+							<tx l="fre" name="L'organisation informatique est positionnée à un niveau suffisamment élevé au sein de l'organisation et ses rôles et responsabilités sont clairement définis, y compris ceux du directeur des systèmes d'information (CIO) ou équivalent."/>
+							<tx l="ara" name="يتم وضع منظمة تكنولوجيا المعلومات على مستوى عالٍ بدرجة كافية داخل المنظمة ويتم تحديد أدوارها ومسؤولياتها بوضوح بما في ذلك تلك الخاصة بمدير المعلومات (CIO) أو ما يعادله."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Overall organization chart 
+							<tx l="eng" name="Overall organization chart. 
 
-IT Organizational chart
-
+IT Organizational chart.
 "/>
-							<tx l="fre" name="Grafiku i përgjithshëm i organizatës
+							<tx l="spa" name="Organigrama general.
 
-Grafiku i organizmit të IT
+Organigrama de TI.
+"/>
+							<tx l="fre" name="Organigramme général.
+
+Organigramme informatique.
+"/>
+							<tx l="ara" name="الهيكل التنظيمي العام.
+
+المخطط التنظيمي لتكنولوجيا المعلومات.
 "/>
 						</inf>
 					</InformationRequired>
@@ -624,11 +708,18 @@ Grafiku i organizmit të IT
 							<tx l="eng" name="Review organizational charts to determine that the IT organization is positioned at a strategic level (for example there is a CIO who reports to or is a member of the Steering Committee).
 
 Review the IT organization chart to determine that they are aligned to supports the business (have help desk, data base managers, maintenance personnel or contactors who help and facilitate IT operations).
-
 "/>
-							<tx l="fre" name="Rishikim i grafikut të organizatës për të përcaktuar nëse organizmi i IT është pozicionuar në një nivel strategjik (për shembull si një CIO që raporton ose është anëtar në Komitetin e Drejtimit)
+							<tx l="spa" name="Revise los organigramas para determinar si la organización de TI está posicionada en un nivel estratégico (por ejemplo, hay un CIO que informa o es miembro del Comité Directivo).
 
-Rishikim i grafikut të organizmit të IT për të përcaktuar nëse është i përcaktuar për të mbështetur bizneset (ka helpdesk, manaxherët e bazave të të dhënave, personelin e mirëmbajtjes ode kontraktorët që ndihmojnë dhe lehtësojnë operacionet e IT)
+Revise el organigrama de TI para determinar si están alineados con el soporte del negocio (tenga servicio de ayuda, gerentes de base de datos, personal de mantenimiento o contactores que ayuden y faciliten las operaciones de TI).
+"/>
+							<tx l="fre" name="Passez en revue les organigrammes pour déterminer si l'organisation informatique est positionnée à un niveau stratégique (par exemple, il y a un CIO qui relève ou est membre du comité directeur).
+
+Passez en revue l'organigramme informatique pour déterminer s'ils sont alignés sur le support de l'entreprise (avoir un service d'assistance, des gestionnaires de base de données, du personnel de maintenance ou des contacteurs qui aident et facilitent les opérations informatiques).
+"/>
+							<tx l="ara" name="قم بمراجعة المخططات التنظيمية لتحديد ما إذا كانت مؤسسة تكنولوجيا المعلومات في وضع استراتيجي (على سبيل المثال ، هناك رئيس قسم تقنية المعلومات الذي يقدم تقاريره إلى اللجنة التوجيهية أو يكون عضوًا فيها).
+
+راجع المخطط التنظيمي لتكنولوجيا المعلومات لتحديد ما إذا كانت متوافقة مع دعم الأعمال (لديك مكتب مساعدة أو مديرو قاعدة بيانات أو موظفو صيانة أو جهات اتصال تساعد وتسهل عمليات تكنولوجيا المعلومات).
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -653,49 +744,75 @@ Rishikim i grafikut të organizmit të IT për të përcaktuar nëse është i p
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Policy and procedures"/>
-					<tx l="fre" name="Politikat dhe proçedurat"/>
+					<tx l="spa" name="Política y procedimientos"/>
+					<tx l="fre" name="Politique et procédures"/>
+					<tx l="ara" name="السياسة والإجراءات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organization documents, approves, and communicates appropriate policies and procedures to guide business and IT operations in order to meet their mandate.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización documenta, aprueba y comunica las políticas y los procedimientos adecuados para guiar las operaciones del negocio y de TI a fin de cumplir con su mandato.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation documente, approuve et communique les politiques et procédures appropriées pour guider les opérations de l'entreprise et informatiques afin de remplir leur mandat.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تقوم المنظمة بتوثيق السياسات والإجراءات المناسبة والموافقة عليها والإبلاغ عنها لتوجيه عمليات الأعمال وتكنولوجيا المعلومات من أجل الوفاء بولايتها.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Organizational Structures, Policy &amp; Procedures">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Ensure that there are organizational structures, policy, and procedures in place that enable the organization to meet their mandate for business goals, organization’s strategies and objectives. The risks and resources while accomplishing IT objectives are effectively managed."/>
-							<tx l="fre" name="Garantimi se ekzistojnë strukturat, politikat dhe proçedurat që mundësojnë organizatën të arrijë mandatin për qëllimet e biznesit"/>
+							<tx l="spa" name="Asegúrese de que existan estructuras organizativas, políticas y procedimientos que permitan a la organización cumplir con su mandato para las metas del negocio, las estrategias y los objetivos de la organización. Los riesgos y recursos mientras se logran los objetivos de TI se gestionan de forma eficaz."/>
+							<tx l="fre" name="Assurez-vous qu'il existe des structures organisationnelles, des politiques et des procédures en place qui permettent à l'organisation de remplir son mandat en matière de buts de l'entreprise, de stratégies et d'objectifs de l'organisation. Les risques et les ressources tout en atteignant les objectifs informatiques sont gérés efficacement."/>
+							<tx l="ara" name="تأكد من وجود الهياكل التنظيمية والسياسات والإجراءات المعمول بها والتي تمكن المنظمة من تلبية تفويضاتها لأهداف العمل واستراتيجيات المنظمة وأهدافها. تتم إدارة المخاطر والموارد أثناء تحقيق أهداف تكنولوجيا المعلومات بشكل فعال."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Policy and procedures - Has the organization approved and is using appropriate policies and procedures to guide their business and IT operations</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization documents, approves, and communicates appropriate policies and procedures to guide business and IT operations in order to meet their mandate."/>
-							<tx l="fre" name="Organizata dokumenton, aprovon, dhe komunikon politikat dhe proçedurat e duhura për të udhëzuar operacionet e biznesit dhe të IT, me qëllim arritjen e mandatit të saj"/>
+							<tx l="spa" name="La organización documenta, aprueba y comunica las políticas y los procedimientos adecuados para guiar las operaciones del negocio y de TI a fin de cumplir con su mandato."/>
+							<tx l="fre" name="L'organisation documente, approuve et communique les politiques et procédures appropriées pour guider les opérations de l'entreprise et informatiques afin de remplir leur mandat."/>
+							<tx l="ara" name="تقوم المنظمة بتوثيق السياسات والإجراءات المناسبة والموافقة عليها والإبلاغ عنها لتوجيه عمليات الأعمال وتكنولوجيا المعلومات من أجل الوفاء بولايتها."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Organizational policies regarding:
 Human Resources including hiring and termination security, document retention, contracting and/or outsourcing, software development and/or acquisition, etc.
-Procedures for the selected policy areas
-Emails or other ways  policy are communicated to appropriate users and
-Stakeholders
+Procedures for the selected policy areas.
+Emails or other ways  policy are communicated to appropriate users and Stakeholders.
+QA reports to management reporting on periodic policy and procedures compliance and other issues.
 
-QA reports to management reporting on periodic policy and procedures compliance and other issues
-Request changes to policy and or periodic review and results
-
+Request changes to policy and or periodic review and results.
 "/>
-							<tx l="fre" name="Politikat organizacionale lidhur me:
-Burimet njerëzore, përfshirë politikat e rekrutimit dhe ndërprerjes, ruajtja e dokumentave, kontraktimi, zhvillimi i programeve dhe/ose blerja, etj.
+							<tx l="spa" name="Políticas organizativas con respecto a:
+Recursos humanos, incluida la seguridad de contratación y despido, retención de documentos, contratación y / o subcontratación, desarrollo y / o adquisición de software, etc.
+Procedimientos para las áreas de seguridad seleccionadas.
+Los correos electrónicos u otras formas de comunicación de la política a los usuarios y partes interesadas correspondientes.
+Informes a la gerencia informando sobre el cumplimiento periódico de políticas y procedimientos y otros asuntos.
 
-Proçedurat për zgjedhjen e fushave të politikave
+Solicitar cambios a la política o revisiones periódicas y resultados.
+"/>
+							<tx l="fre" name="Politiques organisationnelles concernant:
+Ressources humaines, y compris la sécurité de l'embauche et du licenciement, la conservation des documents, la passation de marchés et / ou l'externalisation, le développement et / ou l'acquisition de logiciels, etc.
+Procédures pour les domaines politiques sélectionnés.
+Les courriels ou autres moyens de communication de la politique aux utilisateurs appropriés et aux parties prenantes.
+Rend compte à la direction des rapports périodiques sur la conformité aux politiques et procédures et autres problèmes.
 
-Emaile ose mënyra të tjera me anë të të cilave politikat komunikohen te përdoruesit e duhur dhe tek pretendentët
+Demander des changements à la politique et / ou un examen périodique et les résultats.
+"/>
+							<tx l="ara" name="السياسات التنظيمية المتعلقة بما يلي:
+الموارد البشرية بما في ذلك التوظيف وإنهاء الأمن ، والاحتفاظ بالمستندات ، والتعاقد و / أو الاستعانة بمصادر خارجية ، وتطوير البرمجيات و / أو الاستحواذ ، إلخ.
+إجراءات لمجالات السياسة المختارة.
+رسائل البريد الإلكتروني أو الطرق الأخرى التي يتم توصيل السياسة بها إلى المستخدمين وأصحاب المصلحة المناسبين.
+تقارير ضمان الجودة إلى الإدارة تقارير عن الامتثال الدوري للسياسة والإجراءات وغيرها من القضايا.
 
-Raportet e sigurimit të cilësisë për menaxhimin mbi politika dhe procedura përputhshmërie e çështje të tjera
-
-Ndryshime të kërkuara të politikave ose rishikime dhe rezultate periodike
+طلب تغييرات على السياسة و / أو المراجعة الدورية والنتائج.
 "/>
 						</inf>
 					</InformationRequired>
@@ -719,26 +836,64 @@ Review policies to determine adequacy by looking for (as an example):
 •	Required resources and tools
 •	Linkage to procedures
 •	Rules to deal with non-compliance
-
-
 "/>
-							<tx l="fre" name="Rishikim i politikave për tu siguraur se janë të aprovuara dhe korrente
+							<tx l="spa" name="Método (s) de análisis
 
-Për shembull, rishikimi i poltikave të Burimeve Njerëzore për të përcaktuar se kërkesat për aftësi janë të përcaktuara, dhe trajnimi është identifikuar për stafin e ri dhe të vjetër.
-Rishikim i materialeve fillestare dhe të rifreskuara të auditimit ose procese të tjera të brendshme nëpërmjet të cilave komunikohen në organizatë këto politika dhe procedura.
-Intervista me pjesëmarrësit e sigurimit të cilësisë ose pjesëmarrës në grup tjetër përgjegjës për zbatimin e politikave për të parë sesi sigurohet përputhshmëria.
-Intervisa me grupin e sigurimit të cilësisë ose stafin e përputhshmërisë për të përcaktuar sesi dhe kur ata raportojnë rezultatet e tyre në menaxhimin e lartë.
-Intervista me personelin përgjegjës për pëputhshmërinë e politikave dhe procedurave për të përcaktuar sesa shesh ata rezultojnë rezultatet në menaxhimin e lartë dhe sesi ata kërkojnë inputin e mospërputhshmërisë mbi baza anonime ose të pavarura.
-Intervista me menaxherët dhe përdoruesit për të kuptuar perceptimin dhe sjelljen e tyre në politikat dhe procedurat e analizuara. Në rast të opinionit të shpeshtë: “Procedurat janë komplekse” pyesni sesi mund dhe çfarë mund të përmirësohet.
-Rishikim i historisë së kontrollit të ndryshimit të politikave për të përcaktuar se politikat janë të përditësuara periodikisht ose kur nevojiten.
-Rishikim i raporteve të sigurimit të cilësisë për t’u siguruara se ato përmbajnë çështje të përshtatshme të politikave dhe procedurave të përputhshmërisë.
-Rishikim i email-eve ose mekanizmave të tjerë (posta fizike, trajnim, etj) për tu siguruara se politikat janë shpërndarë në përdoruesit e duhur dhe në palët e interesuara në momentin e përditësimit të tyre ose mbi baza nevoje.
-Rishikim i politikave për të përcaktuara saktësi duke parë për (si shembull):
-• Qëllimi dhe mandati i politikave
-• Përcaktimin e detyrave dhe përgjegjësive
-• Burimet dhe mjetet e nevojshme
-• Lidhja me procedurat
-• Rregullat për të trajtuara mospërputhshmëritë"/>
+Revise las políticas para asegurarse de que estén aprobadas y actualizadas.
+Por ejemplo, revise la política de Recursos Humanos para determinar que se definen los requisitos de competencias y se identifica la capacitación para el personal nuevo y de otro tipo.
+Revise los materiales de capacitación inicial y de actualización u otros procesos internos a través de los cuales estas políticas y procedimientos se comunican dentro de la organización.
+Entreviste a miembros del grupo de garantía de calidad u otro grupo responsable de hacer cumplir las políticas para ver qué hacen para garantizar el cumplimiento.
+Entreviste al personal de control de calidad o de cumplimiento para determinar cómo y cuándo informan sus resultados a la alta dirección.
+Entreviste al personal responsable del cumplimiento de las políticas y procedimientos para determinar con qué frecuencia informan los resultados a la alta dirección y cómo solicitan información sobre el incumplimiento de forma anónima o independiente.
+Entrevistar a gerentes y usuarios para comprender su percepción y actitud ante las políticas y procedimientos analizados. En caso de opinión frecuente: Los procedimientos son demasiado complejos, pregunte qué y cómo podría simplificarse.
+Revise el historial de control de cambios de políticas para determinar si las políticas se actualizan periódicamente o según sea necesario.
+Revise los informes de control de calidad para asegurarse de que contengan cualquier problema de cumplimiento de políticas o procedimientos, según corresponda.
+Revise los correos electrónicos u otros mecanismos (correo físico, capacitación, etc.) para asegurarse de que las políticas se distribuyan a los usuarios y partes interesadas correspondientes cuando se actualicen o según sea necesario.
+Revise las políticas para determinar su idoneidad buscando (como ejemplo):
+• Alcance de la política y mandato.
+• Definición de perfiles y responsabilidades
+• Recursos y herramientas necesarios
+• Vinculación con los procedimientos
+• Reglas para hacer frente al incumplimiento
+"/>
+							<tx l="fre" name="Méthode (s) d'analyse
+
+Passez en revue les politiques pour vous assurer qu'elles sont approuvées et à jour.
+Par exemple, examinez la politique des ressources humaines pour déterminer que les exigences en matière de compétences sont définies et que la formation est identifiée pour les nouveaux employés et les autres employés.
+Examiner le matériel de formation initiale et de recyclage ou tout autre processus interne par lequel ces politiques et procédures sont communiquées au sein de l'organisation.
+Interrogez les membres de l’assurance qualité ou d’un autre groupe responsable de l’application de la politique pour voir ce qu’ils font pour assurer la conformité.
+Interroger le personnel de qualité et assurance ou de conformité pour déterminer comment et quand ils communiquent leurs résultats à la haute direction
+Interroger le personnel responsable de la conformité des politiques et des procédures pour déterminer à quelle fréquence ils communiquent les résultats à la haute direction et comment ils sollicitent des commentaires sur la non-conformité de manière anonyme ou indépendante.
+Interviewer les gestionnaires et les utilisateurs pour comprendre leur perception et leur attitude vis-à-vis des politiques et procédures analysées. En cas d'opinion fréquente: «Les procédures sont trop complexes», demandez ce qui pourrait être simplifié et comment.
+Examinez l'historique du contrôle des modifications de stratégie pour déterminer que les stratégies sont mises à jour périodiquement ou selon les besoins.
+Passez en revue les rapports de qualité et assurance pour vous assurer qu'ils contiennent des problèmes de conformité aux politiques ou procédures, le cas échéant.
+Examiner les courriels ou autres mécanismes (courrier physique, formation, etc.) pour s'assurer que les politiques sont distribuées aux utilisateurs et aux parties prenantes appropriés lorsqu'elles sont mises à jour ou au besoin.
+Passez en revue les politiques pour déterminer l'adéquation en recherchant (à titre d'exemple):
+• Portée de la politique et mandat.
+• Définition des rôles et responsabilités
+• Ressources et outils nécessaires
+• Lien avec les procédures
+• Règles pour traiter la non-conformité
+"/>
+							<tx l="ara" name="طريقة (طرق) التحليل
+
+مراجعة السياسات للتأكد من أنها معتمدة وحديثة.
+على سبيل المثال ، قم بمراجعة سياسة الموارد البشرية لتحديد متطلبات المهارة ، وتحديد التدريب للموظفين الجدد وغيرهم.
+مراجعة مواد التدريب الأولية والتجديدية أو العملية الداخلية الأخرى التي يتم من خلالها توصيل هذه السياسات والإجراءات داخل المنظمة.
+مقابلة أعضاء ضمان الجودة أو أي مجموعة أخرى مسؤولة عن إنفاذ السياسة لمعرفة ما يفعلونه لضمان الامتثال.
+مقابلة سؤال وجواب أو موظفي الامتثال لتحديد كيف ومتى يبلغون نتائجهم إلى الإدارة العليا
+مقابلة الموظفين المسؤولين عن الامتثال للسياسات والإجراءات لتحديد عدد المرات التي يبلغون فيها بالنتائج إلى الإدارة العليا وكيف يطلبون مدخلات بشأن عدم الامتثال بشكل مجهول أو مستقل.
+مقابلة المديرين والمستخدمين لفهم تصورهم وموقفهم من السياسات والإجراءات التي تم تحليلها. في حالة الرأي المتكرر: الإجراءات معقدة اسأل ماذا وكيف يمكن تبسيطها.
+راجع محفوظات التحكم في تغيير السياسة لتحديد أن السياسات يتم تحديثها بشكل دوري أو حسب الحاجة.
+قم بمراجعة تقارير ضمان الجودة للتأكد من أنها تحتوي على أية مشكلات تتعلق بالسياسة أو إجراءات الامتثال حسب الاقتضاء.
+قم بمراجعة رسائل البريد الإلكتروني أو الآليات الأخرى (البريد المادي ، التدريب ، إلخ) لضمان توزيع السياسات على المستخدمين وأصحاب المصلحة المناسبين عند تحديثها أو على أساس الحاجة.
+راجع السياسات لتحديد مدى كفايتها من خلال البحث عن (كمثال):
+• نطاق السياسة والولاية.
+• تحديد الأدوار والمسؤوليات
+• الموارد والأدوات المطلوبة
+• الربط بالإجراءات
+• قواعد التعامل مع عدم الامتثال
+"/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -763,49 +918,84 @@ Rishikim i politikave për të përcaktuara saktësi duke parë për (si shembul
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="People and Resources"/>
-				<tx l="fre" name="Njerëzit dhe Burimet"/>
+				<tx l="spa" name="Personas y recursos"/>
+				<tx l="fre" name="Personnes et ressources"/>
+				<tx l="ara" name="الناس والموارد"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>The human resource (HR) policy deals with the hiring, training, job termination and other functions of the HR organization. It deals with roles and responsibilities of various personnel within the organization as well as the requisite skill or training they are required to possess to carry out their duties.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La política de recursos humanos (RH) se ocupa de la contratación, la formación, la terminación del trabajo y otras funciones de la organización de RH. Se ocupa de las funciones y responsabilidades de varios miembros del personal dentro de la organización, así como de las competencias o la formación necesarias que deben poseer para llevar a cabo sus funciones.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La politique des ressources humaines (RH) traite de l'embauche, de la formation, du licenciement et d'autres fonctions de l'organisation des RH. Il traite des rôles et des responsabilités des différents membres du personnel au sein de l'organisation ainsi que des compétences ou de la formation requises pour s'acquitter de leurs fonctions.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تتعامل سياسة الموارد البشرية (HR) مع التوظيف والتدريب وإنهاء الوظيفة وغيرها من وظائف منظمة الموارد البشرية. إنه يتعامل مع أدوار ومسؤوليات مختلف الموظفين داخل المنظمة بالإضافة إلى المهارات أو التدريب المطلوب المطلوب منهم امتلاكه لأداء واجباتهم.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="HR and logistics"/>
-					<tx l="fre" name="Burimet njerëzore dhe logjistika"/>
+					<tx l="spa" name="Recursos humanos y logística"/>
+					<tx l="fre" name="Ressources humaines et logistique"/>
+					<tx l="ara" name="الموارد البشرية واللوجستيات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organization should have a plan to employ sufficiently qualified or trained personnel and have an access to suitable resources that enable the organization to meet their business goals.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización debe tener un plan para emplear personal suficientemente calificado o capacitado y tener acceso a los recursos adecuados que le permitan a la organización cumplir con sus objetivos del negocio.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation doit avoir un plan pour employer un personnel suffisamment qualifié ou formé et avoir accès à des ressources appropriées qui lui permettent d'atteindre les objectifs de l'entreprise</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يجب أن يكون لدى المنظمة خطة لتوظيف موظفين مؤهلين أو مدربين بشكل كافٍ ولديهم إمكانية الوصول إلى الموارد المناسبة التي تمكن المنظمة من تحقيق أهداف أعمالها.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="People &amp; Resources">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To employ sufficiently qualified or trained personnel and have an access to suitable resources that enable the organization to meet their business goals."/>
-							<tx l="fre" name="Punësimi i personelit të kualifikuar dhe të trajnuar dhe pasja e aksesit ndaj burimeve të përshtatshme që mundësojnë arritjen e qëllimeve të biznesit prej organizatës."/>
+							<tx l="spa" name="Emplear personal suficientemente calificado o capacitado y tener acceso a los recursos adecuados que permitan a la organización cumplir con sus objetivos del negocio."/>
+							<tx l="fre" name="Employer du personnel suffisamment qualifié ou formé et avoir accès à des ressources appropriées qui permettent à l'organisation d'atteindre les objectifs de l'entreprise."/>
+							<tx l="ara" name="لتوظيف موظفين مؤهلين أو مدربين بشكل كافٍ والوصول إلى الموارد المناسبة التي تمكن المنظمة من تحقيق أهداف أعمالها."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>HR and logistics - How does the organization deal with meeting current and future people and resource requirements?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization should have a plan to meet their current and future requirements for meeting business needs."/>
-							<tx l="fre" name="Organizata duhet të ketë një plan për arritjen e kërkesave aktuale dhe të ardhshme për plotësimin e nevojave të biznesit."/>
+							<tx l="spa" name="La organización debe tener un plan para cumplir con sus requisitos actuales y futuros para satisfacer las necesidades del negocio."/>
+							<tx l="fre" name="L'organisation doit avoir un plan pour répondre à ses besoins actuels et futurs pour répondre aux besoins de l'entreprise."/>
+							<tx l="ara" name="يجب أن يكون لدى المنظمة خطة لتلبية متطلباتها الحالية والمستقبلية لتلبية احتياجات العمل."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Organizational policies regarding:
-Human Resources &amp; Training
+Human Resources and Training
 IT Strategy or Strategic Plan
-Hiring &amp; Training Plans
-
+Hiring and Training Plans
 "/>
-							<tx l="fre" name="Politika organizacionale lidhur me:
-Burimet njerëzore &amp; Trajnimet
-Strategjia IT ose Plan Strategjik
-Planet e Punësimit &amp; Trajnimit
+							<tx l="spa" name="Políticas organizativas con respecto a:
+Recursos humanos y formación
+Estrategia de TI o plan estratégico
+Planes de contratación y formación
+"/>
+							<tx l="fre" name="Politiques organisationnelles concernant:
+Ressources humaines et formation
+Stratégie informatique ou plan stratégique
+Plans d'embauche et de formation
+"/>
+							<tx l="ara" name="السياسات التنظيمية المتعلقة بما يلي:
+الموارد البشرية والتدريب
+استراتيجية تكنولوجيا المعلومات أو الخطة الإستراتيجية
+خطط التوظيف والتدريب
 "/>
 						</inf>
 					</InformationRequired>
@@ -819,23 +1009,30 @@ Interview HR or business managers to assess how they ensure critical positions a
 Review initial and refresher training materials or other internal process through which these policies and procedures are communicated within the organization.
 Review the IT Strategic plan to ensure that it contains people and resource requirements for current and future needs.
 "/>
-							<tx l="fre" name="Rishikim i politikave për tu siguraur se janë të aprovuara dhe korrente
-
-Për shembull, rishikimi i poltikave të Burimeve Njerëzore për të përcaktuar se kërkesat për aftësi janë të përcaktuara, dhe trajnimi është identifikuar për stafin e ri dhe të vjetër.
-Rishikim i materialeve fillestare dhe të rifreskuara të auditimit ose procese të tjera të brendshme nëpërmjet të cilave komunikohen në organizatë këto politika dhe procedura.
-Intervista me pjesëmarrësit e sigurimit të cilësisë ose pjesëmarrës në grup tjetër përgjegjës për zbatimin e politikave për të parë sesi sigurohet përputhshmëria.
-Intervisa me grupin e sigurimit të cilësisë ose stafin e përputhshmërisë për të përcaktuar sesi dhe kur ata raportojnë rezultatet e tyre në menaxhimin e lartë.
-Intervista me personelin përgjegjës për pëputhshmërinë e politikave dhe procedurave për të përcaktuar sesa shesh ata rezultojnë rezultatet në menaxhimin e lartë dhe sesi ata kërkojnë inputin e mospërputhshmërisë mbi baza anonime ose të pavarura.
-Intervista me menaxherët dhe përdoruesit për të kuptuar perceptimin dhe sjelljen e tyre në politikat dhe procedurat e analizuara. Në rast të opinionit të shpeshtë: “Procedurat janë komplekse” pyesni sesi mund dhe çfarë mund të përmirësohet.
-Rishikim i historisë së kontrollit të ndryshimit të politikave për të përcaktuar se politikat janë të përditësuara periodikisht ose kur nevojiten.
-Rishikim i raporteve të sigurimit të cilësisë për t’u siguruara se ato përmbajnë çështje të përshtatshme të politikave dhe procedurave të përputhshmërisë.
-Rishikim i email-eve ose mekanizmave të tjerë (posta fizike, trajnim, etj) për tu siguruara se politikat janë shpërndarë në përdoruesit e duhur dhe në palët e interesuara në momentin e përditësimit të tyre ose mbi baza nevoje.
-Rishikim i politikave për të përcaktuara saktësi duke parë për (si shembull):
-• Qëllimi dhe mandati i politikave
-• Përcaktimin e detyrave dhe përgjegjësive
-• Burimet dhe mjetet e nevojshme
-• Lidhja me procedurat
-• Rregullat për të trajtuara mospërputhshmëritë"/>
+							<tx l="spa" name="Revise las políticas para asegurarse de que estén aprobadas y actualizadas.
+Revise las políticas para asegurarse de que requieren varios grupos (TI, aseguramiento de la calidad (QA), Usuarios profesionales) para identificar sus necesidades actuales y futuras de personal y recursos.
+Revise los planes de contratación y capacitación para asegurarse de que reflejen las necesidades identificadas.
+Por ejemplo, revise la política de Recursos Humanos para determinar que se definen los requisitos de competencias y se identifica la capacitación para el personal nuevo y de otro tipo.
+Entreviste a los gerentes de Recursos Humanos o de negocios para evaluar cómo se aseguran de que los puestos críticos cuenten con personal durante contingencias o ausencias prolongadas.
+Revise los materiales de capacitación inicial y de actualización u otros procesos internos a través de los cuales estas políticas y procedimientos se comunican dentro de la organización.
+Revise el plan estratégico de TI para asegurarse de que contiene personas y requisitos de recursos para las necesidades actuales y futuras.
+"/>
+							<tx l="fre" name="Passez en revue les politiques pour vous assurer qu'elles sont approuvées et à jour.
+Examiner les politiques pour s'assurer qu'elles exigent que divers groupes (TI, assurance et qualité (AQ), utilisateurs professionnels) identifient leurs besoins actuels et futurs en personnel et en ressources.
+Examiner les plans d'embauche et de formation pour s'assurer qu'ils reflètent les besoins identifiés.
+Par exemple, examinez la politique des ressources humaines pour déterminer que les exigences en matière de compétences sont définies et que la formation est identifiée pour les nouveaux employés et les autres membres du personnel.
+Interrogez les responsables des ressources humaines ou des affaires pour évaluer comment ils s'assurent que les postes critiques sont pourvus en cas d'urgence ou d'absences prolongées.
+Examiner le matériel de formation initiale et de recyclage ou tout autre processus interne par lequel ces politiques et procédures sont communiquées au sein de l'organisation.
+Passez en revue le plan stratégique informatique pour vous assurer qu'il contient les besoins en personnel et en ressources pour les besoins actuels et futurs.
+"/>
+							<tx l="ara" name="مراجعة السياسات للتأكد من أنها معتمدة وحديثة.
+مراجعة السياسات للتأكد من أنها تتطلب مجموعات مختلفة (تكنولوجيا المعلومات ، وضمان الجودة (QA) ، والمستخدمون المحترفون) لتحديد احتياجاتهم الحالية والمستقبلية من الموظفين والموارد.
+مراجعة خطط التوظيف والتدريب للتأكد من أنها تعكس الاحتياجات المحددة.
+على سبيل المثال ، قم بمراجعة سياسة الموارد البشرية لتحديد متطلبات المهارة ، وتحديد التدريب للموظفين الجدد وغيرهم.
+مقابلة الموارد البشرية أو مديري الأعمال لتقييم كيفية التأكد من توظيف الوظائف الحرجة أثناء حالات الطوارئ أو فترات الغياب الممتدة.
+مراجعة مواد التدريب الأولية والتجديدية أو العملية الداخلية الأخرى التي يتم من خلالها توصيل هذه السياسات والإجراءات داخل المنظمة.
+قم بمراجعة الخطة الإستراتيجية لتكنولوجيا المعلومات للتأكد من أنها تحتوي على متطلبات الأفراد والموارد لتلبية الاحتياجات الحالية والمستقبلية.
+"/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -860,73 +1057,124 @@ Rishikim i politikave për të përcaktuara saktësi duke parë për (si shembul
 		<Area nr="05">
 			<title>
 				<tx l="eng" name="Risk Assessment and Compliance mechanisms"/>
-				<tx l="fre" name="Vlerësimi i riskut dhe mekanizmat e përputhshmërisë"/>
+				<tx l="spa" name="Mecanismos de evaluación de riesgos y cumplimiento"/>
+				<tx l="fre" name="Mécanismes d'évaluation des risques et de conformité"/>
+				<tx l="ara" name="آليات تقييم المخاطر والامتثال"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>The management of IT risks should form an integral part of the company’s risk management strategy and policies. Organizations need to have a compliance mechanism that ensures that all the policies and associated procedures are being followed.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La gestión de los riesgos de TI debe formar parte integral de la estrategia y las políticas de gestión de riesgos de la organización. Las organizaciones deben tener un mecanismo de cumplimiento que garantice que se sigan todas las políticas y los procedimientos asociados.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La gestion des risques informatiques doit faire partie intégrante de la stratégie et des politiques de gestion des risques de l’entreprise. Les organisations doivent disposer d'un mécanisme de conformité garantissant que toutes les politiques et procédures associées sont suivies.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>يجب أن تشكل إدارة مخاطر تكنولوجيا المعلومات جزءًا لا يتجزأ من استراتيجية وسياسات إدارة المخاطر في الشركة. تحتاج المنظمات إلى آلية امتثال تضمن اتباع جميع السياسات والإجراءات المرتبطة بها.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Mechanism"/>
-					<tx l="fre" name="Mekanizmat"/>
+					<tx l="spa" name="Mecanismo"/>
+					<tx l="fre" name="Mécanisme"/>
+					<tx l="ara" name="آلية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organization has a mechanism (via a Quality Assurance group, internal audit, or spot check, etc.) to ensure that all policies and procedures are being followed.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización tiene un mecanismo (a través de un grupo de aseguramiento de la calidad, auditoría interna o control puntual, etc.) para garantizar que se sigan todas las políticas y procedimientos.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation dispose d'un mécanisme (via un groupe d'assurance qualité, un audit interne ou un contrôle ponctuel, etc.) pour s'assurer que toutes les politiques et procédures sont suivies.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>لدى المنظمة آلية (عبر مجموعة ضمان الجودة ، أو التدقيق الداخلي ، أو الفحص الفوري ، وما إلى ذلك) لضمان اتباع جميع السياسات والإجراءات.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Risk Assessment and Compliance mechanisms">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="..."/>
-							<tx l="fre" name="…"/>
+							<tx l="spa" name="..."/>
+							<tx l="fre" name="..."/>
+							<tx l="ara" name="..."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Mechanism - How does the organization ensure that they have an adequate and working compliance mechanism to ensure all policies and procedures are being followed?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization has a mechanism (via a QA group, internal audit, or spot check, etc.) to ensure that all policies and procedures are being followed."/>
-							<tx l="fre" name="Organizata posedon mekanizma (nëpërmjet grupit të sigurimit të cilësisë, ose kontrolle, etj.) me anë të të cilëve siguron se janë duke u ndjekur të gjitha politikat dhe procedurat."/>
+							<tx l="spa" name="La organización tiene un mecanismo (a través de un grupo de aseguramiento de la calidad, auditoría interna o control puntual, etc.) para garantizar que se sigan todas las políticas y procedimientos."/>
+							<tx l="fre" name="L'organisation dispose d'un mécanisme (via un groupe d'assurance qualité, un audit interne ou un contrôle ponctuel, etc.) pour s'assurer que toutes les politiques et procédures sont suivies."/>
+							<tx l="ara" name="لدى المنظمة آلية (عبر مجموعة ضمان الجودة ، أو التدقيق الداخلي ، أو الفحص الفوري ، وما إلى ذلك) لضمان اتباع جميع السياسات والإجراءات."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Organizational policies &amp; procedures
-(Security, SDLC, Training, etc)
-Organization Chart Quality Assurance Plan Reports from compliance
-teams or groups
-Steering Committee Minutes
-
+							<tx l="eng" name="Organizational policies and procedures (Security, SDLC, Training, etc).
+Organization Chart.
+Quality Assurance Plan Reports from compliance teams or groups.
+Steering Committee Minutes.
 "/>
-							<tx l="fre" name="Politika organizacionale lidhur me:
-Burimet njerëzore &amp; Trajnimet
-Strategjia IT ose Plan Strategjik
-Planet e Punësimit &amp; Trajnimit
+							<tx l="spa" name="Políticas y procedimientos organizacionales (Seguridad, SDLC, Capacitación, etc.).
+Organigrama.
+Informes del plan de aseguramiento de la calidad de los equipos o grupos de cumplimiento.
+Actas del Comité Directivo.
+"/>
+							<tx l="fre" name="Politiques et procédures organisationnelles (sécurité, SDLC, formation, etc.).
+Organigramme.
+Plan d'assurance qualité Rapports d'équipes ou de groupes de conformité.
+Procès-verbaux du comité directeur.
+"/>
+							<tx l="ara" name="السياسات والإجراءات التنظيمية (الأمان ، SDLC ، التدريب ، إلخ).
+الهيكل التنظيمي.
+تقارير خطة ضمان الجودة من فرق أو مجموعات الامتثال.
+محاضر اللجنة التوجيهية.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Select a sample of policies and organizational procedures to assess compliance. Interview management to determine whose is responsible for ensuring compliance to the (audit selected) policies and associated procedures.
+							<tx l="eng" name="Select a sample of policies and organizational procedures to assess compliance. 
+Interview management to determine whose is responsible for ensuring compliance to the (audit selected) policies and associated procedures.
 Interview team or group responsible for compliance of above to determine how they accomplish their duties.
 Review reports from various compliance groups to see what they found, what actions they have taken and reported to management.
 Review steering committee minutes to see if high level compliance issues are discussed at this or at other meetings.
-Interview author(s) to determine reason for update to existing policies or procedures Review past non-compliance issues and resolutions.
+Interview author(s) to determine reason for update to existing policies or procedures.
+Review past non-compliance issues and resolutions.
 Review training or other dissemination mechanisms (email, memo, notice) to see if non-compliance issues were addressed.
-
 "/>
-							<tx l="fre" name="Përzgjidhni një kampjon procedurash organizacionale ose politikash për të vlerësuar përputhshmërinë.
-
-Intervista me menaxhimin për të përcaktuara se cilët janë përgjegjëspër sigurimin e përputhshmërisë të politikave dhe procedurave të lidhura me to (të përzgjedhura nga grupi i auditimit).
-Intervista me personat ose grupin përgjegjës për përputhshmërinë, në mënyrë që të përcaktohet se si i kryejnë ata detyrat  tyre.
-
-Rishikim i procesverbaleve të Komitetit të Drejtimit për të parë nesë çështjet me nivel të lartë të përputhshmërisë janë diskutuar.
-Intervista me autorët për të përcaktuar arsyet që kanë sjellë ndryshimin e politikave ose procedurave ekzistuese.
-
-Rishikim i çështjeve dhe zgjidhjeve të mospërputhjeve.
-Rishikim  i mekanizmave të trajnimit ose të tjerë (emaile, memo, njoftime) për të parë nëse adresohen çështjet e mospërputhshmërisë.
+							<tx l="spa" name="Seleccione una muestra de políticas y procedimientos organizacionales para evaluar el cumplimiento.
+Entrevistar a la gerencia para determinar quién es responsable de asegurar el cumplimiento de las políticas (seleccionadas por auditoría) y los procedimientos asociados.
+Entrevistar al equipo o grupo responsable del cumplimiento de lo anterior para determinar cómo cumplen con sus funciones.
+Revise los informes de varios grupos de cumplimiento para ver qué encontraron, qué acciones tomaron e informaron a la gerencia.
+Revise las actas del comité directivo para ver si se discuten problemas de cumplimiento de alto nivel en esta o en otras reuniones.
+Entreviste a los autores para determinar el motivo de la actualización de las políticas o procedimientos existentes. 
+Revise los problemas y resoluciones de incumplimiento anteriores.
+Revise la capacitación u otros mecanismos de difusión (correo electrónico, memorando, notificación) para ver si se abordaron los problemas de incumplimiento.
+"/>
+							<tx l="fre" name="Sélectionnez un échantillon de politiques et de procédures organisationnelles pour évaluer la conformité.
+Interviewer la direction pour déterminer à qui incombe la responsabilité d'assurer la conformité aux politiques (sélectionnées par l'audit) et aux procédures associées.
+Interviewer l'équipe ou le groupe responsable de la conformité ci-dessus pour déterminer comment ils accomplissent leurs tâches.
+Passez en revue les rapports de divers groupes de conformité pour voir ce qu'ils ont trouvé, quelles mesures ils ont prises et signalées à la direction.
+Passez en revue les procès-verbaux du comité de pilotage pour voir si des questions de conformité de haut niveau sont discutées à cette réunion ou à d'autres.
+Interviewer le(s) auteur(s) pour déterminer la raison de la mise à jour des politiques ou procédures existantes.
+Passez en revue les problèmes de non-conformité passés et leurs résolutions.
+Passez en revue la formation ou d'autres mécanismes de diffusion (e-mail, mémo, avis) pour voir si les problèmes de non-conformité ont été résolus.
+"/>
+							<tx l="ara" name="حدد عينة من السياسات والإجراءات التنظيمية لتقييم الامتثال.
+إدارة المقابلة لتحديد المسؤول عن ضمان الامتثال لسياسات (التدقيق المختار) والإجراءات المرتبطة بها.
+مقابلة الفريق أو المجموعة المسؤولة عن الامتثال لما ورد أعلاه لتحديد كيفية إنجازهم لواجباتهم.
+قم بمراجعة التقارير من مجموعات الامتثال المختلفة لمعرفة ما وجدوه ، والإجراءات التي اتخذوها وأبلغوا بها إلى الإدارة.
+راجع محاضر اللجنة التوجيهية لمعرفة ما إذا كانت قضايا الامتثال عالية المستوى قد تمت مناقشتها في هذا الاجتماع أو في اجتماعات أخرى.
+مؤلف (مؤلفو) المقابلة لتحديد سبب تحديث السياسات أو الإجراءات الحالية.
+مراجعة قضايا عدم الامتثال والقرارات السابقة.
+قم بمراجعة التدريب أو آليات النشر الأخرى (البريد الإلكتروني ، المذكرة ، الإشعار) لمعرفة ما إذا تم معالجة قضايا عدم الامتثال.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -953,64 +1201,118 @@ Rishikim  i mekanizmave të trajnimit ose të tjerë (emaile, memo, njoftime) p�
 	<Domain nr="02">
 		<title>
 			<tx l="eng" name="IT Operations"/>
-			<tx l="fre" name="Operacionet e IT"/>
+			<tx l="spa" name="Operaciones de TI"/>
+			<tx l="fre" name="Opérations informatiques"/>
+			<tx l="ara" name="عمليات تكنولوجيا المعلومات"/>
 		</title>
 		<Narrative>
 			<narr l="eng">
 				<ak>IT operations is typically the day to day running of the IT infrastructure to support business needs. Properly managed IT operations makes it possible to identify bottle necks and plan for anticipated capacity changes (additional hardware, or network resources), measures performance to ensure it meets the agreed upon needs of the business owners, and provides help desk and incident management support to the users of IT resources.</ak>
 			</narr>
+			<narr l="spa">
+				<ak>Las operaciones de TI generalmente están vinculadas con el funcionamiento diario de la infraestructura de TI para respaldar las necesidades del negocio. Las operaciones de TI administradas adecuadamente permiten identificar estrangulamientos y planificar los cambios de capacidad anticipados (hardware adicional o recursos de red), mide el rendimiento para garantizar que cumpla con las necesidades acordadas por los propietarios de la empresa y proporciona soporte técnico y de gestión de incidentes para los usuarios de los recursos de TI.</ak>
+			</narr>
+			<narr l="fre">
+				<ak>Les opérations informatiques sont généralement liées à la gestion quotidienne de l'infrastructure informatique pour répondre aux besoins de l'entreprise. Des opérations informatiques correctement gérées permettent d'identifier les 
+etranglements et de planifier les changements de capacité anticipés (matériel supplémentaire ou ressources réseau), de mesurer les performances pour garantir qu'elles répondent aux besoins convenus des propriétaires d'entreprise et de fournir un support technique et de gestion des incidents aux les utilisateurs des ressources informatiques.</ak>
+			</narr>
+			<narr l="ara">
+				<ak>ترتبط عمليات تكنولوجيا المعلومات عادةً بالتشغيل اليومي للبنية التحتية لتكنولوجيا المعلومات لدعم احتياجات العمل. تجعل عمليات تكنولوجيا المعلومات المُدارة بشكل صحيح من الممكن تحديد أعناق الزجاجة والتخطيط للتغييرات المتوقعة في السعة (أجهزة إضافية ، أو موارد الشبكة) ، وقياس الأداء للتأكد من أنه يلبي الاحتياجات المتفق عليها لأصحاب الأعمال ، ويوفر مكتب المساعدة ودعم إدارة الحوادث لـ مستخدمي موارد تكنولوجيا المعلومات.</ak>
+			</narr>
 		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="IT Service Continuity management"/>
-				<tx l="fre" name="Menaxhimi i shërbimit"/>
+				<tx l="spa" name="Gestión de la continuidad del servicio de TI"/>
+				<tx l="fre" name="Gestion de la continuité des services informatiques"/>
+				<tx l="ara" name="إدارة استمرارية خدمة تكنولوجيا المعلومات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>The purpose of continuity management is to maintain the appropriate on-going business continuity requirements. The IT organization accomplishes this by setting recovery time targets for the various IT components that support the business processes based on agreed to needs and requirements.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>El propósito de la gestión de la continuidad es mantener los requisitos adecuados de continuidad del negocio en curso. La organización de TI logra esto estableciendo objetivos de tiempo de recuperación para los diversos componentes de TI que respaldan los procesos del negocio según las necesidades y requisitos acordados.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Le but de la gestion de la continuité est de maintenir les exigences appropriées en matière de continuité des activités. L'organisation informatique accomplit cela en définissant des objectifs de temps de récupération pour les divers composants informatiques qui prennent en charge les processus métier en fonction des besoins et des exigences convenus.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>الغرض من إدارة الاستمرارية هو الحفاظ على متطلبات استمرارية الأعمال المستمرة المناسبة. تنجز مؤسسة تكنولوجيا المعلومات ذلك من خلال تحديد أهداف وقت الاسترداد لمكونات تكنولوجيا المعلومات المختلفة التي تدعم عمليات الأعمال بناءً على الاحتياجات والمتطلبات المتفق عليها.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Key parameters"/>
-					<tx l="fre" name="Parametrat kryesorë"/>
+					<tx l="spa" name="Parámetros clave"/>
+					<tx l="fre" name="Paramètres clés"/>
+					<tx l="ara" name="المعلمات الرئيسية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Allocation of responsibilities between the business process owners and the IT support group, documented network management business objectives, service offerings and metrics, definition for problem types, help desk responsibilities.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Asignación de responsabilidades entre los propietarios de los procesos del negocio y el grupo de soporte de TI, objetivos de la gestión de redes documentados, ofertas de servicios y métricas, definición de tipos de problemas, responsabilidades de lo servicio de ayuda.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Répartition des responsabilités entre les responsables des processus métier et le groupe de support informatique, objectifs de gestion de réseau documentés, offres de services et métriques, définition des types de problèmes, responsabilités du service d'assistance.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>توزيع المسؤوليات بين مالكي عمليات الأعمال ومجموعة دعم تكنولوجيا المعلومات ، وأهداف أعمال إدارة الشبكة الموثقة ، وعروض الخدمات والمقاييس ، وتعريف أنواع المشاكل ، ومسؤوليات مكتب المساعدة.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Service Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the IT organization is actively monitoring IT operations against agreed to internal Service Level Agreement or contract."/>
-							<tx l="fre" name="Vlerësimi nëse struktura IT monitoron në mënyrë aktive operacione IT kundrejt marrëveshjeve SLA ose kontratave të tjera"/>
+							<tx l="spa" name="Evaluar si la organización de TI está monitoreando activamente las operaciones de TI según el acuerdo de nivel de servicio interno o contrato."/>
+							<tx l="fre" name="Évaluer si l'organisation informatique surveille activement les opérations informatiques par rapport à l'accord de niveau de service interne ou au contrat."/>
+							<tx l="ara" name="لتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تراقب بنشاط عمليات تكنولوجيا المعلومات مقابل اتفاقية أو عقد مستوى الخدمة الداخلي المتفق عليه."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Key parameters - What baseline service metrics are covered by the internal SLA between the business and the IT organization?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="SLA Best practices – allocation of responsibilities between the business process owners and the IT support group, documented network management business objectives, service offerings and metrics, definition for problem types, help desk responsibilities."/>
-							<tx l="fre" name="Praktikat më të mira SLA-alokimi i prgjegjësive midis zotëruesve të proceseve të biznesit dhe grupit mbështetës të IT, objektivat e dokumentuar të rrjetit të menaxhimit të biznesit, ofrimet dhe matjet e shërbimit, përcaktimi i llojeve të problemeve, përgjegjësitë e help desk-ut."/>
+							<tx l="spa" name="Mejores prácticas de SLA: asignación de responsabilidades entre los propietarios de los procesos del negocio y el grupo de soporte de TI, objetivos de la gestión de redes documentados, ofertas de servicios y métricas, definición de tipos de problemas, responsabilidades de lo servicio de ayuda."/>
+							<tx l="fre" name="Meilleures pratiques SLA - répartition des responsabilités entre les responsables des processus métier et le groupe de support informatique, objectifs de gestion de réseau documentés, offres de services et mesures, définition des types de problèmes, responsabilités du service d'assistance."/>
+							<tx l="ara" name="أفضل ممارسات اتفاقية مستوى الخدمة (SLA) - توزيع المسؤوليات بين مالكي عمليات الأعمال ومجموعة دعم تكنولوجيا المعلومات ، وأهداف أعمال إدارة الشبكة الموثقة ، وعروض الخدمات والمقاييس ، وتعريف أنواع المشكلات ، ومسؤوليات مكتب المساعدة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Entity’s internal SLA between business owners and IT organization.
 
-Help desk responsibilities
+Help desk responsibilities.
 
-Service reports generated
+Service reports generated.
 
-User/ application response time t
+User/ application response time.
 "/>
-							<tx l="fre" name="SLA-t e brendshme të subjektit midis zotëruesve të biznesit dhe strukturës së IT
+							<tx l="spa" name="SLA interno de la entidad entre los propietarios del negocio y la organización de TI.
 
--Përgjegjësitë e Help Desk
+Responsabilidades de lo servicio de ayuda.
 
--Raportet e gjeneruara të shërbimeve
+Generación de informes de servicio.
 
--Koha e përgjigjes së përdoruesit/ aplikimit
+Tiempo de respuesta del usuario / aplicación.
+"/>
+							<tx l="fre" name="SLA interne de l'entité entre les propriétaires d'entreprise et l'organisation informatique.
+
+Responsabilités du service d'assistance.
+
+Rapports de service générés.
+
+Temps de réponse utilisateur / application.
+"/>
+							<tx l="ara" name="اتفاقية مستوى الخدمة الداخلية للكيان بين أصحاب الأعمال ومنظمة تكنولوجيا المعلومات.
+
+مسؤوليات مكتب المساعدة.
+
+تم إنشاء تقارير الخدمة.
+
+وقت استجابة المستخدم / التطبيق.
 "/>
 						</inf>
 					</InformationRequired>
@@ -1022,10 +1324,23 @@ Check whether data backup and recovery practices are consistent with the entity�
 
 Check if the Business Process Owners have signed on the agreement. Interview sample of users to understand the awareness.
 "/>
-							<tx l="fre" name="Rishikim i SLA për të verifikuar nëse përmban elementët e përshtatshëm- objektivat e detajuar dhe të matshëm në nivel shërbimi, sistemet dhe shërbimet e mbuluara, cilësia e shërbimit, shërbimet që nuk mbulohen, mbështetja në nivel aplikacioni dhe trajtimi i problemeve, gadishmëria e sistemit, orët e help desk, koha e përgjigjes dhe e zgjidhjes në varësi të llojit të klasifikimit të problemit, listës së problemeve, skedulat e mirëmbajtjes, etj.
-Kontrolli nëse praktikat e backup-it dhe të rimëkëmbjes janë të qëndrueshme me standartdet e BCP të biznesit.
-Kontrolli nëse zotëruesit e proceseve të biznesit kanë nënshkruar marrëveshjen.
-Intervistim i një kampjoni përdoruesish për të kuptuar ndërgjegjësimin.
+							<tx l="spa" name="Revise el SLA para determinar si contiene los elementos apropiados: objetivos de nivel de servicio detallados y medibles, sistemas y servicios cubiertos, calidad de servicio (QoS), servicios no cubiertos, soporte y resolución de problemas a nivel de aplicación, disponibilidad del sistema, horas de asistencia técnica, respuesta y resolución el tiempo depende de la clasificación de la gravedad de un problema, el rendimiento, los programas de mantenimiento, etc.
+
+Verifique si las prácticas de respaldo y recuperación de datos son consistentes con los estándares BCP de la entidad.
+
+Compruebe si los propietarios de procesos de negocio han firmado el acuerdo. Entrevistar a una muestra de usuarios para comprender la conciencia.
+"/>
+							<tx l="fre" name="Passez en revue le SLA pour déterminer s'il contient les éléments appropriés - objectifs de niveau de service détaillés et mesurables, systèmes et services couverts, qualité de service (QoS), services non couverts, assistance et dépannage au niveau de l'application, disponibilité du système, heures du service d'assistance, réponse et résolution temps dépendant de la classification de gravité d'un problème, du débit, des calendriers de maintenance, etc.
+
+Vérifiez si les pratiques de sauvegarde et de récupération des données sont cohérentes avec les normes BCP de l’entité.
+
+Vérifiez si les propriétaires de processus métier ont signé le contrat. Interviewer un échantillon d'utilisateurs pour comprendre la prise de conscience.
+"/>
+							<tx l="ara" name="راجع اتفاقية مستوى الخدمة لمعرفة ما إذا كانت تحتوي على عناصر مناسبة - أهداف مستوى الخدمة التفصيلية والقابلة للقياس ، والأنظمة والخدمات المشمولة ، وجودة الخدمة (QoS) ، والخدمات غير المشمولة ، ودعم مستوى التطبيق واستكشاف الأخطاء وإصلاحها ، وتوافر النظام ، وساعات مكتب المساعدة ، والاستجابة والحل يعتمد الوقت على تصنيف خطورة المشكلة والإنتاجية والجداول الزمنية للصيانة وما إلى ذلك.
+
+تحقق مما إذا كانت ممارسات النسخ الاحتياطي والاستعادة للبيانات متوافقة مع معايير BCP للكيان.
+
+تحقق مما إذا كان مالكو إجراءات الأعمال قد وقعوا على الاتفاقية. عينة مقابلة من المستخدمين لفهم الوعي.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1050,79 +1365,103 @@ Intervistim i një kampjoni përdoruesish për të kuptuar ndërgjegjësimin.
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Compliance"/>
-					<tx l="fre" name="Përputhshmëria"/>
+					<tx l="spa" name="Conformidad"/>
+					<tx l="fre" name="Conformité"/>
+					<tx l="ara" name="الامتثال"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Service level agreements are  implemented, monitored and amended where necessary.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Los acuerdos de nivel de servicio se implementan, monitorean y modifican cuando es necesario.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les accords de niveau de service sont mis en œuvre, contrôlés et modifiés si nécessaire.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يتم تنفيذ اتفاقيات مستوى الخدمة ومراقبتها وتعديلها عند الضرورة.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Service Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the IT organization is actively monitoring IT operations against agreed to internal Service Level Agreement or contract."/>
-							<tx l="fre" name="Vlerësimi nëse struktura IT monitoron në mënyrë aktive operacione IT kundrejt marrëveshjeve SLA ose kontratave të tjera"/>
+							<tx l="spa" name="Evaluar si la organización de TI está monitoreando activamente las operaciones de TI según el acuerdo de nivel de servicio interno o contrato."/>
+							<tx l="fre" name="Évaluer si l'organisation informatique surveille activement les opérations informatiques par rapport à l'accord de niveau de service interne ou au contrat."/>
+							<tx l="ara" name="لتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تراقب بنشاط عمليات تكنولوجيا المعلومات مقابل اتفاقية أو عقد مستوى الخدمة الداخلي المتفق عليه."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Compliance - What mechanisms are in place to ensure that the SLA is adhered to consistently?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="SLA implemented, monitored and amended where necessary"/>
-							<tx l="fre" name="SLA e implementuar, e monitoruar dhe e ndryshuar në varësi të nevojës"/>
+							<tx l="spa" name="Acuerdo de nivel de servicio implementado, monitoreado y modificado cuando sea necesario"/>
+							<tx l="fre" name="Accord de niveau de service mis en œuvre, surveillé et modifié si nécessaire"/>
+							<tx l="ara" name="تنفيذ اتفاقية مستوى الخدمة ومراقبتها وتعديلها عند الضرورة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Information Required
-
-The SLA parameters 
-Reporting timelines
-
-Charts or graphs that show the success or failure of how these agreements are met over time
-
-Periodic meeting documents that reviews the analysis of the baseline and trends
-
-Operational parameters - defect rates, help desk requests, other communication trails, response time, 
-
-Time to implement new functionality, change documentation, serviced locations
-
-Incentive and penalty clauses (especially important if IT support services are outsourced);
-
-
+							<tx l="eng" name="Information Required:
+The service level agreement (SLA) parameters;
+Reporting timelines;
+Charts or graphs that show the success or failure of how these agreements are met over time;
+Periodic meeting documents that reviews the analysis of the baseline and trends;
+Operational parameters - defect rates, help desk requests, other communication trails, response time, time to implement new functionality, change documentation, serviced locations;
+Incentive and penalty clauses (especially important if IT support services are outsourced).
 "/>
-							<tx l="fre" name="Parametrat e SLA
-
-Periudha e raportimit
-
-Grafikë që tregojnë suksesin ose dështimin sesi janë plotësuar këto marrëveshje përgjatë kohës
-
-Dokumentat e mbledhjeve periodike që rishikojnë analizën e trendeve
-Parametrat operacionalë-normat e defekteve, kërkesat në help desk, gjurmë të tjera komunikimi, koha e përgjigjes, koha e implementimit të funksionaliteteve të reja, dokumentimi i ndryshimeve, vendodhjet e shërbimeve;
-Klauzolat e nxitjes dhe të penaliteteve (veçanërisht e rëndësishme nëse shërbimet e mbështjetjes së IT janë të kontraktuara)
+							<tx l="spa" name="Informacion requerida:
+Los parámetros del acuerdo de nivel de servicio (SLA);
+Cronogramas de informes;
+Cuadros o gráficos que muestren el éxito o el fracaso de cómo se cumplen estos acuerdos a lo largo del tiempo;
+Documentos de reuniones periódicas que revisan el análisis de la línea de base y las tendencias;
+Parámetros operativos - tasas de defectos, solicitudes de servicio de asistencia técnica, otras rutas de comunicación, tiempo de respuesta, tiempo para implementar nuevas funciones, modificar la documentación, ubicaciones de servicio;
+Cláusulas de incentivos y sanciones (especialmente importantes si se subcontratan los servicios de soporte de TI).
+"/>
+							<tx l="fre" name="Information requise:
+Les paramètres de l'accord de niveau de service (SLA);
+Calendrier des rapports;
+Tableaux ou graphiques montrant le succès ou l'échec de la façon dont ces accords sont respectés au fil du temps;
+Documents de réunion périodiques qui revoient l'analyse de la situation de référence et des tendances;
+Paramètres opérationnels - taux de défauts, demandes d'assistance, autres chemins de communication, temps de réponse, temps de mise en œuvre de nouvelles fonctionnalités, documentation des modifications, emplacements desservis;
+Clauses d'incitation et de pénalité (particulièrement importantes si les services de support informatique sont externalisés).
+"/>
+							<tx l="ara" name="المعلومات المطلوبة:
+معلمات اتفاقية مستوى الخدمة (SLA) ؛
+الجداول الزمنية لإعداد التقارير ؛
+الرسوم البيانية أو الرسوم البيانية التي توضح نجاح أو فشل كيفية تلبية هذه الاتفاقيات بمرور الوقت ؛
+وثائق الاجتماعات الدورية التي تستعرض تحليل خط الأساس والاتجاهات ؛
+المعلمات التشغيلية - معدلات العيوب وطلبات مكتب المساعدة ومسارات الاتصال الأخرى ووقت الاستجابة ووقت تنفيذ وظائف جديدة وتغيير الوثائق والمواقع المزودة بالخدمات ؛
+شروط الحوافز والعقوبات (مهمة بشكل خاص إذا تم الاستعانة بمصادر خارجية لخدمات دعم تكنولوجيا المعلومات).
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the reports that the IT Organization generates daily or any other time interval. Check if all the indicators agreed upon are being monitored through the reports/trend graphs etc.
-
 Review reports to examine what metrics are measured and reported to the management periodically.
-
 Review documents to check whether the helpdesk activity reports are considered by the management and compared to resolution requests, and critical issues are noted for buying decisions and for periodic review of the SLA itself.
-
 Interview IT organization personnel and examine the nature of supervision of help desk personnel, the monitoring tools used, the support task prioritization, gathering of baseline for network and application, data on response time, frequency of backups, testing of backed up data to verify compliance with SLA requirements.
-
 Check what actions are taken by the IT unit, or in case of an outsourced IT support group – by the organization’s management - if operational parameters are not in agreement with SLA requirements.
-
 "/>
-							<tx l="fre" name="Rishikim i raporteve që struktura IT gjeneron mbi baza ditore ose mbi çdo interval tjetër. Kontrolli nëse këto tregues janë duke u monitoruar nëpërmjet raporteve ose grafikëve të trendit, etj.
-Rishikim i raporteve për të ekzaminuar se cilat matje janë matur dhe raportuar tek menaxhimi periodikisht.
-
-Rishikim i dokumentave për të verifikuar nëse raportet e aktivitetit të help desk-ut janë konsideruar prej menaxhimit dhe janë krahasuar me kërkesat e zgjidhura, çështjet kritike janë evidentuar për vendimet e blerjes dhe për rishikim periodik të vetë SLA-s.
-
-Intervistim i personelit të strukturës së IT dhe ekzaminim i mbikqyrjes së personelit të help desk-ut, monitorimi i mjteve të përdorura, prioritarizimi i detyrave mbështetëse, grumbullimi i bazave mbi rrjetin dhe aplikimet, të dhënat mbi kohën e përgjigjes, frekuenca e back up-eve, testimi i të dhënave back up për të verifikuar përputhshmërinë me kërkesat e SLA.
-
-Kontrolli nëse veprimet janë ndërmarrë nga njësia e IT, ose në rast të grupit mbështetës të kontraktuar-nga menaxhimi i organizatës-nëse parametrat janë ose jo në përputhje me kërkesat e SLA.
+							<tx l="spa" name="Revise los informes que la organización de TI genera diariamente o en cualquier otro intervalo de tiempo. Verifique si todos los indicadores acordados están siendo monitoreados a través de los informes / gráficos de tendencias, etc.
+Revise los informes para examinar qué métricas se miden y se informan a la administración periódicamente.
+Revise los documentos para verificar si los informes de actividad del servicio de asistencia técnica son considerados por la administración y comparados con las solicitudes de resolución, y se anotan los problemas críticos para las decisiones de compra y para la revisión periódica del acuerdo de nivel de servicio en sí.
+Entreviste al personal de la organización de TI y examine la naturaleza de la supervisión del personal de lo servicio de ayuda, las herramientas de monitoreo utilizadas, la priorización de las tareas de soporte, la recopilación de la línea base para la red y la aplicación, los datos sobre el tiempo de respuesta, la frecuencia de las copias de seguridad, las pruebas de los datos respaldados para verificar el cumplimiento. con los requisitos del acuerdo de nivel de servicio.
+Verifique qué acciones toma la unidad de TI, o en el caso de un grupo de soporte de TI subcontratado, por la administración de la organización, si los parámetros operativos no están de acuerdo con los requisitos del acuerdo de nivel de servicio.
+"/>
+							<tx l="fre" name="Passez en revue les rapports que l'organisation informatique génère quotidiennement ou à tout autre intervalle de temps. Vérifiez si tous les indicateurs convenus sont surveillés à travers les rapports / graphiques de tendance, etc.
+Examiner les rapports pour examiner les paramètres mesurés et rapportés périodiquement à la direction.
+Examiner les documents pour vérifier si les rapports d'activité du helpdesk sont pris en compte par la direction et comparés aux demandes de résolution, et les problèmes critiques sont notés pour les décisions d'achat et pour l'examen périodique de l'accord de niveau de service lui-même.
+Interroger le personnel de l'organisation informatique et examiner la nature de la supervision du personnel du service d'assistance, les outils de surveillance utilisés, la hiérarchisation des tâches de support, la collecte des données de base pour le réseau et l'application, les données sur le temps de réponse, la fréquence des sauvegardes, le test des données sauvegardées pour vérifier la conformité avec les exigences du contrat de niveau de service.
+Vérifiez les mesures prises par l'unité informatique, ou dans le cas d'un groupe de support informatique externalisé - par la direction de l'organisation - si les paramètres opérationnels ne sont pas en accord avec les exigences de l'accord de niveau de service.
+"/>
+							<tx l="ara" name="مراجعة التقارير التي تنشئها مؤسسة تكنولوجيا المعلومات يوميًا أو أي فترة زمنية أخرى. تحقق مما إذا كانت جميع المؤشرات المتفق عليها تتم مراقبتها من خلال الرسوم البيانية للتقارير / الاتجاه وما إلى ذلك.
+مراجعة التقارير لفحص المقاييس التي يتم قياسها وإبلاغ الإدارة بها بشكل دوري.
+قم بمراجعة المستندات للتحقق مما إذا كانت تقارير نشاط مكتب المساعدة يتم النظر فيها من قبل الإدارة ومقارنتها بطلبات الحل ، ويتم ملاحظة المشكلات الحرجة لقرارات الشراء وللمراجعة الدورية لاتفاقية مستوى الخدمة نفسها.
+مقابلة موظفي مؤسسة تكنولوجيا المعلومات وفحص طبيعة الإشراف على موظفي مكتب المساعدة ، وأدوات المراقبة المستخدمة ، وتحديد أولويات مهام الدعم ، وجمع خط الأساس للشبكة والتطبيق ، وبيانات عن وقت الاستجابة ، وتكرار النسخ الاحتياطية ، واختبار البيانات الاحتياطية للتحقق من الامتثال مع متطلبات اتفاقية مستوى الخدمة.
+تحقق من الإجراءات التي تتخذها وحدة تكنولوجيا المعلومات ، أو في حالة الاستعانة بمصادر خارجية لمجموعة دعم تكنولوجيا المعلومات - من قبل إدارة المؤسسة - إذا كانت المعلمات التشغيلية لا تتفق مع متطلبات اتفاقية مستوى الخدمة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1147,54 +1486,87 @@ Kontrolli nëse veprimet janë ndërmarrë nga njësia e IT, ose në rast të gr
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Effectiveness"/>
-					<tx l="fre" name="Efektivitetit"/>
+					<tx l="spa" name="Eficacia"/>
+					<tx l="fre" name="Efficacité"/>
+					<tx l="ara" name="فعالية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Achievement of performance metrics that are aligned to business needs and goals.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Logro de métricas de desempeño alineadas con las necesidades y objetivos del negocio.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Réalisation de mesures de performance alignées sur les besoins et les objectifs de l'entreprise.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تحقيق مقاييس الأداء التي تتماشى مع احتياجات العمل وأهدافه.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Service Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the IT organization is actively monitoring IT operations against agreed to internal Service Level Agreement or contract."/>
-							<tx l="fre" name="Vlerësimi nëse struktura IT monitoron në mënyrë aktive operacione IT kundrejt marrëveshjeve SLA ose kontratave të tjera"/>
+							<tx l="spa" name="Evaluar si la organización de TI está monitoreando activamente las operaciones de TI según el acuerdo de nivel de servicio interno o contrato."/>
+							<tx l="fre" name="Évaluer si l'organisation informatique surveille activement les opérations informatiques par rapport à l'accord de niveau de service interne ou au contrat."/>
+							<tx l="ara" name="لتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تراقب بنشاط عمليات تكنولوجيا المعلومات مقابل اتفاقية أو عقد مستوى الخدمة الداخلي المتفق عليه."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Effectiveness - Does the management of IT services ensure satisfaction of business users and help meet business objectives of the organization?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Achievement of performance metrics that are aligned to business needs and goals."/>
-							<tx l="fre" name="Arritja e matjeve të performancës që janë në lidhje me nevojat dhe qëllimet e biznesit"/>
+							<tx l="spa" name="Logro de métricas de desempeño alineadas con las necesidades y objetivos del negocio."/>
+							<tx l="fre" name="Réalisation de mesures de performance alignées sur les besoins et les objectifs de l'entreprise."/>
+							<tx l="ara" name="تحقيق مقاييس الأداء التي تتماشى مع احتياجات العمل وأهدافه."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Help desk reports, Minutes of meetings between business stakeholders and IT organization,
-
-Agenda items for SLA review cycles 
-Incentive and penalty clauses (especially important if IT support services are outsourced
+							<tx l="eng" name="Help desk reports, 
+Minutes of meetings between business stakeholders and IT organization, 
+Agenda items for SLA review cycles,
+Incentive and penalty clauses (especially important if IT support services are outsourced).
 "/>
-							<tx l="fre" name="Raportet e help desk-ut, procesverbalet e mbledhjeve midis palëve të interesuara të biznesit dhe strukturës së IT
-
-Artikujt e axhendës për ciklin e rishikimeve të SLA-s
+							<tx l="spa" name="Informes del servicio de ayuda,
+Actas de reuniones entre las partes interesadas del negocio y la organización de TI,
+Elementos de la agenda para los ciclos de revisión del acuerdo de nivel de servicio,
+Cláusulas de incentivos y sanciones (especialmente importantes si se subcontratan los servicios de soporte de TI).
+"/>
+							<tx l="fre" name="Rapports du service d'assistance,
+Compte-rendu des réunions entre les parties prenantes de l'entreprise et l'organisation informatique,
+Points à l'ordre du jour des cycles de révision des accords de niveau de service,
+Clauses d'incitation et de pénalité (particulièrement importantes si les services de support informatique sont externalisés).
+"/>
+							<tx l="ara" name="تقارير مكتب المساعدة ،
+محاضر الاجتماعات بين أصحاب المصلحة التجاريين ومنظمة تكنولوجيا المعلومات ،
+بنود جدول الأعمال لدورات مراجعة اتفاقية مستوى الخدمة ،
+شروط الحوافز والعقوبات (مهمة بشكل خاص إذا تم الاستعانة بمصادر خارجية لخدمات دعم تكنولوجيا المعلومات).
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Interview a sample of business users (at various levels) or conduct a satisfaction survey about the Quality of services by the help desk and IT support group.
-
+							<tx l="eng" name="Interview a sample of business users (at various levels) or conduct a satisfaction survey about the quality of services by the help desk and IT support group.
 Review help desk reports to check whether a significant proportion of critical service issues were prevented before reported by users.
-
 Check whether the resolution time for reported issues were less than the parameters set in the SLA.
-
-Check whether SLA parameters were being reviewed by management periodically and examine QoS issues
+Check whether SLA parameters were being reviewed by management periodically and examine QoS issues.
 "/>
-							<tx l="fre" name="Intervista me një kampjon të përdoruesve të biznesit (në nivele të ndryshme ose kryerja e sondazheve të plotësimit të kërkesave mbi cilësinë e shërbimeve nga grupi i help desk dhe grupi mbështetës i IT.
-Rishikim i raporteve të help desk-ut për të verifikuar nëse janë parandaluar një sasi domethënëse e çështjeve kritike të shërbimeve përpara se të raportohen nga përdoruesit.
-Kontrolli nëse koha e zgjidhjes për çështjet e raportuara është me e vogël se parametrat e vendosur në SLA.
-Kontrolli nëse parametrat e SLA-s rishikohen periodikisht nga menaxhimi dhe nëse ekzaminohen çështjet e cilësisë se shërbimeve.
+							<tx l="spa" name="Entreviste a una muestra de usuarios (en varios niveles) o realice una encuesta de satisfacción sobre la calidad de los servicios por parte del servicio de asistencia técnica y el grupo de soporte de TI.
+Revise los informes de lo servicio de ayuda para verificar si una proporción significativa de los problemas críticos del servicio se evitó antes de que los usuarios informaran.
+Compruebe si el tiempo de resolución de los problemas informados fue inferior a los parámetros establecidos en el acuerdo de nivel de servicio.
+Compruebe si la dirección revisa periódicamente los parámetros del acuerdo de nivel de servicio y examine los problemas de QoS.
+"/>
+							<tx l="fre" name="Interviewer un échantillon d'utilisateurs professionnels (à différents niveaux) ou mener une enquête de satisfaction sur la qualité des services par le help desk et le groupe de support informatique.
+Consultez les rapports du support technique pour vérifier si une proportion significative des problèmes de service critiques ont été évités avant d'être signalés par les utilisateurs.
+Vérifiez si le temps de résolution des problèmes signalés était inférieur aux paramètres définis dans le contrat de niveau de service.
+Vérifiez si les paramètres de l'accord de niveau de service sont examinés périodiquement par la direction et examinez les problèmes de qualité de service.
+"/>
+							<tx l="ara" name="قم بإجراء مقابلة مع عينة من مستخدمي الأعمال (على مستويات مختلفة) أو قم بإجراء استطلاع رأي حول جودة الخدمات من قبل مكتب المساعدة ومجموعة دعم تكنولوجيا المعلومات.
+راجع تقارير مكتب المساعدة للتحقق مما إذا كان قد تم منع نسبة كبيرة من مشكلات الخدمة الحرجة قبل الإبلاغ عنها من قبل المستخدمين.
+تحقق مما إذا كان وقت حل المشكلات التي تم الإبلاغ عنها أقل من المعلمات المحددة في اتفاقية مستوى الخدمة.
+تحقق مما إذا كانت معلمات اتفاقية مستوى الخدمة قيد المراجعة من قبل الإدارة بشكل دوري وفحص مشكلات جودة الخدمة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1220,59 +1592,92 @@ Kontrolli nëse parametrat e SLA-s rishikohen periodikisht nga menaxhimi dhe në
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Capacity Management"/>
-				<tx l="fre" name="Menaxhimi i kapaciteteve"/>
+				<tx l="spa" name="Gestión de capacidad"/>
+				<tx l="fre" name="Gestion de la capacité"/>
+				<tx l="ara" name="إدارة القدرات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
-					<ak>Management of various services that support the business in a manner that
-keeps up with the demands of the business or users. In order to manage capacity the IT organization needs to measure current conditions and needs to take action that facilitates providing users with additional capacity, for example by acquiring additional processing power when certain parameters are crossed.</ak>
+					<ak>Management of various services that support the business in a manner that keeps up with the demands of the business or users. In order to manage capacity the IT organization needs to measure current conditions and needs to take action that facilitates providing users with additional capacity, for example by acquiring additional processing power when certain parameters are crossed.</ak>
+				</narr>
+				<narr l="spa">
+					<ak>Gestión de diversos servicios que apoyan al negocio de manera que se adecue a las demandas del negocio o de los usuarios. Para administrar la capacidad, la organización de TI debe medir las condiciones actuales y debe tomar medidas que faciliten proporcionar a los usuarios capacidad adicional, por ejemplo, adquiriendo potencia de procesamiento adicional cuando se cruzan ciertos parámetros.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Gestion de divers services qui soutiennent l'entreprise d'une manière qui répond aux demandes de l'entreprise ou des utilisateurs. Afin de gérer la capacité, l'organisation informatique doit mesurer les conditions actuelles et prendre des mesures qui facilitent la fourniture de capacités supplémentaires aux utilisateurs, par exemple en acquérant une puissance de traitement supplémentaire lorsque certains paramètres sont franchis.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>إدارة مختلف الخدمات التي تدعم الأعمال بطريقة تواكب متطلبات العمل أو المستخدمين. من أجل إدارة السعة ، تحتاج مؤسسة تكنولوجيا المعلومات إلى قياس الظروف الحالية وتحتاج إلى اتخاذ إجراءات تسهل تزويد المستخدمين بسعة إضافية ، على سبيل المثال من خلال الحصول على قوة معالجة إضافية عند تجاوز معلمات معينة.</ak>
 				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Agree to parameters"/>
-					<tx l="fre" name="Aprovimi i parametrave"/>
+					<tx l="spa" name="Aceptar los parámetros"/>
+					<tx l="fre" name="Accepter les paramètres"/>
+					<tx l="ara" name="توافق على المعلمات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
-						<ak>Documented agreement between the business and IT organization which is used as the basis for
-selecting operational parameters for IT operations. </ak>
+						<ak>Documented agreement between the business and IT organization which is used as the basis for selecting operational parameters for IT operations.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Acuerdo documentado entre la entidad y la organización de TI que se utiliza como base para seleccionar los parámetros operativos para las operaciones de TI.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Accord documenté entre l'entreprise et l'organisation informatique qui sert de base à la sélection des paramètres opérationnels pour les opérations informatiques.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>اتفاقية موثقة بين الشركة ومنظمة تكنولوجيا المعلومات والتي تستخدم كأساس لاختيار المعلمات التشغيلية لعمليات تكنولوجيا المعلومات.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Capacity Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the IT organization is ensuring that the system capacity and performance meets current and future business needs."/>
-							<tx l="fre" name="Vlerësimi nëse struktura e IT siguron se kapaciteti i sistemit dhe performanca e tij arrin nevojat aktuale dhe të ardhshme të biznesit"/>
+							<tx l="spa" name="Evalúe si la organización de TI se asegura de que la capacidad y el rendimiento del sistema satisfagan las necesidades del negocio actuales y futuras."/>
+							<tx l="fre" name="Évaluer si l'organisation informatique s'assure que la capacité et les performances du système répondent aux besoins de l'entreprise actuels et futurs."/>
+							<tx l="ara" name="قم بتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تضمن أن قدرة النظام وأدائه يلبي احتياجات العمل الحالية والمستقبلية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Agree to parameters - Is there a documented agreement between the business and IT organization which is used as the basis for selecting operational parameters for IT operations?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="IT governance – track and monitor strategy implementation in terms of measurable metrics"/>
-							<tx l="fre" name="Qeverisja IT- implementimi i strategjisë së gjurmimit dhe monitorimit në kushte të treguesve të matshëm"/>
+							<tx l="spa" name="Gobernanza de TI - seguimiento y supervisión de la implementación de la estrategia en términos de métricas medibles"/>
+							<tx l="fre" name="Gouvernance informatique - suivre et surveiller la mise en œuvre de la stratégie en termes de mesures mesurables"/>
+							<tx l="ara" name="حوكمة تكنولوجيا المعلومات - تتبع ورصد تنفيذ الإستراتيجية من حيث المقاييس القابلة للقياس"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Internal SLA, or other form of agreement
-
-IT operational parameters – processing resource availability, average system login time, % downtime, average system response time, etc
+							<tx l="eng" name="Internal SLA, or other form of agreement.
+IT operational parameters – processing resource availability, average system login time, % downtime, average system response time, etc.
 "/>
-							<tx l="fre" name="SLA e brendshme, ose forma të tjera marrëveshjeje
-
-Parametrat operacional IT- gadishmëria e përpunimit të burimeve, koha mesatare e logimit, % e kohës joproduktive, koha mesatare e përgjigjes së sistemit, etj.
+							<tx l="spa" name="Acuerdo de nivel de servicio interno u otra forma de acuerdo.
+Parámetros operativos de TI: disponibilidad de recursos de procesamiento, tiempo medio de inicio de sesión del sistema,% de tiempo de inactividad, tiempo medio de respuesta del sistema, etc.
+"/>
+							<tx l="fre" name="Accord de niveau de service interne ou autre forme d'accord.
+Paramètres opérationnels informatiques - disponibilité des ressources de traitement, temps moyen de connexion au système,% de temps d'arrêt, temps de réponse moyen du système, etc.
+"/>
+							<tx l="ara" name="اتفاقية مستوى الخدمة الداخلية ، أو شكل آخر من أشكال الاتفاق.
+المعلمات التشغيلية لتكنولوجيا المعلومات - معالجة توافر الموارد ، ومتوسط وقت تسجيل الدخول إلى النظام ، ونسبة التعطل ، ومتوسط وقت استجابة النظام ، وما إلى ذلك.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the agreement or operating guidance that the IT group is using. Ensure that it is has been reviewed and signed by the relevant business users or senior executive management.
-
-Compare performance baseline parameters (viz. network resource availability, host response time) set by IT organization with the Operating guidance set by Business process owners to verify that the IT organization follows the operating guidance
+Compare performance baseline parameters (viz. network resource availability, host response time) set by IT organization with the Operating guidance set by Business process owners to verify that the IT organization follows the operating guidance.
 "/>
-							<tx l="fre" name="Rishikim i marrëveshjes ose udhëzimeve operacionale që grupi i auditimit IT. Sigurohuni se është rishikuar dhe nënshkruar nga përdorues të ndryshëm të biznesit ose nga menaxhimi i lartë ekzekutiv.
-Krahasimi i parametrave bazë të performancës (gadishmëria e burimeve në rrjet, koha e përgjigjes së pritësit) të vendosura nga struktura e IT me udhëzimet operacionale të vendosura nga zotëruesit e proceseve të biznesit, për të verifikuar se struktura e IT ndjek udhëzimet operacionale.
+							<tx l="spa" name="Revise el acuerdo o la guía operativa que está utilizando el grupo de TI. Asegúrese de que haya sido revisado y firmado por los usuarios del negocio relevantes o la alta dirección ejecutiva.
+Compare los parámetros de referencia de rendimiento (es decir, disponibilidad de recursos de red, tiempo de respuesta del host) establecidos por la organización de TI con la guía operativa establecida por los propietarios de procesos de negocio para verificar que la organización de TI sigue la guía operativa.
+"/>
+							<tx l="fre" name="Passez en revue l'accord ou les directives opérationnelles que le groupe informatique utilise. Assurez-vous qu'il a été revu et signé par les utilisateurs métier concernés ou par la haute direction.
+Comparez les paramètres de base des performances (à savoir la disponibilité des ressources réseau, le temps de réponse du host) définis par l'organisation informatique avec les instructions d'exploitation définies par les propriétaires de processus métier pour vérifier que l'organisation informatique suit les instructions d'exploitation.
+"/>
+							<tx l="ara" name="راجع الاتفاقية أو إرشادات التشغيل التي تستخدمها مجموعة تكنولوجيا المعلومات. تأكد من أنه قد تمت مراجعته والتوقيع عليه من قبل مستخدمي الأعمال المعنيين أو الإدارة التنفيذية العليا.
+قارن بين معلمات خط الأساس للأداء (بمعنى توافر موارد الشبكة ووقت استجابة المضيف) التي حددتها مؤسسة تكنولوجيا المعلومات مع إرشادات التشغيل التي وضعها مالكو عمليات الأعمال للتحقق من أن مؤسسة تكنولوجيا المعلومات تتبع إرشادات التشغيل.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1303,19 +1708,32 @@ Krahasimi i parametrave bazë të performancës (gadishmëria e burimeve në rrj
 					<narr l="eng">
 						<ak>Best practices by sys/network administrators like performance base lining, collection of traffic and configuration information, system resource availability, observe traffic stats and trends, what-if analyses, use of tools to pinpoint causes of performance deterioration.</ak>
 					</narr>
+					<narr l="spa">
+						<ak>Las mejores prácticas de los administradores de sistemas / redes, como líneas de base de rendimiento, recopilación de información de tráfico y configuración, disponibilidad de los recursos del sistema, observación de estadísticas y tendencias de tráfico, análisis what-if, uso de herramientas para identificar las causas del deterioro del rendimiento.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les meilleures pratiques des administrateurs système / réseau telles que les références de performances, la collecte d'informations sur le trafic et la configuration, la disponibilité des ressources du système, l'observation des statistiques et des tendances du trafic, des analyses what-if, l'utilisation d'outils pour identifier les causes de la détérioration des performances.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>أفضل الممارسات من قبل مسؤولي النظام / الشبكة مثل تبطين قاعدة الأداء ، وجمع معلومات حركة المرور والتكوين ، وتوافر موارد النظام ، ومراقبة إحصائيات واتجاهات حركة المرور ، وتحليلات ماذا لو ، واستخدام الأدوات لتحديد أسباب تدهور الأداء.</ak>
+					</narr>
 				</Narrative>
 				<Matrix id="Capacity Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the IT organization is ensuring that the system capacity and performance meets current and future business needs."/>
+							<tx l="spa" name="Vlerësimi nëse struktura e IT siguron se kapaciteti i sistemit dhe performanca e tij arrin nevojat aktuale dhe të ardhshme të biznesit"/>
 							<tx l="fre" name="Vlerësimi nëse struktura e IT siguron se kapaciteti i sistemit dhe performanca e tij arrin nevojat aktuale dhe të ardhshme të biznesit"/>
+							<tx l="ara" name="Vlerësimi nëse struktura e IT siguron se kapaciteti i sistemit dhe performanca e tij arrin nevojat aktuale dhe të ardhshme të biznesit"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Monitoring - Does the IT organization collect and review system performance data on a real time/periodic basis for better alignment with business needs?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Best practices by sys/network administrators like performance base lining, collection of traffic and configuration information, system resource availability, observe traffic stats and trends, what-if analyses, use of tools to pinpoint causes of performance deterioration"/>
+							<tx l="spa" name="Praktikat më të mira nga administratorët e sistemit/rrjetit si lidhja me bazë performancën, grumbullim i informacionit mbi trafikun dhe konfigurimin, gadishmëria e burimeve të sistemit, observimi i trendeve dhe statistikave të trafikut, analizat nëse, përodrimi i mjeteve për të piketuar shkaqet e çorientimit të performancës"/>
 							<tx l="fre" name="Praktikat më të mira nga administratorët e sistemit/rrjetit si lidhja me bazë performancën, grumbullim i informacionit mbi trafikun dhe konfigurimin, gadishmëria e burimeve të sistemit, observimi i trendeve dhe statistikave të trafikut, analizat nëse, përodrimi i mjeteve për të piketuar shkaqet e çorientimit të performancës"/>
+							<tx l="ara" name="Praktikat më të mira nga administratorët e sistemit/rrjetit si lidhja me bazë performancën, grumbullim i informacionit mbi trafikun dhe konfigurimin, gadishmëria e burimeve të sistemit, observimi i trendeve dhe statistikave të trafikut, analizat nëse, përodrimi i mjeteve për të piketuar shkaqet e çorientimit të performancës"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
