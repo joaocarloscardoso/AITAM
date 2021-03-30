@@ -1,6 +1,6 @@
 <ActiveITAuditDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 	<About id="AITAM">
-		<version id="20180418" name="main"/>
+		<version id="20210331" name="main"/>
 		<title>
 			<tx l="eng" name="Active IT Audit Manual"/>
 			<tx l="spa" name="Manual activo de Auditoría de TI"/>
@@ -2102,70 +2102,91 @@ Vérifiez si l'organisation a établi des normes et des procédures de journalis
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Effectiveness of response"/>
-					<tx l="fre" name="Efektiviteti i përgjigjes"/>
+					<tx l="spa" name="Eficacia de la respuesta"/>
+					<tx l="fre" name="Efficacité de la réponse"/>
+					<tx l="ara" name="فعالية الاستجابة"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The incidence response strategy results in effective response to incidents.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La estrategia de respuesta a incidentes da como resultado una respuesta eficaz a los incidentes.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>La stratégie d'intervention en cas d'incidence se traduit par une réponse efficace aux incidents.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تؤدي استراتيجية الاستجابة للحوادث إلى استجابة فعالة للحوادث.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Problem &amp; Incident Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To evaluate the effectiveness of organization’s problem and incident management policies and procedures."/>
-							<tx l="fre" name="Vlerësimi i efektivitetit të menaxhimit të politikave dhe procedurave të menaxhimit të problemeve dhe incidenteve të organizatës"/>
+							<tx l="spa" name="Evaluar la efectividad de las políticas y procedimientos de gestión de incidentes y problemas de la organización."/>
+							<tx l="fre" name="Évaluer l’efficacité des politiques et procédures de gestion des problèmes et des incidents de l’organisation."/>
+							<tx l="ara" name="لتقييم فعالية سياسات وإجراءات إدارة المشاكل والحوادث في المنظمة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Effectiveness of response - Does the incidence response strategy result in effective response to incidents?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Incidents response best practices(COBIT 5 DSS domain, , ITIL on Service support)."/>
-							<tx l="fre" name="Praktikat më të mira të përgjigjes ndaj incidenteve (COBIT, ITIL)"/>
+							<tx l="eng" name="Incidents response best practices(COBIT 5 DSS Domain, ITIL on Service support)."/>
+							<tx l="spa" name="Mejores prácticas de respuesta a incidentes (COBIT 5 Dominio DSS, ITIL Service Support)."/>
+							<tx l="fre" name="Bonnes pratiques en matière de réponse aux incidents (COBIT 5 Domaine DSS,  ITIL Service Support)"/>
+							<tx l="ara" name="(COBIT 5 Domain DSS,  ITIL Service Support) أفضل ممارسات الاستجابة للحوادث"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Incident response action items, forms logs, etc.
-Periodic security awareness training, Incident handling procedures-
-guidelines for prioritizing incidents
-
-Case reports and action taken
-s
+Periodic security awareness training, Incident handling procedures-guidelines for prioritizing incidents.
+Case reports and action taken.
 "/>
-							<tx l="fre" name="Artikujt e veprimit në përgjigje ndaj incidenteve, format e logeve, etj.
-
-Trajnime periodike mbi ndërgjegjësimin ndaj sigurisë
-
-Procedurat e trajtimit të incidenteve- udhëzime mbi prioritarizimin e incidenteve
-
-Raportet e çështjeve dhe veprimet e ndërmarra
+							<tx l="spa" name="Elementos de acción de respuesta a incidentes, registros de formularios, etc.
+Capacitación periódica de concienciación sobre seguridad, procedimientos-directivas de manejo de incidentes para priorizar incidentes.
+Reportes de casos y acciones tomadas.
+"/>
+							<tx l="fre" name="Éléments d'action de réponse aux incidents, journaux de formulaires, etc.
+Formation périodique de sensibilisation à la sécurité, procédures-directives de gestion des incidents pour hiérarchiser les incidents
+Rapports de cas et mesures prises.
+"/>
+							<tx l="ara" name="عناصر إجراءات الاستجابة للحوادث وسجلات النماذج وما إلى ذلك.
+تدريب دوري على الوعي الأمني ، إجراءات التعامل مع الحوادث - إرشادات لتحديد أولويات الحوادث.
+تقارير الحالة والإجراءات المتخذة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Analysis Method(s)
-
-Check if an incident response/handling priority is assigned to each asset or service.
-
+							<tx l="eng" name="Check if an incident response/handling priority is assigned to each asset or service.
 Verify whether procedures provide for the capture and analysis of volatile   and static data in a timely manner.
-
 Verify whether the response team periodically makes users aware of policies and procedures regarding appropriate use of networks, systems, external media and applications.
-
 Review documents to find whether post-incident activities like refresher training have been given to user groups to avoid costly recurrence of significant incidents.
-
-Look for whether source of incident was identified. Look for action taken. (Procedure change, reprimand, training, etc.).
-
+Look for whether source of incident was identified. Look for action taken (Procedure change, reprimand, training, etc.).
 Check whether the incident response team records all resolved incidents in detail and review the information for possible update in the knowledge base.
-
-
 "/>
-							<tx l="fre" name="Verifikim nëse një prioritet i përgjigjës/trajtimit të incidentit është caktuar për çdo aset ose shërbim.
-Verfikim nëse procedurat ofrojnë kapjen dhe analizimin e të dhënave të paqëndrueshme dhe aktive në mënyrë të shpejtë.
-Verfikim nëse grupi i përgjigjes ndërgjegjëson periodikisht përdoruesit rreth politikave dhe procedurave në lidhje me përdorimin e duhur të rrjetit, sistemeve, mediave të jashtme dhe aplikacioneve.
-Rishikim i dokmenteve për të gjetur nëse aktivitetet pas incidentit si trajnimet rifreskuara janë dhënë ndaj grupeve të përdoruesve për të shmangur riparimin e kushtueshëm të incidenteve domethënës.
-Observim nëse është identifikuar burimi i incidentit. Observim për veprimet e ndërmarra. (Ndyshimi i procedurave, vërejtjet, trajnimet, etj.)
-Kontrolli nëse grupi i përgjigjes ndaj incidenteve regjistron të gjitha incidentet e zgjidhura në detaje dhe rishikon informacion për përditësim të mundshëm në bazën e njohurive.
+							<tx l="spa" name="Verifique si se asigna una prioridad de manejo/respuesta a incidentes a cada activo o servicio.
+Verifique si los procedimientos prevén la captura y el análisis de datos volátiles y estáticos de manera oportuna.
+Verifique si el equipo de respuesta informa periódicamente a los usuarios sobre las políticas y procedimientos relacionados con el uso apropiado de redes, sistemas, medios externos y aplicaciones.
+Revise los documentos para averiguar si se han impartido actividades posteriores al incidente, como cursos de actualización, a grupos de usuarios para evitar la costosa recurrencia de incidentes importantes.
+Busque si se identificó la fuente del incidente. Busque las medidas tomadas (Cambio de procedimiento, amonestación, formación, etc.).
+Compruebe si el equipo de respuesta a incidentes registra todos los incidentes resueltos en detalle y revise la información para una posible actualización en la base de conocimientos.
+"/>
+							<tx l="fre" name="Vérifiez si une priorité de traitement/réponse aux incidents est attribuée à chaque actif ou service.
+Vérifiez si les procédures prévoient la capture et l'analyse des données volatiles et statiques en temps opportun.
+Vérifiez si l'équipe d'intervention informe périodiquement les utilisateurs des politiques et procédures concernant l'utilisation appropriée des réseaux, des systèmes, des supports externes et des applications.
+Examinez les documents pour savoir si des activités post-incident telles que des formations de recyclage ont été dispensées à des groupes d'utilisateurs pour éviter la répétition coûteuse d'incidents importants.
+Recherchez si la source de l'incident a été identifiée. Recherchez les mesures prises (Changement de procédure, réprimande, formation, etc.).
+Vérifiez si l'équipe d'intervention en cas d'incident enregistre en détail tous les incidents résolus et examinez les informations pour une éventuelle mise à jour dans la base de connaissances.
+"/>
+							<tx l="ara" name="تحقق مما إذا تم تعيين أولوية الاستجابة / التعامل مع الحادث لكل أصل أو خدمة.
+تحقق مما إذا كانت الإجراءات تنص على التقاط وتحليل البيانات المتقلبة والثابتة في الوقت المناسب.
+تحقق مما إذا كان فريق الاستجابة يقوم بشكل دوري بتوعية المستخدمين بالسياسات والإجراءات المتعلقة بالاستخدام المناسب للشبكات والأنظمة والوسائط الخارجية والتطبيقات.
+راجع المستندات لمعرفة ما إذا كان قد تم تقديم أنشطة ما بعد الحادث مثل التدريب التنشيطي لمجموعات المستخدمين لتجنب التكرار المكلف للحوادث الكبيرة.
+ابحث عما إذا كان قد تم تحديد مصدر الحادث. ابحث عن الإجراء الذي تم اتخاذه (تغيير الإجراء ، التوبيخ ، التدريب ، إلخ).
+تحقق مما إذا كان فريق الاستجابة للحوادث يسجل جميع الحوادث التي تم حلها بالتفصيل وراجع المعلومات للتحديث المحتمل في قاعدة المعرفة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2191,17 +2212,30 @@ Kontrolli nëse grupi i përgjigjes ndaj incidenteve regjistron të gjitha incid
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="Change Management"/>
-				<tx l="fre" name="Menaxhimi i ndryshimit"/>
+				<tx l="spa" name="Gestión del cambio"/>
+				<tx l="fre" name="La gestion du changement"/>
+				<tx l="ara" name="إدارة التغيير"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>The change management process is normally used to manage and control changes to assets, such as software, hardware, and related documentation. Change controls are needed to ensure that all changes to systems configurations are authorized, tested, documented and controlled so that the systems continue to support business operations in the manner planned and that there is an adequate trail of changes.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>El proceso de gestión de cambios se utiliza normalmente para gestionar y controlar los cambios en los activos, como software, hardware y documentación relacionada. Se necesitan controles de cambios para garantizar que todos los cambios en las configuraciones de los sistemas estén autorizados, probados, documentados y controlados para que los sistemas continúen respaldando las operaciones del negocio de la manera planificada y que haya un seguimiento adecuado de los cambios.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Le processus de gestion des modifications est normalement utilisé pour gérer et contrôler les modifications des actifs, tels que les logiciels, le matériel et la documentation associée. Des contrôles des modifications sont nécessaires pour garantir que toutes les modifications apportées aux configurations des systèmes sont autorisées, testées, documentées et contrôlées afin que les systèmes continuent à prendre en charge les opérations de l'entreprise de la manière prévue et qu'il existe une trace adéquate des changements.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تُستخدم عملية إدارة التغيير عادةً لإدارة التغييرات التي تطرأ على الأصول والتحكم فيها ، مثل البرامج والأجهزة والوثائق ذات الصلة. هناك حاجة إلى ضوابط التغيير للتأكد من أن جميع التغييرات على تكوينات الأنظمة مرخصة ، واختبارها ، وتوثيقها ، والتحكم فيها بحيث تستمر الأنظمة في دعم عمليات الأعمال بالطريقة المخطط لها وأن هناك مسارًا مناسبًا للتغييرات.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Policy"/>
-					<tx l="fre" name="Politikat"/>
+					<tx l="spa" name="Política"/>
+					<tx l="fre" name="Politique"/>
+					<tx l="ara" name="Policy"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -2212,70 +2246,66 @@ Kontrolli nëse grupi i përgjigjes ndaj incidenteve regjistron të gjitha incid
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the entity has implemented a standardized procedure for controlling all changes to the core IT systems and applications."/>
-							<tx l="fre" name="Vlerësimi nëse institucioni ka implementuar një procedurë të standartizuar për kontrollin e të gjitha ndryshimeve në sistemet dhe aplikacionet kryesore të IT"/>
+							<tx l="spa" name="Evaluar si la entidad ha implementado un procedimiento estandarizado para controlar todos los cambios en los sistemas y aplicaciones de TI centrales."/>
+							<tx l="fre" name="Évaluer si l'entité a mis en œuvre une procédure normalisée pour contrôler toutes les modifications apportées aux systèmes et applications informatiques de base."/>
+							<tx l="ara" name="قم بتقييم ما إذا كان الكيان قد نفذ إجراءً موحدًا للتحكم في جميع التغييرات التي تطرأ على أنظمة وتطبيقات تكنولوجيا المعلومات الأساسية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Policy - Does the organization have an approved Change management policy which contains the appropriate controls throughout the change cycle</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Best practices in change controls: Request for change - authentication- acceptance - prioritization- change design –testing change - implementation- documentation"/>
-							<tx l="fre" name="Praktikat më të mira në kontrollin e ndryshimeve: Kërkesa për ndryshim-autenticiteti-pranimi-prioritarizimi-hartimi i ndryshimit-testimi i ndyshimit-implementimi-dokumentimi"/>
+							<tx l="eng" name="Best practices in change controls: Request for change - authentication- acceptance - prioritization- change design –testing change - implementation- documentation."/>
+							<tx l="spa" name="Mejores prácticas en controles de cambios: Solicitud de cambio - autenticación - aceptación - priorización - diseño de cambio - prueba de cambio - implementación - documentación."/>
+							<tx l="fre" name="Bonnes pratiques en matière de contrôle des modifications: demande de changement - authentification - acceptation - hiérarchisation - conception de changement - test de changement - mise en œuvre - documentation."/>
+							<tx l="ara" name="أفضل الممارسات في ضوابط التغيير: طلب التغيير - المصادقة - القبول - تحديد الأولويات - تغيير التصميم - اختبار التغيير - التنفيذ - التوثيق."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Change management policy and procedures, process flow diagrams
-
-Change control board charter Timeline of policy review
-Change documentation:- Change request, Change control testing procedures, quality assurance plan, test plan &amp; procedures
-
-Change Management software reports and logs
-
-Minutes of meeting of the change control board
-
+							<tx l="eng" name="Change management policy and procedures, process flow diagrams.
+Change control board charter Timeline of policy review.
+Change documentation: Change request, Change control testing procedures, quality assurance plan, test plan and procedures.
+Change Management software reports and logs.
+Minutes of meeting of the change control board.
 Change management summary reports considered by the management.
 "/>
-							<tx l="fre" name="Politikat e menaxhimit të ndryshimit dhe procedurat përkatëse, diagramat e rrjedhjes së proceseve
-
-Grafiku i kontrollit të ndryshimeve
-
-Periudha e rishikimit të politikave
-
-Dokumentacioni i ndryshimit:-Kërkesa për ndryshim, Procedurat e testimit të kontrollit të ndryshimit, plani i sigurimit të cilësisë, planet dhe procedurat e testimit
-
-Raportet dhe loget e programit të menaxhimit të ndryshimit
-
-Procesverblaet e mbledhjeve të bordit të kontrollit të ndyshimeve
-
-Raportet përmbledhës të menaxhimit të ndryshimit të marrë parasysh nga menaxhimit
+							<tx l="spa" name="Política y procedimientos de gestión de cambios, diagramas de flujo de procesos.
+Cronograma de la revisión de la política de lo consejo de control de cambios.
+Documentación de cambios: Solicitud de cambios, procedimientos de prueba de control de cambios, plan de garantía de calidad, plan de pruebas y procedimientos.
+Informes y registros del software de gestión de cambios.
+Acta de reunión de lo consejo de control de cambios.
+Informes resumidos de gestión de cambios considerados por la dirección.
+"/>
+							<tx l="fre" name="Politique et procédures de gestion du changement, diagrammes de flux de processus.
+Charte et calendrier de la révision des politiques du comité de contrôle des changements.
+Documentation des modifications: Demande de modification, procédures de test de contrôle des modifications, plan d'assurance qualité, plan de test et procédures.
+Rapports et journaux du logiciel de gestion des changements.
+Procès-verbal de la réunion du comité de contrôle des changements.
+Rapports de synthèse de gestion du changement examinés par la direction.
+"/>
+							<tx l="ara" name="تغيير سياسات وإجراءات إدارة العمليات ، ومخططات تدفق العمليات.
+تغيير ميثاق مجلس التحكم الجدول الزمني لمراجعة السياسة.
+تغيير الوثائق: طلب التغيير ، تغيير إجراءات اختبار التحكم ، خطة ضمان الجودة ، خطة الاختبار والإجراءات.
+تقارير وسجلات برامج إدارة التغيير.
+محضر اجتماع مجلس مراقبة التغيير.
+تقارير إدارة التغيير الموجزة التي تنظر فيها الإدارة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Analysis Method(s)
-
-Refer to general requirements for policy and procedures in IT Governance section.
-
+							<tx l="eng" name="Refer to general requirements for policy and procedures in IT Governance section.
 Review the change management policy document to verify whether procedures for initiation, review and approval of change are laid out along with mapping of responsibility for these tasks.
-
 Review the change control board charter to identify the allocation of responsibilities and responsibility levels.
-
 Interview personnel, observe actual practices and review documents to obtain assurance that change management procedures are followed:
-Ask to see a change, Trace change to operational environment, See that requisite procedures – e.g. Management review and prioritization
--were followed, Look for approvals and documentation,
-
+Ask to see a change, Trace change to operational environment, See that requisite procedures (e.g. Management review and prioritization) were followed.
+Look for approvals and documentation,
 Look to see if internal QA has done an audit. Review if adequate review of logs and reports are done by the management where a change management software is used.
-
 Ensure that the access to production source library (e.g. Source code, configurations) is limited to CM staff, and the IT organization is preventing unauthorized changes to the operational environment.
-
 Review documents; observe practices to ensure that business users are associated during testing of changes to ensure correctness.
-
 Ensure that program changes have appropriate sign-off by relevant business stakeholder before moving into production.
-
-
 "/>
-							<tx l="fre" name="Referojuni kërkesave të përgjithshme për politikat dhe procedurat në seksionin Qeverisja IT.
+							<tx l="spa" name="Referojuni kërkesave të përgjithshme për politikat dhe procedurat në seksionin Qeverisja IT.
 Rishikim i dokumentacionit të politikave të menaxhimit të ndryshimit për të verifikuar nëse procedurat për nisjen, rishikimin dhe aprovimin e ndryshimit janë shtrirë dhe pozicionuar sipas përgjegjësive dhe detyrave.
 Rishikim i grafikut të bordit të kontrollit të ndryshimit për të identifikuar alokimin e përgjegjësive si dhe nivelet e tyre.
 Intervista me personelin, observim i praktikave aktuale dhe rishikim i dokumenteve për të garantuar se procedurat e menaxhimit tëndryshimit janë ndjekur: Pyesni të shihni një ndryshim, gjurmoni ndryshimin në mjedisin operacional, shihni procedurat e nevojshme-p.sh. janë ndjekur rishikimi dhe prioritarizimi i menaxhimit, Shihni për aprovim dhe dokumentim.
@@ -2283,6 +2313,28 @@ Shihni nëse sigurimi i brendshëm i cilësisë ka ndërmarrë një auditimit. R
 Sigurohuni se aksesi në librarinë e burimit të prodhimit (p.sh. source code, konfigurimet) është i limituar për stafin, dhe se struktura e IT parandalon ndryshimet e paautorizuara në mjedisin operacional.
 Rishikim të dokumenteve, observim i praktikave për tu siguruar se përdoruesit e biznesit janë të adaptuar gjatë testimit të ndryshimeve për të garantuar korrektësinë.
 Sigurohuni se ndryshimet në program janë të përshtatshme dhe të aprovuara këto nga palët e interesuara përpara zhvendosjes në prodhim.
+"/>
+							<tx l="fre" name="Refer to general requirements for policy and procedures in IT Governance section.
+Review the change management policy document to verify whether procedures for initiation, review and approval of change are laid out along with mapping of responsibility for these tasks.
+Review the change control board charter to identify the allocation of responsibilities and responsibility levels.
+Interview personnel, observe actual practices and review documents to obtain assurance that change management procedures are followed:
+Ask to see a change, Trace change to operational environment, See that requisite procedures (e.g. Management review and prioritization) were followed.
+Look for approvals and documentation,
+Look to see if internal QA has done an audit. Review if adequate review of logs and reports are done by the management where a change management software is used.
+Ensure that the access to production source library (e.g. Source code, configurations) is limited to CM staff, and the IT organization is preventing unauthorized changes to the operational environment.
+Review documents; observe practices to ensure that business users are associated during testing of changes to ensure correctness.
+Ensure that program changes have appropriate sign-off by relevant business stakeholder before moving into production.
+"/>
+							<tx l="ara" name="Refer to general requirements for policy and procedures in IT Governance section.
+Review the change management policy document to verify whether procedures for initiation, review and approval of change are laid out along with mapping of responsibility for these tasks.
+Review the change control board charter to identify the allocation of responsibilities and responsibility levels.
+Interview personnel, observe actual practices and review documents to obtain assurance that change management procedures are followed:
+Ask to see a change, Trace change to operational environment, See that requisite procedures (e.g. Management review and prioritization) were followed.
+Look for approvals and documentation,
+Look to see if internal QA has done an audit. Review if adequate review of logs and reports are done by the management where a change management software is used.
+Ensure that the access to production source library (e.g. Source code, configurations) is limited to CM staff, and the IT organization is preventing unauthorized changes to the operational environment.
+Review documents; observe practices to ensure that business users are associated during testing of changes to ensure correctness.
+Ensure that program changes have appropriate sign-off by relevant business stakeholder before moving into production.
 "/>
 						</anm>
 					</AnalysisMethod>
