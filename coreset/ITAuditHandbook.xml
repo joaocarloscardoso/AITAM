@@ -2298,43 +2298,45 @@ Rapports de synthèse de gestion du changement examinés par la direction.
 Review the change management policy document to verify whether procedures for initiation, review and approval of change are laid out along with mapping of responsibility for these tasks.
 Review the change control board charter to identify the allocation of responsibilities and responsibility levels.
 Interview personnel, observe actual practices and review documents to obtain assurance that change management procedures are followed:
-Ask to see a change, Trace change to operational environment, See that requisite procedures (e.g. Management review and prioritization) were followed.
-Look for approvals and documentation,
+Ask to see a change, Trace change to operational environment, See that requisite procedures (e.g. Management review and prioritization) were followed,
+Look for approvals and documentation.
 Look to see if internal QA has done an audit. Review if adequate review of logs and reports are done by the management where a change management software is used.
 Ensure that the access to production source library (e.g. Source code, configurations) is limited to CM staff, and the IT organization is preventing unauthorized changes to the operational environment.
-Review documents; observe practices to ensure that business users are associated during testing of changes to ensure correctness.
+Review documents, observe practices to ensure that business users are associated during testing of changes to ensure correctness.
 Ensure that program changes have appropriate sign-off by relevant business stakeholder before moving into production.
 "/>
-							<tx l="spa" name="Referojuni kërkesave të përgjithshme për politikat dhe procedurat në seksionin Qeverisja IT.
-Rishikim i dokumentacionit të politikave të menaxhimit të ndryshimit për të verifikuar nëse procedurat për nisjen, rishikimin dhe aprovimin e ndryshimit janë shtrirë dhe pozicionuar sipas përgjegjësive dhe detyrave.
-Rishikim i grafikut të bordit të kontrollit të ndryshimit për të identifikuar alokimin e përgjegjësive si dhe nivelet e tyre.
-Intervista me personelin, observim i praktikave aktuale dhe rishikim i dokumenteve për të garantuar se procedurat e menaxhimit tëndryshimit janë ndjekur: Pyesni të shihni një ndryshim, gjurmoni ndryshimin në mjedisin operacional, shihni procedurat e nevojshme-p.sh. janë ndjekur rishikimi dhe prioritarizimi i menaxhimit, Shihni për aprovim dhe dokumentim.
-Shihni nëse sigurimi i brendshëm i cilësisë ka ndërmarrë një auditimit. Rishikoni nëse observimet e duhura janë shtrirë mbi loget dhe raportet, të kryera këto nga menaxhimi kur është përdorur një program menaxhimi ndryshimi. 
-Sigurohuni se aksesi në librarinë e burimit të prodhimit (p.sh. source code, konfigurimet) është i limituar për stafin, dhe se struktura e IT parandalon ndryshimet e paautorizuara në mjedisin operacional.
-Rishikim të dokumenteve, observim i praktikave për tu siguruar se përdoruesit e biznesit janë të adaptuar gjatë testimit të ndryshimeve për të garantuar korrektësinë.
-Sigurohuni se ndryshimet në program janë të përshtatshme dhe të aprovuara këto nga palët e interesuara përpara zhvendosjes në prodhim.
+							<tx l="spa" name="Consulte los requisitos generales para la política y los procedimientos en la sección Gobierno de TI.
+Revise el documento de la política de gestión de cambios para verificar si los procedimientos para el inicio, revisión y aprobación del cambio están establecidos junto con el mapeo de la responsabilidad de estas tareas.
+Revise el estatuto de la junta de control de cambios para identificar la asignación de responsabilidades y niveles de responsabilidad.
+Entreviste al personal, observe las prácticas reales y revise los documentos para asegurarse de que se siguen los procedimientos de gestión de cambios:
+Solicite ver un cambio, Rastree el cambio en el entorno operativo, Verifique que se siguieron los procedimientos necesarios (por ejemplo, revisión de la gerencia y priorización),
+Busque aprobaciones y documentación,
+Mire para ver si el control de calidad interno ha realizado una auditoría. Revise si la administración realiza una revisión adecuada de los registros e informes cuando se utiliza un software de administración de cambios.
+Asegúrese de que el acceso a la biblioteca fuente de producción (p. Ej., Código fuente, configuraciones) esté limitado al personal de gestión de cambios y que la organización de TI esté evitando cambios no autorizados en el entorno operativo.
+Revisar documentos, observar las prácticas para garantizar que los usuarios comerciales estén asociados durante la prueba de los cambios para garantizar la corrección.
+Asegúrese de que los cambios del programa tengan la aprobación adecuada por parte de las partes interesadas comerciales relevantes antes de pasar a la producción.
 "/>
-							<tx l="fre" name="Refer to general requirements for policy and procedures in IT Governance section.
-Review the change management policy document to verify whether procedures for initiation, review and approval of change are laid out along with mapping of responsibility for these tasks.
-Review the change control board charter to identify the allocation of responsibilities and responsibility levels.
-Interview personnel, observe actual practices and review documents to obtain assurance that change management procedures are followed:
-Ask to see a change, Trace change to operational environment, See that requisite procedures (e.g. Management review and prioritization) were followed.
-Look for approvals and documentation,
-Look to see if internal QA has done an audit. Review if adequate review of logs and reports are done by the management where a change management software is used.
-Ensure that the access to production source library (e.g. Source code, configurations) is limited to CM staff, and the IT organization is preventing unauthorized changes to the operational environment.
-Review documents; observe practices to ensure that business users are associated during testing of changes to ensure correctness.
-Ensure that program changes have appropriate sign-off by relevant business stakeholder before moving into production.
+							<tx l="fre" name="Reportez-vous aux exigences générales relatives aux politiques et procédures dans la section Gouvernance informatique.
+Passez en revue le document de politique de gestion du changement pour vérifier si les procédures d'initiation, d'examen et d'approbation du changement sont définies ainsi que la cartographie des responsabilités pour ces tâches.
+Revoir la charte du conseil de contrôle des changements pour identifier la répartition des responsabilités et les niveaux de responsabilité.
+Interroger le personnel, observer les pratiques réelles et examiner les documents pour obtenir l'assurance que les procédures de gestion du changement sont suivies:
+Demandez à voir un changement, Tracez le changement dans l'environnement opérationnel, Vérifiez que les procédures requises (par exemple, revue de direction et hiérarchisation) ont été suivies,
+Rechercher les approbations et la documentation.
+Vérifiez si le contrôle qualité interne a effectué un audit. Vérifiez si un examen adéquat des logs et des rapports est effectué par la direction lorsqu'un logiciel de gestion des changements est utilisé.
+Assurez-vous que l'accès à la bibliothèque source de production (par exemple, le code source, les configurations) est limité au personnel de gestion du changement et que l'organisation informatique empêche les modifications non autorisées de l'environnement opérationnel.
+Examiner les documents, observer les pratiques pour s'assurer que les utilisateurs métier sont associés lors du test des modifications afin de garantir leur exactitude.
+Assurez-vous que les modifications apportées au programme sont approuvées de manière appropriée par les parties prenantes concernées avant de passer à la production.
 "/>
-							<tx l="ara" name="Refer to general requirements for policy and procedures in IT Governance section.
-Review the change management policy document to verify whether procedures for initiation, review and approval of change are laid out along with mapping of responsibility for these tasks.
-Review the change control board charter to identify the allocation of responsibilities and responsibility levels.
-Interview personnel, observe actual practices and review documents to obtain assurance that change management procedures are followed:
-Ask to see a change, Trace change to operational environment, See that requisite procedures (e.g. Management review and prioritization) were followed.
-Look for approvals and documentation,
-Look to see if internal QA has done an audit. Review if adequate review of logs and reports are done by the management where a change management software is used.
-Ensure that the access to production source library (e.g. Source code, configurations) is limited to CM staff, and the IT organization is preventing unauthorized changes to the operational environment.
-Review documents; observe practices to ensure that business users are associated during testing of changes to ensure correctness.
-Ensure that program changes have appropriate sign-off by relevant business stakeholder before moving into production.
+							<tx l="ara" name="راجع المتطلبات العامة للسياسة والإجراءات في قسم حوكمة تكنولوجيا المعلومات.
+قم بمراجعة وثيقة سياسة إدارة التغيير للتحقق مما إذا كانت إجراءات البدء والمراجعة والموافقة على التغيير قد تم وضعها جنبًا إلى جنب مع تحديد المسؤولية عن هذه المهام.
+مراجعة ميثاق مجلس مراقبة التغيير لتحديد توزيع المسؤوليات ومستويات المسؤولية.
+مقابلة الموظفين ومراقبة الممارسات الفعلية ومراجعة المستندات للحصول على تأكيد باتباع إجراءات إدارة التغيير:
+اطلب رؤية التغيير ، وتتبع التغيير في بيئة التشغيل ، وانظر إلى أنه تم اتباع الإجراءات المطلوبة (مثل مراجعة الإدارة وتحديد الأولويات) ،
+ابحث عن الموافقات والوثائق ،
+انظر لمعرفة ما إذا كان ضمان الجودة الداخلي قد أجرى تدقيقًا. راجع ما إذا كان يتم إجراء مراجعة كافية للسجلات والتقارير من قبل الإدارة حيث يتم استخدام برنامج إدارة التغيير.
+تأكد من أن الوصول إلى مكتبة مصدر الإنتاج (مثل كود المصدر والتكوينات) يقتصر على موظفي إدارة التغيير ، وأن مؤسسة تكنولوجيا المعلومات تمنع التغييرات غير المصرح بها في بيئة التشغيل.
+مراجعة المستندات ؛ مراقبة الممارسات لضمان ارتباط مستخدمي الأعمال أثناء اختبار التغييرات لضمان صحتها.
+تأكد من أن تغييرات البرنامج لها توقيع مناسب من قبل أصحاب المصلحة التجاريين المعنيين قبل الانتقال إلى الإنتاج.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2359,53 +2361,68 @@ Ensure that program changes have appropriate sign-off by relevant business stake
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Fallback procedures"/>
-					<tx l="fre" name="Procedurat e emergjencës"/>
+					<tx l="spa" name="Procedimientos de emergencia"/>
+					<tx l="fre" name="Procédures de secours"/>
+					<tx l="ara" name="إجراءات الطوارئ"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The IT organization ensure that the organization can revert back to a previous version if needed.</ak>
 					</narr>
+					<narr l="spa">
+						<ak>La organización de TI se asegura de que la organización pueda volver a una versión anterior si es necesario.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation informatique s'assure que l'organisation peut revenir à une version précédente si nécessaire.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تضمن مؤسسة تكنولوجيا المعلومات أن المؤسسة يمكنها العودة إلى الإصدار السابق إذا لزم الأمر.</ak>
+					</narr>
 				</Narrative>
 				<Matrix id="Change Management">
 					<Objectives>
 						<obj>
-							<tx l="eng" name="Assess whether the entity has implemented a standardized procedure for controlling all changes to the core IT systems and applications"/>
-							<tx l="fre" name="Vlerësimi nëse institucioni ka implementuar një procedurë të standartizuar për kontrollin e të gjitha ndryshimeve në sistemet dhe aplikacionet kryesore të IT"/>
+							<tx l="eng" name="Assess whether the entity has implemented a standardized procedure for controlling all changes to the core IT systems and applications."/>
+							<tx l="spa" name="Evaluar si la entidad ha implementado un procedimiento estandarizado para controlar todos los cambios en los sistemas y aplicaciones de TI centrales."/>
+							<tx l="fre" name="Évaluer si l'entité a mis en œuvre une procédure normalisée pour contrôler toutes les modifications apportées aux systèmes et applications informatiques de base."/>
+							<tx l="ara" name="قم بتقييم ما إذا كان الكيان قد نفذ إجراءً موحدًا للتحكم في جميع التغييرات في أنظمة وتطبيقات تكنولوجيا المعلومات الأساسية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Fallback procedures - How does the IT organization ensure that the organization can revert back to a previous version if needed?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Change Management best practices - documentation on procedures and responsibilities for recovery of affected areas due to undesirable change impact."/>
-							<tx l="fre" name="Praktikat më të mira të menaxhimit të ndryshimit-dokumente të procedurave dhe përgjegjësive për rimëkëmbjen e zonave të prekura në rast të ndikimit të ndryshimeve"/>
+							<tx l="spa" name="Mejores prácticas de gestión de cambios: documentación sobre procedimientos y responsabilidades para la recuperación de las áreas afectadas debido a un impacto de cambio no deseado."/>
+							<tx l="fre" name="Meilleures pratiques de gestion du changement - documentation sur les procédures et les responsabilités pour la récupération des zones touchées en raison de l'impact indésirable du changement."/>
+							<tx l="ara" name="أفضل ممارسات إدارة التغيير - توثيق الإجراءات والمسؤوليات لاستعادة المناطق المتأثرة بسبب تأثير التغيير غير المرغوب فيه."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Change management procedures Documentation on change tests and
-implementation
-
-Recovery documentation and configuration change logs
-
-Backup and restore procedures
-
+							<tx l="eng" name="Change management procedures Documentation on change tests and implementation.
+Recovery documentation and configuration change logs.
+Backup and restore procedures.
 "/>
-							<tx l="fre" name="Procedurat e menaxhimti të ndryshimit
-
-Dokumentacion mbi testimet dhe implementimet e ndryshimeve
-
-Dokumentim të rimëkëmbjes dhe logeve të ndryshimeve në konfigurim
-
-Procedurat e backup-it dhe të rimëkëmbjes
+							<tx l="spa" name="Procedimientos de gestión de cambios Documentación sobre pruebas e implementación de cambios.
+Registros de cambios de configuración y documentación de recuperación.
+Procedimientos de copia de seguridad y restauración.
+"/>
+							<tx l="fre" name="CProcédures de gestion des changements Documentation sur les tests de changement et la mise en œuvre.
+Documentation de récupération et logs des changements de configuration.
+Procédures de sauvegarde et de restauration.
+"/>
+							<tx l="ara" name="توثيق إجراءات إدارة التغيير بشأن اختبارات التغيير والتنفيذ.
+وثائق الاسترداد وسجلات تغيير التكوين.
+إجراءات النسخ الاحتياطي والاستعادة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review documentation, interview business users to find if unintended impacts of functionality changes/ enhancements have been addressed on priority, in line with business interests
-
-"/>
-							<tx l="fre" name="Rishikim i dokumenteve, intervista me përdoruest e biznesit për të gjetur nëse ndikime të paqëllimshme të ndryshimeve në funksionalitete janë adresuar me prioritet, në përputhje me interesat e biznesit."/>
+							<tx l="eng" name="Review documentation, interview business users to find if unintended impacts of functionality changes/ enhancements have been addressed on priority, in line with business interests"/>
+							<tx l="spa" name="Revise la documentación, entreviste a los usuarios para averiguar si los impactos no deseados de los cambios / mejoras de funcionalidad se han abordado con prioridad, de acuerdo con los intereses de lo negocio"/>
+							<tx l="fre" name="Examiner la documentation, interroger les utilisateurs du pour déterminer si les impacts involontaires des modifications / améliorations des fonctionnalités ont été traités en priorité, conformément aux intérêts de l'entreprise"/>
+							<tx l="ara" name="مراجعة الوثائق ، مقابلة مستخدمي الأعمال لمعرفة ما إذا كانت التأثيرات غير المقصودة للتغييرات / التحسينات الوظيفية قد تم تناولها على سبيل الأولوية ، بما يتماشى مع اهتمامات العمل"/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -2429,51 +2446,79 @@ Procedurat e backup-it dhe të rimëkëmbjes
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Emergency changes"/>
-					<tx l="fre" name="Ndryshimet emergjente"/>
+					<tx l="spa" name="Cambios de emergencia"/>
+					<tx l="fre" name="Changements d'urgence"/>
+					<tx l="ara" name="التغييرات الطارئة"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Emergency changes are controlled adequately when established change management procedures for defining, authorizing, testing and documenting of changes cannot be followed.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Los cambios de emergencia se controlan adecuadamente cuando no se pueden seguir los procedimientos de gestión de cambios establecidos para definir, autorizar, probar y documentar los cambios.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les changements d'urgence sont contrôlés de manière adéquate lorsque les procédures de gestion des changements établies pour définir, autoriser, tester et documenter les changements ne peuvent pas être suivies.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يتم التحكم في التغييرات الطارئة بشكل مناسب عندما يتعذر اتباع إجراءات إدارة التغيير المعمول بها لتحديد التغييرات والتصريح بها واختبارها وتوثيقها.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Change Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the entity has implemented a standardized procedure for controlling all changes to the core IT systems and applications"/>
-							<tx l="fre" name="Vlerësimi nëse institucioni ka implementuar një procedurë të standartizuar për kontrollin e të gjitha ndryshimeve në sistemet dhe aplikacionet kryesore të IT"/>
+							<tx l="spa" name="Evaluar si la entidad ha implementado un procedimiento estandarizado para controlar todos los cambios en los sistemas y aplicaciones de TI centrales."/>
+							<tx l="fre" name="Évaluer si l'entité a mis en œuvre une procédure normalisée pour contrôler toutes les modifications apportées aux systèmes et applications informatiques de base"/>
+							<tx l="ara" name="قم بتقييم ما إذا كان الكيان قد نفذ إجراءً موحدًا للتحكم في جميع التغييرات التي تطرأ على أنظمة وتطبيقات تكنولوجيا المعلومات الأساسية"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Emergency changes - Are emergency changes controlled adequately when established change management procedures for defining, authorizing, testing and documenting of changes cannot be followed?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="..."/>
-							<tx l="fre" name=" "/>
+							<tx l="spa" name="... "/>
+							<tx l="fre" name="... "/>
+							<tx l="ara" name="... "/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Emergency change control procedures
-
-Documentation of emergency changes that have been made during the audited period
-
+							<tx l="eng" name="Emergency change control procedures.
+Documentation of emergency changes that have been made during the audited period.
 "/>
-							<tx l="fre" name="Procedurat e kontrollit të ndryshimeve emergjente
-
-Dokumentim të ndryshimeve emergjente që janë kryer gjatë periudhës së auditimit
+							<tx l="spa" name="Procedimientos de control de cambios de emergencia.
+Documentación de cambios de emergencia que se hayan realizado durante el período auditado.
+"/>
+							<tx l="fre" name="Procédures de contrôle des changements d'urgence.
+Documentation des modifications d'urgence qui ont été apportées au cours de la période auditée.
+"/>
+							<tx l="ara" name="إجراءات التحكم في التغيير في حالات الطوارئ.
+توثيق التغييرات الطارئة التي تم إجراؤها خلال فترة المراجعة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the change management procedures to identify whether it contains a dedicated section and set of procedures to control emergency changes to the system.
-
-Ask for an example of an emergency change. Compare against documented procedure. Look for what testing was done prior to introduction into production environment. If documented procedure does not exist, ask how they know what to do and who approves such changes.
-
+Ask for an example of an emergency change. Compare against documented procedure. 
+Look for what testing was done prior to introduction into production environment. If documented procedure does not exist, ask how they know what to do and who approves such changes.
 Examine whether emergency changes are approved by an appropriate member of the management before moving into production.
-
 "/>
-							<tx l="fre" name="Rishikim të procedurave të menaxhimit të ndryshimeve për të identifikuar nëse përmbajnë një seksion të dedikuar dhe një set procedurash për të kontrolluar ndryshimet emergjente në sistem.
-Kërkoni një shembull të ndryshimeve emergjente. Bëni krahasime me procedurat e dokumentuara. Shihni për çfarë është bërë testimi përpara prezantimit në mjedisin e punës. Nëse nuk ekzistojnë procedura të dokumentuara, pyesi sesi ata kanë ditur se çfarë të bëjnë dhe kush i aprovon ato ndryshime.Ekzaminoni nëse ndryshimet emergjente janë aprovuar nga anëtrët e duhur përpara lëvizjes në prodhim.
+							<tx l="spa" name="Revise los procedimientos de gestión de cambios para identificar si contienen una sección dedicada y un conjunto de procedimientos para controlar los cambios de emergencia en el sistema.
+Solicite un ejemplo de cambio de emergencia. Compare con el procedimiento documentado.
+Busque qué pruebas se realizaron antes de la introducción en el entorno de producción. Si no existe un procedimiento documentado, pregunte cómo saben qué hacer y quién aprueba dichos cambios.
+Examine si los cambios de emergencia están aprobados por un miembro apropiado de la gerencia antes de pasar a la producción.
+"/>
+							<tx l="fre" name="Passez en revue les procédures de gestion des modifications pour déterminer si elles contiennent une section dédiée et un ensemble de procédures pour contrôler les modifications d'urgence du système.
+Demandez un exemple de changement d'urgence. Comparez avec la procédure documentée.
+Recherchez les tests effectués avant l'introduction dans l'environnement de production. S'il n'existe pas de procédure documentée, demandez-leur comment ils savent quoi faire et qui approuve ces changements.
+Vérifiez si les changements d'urgence sont approuvés par un membre approprié de la direction avant de passer à la production.
+"/>
+							<tx l="ara" name="راجع إجراءات إدارة التغيير لتحديد ما إذا كانت تحتوي على قسم مخصص ومجموعة من الإجراءات للتحكم في التغييرات الطارئة على النظام.
+اسأل عن مثال على تغيير طارئ. قارن مع الإجراء الموثق.
+ابحث عن الاختبار الذي تم إجراؤه قبل إدخاله في بيئة الإنتاج. في حالة عدم وجود إجراء موثق ، اسألهم كيف يعرفون ما يجب عليهم فعله ومن يوافق على هذه التغييرات.
+افحص ما إذا كانت التغييرات الطارئة قد تمت الموافقة عليها من قبل عضو مناسب في الإدارة قبل الانتقال إلى الإنتاج.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2498,52 +2543,75 @@ Kërkoni një shembull të ndryshimeve emergjente. Bëni krahasime me procedurat
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Change closure and documentation"/>
-					<tx l="fre" name="Dokumentimi dhe mbyllja e ndryshimeve"/>
+					<tx l="spa" name="Cambio de cierre y documentación"/>
+					<tx l="fre" name="Modifier la fermeture et la documentation"/>
+					<tx l="ara" name="تغيير الإغلاق والتوثيق"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>There have to be appropriate processes followed for update of associated systems and user documentation after a change is implemented.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Deben seguirse los procesos adecuados para la actualización de los sistemas asociados y la documentación del usuario después de que se implemente un cambio.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Des processus appropriés doivent être suivis pour la mise à jour des systèmes associés et de la documentation utilisateur après la mise en œuvre d'un changement.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يجب أن تكون هناك عمليات مناسبة متبعة لتحديث الأنظمة المرتبطة ووثائق المستخدم بعد تنفيذ التغيير.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Change Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the entity has implemented a standardized procedure for controlling all changes to the core IT systems and applications"/>
-							<tx l="fre" name="Vlerësimi nëse institucioni ka implementuar një procedurë të standartizuar për kontrollin e të gjitha ndryshimeve në sistemet dhe aplikacionet kryesore të IT"/>
+							<tx l="spa" name="Evaluar si la entidad ha implementado un procedimiento estandarizado para controlar todos los cambios en los sistemas y aplicaciones de TI centrales."/>
+							<tx l="fre" name="Évaluer si l'entité a mis en œuvre une procédure normalisée pour contrôler toutes les modifications apportées aux systèmes et applications informatiques de base"/>
+							<tx l="ara" name="قم بتقييم ما إذا كان الكيان قد نفذ إجراءً موحدًا للتحكم في جميع التغييرات التي تطرأ على أنظمة وتطبيقات تكنولوجيا المعلومات الأساسية"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Change closure and documentation - Are there appropriate processes followed for update of associated systems and user documentation after a change is implemented?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Change management best practices (e.g. COBIT 5-BAI domain, ITIL on Service support)"/>
-							<tx l="fre" name="Praktikat më të mira të menaxhimit të ndryshimit (p.sh. Cobit, ITIL mbi sportin në shërbime)"/>
+							<tx l="spa" name="Mejores prácticas de gestión de cambios (por ejemplo, dominio COBIT 5-BAI, ITIL en soporte de servicio)"/>
+							<tx l="fre" name="Bonnes pratiques de gestion du changement (par exemple, domaine COBIT 5-BAI, ITIL sur support de service)"/>
+							<tx l="ara" name="أفضل ممارسات إدارة التغيير (مثل مجال COBIT 5-BAI ، ITIL على دعم الخدمة)"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Process documentation of functionalities affected by change
-
-Established procedures for documentation
-
+							<tx l="eng" name="Process documentation of functionalities affected by change.
+Established procedures for documentation.
 "/>
-							<tx l="fre" name="Dokumentacion të proceseve të funksionaliteteve të prekura nga ndryshimet
-
-Procedurat e hartuara për dokumentacion
+							<tx l="spa" name="Procesar la documentación de las funcionalidades afectadas por el cambio.
+Procedimientos establecidos para la documentación.
+"/>
+							<tx l="fre" name="Traiter la documentation des fonctionnalités affectées par le changement.
+Procédures établies pour la documentation.
+"/>
+							<tx l="ara" name="توثيق العملية للوظائف التي تتأثر بالتغيير.
+إجراءات التوثيق المعمول بها.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review documents to ensure comprehensiveness and consistency of changes implemented. Did operational procedures, configuration information, application documentation, help screens and training materials follow the same change management procedure and were they considered to be an integral part of the change.
-
 Examine whether there is an appropriate retention period for change documentation and pre- and post-change system and user documentation.
-
 Examine what mechanisms exist to update business processes for changes in hardware or software to ensure that new or improved functionality is used.
-
 "/>
-							<tx l="fre" name="Rishikim të dokumenteve pët tu siguruar për gjithëpërfshirje dhe qëndrueshmëri të ndryshimeve të implementuara. A kanë ndjekur të njëjtën procedurë të menaxhimti të ndryshimit dhe a janë konsideruar si pjesë integrale e ndryshimit procedurat operacionale, informacioni i konfigurimit, dokumentimi i aplikacionit, ekranet e ndihmës dhe materialet e trajnimit.
-Ekzaminim nëse ekziston një periudhë e përshtatshme ruajtjeje për dokumentet e ndryshimit dhe për dokumentet e para/pas ndryshimit të sistemit.
-Ekzaminim nëse ekzistojnë mekanizmat për përditësimin e proceseve të biznesit për ndryshime në pajisje ose programe për tu siguruar se përdoren funksionalitetet e reja dhe ato të përmirësuara.
+							<tx l="spa" name="Revise los documentos para garantizar la exhaustividad y coherencia de los cambios implementados. ¿Los procedimientos operativos, la información de configuración, la documentación de la aplicación, las pantallas de ayuda y los materiales de capacitación siguieron el mismo procedimiento de gestión de cambios y se consideraron parte integral del cambio?
+Examine si existe un período de retención adecuado para la documentación de cambios y la documentación del usuario y del sistema anterior y posterior al cambio.
+Examine qué mecanismos existen para actualizar los procesos de negocio en busca de cambios en el hardware o software para asegurarse de que se utilizan funciones nuevas o mejoradas.
+"/>
+							<tx l="fre" name="Examiner les documents pour assurer l'exhaustivité et la cohérence des changements mis en œuvre. Les procédures opérationnelles, les informations de configuration, la documentation de l'application, les écrans d'aide et le matériel de formation ont-ils suivi la même procédure de gestion des changements et ont-ils été considérés comme faisant partie intégrante du changement?
+Vérifiez s'il existe une période de conservation appropriée pour la documentation des modifications, le système avant et après les modifications et la documentation utilisateur.
+Examiner les mécanismes existants pour mettre à jour les processus métier pour les changements de matériel ou de logiciel afin de garantir que des fonctionnalités nouvelles ou améliorées sont utilisées.
+"/>
+							<tx l="ara" name="مراجعة الوثائق لضمان شمولية واتساق التغييرات المنفذة. هل الإجراءات التشغيلية ومعلومات التكوين ووثائق التطبيق وشاشات المساعدة ومواد التدريب تتبع نفس إجراءات إدارة التغيير وهل تعتبر جزءًا لا يتجزأ من التغيير.
+افحص ما إذا كانت هناك فترة احتفاظ مناسبة لوثائق التغيير ونظام ما قبل التغيير وما بعده ووثائق المستخدم.
+افحص الآليات الموجودة لتحديث عمليات الأعمال للتغييرات في الأجهزة أو البرامج للتأكد من استخدام وظائف جديدة أو محسّنة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2570,21 +2638,43 @@ Ekzaminim nëse ekzistojnë mekanizmat për përditësimin e proceseve të bizne
 	<Domain nr="03">
 		<title>
 			<tx l="eng" name="Development and Acquisition"/>
-			<tx l="fre" name="Zhvillimin dhe Blerjet"/>
+			<tx l="spa" name="Desarrollo y Adquisición"/>
+			<tx l="fre" name="Développement et acquisition"/>
+			<tx l="ara" name="التطوير والاستحواذ"/>
 		</title>
 		<Narrative>
 			<narr l="eng">
 				<ak>In order to support the business strategy, IT organizations provide solutions to the business or business user. The process of developing, acquiring, or contracting out for a solution should be planned so that risks can be managed and chances of success are maximized.</ak>
 			</narr>
+			<narr l="spa">
+				<ak>Para respaldar la estrategia de lo negocio, las organizaciones de TI brindan soluciones al negocio o al usuario comercial. El proceso de desarrollo, adquisición o subcontratación de una solución debe planificarse de modo que se puedan gestionar los riesgos y se maximicen las posibilidades de éxito.</ak>
+			</narr>
+			<narr l="fre">
+				<ak>Afin de soutenir la stratégie de l'entreprise, les organisations informatiques fournissent des solutions à l'entreprise ou à l'utilisateur professionnel. Le processus de développement, d'acquisition ou de sous-traitance d'une solution doit être planifié de manière à pouvoir gérer les risques et maximiser les chances de succès.</ak>
+			</narr>
+			<narr l="ara">
+				<ak>من أجل دعم استراتيجية العمل ، تقدم مؤسسات تكنولوجيا المعلومات حلولًا لمستخدم الأعمال أو الأعمال. يجب التخطيط لعملية تطوير الحل أو الحصول عليه أو التعاقد معه حتى يمكن إدارة المخاطر وتعظيم فرص النجاح.</ak>
+			</narr>
 		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Requirements Development and Management"/>
-				<tx l="fre" name="Zhvillimi dhe menaxhimi i kërkesave"/>
+				<tx l="spa" name="Desarrollo y gestión de requisitos"/>
+				<tx l="fre" name="Développement et gestion des exigences"/>
+				<tx l="ara" name="تطوير وإدارة المتطلبات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>For any project development or acquisition the organization needs to document the requirements of what they want and to manage those requirements. Managing requirements includes prioritizing them utilizing adopted criteria (for example criticality, cost, and complexity) and segmenting them into phases if they all cannot be implemented in one initial system.</ak>
+				</narr>
+				<narr l="spa">
+					<ak>Para cualquier desarrollo o adquisición de un proyecto, la organización necesita documentar los requisitos de lo que quieren y gestionar esos requisitos. La gestión de los requisitos incluye priorizarlos utilizando los criterios adoptados (por ejemplo, criticidad, costo y complejidad) y segmentarlos en fases si no se pueden implementar todos en un sistema inicial.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Pour tout développement ou acquisition de projet, l'organisation doit documenter les exigences de ce qu'elle veut et gérer ces exigences. La gestion des exigences comprend leur hiérarchisation en utilisant les critères adoptés (par exemple la criticité, le coût et la complexité) et leur segmentation en phases si elles ne peuvent toutes être mises en œuvre dans un système initial.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>بالنسبة لأي تطوير أو استحواذ لمشروع ، تحتاج المنظمة إلى توثيق متطلبات ما يريدون وإدارة تلك المتطلبات. تتضمن إدارة المتطلبات تحديد أولوياتها باستخدام المعايير المعتمدة (على سبيل المثال الحرجية والتكلفة والتعقيد) وتقسيمها إلى مراحل إذا كان لا يمكن تنفيذها جميعًا في نظام أولي واحد.</ak>
 				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
