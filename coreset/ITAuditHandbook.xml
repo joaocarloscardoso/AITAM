@@ -831,11 +831,11 @@ Review policy change control history to determine that policies are updated peri
 Review QA reports to ensure that they contain any policy or procedure compliance issues as appropriate.
 Review emails or other mechanisms (physical mail, training, etc) to ensure that policies are distributed to appropriate users and stakeholders when updated or on a as needed basis.
 Review policies to determine adequacy by looking for (as an example):
-•	Scope of policy and mandate.
-•	Definition of roles and responsibilities
-•	Required resources and tools
-•	Linkage to procedures
-•	Rules to deal with non-compliance
+• Scope of policy and mandate.
+• Definition of roles and responsibilities
+• Required resources and tools
+• Linkage to procedures
+• Rules to deal with non-compliance
 "/>
 							<tx l="spa" name="Método (s) de análisis
 
@@ -2680,52 +2680,79 @@ Examiner les mécanismes existants pour mettre à jour les processus métier pou
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Identify user requirements for IT Systems"/>
-					<tx l="fre" name="Identifikoni kërkesat e përdoruesit për sistemet  TI"/>
+					<tx l="spa" name="Identificar los requisitos de los usuarios para los sistemas de TI."/>
+					<tx l="fre" name="Identifier les besoins des utilisateurs pour les systèmes informatiques"/>
+					<tx l="ara" name="تحديد متطلبات المستخدم لأنظمة تكنولوجيا المعلومات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organization has a plan or procedures on how to collect, review, and catalog requirements for new or added functionality.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización tiene un plan o procedimientos sobre cómo recopilar, revisar y catalogar los requisitos para la funcionalidad nueva o agregada.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation dispose d'un plan ou de procédures sur la manière de collecter, d'examiner et de cataloguer les exigences relatives aux fonctionnalités nouvelles ou ajoutées.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>لدى المنظمة خطة أو إجراءات حول كيفية جمع ومراجعة وفهرسة المتطلبات للوظائف الجديدة أو المضافة.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Requirements Development &amp; Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization identifies, prioritizes and manages their requirements for IT systems"/>
-							<tx l="fre" name="Vlerësimi sesi organizata identifikon, prioritarizon dhe menaxhon kërkesar për sistemet e IT"/>
+							<tx l="spa" name="Evaluar cómo la organización identifica, prioriza y gestiona sus requisitos para los sistemas de TI."/>
+							<tx l="fre" name="Évaluer comment l'organisation identifie, hiérarchise et gère ses exigences en matière de systèmes informatiques"/>
+							<tx l="ara" name="قم بتقييم كيفية تحديد المنظمة وترتيب أولوياتها وإدارتها لمتطلباتها لأنظمة تكنولوجيا المعلومات"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How does the organization identify user requirements for IT Systems?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization has a plan or procedures on how to collect, review, and catalog requirements for new or added functionality"/>
-							<tx l="fre" name="Organizata ka plane ose procedura sesi të mbledhi, të rishikojë dhe të kategorizojë krkesat për funksionalitete të reja ose të shtuara."/>
+							<tx l="spa" name="La organización tiene un plan o procedimientos sobre cómo recopilar, revisar y catalogar los requisitos para la funcionalidad nueva o agregada"/>
+							<tx l="fre" name="L'organisation dispose d'un plan ou de procédures sur la manière de collecter, d'examiner et de cataloguer les exigences relatives aux fonctionnalités nouvelles ou ajoutées"/>
+							<tx l="ara" name="لدى المنظمة خطة أو إجراءات حول كيفية جمع ومراجعة وفهرسة المتطلبات للوظائف الجديدة أو المضافة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Requirements management plan or procedure
-Sample user submitted requirements
-Sample initial review 
+							<tx l="eng" name="Requirements management plan or procedure.
+Sample user submitted requirements.
+Sample initial review.
 "/>
-							<tx l="fre" name="Plan ose procedurë e menaxhimit të kërkesave
-
-Kampjonë nga kërkesat e dorëzuara prej përdoruesve
-
-Kampjonim i rishikimit fillestar
+							<tx l="spa" name="Plan o procedimiento de gestión de requisitos.
+Ejemplo de requisitos enviados por el usuario.
+Ejemplo de revisión inicial.
+"/>
+							<tx l="fre" name="Plan ou procédure de gestion des exigences.
+Exemple d'exigences soumises par l'utilisateur.
+Exemple de revue initiale.
+"/>
+							<tx l="ara" name="خطة أو إجراء إدارة المتطلبات.
+عينة من المتطلبات المقدمة من المستخدم.
+عينة من المراجعة الأولية.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the requirements management plan or procedures to ensure users, stakeholders, or other relevant are involved in identifying requirements.
-
 In a major functionality enhancement development, user consultation and prototype development can occur parallel. The information interchange between the business process owners and vendor/ IT organization needs to be looked into.
-
 Review sample requirements to ensure that there is an initial review and that similar or duplicate requirements are grouped.
 "/>
-							<tx l="fre" name="Rishikim i planit ose procedurave të menaxhimit të kërkesave për të siguruar se përdoruesit, palët e interesuara, ose të tjerë, janë të përfshirë në identifikimin e kërkesave.
-Në një zhvillim për përmirësim funksionaliteti, këshillimi me përdoruesit dhe zhvillimi i prototipeve mund të ndodhë paralel. Shkëmbimi i informacionit midis zotëruesve të proceseve të biznesit dhe furnizuesve/organizatave IT, ka nevojë  për rishikim.
-Rishikim i kampjoneve të kërkesave për t’u siguruar se ekziston një rishikim fillestar dhe se kërkesat e ngjashme ose të duplikuara janë grupuar.
+							<tx l="spa" name="Revise el plan o los procedimientos de gestión de requisitos para asegurarse de que los usuarios, las partes interesadas u otras personas relevantes estén involucradas en la identificación de los requisitos.
+En un desarrollo de mejora de funcionalidad importante, la consulta del usuario y el desarrollo de prototipos pueden ocurrir en paralelo. Es necesario analizar el intercambio de información entre los propietarios de los procesos comerciales y el proveedor / organización de TI.
+Revise los requisitos de muestra para asegurarse de que haya una revisión inicial y que los requisitos similares o duplicados estén agrupados.
+"/>
+							<tx l="fre" name="Passez en revue le plan ou les procédures de gestion des exigences pour vous assurer que les utilisateurs, les parties prenantes ou d'autres parties concernées sont impliqués dans l'identification des exigences.
+Lors d'un développement majeur d'amélioration des fonctionnalités, la consultation des utilisateurs et le développement de prototypes peuvent avoir lieu en parallèle. L'échange d'informations entre les propriétaires des processus métier et le fournisseur / organisation informatique doit être étudié.
+Passez en revue les exemples d'exigences pour vous assurer qu'il y a un examen initial et que les exigences similaires ou en double sont regroupées.
+"/>
+							<tx l="ara" name="قم بمراجعة خطة أو إجراءات إدارة المتطلبات لضمان مشاركة المستخدمين أو أصحاب المصلحة أو غيرهم من ذوي الصلة في تحديد المتطلبات.
+في تطوير تحسين الوظائف الرئيسية ، يمكن أن تحدث استشارة المستخدم وتطوير النموذج الأولي بشكل متوازٍ. يجب النظر في تبادل المعلومات بين مالكي عمليات الأعمال والبائع / مؤسسة تكنولوجيا المعلومات.
+قم بمراجعة متطلبات العينة للتأكد من وجود مراجعة أولية وأنه تم تجميع المتطلبات المماثلة أو المكررة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2750,64 +2777,87 @@ Rishikim i kampjoneve të kërkesave për t’u siguruar se ekziston një rishik
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Analyze, prioritize, and manage user requirements"/>
-					<tx l="fre" name="Analizoni, prioritizoni dhe menaxhoni kërkesat e përdoruesit"/>
+					<tx l="spa" name="Analizar, priorizar y gestionar los requisitos de los usuarios"/>
+					<tx l="fre" name="Analyser, hiérarchiser et gérer les exigences des utilisateurs"/>
+					<tx l="ara" name="تحليل متطلبات المستخدم وتحديد أولوياتها وإدارتها"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organization analyzes, prioritizes, and manages requirements to ensure that user needs are met in an optimum and cost effective manner.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización analiza, prioriza y gestiona los requisitos para garantizar que se satisfagan las necesidades de los usuarios de una manera óptima y rentable.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation analyse, hiérarchise et gère les exigences pour s'assurer que les besoins des utilisateurs sont satisfaits de manière optimale et rentable.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تقوم المنظمة بتحليل وترتيب الأولويات وإدارة المتطلبات لضمان تلبية احتياجات المستخدم بطريقة مثالية وفعالة من حيث التكلفة.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Requirements Development &amp; Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization identifies, prioritizes and manages their requirements for IT systems."/>
-							<tx l="fre" name="Vlerësimi sesi organizata identifikon, prioritarizon dhe menaxhon kërkesar për sistemet e IT"/>
+							<tx l="spa" name="Evalúe cómo la organización identifica, prioriza y gestiona sus requisitos para los sistemas de TI."/>
+							<tx l="fre" name="Évaluer la manière dont l'organisation identifie, hiérarchise et gère ses exigences en matière de systèmes informatiques."/>
+							<tx l="ara" name="قم بتقييم كيفية تحديد المنظمة وترتيب أولوياتها وإدارتها لمتطلباتها لأنظمة تكنولوجيا المعلومات."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How does the organization analyze, prioritize, and manage user requirements?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization analyzes, prioritizes, and manages requirements to ensure that user needs are met in an optimum and cost effective manner."/>
-							<tx l="fre" name="Organizata analizon, prioritarizon dhe menaxho kërkesat për t’u siguruar se nevojat e përdoruesve janë plotësuar në mënyrë optimale dhe me kosto efektive"/>
+							<tx l="spa" name="La organización analiza, prioriza y gestiona los requisitos para garantizar que se satisfagan las necesidades de los usuarios de una manera óptima y rentable."/>
+							<tx l="fre" name="L'organisation analyse, hiérarchise et gère les exigences pour s'assurer que les besoins des utilisateurs sont satisfaits de manière optimale et rentable."/>
+							<tx l="ara" name="تقوم المنظمة بتحليل وترتيب الأولويات وإدارة المتطلبات لضمان تلبية احتياجات المستخدم بطريقة مثالية وفعالة من حيث التكلفة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="List of requirements 
-
-Sample analysis of
-requirements
-
-Requirements traceability matrix
-
-Criteria for priority of requirements 
+							<tx l="eng" name="List of requirements.
+Sample analysis of requirements.
+Requirements traceability matrix.
+Criteria for priority of requirements.
 "/>
-							<tx l="fre" name=" Lista me kërkesat
-
-Kampjonim i analizave të kërkesave
-
-Matrica e gjurmueshmërisë së kërkesave
-
-Kriteret për prioritarizimin e kërkesave
+							<tx l="spa" name="Lista de requisitos.
+Muestra de análisis de requisitos.
+Matriz de trazabilidad de requerimientos.
+Criterios de prioridad de requisitos.
+"/>
+							<tx l="fre" name="Liste des exigences.
+Exemple d'analyse des besoins.
+Matrice de traçabilité des exigences.
+Critères de priorité des exigences.
+"/>
+							<tx l="ara" name="قائمة المتطلبات.
+تحليل عينة من المتطلبات.
+مصفوفة تتبع المتطلبات.
+معايير أولوية المتطلبات.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review requirements to determine that they include author, date, priority, cost, risk, and other elements
-
-Review analysis of requirements or comments on requirements by business owners or stakeholders to determine that all views are solicited and summarized for appropriate analysis (accept, defer, reject, etc) taken
-
-Review traceability matrix to determine that approved requirements are assigned to either development or acquisition projects and tracked to closure when implemented
-
-Review criteria for requirements priority to assess whether they includes elements such as cost, business need, emergency issues, and new mandates
+							<tx l="eng" name="Review requirements to determine that they include author, date, priority, cost, risk, and other elements.
+Review analysis of requirements or comments on requirements by business owners or stakeholders to determine that all views are solicited and summarized for appropriate analysis (accept, defer, reject, etc) taken.
+Review traceability matrix to determine that approved requirements are assigned to either development or acquisition projects and tracked to closure when implemented.
+Review criteria for requirements priority to assess whether they includes elements such as cost, business need, emergency issues, and new mandates.
 "/>
-							<tx l="fre" name="Rishikim i kërkesave për të përcaktuar se ato përmbajnë autorin, datën, prioritetin, koston, riskun dhe elementë të tjerë.
-
-Rishikim i analizave të kërkesave ose të komenteve mbi to prej zotëruesve të biznesit ose prej palëve të interesuara, për të përcaktuar se të gjitha pikëpamjet janë përmbledhur për të kryer një analizë të plotë (pranim, diferencim, refuzim, etj).
-Rishikim i matricës së gjurmueshmërisë për të përcaktuar se kërkesat e aprovuara janë caktuar ose për zhvillim ose për furnizim nga jashtë, dhe i nënshtrohen mbylljes së kërkesës kur arrin fazën e implementimit.
-
-Rishikim i kritereve për prioritarizimin e kërkesave për të vlerësuar nëse ato përmbajnë elemente lidhur me kostot, nevojat e biznesit, çështjet emergjente, dhe kapacitetet e reja.
+							<tx l="spa" name="Revise los requisitos para determinar que incluyen autor, fecha, prioridad, costo, riesgo y otros elementos.
+Revise el análisis de los requisitos o los comentarios sobre los requisitos por parte de los propietarios de negocios o partes interesadas para determinar que todas las opiniones se solicitan y resumen para el análisis apropiado (aceptar, aplazar, rechazar, etc.)
+Revise la matriz de trazabilidad para determinar que los requisitos aprobados se asignan a proyectos de desarrollo o de adquisición y se hace un seguimiento hasta el cierre cuando se implementan.
+Revise los criterios de prioridad de los requisitos para evaluar si incluyen elementos como el costo, la necesidad comercial, los problemas de emergencia y los nuevos mandatos.
+"/>
+							<tx l="fre" name="Passez en revue les exigences pour déterminer qu'elles incluent l'auteur, la date, la priorité, le coût, le risque et d'autres éléments.
+Examiner l'analyse des exigences ou les commentaires sur les exigences des propriétaires d'entreprise ou des parties prenantes pour déterminer que toutes les opinions sont sollicitées et résumées pour une analyse appropriée (accepter, différer, rejeter, etc.).
+Examiner la matrice de traçabilité pour déterminer que les exigences approuvées sont affectées aux projets de développement ou d'acquisition et suivies jusqu'à la clôture une fois mises en œuvre.
+Passez en revue les critères de priorité des exigences pour déterminer s'ils incluent des éléments tels que le coût, les besoins opérationnels, les problèmes d'urgence et les nouveaux mandats.
+"/>
+							<tx l="ara" name="مراجعة المتطلبات لتحديد أنها تتضمن المؤلف والتاريخ والأولوية والتكلفة والمخاطر وعناصر أخرى.
+مراجعة تحليل المتطلبات أو التعليقات على المتطلبات من قبل أصحاب الأعمال أو أصحاب المصلحة لتحديد أن جميع وجهات النظر يتم طلبها وتلخيصها للتحليل المناسب (قبول ، تأجيل ، رفض ، إلخ).
+قم بمراجعة مصفوفة التتبع لتحديد أن المتطلبات المعتمدة مخصصة لمشروعات التطوير أو الاستحواذ وتتبعها حتى الإغلاق عند تنفيذها.
+مراجعة معايير الأولوية للمتطلبات لتقييم ما إذا كانت تتضمن عناصر مثل التكلفة واحتياجات العمل وقضايا الطوارئ والتفويضات الجديدة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2833,61 +2883,96 @@ Rishikim i kritereve për prioritarizimin e kërkesave për të vlerësuar nëse
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Project Management and Control"/>
-				<tx l="fre" name="Menaxhimi dhe Kontrolli i projektit"/>
+				<tx l="spa" name="Gestión y control de proyectos"/>
+				<tx l="fre" name="Gestion et contrôle de projet"/>
+				<tx l="ara" name="إدارة المشروع والتحكم فيه"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Project management includes defining the project plan and control activities. Project management includes defining cost and schedule baseline, defining project schedules, and involving stakeholders for key activities. Project control involves supervision and periodic reporting to take corrective actions when the performance of the project is not in accordance with the plan.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La gestión del proyecto incluye la definición del plan del proyecto y las actividades de control. La gestión de proyectos incluye definir la línea base de costos y cronogramas, definir los cronogramas del proyecto e involucrar a las partes interesadas en las actividades clave. El control del proyecto implica supervisión e informes periódicos para tomar acciones correctivas cuando el desempeño del proyecto no está de acuerdo con el plan.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La gestion de projet comprend la définition du plan de projet et les activités de contrôle. La gestion de projet comprend la définition de la base de référence des coûts et du calendrier, la définition des calendriers de projet et la participation des parties prenantes aux activités clés. Le contrôle de projet implique une supervision et des rapports périodiques pour prendre des mesures correctives lorsque la performance du projet n'est pas conforme au plan.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تتضمن إدارة المشروع تحديد خطة المشروع وأنشطة المراقبة. تتضمن إدارة المشروع تحديد التكلفة والجدول الزمني الأساسي ، وتحديد الجداول الزمنية للمشروع ، وإشراك أصحاب المصلحة في الأنشطة الرئيسية. تتضمن مراقبة المشروع الإشراف وإعداد التقارير الدورية لاتخاذ الإجراءات التصحيحية عندما لا يتوافق أداء المشروع مع الخطة.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Plan for the development or acquisition of IT projects"/>
-					<tx l="fre" name="Plani për zhvillimin ose blerjen e projekteve të TI"/>
+					<tx l="spa" name="Planificar el desarrollo o adquisición de proyectos de TI"/>
+					<tx l="fre" name="Planifier le développement ou l'acquisition de projets informatiques"/>
+					<tx l="ara" name="خطة لتطوير أو الحصول على مشاريع تكنولوجيا المعلومات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organization has a project management plan or equivalent for each approved project that guides it’s execution.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización tiene un plan de gestión de proyectos o equivalente para cada proyecto aprobado que guía su ejecución.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L’organisation dispose d’un plan de gestion de projet ou équivalent pour chaque projet approuvé qui guide son exécution.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>لدى المنظمة خطة لإدارة المشروع أو ما يعادلها لكل مشروع معتمد يوجه تنفيذه.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Project Management &amp; Control">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization manages and controls the development or acquisition of approved IT"/>
-							<tx l="fre" name="Vlerësimi sesi organizata menaxhon dhe kontrollon zhvillimin ose blerjen e projekteve të aprovuara për IT"/>
+							<tx l="spa" name="Evaluar cómo la organización gestiona y controla el desarrollo o la adquisición de TI aprobada"/>
+							<tx l="fre" name="Évaluer la manière dont l'organisation gère et contrôle le développement ou l'acquisition de services informatiques approuvés"/>
+							<tx l="ara" name="تقييم كيفية إدارة المنظمة والتحكم في تطوير أو الحصول على تكنولوجيا المعلومات المعتمدة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How does the organization plan for the development or acquisition of IT projects?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization analyzes, prioritizes, and manages requirements to ensure that user needs are met in an optimum and cost effective manner"/>
-							<tx l="fre" name=" Organizata ka një plan menaxhimi projektesh ose ekuivalent me të për çdo projekt të aprovuar, i cili udhëzon ekzekutimin e projektit"/>
+							<tx l="spa" name="La organización analiza, prioriza y gestiona los requisitos para garantizar que las necesidades de los usuarios se satisfagan de una manera óptima y rentable"/>
+							<tx l="fre" name="L'organisation analyse, hiérarchise et gère les exigences pour s'assurer que les besoins des utilisateurs sont satisfaits de manière optimale et rentable"/>
+							<tx l="ara" name="تقوم المنظمة بتحليل وترتيب الأولويات وإدارة المتطلبات لضمان تلبية احتياجات المستخدم بطريقة مثلى وفعالة من حيث التكلفة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Project management plan or equivalent "/>
-							<tx l="fre" name="Plan menaxhimi projektesh ose ekuivalent me të"/>
+							<tx l="eng" name="Project management plan or equivalent"/>
+							<tx l="spa" name="Plan de gestión de proyectos o equivalente"/>
+							<tx l="fre" name="Plan de gestion de projet ou équivalent"/>
+							<tx l="ara" name="خطة إدارة المشروع أو ما يعادلها"/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review the requirements management plan or equivalent to ensure that it contains the project description, scope, cost, schedule, risks, management structure and identifies stakeholders (internal or external)
-
-Review the plan to ensure that it has been approved by senior management and incorporates comments by stakeholder
-
-Review the project’s organizational chart to determine the roles of individuals who are responsible for quality assurance or testing, development, and installation of the system on organizations IT infrastructure, support group, etc
-
-For acquisition projects ensure that the plan or equivalent list who will be responsible for oversight of the contractor and review of any materials sent by them for approval
-
-Interview project managers to determine which SDLC method is being used for the development of the project
+							<tx l="eng" name="Review the requirements management plan or equivalent to ensure that it contains the project description, scope, cost, schedule, risks, management structure and identifies stakeholders (internal or external).
+Review the plan to ensure that it has been approved by senior management and incorporates comments by stakeholder.
+Review the project’s organizational chart to determine the roles of individuals who are responsible for quality assurance or testing, development, and installation of the system on organizations IT infrastructure, support group, etc.
+For acquisition projects ensure that the plan or equivalent list who will be responsible for oversight of the contractor and review of any materials sent by them for approval.
+Interview project managers to determine which SDLC method is being used for the development of the project.
 "/>
-							<tx l="fre" name=" Rishikim i planit të menaxhimit të projektit për t’u siguruar se ai përmban përshkrimin, qëllimin, koston, skedulën, risqet, strukturën menaxheriale dhe identifikimin e palëve të interesuara (të brendshëm ose të jashtëm) për projektin.
-Rishikim i planit për tu siguruar se është i aprovuar nga menaxhimi ilartë dhe përmban komente prej palëve të interesuara.
-
-Rishikim i grafikut organizacional të projektit për të përcaktuar detyrat e individëve përgjegjës për sigurimin e cilësisë ose testimin, zhvillimin, dhe instalimin e sistemit në infrastrukturën e IT, të organizatës, grupin mbështetës, etj.
-Për projektet e furnizuara sigurohuni se plani liston se cilët do të jenë përgjegjës për mbikqyrjen e përgjithshme dhe rishikoni çdo material të sjellë prej tyre për aprovim.
-Intervista me menaxherët e projektit për të përcaktuar cila metodë SDLC është duke u përdorur në zhvillimin e projektit
+							<tx l="spa" name="Revise el plan de gestión de requisitos o equivalente para asegurarse de que contiene la descripción del proyecto, el alcance, el costo, el cronograma, los riesgos, la estructura de gestión e identifica a las partes interesadas (internas o externas).
+Revise el plan para asegurarse de que haya sido aprobado por la alta dirección e incorpore los comentarios de las partes interesadas.
+Revise el organigrama del proyecto para determinar los roles de las personas responsables de la garantía de calidad o las pruebas, el desarrollo y la instalación del sistema en la infraestructura de TI de la organización, el grupo de apoyo, etc.
+Para los proyectos de adquisición, asegúrese de que el plan o una lista equivalente sean los responsables de la supervisión del contratista y la revisión de cualquier material enviado por este para su aprobación.
+Entreviste a los gerentes de proyecto para determinar qué método SDLC se está utilizando para el desarrollo del proyecto.
+"/>
+							<tx l="fre" name="Examiner le plan de gestion des exigences ou l'équivalent pour s'assurer qu'il contient la description du projet, la portée, le coût, le calendrier, les risques, la structure de gestion et identifie les parties prenantes (internes ou externes).
+Examiner le plan pour s'assurer qu'il a été approuvé par la haute direction et qu'il intègre les commentaires des intervenants.
+Passez en revue l'organigramme du projet pour déterminer les rôles des personnes responsables de l'assurance qualité ou des tests, du développement et de l'installation du système sur l'infrastructure informatique de l'organisation, le groupe de soutien, etc.
+Pour les projets d'acquisition, assurez-vous que le plan ou la liste équivalente sera responsable de la supervision de l'entrepreneur et de l'examen de tout matériel envoyé par lui pour approbation.
+Interviewer les chefs de projet pour déterminer quelle méthode SDLC est utilisée pour le développement du projet.
+"/>
+							<tx l="ara" name="قم بمراجعة خطة إدارة المتطلبات أو ما يعادلها للتأكد من أنها تحتوي على وصف المشروع ، والنطاق ، والتكلفة ، والجدول الزمني ، والمخاطر ، وهيكل الإدارة وتحديد أصحاب المصلحة (داخليين أو خارجيين).
+قم بمراجعة الخطة للتأكد من اعتمادها من قبل الإدارة العليا وتضمين تعليقات أصحاب المصلحة.
+راجع المخطط التنظيمي للمشروع لتحديد أدوار الأفراد المسؤولين عن ضمان الجودة أو الاختبار ، والتطوير ، وتركيب النظام على البنية التحتية لتكنولوجيا المعلومات الخاصة بالمؤسسات ، ومجموعة الدعم ، وما إلى ذلك.
+بالنسبة لمشاريع الاستحواذ ، تأكد من أن الخطة أو القائمة المعادلة التي ستكون مسؤولة عن الإشراف على المقاول ومراجعة أي مواد مرسلة من قبلهم للموافقة عليها.
+مقابلة مديري المشروع لتحديد طريقة SDLC التي يتم استخدامها لتطوير المشروع.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2912,68 +2997,99 @@ Intervista me menaxherët e projektit për të përcaktuar cila metodë SDLC ës
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Control IT projects"/>
-					<tx l="fre" name="Kontrolli i projekteve të TI"/>
+					<tx l="spa" name="Control de proyectos de TI"/>
+					<tx l="fre" name="Contrôler les projets informatiques"/>
+					<tx l="ara" name="التحكم في مشاريع تكنولوجيا المعلومات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organization controls and tracks projects to ensure they meet their cost, schedule, and performance requirements.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización controla y rastrea los proyectos para asegurarse de que cumplan con sus requisitos de costo, programación y desempeño.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation contrôle et suit les projets pour s'assurer qu'ils respectent leurs exigences en matière de coûts, de calendrier et de performances.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تتحكم المنظمة في المشاريع وتتابعها للتأكد من أنها تلبي متطلبات التكلفة والجدول الزمني والأداء.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Project Management &amp; Control">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization manages and controls the development or acquisition of approved IT"/>
-							<tx l="fre" name="Vlerësimi sesi organizata menaxhon dhe kontrollon zhvillimin ose blerjen e projekteve të aprovuara për IT"/>
+							<tx l="spa" name="Evaluar cómo la organización gestiona y controla el desarrollo o la adquisición de TI aprobada"/>
+							<tx l="fre" name="Évaluer la manière dont l'organisation gère et contrôle le développement ou l'acquisition de services informatiques approuvés"/>
+							<tx l="ara" name="تقييم كيفية إدارة المنظمة والتحكم في تطوير أو الحصول على تكنولوجيا المعلومات المعتمدة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How does the organization control IT projects?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization controls and tracks projects to ensure they meet their cost, schedule, and performance"/>
-							<tx l="fre" name="Organizata kontrollon dhe gjurmon projektet për tu siguruar në arritjen e kërkesave mbi koston, skedulën dhe performancën e tyre"/>
+							<tx l="spa" name="La organización controla y rastrea los proyectos para asegurarse de que cumplan con su costo, cronograma y desempeño"/>
+							<tx l="fre" name="L'organisation contrôle et suit les projets pour s'assurer qu'ils respectent leurs coûts, leur calendrier et leurs performances"/>
+							<tx l="ara" name="تتحكم المنظمة في المشاريع وتتتبعها للتأكد من أنها تلبي التكلفة والجدول الزمني والأداء"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Project cost and schedule baselines
-
-Project status reports 
-Contractor status
-reports, SLA
-
-Results of reviews 
-
-Action items
+							<tx l="eng" name="Project cost and schedule baselines.
+Project status reports .
+Contractor status.
+Reports, Service Level Agreement (SLA).
+Results of reviews.
+Action items.
 "/>
-							<tx l="fre" name="Kostot e projektit dhe bazat e skedulës
-
-Raportet e statusit të projektit
-
-Raportet e statusit të kontraktorëve, SLA
-
-Rezultatet e rishikimeve
-
-Artikujt e veprimit
+							<tx l="spa" name="Costo del proyecto y líneas de base del cronograma.
+Informes de estado del proyecto.
+Informes de estado del contratista.
+Informes, Acuerdo de nivel de servicio (SLA).
+Resultados de revisiones.
+Elementos de acción.
+"/>
+							<tx l="fre" name="Coût du projet et échéanciers de référence.
+Rapports d'état du projet.
+Rapports d'état de l'entrepreneur.
+Rapports, accord de niveau de service (SLA).
+Résultats des revues.
+Éléments d'action.
+"/>
+							<tx l="ara" name="تكلفة المشروع والجداول الزمنية الأساسية.
+تقارير حالة المشروع.
+تقارير حالة المقاول.
+التقارير ، اتفاقية مستوى الخدمة (SLA).
+نتائج الاستعراضات.
+عناصر العمل.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Compare project cost and schedule baselines with project status reports to assess deviations, if any.
-
 Interview project manager / review reports to determine whether appropriate corrective action was taken for major deviations.
-
 Interview project management team and review minutes of meetings with contractor to assess the frequency and effectiveness of monitoring the outsourced project activities.
-
-Review contractor SLA or contract to ensure that they are following the terms of the contract, for example look for contractors conducting periodic reviews, providing status reports, tracking action items, conducting risk management activities in accordance to the contract. Interview contract officer at the organizations to determine how they manage the contractor if SLAs are not available
+Review contractor SLA or contract to ensure that they are following the terms of the contract, for example look for contractors conducting periodic reviews, providing status reports, tracking action items, conducting risk management activities in accordance to the contract. 
+Interview contract officer at the organizations to determine how they manage the contractor if Service Level Agreements are not available.
 "/>
-							<tx l="fre" name="Krahasoni koston e projektit dhe bazën e skedulës me raportet e statusit për të vlerësuar shmangiet, nëse ka.
-
-Intervista me menaxherë e projektit/ rishikim i raporteve për të përcaktuar nëse jnë ndërmarrë veprimet e përshtatshme korrigjuese ndaj shmangieve të mëdha.
-
-Intervista me grupin e menaxhimit të projektit dhe rishikim i procesverbaleve të mbledhjeve me kontraktorin për të vlerësuar frekuencën dhe efektivitetin e monitorimit të aktiviteteve të projektit të furnizuar.
-Rishikim i SLA së kontraktorit ose kontratave të tjera për tu siguruar se janë duke u ndjekur kushtet e kontratës, për shembull shihni për rishikimet periodike të kontraktori, dorëzimi i raporteve të statusit, gjurmimi i artikujve të veprimit, aktivitetet referuar risqeve në lidhje me kontratën. Intervista me punonjësit e hartimit të kontratës në organizatë për të përcaktuar sesi ata menaxhojnë kontraktorin nëse nuk posedonë SLA.
+							<tx l="spa" name="Compare los costos del proyecto y las líneas de base del cronograma con los informes de estado del proyecto para evaluar las desviaciones, si las hubiera.
+Entreviste al gerente de proyecto / revise los informes para determinar si se tomaron las medidas correctivas adecuadas para las desviaciones importantes.
+Entreviste al equipo de gestión del proyecto y revise las actas de las reuniones con el contratista para evaluar la frecuencia y eficacia del seguimiento de las actividades del proyecto subcontratado.
+Revise el contrato o el contratista de los acuerdos de nivel de servicio para asegurarse de que están siguiendo los términos del contrato, por ejemplo, busque contratistas que realicen revisiones periódicas, proporcionen informes de estado, realicen un seguimiento de los elementos de acción, realicen actividades de gestión de riesgos de acuerdo con el contrato.
+Entreviste al oficial de contratos de las organizaciones para determinar cómo administran al contratista si los acuerdos de nivel de servicio no están disponibles.
 "/>
+							<tx l="fre" name="Comparez le coût du projet et planifiez les références avec les rapports d'état du projet pour évaluer les écarts, le cas échéant.
+Interviewer le gestionnaire de projet / examiner les rapports pour déterminer si des mesures correctives appropriées ont été prises pour les écarts majeurs.
+Interviewer l'équipe de gestion de projet et examiner les procès-verbaux des réunions avec le contractant pour évaluer la fréquence et l'efficacité du suivi des activités de projet externalisées.
+Examiner le accord de niveau de service ou le contrat de l'entrepreneur pour s'assurer qu'il respecte les termes du contrat, par exemple rechercher des entrepreneurs qui effectuent des examens périodiques, fournissent des rapports sur l'état d'avancement, suivent les mesures à prendre, mènent des activités de gestion des risques conformément au contrat.
+Interviewer l'agent contractuel des organisations pour déterminer comment ils gèrent l'entrepreneur si les accords de niveau de service ne sont pas disponibles.
+"/>
+							<tx l="ara" name="قارن تكلفة المشروع وجدول خطوط الأساس بتقارير حالة المشروع لتقييم الانحرافات ، إن وجدت.
+مقابلة مدير المشروع / تقارير المراجعة لتحديد ما إذا كان قد تم اتخاذ الإجراء التصحيحي المناسب للانحرافات الرئيسية.
+مقابلة فريق إدارة المشروع ومراجعة محاضر الاجتماعات مع المقاول لتقييم وتيرة وفعالية مراقبة أنشطة المشروع الخارجية.
+مراجعة مقاول اتفاقيات مستوى الخدمة أو العقد للتأكد من أنهم يتبعون شروط العقد ، على سبيل المثال البحث عن المقاولين الذين يقومون بإجراء مراجعات دورية ، وتقديم تقارير الحالة ، وتتبع بنود الإجراءات ، وإجراء أنشطة إدارة المخاطر وفقًا للعقد.
+مقابلة موظف العقود في المنظمات لتحديد كيفية إدارتهم للمقاول في حالة عدم توفر اتفاقيات مستوى الخدمة."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -2997,59 +3113,83 @@ Rishikim i SLA së kontraktorit ose kontratave të tjera për tu siguruar se jan
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Project related risk management"/>
-					<tx l="fre" name="Menaxhimi i riskut lidhur me projektin"/>
+					<tx l="spa" name="Gestión de riesgos relacionados con el proyecto"/>
+					<tx l="fre" name="Gestion des risques liés au projet"/>
+					<tx l="ara" name="إدارة المخاطر المتعلقة بالمشروع"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Project management activities include managing project related risks and taking appropriate mitigations activities.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Las actividades de gestión de proyectos incluyen la gestión de los riesgos relacionados con el proyecto y la realización de actividades de mitigación adecuadas.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les activités de gestion de projet comprennent la gestion des risques liés au projet et la prise des activités d'atténuation appropriées.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تشمل أنشطة إدارة المشروع إدارة المخاطر المتعلقة بالمشروع واتخاذ أنشطة التخفيف المناسبة.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Project Management &amp; Control">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization manages and controls the development or acquisition of approved IT"/>
-							<tx l="fre" name="Vlerësimi sesi organizata menaxhon dhe kontrollon zhvillimin ose blerjen e projekteve të aprovuara për IT"/>
+							<tx l="spa" name="Evaluar cómo la organización gestiona y controla el desarrollo o la adquisición de TI aprobada"/>
+							<tx l="fre" name="Évaluer la manière dont l'organisation gère et contrôle le développement ou l'acquisition de services informatiques approuvés"/>
+							<tx l="ara" name="تقييم كيفية إدارة المنظمة والتحكم في تطوير أو الحصول على تكنولوجيا المعلومات المعتمدة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How are the project related risks managed</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Project management activities include managing project related risks and taking appropriate mitigations activities"/>
-							<tx l="fre" name="Aktivitetet e menaxhimit të projektit përfshijnë menaxhimin e risqeve të lidhura me projektin dhe ndërmarrjen e aktiviteteve të përshtatshme të reduktimit të tyre"/>
+							<tx l="spa" name="Las actividades de gestión de proyectos incluyen la gestión de los riesgos relacionados con el proyecto y la realización de actividades de mitigación adecuadas"/>
+							<tx l="fre" name="Les activités de gestion de projet comprennent la gestion des risques liés au projet et la prise des activités d'atténuation appropriées"/>
+							<tx l="ara" name="تشمل أنشطة إدارة المشروع إدارة المخاطر المتعلقة بالمشروع واتخاذ أنشطة التخفيف المناسبة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Project management plan or equivalent
-
-Project risk management plan
-
-List of risks and responsibility assignments for managing risks
-
-Minutes of meeting where project risks are discussed
+							<tx l="eng" name="Project management plan or equivalent.
+Project risk management plan.
+List of risks and responsibility assignments for managing risks.
+Minutes of meeting where project risks are discussed.
 "/>
-							<tx l="fre" name="lani i menaxhimit të projektit ose ekuivalent me të
-
-Plani i menaxhimit të riskut të projektit
-
-Lista e risqeve, detyrat dhe përgjegjësitë për menaxhimin e risqeve
-
-Procesverbalet e mbledhjeve në të cilat diskutohen risqet e projektit
+							<tx l="spa" name="Plan de gestión de proyectos o equivalente.
+Plan de gestión de riesgos del proyecto.
+Lista de riesgos y asignaciones de responsabilidad para la gestión de riesgos.
+Acta de reunión donde se discuten los riesgos del proyecto.
+"/>
+							<tx l="fre" name="Plan de gestion de projet ou équivalent.
+Plan de gestion des risques du projet.
+Liste des risques et attributions de responsabilités pour la gestion des risques.
+Compte-rendu de la réunion où les risques du projet sont discutés.
+"/>
+							<tx l="ara" name="خطة إدارة المشروع أو ما يعادلها.
+خطة إدارة مخاطر المشروع.
+قائمة المخاطر ومهام المسؤولية لإدارة المخاطر.
+محضر الاجتماع حيث يتم مناقشة مخاطر المشروع.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the project management plan or risk management plan to determine that risks have been identified for the project, risks are categorized and have been assigned to individuals or groups to be monitored or mitigated as appropriate.
-
 Review risks management plan or interview project managers to determine whether they are following the organizational policy in managing their risks.
-
 Review minutes of meeting to ensure that risks are discussed periodically and that they are tracked and new risks if identified are entered into the risk register or wherever the complete set of risks for the project are documented.
 "/>
-							<tx l="fre" name="Rishikim i planit të menaxhimit të projektit ose planit të menaxhimit të risqeve për të përcaktuar nëse risqet janë identifikuar për këtë projekt, risqet janë kategorizuar dhe i janë caktuar individëve ose grupeve të ndryshme për t’u monitoruar ose reduktuar sipas mënyrës më të përshtatshme.
-Rishikim i planit të menaxhimit të risqeve ose intervistim i menaxherëve të projektit për të përcaktuar nëse ata janë duke ndjekur politikat organizacionele në menaxhimin e risqeve të tyre.
-
-Rishikim i procesverbaleve të mbledhjeve për tu siguruar se risqet diskutohen periodikisht dhe se ato gjurmohen; risqet e reja në rast se identifikohen, hyjnë në regjistrin e risqeve ose në momentin që grupi i plotë i risqeve të projektit dokumentohet.
+							<tx l="spa" name="Revise el plan de gestión del proyecto o el plan de gestión de riesgos para determinar que los riesgos se han identificado para el proyecto, los riesgos están categorizados y se han asignado a individuos o grupos para ser monitoreados o mitigados según corresponda.
+Revise el plan de gestión de riesgos o entreviste a los directores de proyectos para determinar si están siguiendo la política de la organización al gestionar sus riesgos.
+Revise las actas de la reunión para asegurarse de que los riesgos se discutan periódicamente y que se les haga un seguimiento y que los nuevos riesgos, si se identifican, se ingresen en el registro de riesgos o donde se documente el conjunto completo de riesgos para el proyecto.
+"/>
+							<tx l="fre" name="Examiner le plan de gestion de projet ou le plan de gestion des risques pour déterminer que les risques ont été identifiés pour le projet, les risques sont catégorisés et ont été attribués à des individus ou à des groupes pour être surveillés ou atténués, le cas échéant.
+Examiner le plan de gestion des risques ou interroger les chefs de projet pour déterminer s'ils suivent la politique organisationnelle dans la gestion de leurs risques.
+Examiner le procès-verbal de la réunion pour s'assurer que les risques sont discutés périodiquement et qu'ils sont suivis et que les nouveaux risques, s'ils sont identifiés, sont inscrits dans le registre des risques ou partout où l'ensemble complet des risques pour le projet est documenté.
+"/>
+							<tx l="ara" name="قم بمراجعة خطة إدارة المشروع أو خطة إدارة المخاطر لتحديد أن المخاطر قد تم تحديدها للمشروع ، وتصنيف المخاطر وتم تخصيصها لأفراد أو مجموعات ليتم مراقبتها أو التخفيف من حدتها حسب الاقتضاء.
+مراجعة خطة إدارة المخاطر أو مقابلة مديري المشاريع لتحديد ما إذا كانوا يتبعون السياسة التنظيمية في إدارة مخاطرهم.
+قم بمراجعة محاضر الاجتماع للتأكد من مناقشة المخاطر بشكل دوري وأنه يتم تتبعها وإدخال المخاطر الجديدة إذا تم تحديدها في سجل المخاطر أو في أي مكان يتم فيه توثيق المجموعة الكاملة من المخاطر للمشروع.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3075,73 +3215,108 @@ Rishikim i procesverbaleve të mbledhjeve për tu siguruar se risqet diskutohen 
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Quality Assurance and Testing"/>
-				<tx l="fre" name="Sigurimi dhe Testimi i Cilësisë"/>
+				<tx l="spa" name="Aseguramiento de la calidad y las pruebas"/>
+				<tx l="fre" name="L'assurance de la qualité et des tests"/>
+				<tx l="ara" name="جودة الضمان والاختبار"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Quality assurance provides project staff and management insight into the interim and final work products quality and functionality. Quality assurance staff should periodically evaluate the work products to see that they meet the organization's documented quality standards. Agencies need to verify that the developed or acquired product meets the requirements, meets the acceptance criteria and has undergone testing with user and stakeholder involvement.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>El aseguramiento de la calidad proporciona al personal del proyecto y a la dirección información sobre la calidad y funcionalidad de los productos de trabajo intermedios y finales. El personal de aseguramiento de la calidad debe evaluar periódicamente los productos de trabajo para asegurarse de que cumplan con los estándares de calidad documentados de la organización. Las agencias deben verificar que el producto desarrollado o adquirido cumpla con los requisitos, cumpla con los criterios de aceptación y se haya sometido a pruebas con la participación de los usuarios y las partes interesadas.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>L'assurance de la qualité fournit au personnel du projet et à la direction un aperçu de la qualité et de la fonctionnalité des produits de travail intermédiaires et finaux. Le personnel chargé de l'assurance de la qualité doit évaluer périodiquement les produits du travail pour s'assurer qu'ils répondent aux normes de qualité documentées de l'organisation. Les agences doivent vérifier que le produit développé ou acquis répond aux exigences, répond aux critères d'acceptation et a subi des tests avec la participation des utilisateurs et des parties prenantes.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>يوفر ضمان الجودة لموظفي المشروع والإدارة نظرة ثاقبة لجودة ووظائف منتجات العمل المؤقتة والنهائية. يجب على موظفي ضمان الجودة تقييم منتجات العمل بشكل دوري للتأكد من أنها تلبي معايير الجودة الموثقة للمنظمة. تحتاج الوكالات إلى التحقق من أن المنتج الذي تم تطويره أو الحصول عليه يلبي المتطلبات ، ويفي بمعايير القبول وخضع للاختبار بمشاركة المستخدمين وأصحاب المصلحة.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Quality assurance organization"/>
-					<tx l="fre" name="sigurimit të cilësisë se organizatës"/>
+					<tx l="spa" name="Organización de aseguramiento de la calidad"/>
+					<tx l="fre" name="Organisation d'assurance de la qualité"/>
+					<tx l="ara" name="منظمة ضمان الجودة"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
-						<ak>The organization have a quality assurance organization and are their roles and responsibilities
-defined.</ak>
+						<ak>The organization have a quality assurance organization and are their roles and responsibilities defined.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización tiene una organización de aseguramiento de la calidad y sus roles y responsabilidades están definidos.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation dispose d'une organisation d'assurance de la qualité et ses rôles et responsabilités sont définis.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>لدى المنظمة منظمة لضمان الجودة ويتم تحديد أدوارها ومسؤولياتها.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Quality Assurance &amp; Testing">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization ensures that IT projects under development or acquisition meet their quality goals."/>
-							<tx l="fre" name="Vlerësimi sesi organizata siguron se projektet IT arrijnë qëllimet e tyre  nëpërmjet zhvillimit ose blerjes"/>
+							<tx l="spa" name="Evalúe cómo la organización se asegura de que los proyectos de TI en desarrollo o adquisición cumplan sus objetivos de calidad."/>
+							<tx l="fre" name="Évaluer comment l'organisation s'assure que les projets informatiques en cours de développement ou d'acquisition atteignent leurs objectifs de qualité."/>
+							<tx l="ara" name="تقييم كيف تضمن المنظمة أن مشاريع تكنولوجيا المعلومات قيد التطوير أو الاستحواذ تفي بأهداف الجودة الخاصة بها."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the organization have a quality assurance organization and are their roles and responsibilities defined?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="An established procedure for conducting quality assurance activities."/>
-							<tx l="fre" name="Një procedurë për kryerjen e aktiviteteve të sigurimit të cilësisë"/>
+							<tx l="spa" name="Un procedimiento establecido para realizar actividades de aseguramiento de la calidad."/>
+							<tx l="fre" name="Une procédure établie pour la conduite des activités d'assurance de la qualité."/>
+							<tx l="ara" name="إجراء ثابت لإجراء أنشطة ضمان الجودة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Quality assurance policy or plan
-
-Quality assurance procedures
-
-Roles and responsibilities of the Quality Assurance group or individual(s)
-
-Quality assurance reports
-
-Project adopted SDLC
+							<tx l="eng" name="Quality assurance policy or plan.
+Quality assurance procedures.
+Roles and responsibilities of the Quality Assurance group or individual(s).
+Quality assurance reports.
+Project adopted SDLC.
 "/>
-							<tx l="fre" name="Politikat ose planet e sigurimit të cilësisë
-
-Procedurat e sigurimit të cilësisë
-
-Detyrat dhe përgjegjësitë e grupit ose individëve të sigurimit të cilësisë
-
-Raportet e sigurimit të cilësisë
-
-Projekti i përshtatur SDLC
+							<tx l="spa" name="Política o plan de de aseguramiento de la calidad.
+Procedimientos de aseguramiento de la calidad.
+Roles y responsabilidades del grupo o individuo(s) de Aseguramiento de la Calidad.
+Informes de aseguramiento de la calidad.
+Proyecto adoptado SDLC.
+"/>
+							<tx l="fre" name="Politique ou plan d'assurance de laqualité.
+Procédures d'assurance de la qualité.
+Rôles et responsabilités du groupe ou des personnes d'assurance de la qualité.
+Rapports d'assurance de la qualité.
+Projet adopté SDLC.
+"/>
+							<tx l="ara" name="سياسة أو خطة ضمان الجودة.
+إجراءات ضمان الجودة.
+أدوار ومسؤوليات مجموعة ضمان الجودة أو الفرد (الأفراد).
+تقارير ضمان الجودة.
+اعتمد المشروع SDLC.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the quality assurance policy and/or plan to determine what group or individuals is responsible for conducting quality assurance activities for the project (for example, the Quality Assurance group should review documents to ensure they accurately reflect the requirements, review user manuals to ensure they are legible and do not contain missing elements or steps).
-
-Review the quality assurance procedures or interview quality assurance personnel to determine what activities they conduct (observe peer reviews; sit in on design or other reviews, etc.)
-
-Review reports from the quality assurance organization to determine what they observed (whether the project team is following their project management plan, and the adopted SDLC and associated reviews etc.) to whom are issues reported
+Review the quality assurance procedures or interview quality assurance personnel to determine what activities they conduct (observe peer reviews; sit in on design or other reviews, etc.).
+Review reports from the quality assurance organization to determine what they observed (whether the project team is following their project management plan, and the adopted SDLC and associated reviews etc.) to whom are issues reported.
 "/>
-							<tx l="fre" name="Rishikim i plotikave ose planeve të sigurimit të cilësisë për të përcaktuar se cili grup ose individ është përgjegjës për kryerjen e aktiviteteve të sigurimit të cilësisë për projektin (për shembull, grupi i sigurimit të cilësisë duhet të rishikojë dokumentet për tu siguruar se ato reflektojnë kërkesat, rishikon manualet e përdorimit për tu siguruar se janë të qarta dhe nuk përmbajnë elemente ose hapa të munguar)
-Rishikim i procedurave të sigurimit të cilësisë ose intervistim i personelit të sigurimit të cilësisë për të përcaktuar se çfarë aktivitetesh ata kryejnë.
-Rishikim i raporteve të strukturës së sigurimit të cilësisë për të përcaktuar se çfarë ata observojnë (nëse grupi i projektit është duke ndjekur planin e menaxhimit të projektit, etj) ndaj kujt raportohen çështjet.
+							<tx l="spa" name="Revise la política y / o el plan de aseguramiento de la calidad para determinar qué grupo o individuos son responsables de realizar las actividades de aseguramiento de la calidad para el proyecto (por ejemplo, el grupo de aseguramiento de la calidad debe revisar los documentos para asegurarse de que reflejen con precisión los requisitos, revisar los manuales de usuario para asegurarse de que son legibles y no contienen elementos o pasos faltantes).
+Revise los procedimientos de aseguramiento de la calidad o entreviste al personal de aseguramiento de la calidad para determinar qué actividades realizan (observar las revisiones de pares, participar en el diseño u otras revisiones, etc.).
+Revise los informes de la organización de garantía de la calidad para determinar lo que observaron (si el equipo del proyecto está siguiendo su plan de gestión del proyecto, el SDLC adoptado y las revisiones asociadas, etc.) a quién se informa de los problemas.
+"/>
+							<tx l="fre" name="Examiner la politique et / ou le plan d'assurance de la qualité pour déterminer quel groupe ou quelles personnes sont responsables de la conduite des activités d'assurance de la qualité pour le projet (par exemple, le groupe d'assurance qualité devrait examiner les documents pour s'assurer qu'ils reflètent fidèlement les exigences, examiner les manuels d'utilisation pour s'assurer qu'ils sont lisibles et ne contiennent pas d'éléments ou d'étapes manquants).
+Examiner les procédures d'assurance de la qualité ou interroger le personnel chargé de l'assurance de la qualité pour déterminer les activités qu'ils mènent (observer les examens par les pairs, participer aux examens de conception ou autres, etc.).
+Examiner les rapports de l'organisation d'assurance de la qualité pour déterminer ce qu'ils ont observé (si l'équipe de projet suit son plan de gestion de projet, et le SDLC adopté et les examens associés, etc.) à qui les problèmes sont-ils signalés.
+"/>
+							<tx l="ara" name="قم بمراجعة سياسة ضمان الجودة و / أو الخطة لتحديد المجموعة أو الأفراد المسؤولين عن إجراء أنشطة ضمان الجودة للمشروع (على سبيل المثال ، يجب على مجموعة ضمان الجودة مراجعة المستندات للتأكد من أنها تعكس المتطلبات بدقة ، ومراجعة أدلة المستخدم للتأكد من ذلك. مقروءة ولا تحتوي على عناصر أو خطوات مفقودة).
+قم بمراجعة إجراءات ضمان الجودة أو مقابلة موظفي ضمان الجودة لتحديد الأنشطة التي يقومون بها (مراقبة مراجعات الأقران ؛ الجلوس في التصميم أو المراجعات الأخرى ، وما إلى ذلك).
+مراجعة التقارير من منظمة ضمان الجودة لتحديد ما لاحظوه (ما إذا كان فريق المشروع يتبع خطة إدارة المشروع الخاصة بهم ، و SDLC المعتمد والمراجعات ذات الصلة وما إلى ذلك) الذين تم الإبلاغ عن المشكلات لهم.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3166,65 +3341,95 @@ Rishikim i raporteve të strukturës së sigurimit të cilësisë për të përc
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Plan for and conduct testing on IT systems"/>
-					<tx l="fre" name="Plani dhe testimi i sistemeve të TI"/>
+					<tx l="spa" name="Planificar y realizar pruebas en sistemas de TIs"/>
+					<tx l="fre" name="Planifier et réaliser des tests sur les systèmes informatiques"/>
+					<tx l="ara" name="تخطيط وإجراء الاختبارات على أنظمة تكنولوجيا المعلومات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organization conducts test on IT systems and based on the results accepts or rejects the system.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización realiza pruebas en los sistemas de TI y, en función de los resultados, acepta o rechaza el sistema.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation effectue des tests sur les systèmes informatiques et, en fonction des résultats, accepte ou rejette le système.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تجري المنظمة اختبارًا على أنظمة تكنولوجيا المعلومات وبناءً على النتائج تقبل النظام أو ترفضه.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Quality Assurance &amp; Testing">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization ensures that IT projects under development or acquisition meet their quality goals."/>
-							<tx l="fre" name="Vlerësimi sesi organizata siguron se projektet IT arrijnë qëllimet e tyre  nëpërmjet zhvillimit ose blerjes"/>
+							<tx l="spa" name="Evalúe cómo la organización se asegura de que los proyectos de TI en desarrollo o adquisición cumplan sus objetivos de calidad."/>
+							<tx l="fre" name="Évaluer comment l'organisation s'assure que les projets informatiques en cours de développement ou d'acquisition atteignent leurs objectifs de qualité."/>
+							<tx l="ara" name="تقييم كيف تضمن المنظمة أن مشاريع تكنولوجيا المعلومات قيد التطوير أو الاستحواذ تفي بأهداف الجودة الخاصة بها."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How does the organization plan for and conduct testing on IT systems?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization conducts test on IT systems and based on the results accepts or rejects the system"/>
-							<tx l="fre" name="Organizata kryen testimet mbi sistemet IT dhe bazuar mbi rezultatet pranon ose refuzon sistemin"/>
+							<tx l="spa" name="La organización realiza pruebas en los sistemas de TI y, en función de los resultados, acepta o rechaza el sistema"/>
+							<tx l="fre" name="L'organisation effectue des tests sur les systèmes informatiques et, en fonction des résultats, accepte ou rejette le système"/>
+							<tx l="ara" name="تجري المنظمة اختبارًا على أنظمة تكنولوجيا المعلومات وبناءً على النتائج تقبل النظام أو ترفضه"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Test plan 
-
-Test schedule 
-
-Test results
-
-Accept or reject criteria
-
+							<tx l="eng" name="Test plan.
+Test schedule.
+Test results.
+Accept or reject criteria.
 "/>
-							<tx l="fre" name="Plan testimi
-
-Program testimi
-
-Rezultatet e testimit
-
-Kriteret e pranimit ose refuzimit
+							<tx l="spa" name="TPlan de prueba.
+Calendario de pruebas.
+Resultados de la prueba.
+Aceptar o rechazar criterios.
+"/>
+							<tx l="fre" name="Plan de test.
+Calendrier des tests.
+Résultats de test.
+Acceptez ou rejetez les critères.
+"/>
+							<tx l="ara" name="خطة اختبار.
+جدول الاختبار.
+نتائج الإختبار.
+قبول أو رفض المعايير.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review test plans.
-
 Compare project cost and schedule baselines with project status reports to assess deviations, if any.
-
 Interview project manager / review reports to determine whether appropriate corrective action was taken for major deviations.
-
 Interview project management team and review minutes of meetings with contractor to assess the frequency and effectiveness of monitoring the outsourced project activities.
-
-Review contractor SLA or contract to ensure that they are following the terms of the contract, for example look for contractors conducting periodic reviews, providing status reports, tracking action items, conducting risk management activities in accordance to the contract. Interview contract officer at the organizations to determine how they manage the contractor if SLAs are not available
+Review contractor SLA or contract to ensure that they are following the terms of the contract, for example look for contractors conducting periodic reviews, providing status reports, tracking action items, conducting risk management activities in accordance to the contract. 
+Interview contract officer at the organizations to determine how they manage the contractor if SLAs are not available.
 "/>
-							<tx l="fre" name="Rishikim i planeve të testimit.
-Krahasimi i kostove të projektit dhe programin me raportet e statusit të projektit për të vlerësuar shmangiet, nëse ka.
-Intervista me menaxherët e projektit/ rishikim i raporteve për të përcaktuar nëse janë ndërmarrë veprimet e përshtatshme korrigjuese për shmangiet e mëdha.
-Intervistim i grupit të menaxhimit të projektit dhe rishikim i procesverbaleve të mbledhjeve me kontraktorët për të vlerësuar frekuencën dhe efektivitetin e monitorimit të aktiviteteve të projektit të furnizuar.
-Rishikim i SLA-s ose kontratë tjetër për tu siguruar se janë duke u ndjekur kushtet e kontratës, për shembull shihni për rishikime periodike të kontraktorëve, dorëzimi i raporteve të statusit, gjurmimi i artikujve të veprimit, kryerja e aktiviteteve të menaxhimit në përputhje me kontratën. Intervista me punonjësit e hartimit të kontratë në organizatë për të përcaktuar sesi ata menaxhojnë kontraktorin nëse nuk ekziston SLA.
+							<tx l="spa" name="Revise los planes de prueba.
+Compare los costos del proyecto y las líneas de base del cronograma con los informes de estado del proyecto para evaluar las desviaciones, si las hubiera.
+Entreviste al gerente de proyecto / revise los informes para determinar si se tomaron las medidas correctivas adecuadas para las desviaciones importantes.
+Entreviste al equipo de gestión del proyecto y revise las actas de las reuniones con el contratista para evaluar la frecuencia y eficacia del seguimiento de las actividades del proyecto subcontratado.
+Revise el contrato o el acuerdo de nivel de servicio del contratista para asegurarse de que están siguiendo los términos del contrato, por ejemplo, busque contratistas que realicen revisiones periódicas, proporcionen informes de estado, realicen un seguimiento de los elementos de acción, realicen actividades de gestión de riesgos de acuerdo con el contrato.
+Entreviste al oficial de contratos de las organizaciones para determinar cómo administran al contratista si los acuerdos de nivel de servicio no están disponibles.
+"/>
+							<tx l="fre" name="Passez en revue les plans de test.
+Comparez le coût du projet et planifiez les références avec les rapports d'état du projet pour évaluer les écarts, le cas échéant.
+Interviewer le gestionnaire de projet / examiner les rapports pour déterminer si des mesures correctives appropriées ont été prises pour les écarts majeurs.
+Interviewer l'équipe de gestion de projet et examiner les procès-verbaux des réunions avec le contractant pour évaluer la fréquence et l'efficacité du suivi des activités de projet externalisées.
+Examiner l'accord de niveau de service ou le contrat de l'entrepreneur pour s'assurer qu'il respecte les conditions du contrat, par exemple rechercher des entrepreneurs qui effectuent des examens périodiques, fournissent des rapports d'étape, suivent les mesures à prendre, mènent des activités de gestion des risques conformément au contrat.
+Interviewer l'agent contractuel des organisations pour déterminer comment ils gèrent l'entrepreneur si les accords de niveau de service ne sont pas disponibles.
+"/>
+							<tx l="ara" name="مراجعة خطط الاختبار.
+قارن تكلفة المشروع وجدول خطوط الأساس بتقارير حالة المشروع لتقييم الانحرافات ، إن وجدت.
+مقابلة مدير المشروع / تقارير المراجعة لتحديد ما إذا كان قد تم اتخاذ الإجراء التصحيحي المناسب للانحرافات الرئيسية.
+مقابلة فريق إدارة المشروع ومراجعة محاضر الاجتماعات مع المقاول لتقييم وتيرة وفعالية مراقبة أنشطة المشروع الخارجية.
+قم بمراجعة اتفاقية مستوى الخدمة أو العقد الخاص بالمقاول للتأكد من أنهم يتبعون شروط العقد ، على سبيل المثال ، ابحث عن المقاولين الذين يقومون بإجراء مراجعات دورية ، وتقديم تقارير الحالة ، وتتبع بنود الإجراءات ، وإجراء أنشطة إدارة المخاطر وفقًا للعقد
+مقابلة موظف العقود في المنظمات لتحديد كيفية إدارتهم للمقاول في حالة عدم توفر اتفاقيات مستوى الخدمة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3250,75 +3455,108 @@ Rishikim i SLA-s ose kontratë tjetër për tu siguruar se janë duke u ndjekur 
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="Solicitation"/>
-				<tx l="fre" name="Dokumentimi i kërkesave"/>
+				<tx l="spa" name="Solicitación"/>
+				<tx l="fre" name="Sollicitation"/>
+				<tx l="ara" name="الإغراء"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Solicitation is the process of documenting the requirements of the business and collecting other references materials that will assist the vendor in providing the IT solution. It includes generating the solicitation package and putting it out for bid, getting proposals and making a selection among the various vendors.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La solicitud es el proceso de documentar los requisitos de la empresa y recopilar otros materiales de referencia que ayudarán al proveedor a proporcionar la solución de TI. Incluye generar el paquete de licitación y presentarlo a licitación, obtener propuestas y hacer una selección entre los distintos proveedores.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La sollicitation est le processus de documentation des exigences de l'entreprise et de collecte d'autres documents de référence qui aideront le fournisseur à fournir la solution informatique. Cela comprend la génération du dossier de sollicitation et sa mise en concurrence, l'obtention de propositions et la sélection parmi les différents fournisseurs.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>طلب تقديم العروض هو عملية توثيق متطلبات العمل وجمع المواد المرجعية الأخرى التي ستساعد البائع في توفير حل تكنولوجيا المعلومات. يتضمن إنشاء حزمة الالتماس وطرحها للمزايدة والحصول على العروض والاختيار بين مختلف البائعين.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Plan or procedure of solicitation activities"/>
-					<tx l="fre" name=" Plani ose procedura e dokumentimit të kërkesave"/>
+					<tx l="spa" name="Plan o procedimiento de actividades de licitación"/>
+					<tx l="fre" name="Plan ou procédure des activités de sollicitation"/>
+					<tx l="ara" name="خطة أو إجراءات أنشطة الالتماس"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Solicitation activities including vendor selection are conducted in accordance with the organization’s solicitation plan.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Las actividades de solicitud, incluida la selección de proveedores, se llevan a cabo de acuerdo con el plan de solicitud de la organización.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les activités de sollicitation, y compris la sélection des fournisseurs, sont menées conformément au plan de sollicitation de l’organisation.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يتم إجراء أنشطة طلب تقديم العروض بما في ذلك اختيار البائعين وفقًا لخطة طلب تقديم العروض الخاصة بالمنظمة.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Solicitation">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization ensures that solicitation activities(set of tasks like firming up the need document, framing RFP, evaluating proposals, conducting pre-bid clarifications, designing and floating tender, evaluation, etc leading up to the award contract) are conducted in accordance with their adopted solicitation plan or procedure."/>
-							<tx l="fre" name="Vlerësimi sesi organizata siguron se aktivitetet e dokumentimit të kërkesave (grup detyrash si dokumentimi i nevojave, inkuadrim i kërkesave për propozime (KPP), vlerësimi i propozimeve, kryerja e qartësimeve përpara ofertës, dizenjimi dhe hedhja e ofertës, vlerësimi, etj. që sjellin fitimin e një kontrate) kryhen në përputhje me planin e dokumentimit të kërkesave ose procedurave të ngjashme. "/>
+							<tx l="spa" name="Evaluar cómo la organización asegura que las actividades de solicitud (conjunto de tareas tales como confirmar el documento de requisitos, desarrollar la solicitud de propuestas, evaluar las propuestas, realizar aclaraciones previas al lanzamiento de la oferta, diseño y difusión de la oferta, evaluación, etc. adjudicación del contrato) se llevan a cabo de acuerdo con su plan o procedimiento de licitación adoptado."/>
+							<tx l="fre" name="Évaluer la manière dont l'organisation s'assure que les activités de sollicitation (ensemble de tâches telles que la confirmation du document de besoin, l'élaboration de la demande de propositions, l'évaluation des propositions, la réalisation de clarifications préalables à l'offre, la conception et la diffusion de l'offre, l'évaluation, etc. menant au contrat d'attribution) sont menées conformément avec leur plan ou procédure de sollicitation adopté."/>
+							<tx l="ara" name="تقييم الكيفية التي تضمن بها المنظمة أن أنشطة الالتماس (مجموعة من المهام مثل تأكيد وثيقة الحاجة ، وتأطير طلب تقديم العروض ، وتقييم العروض ، وإجراء توضيحات ما قبل العطاء ، وتصميم العطاءات العائمة ، والتقييم ، وما إلى ذلك المؤدية إلى عقد الترسية) يتم إجراؤها وفقًا مع خطة أو إجراءات الالتماس المعتمدة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>What is the plan or procedure for the conduct of solicitation activities?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Solicitation activities including vendor selection are conducted in accordance with the organization’s solicitation plan."/>
-							<tx l="fre" name="Aktivitetet e dokumentimit të kërkesave përfshirë përzgjedhjen e furnizuesve, kryhen në përputhje me planin e dokumentimit të kërkesave të organizatës"/>
+							<tx l="spa" name="Las actividades de solicitud, incluida la selección de proveedores, se llevan a cabo de acuerdo con el plan de solicitud de la organización."/>
+							<tx l="fre" name="Les activités de sollicitation, y compris la sélection des fournisseurs, sont menées conformément au plan de sollicitation de l’organisation."/>
+							<tx l="ara" name="يتم إجراء أنشطة طلب تقديم العروض بما في ذلك اختيار البائعين وفقًا لخطة طلب تقديم العروض الخاصة بالمنظمة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Solicitation plan or procedure/
-
-Solicitation package
-
-User review of requirements
-
-User review of solicitation package
-
+							<tx l="eng" name="Solicitation plan or procedure / Solicitation package.
+User review of requirements.
+User review of solicitation package.
 Applicable laws that govern the conduct of solicitation.
 "/>
-							<tx l="fre" name="Plani ose procedura e dokumentimit të kërkesave
-
-Paketa e dokumentimit të kërkesave
-
-Rishikim i kërkesave prej përdoruesve
-
-Rishikim i paketës së kërkesave të dokumentuara prej përdoruesve
-
-Ligjet në fuqi që udhëheqin kryerjen e dokumentimit të kërkesave
+							<tx l="spa" name="Plan de licitación o procedimiento / paquete de licitación.
+Revisión de requisitos por parte del usuario.
+Revisión por parte del usuario del paquete de solicitud.
+Leyes aplicables que rigen la realización de solicitudes.
+"/>
+							<tx l="fre" name="Plan ou procédure de sollicitation / Dossier de sollicitation.
+Examen des exigences par les utilisateurs.
+Examen par les utilisateurs du dossier de sollicitation.
+Lois applicables qui régissent la conduite de la sollicitation.
+"/>
+							<tx l="ara" name="خطة أو إجراء الالتماس / حزمة الالتماس.
+مراجعة المستخدم للمتطلبات.
+مراجعة المستخدم لحزمة الالتماس.
+القوانين المعمول بها التي تحكم سلوك الالتماس.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the solicitation plan to ensure it covers areas such as user involvement, getting bids on a competitive basis, conducting market research prior to contract on areas as applicable, and that vendor selection is based on objective criteria.
-
 Interview key contracting personnel to assess how they ensure that the solicitation package is complete (for example by getting users, stakeholders, experts as appropriate to review it).
-
 Interview users or business owners to ensure that they were consulted during the generation of requirements or approved the technical requirements of the solicitation and / or the final bid package.
-
 Interview contracting officer(s) to assess how they ensure that the solicitation process follows applicable laws and regulations.
 "/>
-							<tx l="fre" name="Rishikim i planit të dokumentimit të kërkesave për tu siguruar se ai mbulon fusha si përfshirja e përdoruesit, vendosje e ofertave në baza konkurence, kryerja e kërkimeve në treg përpara kontratës, dhe se përzgjedhja e furnizuesit bazohet në kritere objektivë.
-Intervista me personelin kryesor të kontratës për të vlerësuar sesi ata sigurojnë se paketa e dokumentimit të kërkesave është e plotë (për shembull duke marrë përdorues, palë të interesuara, ekspertë për rishikim të saj).
-Intervisa me përdorues ose zotërues të biznesit për tu siguruar se ata janë këshilluar gjatë gjenerimit të kërkesave ose që kanë aprovuar kërkesat teknike të listës së dokumentuar dhe/ose paketës në tender.
-Intervista me punonjësit e hartimit të kontratës për të vlerësuar sesi ata sigurojnë se procesi i dokumentimit të kërkesave ndjek ligjet dhe rregullat në fuqi.
+							<tx l="spa" name="Revise el plan de licitación para asegurarse de que cubra áreas como la participación del usuario, la obtención de ofertas sobre una base competitiva, la realización de estudios de mercado antes de contratar las áreas según corresponda y que la selección de proveedores se base en criterios objetivos.
+Entreviste al personal de contratación clave para evaluar cómo se aseguran de que el paquete de licitación esté completo (por ejemplo, haciendo que los usuarios, las partes interesadas y los expertos, según corresponda, lo revisen).
+Entreviste a los usuarios o propietarios de negocios para asegurarse de que fueron consultados durante la generación de requisitos o aprobaron los requisitos técnicos de la licitación y / o el paquete de oferta final.
+Entreviste a los oficiales de contratación para evaluar cómo se aseguran de que el proceso de solicitud siga las leyes y regulaciones aplicables.
+"/>
+							<tx l="fre" name="Examiner le plan de sollicitation pour s'assurer qu'il couvre des domaines tels que l'implication des utilisateurs, obtenir des offres sur une base concurrentielle, effectuer des études de marché avant le contrat sur des domaines, le cas échéant, et que la sélection des fournisseurs est basée sur des critères objectifs.
+Interrogez le personnel clé de la passation de marchés pour évaluer comment ils s'assurent que la trousse de sollicitation est complète (par exemple en demandant aux utilisateurs, aux intervenants et aux experts, le cas échéant, de l'examiner).
+Interroger les utilisateurs ou les propriétaires d'entreprise pour s'assurer qu'ils ont été consultés pendant la génération des exigences ou ont approuvé les exigences techniques de la demande de soumissions et / ou de l'offre finale.
+Interviewer les agents de négociation des contrats pour évaluer comment ils s'assurent que le processus de sollicitation respecte les lois et règlements applicables.
+"/>
+							<tx l="ara" name="قم بمراجعة خطة الالتماس للتأكد من أنها تغطي مجالات مثل مشاركة المستخدم ، والحصول على العطاءات على أساس تنافسي ، وإجراء أبحاث السوق قبل التعاقد في المجالات حسب الاقتضاء ، وأن اختيار البائعين يعتمد على معايير موضوعية.
+مقابلة الموظفين المتعاقدين الرئيسيين لتقييم كيفية التأكد من اكتمال حزمة الالتماس (على سبيل المثال عن طريق الحصول على المستخدمين وأصحاب المصلحة والخبراء حسب الاقتضاء لمراجعتها).
+مقابلة المستخدمين أو أصحاب الأعمال للتأكد من استشارتهم أثناء إنشاء المتطلبات أو الموافقة على المتطلبات الفنية للالتماس و / أو حزمة العطاء النهائي.
+مقابلة مسؤول (موظفي) التعاقد لتقييم كيفية التأكد من أن عملية طلب تقديم العروض تتبع القوانين واللوائح المعمول بها.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3343,50 +3581,75 @@ Intervista me punonjësit e hartimit të kontratës për të vlerësuar sesi ata
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Selecting a vendor"/>
-					<tx l="fre" name="Përzgjedhja e Operatorit Ekonomik"/>
+					<tx l="spa" name="Seleccionar un proveedor"/>
+					<tx l="fre" name="Sélection d'un fournisseur"/>
+					<tx l="ara" name="اختيار البائع"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organization uses objective and published criteria for vendor selection.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización utiliza criterios objetivos y publicados para la selección de proveedores.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation utilise des critères objectifs et publiés pour la sélection des fournisseurs.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تستخدم المنظمة معايير موضوعية ومنشورة لاختيار البائعين.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Solicitation">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization ensures that solicitation activities(set of tasks like firming up the need document, framing RFP, evaluating proposals, conducting pre-bid clarifications, designing and floating tender, evaluation, etc leading up to the award contract) are conducted in accordance with their adopted solicitation plan or procedure."/>
-							<tx l="fre" name="Vlerësimi sesi organizata siguron se aktivitetet e dokumentimit të kërkesave (grup detyrash si dokumentimi i nevojave, inkuadrim i kërkesave për propozime (KPP), vlerësimi i propozimeve, kryerja e qartësimeve përpara ofertës, dizenjimi dhe hedhja e ofertës, vlerësimi, etj. që sjellin fitimin e një kontrate) kryhen në përputhje me planin e dokumentimit të kërkesave ose procedurave të ngjashme. "/>
+							<tx l="spa" name="Evaluar cómo la organización asegura que las actividades de solicitud (conjunto de tareas tales como confirmar el documento de requisitos, desarrollar la solicitud de propuestas, evaluar las propuestas, realizar aclaraciones previas al lanzamiento de la oferta, diseño y difusión de la oferta, evaluación, etc. adjudicación del contrato) se llevan a cabo de acuerdo con su plan o procedimiento de licitación adoptado."/>
+							<tx l="fre" name="Évaluer la manière dont l'organisation s'assure que les activités de sollicitation (ensemble de tâches telles que la confirmation du document de besoin, l'élaboration de la demande de propositions, l'évaluation des propositions, la réalisation de clarifications préalables à l'offre, la conception et la diffusion de l'offre, l'évaluation, etc. menant au contrat d'attribution) sont menées conformément avec leur plan ou procédure de sollicitation adopté."/>
+							<tx l="ara" name="تقييم الكيفية التي تضمن بها المنظمة أن أنشطة الالتماس (مجموعة من المهام مثل تأكيد وثيقة الحاجة ، وتأطير طلب تقديم العروض ، وتقييم العروض ، وإجراء توضيحات ما قبل العطاء ، وتصميم العطاءات العائمة ، والتقييم ، وما إلى ذلك المؤدية إلى عقد الترسية) يتم إجراؤها وفقًا مع خطة أو إجراءات الالتماس المعتمدة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>What criteria does the organization use in selecting a vendor?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization uses objective and published criteria for vendor selection for each"/>
-							<tx l="fre" name="Organizata përdor kritere objektivë dhe të publikuar për përzgjedhjen e çdo furnizuesi"/>
+							<tx l="spa" name="La organización utiliza criterios objetivos y publicados para la selección de proveedores para cada"/>
+							<tx l="fre" name="L'organisation utilise des critères objectifs et publiés pour la sélection des fournisseurs pour chaque"/>
+							<tx l="ara" name="تستخدم المنظمة معايير موضوعية ومنشورة لاختيار البائعين لكل منها"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Vendor selection criteria
-
+							<tx l="eng" name="Vendor selection criteria.
 Vendors scoring matrix or equivalent.
 "/>
-							<tx l="fre" name="Kriteret e përzgjedhjes së furnizuesve
-
-Matrica e pikëzimit (vlerësimit) të furnizuesve ose ekuivalente me të
+							<tx l="spa" name="Criterios de selección de proveedores.
+Matriz de puntuación de proveedores o equivalente.
+"/>
+							<tx l="fre" name="Critères de sélection des fournisseurs.
+Matrice de notation des fournisseurs ou équivalent.
+"/>
+							<tx l="ara" name="معايير اختيار البائعين.
+مصفوفة سجل البائعين أو ما يعادلها.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the vendor selection criteria to ensure that it reflects the intent of the solicitation (for example, on a software contract, vendor selection should not include parameters not critical to the organization).
-
 Interview key stakeholders to assess if they agree with the selection criteria.
-
 Review vendor scoring matrix or equivalent to confirm it is consistent with the selection criteria.
 "/>
-							<tx l="fre" name="Rishikim i kritereve të përzgjedhjes së furnizuesve për tu siguruar se ato reflektojnë qëllimin e kërkesave të dokumentuara (për shembull, në një kontratë programi, përzgjedhja e furnizuesit nuk duhet të përmbajë parametra jo kritikë për organizatën).
-Intervista me palët kryesore të intereuara për të vlerësuar nëse ata janë dakord me kriteret e përzgjedhura.
-Rishikim i matricës së pikëzimit të furnizuesve ose element tjetër ekuivalent për të konfirmuara se është në përputhje me kriteret e përzgjedhur.
+							<tx l="spa" name="Revise los criterios de selección de proveedores para asegurarse de que reflejen la intención de la solicitud (por ejemplo, en un contrato de software, la selección de proveedores no debe incluir parámetros que no sean críticos para la organización).
+Entreviste a las partes interesadas clave para evaluar si están de acuerdo con los criterios de selección.
+Revise la matriz de puntuación del proveedor o equivalente para confirmar que sea coherente con los criterios de selección.
+"/>
+							<tx l="fre" name="Passez en revue les critères de sélection des fournisseurs pour vous assurer qu'ils reflètent l'intention de la sollicitation (par exemple, dans le cas d'un contrat logiciel, la sélection des fournisseurs ne doit pas inclure de paramètres non critiques pour l'organisation).
+Interrogez les principales parties prenantes pour déterminer si elles sont d'accord avec les critères de sélection.
+Passez en revue la matrice de notation du fournisseur ou l'équivalent pour confirmer qu'elle est conforme aux critères de sélection.
+"/>
+							<tx l="ara" name="راجع معايير اختيار البائع للتأكد من أنها تعكس الغرض من الالتماس (على سبيل المثال ، في عقد برنامج ، لا ينبغي أن يتضمن اختيار البائع معلمات غير مهمة للمؤسسة).
+مقابلة أصحاب المصلحة الرئيسيين لتقييم ما إذا كانوا يتفقون مع معايير الاختيار.
+قم بمراجعة مصفوفة نقاط البائع أو ما يعادلها للتأكد من توافقها مع معايير الاختيار.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3412,60 +3675,104 @@ Rishikim i matricës së pikëzimit të furnizuesve ose element tjetër ekuivale
 		<Area nr="05">
 			<title>
 				<tx l="eng" name="Configuration Management"/>
-				<tx l="fre" name="Menaxhimi i konfigurimit"/>
+				<tx l="spa" name="Gestión de la configuración"/>
+				<tx l="fre" name="Gestion de la configuration"/>
+				<tx l="ara" name="إدارة التكوين"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Configuration Management is used to ensure that the integrity of documents, software and other descriptive or support materials that are part of the system are maintained. Changes to these materials are managed and baselines (or versions) are established such that the organization is able to revert back to known and tested versions as needed.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La Gestión de la configuración se utiliza para garantizar que se mantenga la integridad de los documentos, el software y otros materiales descriptivos o de apoyo que forman parte del sistema. Los cambios en estos materiales se gestionan y se establecen líneas de base (o versiones) de modo que la organización pueda volver a las versiones conocidas y probadas según sea necesario.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La gestion de la configuration est utilisée pour garantir que l'intégrité des documents, logiciels et autres documents descriptifs ou de support qui font partie du système est maintenue. Les modifications apportées à ces matériaux sont gérées et les références (ou versions) sont établies de sorte que l'organisation soit en mesure de revenir aux versions connues et testées si nécessaire.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تُستخدم إدارة التكوين لضمان الحفاظ على سلامة المستندات والبرامج والمواد الوصفية أو الداعمة الأخرى التي تشكل جزءًا من النظام. تتم إدارة التغييرات على هذه المواد ويتم إنشاء خطوط الأساس (أو الإصدارات) بحيث تكون المنظمة قادرة على العودة إلى الإصدارات المعروفة والمختبرة حسب الحاجة.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Policy for configuration management"/>
-					<tx l="fre" name="Politika për menaxhimin e konfigurimit"/>
+					<tx l="spa" name="Política para la gestión de la configuración"/>
+					<tx l="fre" name="Politique de gestion de la configuration"/>
+					<tx l="ara" name="سياسة إدارة التكوين"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Configuration management activities are conducted according to the organizational policy or procedure.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Las actividades de gestión de la configuración se llevan a cabo de acuerdo con la política o el procedimiento de la organización.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les activités de gestion de la configuration sont menées conformément à la politique ou à la procédure organisationnelle.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يتم إجراء أنشطة إدارة التكوين وفقًا للسياسة أو الإجراء التنظيمي.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Configuration Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization manages configurations of work products related to development and acquisition."/>
-							<tx l="fre" name="Vlerësimi sesi organizata menaxhon konfigurimin e produkteve të punës të lidhura me zhvillimin dhe blerjen"/>
+							<tx l="spa" name="Evaluar cómo la organización gestiona las configuraciones de los productos de trabajo relacionados con el desarrollo y la adquisición."/>
+							<tx l="fre" name="Évaluer la façon dont l'organisation gère les configurations des produits de travail liés au développement et à l'acquisition."/>
+							<tx l="ara" name="تقييم كيفية إدارة المنظمة لتكوينات منتجات العمل المتعلقة بالتطوير والاستحواذ."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>What policy does the organization uses for configuration management?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Configuration management activities are conducted according to the organizational policy or procedure"/>
-							<tx l="fre" name="Aktivitetet e menaxhimit të konfigurimit kryhen në përputhje me politikat ose procedurat organizacionale"/>
+							<tx l="spa" name="Las actividades de gestión de la configuración se llevan a cabo de acuerdo con la política o el procedimiento de la organización"/>
+							<tx l="fre" name="Les activités de gestion de la configuration sont menées conformément à la politique ou à la procédure organisationnelle"/>
+							<tx l="ara" name="يتم إجراء أنشطة إدارة التكوين وفقًا للسياسة أو الإجراء التنظيمي"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Configuration management policy or procedures or equivalent."/>
-							<tx l="fre" name="Politika ose procdura të menaxhimit të konfigurimit ose ekuivalente me to"/>
+							<tx l="spa" name="Política o procedimientos de gestión de la configuración o equivalentes."/>
+							<tx l="fre" name="Politique ou procédures de gestion de la configuration ou équivalent."/>
+							<tx l="ara" name="سياسة إدارة التكوين أو الإجراءات أو ما يعادلها."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the configuration management policy for adequacy by looking for (as an example):
-•	Scope of policy and mandate
-•	Definition of roles and responsibilities Required resources and tools
-•	Linkage to procedures
-•	Rules to deal with non compliance
-Interview personnel responsible for configuration management if there is no policy to assess how they ensure that their duties are uniformly carried out for the organization
+Scope of policy and mandate;
+Definition of roles and responsibilities 
+Required resources and tools;
+Linkage to procedures;
+Rules to deal with non compliance;
+Interview personnel responsible for configuration management if there is no policy to assess how they ensure that their duties are uniformly carried out for the organization.
 "/>
-							<tx l="fre" name="Rishikim i politikave të menaxhimit të konfigurimit mbi përshtatshmërinë, duke kontrolluar (si shembull):
-Qëllimin dhe mandatin e politikave
-Përcaktimin e detyrave dhe përgjegjësive
-Burimet dhe mjetet e nevojshme
-Lidhja me procedurat
-Rregullat për trajtimin e mospërputhshmërive
-Intervista me personelin përgjegjës për menaxhimin e konfigurimit nëse nuk ekzistojnë politika, për të vlerësuar sesi ata sigurojnë se detyrat e tyre kryhen njëtrajtësisht në emër të organizatës.
+							<tx l="spa" name="Revise la política de administración de la configuración para verificar su idoneidad buscando (como ejemplo):
+Alcance de la política y mandato;
+Definición de roles y responsabilidades;
+Recursos y herramientas necesarios;
+Vinculación con los procedimientos;
+Reglas para hacer frente al incumplimiento;
+Entrevistar al personal responsable de la gestión de la configuración si no existe una política para evaluar cómo se aseguran de que sus funciones se lleven a cabo de manera uniforme para la organización.
 "/>
+							<tx l="fre" name="Vérifiez si la politique de gestion de la configuration est adéquate en recherchant (à titre d'exemple):
+Portée de la politique et mandat;
+Définition des rôles et des responsabilités;
+Ressources et outils nécessaires;
+Lien avec les procédures;
+Règles pour traiter la non-conformité;
+Interrogez le personnel responsable de la gestion de la configuration s'il n'y a pas de politique pour évaluer comment ils s'assurent que leurs tâches sont exécutées uniformément pour l'organisation.
+"/>
+							<tx l="ara" name="راجع سياسة إدارة التكوين للتأكد من كفاءتها من خلال البحث عن (كمثال):
+نطاق السياسة والولاية ؛
+تحديد الأدوار والمسؤوليات ؛
+الموارد والأدوات المطلوبة ؛
+الارتباط بالإجراءات ؛
+قواعد التعامل مع عدم الامتثال ؛
+مقابلة الموظفين المسؤولين عن إدارة التكوين إذا لم تكن هناك سياسة لتقييم كيفية ضمان تنفيذ واجباتهم بشكل موحد للمنظمة."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -3489,50 +3796,75 @@ Intervista me personelin përgjegjës për menaxhimin e konfigurimit nëse nuk e
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Responsibility for authorizing changes"/>
-					<tx l="fre" name="Përgjegjësia për autorizimin e ndryshimeve"/>
+					<tx l="spa" name="Responsabilidad de autorizar cambios"/>
+					<tx l="fre" name="Responsabilité d'autoriser les modifications"/>
+					<tx l="ara" name="مسؤولية الإذن بالتغييرات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Only authorized and approved changes should be introduced into the production environment.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Solo se deben introducir cambios autorizados y aprobados en el entorno de producción.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Seules les modifications autorisées et approuvées doivent être introduites dans l'environnement de production.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يجب إدخال التغييرات المصرح بها والمعتمدة فقط في بيئة الإنتاج.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Configuration Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization manages configurations of work products related to development and acquisition."/>
-							<tx l="fre" name="Vlerësimi sesi organizata menaxhon konfigurimin e produkteve të punës të lidhura me zhvillimin dhe blerjen"/>
+							<tx l="spa" name="Evaluar cómo la organización gestiona las configuraciones de los productos de trabajo relacionados con el desarrollo y la adquisición."/>
+							<tx l="fre" name="Évaluer la façon dont l'organisation gère les configurations des produits de travail liés au développement et à l'acquisition."/>
+							<tx l="ara" name="تقييم كيفية إدارة المنظمة لتكوينات منتجات العمل المتعلقة بالتطوير والاستحواذ."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>What group or individual(s) are responsible for authorizing changes and for final installation into the production environment</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Only authorized and approved changes should be introduced into the production environment"/>
-							<tx l="fre" name="Vetëm ndryshimet e autorizuara dhe të aprovuara do të prezantohen në mjedisin e prodhimit"/>
+							<tx l="spa" name="Solo se deben introducir cambios autorizados y aprobados en el entorno de producción."/>
+							<tx l="fre" name="Seules les modifications autorisées et approuvées doivent être introduites dans l'environnement de production"/>
+							<tx l="ara" name="يجب إدخال التغييرات المصرح بها والمعتمدة فقط في بيئة الإنتاج"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Group or individual responsible for authorizing changes
-
-Process for approval and introducing approved and tested changes to the production environment
+							<tx l="eng" name="Group or individual responsible for authorizing changes.
+Process for approval and introducing approved and tested changes to the production environment.
 "/>
-							<tx l="fre" name="Grup ose individ përgjegjës për autorizimin e ndryshimeve
-
-Procesi për aprovimin, prezantimi i ndryshimeve të aprovuara dhe të testuara në mjedisin e prodhimit 
+							<tx l="spa" name="GGrupo o individuo responsable de autorizar cambios.
+Proceso de aprobación e introducción de cambios aprobados y probados en el entorno de producción.
+"/>
+							<tx l="fre" name="Groupe ou individu responsable de l'autorisation des modifications.
+Processus d'approbation et introduction de modifications approuvées et testées dans l'environnement de production.
+"/>
+							<tx l="ara" name="مجموعة أو فرد مسؤول عن السماح بالتغييرات.
+عملية الموافقة وإدخال التغييرات المعتمدة والمختبرة على بيئة الإنتاج.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Ensure that a group exists that authorizes changes to the work product(s). The group could be the change control board or equivalent that reviews and approves changes.
-
 Interview personnel responsible for authorizing introducing new software to the production environment to ensure that software has been tested (including regression testing with other systems if needed) meets the acceptance criteria, has appropriate documentation, and includes user training (if appropriate) prior to being introduced for business.
-
 Interview personnel responsible for authorizing changes to the production system to determine how they control and prevent unauthorized changes to the system (for example, by controlling access to the production system, separating the production and development environments, etc.).
 "/>
-							<tx l="fre" name="Sigurimi se ekziston grupi për autorizimin e ndryshimeve ndaj produkteve të punës. Grupi mund të jetë bordi i kontrollit të ndryshimeve ose ekuivalent me të, i cili rishikon dhe aprovon ndryshimet.
-Intervista me personelin përgjegjës për autorizimin e prezantimit të programeve të reja në mjedisin e prodhimit për tu siguruara se programi është testuar (përfshi testimin regresiv me programet e tjera nëse është e nevojshme), plotëson kriteret e pranimit, ka dokumentacion të përshtatshëm, dhe përfshinë trajnim për përdoruesit (nëse është e nevojshme) përpara prezantimin në biznes.
-Intervista me personelin përgjegjës për autorizimin e ndryshimeve në sistemin e prodhimit për të verifikuara sesi ata kontrollojnë dhe parandalojnë ndryshimet e paatorizuara në sistem (për shembull, duke kontrolluar aksesin në sistemin e prodhimit, ndarjen e mjedisit të prodhimit nga mjedisi i zhvillimit, etj).
+							<tx l="spa" name="Asegúrese de que exista un grupo que autorice cambios en los productos de trabajo. El grupo podría ser la junta de control de cambios o equivalente que revisa y aprueba los cambios.
+Entrevistar al personal responsable de autorizar la introducción de nuevo software en el entorno de producción para asegurarse de que el software ha sido probado (incluidas las pruebas de regresión con otros sistemas si es necesario) cumple con los criterios de aceptación, tiene la documentación adecuada e incluye la capacitación del usuario (si corresponde) antes de su introducción en producción.
+Entrevistar al personal responsable de autorizar cambios en el sistema de producción para determinar cómo controlan y previenen cambios no autorizados en el sistema (por ejemplo, controlando el acceso al sistema de producción, separando los entornos de producción y desarrollo, etc.).
+"/>
+							<tx l="fre" name="Assurez-vous qu'il existe un groupe qui autorise les modifications apportées aux produits de travail. Le groupe peut être le conseil de contrôle des changements ou équivalent qui examine et approuve les changements.
+Interroger le personnel chargé d'autoriser l'introduction d'un nouveau logiciel dans l'environnement de production pour s'assurer que le logiciel a été testé (y compris les tests de régression avec d'autres systèmes si nécessaire) répond aux critères d'acceptation, dispose de la documentation appropriée et comprend la formation des utilisateurs (le cas échéant) avant d'être introduit dans l'environnement de production.
+Interroger le personnel chargé d'autoriser les modifications du système de production pour déterminer comment il contrôle et empêche les modifications non autorisées du système (par exemple, en contrôlant l'accès au système de production, en séparant les environnements de production et de développement, etc.).
+"/>
+							<tx l="ara" name="تأكد من وجود مجموعة تسمح بإجراء تغييرات على منتج (منتجات) العمل. يمكن أن تكون المجموعة مجلس التحكم في التغيير أو ما يعادله والذي يقوم بمراجعة التغييرات والموافقة عليها.
+مقابلة الموظفين المسؤولين عن التصريح بإدخال برنامج جديد إلى بيئة الإنتاج للتأكد من أن البرنامج قد تم اختباره (بما في ذلك اختبار الانحدار مع أنظمة أخرى إذا لزم الأمر) يفي بمعايير القبول ، ولديه الوثائق المناسبة ، ويتضمن تدريب المستخدم (إذا كان ذلك مناسبًا) قبل تقديمه للعمل.
+مقابلة الموظفين المسؤولين عن السماح بإجراء تغييرات على نظام الإنتاج لتحديد كيفية التحكم في التغييرات غير المصرح بها في النظام ومنعها (على سبيل المثال ، من خلال التحكم في الوصول إلى نظام الإنتاج ، وفصل بيئات الإنتاج والتطوير ، وما إلى ذلك).
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3559,110 +3891,167 @@ Intervista me personelin përgjegjës për autorizimin e ndryshimeve në sistemi
 	<Domain nr="04">
 		<title>
 			<tx l="eng" name="Outsourcing"/>
-			<tx l="fre" name="Marrjen e burimeve nga jashtë"/>
+			<tx l="spa" name="Subcontratación"/>
+			<tx l="fre" name="Externalisation"/>
+			<tx l="ara" name="الاستعانة بمصادر خارجية"/>
 		</title>
 		<Narrative>
 			<narr l="eng">
 				<ak>Outsourcing is the process of contracting an existing business process which an organization previously performed internally or a new business function to an outside entity. The contracted entity is responsible for providing the contractually required services for a fee. An agency may choose to outsource selected parts of their IT infrastructure, services or processes.</ak>
 			</narr>
+			<narr l="spa">
+				<ak>La subcontratación es el proceso de contratar un proceso comercial existente que una organización realizaba previamente internamente o una nueva función del negocio a una entidad externa. La entidad contratada es responsable de proporcionar los servicios requeridos contractualmente por una tarifa. Una agencia puede optar por subcontratar partes seleccionadas de su infraestructura, servicios o procesos de TI.</ak>
+			</narr>
+			<narr l="fre">
+				<ak>L'externalisation est le processus de sous-traitance d'un processus métier existant qu'une organisation exécutait auparavant en interne ou d'une nouvelle fonction de l'entreprise à une entité extérieure. L'entité contractante est responsable de fournir les services contractuellement requis moyennant des frais. Une agence peut choisir d'externaliser certaines parties de son infrastructure informatique, de ses services ou de ses processus.</ak>
+			</narr>
+			<narr l="ara">
+				<ak>الاستعانة بمصادر خارجية هي عملية التعاقد على عملية تجارية حالية قامت بها منظمة سابقًا داخليًا أو وظيفة عمل جديدة إلى كيان خارجي. الكيان المتعاقد عليه مسؤول عن تقديم الخدمات المطلوبة تعاقديًا مقابل رسوم. قد تختار وكالة الاستعانة بمصادر خارجية لأجزاء مختارة من البنية التحتية لتكنولوجيا المعلومات أو الخدمات أو العمليات.</ak>
+			</narr>
 		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Outsourcing Policy"/>
-				<tx l="fre" name="Politikat e marrjes së burimeve nga jashtë"/>
+				<tx l="spa" name="Política de subcontratación"/>
+				<tx l="fre" name="Politique d'externalisation"/>
+				<tx l="ara" name="سياسة الاستعانة بمصادر خارجية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Organizations need to have some policy which defines what functions can be outsourced and which functions must remain in-house. Typically organizations outsource routine IT operations, maintenance and even desktop hardware platforms.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>Las organizaciones deben tener alguna política que defina qué funciones pueden subcontratarse y qué funciones deben permanecer internas. Por lo general, las organizaciones subcontratan las operaciones de TI de rutina, el mantenimiento e incluso las plataformas de hardware de escritorio.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Les organisations doivent avoir une politique définissant quelles fonctions peuvent être externalisées et quelles fonctions doivent rester en interne. En règle générale, les organisations sous-traitent les opérations informatiques de routine, la maintenance et même les plates-formes matérielles de bureau.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تحتاج المنظمات إلى بعض السياسات التي تحدد الوظائف التي يمكن الاستعانة بمصادر خارجية والوظائف التي يجب أن تظل داخلية. عادةً ما تقوم المؤسسات بالاستعانة بمصادر خارجية لعمليات تكنولوجيا المعلومات الروتينية والصيانة وحتى منصات أجهزة سطح المكتب.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Policy on outsourcing"/>
-					<tx l="fre" name="Politika për marrjen e sherbimeve nga jashtë"/>
+					<tx l="spa" name="Política de subcontratación"/>
+					<tx l="fre" name="Politique d'externalisation"/>
+					<tx l="ara" name="سياسة الاستعانة بمصادر خارجية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organization have a policy on outsourcing.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización tiene una política de subcontratación.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation a une politique d'externalisation.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>المنظمة لديها سياسة الاستعانة بمصادر خارجية.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Outsourcing Policy">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the agency has an adequate policy on outsourcing?"/>
-							<tx l="fre" name="Vlerësimi nëse subjekti posedon politika të përshtatshme prokurimi?"/>
+							<tx l="spa" name="¿Evaluar si la agencia tiene una política adecuada sobre subcontratación?"/>
+							<tx l="fre" name="Pour évaluer si l'agence a une politique adéquate d'externalisation?"/>
+							<tx l="ara" name="لتقييم ما إذا كانت الوكالة لديها سياسة مناسبة بشأن الاستعانة بمصادر خارجية؟"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the organization have a policy on outsourcing?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Organizational policy on outsourcing"/>
-							<tx l="fre" name="Politikat organizacionale mbi prokurimin"/>
+							<tx l="spa" name="Política organizativa sobre subcontratación"/>
+							<tx l="fre" name="Politique organisationnelle en matière d'externalisation"/>
+							<tx l="ara" name="السياسة التنظيمية بشأن الاستعانة بمصادر خارجية"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Policy Document
-
-Approval process for outsourcing of a function/ service
-
-List of outsourced functions/ services
-
-List of outsourced functions/ services with partial outsourcing
-
-Mode of service by the service provider
-
-Cost benefit analysis on outsourcing of a function/ service
-List of outsourced service providers with locations Approval related documents for outsourced functions/
-services
-
-Strategy to ensure continuity in case of takeover of the service provider by another organization
-
-Information on any takeover of the service provider Monitoring documents/ reports
-
+							<tx l="eng" name="Policy Document.
+Approval process for outsourcing of a function/ service.
+List of outsourced functions / services.
+List of outsourced functions / services with partial outsourcing.
+Mode of service by the service provider.
+Cost benefit analysis on outsourcing of a function / service.
+List of outsourced service providers with locations Approval related documents for outsourced functions / services.
+Strategy to ensure continuity in case of takeover of the service provider by another organization.
+Information on any takeover of the service provider Monitoring documents/ reports.
 "/>
-							<tx l="fre" name="Dokumentet e politikave
-Proceset e aprovuara për prokurimin e funksioneve/shërbimeve
-Listë me funksionet/shërbimet e prokuruara
-Listë me funksionet/shërbimet e prokuruara pjesërisht
-Mënyra e shërbimit të ofruesit
-Analiza e kosto përfitimeve për shërbimet/funksionet e prokuruara
-Listë e ofruesve të shërbimeve të prokuruara me vendodhjet e tyre
-Dokumentet lidhur me aprovimin e shërbimeve/funskioneve të prokuruara
-Strategji për sigurimin e vazhdimësisë në rast të blerjes së ofruesit të shërbimit nga një organizatë tjetër
-Informacion rreth blerjes së një ofruesi shërbimi
-Dokumentet/raportet e monitorimit
+							<tx l="spa" name="Documento de política.
+Proceso de aprobación para la subcontratación de una función / servicio.
+Lista de funciones / servicios subcontratados.
+Relación de funciones / servicios subcontratados con subcontratación parcial.
+Modo de servicio por parte del proveedor de servicios.
+Análisis coste-beneficio de la subcontratación de una función / servicio.
+Lista de proveedores de servicios subcontratados con ubicaciones.
+Aprobación de documentos relacionados para funciones / servicios subcontratados.
+Estrategia para asegurar la continuidad en caso de adquisición del proveedor de servicios por otra organización.
+Información sobre cualquier adquisición del proveedor de servicios.
+Documentos / informes de seguimiento.
+"/>
+							<tx l="fre" name="Document de politique.
+Processus d'approbation pour l'externalisation d'une fonction / service.
+Liste des fonctions / services externalisés.
+Liste des fonctions / services externalisés avec externalisation partielle.
+Mode de service par le fournisseur de services.
+Analyse coûts-avantages sur l'externalisation d'une fonction / service.
+Liste des prestataires de services externalisés avec implantations.
+Documents relatifs à l'approbation des fonctions / services externalisés.
+Stratégie pour assurer la continuité en cas de reprise du prestataire de services par une autre organisation.
+Informations sur toute reprise du prestataire de services.
+Documents / rapports de suivi.
+"/>
+							<tx l="ara" name="وثيقة سياسة.
+عملية الموافقة على الاستعانة بمصادر خارجية لوظيفة / خدمة.
+قائمة الوظائف / الخدمات الخارجية.
+قائمة الوظائف / الخدمات الخارجية مع الاستعانة بمصادر خارجية جزئية.
+طريقة الخدمة من قبل مزود الخدمة.
+تحليل التكلفة والمنفعة على الاستعانة بمصادر خارجية لوظيفة / خدمة.
+قائمة بمقدمي الخدمات الخارجيين مع المواقع.
+الموافقة على المستندات المتعلقة بالوظائف / الخدمات الخارجية.
+استراتيجية لضمان الاستمرارية في حالة الاستيلاء على مزود الخدمة من قبل مؤسسة أخرى.
+معلومات عن أي استيلاء على مزود الخدمة.
+  وثائق / تقارير المراقبة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review policy to ensure it is approved
-
-Review policy to check (for example) it contains information about organization assets that can be outsourced or not, identifies the list of services/ functions that it may outsource
-
-Review acquisition or outsourcing approval documents to ensure senior management are involved in the approval
-
-Document review to assess that the organization has identified the risks associated with respect to different modes of outsourcing and locations of outsourced service provider
-
-Document review to verify whether the organization is aware of risks associated with possibility of takeover of the service provider
-
-Document review to verify whether the organization has ensured that the Business Continuity, data rights, security, ownership and cost are embedded in the service agreement covering the case of takeover
-
-Document review to assess that the policy includes identification of monitoring parameters for the outsourced functions and requires them to be included in the outsource agreement
-
+							<tx l="eng" name="Review policy to ensure it is approved.
+Review policy to check (for example) it contains information about organization assets that can be outsourced or not, identifies the list of services/ functions that it may outsource.
+Review acquisition or outsourcing approval documents to ensure senior management are involved in the approval.
+Document review to assess that the organization has identified the risks associated with respect to different modes of outsourcing and locations of outsourced service provider.
+Document review to verify whether the organization is aware of risks associated with possibility of takeover of the service provider.
+Document review to verify whether the organization has ensured that the Business Continuity, data rights, security, ownership and cost are embedded in the service agreement covering the case of takeover.
+Document review to assess that the policy includes identification of monitoring parameters for the outsourced functions and requires them to be included in the outsource agreement.
 "/>
-							<tx l="fre" name="Rishikim i politikave për tu siguruar nëse është aprovuar
-
-Rishikim të politikave për të kontrolluar (për shembull) nëse përmban informacion rreth aseteve të organizatës që mund të prokurohen ose jo, nëse identifion listën e shërbimeve/funksioneve që mund të prokurohen.
-
-Rishikim të dokumenteve të aprovimit të blerjes ose të prokurimit për tu siguruar nëse menaxhimi i lartë është përfshirë në aprovim.
-
-Rishikim të dokumenteve për të vlerësuar se organizata ka identifikuar risqet e lidhura me mënyrat  e ndryshme të prokurimit dhe vendodhjes së ofruesve të shërbimit.
-
-Rishikim të dokumenteve për të verifikuar nëse organizata ka garantuar vazhdimësinë e biznesit, të drejtat e të dhënave, sigurinë, zotërimin dhe kostot janë shpërndarë sipas marrëveshjes që mbulon blerjen.
-
-Rishikim të dokumenteve për të vlerësuar se politikat përfshijnë identifikimin e parametrave të monitorimit për funksionet e prokuruara.
+							<tx l="spa" name="Revise la política para asegurarse de que esté aprobada.
+Revise la política para verificar (por ejemplo) que contiene información sobre los activos de la organización que pueden ser subcontratados o no, identifica la lista de servicios / funciones que puede subcontratar.
+Revise los documentos de aprobación de adquisición o subcontratación para asegurarse de que la alta dirección esté involucrada en la aprobación.
+Revisión de documentos para evaluar que la organización ha identificado los riesgos asociados con respecto a los diferentes modos de subcontratación y ubicaciones de proveedores de servicios subcontratados.
+Revisión de documentos para verificar si la organización es consciente de los riesgos asociados con la posibilidad de adquisición del proveedor de servicios.
+Revisión de documentos para verificar si la organización se ha asegurado de que la Continuidad del negocio, los derechos de los datos, la seguridad, la propiedad y el costo estén integrados en el acuerdo de servicio que cubre el caso de adquisición.
+Revisión de documentos para evaluar que la política incluye la identificación de parámetros de monitoreo para las funciones subcontratadas y requiere que se incluyan en el acuerdo de subcontratación.
+"/>
+							<tx l="fre" name="Passez en revue la politique pour vous assurer qu'elle est approuvée.
+Examiner la politique pour vérifier (par exemple) qu'elle contient des informations sur les actifs de l'organisation qui peuvent être externalisés ou non, identifie la liste des services / fonctions qu'elle peut sous-traiter.
+Examiner les documents d'approbation d'acquisition ou d'externalisation pour s'assurer que la haute direction participe à l'approbation.
+Examen des documents pour évaluer que l'organisation a identifié les risques associés aux différents modes d'externalisation et aux emplacements des fournisseurs de services externalisés.
+Examen des documents pour vérifier si l'organisation est consciente des risques associés à la possibilité de reprise du fournisseur de services.
+Examen des documents pour vérifier si l'organisation s'est assurée que la continuité des activités, les droits sur les données, la sécurité, la propriété et le coût sont intégrés dans le contrat de service couvrant le cas de la prise de contrôle.
+Examen des documents pour évaluer que la politique comprend l'identification des paramètres de surveillance pour les fonctions externalisées et exige qu'ils soient inclus dans l'accord d'externalisation.
+"/>
+							<tx l="ara" name="مراجعة السياسة لضمان الموافقة عليها.
+مراجعة السياسة للتحقق (على سبيل المثال) من أنها تحتوي على معلومات حول أصول المؤسسة التي يمكن الاستعانة بمصادر خارجية لها أم لا ، وتحدد قائمة الخدمات / الوظائف التي قد تستعين بمصادر خارجية.
+مراجعة وثائق الموافقة على الاستحواذ أو الاستعانة بمصادر خارجية لضمان مشاركة الإدارة العليا في الموافقة.
+مراجعة الوثيقة لتقييم أن المنظمة قد حددت المخاطر المرتبطة فيما يتعلق بأنماط مختلفة من الاستعانة بمصادر خارجية ومواقع مزود الخدمة الخارجية.
+مراجعة المستندات للتحقق مما إذا كانت المؤسسة على دراية بالمخاطر المرتبطة بإمكانية الاستيلاء على مزود الخدمة.
+مراجعة المستندات للتحقق مما إذا كانت المنظمة قد ضمنت أن استمرارية الأعمال وحقوق البيانات والأمان والملكية والتكلفة مضمنة في اتفاقية الخدمة التي تغطي حالة الاستحواذ.
+مراجعة الوثيقة لتقييم أن السياسة تتضمن تحديد معايير المراقبة لوظائف الاستعانة بمصادر خارجية وتتطلب تضمينها في اتفاقية الاستعانة بمصادر خارجية.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3688,84 +4077,128 @@ Rishikim të dokumenteve për të vlerësuar se politikat përfshijnë identifik
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Solicitation"/>
-				<tx l="fre" name="Dokumentimi i kërkesave"/>
+				<tx l="spa" name="Solicitación"/>
+				<tx l="fre" name="Sollicitation"/>
+				<tx l="ara" name="الإغراء"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Solicitation is the process of documenting the requirements of the system and collecting other references materials that will assist vendor in building the system. It includes generating the solicitation package and putting it out for bid, getting proposals and making a selection among the various vendors.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La solicitación es el proceso de documentar los requisitos del sistema y recopilar otros materiales de referencia que ayudarán al proveedor a construir el sistema. Incluye generar el paquete de licitación y presentarlo a licitación, obtener propuestas y hacer una selección entre los distintos proveedores.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La sollicitation est le processus de documentation des exigences du système et de collecte d'autres documents de référence qui aideront le fournisseur à construire le système. Cela comprend la génération du dossier de sollicitation et sa mise en concurrence, l'obtention de propositions et la sélection parmi les différents fournisseurs.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>طلب تقديم العروض هو عملية توثيق متطلبات النظام وجمع المواد المرجعية الأخرى التي ستساعد البائع في بناء النظام. يتضمن إنشاء حزمة الالتماس وطرحها للمزايدة والحصول على العروض والاختيار بين مختلف البائعين.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Policy on acquisition"/>
-					<tx l="fre" name="Politika për blerjet"/>
+					<tx l="spa" name="Política de adquisiciones"/>
+					<tx l="fre" name="Politique d'acquisition"/>
+					<tx l="ara" name="سياسة الاستحواذ"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Provisions of organization policy on Outsourcing and policy on IT services procurement dealing with solicitation and acquisition.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Disposiciones de la política de la organización sobre subcontratación y la política sobre la contratación de servicios de TI que tratan con la solicitación y la adquisición</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Dispositions de la politique d'organisation sur l'externalisation et de la politique sur les achats de services informatiques traitant de la sollicitation et de l'acquisition.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>أحكام سياسة المنظمة بشأن الاستعانة بمصادر خارجية وسياسة شراء خدمات تكنولوجيا المعلومات التي تتعامل مع الالتماس والاستحواذ.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Solicitation">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the agency has a policy on how to manage solicitation"/>
-							<tx l="fre" name="Vlerësimi nëse agjencia posedon politika për mënyrën e menaxhimit të dokumentimit të kërkesave."/>
+							<tx l="spa" name="Para evaluar si la agencia tiene una política sobre cómo gestionar la solicitación"/>
+							<tx l="fre" name="Évaluer si l'agence a une politique sur la façon de gérer la sollicitation"/>
+							<tx l="ara" name="لتقييم ما إذا كانت الوكالة لديها سياسة حول كيفية إدارة الالتماس"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the organization have a policy on acquisition? Does the organization have a definite process for identification and selection of the service provider? Does the organization have a process to ensure inclusion of user requirements into the Service Level Requirements/ contractual requirements? Are the related decisions taken at appropriate levels?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Provisions of organization policy on Outsourcing and policy on IT services procurement dealing with solicitation and acquisition"/>
-							<tx l="fre" name="Dispozitat e plotikave të organizatës mbi Prokurimin dhe politikave e prokurimeve të shërbimeve të IT që lidhen me dokumentimin e kërkesave."/>
+							<tx l="spa" name="Disposiciones de la política de la organización sobre subcontratación y la política sobre la contratación de servicios de TI que tratan con la solicitación y la adquisición"/>
+							<tx l="fre" name="Dispositions de la politique d'organisation sur l'externalisation et de la politique sur les achats de services informatiques traitant de la sollicitation et de l'acquisition"/>
+							<tx l="ara" name="أحكام سياسة المنظمة بشأن الاستعانة بمصادر خارجية وسياسة شراء خدمات تكنولوجيا المعلومات التي تتعامل مع الالتماس والاستحواذ"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Acquisition or equivalent Policy
-
-List of laws regulating the acquisition and outsourcing
-
-Selection process for identification and selection of a service provider
-
-List of outsourced functions/ services along with the service provider
-
-User requirements for the contracted or outsourced service
-
-Contract/ Service Level Agreement
-
-Approval related documents for selection of service provider
+							<tx l="eng" name="Acquisition or equivalent Policy.
+List of laws regulating the acquisition and outsourcing.
+Selection process for identification and selection of a service provider.
+List of outsourced functions/ services along with the service provider.
+User requirements for the contracted or outsourced service.
+Contract/ Service Level Agreement.
+Approval related documents for selection of service provider.
 "/>
-							<tx l="fre" name="Politikat e blerjes ose ekuivalente me to
-Lista e ligjeve që rregullojnë blerjen dhe prokurimin 
-Përzgjedhje e proceseve për identifikimin dhe zgjedhjen e ofruesve të shërbimeve
-Lista e funksioneve/shërbimeve të prokuruara 
-Kërkesat e përdoruesve për shërbimet e prokuruara
-Kontrata/Marrëveshja në nivel shërbimi
-Dokuementet lidhur me aprovimin për përzgjedhjen e ofruesit të shërbimit
+							<tx l="spa" name="Política de Adquisición o Equivalente.
+Relación de leyes que regulan la adquisición y la subcontratación.
+Proceso de selección para la identificación y selección de un proveedor de servicios.
+Lista de funciones / servicios subcontratados junto con el proveedor de servicios.
+Requisitos de los usuarios para el servicio contratado o subcontratado.
+Contrato / Acuerdo de nivel de servicio.
+Documentos relacionados con la aprobación para la selección del proveedor de servicios.
+"/>
+							<tx l="fre" name="Acquisition ou politique équivalente.
+Liste des lois régissant l'acquisition et l'externalisation.
+Processus de sélection pour l'identification et la sélection d'un fournisseur de services.
+Liste des fonctions / services externalisés avec le fournisseur de services.
+Exigences des utilisateurs pour le service sous-traité ou externalisé.
+Contrat / Accord de niveau de service.
+Documents relatifs à l'approbation pour la sélection du fournisseur de services.
+"/>
+							<tx l="ara" name="سياسة الاستحواذ أو ما يعادلها.
+قائمة القوانين المنظمة للاستحواذ والاستعانة بمصادر خارجية.
+عملية الاختيار لتحديد واختيار مقدم الخدمة.
+قائمة الوظائف / الخدمات التي يتم الاستعانة بمصادر خارجية لها جنبًا إلى جنب مع مزود الخدمة.
+متطلبات المستخدم للخدمة المتعاقد عليها أو الاستعانة بمصادر خارجية.
+عقد / اتفاقية مستوى الخدمة.
+اعتماد المستندات المتعلقة باختيار مقدم الخدمة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review to assess that the organization has a policy on solicitation or acquisition.
-
 Review policy to ensure it contains provisions for data requests from sub-contractors if the prime has included sub-contractors as part of the proposal.
-
 Document review to assess that the policy on solicitation and acquisition complies to the laws on outsourcing and acquisition (review that it references to provides links to applicable laws and regulations).
-
 Review of selection process for compliance to the policy for each a sampling of contracts or outsourced service (review that the selection process is transparent, has objective  criteria, the selection team is comprised of personnel who understand the requirements, is represented by contractual and legal personnel, and consult with users as appropriate for clarification).
-
 Ensure that the contractual requirements have been approved by users and relevant stakeholder.
-
-Meet with the contractual office to ensure that appropriate level of management approved the solicitation and contract
+Meet with the contractual office to ensure that appropriate level of management approved the solicitation and contract.
 "/>
-							<tx l="fre" name=" Rishikim i dokumenteve për të verifikuar nës eorganizata ka politika mbi dokumentimin e kërkesave ose blerjes.
-Rishikim të politikave për të garantuar se përmban dispozita për kërkesat e të dhënave nga nënkontraktorët nëse kontraktori primar ka kërkuar përfshirjen e nënkontraktorëve si pjesë të propozimit.
-Rishikim të dokumenteve për të vlerësuar se politikat mbi dokumentimin e kërkesave përputhen me ligjet mbi prokurimin dhe blerjen  (rishikim se i referohet për të ofruar lidhje me ligjet dhe rregullat e aplikuara).
-Rishikim të procesit të përzgjedhjes për përputhshmëri ndaj politikave për çdo kontratë të zgjedhur ose për shërbim të prokuruar (rishikim nëse procesi i përzgjedhjes është transparent, ka kritere objektivë, komisioni i përzgjedhjes është i përbërë nga personel që kupton kërkesat, është i përfaqësuar nga personel kontrakual dhe ligjor, dhe këshillohet me përdoruesit)
-Sigurohuni se kërkesat kontraktuale janë aprovuar nga përdoruesit dhe nga palët e interesuara.
-Zhvilloni takime me zyrën e kontraktuar për tu siguruar se niveli i duhur i menaxhimit ka aprovuar kontratën dhe dokumentimin e kërkesave.
+							<tx l="spa" name="Revisión de documentos para evaluar que la organización tiene una política sobre solicitación o adquisición.
+Revise la política para asegurarse de que contiene disposiciones para la solicitudes de datos de los subcontratistas si la principal ha incluido a los subcontratistas como parte de la propuesta.
+Revisión de documentos para evaluar que la política sobre solicitación y adquisición cumple con las leyes sobre subcontratación y adquisición (la revisión a la que hace referencia proporciona enlaces a las leyes y regulaciones aplicables).
+Revisión del proceso de selección para el cumplimiento de la política para cada una muestra de contratos o servicio subcontratado (revisar que el proceso de selección sea transparente, tenga criterios objetivos, el equipo de selección está compuesto por personal que comprende los requisitos, está representado por personal contractual y legal). Consulte con los usuarios para obtener aclaraciones.
+Asegúrese de que los requisitos contractuales hayan sido aprobados por los usuarios y las partes interesadas relevantes.
+Reúnase con la oficina contractual para asegurarse de que el nivel de administración apropiado aprobó la solicitación y el contrato.
 "/>
+							<tx l="fre" name="Examen des documents pour évaluer que l'organisation a une politique sur la sollicitation ou l'acquisition.
+Examiner la politique pour s'assurer qu'elle contient des dispositions pour les demandes de données des sous-traitants si le maître d'œuvre a inclus des sous-traitants dans la proposition.
+Revue de documents pour évaluer si la politique de sollicitation et d'acquisition est conforme aux lois sur l'externalisation et l'acquisition (la revue à laquelle elle fait référence fournit des liens vers les lois et réglementations applicables).
+Examen du processus de sélection pour la conformité à la politique pour chaque échantillon de contrats ou de services externalisés (examen que le processus de sélection est transparent, a des critères objectifs, l'équipe de sélection est composée de personnel qui comprend les exigences, est représentée par du personnel contractuel et juridique). Consulter les utilisateurs, le cas échéant, pour obtenir des éclaircissements.
+S'assurer que les exigences contractuelles ont été approuvées par les utilisateurs et les parties prenantes concernées.
+Rencontrer le bureau contractuel pour s'assurer que le niveau de gestion approprié a approuvé la demande de soumissions et le contrat.
+"/>
+							<tx l="ara" name="مراجعة الوثيقة لتقييم أن المنظمة لديها سياسة بشأن الالتماس أو الاستحواذ.
+مراجعة السياسة للتأكد من أنها تحتوي على أحكام لطلبات البيانات من المقاولين من الباطن إذا كان رئيس الوزراء قد شمل مقاولين من الباطن كجزء من الاقتراح.
+مراجعة المستندات لتقييم أن سياسة الالتماس والاستحواذ تتوافق مع القوانين المتعلقة بالاستعانة بمصادر خارجية والاستحواذ (مراجعة ما تشير إليه يوفر روابط للقوانين واللوائح المعمول بها).
+مراجعة عملية الاختيار للامتثال للسياسة الخاصة بكل عينة من العقود أو الخدمة الخارجية (مراجعة أن عملية الاختيار شفافة ، ولها معايير موضوعية ، ويتألف فريق الاختيار من موظفين يفهمون المتطلبات ، ويمثلهم موظفون تعاقديون وقانونيون ). التشاور مع المستخدمين حسب الاقتضاء للتوضيح.
+تأكد من الموافقة على المتطلبات التعاقدية من قبل المستخدمين وأصحاب المصلحة المعنيين.
+اجتمع مع المكتب التعاقدي للتأكد من أن المستوى المناسب من الإدارة وافق على الالتماس والعقد."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -3790,74 +4223,116 @@ Zhvilloni takime me zyrën e kontraktuar për tu siguruar se niveli i duhur i me
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Vendor or contract Management"/>
-				<tx l="fre" name="Monitorimi i furnizuesit ose kontraktorit"/>
+				<tx l="spa" name="Gestión de proveedores o contratos"/>
+				<tx l="fre" name="Gestion des fournisseurs ou des contrats"/>
+				<tx l="ara" name="إدارة البائعين أو العقد"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Vendor management is a key element of outsourcing to ensure that the services are rendered according to the expectations of the client. The audited entity should have processes in place to ensure periodic follow up of the status of the project, quality of service, witnessing testing of built products prior to introduction into the operational environment, etc.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La gestión de proveedores es un elemento clave de la subcontratación para garantizar que los servicios se presten de acuerdo con las expectativas del cliente. La entidad auditada debe tener procesos establecidos para asegurar el seguimiento periódico del estado del proyecto, la calidad del servicio, presenciar las pruebas de los productos construidos antes de su introducción en el entorno operativo, etc.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La gestion des fournisseurs est un élément clé de l'externalisation pour s'assurer que les services sont rendus selon les attentes du client. L'entité auditée doit avoir des processus en place pour assurer un suivi périodique de l'état du projet, de la qualité du service, des tests des produits construits avant leur introduction dans l'environnement opérationnel, etc.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تعد إدارة البائعين عنصرًا أساسيًا في الاستعانة بمصادر خارجية لضمان تقديم الخدمات وفقًا لتوقعات العميل. يجب أن يكون لدى الكيان الخاضع للرقابة عمليات قائمة لضمان المتابعة الدورية لحالة المشروع ، وجودة الخدمة ، ومشاهدة اختبار المنتجات المبنية قبل إدخالها في بيئة التشغيل ، وما إلى ذلك.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Vendor or Contractor Monitoring"/>
-					<tx l="fre" name="Monitorimi i Furnizuesit ose Kontraktuesit"/>
+					<tx l="spa" name="Monitoreo de proveedores o contratistas"/>
+					<tx l="fre" name="Surveillance du fournisseur ou de l'entrepreneur"/>
+					<tx l="ara" name="مراقبة البائع أو المقاول"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Provisions/ parameters defined in Service Level Agreement and the follow up actions by the organization.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Disposiciones / parámetros definidos en el Acuerdo de Nivel de Servicio y las acciones de seguimiento por parte de la organización.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Dispositions / paramètres définis dans l'accord de niveau de service et les actions de suivi par l'organisation.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>الأحكام / المعلمات المحددة في اتفاقية مستوى الخدمة وإجراءات المتابعة من قبل المنظمة.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Vendor or Contractor Monitoring">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the organization is managing the contractor or vendor and takes appropriate action when performance or quality deviates from established baselines."/>
-							<tx l="fre" name="Vlerësimi nëse organizata menaxhon kontraktorin ose furnitorin dhe ndërmmer veprimet e duhura nëse performanca ose cilësia shmanget nga bazat e vendosura"/>
+							<tx l="spa" name="Evaluar si la organización está administrando al contratista o al proveedor y toma las medidas adecuadas cuando el desempeño o la calidad se desvían de los puntos de referencia establecidos."/>
+							<tx l="fre" name="Évaluer si l'organisation gère le sous-traitant ou le fournisseur et prend les mesures appropriées lorsque les performances ou la qualité s'écartent des valeurs de référence établies."/>
+							<tx l="ara" name="لتقييم ما إذا كانت المنظمة تدير المقاول أو البائع وتتخذ الإجراء المناسب عندما ينحرف الأداء أو الجودة عن خطوط الأساس المحددة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is there a contract with the service provider? Are Service Levels identified and agreed through a Service Level Agreement? Is there a monitoring arrangement (for services) with the service provider? Are the service levels ensured through this arrangement? Is appropriate action taken when service level agreement provisions are not met?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Provisions/ parameters defined in Service Level Agreement and the follow up actions by the organization."/>
-							<tx l="fre" name="Dispozitat/parametrat e përcaktuar në Marrëveshjen në Nivel Shërbimi dhe veprimet për ndjekje të tyre nga organizata"/>
+							<tx l="spa" name="Disposiciones / parámetros definidos en el Acuerdo de Nivel de Servicio y las acciones de seguimiento por parte de la organización."/>
+							<tx l="fre" name="Dispositions / paramètres définis dans l'accord de niveau de service et les actions de suivi par l'organisation."/>
+							<tx l="ara" name="الأحكام / المعلمات المحددة في اتفاقية مستوى الخدمة وإجراءات المتابعة من قبل المنظمة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Contract/ Service Level Agreement  Approved schedules, baselines, cost and other
-technical parameters that define the product or service being acquired or outsourced
-
-Monitoring documents/ reports / meeting minutes of reviews conducted, action items, direction to vendor (task orders, statement of work, etc.)
-
-Impact assessment of deviations 
-
-Action items or direction to vendor
-
-Action taken reports on deviations from service level
+							<tx l="eng" name="Contract/ Service Level Agreement.
+Approved schedules, baselines, cost and other technical parameters that define the product or service being acquired or outsourced.
+Monitoring documents/ reports / meeting minutes of reviews conducted, action items, direction to vendor (task orders, statement of work, etc.).
+Impact assessment of deviations.
+Action items or direction to vendor.
+Action taken reports on deviations from service level.
 "/>
-							<tx l="fre" name=" Kontrata /Marrëveshja në nivel shërbimi
-Skedulat e aprovuara, bazat, kostot dhe parametrat e tjerë teknikë që përcaktojnë  produktin ose shërbimin që është blerë/kontraktuar
-Dokumentet e monitorimit/raportet/ procesverbalet e mbledhjeve të rishikimeve të kryera, veprimet e ndërmarra, drejtimet e funitorit
-Vlerësimi i ndikimeve të shmangieve
-Veprimet ose drejtimet e furnitorit
-Raportet e veprimeve të ndërmarra mbi devijimet nga nivelet e shërbimeve
+							<tx l="spa" name="Contrato / Acuerdo de nivel de servicio.
+Horarios aprobados, líneas de base, costos y otros parámetros técnicos que definen el producto o servicio que se adquiere o subcontrata.
+Monitoreo de documentos / informes / actas de reuniones de revisiones realizadas, elementos de acción, dirección al proveedor (órdenes de trabajo, declaración de trabajo, etc.).
+Evaluación de impacto de desviaciones.
+Elementos de acción o dirección al proveedor.
+Las acciones tomadas informan sobre las desviaciones del nivel de servicio.
+"/>
+							<tx l="fre" name="Contrat / Accord de niveau de service.
+Calendriers, lignes de base, coûts et autres paramètres techniques approuvés qui définissent le produit ou le service acquis ou sous-traité.
+Suivi des documents / rapports / procès-verbaux de réunions des revues effectuées, des actions à entreprendre, des directives au fournisseur (commandes de tâches, énoncé de travail, etc.).
+Analyse d'impact des écarts.
+Actions ou directives au fournisseur.
+Les mesures prises rendent compte des écarts par rapport au niveau de service.
+"/>
+							<tx l="ara" name="عقد / اتفاقية مستوى الخدمة.
+الجداول المعتمدة وخطوط الأساس والتكلفة والمعايير الفنية الأخرى التي تحدد المنتج أو الخدمة التي يتم الحصول عليها أو الاستعانة بمصادر خارجية.
+مراقبة المستندات / التقارير / محاضر الاجتماعات للمراجعات التي تم إجراؤها ، وعناصر العمل ، والتوجيه إلى البائع (أوامر المهام ، بيان العمل ، إلخ).
+تقييم تأثير الانحرافات.
+عناصر العمل أو التوجيه للبائع.
+تقارير الإجراءات المتخذة بشأن الانحرافات عن مستوى الخدمة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review to assess if a service level agreement has been established.
-
-Review of monitoring reports submitted by the contractor to ensure that they contain elements that are in the contract or SLA (cost, schedule, performance, risk, status, issues, and status of past action items or tasks).
-
+Review of monitoring reports submitted by the contractor to ensure that they contain elements that are in the contract or in the SLA (cost, schedule, performance, risk, status, issues, and status of past action items or tasks).
 Review of monitoring reports to identify service deficiency/ deviation and assessment of impact due to the deficiencies/ deviations.
-
-Review of notices and action taken reports for action taken to be commensurate with impact on business and contractual provisions
+Review of notices and action taken reports for action taken to be commensurate with impact on business and contractual provisions.
 "/>
-							<tx l="fre" name="Rishikim të dokumenteve për të vlerësuar nëse është hartuar marrëveshja në nivel shërbimesh.
-
-Rishikim të raporteve të monitrimit të dorëzuara nga kontraktori për tu siguruar se ato përmbajnë elementë që janë në kontratë ose në SLA (marrëveshja në nivel shërbimi), elementë si kosto, skedulimi, performanca, risku, statusi, çështjet, dhe situata e veprimeve ose detyrave të mëparshme).
-
-Rishikim të raporteve të monitorimit për të identifikuar defiçencat e shërbimit/ shmangiet si dhe vlerësim të të ndikimit për shkak të këtyre defiçencave/shmangieve.
+							<tx l="spa" name="Revisión de documentos para evaluar si se ha establecido un acuerdo de nivel de servicio.
+Revisión de los informes de seguimiento presentados por el contratista para asegurarse de que contienen elementos que están en el contrato o en el acuerdo de nivel de servicio (costo, cronograma, desempeño, riesgo, estado, problemas y estado de acciones o tareas pasadas).
+Revisión de informes de seguimiento para identificar deficiencias / desviaciones del servicio y evaluación del impacto debido a las deficiencias / desviaciones.
+Revisión de notificaciones e informes de acciones tomadas para que las acciones tomadas estén en consonancia con el impacto en las disposiciones comerciales y contractuales.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer si un accord de niveau de service a été établi.
+Examen des rapports de suivi soumis par le contractant pour s'assurer qu'ils contiennent des éléments qui figurent dans le contrat ou dans l'accord de niveau de service (coût, calendrier, performance, risque, statut, problèmes et statut des actions ou tâches passées).
+Examen des rapports de surveillance pour identifier les carences / écarts de service et évaluation de l'impact dû aux carences / écarts.
+Examen des avis et des rapports sur les mesures prises pour que les mesures prises soient proportionnelles à l'impact sur les affaires et les dispositions contractuelles.
+"/>
+							<tx l="ara" name="مراجعة الوثيقة لتقييم ما إذا كان قد تم وضع اتفاقية مستوى الخدمة.
+مراجعة تقارير المراقبة المقدمة من قبل المقاول للتأكد من أنها تحتوي على عناصر موجودة في العقد أو في اتفاقية مستوى الخدمة (التكلفة ، والجدول الزمني ، والأداء ، والمخاطر ، والحالة ، والمشكلات ، وحالة عناصر العمل أو المهام السابقة).
+مراجعة تقارير المراقبة لتحديد قصور / انحراف الخدمة وتقييم التأثير الناتج عن أوجه القصور / الانحرافات.
+مراجعة الإخطارات وتقارير الإجراءات المتخذة للإجراءات المتخذة لتكون متناسبة مع التأثير على الأعمال التجارية والأحكام التعاقدية.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3883,88 +4358,138 @@ Rishikim të raporteve të monitorimit për të identifikuar defiçencat e shër
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="Data Rights"/>
-				<tx l="fre" name="Të drejtat e të dhënave"/>
+				<tx l="spa" name="Derechos de datos"/>
+				<tx l="fre" name="DDroits de données"/>
+				<tx l="ara" name="حقوق البيانات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Privacy and also other security concerns would include possible mishandling or disclosure of sensitive data, unauthorised access to data and applications and disaster recovery plan.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La privacidad y también otras preocupaciones de seguridad incluirían un posible mal manejo o divulgación de datos confidenciales, acceso no autorizado a datos y aplicaciones y un plan de recuperación de desastres.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La confidentialité et d'autres problèmes de sécurité incluraient une éventuelle mauvaise gestion ou la divulgation de données sensibles, l'accès non autorisé aux données et aux applications et le plan de reprise après sinistre.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>قد تتضمن الخصوصية والمخاوف الأمنية الأخرى أيضًا سوء التعامل أو الكشف عن البيانات الحساسة ، والوصول غير المصرح به إلى البيانات والتطبيقات وخطة التعافي من الكوارث.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data Rights"/>
-					<tx l="fre" name="Të drejtat mbi të dhënat"/>
+					<tx l="spa" name="Derechos de datos"/>
+					<tx l="fre" name="DDroits de données"/>
+					<tx l="ara" name="حقوق البيانات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Organization’s data protection and access rights requirements are levied on the contractor as appropriate.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Los requisitos de derechos de acceso y protección de datos de la organización se imponen al contratista según corresponda.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les exigences de l’organisation en matière de protection des données et de droits d’accès sont imposées au contractant, le cas échéant.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يتم فرض متطلبات حماية بيانات المنظمة وحقوق الوصول على المقاول حسب الاقتضاء.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Data Rights">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the organization’s data protection requirements are identified and they are part of the contractual requirements."/>
-							<tx l="fre" name="Vlerësimi nëse kërkesat për mbrojtjen e të dhënave të organizatës janë identifikuar dhe nëse ato janë pjesë e kërkesave kontrakuktuale"/>
+							<tx l="spa" name="Evaluar si los requisitos de protección de datos de la organización están identificados y son parte de los requisitos contractuales."/>
+							<tx l="fre" name="Évaluer si les exigences de l’organisation en matière de protection des données sont identifiées et font partie des exigences contractuelles."/>
+							<tx l="ara" name="لتقييم ما إذا كانت متطلبات حماية البيانات الخاصة بالمنظمة محددة وأنها جزء من المتطلبات التعاقدية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Are the data protection and access rights built into the service contract? Is the data defined appropriately to cover the transaction data as well as the programs/ software supporting the data, as the case may be? Is there a mechanism to ensure that the data protection and security requirements as per the Service Level Agreement are being adopted and implemented by the service provider?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Organization’s data protection and access rights requirements are levied on the contractor as appropriate"/>
-							<tx l="fre" name="Kërkesat për mbrojtjen e të dhënave të organizatës dhe për të drejtat e aksesit janë përcjellë te kontraktori në formën e duhur"/>
+							<tx l="spa" name="Los requisitos de derechos de acceso y protección de datos de la organización se imponen al contratista según corresponda"/>
+							<tx l="fre" name="Les exigences de l'organisation en matière de protection des données et de droits d'accès sont imposées au contractant, le cas échéant"/>
+							<tx l="ara" name="يتم فرض متطلبات حماية بيانات المنظمة وحقوق الوصول على المقاول حسب الاقتضاء"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Organization’s Data Protection and access rights requirements
-
-Definition of data (for protection and access rights) Contract with the service provider
-
-List of data access records from the service provider
-
-Reports of third party audits or self audits with recommendations and follow up on them
-Monitoring reports
-
-Correspondence with the service provider on the subject
-
-Incident handling reports
-
-Non disclosure agreement with the outsourced agency List of information disclosed by the outsourced agency to third party unrelated party(s)
+							<tx l="eng" name="Organization’s Data Protection and access rights requirements.
+Definition of data (for protection and access rights) Contract with the service provider.
+List of data access records from the service provider.
+Reports of third party audits or self audits with recommendations and follow up on them.
+Monitoring reports.
+Correspondence with the service provider on the subject.
+Incident handling reports.
+Non disclosure agreement with the outsourced agency List of information disclosed by the outsourced agency to third party unrelated party(s).
 "/>
-							<tx l="fre" name="Kërkesat e mbrojtjes së të dhënave të organizatës si dhe mbi të drejtat e akesit
-Përckatim i të dhënave (për mbrojtje dhe të drejtë aksesi)
-Kontrata me ofruesin e shërbimit
-Lista e regjistrave të aksesit të të dhënave nga orfruesi i shërbimeve
-Raportet nga auditimet e jashtme ose vetë-vlerëismet së bashku me rekomandimet mbi to
-Raporte monitorimi
-Korrespondenca me ofruesin e shërbimit
-Raportet e trajtimit të incidenteve
-Marrëveshjet e pambyllura me agjencitë e prokurimit
+							<tx l="spa" name="Requisitos de derechos de acceso y protección de datos de la organización.
+Definición de datos (para protección y derechos de acceso).
+Contrato con el proveedor de servicios.
+Lista de registros de acceso a datos del proveedor de servicios.
+Informes de auditorías de terceros o auto auditorías con recomendaciones y seguimiento de las mismas.
+Informes de seguimiento.
+Correspondencia con el proveedor de servicios sobre el tema.
+Informes de manejo de incidentes.
+Acuerdo de no divulgación con la agencia subcontratada.
+Lista de información divulgada por la agencia subcontratada a terceros no relacionados.
+"/>
+							<tx l="fre" name="Exigences en matière de protection des données et de droits d’accès de l’organisation.
+Définition des données (pour la protection et les droits d'accès).
+Contrat avec le prestataire de services.
+Liste des enregistrements d'accès aux données du fournisseur de services.
+Rapports d'audits tiers ou auto-audits avec recommandations et suivi.
+Rapports de suivi.
+Correspondance avec le fournisseur de services sur le sujet.
+Rapports de gestion des incidents.
+Accord de non-divulgation avec l'agence externalisée.
+Liste des informations divulguées par l'agence externalisée à des tiers non liés.
+"/>
+							<tx l="ara" name="متطلبات حقوق الوصول وحماية بيانات المؤسسة.
+تعريف البيانات (للحماية وحقوق الوصول).
+التعاقد مع مزود الخدمة.
+قائمة سجلات الوصول إلى البيانات من مزود الخدمة.
+تقارير تدقيق الطرف الثالث أو المراجعة الذاتية مع التوصيات ومتابعة ذلك.
+تقارير المراقبة.
+المراسلات مع مزود الخدمة حول الموضوع.
+تقارير التعامل مع الحادث.
+اتفاقية عدم إفشاء مع وكالة خارجية.
+قائمة المعلومات التي كشفتها وكالة الاستعانة بمصادر خارجية لطرف ثالث غير ذي صلة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review on adequacy of data protection and access rights requirements/ definition of data.
-
 Document review of the contract with service provider to check for incorporation of Data Protection and access rights requirements.
-
 Document review of third party/ self audit reports.
-
 Document review of the monitoring reports, correspondence and incident handling reports to assess the follow up activities by the organization.
-
 Review of the non disclosure agreement to verify that all relevant information are covered.
-
-Verify if the disclosure of information by outsourced agency is authorized
+Verify if the disclosure of information by outsourced agency is authorized.
 "/>
-							<tx l="fre" name="Rishikim të dokumenteve për përshtatshmërinë e mbrojtjes së të dhënave dhe kërkesave të aksesit të të dhënave.
-
-Rishikim të dokumenteve të kontratës me ofruesin e shërbimit për të kontrolluar mbi inkoporimin e kërkesave të aksesit të të dhënave dhe mbrojtjes së tyre.
-
-Rishikim të dokumenteve, raporteve të auditëve të jashtëm.
-Rishikim të dokumenteve, raporteve të monitorimit, raportet e monitorimit dhe të trajtimit të incidentëve për të vlerësuar aktivitetin e ndjekjes.
-
-Rishikim të marrëveshjeve jo të mbyllura për të verifikuar se i gjithë informacioni i lidhur me të është përfshirë.
+							<tx l="spa" name="Revisión de documentos sobre la adecuación de la protección de datos y los requisitos de derechos de acceso / definición de datos.
+Revisión documental del contrato con el proveedor de servicios para verificar la incorporación de los requisitos de Protección de Datos y derechos de acceso.
+Revisión de documentos de informes de auditoría propia o de terceros.
+Revisión documental de los informes de seguimiento, correspondencia e informes de manejo de incidentes para evaluar las actividades de seguimiento por parte de la organización.
+Revisión del acuerdo de confidencialidad para verificar que se cubra toda la información relevante.
+Verifique si la divulgación de información por parte de una agencia subcontratada está autorizada.
+"/>
+							<tx l="fre" name="Examen des documents sur l'adéquation de la protection des données et les exigences en matière de droits d'accès / définition des données.
+Examen des documents du contrat avec le fournisseur de services pour vérifier l'incorporation des exigences en matière de protection des données et de droits d'accès.
+Examen des documents des rapports de tiers / d'auto-audits.
+Examen des documents des rapports de surveillance, de la correspondance et des rapports de gestion des incidents pour évaluer les activités de suivi de l'organisation.
+Examen de l'accord de non-divulgation pour vérifier que toutes les informations pertinentes sont couvertes.
+Vérifiez si la divulgation d'informations par une agence externalisée est autorisée.
+"/>
+							<tx l="ara" name="مراجعة الوثيقة حول كفاية حماية البيانات ومتطلبات حقوق الوصول / تعريف البيانات.
+مراجعة وثيقة العقد مع مزود الخدمة للتحقق من تضمين حماية البيانات ومتطلبات حقوق الوصول.
+مراجعة الوثائق لتقارير الطرف الثالث / المراجعة الذاتية.
+مراجعة وثائق تقارير المراقبة والمراسلات وتقارير التعامل مع الحوادث لتقييم أنشطة المتابعة من قبل المنظمة.
+مراجعة اتفاقية عدم الإفشاء للتحقق من تغطية جميع المعلومات ذات الصلة.
+تحقق مما إذا كان الكشف عن المعلومات من قبل وكالة خارجية مصرحًا به.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3990,100 +4515,144 @@ Rishikim të marrëveshjeve jo të mbyllura për të verifikuar se i gjithë inf
 		<Area nr="05">
 			<title>
 				<tx l="eng" name="Overseas Service Provider"/>
-				<tx l="fre" name="Ofruesit e huaj të shërbimeve "/>
+				<tx l="spa" name="Proveedor de servicios en el extranjero"/>
+				<tx l="fre" name="Fournisseur de services à l'étranger"/>
+				<tx l="ara" name="مزود الخدمة في الخارج"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Employing overseas service provider is a common form of outsourcing, especially in a cloud computing environment. In this scenario, the risks to such outsourcing would involve foreign regulations on information storage and transfer may limit what can be stored and how it can be processed, data may be used by law enforcement of foreign country without the knowledge of the organisation, privacy and security standards may not always be commensurate and disputes because of the different legal jurisdiction cannot be totally avoided.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>El empleo de un proveedor de servicios en el extranjero es una forma común de subcontratación, especialmente en un entorno de computación en la nube. En este escenario, los riesgos de dicha subcontratación involucrarían regulaciones extranjeras sobre el almacenamiento y la transferencia de información que pueden limitar lo que se puede almacenar y cómo se puede procesar, los datos pueden ser utilizados por las fuerzas del orden de un país extranjero sin el conocimiento de la organización, privacidad y es posible que los estándares de seguridad no siempre sean acordes y las disputas debido a las diferentes jurisdicciones legales no se pueden evitar por completo.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>L'emploi d'un fournisseur de services à l'étranger est une forme courante d'externalisation, en particulier dans un environnement de cloud computing. Dans ce scénario, les risques d'une telle sous-traitance impliqueraient des réglementations étrangères sur le stockage et le transfert d'informations peuvent limiter ce qui peut être stocké et comment il peut être traité, les données peuvent être utilisées par les forces de l'ordre d'un pays étranger à l'insu de l'organisation, de la confidentialité et les normes de sécurité ne sont pas toujours à la mesure et les différends en raison de la différence de juridiction juridique ne peuvent être totalement évités.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>يعد توظيف مزود خدمة خارجي شكلًا شائعًا من التعهيد ، خاصة في بيئة الحوسبة السحابية. في هذا السيناريو ، قد تنطوي المخاطر على مثل هذا الاستعانة بمصادر خارجية على لوائح أجنبية بشأن تخزين المعلومات ونقلها قد تحد مما يمكن تخزينه وكيف يمكن معالجته ، ويمكن استخدام البيانات من قبل تطبيق القانون في بلد أجنبي دون معرفة المنظمة والخصوصية و قد لا تكون معايير الأمن متناسبة دائمًا ولا يمكن تجنب النزاعات بسبب الاختصاص القانوني المختلف تمامًا.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Overseas Service Provider"/>
-					<tx l="fre" name="Ofruesit e jashtëm të Shërbimit"/>
+					<tx l="spa" name="Proveedor de servicios en el extranjero"/>
+					<tx l="fre" name="Fournisseur de services à l'étranger"/>
+					<tx l="ara" name="مزود الخدمة في الخارج"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
-						<ak>The organization have to understand the issues involved in outsourcing to overseas
-agencies while outsourcing to overseas agencies.</ak>
+						<ak>The organization have to understand the issues involved in outsourcing to overseas agencies while outsourcing to overseas agencies.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización debe comprender los problemas relacionados con la subcontratación a agencias en el extranjero mientras se subcontrata a agencias en el extranjero.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation doit comprendre les problèmes liés à l'externalisation vers des agences étrangères tout en sous-traitant à des agences étrangères.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يجب على المنظمة أن تفهم القضايا التي ينطوي عليها التعهيد إلى الوكالات الخارجية أثناء الاستعانة بمصادر خارجية للوكالات الخارجية.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Overseas Service Provider">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To determine if the organization has strategy on contracting services to overseas vendors."/>
-							<tx l="fre" name="Përcaktimi nëse organizata ka strategji mbi shërbimet e kontraktuara në ofruesit jashtë shtetit"/>
+							<tx l="spa" name="Determinar si la organización tiene una estrategia para contratar servicios a proveedores extranjeros."/>
+							<tx l="fre" name="Déterminer si l'organisation a une stratégie de sous-traitance de services à des fournisseurs étrangers."/>
+							<tx l="ara" name="لتحديد ما إذا كانت المنظمة لديها استراتيجية بشأن التعاقد على الخدمات مع البائعين في الخارج."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>To assess whether the organization understands the issues involved in outsourcing to overseas agencies while outsourcing to overseas agencies</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Provisions of outsourcing policy related to outsourcing to overseas agencies. Laws of land regulating business with overseas agencies."/>
-							<tx l="fre" name="Dispozitat e politikave të kontraktimit të lidhura me kontraktimin e agjencive të huaja
-Ligjet e rregullimit të biznesit me agjencitë e huaja
-"/>
+							<tx l="eng" name="Provisions of outsourcing policy related to outsourcing to overseas agencies. 
+Laws of land regulating business with overseas agencies."/>
+							<tx l="spa" name="Disposiciones de la política de subcontratación relacionada con la subcontratación a agencias en el exterior.
+Leyes territoriales que regulan los negocios con agencias extranjeras."/>
+							<tx l="fre" name="Dispositions de politique d'externalisation liées à l'externalisation vers des agences étrangères.
+Les lois foncières régissant les affaires avec les agences étrangères."/>
+							<tx l="ara" name="أحكام سياسة التعهيد المتعلقة بالاستعانة بمصادر خارجية لوكالات خارجية.
+قوانين الأراضي التي تنظم الأعمال التجارية مع الوكالات الخارجية."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="List of laws and regulations related to outsourcing services
-
-Information on any in-country presence of the service provider
-
-List of foreign offices of the organization
-
-List of laws and regulations regulating the service provider in their country
-
-Bilateral agreement between the country of organization and the service provider facilitating outsourcing agreements
-
-Reports on vendor’s past performance on delivery times and quality issues in
-
-Cost benefit analysis of indigenous and overseas service provider
-
-Outsourcing contract and Service Level 
-
-Agreement Information on escrow amount/ financial guarantee
-related to performance
-
-List of deviations from the Service Level Agreement and outsourcing contract
-
-Monitoring and follow up reports on action taken on deviations by the service provider
+							<tx l="eng" name="List of laws and regulations related to outsourcing services.
+Information on any in-country presence of the service provider.
+List of foreign offices of the organization.
+List of laws and regulations regulating the service provider in their country.
+Bilateral agreement between the country of organization and the service provider facilitating outsourcing agreements.
+Reports on vendor’s past performance on delivery times and quality issues.
+Cost benefit analysis of indigenous and overseas service provider.
+Outsourcing contract and Service Level.
+Agreement Information on escrow amount/ financial guarantee related to performance.
+List of deviations from the Service Level Agreement and outsourcing contract.
+Monitoring and follow up reports on action taken on deviations by the service provider.
 "/>
-							<tx l="fre" name="ta e ligjeve dhe rregullave lidhur me shërbimet e kontraktuara
-Informacion mbi çdo lloj prezence të ofruesve të shërbimeve
-Listë e ligjeve dhe rregullave që rregullojnë shërbimet e kontraktura në shtetin përkatës të ofruesit të jashtëm
-Lista e zyrave të jashtme në organizatë
-Marrëveshje bashkëpunimi i shtetit të organizatës dhe marrëveshjet e lehtësimit të ofruesit të shërbimit
-Raporte mbi performancën e ofruesit në ofrimin në kohë dhe në cilësi
-Analiza kosto përfitim të ofruesve vendas dhe të huaj
-Kontrata dhe SLA
-Informacion mbi situatën financiare të furnitorëve
-Lista e shmangieve nga SLA dhe kontrata
-Raporte monitorimi dhe ndjekje mbi veprimet e ndërmarra ndaj shmangieve të ofruesve
+							<tx l="spa" name="Lista de leyes y regulaciones relacionadas con los servicios de subcontratación.
+Información sobre cualquier presencia en el país del proveedor de servicios.
+Lista de oficinas en el extranjero de la organización.
+Lista de leyes y reglamentos que regulan al proveedor de servicios en su país.
+Acuerdo bilateral entre el país de la organización y el proveedor del servicio que facilita los acuerdos de subcontratación.
+Informes sobre el desempeño pasado del proveedor en cuanto a tiempos de entrega y problemas de calidad.
+Análisis de costo-beneficio del proveedor de servicios autóctono y extranjero.
+Contrato de Outsourcing y Nivel de Servicio.
+Acuerdo Información sobre el monto del depósito en garantía / garantía financiera relacionada con el desempeño.
+Lista de desviaciones del Acuerdo de nivel de servicio y contrato de subcontratación.
+Informes de seguimiento de las acciones tomadas en caso de desviaciones por parte del proveedor de servicios.
+"/>
+							<tx l="fre" name="Liste des lois et réglementations relatives aux services d'externalisation.
+Informations sur toute présence dans le pays du fournisseur de services.
+Liste des bureaux étrangers de l'organisation.
+Liste des lois et règlements régissant le fournisseur de services dans leur pays.
+Accord bilatéral entre le pays de l'organisation et le prestataire de services facilitant les accords d'externalisation.
+Rapports sur les performances passées du fournisseur sur les délais de livraison et les problèmes de qualité.
+Analyse coûts-avantages des prestataires de services locaux et étrangers.
+Contrat d'externalisation et niveau de service.
+Accord Informations sur le montant du séquestre / garantie financière liée à la performance.
+Liste des écarts par rapport à l'accord de niveau de service et au contrat d'externalisation.
+Suivi des rapports sur les mesures prises en cas de dérogation par le prestataire de services.
+"/>
+							<tx l="ara" name="قائمة القوانين واللوائح المتعلقة بخدمات التعهيد.
+معلومات عن أي تواجد داخل البلد لمزود الخدمة.
+قائمة المكاتب الخارجية للمنظمة.
+قائمة القوانين واللوائح المنظمة لمقدم الخدمة في دولتهم.
+اتفاقية ثنائية بين دولة المنظمة ومقدم الخدمة لتسهيل اتفاقيات التعهيد.
+تقارير عن أداء البائع السابق في أوقات التسليم ومشكلات الجودة.
+تحليل التكلفة والمنفعة لمقدم الخدمة المحلي والخارجي.
+عقد الاستعانة بمصادر خارجية ومستوى الخدمة.
+معلومات الاتفاقية حول مبلغ الضمان / الضمان المالي المتعلق بالأداء.
+قائمة الانحرافات عن اتفاقية مستوى الخدمة وعقد الاستعانة بمصادر خارجية.
+تقارير مراقبة عن الإجراءات المتخذة بشأن الانحرافات من قبل مزود الخدمة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Document Review to assess that the organization has identified risks related to outsourcing to overseas service provider
-
-Document review to assess the cost benefit analysis addressed the risks related to outsourcing to overseas service provider
-
-Document review to assess that adequate background check on the service provider has been carried out
-
-Document review to assess that a robust system is in place to ensure performance on Service Level Agreement and outsourcing contract
-
+							<tx l="eng" name="Document Review to assess that the organization has identified risks related to outsourcing to overseas service provider.
+Document review to assess the cost benefit analysis addressed the risks related to outsourcing to overseas service provider.
+Document review to assess that adequate background check on the service provider has been carried out.
+Document review to assess that a robust system is in place to ensure performance on Service Level Agreement and outsourcing contract.
 Document review to assess that any deviations from Service Level Agreement and the contract are followed up in timely manner ensuring minimum downtime and loss to the organization.
 "/>
-							<tx l="fre" name="Rishikim të dokumenteve për të vlerësuar nëse organizata ka identifkuar risqet e lidhur me kontratimin e agjencive të huaja.
-
-Rishikim i dokumenteve për të vlerësuar analizat e kosto përfitim të cilat adresojnë risqet e lidhura me prokurimin e agjencive të huaja.
-
-Rishikim të dokumenteve për të vlerësuar se kontrolle të mëparshme janë kryer ndaj ofruesit të shërbimeve në mënyrë të përshtatshme.
-
-Rishikim të dokumenteve për të vlerësuar se ekziston një sistem i fuqishëm për të siguruar performancën e SLA dhe kontratës.
-
-Rishikim i dokumenteve për të vlerësuar se çdo devijim nga SLA dhe kontrata ndiqet në mënyrë të menjëhershme për të minimizuara humbjet në organizatë.
+							<tx l="spa" name="Revisión de documentos para evaluar si la organización ha identificado riesgos relacionados con la subcontratación a un proveedor de servicios en el extranjero.
+Revisión de documentos para evaluar si el análisis de costo-beneficio abordó los riesgos relacionados con la subcontratación a un proveedor de servicios en el extranjero.
+Revisión de documentos para evaluar si se ha llevado a cabo una verificación de antecedentes adecuada del proveedor de servicios.
+Revisión de documentos para evaluar la existencia de un sistema sólido para garantizar el cumplimiento del Acuerdo de nivel de servicio y el contrato de subcontratación.
+Revisión de documentos para evaluar que cualquier desviación del Acuerdo de nivel de servicio y el contrato se haga un seguimiento de manera oportuna, lo que garantiza un tiempo de inactividad mínimo y pérdidas para la organización.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer que l'organisation a identifié les risques liés à l'externalisation à un fournisseur de services à l'étranger.
+L'examen des documents pour évaluer si l'analyse coûts-avantages a abordé les risques liés à l'externalisation à un fournisseur de services à l'étranger.
+Examen des documents pour évaluer s'une vérification adéquate des antécédents du fournisseur de services a été effectuée.
+Examen des documents pour évaluer s'un système solide est en place pour assurer la performance sur l'accord de niveau de service et le contrat d'externalisation.
+Examen des documents pour évaluer que tout écart par rapport à l'accord de niveau de service et au contrat est suivi en temps opportun, garantissant un minimum de temps d'arrêt et de perte pour l'organisation.
+"/>
+							<tx l="ara" name="مراجعة الوثيقة لتقييم أن المنظمة قد حددت المخاطر المتعلقة بالاستعانة بمصادر خارجية لمقدم خدمة خارجي.
+تناولت مراجعة الوثائق لتقييم تحليل التكلفة والمزايا المخاطر المتعلقة بالاستعانة بمصادر خارجية لمقدم خدمة خارجي.
+مراجعة الوثيقة لتقييم أن التحقق الملائم من الخلفية لمقدم الخدمة قد تم إجراؤه.
+مراجعة المستندات لتقييم وجود نظام قوي لضمان الأداء في اتفاقية مستوى الخدمة وعقد الاستعانة بمصادر خارجية.
+مراجعة المستندات لتقييم أن أي انحرافات عن اتفاقية مستوى الخدمة والعقد تتم متابعتها في الوقت المناسب لضمان الحد الأدنى من التعطل والخسارة للمؤسسة..
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -4109,82 +4678,135 @@ Rishikim i dokumenteve për të vlerësuar se çdo devijim nga SLA dhe kontrata 
 		<Area nr="06">
 			<title>
 				<tx l="eng" name="Retaining Business Knowledge"/>
-				<tx l="fre" name="Njohuritë për mbajtjen e biznesit/ Pronësia e proceseve të biznesit"/>
+				<tx l="spa" name="Conservación del conocimiento de la organización"/>
+				<tx l="fre" name="Conserver les connaissances de l'entreprise"/>
+				<tx l="ara" name="الاحتفاظ بالمعرفة التجارية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>There is an inherent risk of loss of business knowledge which resides within the developers of applications. If the vendor for some reason in unable to provide this service, Government IT organizations must be ready to assume this duty again.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>Existe un riesgo inherente de pérdida de conocimiento del negocio que reside en los desarrolladores de aplicaciones. Si el proveedor por alguna razón no puede proporcionar este servicio, las organizaciones gubernamentales de TI deben estar preparadas para asumir este deber nuevamente.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Il existe un risque inhérent de perte de connaissances métier qui réside au sein des développeurs d'applications. Si le fournisseur, pour une raison quelconque, est incapable de fournir ce service, les organisations informatiques gouvernementales doivent être prêtes à assumer à nouveau cette tâche.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>هناك مخاطر متأصلة تتمثل في فقدان المعرفة التجارية التي تقع داخل مطوري التطبيقات. إذا كان البائع غير قادر لسبب ما على تقديم هذه الخدمة ، فيجب أن تكون مؤسسات تكنولوجيا المعلومات الحكومية مستعدة لتولي هذا الواجب مرة أخرى.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Retaining Business Knowledge"/>
-					<tx l="fre" name="Të drejta mbi mbajtjen e njohurive të biznesit"/>
+					<tx l="spa" name="Conservación del conocimiento de la organización"/>
+					<tx l="fre" name="Conserver les connaissances de l'entreprise"/>
+					<tx l="ara" name="الاحتفاظ بالمعرفة التجارية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Organizations retain business knowledge and are able to continue operations in-house for mission critical function if contractors or vendors are unable to provide the service.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Las organizaciones retienen el conocimiento del negocio y pueden continuar las operaciones internas para la función de misión crítica si los contratistas o proveedores no pueden brindar el servicio.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les organisations conservent leurs connaissances métier et sont en mesure de poursuivre les opérations en interne pour les fonctions critiques de la mission si les sous-traitants ou les fournisseurs sont incapables de fournir le service.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تحتفظ المؤسسات بالمعرفة التجارية وتكون قادرة على مواصلة العمليات الداخلية للوظيفة الحرجة للمهمة إذا كان المقاولون أو البائعون غير قادرين على تقديم الخدمة.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Retaining Business Knowledge/ Ownership of business process">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the agency retains business knowledge and ownership of business"/>
-							<tx l="fre" name="Vlerësimi nëse agjencia zotëron njohuri të mbajtjes së procesit dhe posedon proceset e biznesit."/>
+							<tx l="spa" name="Evaluar si la agencia retiene el conocimiento y la propiedad del negocio."/>
+							<tx l="fre" name="Évaluer si l'agence conserve les connaissances métier et la propriété de l'entreprise"/>
+							<tx l="ara" name="لتقييم ما إذا كانت الوكالة تحتفظ بالمعرفة التجارية وملكية الأعمال"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is the business process ownership well delineated and documented? Is it ensured that the loss of business knowledge due to outsourcing does not occur? Is there capacity to conduct the outsourced services in house? Can business continuity be ensured if the vendor was unable to provide services at any point/ in future?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Organizations retain business knowledge and are able to continue operations in-house for mission critical function if contractors or vendors are unable to provide the service. Retention of business process ownership Retention of business knowledge. Performance vis a vis business continuity with respect to the service provider failing to provide service at any point."/>
-							<tx l="fre" name="Organizata posedon njohuri biznesi që kanë mundësi të vazhdojnë operacionet për përmbushjen e funksioneve kritikë nëse tregtari nuk ka mundëi për ofrimin e shërbimit
-Mbajtja e pronësisë së proceseve të biznesit
-Mbajtja e njohurive të biznesit
-Performanca vazhdimësisë së biznesit në respekt të dështimit të ofruesit të shërbimit për ta bërë më këtë gjë në të ardhmen.
+							<tx l="eng" name="Organizations retain business knowledge and are able to continue operations in-house for mission critical function if contractors or vendors are unable to provide the service. 
+Retention of business process ownership Retention of business knowledge. 
+Performance vis a vis business continuity with respect to the service provider failing to provide service at any point.
+"/>
+							<tx l="spa" name="Las organizaciones retienen el conocimiento del negocio y pueden continuar las operaciones internas para la función de misión crítica si los contratistas o proveedores no pueden brindar el servicio.
+Retención de la propiedad del proceso empresarial.
+Retención del conocimiento del negocio.
+Desempeño vis a vis la continuidad del negocio con respecto al proveedor de servicios que no brinda el servicio en algún momento.
+"/>
+							<tx l="fre" name="Les organisations conservent leurs connaissances métier et sont en mesure de poursuivre les opérations en interne pour les fonctions critiques de la mission si les sous-traitants ou les fournisseurs sont incapables de fournir le service.
+Conservation de la propriété des processus métier.
+Conservation des connaissances métier.
+Performance vis-à-vis de la continuité des activités en ce qui concerne le fournisseur de services ne fournissant le service à aucun moment.
+"/>
+							<tx l="ara" name="تحتفظ المؤسسات بالمعرفة التجارية وتكون قادرة على مواصلة العمليات الداخلية للوظيفة الحرجة للمهمة إذا كان المقاولون أو البائعون غير قادرين على تقديم الخدمة.
+الاحتفاظ بملكية العمليات التجارية.
+الاحتفاظ بالمعرفة التجارية.
+الأداء مقابل استمرارية الأعمال فيما يتعلق بفشل مزود الخدمة في تقديم الخدمة في أي وقت.
 "/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Identification of business processes, and critical skills that need to be retained in-house
-
-Documentation of business processes
-
-Detailed system design document of outsourced service with the organization
-
-List of training of staff on the business processes, system design, data, application software
-
+							<tx l="eng" name="Identification of business processes, and critical skills that need to be retained in-house.
+Documentation of business processes.
+Detailed system design document of outsourced service with the organization.
+List of training of staff on the business processes, system design, data, application software.
 Incident reports/ correspondence related to stoppage of service/ dispute with the service provider, including those related to ownership of system/ data.
-
-Meeting minutes with contractor
+Meeting minutes with contractor.
 "/>
-							<tx l="fre" name="Identifikim të proceseve të biznesit, si dhe të aftësive kritike të nevojshme
-Dokumentim të proceseve të biznesit
-Dokument të detajuar të ndërtimit të sistemit të shërbimit të kontraktuar
-Lista e personelit të trajnuar në proceset e biznesit, ndërtimin e sistemit, të dhënat, programet aplikativë.
-Raporte të incidentëve /korrespondenca lidhur me ndërprerjen e shërbimit/ mosmarrëveshje me ofruesin e shërbimit, përfshirë ato me zotëruesin e sistemit/të dhënave.
-Procesverbale të takimeve me kontraktorin
+							<tx l="spa" name="Identificación de procesos de negocio y habilidades críticas que deben conservarse internamente.
+Documentación de procesos de negocio
+Documento de diseño detallado del sistema de servicio subcontratado con la organización.
+Relación de formación del personal sobre los procesos de negocio, diseño de sistemas, datos, software de aplicación.
+Informes / correspondencia de incidentes relacionados con la interrupción del servicio / disputa con el proveedor del servicio, incluidos los relacionados con la propiedad del sistema / datos.
+Acta de la reunión con el contratista.
+"/>
+							<tx l="fre" name="Identification des processus métier et des compétences critiques qui doivent être conservées en interne.
+Documentation des processus métier.
+Document détaillé de conception de système de service externalisé avec l'organisation.
+Liste des formations du personnel sur les processus métier, la conception du système, les données, les logiciels d'application.
+Rapports d'incident / correspondance liés à l'arrêt du service / litige avec le fournisseur de services, y compris ceux liés à la propriété du système / des données.
+Compte rendu de réunion avec l'entrepreneur.
+"/>
+							<tx l="ara" name="تحديد العمليات التجارية والمهارات الهامة التي يجب الاحتفاظ بها داخل الشركة.
+توثيق العمليات التجارية.
+وثيقة تصميم نظام مفصلة لخدمة الاستعانة بمصادر خارجية مع المنظمة.
+قائمة بتدريب الموظفين على العمليات التجارية ، وتصميم النظام ، والبيانات ، وبرامج التطبيقات.
+تقارير الحوادث / المراسلات المتعلقة بوقف الخدمة / النزاع مع مزود الخدمة ، بما في ذلك تلك المتعلقة بملكية النظام / البيانات.
+محضر الاجتماع مع المقاول.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review to assess that the ownership of the process, data and application software is retained by the organisation through adequate provisions in the contract.
-
 Document review to assess that the business knowledge in terms of data, application software, system design are well documented and the staff is updated with these periodically through training etc.
-
 Document review to assess that the organisation and its staff are involved in any system updates carried out by the outsourced agency and the detailed system update documentation is provided to the organization.
-
-Document review to assess that there are no incidents or disputes with the service provider with respect
-to ownership of system and data.
-
+Document review to assess that there are no incidents or disputes with the service provider with respect to ownership of system and data.
 Review meeting minutes with the contractor to ensure that if there are any high level risks they are jointly managed and tracked to ensure continuity of operations.
 "/>
-							<tx l="fre" name="Rishikim të dokumenteve për të vlerësuar nëse pronësia e proceseve, e të dhënave dhe e programit aplikativ mbahet nga organizata nëpërmjet dispozitave të përshtatshme në kontratë.
-Rishikim të dokumentave për të vlerësuar nëse njohuritë e biznesit në kushtet e të dhënave, programit aplikativ, ndërtimit të sistmeit janë të mirë-dokumentuara dhe nëse personeli është i azhornuar më këto periodikisht nëpërmjet trajnimeve, etj.
-Rishikim të dokumenteve për të vlerësuar nëse personeli i organizatës është i përfshirë në çdo përditësim të sistmeit të kryer nga agjencia e kontraktuar dhe nëse dokumentacioni i përditësimit të sistemit ofrohet në organizatë.
-Rishikim të dokumenteve për të vlerësuar nëse ekzistojnë incidente ose ndërprerje me ofruesin e shërbimit referuar pronësisë së sistemit dhe të dhënave. 
-Rishikim të procesverbaleve të mbajtura gjatë mbledhjeve me kontraktorët për tu siguruar nëse ekzistojnë nivele të larta risku, të cilat menaxhohen dhe gjurmohen për të siguruar vazhdimësinë e operacioneve.
+							<tx l="spa" name="Revisión de documentos para evaluar que la propiedad del proceso, los datos y el software de aplicación es retenida por la organización a través de disposiciones adecuadas en el contrato.
+Revisión de documentos para evaluar que el conocimiento del negocio en términos de datos, software de aplicación, diseño de sistemas está bien documentado y que el personal se actualiza con estos periódicamente a través de capacitación, etc.
+Revisión de documentos para evaluar que la organización y su personal están involucrados en cualquier actualización del sistema realizada por la agencia subcontratada y se proporciona a la organización la documentación detallada de actualización del sistema.
+Revisión de documentos para evaluar que no hay incidentes o disputas con el proveedor de servicios con respecto a la propiedad del sistema y los datos.
+Revise las minutas de las reuniones con el contratista para asegurarse de que, si existen riesgos de alto nivel, se gestionen y se controlen conjuntamente para garantizar la continuidad de las operaciones.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer que la propriété du processus, des données et du logiciel d'application est conservée par l'organisation grâce à des dispositions adéquates dans le contrat.
+Examen des documents pour évaluer que les connaissances du métier en termes de données, de logiciels d'application, de conception de système sont bien documentées et que le personnel est régulièrement mis à jour grâce à des formations, etc.
+Examen des documents pour évaluer que l'organisation et son personnel sont impliqués dans toutes les mises à jour du système effectuées par l'agence externalisée et la documentation détaillée de mise à jour du système est fournie à l'organisation.
+Examen des documents pour évaluer qu'il n'y a pas d'incidents ou de différends avec le fournisseur de services en ce qui concerne la propriété du système et des données.
+Examiner les procès-verbaux des réunions avec l'entrepreneur pour s'assurer qu'en cas de risques de haut niveau, ils sont gérés et suivis conjointement pour assurer la continuité des opérations.
+"/>
+							<tx l="ara" name="مراجعة المستندات لتقييم احتفاظ المنظمة بملكية العملية والبيانات والتطبيق من خلال الأحكام المناسبة في العقد.
+مراجعة المستندات لتقييم أن المعرفة التجارية من حيث البيانات وبرامج التطبيقات وتصميم النظام موثقة جيدًا ويتم تحديث الموظفين بها بشكل دوري من خلال التدريب وما إلى ذلك.
+مراجعة الوثيقة لتقييم أن المنظمة وموظفيها يشاركون في أي تحديثات للنظام تقوم بها الوكالة المستعان بها ويتم تقديم وثائق تحديث النظام التفصيلية إلى المنظمة.
+مراجعة المستندات لتقييم عدم وجود حوادث أو نزاعات مع مزود الخدمة فيما يتعلق بملكية النظام والبيانات.
+مراجعة محاضر الاجتماعات مع المقاول للتأكد من أنه في حالة وجود أي مخاطر عالية المستوى يتم إدارتها وتتبعها بشكل مشترك لضمان استمرارية العمليات.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -4210,88 +4832,136 @@ Rishikim të procesverbaleve të mbajtura gjatë mbledhjeve me kontraktorët pë
 		<Area nr="07">
 			<title>
 				<tx l="eng" name="Cost control and management"/>
-				<tx l="fre" name="Kontrolli dhe menaxhimi i kostos"/>
+				<tx l="spa" name="Control y gestión de costes"/>
+				<tx l="fre" name="Contrôle et gestion des coûts"/>
+				<tx l="ara" name="مراقبة التكاليف وإدارتها"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Generally audited entities outsource to realize cost savings. These are achieved when the cost to provide these services are cheaper from a vendor than utilizing in-house labor and or infrastructure.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>Las entidades generalmente auditadas subcontratan para obtener ahorros de costos. Estos se logran cuando el costo de proporcionar estos servicios es más barato para un proveedor que utilizar mano de obra o infraestructura interna.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Les entités généralement auditées sous-traitent pour réaliser des économies de coûts. Ceux-ci sont atteints lorsque le coût de la fourniture de ces services est moins cher de la part d'un fournisseur que l'utilisation de la main-d'œuvreet / ou de l'infrastructure interne .</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تقوم الكيانات الخاضعة للرقابة بشكل عام بالاستعانة بمصادر خارجية لتحقيق وفورات في التكاليف. يتم تحقيق ذلك عندما تكون تكلفة تقديم هذه الخدمات أرخص من البائع من استخدام العمالة الداخلية و / أو البنية التحتية.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Cost control and management"/>
-					<tx l="fre" name="Kontrolli dhe menaxhimi i kostos së sherbimeve nga jashtë"/>
+					<tx l="spa" name="Control y gestión de costes"/>
+					<tx l="fre" name="Contrôle et gestion des coûts"/>
+					<tx l="ara" name="مراقبة التكاليف وإدارتها"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The cost benefit analysis is realistic and is the basis to which the program is managed and controlled.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>El análisis de costes y beneficios es realista y es la base sobre la que se gestiona y controla el programa.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'analyse coûts-avantages est réaliste et constitue la base sur laquelle le programme est géré et contrôlé.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يعتبر تحليل التكلفة والمزايا واقعيًا وهو الأساس الذي يتم من خلاله إدارة البرنامج والتحكم فيه.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Cost control and management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the organization has ensured most economical cost"/>
-							<tx l="fre" name="Vlerësimi nëse organizata ka siguruar kostot më ekonomine nëpërmjet ciklit të jetës së kontratës së prokuruar"/>
+							<tx l="spa" name="Evaluar si la organización ha asegurado el costo más económico"/>
+							<tx l="fre" name="Évaluer si l'organisation a assuré le coût le plus économique"/>
+							<tx l="ara" name="لتقييم ما إذا كانت المنظمة قد ضمنت التكلفة الأكثر اقتصادا"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Have all the costs (including future costs) for outsourcing identified? Has due cost benefit analysis been carried out and best option been chosen? Are there specific responsibilities on the organization in the outsourcing and do they have critical cost elements/ impacts built in? Are additional costs or escalated costs being charged to the agency?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The cost benefit analysis is realistic and is the basis to which the program is managed and controlled"/>
-							<tx l="fre" name="Analiza kosto përfitim është reale dhe është baza në të cilën menaxhohet dhe kontrollohet programi"/>
+							<tx l="spa" name="El análisis de costes y beneficios es realista y es la base sobre la que se gestiona y controla el programa"/>
+							<tx l="fre" name="L'analyse coûts-avantages est réaliste et constitue la base sur laquelle le programme est géré et contrôlé"/>
+							<tx l="ara" name="يعتبر تحليل التكلفة والمزايا واقعيًا وهو الأساس الذي يتم من خلاله إدارة البرنامج والتحكم فيه"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Initial cost benefit analysis
-
-Estimated cost of outsourced contract
-
-Selection process of the service provider vis a vis cost element
-
-Approval process documents related to selection Instances of additional costs/ escalation of costs by the service provider
-
-Service Level Agreement and contract
-
-Monitoring reports with respect to specific function/ activity for which escalation / addition of cost is being sought
-
-Action documents on requests for additional costs/ escalation of costs by service provider
+							<tx l="eng" name="Initial cost benefit analysis.
+Estimated cost of outsourced contract.
+Selection process of the service provider vis a vis cost element.
+Approval process documents related to selection.
+Instances of additional costs/ escalation of costs by the service provider.
+Service Level Agreement and contract.
+Monitoring reports with respect to specific function/ activity for which escalation / addition of cost is being sought.
+Action documents on requests for additional costs/ escalation of costs by service provider.
 "/>
-							<tx l="fre" name="Analizat fillestare kosto përfitim
-Kostot e vlerësuara të kontratës së prokuruar
-Proceset e zgjedhur të ofruesit të shërbimit dhe elementet e kostos
-Dokumenta të procesit të aprovimit lidhur me zgjedhjen
-Elementë të kostove të përshkallëzuara nga ofruesi i shërbimeve
-SLA ose kontrata
-Raporte monitorimi në respekt të funksioneve të veçanta/ aktiviteteve për të cilat kostot alternative/të përshkallëzuara janë matur.
-Dokumentet e veprimir mbi kërkesat për kosto alternative/ të përshkallëzuara nga ofruesi i shërbimit
+							<tx l="spa" name="Análisis de costo-beneficio inicial.
+Costo estimado del contrato subcontratado.
+Proceso de selección del proveedor de servicios frente a elemento de costo.
+Documentos del proceso de aprobación relacionados con la selección.
+Casos de costos adicionales / escalada de costos por parte del proveedor de servicios.
+Acuerdo y contrato de nivel de servicio.
+Monitorear informes con respecto a la función / actividad específica para la cual se busca un aumento / adición de costos.
+Documentos de acción sobre solicitudes de costos adicionales / escalada de costos por parte del proveedor de servicios.
+"/>
+							<tx l="fre" name="Analyse coûts-avantages initiale.
+Coût estimé du contrat externalisé.
+Processus de sélection du prestataire de services par rapport à un élément de coût.
+Documents du processus d'approbation liés à la sélection.
+Instances de coûts supplémentaires / escalade des coûts par le fournisseur de services.
+Accord de niveau de service et contrat.
+Rapports de suivi relatifs à une fonction / activité spécifique pour laquelle une augmentation des coûts est demandée.
+Documents d'action sur les demandes de surcoûts / escalade de coûts par prestataire de services.
+"/>
+							<tx l="ara" name="Iتحليل التكلفة الأولية والمزايا.
+التكلفة المقدرة لعقد الاستعانة بمصادر خارجية.
+عملية اختيار مقدم الخدمة مقابل عنصر التكلفة.
+وثائق عملية الموافقة المتعلقة بالاختيار.
+أمثلة على التكاليف الإضافية / تصعيد التكاليف من قبل مزود الخدمة.
+اتفاقية مستوى الخدمة والعقد.
+تقارير المراقبة فيما يتعلق بوظيفة / نشاط معين يتم السعي إلى زيادة / إضافة التكلفة الخاصة به.
+وثائق العمل بشأن طلبات التكاليف الإضافية / تصعيد التكاليف من قبل مزود الخدمة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review to assess that all costs have been identified by the organization, reviewed and approved by relevant stakeholders.
-
 Document review of the selection and approval process.
-
 Document review to assess that all costs are reflected in the contract and there are no hidden costs including any future costs.
-
 Review that all costs are subject to cost benefit analysis before commitment by the organization.
-
 Review and comparison of estimated vs. actual expenditures on the contract.
-
 Review of expenditure vis a vis the available budget.
-
-Review of the performance of service provider on specific activity/ function for which change in cost is sought through monitoring reports and assess the need for such change.
+Review of the performance of service provider on specific activity / function for which change in cost is sought through monitoring reports and assess the need for such change.
 "/>
-							<tx l="fre" name="Rishikim të dokumenteve për të vlerësuar nëse të gjitha kostot janë identifikuar nga organizata, rishikuar dhe aprovuar nga palët e interesuara.
-Rishikim të dokumenteve në procesin e aprovimit dhe përzgjedhjes.
-Rishikim të dokumenteve për të vlerësuar nëse të gjitha kostot janë reflektuar në kontratë dhe nëse ekzistojnë kosto të tjera të fshehura, përfshirë kosto të ardhshme.
-Rishikim të të gjitha kostove për të verifikuar nëse janë subjekt i analizave përpara angazhimit.
-Rishikim dhe krahasim të kostove të vlerësuara me shpenzimet aktuale në kontratë.
-Rishikim të shpenzime në buxhet.
-Rishikim të performancës së ofruesit të shërbimit mbi aktivitetin/funksionin specifik për të cilin janë evidentuar ndryshime në kosto nëpërmjet raporteve të monitorimit dhe vlerësimi i nevojës për ndryshim.
-Rishikim të veprimeve nga organizata në kostot shtesë/ të përshkallëzuara nga ofruesi i shërbimeve.
+							<tx l="spa" name="Revisión de documentos para evaluar que todos los costos hayan sido identificados por la organización, revisados y aprobados por las partes interesadas relevantes.
+Revisión documental del proceso de selección y aprobación.
+Revisión de documentos para evaluar que todos los costos se reflejan en el contrato y que no hay costos ocultos, incluidos los costos futuros.
+Revise que todos los costos estén sujetos a un análisis de costo-beneficio antes del compromiso por parte de la organización.
+Revisión y comparación de los gastos estimados frente a los reales en el contrato.
+Revisión de gastos frente al presupuesto disponible.
+Revisión del desempeño del proveedor de servicios en la actividad / función específica para la cual se busca un cambio en el costo a través de informes de monitoreo y evaluar la necesidad de dicho cambio.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer que tous les coûts ont été identifiés par l'organisation, examinés et approuvés par les parties prenantes concernées.
+Examen des documents du processus de sélection et d'approbation.
+Examen des documents pour évaluer que tous les coûts sont reflétés dans le contrat et qu'il n'y a pas de coûts cachés, y compris les coûts futurs.
+Vérifiez que tous les coûts sont soumis à une analyse coûts-avantages avant l'engagement de l'organisation.
+Examen et comparaison des dépenses estimées par rapport aux dépenses réelles du contrat.
+Examen des dépenses par rapport au budget disponible.
+Examen de la performance du fournisseur de services sur une activité / fonction spécifique pour laquelle un changement de coût est recherché par le biais de rapports de suivi et évaluation de la nécessité d'un tel changement.
+"/>
+							<tx l="ara" name="مراجعة الوثيقة لتقييم أن جميع التكاليف قد تم تحديدها من قبل المنظمة ومراجعتها والموافقة عليها من قبل أصحاب المصلحة المعنيين.
+مراجعة الوثيقة لعملية الاختيار والموافقة.
+مراجعة المستندات لتقييم أن جميع التكاليف تنعكس في العقد ولا توجد تكاليف خفية بما في ذلك أي تكاليف مستقبلية.
+راجع أن جميع التكاليف تخضع لتحليل التكلفة والمزايا قبل الالتزام من قبل المنظمة.
+مراجعة ومقارنة النفقات المقدرة مقابل الفعلية على العقد.
+مراجعة المصروفات مقابل الميزانية المتاحة.
+مراجعة أداء مزود الخدمة في نشاط / وظيفة محددة يتم السعي إلى تغيير التكلفة من خلال تقارير المراقبة وتقييم الحاجة إلى مثل هذا التغيير.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -4317,12 +4987,26 @@ Rishikim të veprimeve nga organizata në kostot shtesë/ të përshkallëzuara 
 		<Area nr="08">
 			<title>
 				<tx l="eng" name="Service Level Agreement"/>
-				<tx l="fre" name="Marrëveshja në Nivel Shërbimi (SLA)"/>
+				<tx l="spa" name="Acuerdo de nivel de servicio"/>
+				<tx l="fre" name="Accord de niveau de service"/>
+				<tx l="ara" name="اتفاقية مستوى الخدمة"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>The Service Level Agreement (SLA) is a documented agreement between the organization and the vendor to whom the services are outsourced and is a key tool to managing vendors.
 SLA should define the services the vendor is expected to perform as well as the technical parameters for those services since it is a legally binding agreement between the vendor and the organization.</ak>
+				</narr>
+				<narr l="spa">
+					<ak>El acuerdo de nivel de servicio (SLA) es un acuerdo documentado entre la organización y el proveedor al que se subcontratan los servicios y es una herramienta clave para la gestión de proveedores.
+El acuerdo de nivel de servicio debe definir los servicios que se espera que realice el proveedor, así como los parámetros técnicos para esos servicios, ya que es un acuerdo legalmente vinculante entre el proveedor y la organización.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>L'accord de niveau de service (SLA) est un accord documenté entre l'organisation et le fournisseur auquel les services sont externalisés et constitue un outil clé pour la gestion des fournisseurs.
+L'accord de niveau de service doit définir les services que le fournisseur est censé fournir ainsi que les paramètres techniques de ces services puisqu'il s'agit d'un accord juridiquement contraignant entre le fournisseur et l'organisation.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>اتفاقية مستوى الخدمة هي اتفاقية موثقة بين المنظمة والمورد الذي يتم الاستعانة بمصادر خارجية للخدمات له وهي أداة رئيسية لإدارة البائعين.
+يجب أن تحدد اتفاقية مستوى الخدمة الخدمات التي من المتوقع أن يؤديها البائع بالإضافة إلى المعايير الفنية لتلك الخدمات نظرًا لأنها اتفاقية ملزمة قانونًا بين البائع والمؤسسة.</ak>
 				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
