@@ -5012,41 +5012,67 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Service Level Agreement"/>
-					<tx l="fre" name="Marrëveshja e nivelit të shërbimit"/>
+					<tx l="spa" name="Acuerdo de nivel de servicio"/>
+					<tx l="fre" name="Accord de niveau de service"/>
+					<tx l="ara" name="اتفاقية مستوى الخدمة"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The service level agreement is the basis for monitoring and controlling the contractor or vendor against technical and other requirements.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>El acuerdo de nivel de servicio es la base para monitorear y controlar al contratista o proveedor frente a requisitos técnicos y de otro tipo.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'accord de niveau de service est la base de la surveillance et du contrôle de l'entrepreneur ou du fournisseur par rapport aux exigences techniques et autres.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>اتفاقية مستوى الخدمة هي الأساس لرصد ومراقبة المقاول أو البائع مقابل المتطلبات الفنية والمتطلبات الأخرى.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Service Level Agreement">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the agency has developed the service level agreement"/>
-							<tx l="fre" name="Vlerësimi nëse agjencia ka zhvilluar një marrëveshje të detajuar në nivel shërbimi së bashku me të gjitha kërkesat dhe nëse është aktivisht monitoruese ndaj tregtarit kundrejt marrëveshjes"/>
+							<tx l="spa" name="Evaluar si la agencia ha desarrollado el acuerdo de nivel de servicio"/>
+							<tx l="fre" name="Évaluer si l'agence a élaboré l'accord de niveau de service"/>
+							<tx l="ara" name="Tلتقييم ما إذا كانت الوكالة قد طورت اتفاقية مستوى الخدمة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is a service level agreement agreed to between the organisation and the service provider? Is the service level agreement detailed enough to identify all roles and responsibilities between the organization and the service provider? Is the service level agreement implemented diligently? Does the organization have a mechanism to monitor the implementation of the service level agreement? Is there a mechanism available to address exceptions to the service level agreement?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The service level agreement is the basis for monitoring and controlling the contractor or vendor against technical and other requirements"/>
-							<tx l="fre" name="Marrëveshja në nivel shërbimi është baza për monitorimin dhe kontrollin e kontraktonit ose furnitorit kundrejt specifikimeve teknike"/>
+							<tx l="spa" name="El acuerdo de nivel de servicio es la base para monitorear y controlar al contratista o proveedor frente a requisitos técnicos y de otro tipo"/>
+							<tx l="fre" name="L'accord de niveau de service est la base de la surveillance et du contrôle de l'entrepreneur ou du fournisseur par rapport aux exigences techniques et autres"/>
+							<tx l="ara" name="اتفاقية مستوى الخدمة هي الأساس لرصد ومراقبة المقاول أو البائع مقابل المتطلبات الفنية والمتطلبات الأخرى"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Service level agreement or contract
-
 Technical and other requirements (list of services that will be performed by the vendor,)
-List of responsibilities of organization and vendor Baselines for the services that will be measured, measurement period, duration, location, and reporting timelines (defect rates, response time, help desk staffing hours, etc.)
-
+List of responsibilities of organization and vendor 
+Baselines for the services that will be measured, measurement period, duration, location, and reporting timelines (defect rates, response time, help desk staffing hours, etc.)
 Periodic vendor performance status reports
 "/>
-							<tx l="fre" name=" A ose kontrakt
-Kërkesat teknike (lista e shërbimeve që do të kryhen nga ofruesi)
-Lista e përgjegjësive të organizatës dhe të ofruesit
-Bazat pët shërbimet që do të maten, periudha e matjes, kohëzgjatja, vendndodhja, dhe periudha e raportimit (normat e defekteve, koha e përgjigjes, orët e help desk, etj)
-Raportet periodike të statusit të performancës së tregtarit
+							<tx l="spa" name="Acuerdo o contrato de nivel de servicio
+Requisitos técnicos y de otro tipo (lista de servicios que realizará el proveedor)
+Lista de responsabilidades de la organización y el proveedor
+Líneas de base para los servicios que se medirán, período de medición, duración, ubicación y cronogramas de informes (tasas de defectos, tiempo de respuesta, horas de personal de lo servicio de ayuda, etc.)
+Informes periódicos del estado de desempeño de los proveedores
+"/>
+							<tx l="fre" name="Contrat de niveau de service ou contrat
+Exigences techniques et autres (liste des services qui seront fournis par le fournisseur)
+Liste des responsabilités de l'organisation et du fournisseur
+Bases de référence pour les services qui seront mesurés, période de mesure, durée, emplacement et délais de rapport (taux de défauts, temps de réponse, heures de personnel du service d'assistance, etc.)
+Rapports périodiques sur l'état des performances des fournisseurs
+"/>
+							<tx l="ara" name="اتفاقية أو عقد مستوى الخدمة
+المتطلبات الفنية والمتطلبات الأخرى (قائمة الخدمات التي سيتم تنفيذها من قبل البائع)
+قائمة مسؤوليات المنظمة والبائعين
+خطوط الأساس للخدمات التي سيتم قياسها ، وفترة القياس ، والمدة ، والموقع ، والجداول الزمنية لإعداد التقارير (معدلات العيوب ، ووقت الاستجابة ، وساعات عمل مكتب المساعدة ، وما إلى ذلك)
+تقارير دورية عن حالة أداء البائعين
 "/>
 						</inf>
 					</InformationRequired>
@@ -5056,18 +5082,37 @@ Raportet periodike të statusit të performancës së tregtarit
 Document review to assess that the roles and responsibilities of the organization and the service provider are clearly identified and delineated.
 Document review to assess that the parameters for performance levels are clearly identified and included in the service level agreement.
 Document review to assess that the service level monitoring mechanism is established and agreed to between the organization and service provider.
-Review vendors status reports to assess that the parameters in the SLA are being reported on by the contractor and reviewed by appropriate personnel within the organization.
+Review vendors status reports to assess that the parameters in the Service Level Agreement are being reported on by the contractor and reviewed by appropriate personnel within the organization.
 Assessment of compliance to SLA technical parameters and baselines.
 Verify the action taken by the organization for deviations from service level agreement.
-Review of action by organization on additional costs/ escalation of costs by service provider..
+Review of action by organization on additional costs/ escalation of costs by service provider.
 "/>
-							<tx l="fre" name="Rishikim të dokumentacionit për të vlerësuar se të gjitha kërkesat e përdoruesve janë përkthyer në kërkesat e nivelet e shërbimit.
-Rishikim të dokumentave për të vlerësuar se detyrat dhe përgjegjësitë e organizatës dhe të tregtarit janë identifkuar dhe janë implementuar.
-Rishikim të dokumenteve për të vlerësuar nëse parametrat për nivelet e performancës janë identifkuar qartësisht dhe nëse janë përfshirë në marrëveshjen në nivel shërbimi.
-Rishikim të dokumenteve për të vlerësuar nëse mekanizmi i monitorimit të nivelit të shërbimit është vendosur dhe është aprovuar nga organizata dhe ofruesi i shërbimit.
-Rishikim të raporteve të statusit të tregtarit për të vlerësuar nëse parametrat në SLA raportohen nga kontraktori dhe rishikohen nga personeli i duhur në organizatë.
-Vlerësim të përputhshmërisë së parametrave teknikë të SLA.
-Verifikim të veprimeve të ndërmarrë nga organizata për shmangiet nga SLA.
+							<tx l="spa" name="Revisión de documentos para evaluar que todos los requisitos de los usuarios se traducen en requisitos de nivel de servicios.
+Revisión de documentos para evaluar que los roles y responsabilidades de la organización y el proveedor de servicios están claramente identificados y delineados.
+Revisión de documentos para evaluar que los parámetros para los niveles de desempeño estén claramente identificados e incluidos en el acuerdo de nivel de servicio.
+Revisión de documentos para evaluar que el mecanismo de monitoreo del nivel de servicio está establecido y acordado entre la organización y el proveedor de servicios.
+Revise los informes de estado de los proveedores para evaluar si el contratista informa sobre los parámetros del Acuerdo de nivel de servicio y el personal adecuado de la organización los revisa.
+Evaluación del cumplimiento de los parámetros técnicos y líneas base del cuerdo de nivel de servicio
+Verifique la acción tomada por la organización para las desviaciones del acuerdo de nivel de servicio.
+Revisión de la acción de la organización sobre costos adicionales / escalada de costos por parte del proveedor de servicios.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer que toutes les exigences des utilisateurs sont traduites en exigences de niveau de service.
+Examen des documents pour évaluer que les rôles et les responsabilités de l'organisation et du fournisseur de services sont clairement identifiés et délimités.
+Examen des documents pour évaluer que les paramètres des niveaux de performance sont clairement identifiés et inclus dans l'accord de niveau de service.
+Examen des documents pour évaluer que le mécanisme de surveillance du niveau de service est établi et convenu entre l'organisation et le fournisseur de services.
+Examiner les rapports de situation des fournisseurs pour évaluer que les paramètres de l'accord de niveau de service sont signalés par l'entrepreneur et examinés par le personnel approprié de l'organisation.
+Évaluation de la conformité aux paramètres techniques et aux références de l'accord de niveau de service.
+Vérifiez les mesures prises par l'organisation pour les écarts par rapport à l'accord de niveau de service.
+Examen de l'action de l'organisation sur les coûts supplémentaires / escalade des coûts par le fournisseur de services.
+"/>
+							<tx l="ara" name="مراجعة المستند لتقييم ترجمة جميع متطلبات المستخدم إلى متطلبات مستوى الخدمات.
+مراجعة الوثيقة لتقييم أن أدوار ومسؤوليات المنظمة ومقدم الخدمة محددة ومحددة بوضوح.
+مراجعة الوثيقة لتقييم أن معلمات مستويات الأداء محددة بوضوح ومضمنة في اتفاقية مستوى الخدمة.
+مراجعة الوثيقة لتقييم إنشاء آلية مراقبة مستوى الخدمة والاتفاق عليها بين المؤسسة ومقدم الخدمة.
+مراجعة تقارير حالة الموردين لتقييم أن المعلمات الواردة في اتفاقية مستوى الخدمة يتم الإبلاغ عنها من قبل المقاول ومراجعتها من قبل الموظفين المناسبين داخل المنظمة.
+تقييم الامتثال للمعايير الفنية وخطوط الأساس لاتفاقية مستوى الخدمة.
+التحقق من الإجراء الذي اتخذته المنظمة للانحرافات عن اتفاقية مستوى الخدمة.
+مراجعة الإجراءات من قبل المنظمة بشأن التكاليف الإضافية / تصعيد التكاليف من قبل مزود الخدمة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -5093,85 +5138,140 @@ Verifikim të veprimeve të ndërmarrë nga organizata për shmangiet nga SLA.
 		<Area nr="09">
 			<title>
 				<tx l="eng" name="Security"/>
-				<tx l="fre" name="Siguria"/>
+				<tx l="spa" name="Seguridad"/>
+				<tx l="fre" name="Sécurité"/>
+				<tx l="ara" name="حماية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>While outsourcing databases and its administration, IT organizations must evaluate whether vendors have sufficiently robust security practices and if vendors can meet the security requirements, internally.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>Mientras subcontratan las bases de datos y su administración, las organizaciones de TI deben evaluar si los proveedores tienen prácticas de seguridad suficientemente sólidas y si los proveedores pueden cumplir con los requisitos de seguridad internamente.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Lors de l'externalisation des bases de données et de leur administration, les services informatiques doivent évaluer si les fournisseurs ont des pratiques de sécurité suffisamment solides et si les fournisseurs peuvent répondre aux exigences de sécurité en interne.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>أثناء الاستعانة بمصادر خارجية لقواعد البيانات وإدارتها ، يجب على مؤسسات تكنولوجيا المعلومات تقييم ما إذا كان البائعون لديهم ممارسات أمنية قوية بما فيه الكفاية وما إذا كان بإمكان البائعين تلبية متطلبات الأمان داخليًا.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Identified security requirements"/>
-					<tx l="fre" name="Kërkesat e identifikuara të sigurisë ne MNSH"/>
+					<tx l="spa" name="Requisitos de seguridad identificados"/>
+					<tx l="fre" name="Exigences de sécurité identifiées"/>
+					<tx l="ara" name="متطلبات الأمان المحددة"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organizations pertinent security requirements are levied on the contractor as appropriate.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Los requisitos de seguridad pertinentes de la organización se imponen al contratista según sea apropiado.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les exigences de sécurité pertinentes de l'organisation sont imposées à l'entrepreneur, le cas échéant.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يتم فرض متطلبات الأمن ذات الصلة للمنظمات على المقاول حسب الاقتضاء.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Security">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the security requirements are addressed in outsourcing and being complied to"/>
-							<tx l="fre" name="Vlerësime nëse kërkesat e sigurisë janë adresuar në prokurim dhe janë në përputhje me to."/>
+							<tx l="spa" name="Evaluar si los requisitos de seguridad se abordan en la subcontratación y se cumplen"/>
+							<tx l="fre" name="Évaluer si les exigences de sécurité sont prises en compte lors de l'externalisation et si elles sont respectées"/>
+							<tx l="ara" name="لتقييم ما إذا كانت المتطلبات الأمنية قد تم تناولها في الاستعانة بمصادر خارجية والامتثال لها"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Have the security requirements been identified by the organization with respect to outsourcing? Is there a mechanism ensuring that the security requirements of the organization are addressed by the service provider? Does the organization have a mechanism to monitor compliance to security requirements by the service provider?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organizations pertinent security requirements are levied on the contractor as appropriate"/>
-							<tx l="fre" name="Këkesat e sigurisë së organizatës janë theksuar nga kontraktori në mënyrë të përshtatshme."/>
+							<tx l="spa" name="Los requisitos de seguridad pertinentes de la organización se imponen al contratista según sea apropiado"/>
+							<tx l="fre" name="Les exigences de sécurité pertinentes de l'organisation sont imposées à l'entrepreneur, le cas échéant"/>
+							<tx l="ara" name="يتم فرض متطلبات الأمن ذات الصلة للمنظمات على المقاول حسب الاقتضاء"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Organization security policy Outsourcing Contract Service Level Agreement
+							<tx l="eng" name="Organization security policy 
+Outsourcing Contract 
+Service Level Agreement
 Inventory of data, application software and hardware with the service provider
-
 Inventory of back up data files and application software with the service provider
-
 Access control logs of the data files, application software as well as hardware at the outsourced location
-
 Security plan for the back up site and disaster recovery site
-Monitoring reports with respect to security issues Correspondence between organization and service
-provider with respect to security issues
+Monitoring reports with respect to security issues 
+Correspondence between organization and service provider with respect to security issues
 "/>
-							<tx l="fre" name="Politikat organizacional të sigurisë
-Kontrata e prokurimit
-SLA
-Inventar i të dhënave, programe aplikative dhe pajisjeve me ofruesin e shërbimit
-Inventar të dosjeve backup të të dhënave dhe programeve aplikativë me ofruesin e shërbimit
-Loge të kontrollit të aksesit të të dhënave, programeve aplikativë, ashtu si edhe pajisjet kompjuterike në vendodhjen e kontraktorit
-Plani i sigurisë për ndërtesën ku ndodhen backup 
-Raportet e monitorimit referuar çështjeve të sigurisë
-Korrespondenca midis organizatës dhe ofruesit të shërbimit referuar çështjeve të sigurisë
+							<tx l="spa" name="Política de seguridad de la organización
+Contrato de subcontratación
+Acuerdo de nivel de servicio
+Inventario de datos, software de aplicación y hardware con el proveedor de servicios.
+Inventario de archivos de datos de respaldo y software de aplicación con el proveedor de servicios
+Registros de control de acceso de los archivos de datos, software de aplicación y hardware en la ubicación subcontratada
+Plan de seguridad para el sitio de respaldo y el sitio de recuperación ante desastres
+Seguimiento de informes con respecto a problemas de seguridad.
+Correspondencia entre la organización y el proveedor de servicios con respecto a los problemas de seguridad.
+"/>
+							<tx l="fre" name="Politique de sécurité de l'organisation
+Contrat d'externalisation
+Accord de niveau de service
+Inventaire des données, des logiciels d'application et du matériel avec le fournisseur de services
+Inventaire des fichiers de données de sauvegarde et des logiciels d'application avec le fournisseur de services
+Journaux de contrôle d'accès des fichiers de données, des logiciels d'application ainsi que du matériel sur le site externalisé
+Plan de sécurité pour le site de sauvegarde et le site de reprise après sinistre
+Rapports de surveillance concernant les problèmes de sécurité
+Correspondance entre l'organisation et le fournisseur de services concernant les problèmes de sécurité
+"/>
+							<tx l="ara" name="سياسة أمن المنظمة
+عقد الاستعانة بمصادر خارجية
+اتفاقية مستوى الخدمة
+جرد البيانات والبرامج التطبيقية والأجهزة مع مزود الخدمة
+جرد لملفات البيانات الاحتياطية وبرامج التطبيق مع مزود الخدمة
+سجلات التحكم في الوصول لملفات البيانات وبرامج التطبيقات وكذلك الأجهزة الموجودة في موقع الاستعانة بمصادر خارجية
+خطة الأمان لموقع النسخ الاحتياطي وموقع التعافي من الكوارث
+تقارير المراقبة فيما يتعلق بالمسائل الأمنية
+المراسلات بين المنظمة ومقدم الخدمة فيما يتعلق بقضايا الأمن
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Document review to assess that the security requirements have been identified by the organization and built into the outsourcing contract or SLA.
-
+							<tx l="eng" name="Document review to assess that the security requirements have been identified by the organization and built into the outsourcing contract or Servce Level Agreement.
 Verify if the organization has the inventory of data files, application software.
-
 Verify that the organization monitors/ is aware that status of data files, application software and hardware are preserved during the back up and data recovery process carried out by the outsourced agency.
-
 Verify if the organization has assurance on authorization of any change in data, application software and hardware by the outsourced agency.
-
 Verify if the organization has an assurance on the access to the data, application software and hardware at the outsourced location through study of access logs (physical and logical).
-
 Verify if the organization has assurance on security mechanisms put in place by the service provider.
-
 Verify if the organization receives regular reports and acts on the information in the monitoring reports.
 "/>
-							<tx l="fre" name="ishikim të dokumenteve për të vlerësuar se kërkesat e sigurisë janë identifkuar prej organizatës dhe janë hartuar në kontratë ose në SLA.
-Verifikim nëse organizatës ka një invesntar të të dhënave, të programeve aplikativë.
-Verifikim nëse organizata monitoron/ është e ndërgjegjshme për statusin e të dhënave, programeve aplikativë dhe pajisjeve, nëse ato janë ruajtur gjatë procesit të backup-it dhe gjatë procesit të rimëkëmbjes, të kryera këto nga ofruesi i shërbimit.
-Verifikim nëse organizata ka garanci mbi autorizimin e ndryshimeve në të dhëna, programe aplikativë dhe pajisje kompjuterike.
-Verifikim nëse organizata ka garanci mbi autorizimin e aksesit në të dhëna, programe aplikativë dhe pajisjet kompjuterike në vendodhjen e kontraktorit nëpërmjet studimit të logeve të aksesit (fizim dhe logjik).
-Verifikim nëse organizata ka garanci mbi mekanizmat e sigurisë të vendosura nga ofruesi i shërbimit.
-Verifikim nëse organizata merr raporte të rrgullta dhe akte mbi informacionin e raporteve të monitorimit.
+							<tx l="spa" name="Revisión de documentos para evaluar que los requisitos de seguridad han sido identificados por la organización y se han incorporado al contrato de subcontratación o al acuerdo de nivel de servicio.
+Verifique si la organización tiene el inventario de archivos de datos, software de aplicación.
+Verificar que la organización monitorea / es consciente de que el estado de los archivos de datos, el software de aplicación y el hardware se conservan durante el proceso de respaldo y recuperación de datos realizado por la agencia subcontratada.
+Verifique si la organización tiene la seguridad de la autorización de cualquier cambio en los datos, el software de aplicación y el hardware por parte de la agencia subcontratada.
+Verificar si la organización tiene una garantía sobre el acceso a los datos, software de aplicación y hardware en la ubicación subcontratada mediante el estudio de los registros de acceso (físicos y lógicos).
+Verifique si la organización tiene garantías sobre los mecanismos de seguridad establecidos por el proveedor de servicios.
+Verificar si la organización recibe informes periódicos y actúa sobre la información de los informes de seguimiento.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer que les exigences en matière de sécurité ont été identifiées par l'organisation et intégrées dans le contrat d'impartition ou l'accord de niveau de service.
+Vérifiez si l'organisation dispose de l'inventaire des fichiers de données et des logiciels d'application.
+Vérifiez que l'organisation surveille / est consciente que l'état des fichiers de données, des logiciels d'application et du matériel est préservé pendant le processus de sauvegarde et de récupération de données effectué par l'agence externalisée.
+Vérifier si l'organisation a l'assurance de l'autorisation de tout changement dans les données, les logiciels d'application et le matériel par l'agence externalisée.
+Vérifier si l'organisation a une assurance sur l'accès aux données, aux logiciels d'application et au matériel sur le site externalisé grâce à l'étude des journaux d'accès (physiques et logiques).
+Vérifier si l'organisation a une assurance sur les mécanismes de sécurité mis en place par le fournisseur de services.
+Vérifiez si l'organisation reçoit des rapports réguliers et agit sur les informations contenues dans les rapports de suivi.
+"/>
+							<tx l="ara" name="مراجعة المستندات لتقييم أن المتطلبات الأمنية قد تم تحديدها من قبل المنظمة ودمجها في عقد الاستعانة بمصادر خارجية أو اتفاقية مستوى الخدمة.
+تحقق مما إذا كانت المنظمة لديها مخزون من ملفات البيانات ، وبرامج التطبيقات.
+تحقق من أن المؤسسة تراقب / تدرك أنه يتم الاحتفاظ بحالة ملفات البيانات وبرامج التطبيقات والأجهزة أثناء عملية النسخ الاحتياطي واستعادة البيانات التي تقوم بها الوكالة الخارجية.
+تحقق مما إذا كانت المنظمة لديها ضمان بشأن الإذن بأي تغيير في البيانات وبرامج التطبيقات والأجهزة من قبل وكالة الاستعانة بمصادر خارجية.
+تحقق مما إذا كان لدى المؤسسة ضمان بشأن الوصول إلى البيانات وبرامج التطبيقات والأجهزة في موقع الاستعانة بمصادر خارجية من خلال دراسة سجلات الوصول (المادية والمنطقية).
+تحقق مما إذا كانت المنظمة لديها ضمانات بشأن آليات الأمان التي وضعها مزود الخدمة.
+تحقق مما إذا كانت المنظمة تتلقى تقارير منتظمة وتتصرف بناءً على المعلومات الواردة في تقارير المراقبة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -5197,68 +5297,104 @@ Verifikim nëse organizata merr raporte të rrgullta dhe akte mbi informacionin 
 		<Area nr="10">
 			<title>
 				<tx l="eng" name="Back up and disaster recovery for outsourced services"/>
-				<tx l="fre" name="Backup (BCP) dhe rimëkëmbja nga katastrofat (DRP) për shërbimet e prokuruara"/>
+				<tx l="spa" name="Copia de seguridad y recuperación ante desastres para servicios subcontratados"/>
+				<tx l="fre" name="Sauvegarde et reprise après sinistre pour les services externalisés"/>
+				<tx l="ara" name="النسخ الاحتياطي والتعافي من الكوارث لخدمات الاستعانة بمصادر خارجية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
-					<ak>Assessment, whether outsourced services adhere to business continuity and disaster recovery
-plans as required in the contract or service level agreement.</ak>
+					<ak>Assessment, whether outsourced services adhere to business continuity and disaster recovery plans as required in the contract or service level agreement.</ak>
+				</narr>
+				<narr l="spa">
+					<ak>Evaluación, si los servicios subcontratados se adhieren a la continuidad del negocio y los planes de recuperación ante desastres como se requiere en el contrato o acuerdo de nivel de servicio.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Évaluation, si les services externalisés adhèrent aux plans de continuité des activités et de reprise après sinistre, comme l'exige le contrat ou l'accord de niveau de service</ak>
+				</narr>
+				<narr l="ara">
+					<ak>التقييم ، ما إذا كانت خدمات الاستعانة بمصادر خارجية تلتزم بخطط استمرارية الأعمال والتعافي من الكوارث كما هو مطلوب في العقد أو اتفاقية مستوى الخدمة.</ak>
 				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Back up and disaster recovery for outsourced services"/>
-					<tx l="fre" name="Backup (BCP) dhe rimëkëmbja nga katastrofat (DRP) për shërbimet e  e kontraktuara"/>
+					<tx l="spa" name="Copia de seguridad y recuperación ante desastres para servicios subcontratados"/>
+					<tx l="fre" name="Sauvegarde et reprise après sinistre pour les services externalisés"/>
+					<tx l="ara" name="النسخ الاحتياطي والتعافي من الكوارث لخدمات الاستعانة بمصادر خارجية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Contractual or service level agreement for BCP and DRP at the vendor.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Acuerdo contractual o de nivel de servicio para BCP y DRP en el proveedor.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Contrat de niveau de service ou contrat pour BCP et DRP chez le fournisseur.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>اتفاقية مستوى تعاقدي أو خدمة لـ BCP و DRP لدى البائع.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Back up and disaster recovery for outsourced services">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether outsourced services adhere to business continuity and disaster recovery plans as required in the contract or service level agreement."/>
-							<tx l="fre" name="Vlerësimi nëse shërbimet e prokuruara i përmbahen planeve të rimëkëmbjes nga katastrofa dhe të backup-it siç kërkohen në kontratë ose në SLA"/>
+							<tx l="spa" name="Evaluar si los servicios subcontratados se adhieren a los planes de recuperación de desastres y continuidad del negocio según lo requerido en el contrato o acuerdo de nivel de servicio."/>
+							<tx l="fre" name="Évaluer si les services externalisés adhèrent aux plans de continuité des activités et de reprise après sinistre comme l'exige le contrat ou l'accord de niveau de service."/>
+							<tx l="ara" name="لتقييم ما إذا كانت خدمات الاستعانة بمصادر خارجية تلتزم بخطط استمرارية الأعمال والتعافي من الكوارث كما هو مطلوب في العقد أو اتفاقية مستوى الخدمة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is the vendor meeting the requirements of the contract or SLA for BCP and DRP</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Contractual or service level agreement for BCP and DRP at the vendor."/>
-							<tx l="fre" name="Marrëveshje ose kontratë mbi nivelin e shërbimit për BCP dhe DRP të tregtarit"/>
+							<tx l="spa" name="Acuerdo contractual o de nivel de servicio para BCP y DRP en el proveedor."/>
+							<tx l="fre" name="Contrat de niveau de service ou contrat pour BCP et DRP chez le fournisseur."/>
+							<tx l="ara" name="اتفاقية مستوى تعاقدي أو خدمة لـ BCP و DRP لدى البائع."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Contract or SLA
-
+							<tx l="eng" name="Contract or Service Level Agreement
 Internal Audit or third party certification of BCP and DRP readiness of the vendor
-
 Periodic reports of BCP / DRP testing or updates
 "/>
-							<tx l="fre" name=" Kontrata ose SLA
-
-Auditi i Brendshëm ose certifikim i jashtëm për gadishmërinë e BCP dhe DRP të tregtarit
-
-Raporte periodike mbi BCP/DRP si dhe testimet ose përditësimet e tyre
+							<tx l="spa" name="Acuerdo de nivel de servicio o contrato
+Auditoría interna o certificación de terceros de la preparación del proveedor para BCP y DRP
+Informes periódicos de pruebas o actualizaciones de BCP / DRP
+"/>
+							<tx l="fre" name="Contrat ou accord de niveau de service
+Audit interne ou certification par un tiers de l'état de préparation BCP et DRP du fournisseur
+Rapports périodiques des tests ou mises à jour BCP / DRP
+"/>
+							<tx l="ara" name="عقد أو اتفاقية مستوى الخدمة
+التدقيق الداخلي أو شهادة الطرف الثالث لاستعداد BCP و DRP للبائع
+تقارير دورية عن اختبارات أو تحديثات BCP / DRP
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review contract or SLA to ensure that the vendor is required to ensure BCP and DRP on the outsourced data, applications and services.
-
-Review contract or SLA to ensure that the vendor is to provide independent or internal audit reports that confirm  that BCP/DRP activities are in place and that the vendor tests their procedures periodically.
-
-Review submitted reports from the vendor to ensure that testing has been conducted in accordance with the conditions of the contract and /or SLA.
-
+							<tx l="eng" name="Review contract or Service Level Agreement to ensure that the vendor is required to ensure BCP and DRP on the outsourced data, applications and services.
+Review contract or Service Level Agreement to ensure that the vendor is to provide independent or internal audit reports that confirm  that BCP/DRP activities are in place and that the vendor tests their procedures periodically.
+Review submitted reports from the vendor to ensure that testing has been conducted in accordance with the conditions of the contract and /or Service Level Agreement.
 Review periodic reports to ensure that the procedures have been updated if needed.
 "/>
-							<tx l="fre" name="Rishikim të kontratave ose SLA për tu siguruar se tregtarit i është kërkuar të garantojë BCP dhe DRP mbi të dhënat e prokuruara, aplikimet dhe shërbimet.
-Rishikim të kontratës ose SLA-së për tu siguruar se tregtari ofron raporte të audituesve të pavarur që konfiromojnë se ekzistojnë aktivitetet BCP/DRP dhe se tregtari i teston ato periodikisht.
-Rishikim të raporteve të dorëzuara nga tregtari për tu siguruar se testimi është kryer në përputhje me kushtet e kontratës dhe të SLA-së.
-Rishikim të raporteve periodike për tu siguruar se procedurat janë përditësuar sipas nevojave.
+							<tx l="spa" name="Revise el contrato o el Acuerdo de nivel de servicio para asegurarse de que el proveedor debe garantizar BCP y DRP en los datos, aplicaciones y servicios subcontratados.
+Revise el contrato o Acuerdo de nivel de servicio para asegurarse de que el proveedor proporcione informes de auditoría interna o independientes que confirmen que las actividades de BCP / DRP están en su lugar y que el proveedor prueba sus procedimientos periódicamente.
+Revise los informes enviados por el proveedor para asegurarse de que las pruebas se hayan realizado de acuerdo con las condiciones del contrato y / o Acuerdo de nivel de servicio.
+Revise los informes periódicos para asegurarse de que los procedimientos se hayan actualizado si es necesario.
+"/>
+							<tx l="fre" name="Examiner le contrat ou l'accord de niveau de service pour s'assurer que le fournisseur est tenu de garantir le BCP et le DRP sur les données, applications et services externalisés.
+Examiner le contrat ou l'accord de niveau de service pour s'assurer que le fournisseur doit fournir des rapports d'audit indépendants ou internes qui confirment que les activités BCP / DRP sont en place et que le fournisseur teste ses procédures périodiquement.
+Examiner les rapports soumis par le fournisseur pour s'assurer que les tests ont été effectués conformément aux conditions du contrat et / ou de l'accord de niveau de service.
+Examiner les rapports périodiques pour s'assurer que les procédures ont été mises à jour si nécessaire.
+"/>
+							<tx l="ara" name="مراجعة العقد أو اتفاقية مستوى الخدمة للتأكد من أن البائع مطالب بضمان BCP و DRP على البيانات والتطبيقات والخدمات المستعان بها.
+راجع العقد أو اتفاقية مستوى الخدمة للتأكد من أن البائع سيقدم تقارير تدقيق داخلية أو مستقلة تؤكد أن أنشطة BCP / DRP قيد التنفيذ وأن البائع يختبر إجراءاته بشكل دوري.
+مراجعة التقارير المقدمة من البائع للتأكد من إجراء الاختبار وفقًا لشروط العقد و / أو اتفاقية مستوى الخدمة.
+مراجعة التقارير الدورية للتأكد من تحديث الإجراءات إذا لزم الأمر.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -5284,67 +5420,150 @@ Rishikim të raporteve periodike për tu siguruar se procedurat janë përditës
 	</Domain>
 	<Domain nr="05">
 		<title>
-			<tx l="eng" name="Information  and Cyber Security"/>
+			<tx l="eng" name="Information and Cyber Security"/>
+			<tx l="spa" name="Información y ciberseguridad"/>
+			<tx l="fre" name="Information et cybersécurité"/>
+			<tx l="ara" name="المعلومات والأمن السيبراني"/>
 		</title>
 		<Narrative>
 			<narr l="eng">
 				<ak>Information Security can be defined as the ability of a system to protect information and system resources with respect to confidentiality, availability and integrity. The protection of information and information systems against unauthorised access or modification of information, whether in storage, processing, or transit, and against denial of service to authorised users. Information security includes those measures necessary to govern, prevent detect, document, and counter such threats. Information security allows an organisation to protect its Information System infrastructure from unauthorised users. Information security comprises computer security and communications security.</ak>
 			</narr>
+			<narr l="spa">
+				<ak>La seguridad de la información se puede definir como la capacidad de un sistema para proteger la información y los recursos del sistema con respecto a la confidencialidad, disponibilidad e integridad. La protección de la información y los sistemas de información contra el acceso no autorizado o la modificación de la información, ya sea en almacenamiento, procesamiento o tránsito, y contra la denegación de servicio a usuarios autorizados. La seguridad de la información incluye aquellas medidas necesarias para gobernar, prevenir, detectar, documentar y contrarrestar tales amenazas. La seguridad de la información permite que una organización proteja su infraestructura de sistema de información de usuarios no autorizados. La seguridad de la información comprende la seguridad informática y la seguridad de las comunicaciones.</ak>
+			</narr>
+			<narr l="fre">
+				<ak>La sécurité de l'information peut être définie comme la capacité d'un système à protéger les informations et les ressources du système en ce qui concerne la confidentialité, la disponibilité et l'intégrité. La protection des informations et des systèmes d'information contre l'accès non autorisé ou la modification des informations, que ce soit pendant le stockage, le traitement ou le transit, et contre le déni de service aux utilisateurs autorisés. La sécurité de l'information comprend les mesures nécessaires pour gouverner, empêcher la détection, la documentation et contrer ces menaces. La sécurité de l'information permet à une organisation de protéger son infrastructure de système d'information contre les utilisateurs non autorisés. La sécurité de l'information comprend la sécurité informatique et la sécurité des communications.</ak>
+			</narr>
+			<narr l="ara">
+				<ak>يمكن تعريف أمن المعلومات على أنه قدرة النظام على حماية المعلومات وموارد النظام فيما يتعلق بالسرية والتوافر والنزاهة. حماية المعلومات وأنظمة المعلومات من الوصول غير المصرح به أو تعديل المعلومات ، سواء في التخزين أو المعالجة أو النقل ، وضد رفض الخدمة للمستخدمين المصرح لهم. يشمل أمن المعلومات التدابير اللازمة للتحكم في مثل هذه التهديدات ومنع اكتشافها وتوثيقها ومكافحتها. يسمح أمن المعلومات للمؤسسة بحماية البنية التحتية لنظام المعلومات الخاص بها من المستخدمين غير المصرح لهم. يشمل أمن المعلومات أمن الكمبيوتر وأمن الاتصالات.</ak>
+			</narr>
 		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Risk Assessment"/>
-				<tx l="fre" name="Vlerësimi i riskut"/>
+				<tx l="spa" name="Evaluación de riesgos"/>
+				<tx l="fre" name="L'évaluation des risques"/>
+				<tx l="ara" name="تقييم المخاطر"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Risk assessment is the process of identification, analysis, and evaluating risks in the IT Security infrastructure.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La evaluación de riesgos es el proceso de identificación, análisis y evaluación de riesgos en la infraestructura de seguridad de TI.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>L'évaluation des risques est le processus d'identification, d'analyse et d'évaluation des risques dans l'infrastructure de sécurité informatique.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تقييم المخاطر هو عملية تحديد وتحليل وتقييم المخاطر في البنية التحتية لأمن تكنولوجيا المعلومات.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Assessment Mechanism"/>
-					<tx l="fre" name="Mekanizmat e vlerësimit"/>
+					<tx l="spa" name="Mecanismo de evaluación"/>
+					<tx l="fre" name="Mécanisme d'évaluation"/>
+					<tx l="ara" name="آلية التقييم"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Organization have prepared to manage critical risks (internal policy, procedures or regulations).</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización se ha preparado para gestionar los riesgos críticos (política interna, procedimientos o normativas).</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation s'est préparée à gérer les risques critiques (politique interne, procédures ou réglementations).</ak>
+					</narr>
+					<narr l="ara">
+						<ak>استعدت المنظمة لإدارة المخاطر الحرجة (السياسة الداخلية أو الإجراءات أو اللوائح).</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Risk Assessment">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that all risks associated to cyber and information security has been identified and an appropriate risk mitigation strategy is put in place"/>
+							<tx l="spa" name="Asegurar que se hayan identificado todos los riesgos asociados con la seguridad cibernética y de la información y que se haya implementado una estrategia adecuada de mitigación de riesgos"/>
+							<tx l="fre" name="S'assurer que tous les risques associés à la cybersécurité et à la sécurité de l'information ont été identifiés et qu'une stratégie d'atténuation des risques appropriée est mise en place"/>
+							<tx l="ara" name="للتأكد من أن جميع المخاطر المرتبطة بأمن الإنترنت والمعلومات قد تم تحديدها ووضع استراتيجية مناسبة للتخفيف من المخاطر"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does  the  organization  has  an  effective  and  well  documented  information  security  risk  assessment mechanism? Does it include elements of Cybersecurity?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Organization prepared to manage critical risks (internal policy, procedures or regulations)."/>
+							<tx l="spa" name="La organización se ha preparado para gestionar los riesgos críticos (política interna, procedimientos o normativas)."/>
+							<tx l="fre" name="L'organisation s'est préparée à gérer les risques critiques (politique interne, procédures ou réglementations)."/>
+							<tx l="ara" name="استعدت المنظمة لإدارة المخاطر الحرجة (السياسة الداخلية أو الإجراءات أو اللوائح)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="IS Security Policy, Cybersecurity Policy
-
+							<tx l="eng" name="IS Security Policy,
+Cybersecurity Policy,
 Formal procedures of risks management,
-
-System configuration documentation
-
+System configuration documentation.
+"/>
+							<tx l="spa" name="Política de seguridad de los SI,
+Política de ciberseguridad,
+Procedimientos formales de gestión de riesgos,
+Documentación de configuración del sistema.
+"/>
+							<tx l="fre" name="Politique de sécurité des SI,
+Politique de cybersécurité,
+Procédures formelles de gestion des risques,
+Documentation de configuration du système.
+"/>
+							<tx l="ara" name="نهج أمان IS ،
+سياسة الأمن السيبراني ،
+الإجراءات الرسمية لإدارة المخاطر ،
+وثائق تكوين النظام.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Analyze risk management policy, risk assessment documents and interview top management and operational level to:
-•	understand the real role of the organization in risk assessment procedures.
-•	identify who are involved in assessing risks
-•	find out the mechanism’s operational costs
-•	verify whether risk assessment is performed and documented on a regular basis or whenever the conditions change
-•	check if the current system configuration is documented, including links to other systems
+•	understand the real role of the organization in risk assessment procedures;
+•	identify who are involved in assessing risks;
+•	find out the mechanism’s operational costs;
+•	verify whether risk assessment is performed and documented on a regular basis or whenever the conditions change;
+•	check if the current system configuration is documented, including links to other systems;
 •	check if the documentation contains descriptions of key risks for the organization’s system, business, and infrastructure?
 •	Does the organization include Cybersecurity as part of IS policy?
-In case of lack of the formal procedures and documents on risk assessment, do not underestimate controls which are embedded within the operation procedures of the organization –verify if the compensatory mechanism is effective
+In case of lack of the formal procedures and documents on risk assessment, do not underestimate controls which are embedded within the operation procedures of the organization – verify if the compensatory mechanism is effective.
+"/>
+							<tx l="spa" name="Analizar la política de gestión de riesgos, los documentos de evaluación de riesgos y entrevistar a la alta dirección y al nivel operativo para:
+• comprender el papel real de la organización en los procedimientos de evaluación de riesgos;
+• identificar quiénes están involucrados en la evaluación de riesgos;
+• averiguar los costos operativos del mecanismo;
+• Verificar si la evaluación de riesgos se realiza y documenta de forma regular o siempre que cambien las condiciones;
+• comprobar si la configuración actual del sistema está documentada, incluidos los enlaces a otros sistemas;
+• ¿Verificar si la documentación contiene descripciones de los riesgos clave para el sistema, el negocio y la infraestructura de la organización?
+• ¿La organización incluye la ciberseguridad como parte de la política de SI?
+En caso de falta de procedimientos formales y documentos sobre evaluación de riesgos, no subestime los controles que están integrados dentro de los procedimientos operativos de la organización; verifique si el mecanismo compensatorio es efectivo.
+"/>
+							<tx l="fre" name="Analyser la politique de gestion des risques, les documents d'évaluation des risques et interroger la direction et le niveau opérationnel pour:
+• comprendre le rôle réel de l'organisation dans les procédures d'évaluation des risques;
+• identifier les personnes impliquées dans l'évaluation des risques;
+• connaître les coûts de fonctionnement du mécanisme;
+• vérifier si l'évaluation des risques est effectuée et documentée régulièrement ou chaque fois que les conditions changent;
+• vérifier si la configuration actuelle du système est documentée, y compris les liens vers d’autres systèmes;
+• vérifier si la documentation contient des descriptions des principaux risques pour le système, l’activité et l’infrastructure de l’organisation?
+• L'organisation inclut-elle la cybersécurité dans le cadre de sa politique SI?
+En cas d'absence de procédures et de documents formels sur l'évaluation des risques, ne sous-estimez pas les contrôles intégrés dans les procédures opérationnelles de l'organisation - vérifiez si le mécanisme de compensation est efficace.
+"/>
+							<tx l="ara" name="تتحليل سياسة إدارة المخاطر ووثائق تقييم المخاطر وإجراء مقابلات مع الإدارة العليا والمستوى التشغيلي من أجل:
+• فهم الدور الحقيقي للمؤسسة في إجراءات تقييم المخاطر.
+• تحديد من يشاركون في تقييم المخاطر.
+• معرفة التكاليف التشغيلية للآلية ؛
+• التحقق مما إذا كان تقييم المخاطر يتم إجراؤه وتوثيقه بشكل منتظم أو كلما تغيرت الظروف.
+• تحقق مما إذا كان تكوين النظام الحالي موثقًا ، بما في ذلك الروابط إلى أنظمة أخرى ؛
+• تحقق مما إذا كانت الوثائق تحتوي على أوصاف للمخاطر الرئيسية لنظام المؤسسة وأعمالها وبنيتها التحتية؟
+• هل تقوم المنظمة بتضمين الأمن السيبراني كجزء من سياسة نظم المعلومات؟
+في حالة عدم وجود إجراءات ووثائق رسمية لتقييم المخاطر ، لا تقلل من شأن الضوابط المضمنة في إجراءات تشغيل المنظمة - تحقق مما إذا كانت آلية التعويض فعالة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -5369,45 +5588,91 @@ In case of lack of the formal procedures and documents on risk assessment, do no
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Coverage"/>
-					<tx l="fre" name="Mbulimi"/>
+					<tx l="spa" name="Cobertura"/>
+					<tx l="fre" name="Couverture"/>
+					<tx l="ara" name="تغطية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
-						<ak>All the significant risks are identified and assessed properly (best practices in risk
-assessment).</ak>
+						<ak>All the significant risks are identified and assessed properly (best practices in risk assessment).</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Todos los riesgos significativos se identifican y evalúan adecuadamente (mejores prácticas en la evaluación de riesgos).</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Tous les risques significatifs sont correctement identifiés et évalués (bonnes pratiques en matière d'évaluation des risques).</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يتم تحديد وتقييم جميع المخاطر الهامة بشكل صحيح (أفضل الممارسات في تقييم المخاطر).</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Risk Assessment">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that all risks associated to information security has been identified and an appropriate risk mitigation strategy is put in place."/>
+							<tx l="spa" name="Asegurar que se hayan identificado todos los riesgos asociados con la seguridad de la información y que se haya implementado una estrategia de mitigación de riesgos adecuada."/>
+							<tx l="fre" name="S'assurer que tous les risques associés à la sécurité de l'information ont été identifiés et qu'une stratégie d'atténuation des risques appropriée est mise en place."/>
+							<tx l="ara" name="للتأكد من أن جميع المخاطر المرتبطة بأمن المعلومات قد تم تحديدها ووضع استراتيجية مناسبة للتخفيف من المخاطر."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Coverage - Does the risk assessment cover all important internal and external risks? Are possible effects and impact of Information Security breaches assessed? Has the organization assessed their threat with respect to Cybersecurity?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="All the significant risks are identified and assessed properly (best practices in risk assessment)."/>
+							<tx l="spa" name="Todos los riesgos significativos se identifican y evalúan adecuadamente (mejores prácticas en la evaluación de riesgos)."/>
+							<tx l="fre" name="Tous les risques significatifs sont correctement identifiés et évalués (bonnes pratiques en matière d'évaluation des risques)."/>
+							<tx l="ara" name="يتم تحديد وتقييم جميع المخاطر الهامة بشكل صحيح (أفضل الممارسات في تقييم المخاطر)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Documented Risk Assessments,
-
 Risk register,
-
-Incident handling reports
-
+Incident handling reports.
+"/>
+							<tx l="spa" name="Evaluaciones de riesgos documentadas,
+Registro de riesgo,
+Informes de manejo de incidentes.
+"/>
+							<tx l="fre" name="Évaluations des risques documentées,
+Registre des risques,
+Rapports de gestion des incidents.
+"/>
+							<tx l="ara" name="تقييمات المخاطر الموثقة ،
+سجل المخاطر،
+تقارير التعامل مع الحادث.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review documents to check if the risk assessment performed by the audited organization was based on sufficiently comprehensive information. Check whether data and reports were obtained from the organization’s incident management system. (Support your analysis with results of Analysis Methods of IT Operations focused on Incident Management system, esp. if the information security incident handling forms a system separated from a general incident management system.)
+							<tx l="eng" name="Review documents to check if the risk assessment performed by the audited organization was based on sufficiently comprehensive information. Check whether data and reports were obtained from the organization’s incident management system. (Support your analysis with results of Analysis Methods of IT Operations focused on Incident Management system, esp. if the information security incident handling forms a system separated from a general incident management system).
 Validation  Test  1: Security audit trails: Determine if security audit trails capture user identification (ID), type of event, data and time, success or failure indication, origination of event, and the identity or the name of the affected object
 Interview relevant personnel to verify whether there is a standard re-assessment of risk whenever the organization plans to roll out new information systems, upgrades, and new versions.
 Check the risk assessment design for completeness, relevancy, timeliness and measurability.
 Check if consequences of infrastructure inoperability is considered while assigning risk categories. Verify documents to see if a business impact analysis is done for the consequences of critical information becoming unavailable, corrupted, inappropriately compromised or lost.
 Review incidence response reports and earlier risk documents/ registers to examine whether the risk assessment methodology has been effective in the past.
+"/>
+							<tx l="spa" name="Revise los documentos para verificar si la evaluación de riesgos realizada por la organización auditada se basó en información suficientemente completa. Compruebe si los datos y los informes se obtuvieron del sistema de gestión de incidentes de la organización. (Respalde su análisis con los resultados de los métodos de análisis de operaciones de TI centrados en el sistema de gestión de incidentes, especialmente si el manejo de incidentes de seguridad de la información forma un sistema separado de un sistema general de gestión de incidentes).
+Prueba de validación 1: pistas de auditoría de seguridad: determine si las pistas de auditoría de seguridad capturan la identificación del usuario (ID), el tipo de evento, los datos y la hora, la indicación de éxito o falla, el origen del evento y la identidad o el nombre del objeto afectado
+Entreviste al personal relevante para verificar si existe una reevaluación estándar del riesgo cada vez que la organización planea implementar nuevos sistemas de información, actualizaciones y nuevas versiones.
+Verifique que el diseño de la evaluación de riesgos esté completo, sea relevante, puntual y mensurable.
+Compruebe si se tienen en cuenta las consecuencias de la inoperabilidad de la infraestructura al asignar categorías de riesgo. Verifique los documentos para ver si se realiza un análisis de impacto de los procesos de negocio para las consecuencias de que la información crítica no esté disponible, se corrompa, se vea comprometida de manera inapropiada o se pierda.
+Revise los informes de respuesta a incidentes y los documentos / registros de riesgos anteriores para examinar si la metodología de evaluación de riesgos ha sido eficaz en el pasado.
+"/>
+							<tx l="fre" name="Examiner les documents pour vérifier si l'évaluation des risques effectuée par l'organisation auditée était basée sur des informations suffisamment complètes. Vérifiez si les données et les rapports ont été obtenus à partir du système de gestion des incidents de l'organisation. (Soutenez votre analyse avec les résultats des méthodes d'analyse des opérations informatiques axées sur le système de gestion des incidents, en particulier si la gestion des incidents de sécurité de l'information forme un système séparé d'un système général de gestion des incidents).
+Test de validation 1: pistes d'audit de sécurité: déterminez si les pistes d'audit de sécurité capturent l'identification de l'utilisateur (ID), le type d'événement, les données et l'heure, l'indication de réussite ou d'échec, l'origine de l'événement et l'identité ou le nom de l'objet affecté
+Interrogez le personnel concerné pour vérifier s'il existe une réévaluation standard des risques chaque fois que l'organisation envisage de déployer de nouveaux systèmes d'information, des mises à niveau et de nouvelles versions.
+Vérifiez l'exhaustivité, la pertinence, l'opportunité et la mesurabilité de la conception de l'évaluation des risques.
+Vérifiez si les conséquences de l'inopérabilité de l'infrastructure sont prises en compte lors de l'attribution des catégories de risque. Vérifiez les documents pour voir si une analyse d'impact sur les processus métier est effectuée pour les conséquences de l'indisponibilité, de la corruption, de la compromission ou de la perte d'informations critiques.
+Examiner les rapports d'intervention en cas d'incidence et les documents / registres antérieurs sur les risques pour déterminer si la méthodologie d'évaluation des risques a été efficace dans le passé.
+"/>
+							<tx l="ara" name="مراجعة المستندات للتحقق مما إذا كان تقييم المخاطر الذي أجرته المنظمة الخاضعة للرقابة يستند إلى معلومات شاملة بما فيه الكفاية. تحقق مما إذا تم الحصول على البيانات والتقارير من نظام إدارة الحوادث في المنظمة. (ادعم تحليلك بنتائج تحليل أساليب عمليات تكنولوجيا المعلومات التي تركز على نظام إدارة الحوادث ، خاصة إذا كانت معالجة حادث أمن المعلومات تشكل نظامًا منفصلاً عن نظام إدارة الحوادث العامة.)
+اختبار التحقق من الصحة 1: مسارات تدقيق الأمان: تحديد ما إذا كانت مسارات تدقيق الأمان تلتقط هوية المستخدم ، ونوع الحدث ، والبيانات والوقت ، ومؤشر النجاح أو الفشل ، وإنشاء الحدث ، وهوية أو اسم الكائن المتأثر
+مقابلة الموظفين المعنيين للتحقق مما إذا كان هناك إعادة تقييم معياري للمخاطر كلما خططت المنظمة لطرح أنظمة معلومات جديدة وترقيات وإصدارات جديدة.
+تحقق من تصميم تقييم المخاطر للتأكد من اكتماله وملاءمته وتوقيته وإمكانية قياسه.
+تحقق مما إذا كانت عواقب عدم تشغيل البنية التحتية تؤخذ في الاعتبار أثناء تعيين فئات المخاطر. تحقق من المستندات لمعرفة ما إذا كان قد تم إجراء تحليل تأثير الأعمال لعواقب عدم توفر المعلومات الهامة أو تلفها أو تعرضها للخطر أو فقدها بشكل غير لائق.
+مراجعة تقارير الاستجابة للحوادث ووثائق / سجلات المخاطر السابقة لفحص ما إذا كانت منهجية تقييم المخاطر فعالة في الماضي.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -5432,47 +5697,76 @@ Review incidence response reports and earlier risk documents/ registers to exami
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Mitigation"/>
-					<tx l="fre" name="Reduktimi"/>
+					<tx l="spa" name="Mitigación"/>
+					<tx l="fre" name="Atténuation"/>
+					<tx l="ara" name="تخفيف"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Adequate risk mitigation practices are in place.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Existen prácticas adecuadas de mitigación de riesgos.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Des pratiques adéquates d'atténuation des risques sont en place.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>وجود ممارسات مناسبة لتخفيف المخاطر.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Risk Assessment">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that all risks associated to information security has been identified and an appropriate risk mitigation strategy is put in place"/>
-							<tx l="fre" name="Të sigurohet se të gjithë risqet e lidhur më sigurinë e informacionit janë identifikuar dhe se ekziston një strategji e përshtatshme për reduktimin e riskut"/>
+							<tx l="spa" name="Asegurar que se hayan identificado todos los riesgos asociados a la seguridad de la información y que se haya implementado una estrategia adecuada de mitigación de riesgos."/>
+							<tx l="fre" name="S'assurer que tous les risques associés à la sécurité de l'information ont été identifiés et qu'une stratégie d'atténuation des risques appropriée est mise en place"/>
+							<tx l="ara" name="للتأكد من أن جميع المخاطر المرتبطة بأمن المعلومات قد تم تحديدها ووضع استراتيجية مناسبة للتخفيف من المخاطر"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Mitigation - Are significant risks mitigated in effective and efficient way?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Adequate risk mitigation practices are in place."/>
-							<tx l="fre" name="Ekzistojnë praktika të përshtatshme të reduktimit të riskut"/>
+							<tx l="spa" name="Existen prácticas adecuadas de mitigación de riesgos."/>
+							<tx l="fre" name="Des pratiques adéquates d'atténuation des risques sont en place."/>
+							<tx l="ara" name="وجود ممارسات مناسبة لتخفيف المخاطر."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Problem/incident handling reports
-
-Periodic activity reports
-
+							<tx l="eng" name="Problem/incident handling reports.
+Periodic activity reports.
 "/>
-							<tx l="fre" name="Raportet e trajtimit të problemeve/ incidenteve
-
-Raporte periodike të aktivitetit
+							<tx l="spa" name="Informes de manejo de problemas / incidentes.
+Informes periódicos de actividad.
 "/>
+							<tx l="fre" name="Rapports de gestion des problèmes / incidents.
+Rapports d'activité périodiques.
+"/>
+							<tx l="ara" name="تقارير التعامل مع المشكلة / الحادث.
+تقارير النشاط الدورية.
+"/>
+
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review incident handling reports and check whether appropriate procedures were in place to prevent, detect and control security risks identified in the risk assessment document.
-
 In organizations which do not follow a well-defined risk assessment mechanism, determine what compensatory control exist. Analyze if any serious security incidents occurred in relation to risks which might have been mitigated better with a properly working risk assessment mechanism, vis-à-vis existing compensatory controls.
-
-Take into account that problem/incident reports may be incomplete in some cases.  Nevertheless,  important  events  may  be reflected directly or indirectly in other documents, as e.g. annual activity reports or other periodic reports
+Take into account that problem/incident reports may be incomplete in some cases.  Nevertheless,  important  events  may  be reflected directly or indirectly in other documents, as e.g. annual activity reports or other periodic reports.
+"/>
+							<tx l="spa" name="Revise los informes de manejo de incidentes y verifique si se implementaron los procedimientos adecuados para prevenir, detectar y controlar los riesgos de seguridad identificados en el documento de evaluación de riesgos.
+En organizaciones que no siguen un mecanismo de evaluación de riesgos bien definido, determine qué control compensatorio existe. Analizar si se produjo algún incidente de seguridad grave en relación con los riesgos que podrían haberse mitigado mejor con un mecanismo de evaluación de riesgos que funcione correctamente, en comparación con los controles compensatorios existentes.
+Tenga en cuenta que los informes de problemas / incidentes pueden estar incompletos en algunos casos. No obstante, los eventos importantes pueden reflejarse directa o indirectamente en otros documentos, como p. Ej. informes anuales de actividad u otros informes periódicos.
+"/>
+							<tx l="fre" name="Examiner les rapports de gestion des incidents et vérifier si des procédures appropriées étaient en place pour prévenir, détecter et contrôler les risques de sécurité identifiés dans le document d'évaluation des risques.
+Dans les organisations qui ne suivent pas un mécanisme d'évaluation des risques bien défini, déterminez quel contrôle compensatoire existe. Analyser si des incidents de sécurité graves se sont produits en relation avec des risques qui auraient pu être mieux atténués avec un mécanisme d'évaluation des risques fonctionnant correctement, par rapport aux contrôles compensatoires existants.
+Tenez compte du fait que les rapports de problème / incident peuvent être incomplets dans certains cas. Néanmoins, des événements importants peuvent être reflétés directement ou indirectement dans d'autres documents, comme par exemple rapports d'activité annuels ou autres rapports périodiques.
+"/>
+							<tx l="ara" name="راجع تقارير التعامل مع الحوادث وتحقق مما إذا كانت الإجراءات المناسبة مطبقة لمنع واكتشاف ومراقبة المخاطر الأمنية المحددة في وثيقة تقييم المخاطر.
+في المنظمات التي لا تتبع آلية محددة جيدًا لتقييم المخاطر ، حدد الرقابة التعويضية الموجودة. قم بتحليل ما إذا حدثت أي حوادث أمنية خطيرة فيما يتعلق بالمخاطر التي كان من الممكن تخفيفها بشكل أفضل من خلال آلية تقييم مخاطر تعمل بشكل صحيح ، مقابل الضوابط التعويضية الحالية.
+ضع في اعتبارك أن تقارير المشكلة / الحوادث قد تكون غير مكتملة في بعض الحالات. ومع ذلك ، قد تنعكس الأحداث المهمة بشكل مباشر أو غير مباشر في وثائق أخرى ، على سبيل المثال تقارير النشاط السنوية أو التقارير الدورية الأخرى
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -5498,62 +5792,92 @@ Take into account that problem/incident reports may be incomplete in some cases.
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Security Policy"/>
-				<tx l="fre" name="Politikat e sigurisë së informacionit"/>
+				<tx l="spa" name="Politica de seguridad"/>
+				<tx l="fre" name="Politique de sécurité"/>
+				<tx l="ara" name="نهج الأمان"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>The organization’s security policy is the set of laws, rules, and practices that regulate how an organization manages, protects, and distributes resources to achieve specified security objectives.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La política de seguridad de la organización es el conjunto de leyes, reglas y prácticas que regulan cómo una organización administra, protege y distribuye los recursos para lograr objetivos de seguridad específicos.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La politique de sécurité de l'organisation est l'ensemble des lois, règles et pratiques qui régissent la manière dont une organisation gère, protège et distribue les ressources pour atteindre les objectifs de sécurité spécifiés.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>سياسة أمان المؤسسة هي مجموعة القوانين والقواعد والممارسات التي تنظم كيفية إدارة المؤسسة وحماية وتوزيع الموارد لتحقيق أهداف أمنية محددة.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Information Security Policy"/>
-					<tx l="fre" name="Politikat e sigurisë së informacionit"/>
+					<tx l="spa" name="Política de seguridad de la información"/>
+					<tx l="fre" name="Politique de sécurité des informations"/>
+					<tx l="ara" name="سياسة أمن المعلومات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
-						<ak>The organization’s information security policy covers all operational risks and is able to
-reasonably protect all business critical information assets from loss, damage or abuse.</ak>
+						<ak>The organization’s information security policy covers all operational risks and is able to reasonably protect all business critical information assets from loss, damage or abuse.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La política de seguridad de la información de la organización cubre todos los riesgos operativos y es capaz de proteger razonablemente todos los activos de información crítica del negocio contra pérdidas, daños o abuso.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>La politique de sécurité des informations de l'organisation couvre tous les risques opérationnels et est en mesure de protéger raisonnablement tous les actifs d'informations critiques de l'entreprise contre la perte, les dommages ou les abus.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تغطي سياسة أمن المعلومات الخاصة بالمنظمة جميع المخاطر التشغيلية وهي قادرة على حماية جميع أصول المعلومات الهامة للأعمال بشكل معقول من الضياع أو التلف أو إساءة الاستخدام.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Information Security Policy">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether there is adequate strategic direction and support for information security in terms of a security policy, its coverage, organization-wide awareness and compliance."/>
-							<tx l="fre" name="Vlerësimi nëse ekziston një drejtim strategjik i përshtatshëm dhe një mbështetje për sigurinë e informacionit në termat e politikave të sigurisë, mbulimin e saj, ndërgjegjshmëria në nivel organizacional dhe përputhshmëria"/>
+							<tx l="spa" name="Evaluar si existe una dirección estratégica y un apoyo adecuados para la seguridad de la información en términos de una política de seguridad, su cobertura, concienciación y cumplimiento en toda la organización."/>
+							<tx l="fre" name="Évaluer s'il existe une orientation stratégique et un soutien adéquats pour la sécurité de l'information en termes de politique de sécurité, de couverture, de sensibilisation et de conformité à l'échelle de l'organisation."/>
+							<tx l="ara" name="لتقييم ما إذا كان هناك توجيه استراتيجي مناسب ودعم لأمن المعلومات من حيث السياسة الأمنية وتغطيتها والوعي على مستوى المنظمة والامتثال."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Information Security Policy - Does the organization possess an Information Security Policy? Does it include Cybersecurity? If not is there a separate Cybersecurity Policy? Is it (or are they) properly implemented and documented? Does it (or do they) form a consistent and robust IT security plan?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="The organization’s information security policy covers all operational risks and is able to reasonably protect all business critical information assets from loss, damage or abuse. (Ref:ISO 27000 series Information Security Management System and other internal policy, procedures or applicable regulations)"/>
-							<tx l="fre" name="Politikat e sigurisë së informacionit mbulojnë të gjithë risqet operacionalë dhe ka mundësi të mbrojë në mënyrë të arsyeshme të gjithë asetet e informacioneve kritike kundrejt humbjeve, dëmtimit dhe abuzimit. (Ref. ISO 27000 Sistemi i menaxhimit të sigurisë së informacionit dhe politika të tjera të brendshme, procedura ose rregulla të aplikueshme)"/>
+							<tx l="eng" name="The organization’s information security policy covers all operational risks and is able to reasonably protect all business critical information assets from loss, damage or abuse (Ref:ISO 27000 series Information Security Management System and other internal policy, procedures or applicable regulations)."/>
+							<tx l="spa" name="La política de seguridad de la información de la organización cubre todos los riesgos operativos y es capaz de proteger razonablemente todos los activos de información crítica del negocio contra pérdidas, daños o abuso (Ref: Sistema de Gestión de Seguridad de la Información de la serie ISO 27000 y otras políticas internas, procedimientos o normativas aplicables)."/>
+							<tx l="fre" name="La politique de sécurité des informations de l'organisation couvre tous les risques opérationnels et est en mesure de protéger raisonnablement tous les actifs d'informations critiques de l'entreprise contre la perte, les dommages ou les abus (Réf: Système de gestion de la sécurité de l'information de la série ISO 27000 et autres politiques internes, procédures ou réglementations applicables)."/>
+							<tx l="ara" name="تغطي سياسة أمن المعلومات الخاصة بالمنظمة جميع المخاطر التشغيلية وهي قادرة على حماية جميع أصول المعلومات الهامة للأعمال بشكل معقول من الضياع أو التلف أو إساءة الاستخدام (المرجع: نظام إدارة أمن المعلومات التابع لسلسلة ISO 27000 والسياسات الداخلية الأخرى أو الإجراءات أو اللوائح المعمول بها)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="IT Strategy
-
 Legal acts defining information security requirements
-
 Formal and written information security policy
-
 Organization structure and its job description
-
 Contractual arrangements with external parties
 IT Security Plan
 "/>
-							<tx l="fre" name="Strategjia e IT
-
-Akte ligjore që përcaktojnë kërkesat e sigurisë së informacionit
-
-Politikat e shkruara dhe formale të sigurisë së informacionit
-
-Struktura organizacionale dhe përshkrimet e punës
-
-Marrëveshje kontraktuale me palët e jashtme
-
-Plani i sigurisë së IT
+							<tx l="spa" name="Estrategia de TI
+Actos legales que definen los requisitos de seguridad de la información
+Política de seguridad de la información formal y escrita
+Estructura organizativa y descripción de su puesto
+Acuerdos contractuales con partes externas
+Plan de seguridad de TI
+"/>
+							<tx l="fre" name="Stratégie informatique
+Actes juridiques définissant les exigences en matière de sécurité de l'information
+Politique de sécurité des informations formelle et écrite
+Structure de l'organisation et description de poste de travail
+Arrangements contractuels avec des parties externes
+Plan de sécurité informatique
+"/>
+							<tx l="ara" name="استراتيجية تكنولوجيا المعلومات
+الإجراءات القانونية التي تحدد متطلبات أمن المعلومات
+سياسة أمن المعلومات الرسمية والمكتوبة
+الهيكل التنظيمي ووصفه الوظيفي
+الترتيبات التعاقدية مع الأطراف الخارجية
+خطة أمن تكنولوجيا المعلومات
 "/>
 						</inf>
 					</InformationRequired>
@@ -5567,6 +5891,30 @@ Check if the IT security plan identifies: Roles and responsibilities (board, exe
 Review and analyze the charter to verify that it refers to the organizational risk appetite relative to information security and that the charter clearly includes scope and objectives of the security management function.
 Check security incident reports and follow-up documents to find what actions the organization takes when individuals violate the security policy.
 Check the incident reports to identify the number of Information Security breaches by employees or external parties in given period to assess effectiveness of the policy."/>
+							<tx l="spa" name="Consulte el documento para examinar si la estrategia de TI destaca adecuadamente el papel fundamental de la seguridad de la información. También consulte y utilice la matriz de gobierno de TI para la estrategia de TI. En ausencia de una estrategia de TI escrita, entreviste a la alta gerencia, la gerencia de nivel medio y el personal para ver cuál es su comprensión del papel estratégico de la seguridad de la información.
+Evaluar el cumplimiento de los requisitos externos de cumplimiento de la política de seguridad de la información y la estrategia de TI de la organización.
+Compare los objetivos de las políticas y los procedimientos de seguridad para determinar la eficacia de la integración de los requisitos de seguridad de la información en el plan de seguridad de TI (estatuto, marco, manual, etc.). Verifique si se revisa periódicamente en los niveles de gestión adecuados.
+Examine la cobertura del plan de seguridad de TI y verifique si considera planes tácticos de TI, clasificación de datos, estándares de tecnología, políticas de seguridad y control y gestión de riesgos.
+Verifique si el plan de seguridad de TI identifica: Roles y responsabilidades (consejo de administración, gerencia ejecutiva, gerencia de línea, miembros del personal y todos los usuarios de la infraestructura de TI de la empresa), requisitos de personal, conciencia de seguridad y capacitación; Prácticas de ejecución; necesidad de inversiones en los recursos de seguridad necesarios.
+Revise y analice el estatuto para verificar que se refiere al apetito por el riesgo de la organización en relación con la seguridad de la información y que el estatuto incluye claramente el alcance y los objetivos de la función de gestión de la seguridad.
+Verifique los informes de incidentes de seguridad y los documentos de seguimiento para averiguar qué acciones toma la organización cuando las personas violan la política de seguridad.
+Consulte los informes de incidentes para identificar el número de infracciones de seguridad de la información cometidas por empleados o partes externas en un período determinado para evaluar la eficacia de la política."/>
+							<tx l="fre" name="Consultez le document pour vérifier si la stratégie informatique met correctement en évidence le rôle critique de la sécurité de l'information. Reportez-vous et utilisez également la matrice de gouvernance informatique pour la stratégie informatique. En l'absence de stratégie informatique écrite, interrogez la direction, la direction intermédiaire et le personnel pour voir quelle est leur compréhension du rôle stratégique de la sécurité de l'information.
+Évaluer la conformité aux exigences de conformité externe de la stratégie informatique et de la politique de sécurité de l'information de l'organisation.
+Comparer les objectifs de la politique et les procédures de sécurité pour déterminer l'efficacité de l'intégration des exigences de sécurité de l'information dans le plan de sécurité informatique (charte, cadre, manuel, etc.). Vérifiez s'il est régulièrement revu aux niveaux de gestion appropriés.
+Examiner la couverture du plan de sécurité informatique et vérifier s'il prend en compte les plans tactiques informatiques, la classification des données, les normes technologiques, les politiques de sécurité et de contrôle et la gestion des risques.
+Vérifier si le plan de sécurité informatique identifie: les rôles et les responsabilités (conseil d'administration, direction générale, hiérarchie, membres du personnel et tous les utilisateurs de l'infrastructure informatique de l'entreprise), les besoins en personnel, la sensibilisation à la sécurité et la formation; Les pratiques de mise en application; besoin d'investissements dans les ressources de sécurité requises.
+Revoir et analyser la charte pour vérifier qu'elle fait référence à l'appétit organisationnel au risque relatif à la sécurité de l'information et que la charte inclut clairement la portée et les objectifs de la fonction de gestion de la sécurité.
+Consultez les rapports d'incidents de sécurité et les documents de suivi pour trouver les actions entreprises par l'organisation lorsque des individus enfreignent la politique de sécurité.
+Vérifiez les rapports d'incident pour identifier le nombre de violations de la sécurité de l'information par des employés ou des parties externes au cours d'une période donnée afin d'évaluer l'efficacité de la politique."/>
+							<tx l="ara" name="تحقق من المستند لفحص ما إذا كانت استراتيجية تكنولوجيا المعلومات تسلط الضوء بشكل كافٍ على الدور الحاسم لأمن المعلومات. راجع أيضًا واستخدم مصفوفة حوكمة تكنولوجيا المعلومات لاستراتيجية تكنولوجيا المعلومات. في حالة عدم وجود استراتيجية مكتوبة لتكنولوجيا المعلومات ، قم بإجراء مقابلة مع الإدارة العليا وإدارة المستوى المتوسط ​​والموظفين لمعرفة ما هو فهمهم للدور الاستراتيجي لأمن المعلومات.
+تقييم الامتثال لاستراتيجية تكنولوجيا المعلومات للمؤسسة ومتطلبات الامتثال الخارجية لسياسة أمن المعلومات.
+قارن أهداف السياسة وإجراءات الأمان لتحديد فعالية دمج متطلبات أمن المعلومات في خطة أمن تكنولوجيا المعلومات (ميثاق ، إطار عمل ، دليل ، إلخ). تحقق مما إذا كانت تتم مراجعتها بانتظام على مستويات الإدارة المناسبة.
+فحص تغطية خطة أمن تكنولوجيا المعلومات والتحقق مما إذا كانت تأخذ في الاعتبار الخطط التكتيكية لتقنية المعلومات ، وتصنيف البيانات ، ومعايير التكنولوجيا ، وسياسات الأمن والتحكم وإدارة المخاطر.
+تحقق مما إذا كانت خطة أمن تكنولوجيا المعلومات تحدد: الأدوار والمسؤوليات (مجلس الإدارة ، والإدارة التنفيذية ، والإدارة التنفيذية ، والموظفون وجميع مستخدمي البنية التحتية لتكنولوجيا المعلومات في المؤسسة) ، ومتطلبات التوظيف ، والوعي الأمني ​​والتدريب ؛ ممارسات الإنفاذ ؛ بحاجة إلى استثمارات في موارد الأمان المطلوبة.
+قم بمراجعة وتحليل الميثاق للتحقق من أنه يشير إلى الرغبة في المخاطرة التنظيمية المتعلقة بأمن المعلومات وأن الميثاق يتضمن بوضوح نطاق وأهداف وظيفة إدارة الأمن.
+تحقق من تقارير الحوادث الأمنية ووثائق المتابعة لمعرفة الإجراءات التي تتخذها المنظمة عندما ينتهك الأفراد السياسة الأمنية.
+تحقق من تقارير الحوادث لتحديد عدد انتهاكات أمن المعلومات من قبل الموظفين أو الأطراف الخارجية في فترة معينة لتقييم فعالية السياسة."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -5590,48 +5938,67 @@ Check the incident reports to identify the number of Information Security breach
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Confidentiality"/>
-					<tx l="fre" name="Konfidencialiteti"/>
+					<tx l="spa" name="Confidencialidad"/>
+					<tx l="fre" name="Confidentialité"/>
+					<tx l="ara" name="سرية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
-						<ak>The organization’s information security policy is able to protect all confidential information
-related to internal stakeholders and third parties.</ak>
+						<ak>The organization’s information security policy is able to protect all confidential information related to internal stakeholders and third parties.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La política de seguridad de la información de la organización es capaz de proteger toda la información confidencial relacionada con las partes interesadas internas y terceros.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>La politique de sécurité des informations de l’organisation est en mesure de protéger toutes les informations confidentielles relatives aux parties prenantes internes et aux tiers.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>سياسة أمن المعلومات الخاصة بالمنظمة قادرة على حماية جميع المعلومات السرية المتعلقة بأصحاب المصلحة الداخليين والأطراف الثالثة.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Information Security Policy">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether there is adequate strategic direction and support for Cyber and information security in terms of a security policy, its coverage, organization-wide awareness and compliance."/>
+							<tx l="spa" name="Evaluar si existe una dirección estratégica y un apoyo adecuados para la seguridad cibernética y de la información en términos de una política de seguridad, su cobertura, concienciación y cumplimiento en toda la organización ."/>
+							<tx l="fre" name="Évaluer s'il existe une orientation stratégique et un soutien adéquats pour la cybersécurité et la sécurité de l'information en termes de politique de sécurité, de couverture, de sensibilisation et de conformité à l'échelle de l'organisation."/>
+							<tx l="ara" name="لتقييم ما إذا كان هناك توجيه ودعم استراتيجي كافيين لأمن الإنترنت والمعلومات من حيث السياسة الأمنية وتغطيتها والوعي على مستوى المنظمة والامتثال."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Confidentiality - Has the organization put confidentiality requirements or non-disclosure agreements that appropriately reflect the need for protecting information? Do the policies secure information in the organization’s relation with external parties? With respect to Cybersecurity, has the organization taken measures to inform staff about the risks from visiting unknown sites, clicking hotlinks, etc, and downloading and or installing non-approved software? Has the organization taken measures to prevent these types of activities by training or installing firewalls and monitoring software?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization has a plan on how they identify emerging business or IT needs and the Steering Committee approving requirements has sufficient information to make their decisions."/>
-							<tx l="fre" name="Politikat e sigurisë së informacionit janë të afta të mbrojnë të gjithë informacionin konfidencial lidhur me palët e brendshme dhe të jashtme"/>
+							<tx l="spa" name="La organización tiene un plan sobre cómo identificar las necesidades de lo negocio o de TI emergentes y el Comité Directivo que aprueba los requisitos tiene información suficiente para tomar sus decisiones."/>
+							<tx l="fre" name="L'organisation a un plan sur la façon dont elle identifie les besoins de l'entreprise ou informatiques émergents et le comité directeur d'approbation des exigences dispose de suffisamment d'informations pour prendre ses décisions."/>
+							<tx l="ara" name="لدى المنظمة خطة حول كيفية تحديد الأعمال الناشئة أو احتياجات تكنولوجيا المعلومات ولدى اللجنة التوجيهية التي توافق على المتطلبات معلومات كافية لاتخاذ قراراتها."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="External and internal regulations concerning confidential and classified information.
-
 E.g. Non-disclosure clauses for employees.
-
 Contractual arrangements with external parties
-
-information security policy
+Information security policy
 IT Security Plan
-
 "/>
-							<tx l="fre" name="Rregullat e bredshme dhe të jashtme lidhur me informacionin e klasifikuar dhe konfidencial
-
-P.sh. çështjet e moszbulimit për punonjësit
-
-Marrëveshjet kontraktuale me palët e jashtme
-
-Politikat e sigurisë së informacionit
-
-Plani i sigurisë së IT
+							<tx l="spa" name="Normativa externa e interna sobre información confidencial y clasificada.
+P.ej. Cláusulas de no divulgación para empleados.
+Acuerdos contractuales con partes externas
+Política de seguridad de la información
+Plan de seguridad de TI
+"/>
+							<tx l="fre" name="Règlements externes et internes concernant les informations confidentielles et classifiées.
+Par exemple. Clauses de non-divulgation pour les employés.
+Arrangements contractuels avec des parties externes
+Politique de sécurité de l'information
+Plan de sécurité informatique
+"/>
+							<tx l="ara" name="اللوائح الخارجية والداخلية المتعلقة بالمعلومات السرية والسرية.
+على سبيل المثال شروط عدم الإفصاح للموظفين.
+الترتيبات التعاقدية مع الأطراف الخارجية
+سياسة أمن المعلومات
+خطة أمن تكنولوجيا المعلومات
 "/>
 						</inf>
 					</InformationRequired>
@@ -5639,18 +6006,32 @@ Plani i sigurisë së IT
 						<anm>
 							<tx l="eng" name="Check procedural measures taken by the organization to comply with the confidentiality requirements.
 Where access to confidentiality breach cases are restricted to special law procedures and specialized agencies only, base your opinion on their reports and recommendations to the organization’s management – if available.
-
 Review contractual arrangements with external parties or contractors. Do they involve granting and invoking access, processing, communicating or managing organizational information assets?
 Check whether the contractual terms and obligations define the security restrictions and obligations that control how contractors will use organization’s assets and access information systems and services.
 Check whether any information security breaches were committed by contractors. 
 Check management action on such breaches were committed by contractors. 
 Check management action on such breaches.
 "/>
-							<tx l="fre" name=" Kontrolloni vlerësimet e procedurave të ndërmarra nga organizata për përputhshmëri me kërkesat konfidenciale.
-Në rastet kur çështjet e thyerjes së konfidencialitetit janë strikte ndaj procedurave të veçanta ligjore dhe ndaj agjencive të veçanta, opinionin tuaj bazoheni në raportet e tyre dhe në rekomandimet e menaxhimit të organizatës-nëse është e nevojshme.
-Rishikoni marrëveshjet kontraktuale me palët e jashtme ose kontraktorët. A përfshijnë ata dhënien ose kërkesën e aksesit, përpunimit, komunikimit ose menaxhiit të aseteve të informacionit organizacional?
-Kontrolloni nëse kushtet dhe detyrimet kontraktuale përcaktojnë limitet e sigurisë dhe detyrimet e saj, të cilat kontrollojnë sesi kontraktori do të përdorë asetet e organizatës, aksesin e sistemeve të informacioni dhe shërbimet e tij.
-Kontrolloni nëse kanë ndodhur shkelje të sigurisë së informacionit nga kontraktorët. Kontrolloni veprimet e ndërmarra nga menaxhimi.
+							<tx l="spa" name="Verificar las medidas de procedimiento adoptadas por la organización para cumplir con los requisitos de confidencialidad.
+Cuando el acceso a los casos de violación de la confidencialidad esté restringido a procedimientos legales especiales y agencias especializadas únicamente, base su opinión en sus informes y recomendaciones a la gerencia de la organización, si están disponibles.
+Revise los arreglos contractuales con partes externas o contratistas. ¿Implican otorgar e invocar acceso, procesar, comunicar o administrar activos de información organizacional?
+Compruebe si los términos y obligaciones contractuales definen las restricciones y obligaciones de seguridad que controlan cómo los contratistas utilizarán los activos de la organización y accederán a los sistemas y servicios de información.
+Compruebe si los contratistas cometieron violaciones de seguridad de la información.
+Verifique que los contratistas hayan cometido las acciones de la administración sobre dichas infracciones.
+"/>
+							<tx l="fre" name="Vérifier les mesures procédurales prises par l'organisation pour se conformer aux exigences de confidentialité.
+Lorsque l’accès aux cas de violation de la confidentialité est limité aux procédures de droit spécial et aux agences spécialisées uniquement, basez votre opinion sur leurs rapports et recommandations à la direction de l’organisation, le cas échéant.
+Examiner les arrangements contractuels avec des parties externes ou des entrepreneurs. Impliquent-ils l'octroi et l'appel de l'accès, le traitement, la communication ou la gestion des actifs d'information de l'organisation?
+Vérifiez si les conditions et obligations contractuelles définissent les restrictions et obligations de sécurité qui contrôlent la manière dont les entrepreneurs utiliseront les actifs de l’organisation et accéderont aux systèmes et services d’information.
+Vérifiez si des violations de la sécurité des informations ont été commises par des sous-traitants.
+Vérifier que des mesures de gestion sur de telles violations ont été commises par des entrepreneurs.
+"/>
+							<tx l="ara" name="تحقق من الإجراءات الإجرائية التي تتخذها المنظمة للامتثال لمتطلبات السرية.
+عندما يقتصر الوصول إلى قضايا خرق السرية على إجراءات القانون الخاص والوكالات المتخصصة فقط ، قم ببناء رأيك على تقاريرهم وتوصياتهم إلى إدارة المنظمة - إذا كان ذلك متاحًا.
+مراجعة الترتيبات التعاقدية مع الأطراف الخارجية أو المقاولين. هل تتضمن منح واستدعاء الوصول أو المعالجة أو الاتصال أو إدارة أصول المعلومات التنظيمية؟
+تحقق مما إذا كانت الشروط والالتزامات التعاقدية تحدد القيود والالتزامات الأمنية التي تتحكم في كيفية استخدام المتعاقدين لأصول المؤسسة والوصول إلى أنظمة المعلومات والخدمات.
+تحقق مما إذا كان المقاولون قد ارتكبوا أي انتهاكات لأمن المعلومات
+تحقق من إجراءات الإدارة بشأن مثل هذه الانتهاكات التي ارتكبها المقاولون.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -5676,51 +6057,84 @@ Kontrolloni nëse kanë ndodhur shkelje të sigurisë së informacionit nga kont
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Organisation of IT Security"/>
-				<tx l="fre" name="Struktura e sigurisë së IT"/>
+				<tx l="spa" name="Organización de la seguridad informática"/>
+				<tx l="fre" name="Organisation de la sécurité informatique"/>
+				<tx l="ara" name="تنظيم أمن تكنولوجيا المعلومات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Organization of the IT security implies implementing the security policy for the entity. This could be the work given to a unit or an individual, who work with the IT organization to acquire appropriate tools and implement the right processes which implement the security policy.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La organización de la seguridad informática implica implementar la política de seguridad de la entidad. Este podría ser el trabajo asignado a una unidad o un individuo, que trabaja con la organización de TI para adquirir las herramientas adecuadas e implementar los procesos correctos que implementan la política de seguridad.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>L'organisation de la sécurité informatique implique la mise en œuvre de la politique de sécurité de l'entité. Il peut s'agir du travail confié à une unité ou à un individu, qui travaille avec l'organisation informatique pour acquérir les outils appropriés et mettre en œuvre les bons processus qui mettent en œuvre la politique de sécurité.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تنظيم أمن تكنولوجيا المعلومات يعني تنفيذ السياسة الأمنية للكيان. قد يكون هذا هو العمل المعطى لوحدة أو فرد يعمل مع مؤسسة تكنولوجيا المعلومات لاكتساب الأدوات المناسبة وتنفيذ العمليات الصحيحة التي تنفذ سياسة الأمن.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Structure"/>
-					<tx l="fre" name="Struktura"/>
+					<tx l="spa" name="Estructura"/>
+					<tx l="fre" name="Structure"/>
+					<tx l="ara" name="بنية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organisation have clear organization of IT security, where security roles and responsibilities are defined with regard to information security policy.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La institución tiene una organización clara de la seguridad de TI, donde los roles y responsabilidades de seguridad se definen con respecto a la política de seguridad de la información.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'entreprise a une organisation claire de la sécurité informatique, où les rôles et les responsabilités en matière de sécurité sont définis en ce qui concerne la politique de sécurité des informations.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>المؤسسة لديها تنظيم واضح لأمن تكنولوجيا المعلومات ، حيث يتم تحديد الأدوار والمسؤوليات الأمنية فيما يتعلق بسياسة أمن المعلومات.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Organization of IT Security">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure the secure operation of IT processing facilities."/>
-							<tx l="fre" name="Garantimi i operimit të sigurtë të pajisjeve përpunuese të IT"/>
+							<tx l="spa" name="Para garantizar el funcionamiento seguro de las instalaciones de procesamiento de TI."/>
+							<tx l="fre" name="Assurer le fonctionnement sécurisé des installations de traitement informatique."/>
+							<tx l="ara" name="لضمان التشغيل الآمن لمرافق معالجة تكنولوجيا المعلومات."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the auditee have clear organization of IT security? Are security roles and responsibilities defined with regard to information security policy?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Clear IT roles and responsibilities relating to Information Security Policy.(Ref: ISO 27000 series"/>
-							<tx l="fre" name="Detyra dhe përgjegjësi të qarta të IT lidhur me Politikat e Sigurisë së Informacionit (referuar ISO 27000)"/>
+							<tx l="eng" name="Clear IT roles and responsibilities relating to Information Security Policy (Ref: ISO 27000 series)."/>
+							<tx l="spa" name="Funciones y responsabilidades claras de TI relacionadas con la política de seguridad de la información (Ref: serie ISO 27000)."/>
+							<tx l="fre" name="Rôles et responsabilités informatiques clairs liés à la politique de sécurité de l'information (Réf: série ISO 27000)."/>
+							<tx l="ara" name="أدوار ومسؤوليات واضحة لتكنولوجيا المعلومات فيما يتعلق بسياسة أمن المعلومات (راجع: سلسلة ISO 27000)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="IT Organization structure
-Internal regulations related to IS security
-
-Job descriptions
-
-Minutes of relevant bodies’ meetings
-
+							<tx l="eng" name="IT Organization structure.
+Internal regulations related to IS security.
+Job descriptions.
+Minutes of relevant bodies’ meetings.
 "/>
-							<tx l="fre" name="Struktura e organizmit të IT
-Rregullat e brendshme të lidhura me sigurinë e SI
-Përshkrimet e punës
-Procesverbalet e mbledhjeve të grupeve përkatëse
+							<tx l="spa" name="Estructura de la organización de TI.
+Normativa interna relacionada con la seguridad de SI.
+Descripciones de trabajo.
+Actas de las reuniones de los órganos pertinentes.
+"/>
+							<tx l="fre" name="Structure de l'organisation informatique.
+Règlement intérieur lié à la sécurité du SI.
+Les descriptions d'emploi.
+Procès-verbaux des réunions des organes concernés.
+"/>
+							<tx l="ara" name="الهيكل التنظيمي لتكنولوجيا المعلومات.
+اللوائح الداخلية المتعلقة بأمن نظم المعلومات.
+وصف الوظيفة.
+محاضر اجتماعات الهيئات ذات الصلة.
 "/>
 						</inf>
 					</InformationRequired>
@@ -5728,12 +6142,19 @@ Procesverbalet e mbledhjeve të grupeve përkatëse
 						<anm>
 							<tx l="eng" name="Determine if the responsibility for the IT security is formally and clearly stated.
 Check whether a process exists to prioritize proposed security initiatives, including required levels of policies, standards and procedures.
-Check how senior management maintains an appropriate level of interest in information security within the organization
-
+Check how senior management maintains an appropriate level of interest in information security within the organization.
 "/>
-							<tx l="fre" name="Përcaktoni nëse janë mirë përcaktuar përgjegjësitë për sigurinë e IT.
-Kontrolloni nëse ekziston një proces për prioritarizimin e iniciativave të propozuara të sigurisë, përfshirë nivelet e kërkuara të politikave, standardeve dhe procedurave.
-Kontrolloni sesi menaxhimi i lartë mban një nivel të përshtatshëm të interesit në sigurinë e informacionit në organizatë.
+							<tx l="spa" name="Determine si la responsabilidad de la seguridad de TI se establece de manera formal y clara.
+Compruebe si existe un proceso para priorizar las iniciativas de seguridad propuestas, incluidos los niveles requeridos de políticas, estándares y procedimientos.
+Compruebe cómo la alta dirección mantiene un nivel adecuado de interés en la seguridad de la información dentro de la organización.
+"/>
+							<tx l="fre" name="Déterminez si la responsabilité de la sécurité informatique est formellement et clairement énoncée.
+Vérifiez s'il existe un processus pour hiérarchiser les initiatives de sécurité proposées, y compris les niveaux requis de politiques, de normes et de procédures.
+Vérifiez comment la haute direction maintient un niveau d'intérêt approprié pour la sécurité de l'information au sein de l'organisation.
+"/>
+							<tx l="ara" name="تحديد ما إذا كانت المسؤولية عن أمن تكنولوجيا المعلومات معلنة بشكل رسمي وواضح.
+تحقق مما إذا كانت هناك عملية لتحديد أولويات المبادرات الأمنية المقترحة ، بما في ذلك المستويات المطلوبة من السياسات والمعايير والإجراءات.
+تحقق من كيفية احتفاظ الإدارة العليا بمستوى مناسب من الاهتمام بأمن المعلومات داخل المنظمة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -5758,59 +6179,87 @@ Kontrolloni sesi menaxhimi i lartë mban një nivel të përshtatshëm të inter
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Coordination"/>
-					<tx l="fre" name="Koordinimi"/>
+					<tx l="spa" name="Coordinación"/>
+					<tx l="fre" name="Coordination"/>
+					<tx l="ara" name="تنسيق"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
-						<ak>There are no responsibility conflicts, disharmony nor “no-man’s land” in Information
-Security activities.</ak>
+						<ak>There are no responsibility conflicts, disharmony nor “no-man’s land” in Information Security activities.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>No hay conflictos de responsabilidad, discordia ni "tierra de nadie" en las actividades de seguridad de la información.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Il n’existe pas de conflits de responsabilité, de discordance ni de «no man’s land» dans les activités de sécurité de l’information.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>لا توجد تضارب في المسؤولية أو تنافر أو "أرض حرام" في أنشطة أمن المعلومات.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Organization of IT Security">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure the secure operation of IT processing facilities."/>
-							<tx l="fre" name="Garantimi i operimit të sigurtë të pajisjeve përpunuese të IT"/>
+							<tx l="spa" name="Para garantizar el funcionamiento seguro de las instalaciones de procesamiento de TI."/>
+							<tx l="fre" name="Assurer le fonctionnement sécurisé des installations de traitement informatique."/>
+							<tx l="ara" name="لضمان التشغيل الآمن لمرافق معالجة تكنولوجيا المعلومات."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Coordination - How does the organization coordinate information security activities from different parts of organization</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="No responsibility conflicts, disharmony nor “no-man’s land” in Information Security activities. (Ref: ISO 27000 series Information Security Management System)"/>
-							<tx l="fre" name="Jo konflikte përgjegjësish ose dis-harmoni në aktivitetet e sigurisë së informacionit"/>
+							<tx l="eng" name="No responsibility conflicts, disharmony nor “no-man’s land” in Information Security activities (Ref: ISO 27000 series Information Security Management System)."/>
+							<tx l="spa" name="No hay conflictos de responsabilidad, discordia ni 'tierra de nadie' en las actividades de seguridad de la información (Ref: Sistema de gestión de seguridad de la información de la serie ISO 27000)."/>
+							<tx l="fre" name="Pas de conflits de responsabilité, de discordance ni de «no man’s land» dans les activités de sécurité de l’information (Réf.: Système de gestion de la sécurité de l’information de la série ISO 27000)."/>
+							<tx l="ara" name="لا تضارب المسؤولية أو التنافر أو الأرض الحرام في أنشطة أمن المعلومات (المرجع: سلسلة نظام إدارة أمن المعلومات ISO 27000)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Legal requirements concerning classified information
-
-Organization structure Internal regulations related to IS security
-
-Minutes of meeting of IT security committee
-
-Failure reports
-
+							<tx l="eng" name="Legal requirements concerning classified information.
+Organization structure, internal regulations related to IS security.
+Minutes of meeting of IT security committee.
+Failure reports.
 "/>
-							<tx l="fre" name="Kërkesat ligjore lidhur më informacionin e klasifikuar
-Struktura organike
-Rregullat e brendshme lidhur me sigurinë e informacionit
-Procesverbale të takimeve të komiteteve të sigurisë së IT
-Raporte të dëmtimeve
+							<tx l="spa" name="Requisitos legales sobre información clasificada.
+Estructura organizativa, normativa interna relacionada con la seguridad de SI.
+Acta de reunión del comité de seguridad informática.
+Informes de fallas.
+"/>
+							<tx l="fre" name="Obligations légales concernant les informations classifiées.
+Structure organisationnelle, réglementation interne relative à la sécurité du SI.
+Procès-verbal de la réunion du comité de sécurité informatique.
+Rapports d'échec.
+"/>
+							<tx l="ara" name="المتطلبات القانونية المتعلقة بالمعلومات السرية.
+الهيكل التنظيمي واللوائح الداخلية المتعلقة بأمن نظم المعلومات.
+محضر اجتماع لجنة أمن تقنية المعلومات.
+تقارير الفشل.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Check documents, observe practices and interview personnel to verify whether there are inherent conflicts/ overlaps/ gaps between security procedures followed by employees in different departments/ units.
-
 Check operational workflow procedures to identify if some information is transmitted to external parties out of control of responsible units/employees.
 Check if higher level managers are aware of coordination problems and whether they supervise inspections and coordinating activities.
 Review processes to check whether there is any established procedure for management to authorize new information processing facilities.
 "/>
-							<tx l="fre" name="Kontroll i dokumenteve, observim i praktikave dhe intervista me personelin për të verifikuar nëse ekzistojnë konflikte të brendshme, tejkalime, hapësira midis procedurave të sigurisë të ndjekura nga punonjësit në departamente/njësi të ndryshme.
-Kontroll i procedurave operacionale për të identifikuar nëse informacioni transmetohet në palët e jashtme jashtë kontrollit të punonjësve përgjegjës.
-Kontroll nëse menaxherët e nivelit të lartë janë në dijeni të problemeve të koordinimit dhe nëse ata mbikëqyrin aktivitetet e inspektimit dhe të koordinimit.
-Rishikim të proceseve për të kontrolluar nëse ekzistojnë procedura të hartuara për autorizimin nga menaxhimi të informacionit të ri për përpunimin e lehtësirave.
+							<tx l="spa" name="Verifique los documentos, observe las prácticas y entreviste al personal para verificar si existen conflictos / superposiciones / brechas inherentes entre los procedimientos de seguridad seguidos por los empleados en diferentes departamentos / unidades.
+Verifique los procedimientos de flujo de trabajo operativo para identificar si alguna información se transmite a partes externas fuera del control de las unidades / empleados responsables.
+Verifique si los gerentes de nivel superior son conscientes de los problemas de coordinación y si supervisan las inspecciones y las actividades de coordinación.
+Revisar los procesos para verificar si existe algún procedimiento establecido para que la gerencia autorice nuevas instalaciones de procesamiento de información.
+"/>
+							<tx l="fre" name="Vérifier les documents, observer les pratiques et interroger le personnel pour vérifier s'il existe des conflits / chevauchements / écarts inhérents entre les procédures de sécurité suivies par les employés des différents départements / unités.
+Vérifiez les procédures de flux de travail opérationnel pour identifier si certaines informations sont transmises à des parties externes hors du contrôle des unités / employés responsables.
+Vérifiez si les cadres supérieurs sont conscients des problèmes de coordination et s'ils supervisent les inspections et les activités de coordination.
+Examiner les processus pour vérifier s'il existe une procédure établie pour que la direction autorise de nouvelles installations de traitement de l'information.
+"/>
+							<tx l="ara" name="تحقق من المستندات ، ولاحظ الممارسات ومقابلة الموظفين للتحقق مما إذا كانت هناك تعارضات / تداخلات / فجوات متأصلة بين الإجراءات الأمنية التي يتبعها الموظفون في الإدارات / الوحدات المختلفة.
+تحقق من إجراءات سير العمل التشغيلية لتحديد ما إذا كانت بعض المعلومات قد تم إرسالها إلى أطراف خارجية خارج نطاق سيطرة الوحدات / الموظفين المسؤولين.
+تحقق مما إذا كان مديرو المستوى الأعلى على دراية بمشكلات التنسيق وما إذا كانوا يشرفون على عمليات التفتيش وتنسيق الأنشطة.
+مراجعة العمليات للتحقق مما إذا كان هناك أي إجراء معمول به للإدارة لتفويض مرافق معالجة المعلومات الجديدة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -5835,48 +6284,89 @@ Rishikim të proceseve për të kontrolluar nëse ekzistojnë procedura të hart
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Cybersecurity Organization"/>
+					<tx l="spa" name="Organización de ciberseguridad"/>
+					<tx l="fre" name="Organisation de cybersécurité"/>
+					<tx l="ara" name="منظمة الأمن السيبراني"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The organisation have clear organization of IT security, where security roles and responsibilities are defined with regard to information security policy.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La institución tiene una organización clara de la seguridad de TI, donde los roles y responsabilidades de seguridad se definen con respecto a la política de seguridad de la información.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'institution dispose d'une organisation claire de la sécurité informatique, où les rôles et responsabilités en matière de sécurité sont définis en ce qui concerne la politique de sécurité de l'information.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>المؤسسة لديها تنظيم واضح لأمن تكنولوجيا المعلومات ، حيث يتم تحديد الأدوار والمسؤوليات الأمنية فيما يتعلق بسياسة أمن المعلومات.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Organization of IT Security">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure critical infrastructure is adequately protected."/>
+							<tx l="spa" name="Asegurar que la infraestructura crítica esté adecuadamente protegida."/>
+							<tx l="fre" name="S'assurer que les infrastructures critiques sont adéquatement protégées."/>
+							<tx l="ara" name="لضمان حماية البنية التحتية الحيوية بشكل كاف."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Has the organization designed and implemented a Cybersecurity program to protect critical infrastructure?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Having a clear understanding of your organization’s mission, resources, risks, and how to safeguard them. Baldrige Cybersecurity Excellence Builder, V1.0, March 2017, pg. 6."/>
+							<tx l="spa" name="Tener una comprensión clara de la misión, los recursos y los riesgos de la organización y cómo protegerlos. Baldrige Cybersecurity Excellence Builder, V1.0, March 2017, pg. 6."/>
+							<tx l="fre" name="Avoir une compréhension claire de la mission, des ressources, des risques de l'organisation et de la manière de les protéger. Baldrige Cybersecurity Excellence Builder, V1.0, March 2017, pg. 6."/>
+							<tx l="ara" name="الحصول على فهم واضح لمهمة مؤسستك ومواردها ومخاطرها وكيفية حمايتها. Baldrige Cybersecurity Excellence Builder, V1.0, March 2017, pg. 6."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Legal requirements concerning classified information
-
-Organization structure Internal regulations
-
-Organization Mission and IT Environment
-
-Minutes of meeting of IT security committee
-
+							<tx l="eng" name="Legal requirements concerning classified information.
+Organization structure, internal regulations.
+Organization Mission and IT Environment.
+Minutes of meeting of IT security committee.
 Failure reports and Action Plan(s).
-
+"/>
+							<tx l="spa" name="Requisitos legales sobre información clasificada.
+Estructura organizativa, normativa interna.
+Misión de la organización y entorno de TI.
+Acta de reunión del comité de seguridad informática.
+Informes de fallas y planes de acción.
+"/>
+							<tx l="fre" name="Obligations légales concernant les informations classifiées.
+Structure organisationnelle, règlement intérieur.
+Mission d'organisation et environnement informatique.
+Procès-verbal de la réunion du comité de sécurité informatique.
+Rapports d'échec et plans d'action.
+"/>
+							<tx l="ara" name="المتطلبات القانونية المتعلقة بالمعلومات السرية.
+الهيكل التنظيمي واللوائح الداخلية.
+رسالة المنظمة وبيئة تكنولوجيا المعلومات.
+محضر اجتماع لجنة أمن تقنية المعلومات.
+تقارير الفشل وخطط العمل.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review documents to understand agency legal and statutory requirements with respect to mission and data protection. 
-
 Look at organization structure to ensure they have IT and or Security at an appropriate level.
-
 Ensure management and or senior steering committee review and or attend meetings with respect to security and infrastructure protection.
-
 Check to see whether failure and or indecent reports with respect to security are addressed in accordance with specified procedures. Ensure if any incident is of a serious enough nature do they have an action plan to prevent such in the future.
+"/>
+							<tx l="spa" name="Revise los documentos para comprender los requisitos legales y estatutarios de la agencia con respecto a la misión y la protección de datos.
+Observe la estructura de la organización para asegurarse de que tengan TI y / o seguridad en un nivel adecuado.
+Asegúrese de que la administración Y / o el comité directivo superior revisen o asistan a reuniones con respecto a la seguridad y la protección de la infraestructura.
+Verifique si los informes de fallas con respecto a la seguridad se abordan de acuerdo con los procedimientos especificados. Asegúrese de que si algún incidente es de naturaleza lo suficientemente grave, tienen un plan de acción para prevenirlo en el futuro."/>
+							<tx l="fre" name="Examiner les documents pour comprendre les exigences légales et statutaires de l'agence en ce qui concerne la mission et la protection des données.
+Regardez la structure de l'organisation pour vous assurer qu'ils disposent de l'informatique et / ou de la sécurité à un niveau approprié.
+Veiller à ce que la direction et / ou le comité directeur supérieur examinent et / ou assistent aux réunions concernant la sécurité et la protection des infrastructures
+Vérifiez si les rapports de panne en matière de sécurité sont traités conformément aux procédures spécifiées. S'assurer que si un incident est de nature suffisamment grave, dispose-t-il d'un plan d'action pour éviter un tel incident à l'avenir?"/>
+							<tx l="ara" name="مراجعة الوثائق لفهم المتطلبات القانونية والتشريعية للوكالة فيما يتعلق بالمهمة وحماية البيانات.
+انظر إلى الهيكل التنظيمي للتأكد من أن لديهم تكنولوجيا المعلومات و / أو الأمن على المستوى المناسب.
+ضمان مراجعة الإدارة و / أو اللجنة التوجيهية العليا و / أو حضور الاجتماعات فيما يتعلق بالأمن وحماية البنية التحتية.
+تحقق لمعرفة ما إذا كانت تقارير الفشل فيما يتعلق بالأمان قد تمت معالجتها وفقًا للإجراءات المحددة. تأكد من أن أي حادث له طبيعة خطيرة بما يكفي هل لديهم خطة عمل لمنع حدوث ذلك في المستقبل.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -5902,44 +6392,76 @@ Check to see whether failure and or indecent reports with respect to security ar
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="Communications and Operations Management"/>
-				<tx l="fre" name="Menaxhimi i komunikimeve dhe operacioneve"/>
+				<tx l="spa" name="Gestión de comunicaciones y operaciones"/>
+				<tx l="fre" name="Gestion des communications et des opérations"/>
+				<tx l="ara" name="إدارة الاتصالات والعمليات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>An organization needs to keep track of the process and procedures it uses for its business operations. It includes the set of organizational procedures and processes that ensure the correct processing of data in the organization. This includes documenting procedures for media and data handling, emergency procedures, network security logging and backup procedures.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>Una organización necesita realizar un seguimiento del proceso y los procedimientos que utiliza para sus operaciones de negocios. Incluye el conjunto de procedimientos y procesos organizativos que aseguran el correcto tratamiento de los datos en la organización. Esto incluye la documentación de procedimientos para el manejo de datos y medios, procedimientos de emergencia, registros de seguridad de la red y procedimientos de respaldo.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Une organisation doit garder une trace du processus et des procédures qu'elle utilise pour ses opérations métier. Il comprend l'ensemble des procédures et processus organisationnels qui garantissent le traitement correct des données dans l'organisation. Cela comprend la documentation des procédures de traitement des supports et des données, les procédures d'urgence, la journalisation de la sécurité du réseau et les procédures de sauvegarde.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تحتاج المنظمة إلى تتبع العملية والإجراءات التي تستخدمها لعملياتها التجارية. يتضمن مجموعة الإجراءات والعمليات التنظيمية التي تضمن المعالجة الصحيحة للبيانات في المنظمة. ويشمل ذلك توثيق إجراءات التعامل مع الوسائط والبيانات ، وإجراءات الطوارئ ، وتسجيل أمن الشبكة وإجراءات النسخ الاحتياطي.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Policy and procedures"/>
-					<tx l="fre" name="Politikat dhe procedurat"/>
+					<tx l="spa" name="Política y procedimientos"/>
+					<tx l="fre" name="Politique et procédures"/>
+					<tx l="ara" name="السياسة والإجراءات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>There are policy and procedures adequate for safe and efficient internal and external communication.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Existen políticas y procedimientos adecuados para una comunicación interna y externa segura y eficiente.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Il existe des politiques et des procédures adéquates pour une communication interne et externe sûre et efficace.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>هناك سياسة وإجراءات مناسبة للتواصل الداخلي والخارجي الآمن والفعال.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Communications and Operations Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that internal and external communication and other interfaces are secure."/>
+							<tx l="spa" name="Para garantizar que la comunicación interna y externa y otras interfaces sean seguras."/>
+							<tx l="fre" name="S'assurer que la communication interne et externe et les autres interfaces sont sécurisées."/>
+							<tx l="ara" name="للتأكد من أن الاتصالات الداخلية والخارجية والواجهات الأخرى آمنة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Policy and procedures - Are policy and procedures adequate for safe and efficient internal and external communication and other interfaces such as browsing, downloading, data transfer, etc?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="The policy and procedures form stable management environment for internal and external communication. (Ref: ISO-27002, S15-IT Control (ISACA Standard), COBIT). Implementing Cybersecurity strategy (Baldridge Excellence Builder, V1.0, March 2017, pg 13."/>
+							<tx l="eng" name="The policy and procedures form stable management environment for internal and external communication. (Ref: ISO-27002, S15-IT Control (ISACA Standard), COBIT). Implementing Cybersecurity strategy (Baldridge Excellence Builder, V1.0, March 2017, pg 13)."/>
+							<tx l="spa" name="La política y los procedimientos forman un entorno de gestión estable para la comunicación interna y externa. (Ref: ISO-27002, Control S15-IT (Norma ISACA), COBIT). Implementación de la estrategia de ciberseguridad (Baldridge Excellence Builder, V1.0, marzo de 2017, pág. 13)."/>
+							<tx l="fre" name="La politique et les procédures forment un environnement de gestion stable pour la communication interne et externe. (Réf: ISO-27002, S15-IT Control (Norme ISACA), COBIT). Mise en œuvre de la stratégie de cybersécurité (Baldridge Excellence Builder, V1.0, mars 2017, p. 13)."/>
+							<tx l="ara" name="تشكل السياسات والإجراءات بيئة إدارة مستقرة للاتصالات الداخلية والخارجية. (المرجع: ISO-27002، S15-IT Control (ISACA Standard)، COBIT). تنفيذ استراتيجية الأمن السيبراني (Baldridge Excellence Builder ، الإصدار 1.0 ، مارس 2017 ، الصفحة 13)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Formal and written policy for communications and IT operations
-
-Documentations of operational procedures
+							<tx l="eng" name="Formal and written policy for communications and IT operations.
+Documentations of operational procedures.
 "/>
-							<tx l="fre" name="Politikat formale dhe të shkruara për komunikimet dhe operacionet e IT
-
-Dokumentacioni për procedurat operacionale
+							<tx l="spa" name="Política formal y escrita para comunicaciones y operaciones de TI.
+Documentación de procedimientos operativos.
+"/>
+							<tx l="fre" name="Politique formelle et écrite pour les communications et les opérations informatiques.
+Documentation des procédures opérationnelles.
+"/>
+							<tx l="ara" name="السياسة الرسمية والمكتوبة للاتصالات وعمليات تكنولوجيا المعلومات.
+توثيق الإجراءات التشغيلية.
 "/>
 						</inf>
 					</InformationRequired>
@@ -5948,13 +6470,30 @@ Dokumentacioni për procedurat operacionale
 							<tx l="eng" name="Check whether the policies and procedures of the organization embrace communication with citizens, mass media, external organizations.
 Verify how the organization documents its operating procedures and makes them available to all users. Interview a sample set of users at different levels to examine whether the procedures for data handling are well known by employees.
 Check how often the communication and data handling procedures are reviewed and updated.
-
 Review Cybersecurity strategy to ensure it covers protection of critical assets.
-
-Employees are provided initial and refresher Cybersecurity training and are aware of their roles and responsibilities (including incidence reporting, etc.)
-
+Employees are provided initial and refresher Cybersecurity training and are aware of their roles and responsibilities (including incidence reporting, etc.).
 Automated tools are utilized to check all electronic input and output traffic and action taken if required in accordance with relevant policy and procedures.
-
+"/>
+							<tx l="spa" name="Compruebe si las políticas y procedimientos de la organización abarcan la comunicación con los ciudadanos, los medios de comunicación y las organizaciones externas.
+Verifique cómo la organización documenta sus procedimientos operativos y los pone a disposición de todos los usuarios. Entreviste a un grupo de muestra de usuarios en diferentes niveles para examinar si los empleados conocen bien los procedimientos para el manejo de datos.
+Compruebe con qué frecuencia se revisan y actualizan los procedimientos de comunicación y manejo de datos.
+Revise la estrategia de ciberseguridad para asegurarse de que cubra la protección de activos críticos.
+Los empleados reciben formación inicial y de actualización sobre ciberseguridad y conocen sus funciones y responsabilidades (incluida la notificación de incidencias, etc.).
+Se utilizan herramientas automatizadas para verificar todo el tráfico de entrada y salida electrónica y las acciones tomadas si es necesario de acuerdo con la política y los procedimientos relevantes.
+"/>
+							<tx l="fre" name="Vérifiez si les politiques et procédures de l'organisation englobent la communication avec les citoyens, les médias, les organisations externes.
+Vérifiez comment l'organisation documente ses procédures opérationnelles et les met à la disposition de tous les utilisateurs. Interrogez un échantillon d'utilisateurs à différents niveaux pour vérifier si les procédures de traitement des données sont bien connues des employés.
+Vérifiez la fréquence à laquelle les procédures de communication et de traitement des données sont revues et mises à jour.
+Passez en revue la stratégie de cybersécurité pour vous assurer qu'elle couvre la protection des actifs critiques.
+Les employés reçoivent une formation initiale et de recyclage sur la cybersécurité et connaissent leurs rôles et responsabilités (y compris les rapports d'incidence, etc.).
+Des outils automatisés sont utilisés pour vérifier tout le trafic électronique d'entrée et de sortie et les mesures prises si nécessaire conformément à la politique et aux procédures pertinentes.
+"/>
+							<tx l="ara" name="تحقق مما إذا كانت سياسات وإجراءات المنظمة تتضمن التواصل مع المواطنين ووسائل الإعلام والمنظمات الخارجية.
+تحقق من كيفية توثيق المنظمة لإجراءات التشغيل وإتاحتها لجميع المستخدمين. مقابلة مجموعة عينة من المستخدمين على مستويات مختلفة لفحص ما إذا كانت إجراءات معالجة البيانات معروفة جيدًا من قبل الموظفين.
+تحقق من عدد المرات التي يتم فيها مراجعة وتحديث إجراءات الاتصال ومعالجة البيانات.
+مراجعة استراتيجية الأمن السيبراني للتأكد من أنها تغطي حماية الأصول الهامة.
+يتم توفير تدريب أولي وتجديدي للموظفين في مجال الأمن السيبراني وهم على دراية بأدوارهم ومسؤولياتهم (بما في ذلك الإبلاغ عن الحوادث ، وما إلى ذلك).
+يتم استخدام الأدوات الآلية للتحقق من حركة مرور المدخلات والمخرجات الإلكترونية والإجراءات المتخذة إذا لزم الأمر وفقًا للسياسة والإجراءات ذات الصلة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -5979,6 +6518,9 @@ Automated tools are utilized to check all electronic input and output traffic an
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Network control and Cybersecurity Monitoring"/>
+					<tx l="spa" name="Control de red y monitorización de ciberseguridad"/>
+					<tx l="fre" name="Contrôle du réseau et surveillance de la cybersécurité"/>
+					<tx l="ara" name="مراقبة الشبكة ومراقبة الأمن السيبراني"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -5989,23 +6531,25 @@ Automated tools are utilized to check all electronic input and output traffic an
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that internal and external communication is secure."/>
-							<tx l="fre" name="Garantimi i sigurisë së komunikimeve të jashtme dhe të brendshme"/>
+							<tx l="spa" name="Para garantizar que la comunicación interna y externa sea segura."/>
+							<tx l="fre" name="Pour garantir la sécurité de la communication interne et externe."/>
+							<tx l="ara" name="للتأكد من أن الاتصال الداخلي والخارجي آمن.."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Network control - How does the organization manage and control information in the network?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Network operations are managed, performed, and measured in an effective way. (Ref: ISO-27002, S15-IT Control (ISACA Standard), COBIT). Baldridge Excellece Builder, V1.0, March 2017, pg 16."/>
+							<tx l="spa" name="Las operaciones de red se gestionan, realizan y miden de forma eficaz. (Ref: ISO-27002, Control S15-IT (Norma ISACA), COBIT). Baldridge Excellece Builder, V1.0, March 2017, pg 16."/>
+							<tx l="fre" name="Les opérations réseau sont gérées, exécutées et mesurées de manière efficace. (Réf: ISO-27002, S15-IT Control (Norme ISACA), COBIT). Baldridge Excellece Builder, V1.0, March 2017, pg 16."/>
+							<tx l="ara" name="تتم إدارة عمليات الشبكة وتنفيذها وقياسها بطريقة فعالة. (المرجع: ISO-27002، S15-IT Control (ISACA Standard)، COBIT). Baldridge Excellece Builder, V1.0, March 2017, pg 16."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Policy and procedures on Network operations and monitoring
-
-Employee Training on Use of IT Resources
-
-Tools and procedures used to monitor and control network
-
+							<tx l="eng" name="Policy and procedures on Network operations and monitoring.
+Employee Training on Use of IT Resources.
+Tools and procedures used to monitor and control network.
 Data logs of network operations, incidents, actions, history, updates to tools, awareness of emerging cyber threats, etc.
 "/>
 						</inf>
@@ -6013,13 +6557,24 @@ Data logs of network operations, incidents, actions, history, updates to tools, 
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review policy and procedures and ensure that network operations, monitoring, control, and measurements are addressed.
-
 Review employee training records to ensure all receive adequate training with respect to their individual roles and responsibilities on use of IT Infrastructure and securing data and communications.
-
 List of tools used by the agency for facilitating network monitoring, logging, blocking threats, viruses, external logins from unexpected and unknown sources, download of scripts, blocking harmful sites, preventing downloads of file types, etc.
-
 Review logs of network activity to ensure it is being conducted in accordance with policy and that a periodic report is generated to senior management on incidents (over time) and conditions are improving or stable, etc. 
-
+"/>
+							<tx l="spa" name="Revise la política y los procedimientos y asegúrese de que se aborden las operaciones, el monitoreo, el control y las mediciones de la red.
+Revise los registros de capacitación de los empleados para asegurarse de que todos reciban la capacitación adecuada con respecto a sus roles y responsabilidades individuales sobre el uso de la infraestructura de TI y la protección de datos y comunicaciones.
+Lista de herramientas utilizadas por la agencia para facilitar el monitoreo de la red, registro, bloqueo de amenazas, virus, inicios de sesión externos de fuentes inesperadas y desconocidas, descarga de scripts, bloqueo de sitios dañinos, prevención de descargas de tipos de archivos, etc.
+Revise los registros de la actividad de la red para asegurarse de que se está llevando a cabo de acuerdo con la política y que se genera un informe periódico a la alta dirección sobre los incidentes (a lo largo del tiempo) y las condiciones están mejorando o son estables, etc. 
+"/>
+							<tx l="fre" name="Passez en revue la politique et les procédures et assurez-vous que les opérations, la surveillance, le contrôle et les mesures du réseau sont pris en compte.
+Examiner les dossiers de formation des employés pour s'assurer que tous reçoivent une formation adéquate en ce qui concerne leurs rôles et responsabilités individuels sur l'utilisation de l'infrastructure informatique et la sécurisation des données et des communications.
+Liste des outils utilisés par l'agence pour faciliter la surveillance du réseau, la journalisation, le blocage des menaces, des virus, des connexions externes à partir de sources inattendues et inconnues, le téléchargement de scripts, le blocage de sites nuisibles, la prévention des téléchargements de types de fichiers, etc.
+Examiner les journaux d'activité du réseau pour s'assurer qu'elle est menée conformément à la politique et qu'un rapport périodique est généré à la haute direction sur les incidents (au fil du temps) et les conditions s'améliorent ou sont stables, etc. 
+"/>
+							<tx l="ara" name="مراجعة السياسات والإجراءات والتأكد من معالجة عمليات الشبكة والمراقبة والتحكم والقياسات.
+مراجعة سجلات تدريب الموظفين للتأكد من حصول الجميع على التدريب المناسب فيما يتعلق بأدوارهم ومسؤولياتهم الفردية على استخدام البنية التحتية لتكنولوجيا المعلومات وتأمين البيانات والاتصالات.
+قائمة الأدوات التي تستخدمها الوكالة لتسهيل مراقبة الشبكة ، والتسجيل ، وحظر التهديدات ، والفيروسات ، وعمليات تسجيل الدخول الخارجية من مصادر غير متوقعة وغير معروفة ، وتنزيل البرامج النصية ، وحظر المواقع الضارة ، ومنع تنزيل أنواع الملفات ، وما إلى ذلك.
+قم بمراجعة سجلات نشاط الشبكة للتأكد من إجرائه وفقًا للسياسة وأنه يتم إعداد تقرير دوري للإدارة العليا عن الحوادث (بمرور الوقت) والظروف تتحسن أو مستقرة ، وما إلى ذلك. 
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -6044,46 +6599,83 @@ Review logs of network activity to ensure it is being conducted in accordance wi
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Configuration Management"/>
-					<tx l="fre" name="Menaxhimi i konfigurimit"/>
+					<tx l="spa" name="Gestión de la configuración"/>
+					<tx l="fre" name="Gestion de la configuration"/>
+					<tx l="ara" name="إدارة التكوين"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>There is a clear and well managed configuration system that supports Information Security in communication and operations.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Existe un sistema de configuración claro y bien administrado que respalda la seguridad de la información en las comunicaciones y las operaciones.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Il existe un système de configuration clair et bien géré qui prend en charge la sécurité de l'information dans les communications et les opérations.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يوجد نظام تكوين واضح ومُدار بشكل جيد يدعم أمن المعلومات في الاتصالات والعمليات.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Communications and Operations Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that internal and external communication is secure."/>
-							<tx l="fre" name="Garantimi i sigurisë së komunikimeve të jashtme dhe të brendshme"/>
+							<tx l="spa" name="Para garantizar que la comunicación interna y externa sea segura"/>
+							<tx l="fre" name="Pour garantir la sécurité de la communication interne et externe"/>
+							<tx l="ara" name="للتأكد من أن الاتصال الداخلي والخارجي آمن"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Configuration Management - Are the IT resource settings/ applications, tools, and procedures under appropriate configuration control?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Clear and well managed configuration system that supports Information Security in communication"/>
-							<tx l="fre" name="Sistem të qartë dhe të mirë-menaxhuar që mbështet Sigurinë e Informacionit në komunikim dhe në operacione"/>
+							<tx l="spa" name="Sistema de configuración claro y bien administrado que respalda la seguridad de la información en la comunicación"/>
+							<tx l="fre" name="Système de configuration clair et bien géré qui prend en charge la sécurité de l'information dans la communication"/>
+							<tx l="ara" name="نظام تكوين واضح ومُدار بشكل جيد يدعم أمن المعلومات في الاتصال"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Policy and procedures referring to configuration matters in operations area
-
-Configuration lists/ library
-
-List of tools and procedures
+							<tx l="eng" name="Policy and procedures referring to configuration matters in operations area.
+Configuration lists/ library.
+List of tools and procedures.
+"/>
+							<tx l="spa" name="Política y procedimientos referidos a asuntos de configuración en el área de operaciones.
+Listas / bibliotecas de configuración .
+Lista de herramientas y procedimientos.
+"/>
+							<tx l="fre" name="Politique et procédures relatives aux questions de configuration dans la zone d'exploitation.
+Listes / bibliothèques de configuration .
+Liste des outils et procédures.
+"/>
+							<tx l="ara" name="السياسة والإجراءات التي تشير إلى مسائل التكوين في منطقة العمليات.
+تكوين قوائم / مكتبة.
+قائمة الأدوات والإجراءات.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review role matrices to determine who is responsible for the administering the configuration and what the scope of the configuration control in operations is.
-
 Check how it is registered, controlled and updated.
-
 Verify if any problems occurred in the past because of configuration discrepancies. If so, interview managers to check what procedures have been implemented to configuration changes.
-
 Ensure that the tools are current (by looking at publisher version numbers) and that the IT Organization updates them on a regular basis in accordance with policy.
+"/>
+							<tx l="spa" name="Revise las matrices de roles para determinar quién es responsable de administrar la configuración y cuál es el alcance del control de configuración en las operaciones.
+Compruebe cómo se registra, controla y actualiza.
+Verifique si ocurrió algún problema en el pasado debido a discrepancias de configuración. Si es así, entreviste a los gerentes para verificar qué procedimientos se han implementado para los cambios de configuración.
+Asegúrese de que las herramientas estén actualizadas (mirando los números de versión del editor) y que la organización de TI las actualice periódicamente de acuerdo con la política.
+"/>
+							<tx l="fre" name="Passez en revue les matrices de rôles pour déterminer qui est responsable de l'administration de la configuration et quelle est la portée du contrôle de configuration dans les opérations.
+Vérifiez comment il est enregistré, contrôlé et mis à jour.
+Vérifiez si des problèmes se sont produits dans le passé en raison de différences de configuration. Si tel est le cas, interrogez les responsables pour vérifier quelles procédures ont été mises en œuvre pour les changements de configuration.
+Assurez-vous que les outils sont à jour (en examinant les numéros de version des éditeurs) et que l'organisation informatique les met à jour régulièrement conformément à la politique.
+"/>
+							<tx l="ara" name="راجع مصفوفات الأدوار لتحديد المسؤول عن إدارة التكوين وما هو نطاق التحكم في التكوين في العمليات.
+تحقق من كيفية تسجيله والتحكم فيه وتحديثه.
+تحقق مما إذا كانت هناك أية مشكلات حدثت في الماضي بسبب اختلافات في التكوين. إذا كان الأمر كذلك ، فقم بمقابلة المديرين للتحقق من الإجراءات التي تم تنفيذها لتغييرات التكوين.
+تأكد من أن الأدوات حديثة (من خلال النظر إلى أرقام إصدارات الناشر) وأن مؤسسة تكنولوجيا المعلومات تقوم بتحديثها بانتظام وفقًا للسياسة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -6109,56 +6701,88 @@ Ensure that the tools are current (by looking at publisher version numbers) and 
 		<Area nr="05">
 			<title>
 				<tx l="eng" name="Asset Management"/>
-				<tx l="fre" name="Menaxhimi i aseteve"/>
+				<tx l="spa" name="Gestión de activos"/>
+				<tx l="fre" name="La gestion d'actifs"/>
+				<tx l="ara" name="إدارة الأصول"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Asset management, broadly defined, refers to any system whereby things that are of value to an entity or group are monitored and maintained. Asset management is a systematic process of operating, maintaining, upgrading, and disposing of assets cost-effectively.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>La gestión de activos, ampliamente definida, se refiere a cualquier sistema mediante el cual las cosas que son de valor para una entidad o grupo son monitoreadas y mantenidas. La gestión de activos es un proceso sistemático de operación, mantenimiento, actualización y eliminación de activos de forma rentable.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>La gestion des actifs, au sens large, fait référence à tout système par lequel les choses qui ont de la valeur pour une entité ou un groupe sont surveillées et entretenues. La gestion des actifs est un processus systématique d'exploitation, d'entretien, de mise à niveau et de disposition des actifs de manière rentable.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تشير إدارة الأصول ، على نطاق واسع ، إلى أي نظام يتم بموجبه مراقبة وصيانة الأشياء ذات القيمة لكيان أو مجموعة. إدارة الأصول هي عملية منهجية لتشغيل الأصول وصيانتها وترقيتها والتخلص منها بطريقة فعالة من حيث التكلفة.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Assets Management"/>
-					<tx l="fre" name="Menaxhimi i aseteve"/>
+					<tx l="spa" name="Gestión de activos"/>
+					<tx l="fre" name="Gestion d'actifs"/>
+					<tx l="ara" name="إدارة الأصول"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Organization have an appropriate asset management system which supports its Information Security.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La organización tiene un sistema de gestión de activos apropiado que respalda su seguridad de la información.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>L'organisation dispose d'un système de gestion des actifs approprié qui prend en charge sa sécurité de l'information.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تمتلك المنظمة نظامًا مناسبًا لإدارة الأصول يدعم أمن المعلومات.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Assets Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To encourage appropriate protection of IT assets"/>
-							<tx l="fre" name="Inkurajimi i mbrojtjes së duhur nga aseteve të IT"/>
+							<tx l="spa" name="Fomentar la protección adecuada de los activos de TI."/>
+							<tx l="fre" name="Pour encourager une protection appropriée des actifs informatiques"/>
+							<tx l="ara" name="لتشجيع الحماية المناسبة لأصول تكنولوجيا المعلومات"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does organization have an appropriate asset management system which supports its Information Security?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Ensuring appropriate protection of information assets. (Ref: ISO 2700 series Information Security Management System, COBIT, and other internal policy, procedures or regulations applied)"/>
-							<tx l="fre" name="Garantimi i mbrojtjes së përshtatshme të Sigurisë së Informacionit (ref. ISO 27000 Sistemi i menaxhimit të sigurisë së informacionit, COBIT, dhe politika të tjera të brendshme, procedura ose rregulla të aplikuara)"/>
+							<tx l="eng" name="Ensuring appropriate protection of information assets (Ref: ISO 2700 series Information Security Management System, COBIT, and other internal policy, procedures or regulations applied)."/>
+							<tx l="spa" name="Garantizar la protección adecuada de los activos de información (Ref: Sistema de gestión de seguridad de la información de la serie ISO 2700, COBIT y otras políticas, procedimientos o normativas internas aplicadas)."/>
+							<tx l="fre" name="Assurer une protection appropriée des actifs informationnels (Réf: Système de gestion de la sécurité de l'information de la série ISO 2700, COBIT et autres politiques, procédures ou réglementations internes appliquées)."/>
+							<tx l="ara" name="ضمان الحماية المناسبة لأصول المعلومات(المرجع: ISO 2700 series نظام إدارة أمن المعلومات ، COBIT ، وغيرها من السياسات أو الإجراءات أو اللوائح الداخلية المطبقة)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Asset management policy
-
-Asset Classification 
-
-Information
-Classification
-
-Asset disposal procedures
-
-Financial audit reports (if they refer to assets and inventories)
-
+							<tx l="eng" name="Asset management policy.
+Asset Classification.
+Information Classification.
+Asset disposal procedures.
+Financial audit reports (if they refer to assets and inventories).
 "/>
-							<tx l="fre" name="Politikat e menaxhimit të aseteve
-Klasifikim të aseteve
-Klasifikim të informacionit
-Procedurat e asgjësimit të aseteve
-Raportet e auditimit financiar (nëse ato i referohen aseteve dhe inventarëve)
+							<tx l="spa" name="Política de gestión de activos.
+Clasificación de activos.
+Clasificación de la información.
+Procedimientos de enajenación de activos.
+Informes de auditoría financiera (si se refieren a activos e inventarios).
+"/>
+							<tx l="fre" name="Politique de gestion des actifs.
+Classification des actifs.
+Classification des informations.
+Procédures de cession d'actifs.
+Rapports d'audit financier (s'ils se réfèrent à des actifs et des stocks).
+"/>
+							<tx l="ara" name="سياسة إدارة الأصول.
+تصنيف الأصول.
+تصنيف المعلومات.
+إجراءات التصرف في الأصول.
+تقارير المراجعة المالية (إذا كانت تشير إلى الأصول والمخزونات).
 "/>
 						</inf>
 					</InformationRequired>
@@ -6166,14 +6790,31 @@ Raportet e auditimit financiar (nëse ato i referohen aseteve dhe inventarëve)
 						<anm>
 							<tx l="eng" name="Review policy to check if there is an acceptable use policy for IT hardware and software (Example, laptops may be used for personal use if it does not interfere with official business).
 Check whether the asset database is up-to date.
-
 Check inventory records to verify whether assets are categorized in terms of value, sensitivity, or other categories.
-Review procedures for assets disposal and the level of supervision mandated. Check the authorization requirement for any disposal or re-use of equipment. Inquire persons and check provisions that ensure Data is erased prior to disposal or re-use of equipment.
+Review procedures for assets disposal and the level of supervision mandated. 
+Check the authorization requirement for any disposal or re-use of equipment. 
+Inquire persons and check provisions that ensure Data is erased prior to disposal or re-use of equipment.
 "/>
-							<tx l="fre" name="Rishikim të politikave për të kontrolluar nëse ekzistojnë politika të pranueshme përdorimi për programet dhe pajisjet kompjuterike IT (shembull, laptop-ë mund të përdoren për përdorim personal nëse nuk interferon me biznesin.
-Kontrolloni nëse baza e të dhënave është e përditësuar.
-Kontrolloni regjistrimet e inventarit për të verifikuar nëse asetet janë kategorizuar në terma të vlerës, sensitivitetit ose kategorive të tjera.
-Rishikim të procedurave për dispozitat e aseteve dhe për nivelin e mbikëqyrjes së mandatuar. Kontrolloni kërkesat për autorizim për çdo zhvendosje ose ripërdorim të pajisjeve. Intervistoni personelin dhe kontrolloni dispozitat që garantojnë se të dhënat janë fshirë përpara zhvendosjes ose ripërdorimit të pajisjeve.
+							<tx l="spa" name="Revise la política para verificar si existe una política de uso aceptable para el hardware y software de TI (por ejemplo, las computadoras portátiles se pueden usar para uso personal si no interfieren con los negocios oficiales).
+Compruebe si la base de datos de activos está actualizada.
+Verifique los registros de inventario para verificar si los activos están categorizados en términos de valor, sensibilidad u otras categorías.
+Revisar los procedimientos de enajenación de activos y el nivel de supervisión exigido.
+Verifique el requisito de autorización para cualquier eliminación o reutilización de equipos.
+Pregunte a las personas y verifique las disposiciones que garantizan que los datos se borren antes de desechar o reutilizar el equipo.
+"/>
+							<tx l="fre" name="Passez en revue la politique pour vérifier s'il existe une politique d'utilisation acceptable du matériel et des logiciels informatiques (par exemple, les ordinateurs portables peuvent être utilisés à des fins personnelles s'ils n'interfèrent pas avec les activités officielles).
+Vérifiez si la base de données des actifs est à jour.
+Vérifiez les enregistrements d'inventaire pour vérifier si les actifs sont classés en termes de valeur, de sensibilité ou d'autres catégories.
+Revoir les procédures d'aliénation des actifs et le niveau de supervision requis.
+Vérifiez l'exigence d'autorisation pour toute élimination ou réutilisation de l'équipement.
+Renseignez-vous auprès des personnes et vérifiez les dispositions garantissant que les données sont effacées avant la mise au rebut ou la réutilisation de l'équipement.
+"/>
+							<tx l="ara" name="راجع السياسة للتحقق مما إذا كانت هناك سياسة استخدام مقبولة لأجهزة وبرامج تكنولوجيا المعلومات (على سبيل المثال ، يمكن استخدام أجهزة الكمبيوتر المحمولة للاستخدام الشخصي إذا لم تتعارض مع الأعمال الرسمية).
+تحقق مما إذا كانت قاعدة بيانات الأصول محدثة.
+تحقق من سجلات المخزون للتحقق مما إذا كانت الأصول مصنفة من حيث القيمة أو الحساسية أو الفئات الأخرى.
+مراجعة إجراءات التصرف في الأصول ومستوى الإشراف المطلوب.
+تحقق من متطلبات الترخيص لأي التخلص من المعدات أو إعادة استخدامها.
+استفسر من الأشخاص وتحقق من الأحكام التي تضمن محو البيانات قبل التخلص من المعدات أو إعادة استخدامها.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -6199,72 +6840,129 @@ Rishikim të procedurave për dispozitat e aseteve dhe për nivelin e mbikëqyrj
 		<Area nr="06">
 			<title>
 				<tx l="eng" name="Human Resources IT Security"/>
-				<tx l="fre" name="Siguria e burimeve njerëzore"/>
+				<tx l="spa" name="Seguridad informática de recursos humanos"/>
+				<tx l="fre" name="Sécurité informatique des ressources humaines"/>
+				<tx l="ara" name="أمن تكنولوجيا المعلومات للموارد البشرية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Employees handling personal data in an organization need to receive appropriate awareness training and regular updates in an effort to safeguard the data entrusted to them. Appropriate roles and responsibilities assigned for each job description need to be defined and documented in alignment with the organization's security policy.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>Los empleados que manejan datos personales en una organización deben recibir una formación de concienciación adecuada y actualizaciones periódicas en un esfuerzo por salvaguardar los datos que se les confían. Los roles y responsabilidades apropiados asignados para cada descripción de trabajo deben definirse y documentarse en consonancia con la política de seguridad de la organización.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Les employés qui traitent des données personnelles dans une organisation doivent recevoir une formation de sensibilisation appropriée et des mises à jour régulières afin de protéger les données qui leur sont confiées. Les rôles et responsabilités appropriés attribués à chaque description de poste doivent être définis et documentés conformément à la politique de sécurité de l'organisation.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>يحتاج الموظفون الذين يتعاملون مع البيانات الشخصية في مؤسسة ما إلى تلقي تدريب توعوي مناسب وتحديثات منتظمة في محاولة لحماية البيانات الموكلة إليهم. يجب تحديد الأدوار والمسؤوليات المناسبة المخصصة لكل وصف وظيفي وتوثيقها بما يتماشى مع السياسة الأمنية للمؤسسة.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Staff Awareness and Responsibility"/>
-					<tx l="fre" name="Ndërgjegjësimi dhe përgjegjshmëria e punonjësve"/>
+					<tx l="spa" name="Conciencia y responsabilidad del personal"/>
+					<tx l="fre" name="Sensibilisation et responsabilité du personnel"/>
+					<tx l="ara" name="وعي الموظفين ومسؤوليتهم"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
-						<ak>Employees are aware of their roles and responsibilities with respect to their duties and security
-responsibilities.</ak>
+						<ak>Employees are aware of their roles and responsibilities with respect to their duties and security responsibilities.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Los empleados conocen sus roles y responsabilidades con respecto a sus deberes y responsabilidades de seguridad.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les employés sont conscients de leurs rôles et responsabilités en ce qui concerne leurs fonctions et leurs responsabilités en matière de sécurité.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يدرك الموظفون أدوارهم ومسؤولياتهم فيما يتعلق بواجباتهم ومسؤولياتهم الأمنية.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Human Resources Security">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that all employees (including contractors and any user of sensitive data or the IT Systems where they reside) are qualified for data handling, use of IT resources, and understand their roles and responsibilities , and that access is removed once employment/ contract is terminated, and periodic refresher training is provided."/>
+							<tx l="spa" name="Asegurar que todos los empleados (incluidos los contratistas y cualquier usuario de datos confidenciales o los sistemas de TI donde residen) estén calificados para el manejo de datos, el uso de los recursos de TI y comprendan sus roles y responsabilidades, y que el acceso se elimine una vez que se finalice el empleo / contrato. termina, y se proporciona capacitación de actualización periódica."/>
+							<tx l="fre" name="S'assurer que tous les employés (y compris les sous-traitants et tout utilisateur de données sensibles ou les systèmes informatiques où ils résident) sont qualifiés pour le traitement des données, l'utilisation des ressources informatiques et comprennent leurs rôles et responsabilités, et que l'accès est supprimé une fois l'emploi / contrat est terminé, et une formation de recyclage périodique est fournie."/>
+							<tx l="ara" name="لضمان أن جميع الموظفين (بما في ذلك المقاولون وأي مستخدم للبيانات الحساسة أو أنظمة تكنولوجيا المعلومات في مكان إقامتهم) مؤهلون للتعامل مع البيانات ، واستخدام موارد تكنولوجيا المعلومات ، وفهم أدوارهم ومسؤولياتهم ، وأنه تمت إزالة الوصول بمجرد انتهاء التوظيف / العقد تم إنهاؤه ، ويتم توفير تدريب تنشيطي دوري."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Staff Awareness and Responsibility - Are employees aware of their roles and responsibilities with respect to their duties and security responsibilities? Are they aware some web sites are off limits, downloads are typically not permitted, usb drive functionality may be restricted, etc.</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Staff from recruitment to termination guards Information Security. Weaknesses in the staff’s professional approach do not jeopardize the organization’s information safety."/>
-							<tx l="fre" name="Personeli që prej rekrutimit e deri në shkëputjen e marrëdhënieve të punës, ruajnë Sigurinë e Informacionit. Dobësitë në qasjen profesionale të personelit, rrezikojnë sigurinë e informacionit të organizatës. "/>
+							<tx l="spa" name="Personal responsable de Seguridad de la Información. Las deficiencias en el enfoque profesional del personal no ponen en peligro la seguridad de la información de la organización."/>
+							<tx l="fre" name="Personnel responsable de la sécurité de l'information. Les faiblesses de l’approche professionnelle du personnel ne mettent pas en péril la sécurité de l’information de l’organisation."/>
+							<tx l="ara" name="الموظفين المسؤولين عن أمن المعلومات. نقاط الضعف في النهج المهني للموظفين لا تعرض سلامة معلومات المنظمة للخطر."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="HR Policy and recruitment procedures
-Information Security policy and procedures
-Competency Standard for IT Personnel
-Individual assessment reports
-Security incident reports (including violation of code of ethics or code of conduct)
-Security
-Awareness Campaign
-User Management Roles and Responsibilities
-
+							<tx l="eng" name="HR Policy and recruitment procedures.
+Information Security policy and procedures.
+Competency Standard for IT Personnel.
+Individual assessment reports.
+Security incident reports (including violation of code of ethics or code of conduct).
+Security Awareness Campaign.
+User Management Roles and Responsibilities.
 "/>
-							<tx l="fre" name="Politikat e HR dhe procedurat e rekrutimit
-
-Politikat e sigurisë së informacionit dhe procedurat përkatëse
-
-Standardet e kompetencave për personelin IT
-
-Raportet e vlerësimit të individëve
-
-Raportet e incidenteve ndaj sigurisë (përfshirë abuzimet me kodin e etikës ose të sjelljes)
-Fushata të ndërgjegjësimit ndaj sigurisë
-Detyrat dhe përgjegjësitë e menaxhimit të përdoruesve
+							<tx l="spa" name="Política de recursos humanos y procedimientos de contratación.
+Política y procedimientos de seguridad de la información.
+Estándar de competencia para el personal de TI.
+Informes de evaluación individual.
+Informes de incidentes de seguridad (incluida la violación del código de ética o el código de conducta).
+Campaña de concienciación sobre seguridad.
+"/>
+							<tx l="fre" name="Politique des ressources humaines et procédures de recrutement.
+Politique et procédures de sécurité de l'information.
+Norme de compétence pour le personnel informatique.
+Rapports d'évaluation individuelle.
+Rapports d'incident de sécurité (y compris violation du code d'éthique ou du code de conduite).
+Campagne de sensibilisation à la sécurité.
+"/>
+							<tx l="ara" name="سياسة الموارد البشرية وإجراءات التوظيف
+سياسة وإجراءات أمن المعلومات.
+معيار الكفاءة لموظفي تكنولوجيا المعلومات.
+تقارير التقييم الفردية.
+تقارير الحوادث الأمنية (بما في ذلك انتهاك مدونة الأخلاقيات أو قواعد السلوك).
+حملة توعية أمنية.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Human resources vis-à-vis Information Security is one of key topics in other sections like IT Governance, and positions of this section like Information Security Policy (awareness, responsibility, top-down information flow, sanctions) or Access Control (individual user rights).]
+							<tx l="eng" name="Human resources vis-à-vis Information Security is one of key topics in other sections like IT Governance, and positions of this section like Information Security Policy (awareness, responsibility, top-down information flow, sanctions) or Access Control (individual user rights).
 Inspect hiring documentation for a representative sample of IT staff members to evaluate whether background checks have been completed and evaluated.
 Inspect selection criteria for performance of security clearance background checks.
 The role of each position must be clear. Supervision activities should be run to check adherence to management policies and procedures, the code of ethics, and professional practices.
 Check if roles which are critical for Information Security are clearly defined and documented. Employees and third parties assigned such roles should know their responsibilities with respect to protecting the organizational information assets, including electronic data, IS infrastructures, documents etc. Review for appropriate definition of critical roles, for which security clearance checks are required. This should apply to employees, contractors and vendors.
 Check for appropriate Segregation of Duties between IT security management and Operations.
-Check if the policy of IT personnel placement, transfer and rotation, as well as employee termination is clear to reduce dependence on the individual. Verify what knowledge transfer mechanisms are followed
+Check if the policy of IT personnel placement, transfer and rotation, as well as employee termination is clear to reduce dependence on the individual. Verify what knowledge transfer mechanisms are followed.
+"/>
+							<tx l="spa" name="Los recursos humanos frente a la seguridad de la información es uno de los temas clave en otras secciones como el gobierno de TI, y posiciones de esta sección como la política de seguridad de la información (conciencia, responsabilidad, flujo de información de arriba hacia abajo, sanciones) o control de acceso (derechos de los usuarios individuales).
+Inspeccione la documentación de contratación de una muestra representativa de miembros del personal de TI para evaluar si se han completado y evaluado las verificaciones de antecedentes.
+Inspeccione los criterios de selección para la realización de verificaciones de antecedentes de autorización de seguridad.
+El papel de cada puesto debe quedar claro. Se deben realizar actividades de supervisión para verificar el cumplimiento de las políticas y procedimientos de gestión, el código de ética y las prácticas profesionales.
+Compruebe si los roles que son críticos para la seguridad de la información están claramente definidos y documentados. Los empleados y terceros a los que se les asignen tales roles deben conocer sus responsabilidades con respecto a la protección de los activos de información de la organización, incluidos los datos electrónicos, las infraestructuras de SI, los documentos, etc. Revise la definición adecuada de los roles críticos, para los cuales se requieren verificaciones de autorización de seguridad. Esto debería aplicarse a empleados, contratistas y proveedores.
+Compruebe la separación de funciones adecuada entre la gestión de seguridad de TI y las operaciones.
+Verifique si la política de colocación, transferencia y rotación del personal de TI, así como el despido de empleados, es clara para reducir la dependencia del individuo. Verificar qué mecanismos de transferencia de conocimiento se siguen.
+"/>
+							<tx l="fre" name="Les ressources humaines vis-à-vis de la sécurité de l'information est l'un des sujets clés dans d'autres sections comme la gouvernance informatique, et les positions de cette section comme la politique de sécurité de l'information (sensibilisation, responsabilité, flux d'informations descendant, sanctions) ou le contrôle d'accès (droits des utilisateurs individuels ).
+Inspectez la documentation d'embauche pour un échantillon représentatif de membres du personnel informatique pour évaluer si les vérifications des antécédents ont été effectuées et évaluées.
+Inspecter les critères de sélection pour l'exécution des vérifications des antécédents d'habilitation de sécurité.
+Le rôle de chaque poste doit être clair. Des activités de supervision doivent être menées pour vérifier le respect des politiques et procédures de gestion, du code d'éthique et des pratiques professionnelles.
+Vérifiez si les rôles critiques pour la sécurité de l'information sont clairement définis et documentés. Les employés et les tiers assignés à de tels rôles doivent connaître leurs responsabilités en matière de protection des actifs informationnels de l'organisation, y compris les données électroniques, les infrastructures des SI, les documents, etc. Examiner la définition appropriée des rôles critiques, pour lesquels des contrôles d'habilitation de sécurité sont nécessaires. Cela devrait s'appliquer aux employés, aux sous-traitants et aux fournisseurs.
+Vérifier la séparation appropriée des tâches entre la gestion de la sécurité informatique et les opérations.
+Vérifiez si la politique de placement, de transfert et de rotation du personnel informatique, ainsi que de licenciement des employés est claire pour réduire la dépendance à l'égard de l'individu. Vérifiez quels mécanismes de transfert de connaissances sont suivis.
+"/>
+							<tx l="ara" name="الموارد البشرية مقابل أمن المعلومات هي واحدة من الموضوعات الرئيسية في أقسام أخرى مثل إدارة تكنولوجيا المعلومات ، والمواقف في هذا القسم مثل سياسة أمن المعلومات (الوعي ، المسؤولية ، تدفق المعلومات من أعلى إلى أسفل ، العقوبات) أو التحكم في الوصول (حقوق المستخدم الفردي) ).
+افحص وثائق التوظيف للحصول على عينة تمثيلية من موظفي تكنولوجيا المعلومات لتقييم ما إذا كانت الفحوصات الأمنية قد اكتملت وتقييمها.
+فحص معايير الاختيار لأداء الفحوصات الأمنية للتصريح الأمني.
+يجب أن يكون دور كل منصب واضحا. يجب تشغيل أنشطة الإشراف للتحقق من الالتزام بسياسات الإدارة وإجراءاتها ومدونة قواعد الأخلاق والممارسات المهنية.
+تحقق مما إذا كانت الأدوار المهمة لأمن المعلومات محددة وموثقة بوضوح. يجب أن يعرف الموظفون والأطراف الثالثة المكلفة بهذه الأدوار مسؤولياتهم فيما يتعلق بحماية أصول المعلومات التنظيمية ، بما في ذلك البيانات الإلكترونية والبنى التحتية لخدمات المعلومات والوثائق وما إلى ذلك. مراجعة لتعريف مناسب للأدوار الحاسمة ، والتي تتطلب فحوصات التصريح الأمني. يجب أن ينطبق هذا على الموظفين والمقاولين والبائعين.
+تحقق من الفصل المناسب للواجبات بين إدارة أمن تكنولوجيا المعلومات والعمليات.
+تحقق مما إذا كانت سياسة تعيين موظفي تكنولوجيا المعلومات ونقلهم وتناوبهم ، وكذلك إنهاء خدمة الموظفين ، واضحة لتقليل الاعتماد على الفرد. تحقق من آليات نقل المعرفة المتبعة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -6289,11 +6987,22 @@ Check if the policy of IT personnel placement, transfer and rotation, as well as
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Training"/>
-					<tx l="fre" name="Trajnimi"/>
+					<tx l="spa" name="Capacitación"/>
+					<tx l="fre" name="Formation"/>
+					<tx l="ara" name="تمرين"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Personnel’s role in Information Security is enhanced by effective training.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La función del personal en la seguridad de la información se ve reforzada por una formación eficaz.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Le rôle du personnel dans la sécurité de l’information est renforcé par une formation efficace.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>يتم تعزيز دور الموظفين في أمن المعلومات من خلال التدريب الفعال.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Human Resources Security">
