@@ -110,6 +110,7 @@ portal.get('/contactfeedback',function(req,res){
 
     //res.send('Hello e-gov');
     //res.json(persons);
+    console.log('work/' + req.sessionID + '.xml');
     res.render('portal/contactfeedback', {
         action: 'home',
         auditfile: 'work/' + req.sessionID + '.xml',

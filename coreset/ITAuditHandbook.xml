@@ -7008,26 +7008,38 @@ Vérifiez si la politique de placement, de transfert et de rotation du personnel
 				<Matrix id="Human Resources Security">
 					<Objectives>
 						<obj>
-							<tx l="eng" name="To ensure that all employees (including contractors and any user of sensitive data or those that have access to corporate IT systems or infrastructure) are qualified for data handling and appropriate us if IT resources, and understand their roles and responsibilities , and that access is removed once employment/ contract is terminated"/>
+							<tx l="eng" name="To ensure that all employees (including contractors and any user of sensitive data or those that have access to corporate IT systems or infrastructure) are qualified for data handling and appropriate us if IT resources, and understand their roles and responsibilities, and that access is removed once employment/ contract is terminated."/>
+							<tx l="spa" name="Para garantizar que todos los empleados (incluidos los contratistas y cualquier usuario de datos confidenciales o aquellos que tengan acceso a la infraestructura o los sistemas de TI corporativos) estén calificados para el manejo de datos y se apropien de nosotros si los recursos de TI, comprenden sus roles y responsabilidades, y que el acceso se elimina, una vez terminado el empleo / contrato."/>
+							<tx l="fre" name="S'assurer que tous les employés (y compris les sous-traitants et tout utilisateur de données sensibles ou ceux qui ont accès aux systèmes ou infrastructures informatiques de l'entreprise) sont qualifiés pour le traitement des données et nous approprient si les ressources informatiques, comprennent leurs rôles et responsabilités, et que l'accès est supprimé une fois l'emploi / contrat résilié."/>
+							<tx l="ara" name="للتأكد من أن جميع الموظفين (بما في ذلك المقاولون وأي مستخدم للبيانات الحساسة أو أولئك الذين لديهم إمكانية الوصول إلى أنظمة أو البنية التحتية لتكنولوجيا المعلومات الخاصة بالشركة) مؤهلون للتعامل مع البيانات وملائمتنا إذا كانت موارد تكنولوجيا المعلومات ، وفهم أدوارهم ومسؤولياتهم ، وأنه تمت إزالة الوصول بمجرد إنهاء العمل / العقد."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Training – Initial and periodic security training including use of IT Resources, cybersecurity, user roles and responsibilities etc is provided and mandatory in accordance with organizational policy</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Trainings which provide proper skills and knowledge to employees whose role in the organization is significant for Information and Cybersecurity."/>
+							<tx l="spa" name="Capacitaciones que brindan las habilidades y conocimientos adecuados a los empleados cuyo rol en la organización es significativo para la Información y la Ciberseguridad."/>
+							<tx l="fre" name="Des formations qui fournissent les compétences et les connaissances appropriées aux employés dont le rôle dans l'organisation est important pour l'information et la cybersécurité."/>
+							<tx l="ara" name="التدريبات التي توفر المهارات والمعرفة المناسبة للموظفين الذين يكون دورهم في المنظمة مهمًا للمعلومات والأمن السيبراني."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Training schedule Results of ending tests 
-Evaluation of training effectiveness
-
+							<tx l="eng" name="Training schedule.
+Results of ending tests.
+Evaluation of training effectiveness.
 "/>
-							<tx l="fre" name="Programet e trajnimit
-
-Rezultatet e testimeve përfundimtare
-
-Vlerësimi i efektivitetit të trajnimeve
+							<tx l="spa" name="Programa de entrenamiento.
+Resultados de las pruebas finales.
+Evaluación de la eficacia de la formación.
+"/>
+							<tx l="fre" name="Le programme d'entraînement.
+Résultats des tests de fin.
+Évaluation de l'efficacité de la formation.
+"/>
+							<tx l="ara" name="جدول التدريب.
+نتائج نهاية الاختبارات.
+تقييم فعالية التدريب.
 "/>
 						</inf>
 					</InformationRequired>
@@ -7038,6 +7050,24 @@ Inspect IT security training program content for completeness and appropriatenes
 Inspect training program content to determine if all internal control frameworks and security requirements are included based on the organization’s security policies and internal controls (e.g., impact of non-adherence to security requirements, appropriate use of company resources and facilities, incident handling, employee responsibility for information security).
 Inquire whether and confirm that training materials and programs have been reviewed regularly for adequacy.
 Inspect the policy for determining training requirements. Confirm that the training requirement’s policy ensures that the organization’s critical requirements are reflected in training and awareness programs.
+"/>
+							<tx l="spa" name="Evalúe el proceso de medición de la eficacia de la capacitación, si lo hay, para confirmar que se incluyen los requisitos críticos de capacitación y concienciación sobre seguridad de TI.
+Inspeccione el contenido del programa de capacitación en seguridad de TI para verificar que esté completo y sea apropiado (incluida la seguridad cibernética, la concienciación, el uso de software autorizado, no descargar desde sitios no autorizados, informar incidentes, etc.) Inspeccione los mecanismos de entrega para determinar si la información se entrega a todos los usuarios de los recursos de TI, incluidos consultores, contratistas y miembros del personal temporal y, cuando corresponda, clientes y proveedores.
+Inspeccionar el contenido del programa de capacitación para determinar si todos los marcos de control interno y los requisitos de seguridad están incluidos en función de las políticas de seguridad y los controles internos de la organización (por ejemplo, el impacto de la falta de cumplimiento de los requisitos de seguridad, el uso adecuado de los recursos e instalaciones de la empresa, el manejo de incidentes, la responsabilidad del empleado para la seguridad de la información).
+Pregunte si los materiales y programas de capacitación se han revisado periódicamente para verificar su idoneidad.
+Inspeccione la política para determinar los requisitos de capacitación. Confirme que la política de requisitos de capacitación garantiza que los requisitos críticos de la organización se reflejen en los programas de capacitación y concientización.
+"/>
+							<tx l="fre" name="Évaluer le processus de mesure de l'efficacité de la formation, le cas échéant, pour confirmer que les exigences critiques en matière de formation et de sensibilisation à la sécurité informatique sont incluses.
+Inspectez le contenu du programme de formation à la sécurité informatique pour en vérifier l'exhaustivité et la pertinence (y compris la cybersécurité, la sensibilisation, l'utilisation de logiciels autorisés, le non-téléchargement à partir de sites non autorisés, le signalement d'incidents, etc.). Inspecter les mécanismes de livraison pour déterminer si les informations sont fournies à tous les utilisateurs des ressources informatiques, y compris les consultants, les sous-traitants et les membres du personnel temporaire et, le cas échéant, les clients et les fournisseurs.
+Inspecter le contenu du programme de formation pour déterminer si tous les cadres de contrôle interne et les exigences de sécurité sont inclus en fonction des politiques de sécurité et des contrôles internes de l'organisation (p. Ex., Impact du non-respect des exigences de sécurité, utilisation appropriée des ressources et des installations de l'entreprise, gestion des incidents, responsabilité des employés pour la sécurité de l'information).
+Demandez si et confirmez que le matériel et les programmes de formation ont été régulièrement examinés pour en vérifier la pertinence.
+Inspectez la politique pour déterminer les exigences de formation. Confirmez que la politique relative aux exigences en matière de formation garantit que les exigences essentielles de l'organisation sont reflétées dans les programmes de formation et de sensibilisation.
+"/>
+							<tx l="ara" name="قم بتقييم عملية قياس فعالية التدريب ، إن وجدت ، للتأكد من تضمين متطلبات التدريب والتوعية بأمن تكنولوجيا المعلومات.
+فحص محتوى برنامج التدريب على أمن تكنولوجيا المعلومات للتأكد من اكتماله وملاءمته (بما في ذلك الأمن السيبراني ، والوعي ، واستخدام البرامج المصرح بها ، وعدم التنزيل من مواقع غير مصرح بها ، والإبلاغ عن الحوادث ، وما إلى ذلك). افحص آليات التسليم لتحديد ما إذا كانت المعلومات قد تم تسليمها إلى جميع مستخدمي موارد تكنولوجيا المعلومات ، بما في ذلك الاستشاريين والمقاولين والموظفين المؤقتين ، وعند الاقتضاء ، العملاء والموردين.
+فحص محتوى برنامج التدريب لتحديد ما إذا كانت جميع أطر الرقابة الداخلية ومتطلبات الأمان متضمنة بناءً على سياسات أمن المنظمة والضوابط الداخلية (على سبيل المثال ، تأثير عدم الالتزام بمتطلبات الأمان ، والاستخدام المناسب لموارد الشركة ومرافقها ، ومعالجة الحوادث ، ومسؤولية الموظف لأمن المعلومات).
+استفسر عما إذا كان قد تمت مراجعة المواد والبرامج التدريبية بانتظام للتأكد من كفايتها وتأكد من ذلك.
+فحص سياسة تحديد متطلبات التدريب. تأكد من أن سياسة متطلبات التدريب تضمن أن متطلبات المنظمة الحيوية تنعكس في برامج التدريب والتوعية.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -7063,19 +7093,42 @@ Inspect the policy for determining training requirements. Confirm that the train
 		<Area nr="07">
 			<title>
 				<tx l="eng" name="Intrusion Detection and Protection"/>
+				<tx l="spa" name="Detección y protección de intrusiones"/>
+				<tx l="fre" name="Détection et protection contre les intrusions"/>
+				<tx l="ara" name="كشف التسلل والحماية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Describes measures that are designed to prevent theft or damage of IT hardware, unauthorized access, detecting cyber intrusion, and the copying or viewing of sensitive information; and guidance on how to design infrastructures to resist potentially hostile acts.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>Describe las medidas que están diseñadas para evitar el robo o daño del hardware de TI, el acceso no autorizado, la detección de intrusiones cibernéticas y la copia o visualización de información confidencial; y orientación sobre cómo diseñar infraestructuras para resistir actos potencialmente hostiles.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Décrit les mesures conçues pour empêcher le vol ou l'endommagement du matériel informatique, l'accès non autorisé, la détection des cyber-intrusions et la copie ou la visualisation d'informations sensibles; et des conseils sur la manière de concevoir des infrastructures pour résister à des actes potentiellement hostiles.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>يصف التدابير المصممة لمنع سرقة أو تلف أجهزة تكنولوجيا المعلومات ، والوصول غير المصرح به ، واكتشاف التسلل عبر الإنترنت ، ونسخ المعلومات الحساسة أو عرضها ؛ وإرشادات حول كيفية تصميم البنى التحتية لمقاومة الأعمال العدائية المحتملة.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Premises safety"/>
-					<tx l="fre" name="Siguria e objekteve"/>
+					<tx l="spa" name="Seguridad de las instalaciones"/>
+					<tx l="fre" name="Sécurité des locaux"/>
+					<tx l="ara" name="سلامة المباني"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
+						<ak>Physical and environmental security stays in compliance with the safety requirements and sensitivity classification of IT assets.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La seguridad física y ambiental cumple con los requisitos de seguridad y la clasificación de sensibilidad de los activos de TI.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>La sécurité physique et environnementale reste conforme aux exigences de sécurité et à la classification de sensibilité des actifs informatiques.</ak>
+					</narr>
+					<narr l="ara">
 						<ak>Physical and environmental security stays in compliance with the safety requirements and sensitivity classification of IT assets.</ak>
 					</narr>
 				</Narrative>
@@ -7083,37 +7136,89 @@ Inspect the policy for determining training requirements. Confirm that the train
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To prevent theft or damage of IT hardware, unauthorized access, detecting cyber intrusion, and the copying or viewing of sensitive information."/>
+							<tx l="spa" name="Para evitar el robo o daño del hardware de TI, el acceso no autorizado, la detección de intrusiones cibernéticas y la copia o visualización de información confidencial."/>
+							<tx l="fre" name="Pour éviter le vol ou l'endommagement du matériel informatique, les accès non autorisés, la détection des cyber-intrusions et la copie ou la visualisation d'informations sensibles."/>
+							<tx l="ara" name="لمنع سرقة أو إتلاف أجهزة تكنولوجيا المعلومات ، والوصول غير المصرح به ، واكتشاف التطفل الإلكتروني ، ونسخ المعلومات الحساسة أو عرضها."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Premises safety - Are the buildings and grounds of the organization secured against physical and environmental risks? Are tools in place to detect and terminate cyber intrusions?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Ensure that physical and environmental security stays in compliance with the safety requirements and sensitivity classification of IT assets. Ensure tools and procedures are in place to monitor cyber activity and take appropriate actions."/>
+							<tx l="spa" name="Asegúrese de que la seguridad física y ambiental cumpla con los requisitos de seguridad y la clasificación de sensibilidad de los activos de TI. Asegúrese de que existan herramientas y procedimientos para monitorear la actividad cibernética y tomar las acciones apropiadas."/>
+							<tx l="fre" name="Veiller à ce que la sécurité physique et environnementale reste conforme aux exigences de sécurité et à la classification de sensibilité des actifs informatiques. S'assurer que des outils et des procédures sont en place pour surveiller la cyberactivité et prendre les mesures appropriées."/>
+							<tx l="ara" name="تأكد من أن الأمن المادي والبيئي يظل متوافقًا مع متطلبات السلامة وتصنيف الحساسية لأصول تكنولوجيا المعلومات. تأكد من وجود الأدوات والإجراءات لمراقبة النشاط السيبراني واتخاذ الإجراءات المناسبة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Network diagram 
-Site Security Plan
-Periodical physical testing report
-Reports by relevant services (e.g. Fire dept.)
-
-Network monitoring tools
-Logs
-Real time logging and display of network activity
+							<tx l="eng" name="Network diagram.
+Site Security Plan.
+Periodical physical testing report.
+Reports by relevant services (e.g. Fire dept.).
+Network monitoring tools.
+Logs.
+Real time logging and display of network activity.
+"/>
+							<tx l="spa" name="Diagrama de Red.
+Plan de seguridad del sitio.
+Informe de pruebas físicas periódicas.
+Informes de servicios relevantes (por ejemplo, departamento de bomberos).
+Herramientas de monitoreo de redes.
+Registros (logs).
+Registro (logging) y visualización en tiempo real de la actividad de la red.
+"/>
+							<tx l="fre" name="Diagramme de réseau.
+Plan de sécurité du site.
+Rapport d'essais physiques périodiques.
+Rapports des services concernés (par exemple, service d'incendie).
+Outils de surveillance du réseau.
+Journaux (logs).
+Journalisation (logging) et affichage en temps réel de l'activité du réseau.
+"/>
+							<tx l="ara" name="رسم تخطيطي للشبكة.
+خطة أمن الموقع.
+تقرير الفحص البدني الدوري.
+تقارير من قبل الخدمات ذات الصلة (مثل قسم النار).
+أدوات مراقبة الشبكة.
+السجلات.
+التسجيل في الوقت الحقيقي وعرض نشاط الشبكة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="AAnalyze what the audited organization’s primary physical security controls are. Check if they match the up-to-date risk analysis.
+							<tx l="eng" name="Analyze what the audited organization’s primary physical security controls are. Check if they match the up-to-date risk analysis.
 Review location and physical precautionary measures for key elements of IT infrastructure. Check what environmental controls are in place (fire extinguisher, alarm, power systems, etc).
 Verify if recommendations by relevant services (esp. firemen, housing inspection, disaster prevention) been implemented.
 (For security plans relating to disasters, refer to BCP and DRP section of this Handbook).
-
-Review how the organization monitors their network activity
-What tools are in place to ‘sniff’ data packages and determine suspicious activity
+Review how the organization monitors their network activity.
+What tools are in place to ‘sniff’ data packages and determine suspicious activity.
 Review alerts and or appraise how they are reported and responded to.
+"/>
+							<tx l="spa" name="Analice cuáles son los principales controles de seguridad física de la organización auditada. Compruebe si coinciden con el análisis de riesgos actualizado.
+Revise la ubicación y las medidas de precaución físicas para los elementos clave de la infraestructura de TI. Verifique qué controles ambientales están en su lugar (extintor de incendios, alarma, sistemas de energía, etc.).
+Verifique si se implementaron las recomendaciones de los servicios relevantes (especialmente bomberos, inspección de viviendas, prevención de desastres).
+(Para los planes de seguridad relacionados con desastres, consulte la sección BCP y DRP de este manual).
+Revise cómo la organización monitorea su actividad de red.
+Qué herramientas existen para rastrear paquetes de datos y determinar actividades sospechosas.
+Revise las alertas o evalúe cómo se informan y cómo se les responde.
+"/>
+							<tx l="fre" name="Analysez les principaux contrôles de sécurité physique de l'organisation auditée. Vérifiez s'ils correspondent à l'analyse des risques à jour.
+Examiner l'emplacement et les mesures de précaution physiques pour les éléments clés de l'infrastructure informatique. Vérifiez quels contrôles environnementaux sont en place (extincteur, alarme, systèmes d'alimentation, etc.).
+Vérifier si les recommandations des services concernés (en particulier les pompiers, l'inspection des logements, la prévention des catastrophes) ont été mises en œuvre.
+(Pour les plans de sécurité relatifs aux catastrophes, reportez-vous à la section Plan de coninuité de l'entreprise (BCP) et Plan de reprise après sinistre (DRP) de ce manuel).
+Vérifiez comment l'organisation surveille son activité réseau.
+Quels outils sont en place pour détecter les paquets de données et déterminer les activités suspectes.
+Passez en revue les alertes et / ou évaluez la manière dont elles sont signalées et traitées.
+"/>
+							<tx l="ara" name="تتحليل ماهية ضوابط الأمن المادي الأساسية للمؤسسة الخاضعة للتدقيق. تحقق مما إذا كانت تتطابق مع تحليل المخاطر المحدث.
+مراجعة الموقع والتدابير الوقائية المادية للعناصر الرئيسية للبنية التحتية لتكنولوجيا المعلومات. تحقق من الضوابط البيئية الموجودة (مطفأة حريق ، إنذار ، أنظمة طاقة ، إلخ).
+تحقق من تنفيذ توصيات الدوائر ذات الصلة (خاصة رجال الإطفاء وتفتيش المساكن والوقاية من الكوارث).
+(بالنسبة لخطط الأمان المتعلقة بالكوارث ، يرجى الرجوع إلى قسم خطة استمرارية الأعمال (BCP) وخطة التعافي من الكوارث (DRP) في هذا الدليل).
+راجع كيف تراقب المنظمة نشاط شبكتها.
+ما هي الأدوات الموجودة لاستنشاق حزم البيانات وتحديد النشاط المشبوه.
+مراجعة التنبيهات و / أو تقييم كيفية الإبلاغ عنها والاستجابة لها.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -7138,44 +7243,75 @@ Review alerts and or appraise how they are reported and responded to.
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Physical access"/>
-					<tx l="fre" name="Aksesi fizik"/>
+					<tx l="spa" name="Acceso físico"/>
+					<tx l="fre" name="Accès physique"/>
+					<tx l="ara" name="الوصول المادي"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Organizational and physical measures ensure no unauthorized access.</ak>
 					</narr>
 				</Narrative>
+					<narr l="spa">
+						<ak>Las medidas organizativas y físicas garantizan que no haya acceso no autorizado.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Des mesures organisationnelles et physiques garantissent aucun accès non autorisé.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تضمن التدابير التنظيمية والمادية عدم الوصول غير المصرح به.</ak>
+					</narr>
 				<Matrix id="Physical Security">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To prevent theft or damage of IT hardware, unauthorized access, and copying or viewing of sensitive information."/>
-							<tx l="fre" name="Parandalimin e vjedhjes ose të dëmtimit të pajisjeve kompjuterike, aksesit të paautorizuar, kopjimit ose shikimit të informacionit sensitiv"/>
+							<tx l="spa" name="Para evitar el robo o daño del hardware de TI, el acceso no autorizado y la copia o visualización de información confidencial."/>
+							<tx l="fre" name="Pour éviter le vol ou l'endommagement du matériel informatique, l'accès non autorisé et la copie ou la visualisation d'informations sensibles."/>
+							<tx l="ara" name="لمنع سرقة أو تلف أجهزة تكنولوجيا المعلومات ، والوصول غير المصرح به ، ونسخ المعلومات الحساسة أو عرضها."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Physical access - How the organization ensures that only authorized personnel access the facility and that they do not introduce viruses and or other hacks via use of usb, downloads, web site links, etc.</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Ensure that organizational and physical measures ensure no unauthorized access."/>
-							<tx l="fre" name="Sigurohuni se masat organizacionale dhe fizike garantojnë parandalimin e aksesit të paautorizuar"/>
+							<tx l="spa" name="Asegúrese de que las medidas organizativas y físicas prohíben el acceso no autorizado."/>
+							<tx l="fre" name="Assurez-vous que les mesures organisationnelles et physiques garantissent aucun accès non autorisé."/>
+							<tx l="ara" name="تأكد من أن التدابير التنظيمية والمادية تضمن عدم الوصول غير المصرح به."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Layout of IT hardware installation
-
-Site Security Plan Devices configuration
-
-Periodical physical testing report
-
-Incident reports
-
-
-
-PC and other end user workstation configuration
-
-List of blocked sites
-
-Tools to determine data on network and or introduction or changes to end user configuration
+							<tx l="eng" name="Layout of IT hardware installation.
+Site Security Plan Devices configuration.
+Periodical physical testing report.
+Incident reports.
+PC and other end user workstation configuration.
+List of blocked sites.
+Tools to determine data on network and or introduction or changes to end user configuration.
+"/>
+							<tx l="spa" name="Disposición de la instalación del hardware informático.
+Configuración del plan de seguridad del sitio.
+Informe de pruebas físicas periódicas.
+Reportes de incidentes.
+Configuración de estaciones de trabajo, de ordenadores y otros usuarios finales.
+Lista de sitios bloqueados.
+Herramientas para determinar datos en la red y / o introducción o cambios en la configuración del usuario final.
+"/>
+							<tx l="fre" name="Disposition de l'installation du matériel informatique.
+Configuration du plan de sécurité du site.
+Rapport d'essais physiques périodiques.
+Rapports d'incident.
+Configuration des ordinateurs et des autres postes de travail des utilisateurs finaux.
+Liste des sites bloqués.
+Outils pour déterminer les données sur le réseau et / ou l'introduction ou les modifications de la configuration de l'utilisateur final.
+"/>
+							<tx l="ara" name="تخطيط تركيب أجهزة تكنولوجيا المعلومات.
+تكوين أجهزة خطة أمان الموقع.
+تقرير الفحص البدني الدوري.
+تقارير الحادث.
+الكمبيوتر الشخصي وتكوين محطة عمل المستخدم النهائي الأخرى.
+قائمة المواقع المحجوبة.
+أدوات لتحديد البيانات على الشبكة و / أو مقدمة أو تغييرات في تكوين المستخدم النهائي.
 "/>
 						</inf>
 					</InformationRequired>
@@ -7188,12 +7324,42 @@ Check who maintains and controls the allocations of access control to the sensit
 Find if access to secure areas /secure rooms/ server locations is restricted.
 Select a sample of users/employees and determine if their access to facilities is appropriate, based upon their job responsibilities.
 Verify if incidents are reported to an incidents/problems management system. Find if they are analyzed and lessons learnt.
-
-Ensure USB, CD ROM, and other ways of entering information into the IT Infrastructure are blocked and or only allowed after information is deemed clean
-
+Ensure USB, CD ROM, and other ways of entering information into the IT Infrastructure are blocked and or only allowed after information is deemed clean.
 There is a list of sites unavailable to the employees and this is updated on a regular basis
-
 Any changes to the end user platform (i.e., attempting to install software, attempting to download data from the web, linking to hotlinks in emails, etc) are either blocked or logged for further action.
+"/>
+							<tx l="spa" name="Revise las instrucciones de seguridad, el diagrama de red y los documentos relacionados y verifique cómo la organización controla el acceso a áreas sensibles de sus instalaciones.
+Revise y observe el tráfico de entrada / salida y cómo funciona el sistema de seguridad física.
+Determine qué medios se utilizan. Obtenga políticas y procedimientos relacionados con la seguridad de las instalaciones (puertas, insignias, torniquetes, guardias, barreras, acceso de lectores de tarjetas y llaves, etc.) y determine si esos procedimientos tienen en cuenta la identificación y autenticación adecuadas.
+Verifique quién mantiene y controla las asignaciones de control de acceso a las ubicaciones sensibles. Averigüe si el nivel de gestión es suficiente para la seguridad de la información.
+Encuentre si el acceso a áreas seguras / salas seguras / ubicaciones de servidores está restringido.
+Seleccione una muestra de usuarios / empleados y determine si su acceso a las instalaciones es apropiado, según sus responsabilidades laborales.
+Verifique si los incidentes se informan a un sistema de gestión de incidentes / problemas. Averigüe si se analizan y se extraen lecciones.
+Asegúrese de que el USB, el CD ROM y otras formas de ingresar información en la infraestructura de TI estén bloqueados o solo se permitan después de que la información se considere limpia.
+Hay una lista de sitios que no están disponibles para los empleados y se actualiza periódicamente.
+Cualquier cambio en la plataforma del usuario final (es decir, intentar instalar software, intentar descargar datos de la web, vincular a enlaces directos en correos electrónicos, etc.) se bloquea o registra para acciones adicionales.
+"/>
+							<tx l="fre" name="Passez en revue les instructions de sécurité, le diagramme de réseau et les documents associés et vérifiez comment l'organisation contrôle l'accès aux zones sensibles de ses locaux.
+Passez en revue et observez le trafic entrant / sortant et le fonctionnement du système de sécurité physique.
+Déterminez quels moyens sont utilisés. Obtenir les politiques et procédures relatives à la sécurité des installations (portails, badges, tourniquets, gardes, barrières, accès des lecteurs de clés et de cartes, etc.) et déterminer si ces procédures permettent une identification et une authentification appropriées.
+Vérifiez qui gère et contrôle les attributions de contrôle d'accès aux emplacements sensibles. Déterminez si le niveau de gestion est suffisant pour la sécurité de l'information.
+Vérifiez si l'accès aux zones sécurisées / salles sécurisées / emplacements de serveurs est restreint.
+Sélectionnez un échantillon d'utilisateurs / employés et déterminez si leur accès aux installations est approprié, en fonction de leurs responsabilités professionnelles.
+Vérifiez si les incidents sont signalés à un système de gestion des incidents / problèmes. Trouvez si elles sont analysées et les leçons apprises.
+Assurez-vous que l'USB, le CD-ROM et les autres moyens de saisir des informations dans l'infrastructure informatique sont bloqués et / ou autorisés uniquement après que les informations sont considérées comme propres.
+Il existe une liste de sites indisponibles pour les employés et elle est mise à jour régulièrement
+Toute modification apportée à la plate-forme de l'utilisateur final (c.-à-d. Tentative d'installation de logiciel, tentative de téléchargement de données à partir du Web, lien vers des liens actifs dans les e-mails, etc.) est bloquée ou enregistrée pour une action ultérieure.
+"/>
+							<tx l="ara" name="راجع تعليمات الأمان ومخطط الشبكة والمستندات ذات الصلة وتحقق من كيفية سيطرة المنظمة على الوصول إلى المناطق الحساسة في منشآتها.
+مراجعة ومراقبة حركة المرور للداخل / الخارج وكيفية عمل نظام الأمان المادي.
+حدد الوسائل المستخدمة. احصل على السياسات والإجراءات من حيث صلتها بأمن المنشأة (البوابات ، والشارات ، والأبواب الدوارة ، والحراس ، والحواجز ، والوصول إلى قارئ المفاتيح والبطاقات ، وما إلى ذلك) وحدد ما إذا كانت هذه الإجراءات مسؤولة عن تحديد الهوية والمصادقة بشكل صحيح.
+تحقق من الذي يحافظ ويتحكم في تخصيصات التحكم في الوصول إلى المواقع الحساسة. اكتشف ما إذا كان مستوى الإدارة كافياً لأمن المعلومات.
+اكتشف ما إذا كان الوصول إلى المناطق الآمنة / الغرف الآمنة / مواقع الخادم مقيدًا.
+حدد عينة من المستخدمين / الموظفين وحدد ما إذا كان وصولهم إلى المرافق مناسبًا ، بناءً على مسؤولياتهم الوظيفية.
+تحقق مما إذا تم الإبلاغ عن الحوادث إلى نظام إدارة الحوادث / المشاكل. اكتشف ما إذا تم تحليلها والدروس المستفادة.
+تأكد من حظر USB و CD ROM والطرق الأخرى لإدخال المعلومات في البنية التحتية لتكنولوجيا المعلومات و / أو السماح بها فقط بعد اعتبار المعلومات نظيفة.
+توجد قائمة بالمواقع غير المتاحة للموظفين ويتم تحديثها بشكل منتظم
+يتم حظر أو تسجيل أي تغييرات في النظام الأساسي للمستخدم النهائي (أي محاولة تثبيت برنامج ، أو محاولة تنزيل البيانات من الويب ، أو الارتباط بالروابط الساخنة في رسائل البريد الإلكتروني ، إلخ) أو يتم تسجيلها لاتخاذ مزيد من الإجراءات.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -7218,50 +7384,87 @@ Any changes to the end user platform (i.e., attempting to install software, atte
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Intrusion defense"/>
-					<tx l="fre" name="Mbrojtja nga ndërhyrjet"/>
+					<tx l="spa" name="Defensa contra intrusiones"/>
+					<tx l="fre" name="Défense contre les intrusions"/>
+					<tx l="ara" name="الدفاع عن التطفل"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Intrusions were and will be detected and combated.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Las intrusiones fueron y serán detectadas y combatidas.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Les intrusions ont été et seront détectées et combattues.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تم الكشف عن الاختراقات وسوف يتم الكشف عنها ومكافحتها.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Physical Security">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To prevent theft or damage of IT hardware, unauthorized access, and copying or viewing of sensitive information."/>
-							<tx l="fre" name="Parandalimin e vjedhjes ose të dëmtimit të pajisjeve kompjuterike, aksesit të paautorizuar, kopjimit ose shikimit të informacionit sensitiv"/>
+							<tx l="spa" name="Para evitar el robo o daño del hardware de TI, el acceso no autorizado y la copia o visualización de información confidencial."/>
+							<tx l="fre" name="Pour éviter le vol ou l'endommagement du matériel informatique, l'accès non autorisé et la copie ou la visualisation d'informations sensibles."/>
+							<tx l="ara" name="لمنع سرقة أو إتلاف أجهزة تكنولوجيا المعلومات ، والوصول غير المصرح به ، ونسخ المعلومات الحساسة أو عرضها."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Intrusion defense - How the organization detects and combats intrusions?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Ensure that intrusions were and will be detected and combated (Internal security policy"/>
-							<tx l="fre" name="Garantimi se ndërhyrjet zbulohen dhe trajtohen (Politika të brendshme të sigurisë)"/>
+							<tx l="eng" name="Ensure that intrusions were and will be detected and combated (Internal security policy)"/>
+							<tx l="spa" name="Asegurar que las intrusiones fueron y serán detectadas y combatidas (Política de seguridad interna)"/>
+							<tx l="fre" name="S'assurer que les intrusions ont été et seront détectées et combattues (Politique de sécurité interne)"/>
+							<tx l="ara" name="التأكد من أن عمليات التطفل قد تم اكتشافها ومكافحتها (سياسة الأمن الداخلي)"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Site Security Plan Devices configuration Incident reports"/>
-							<tx l="fre" name="Plani i sigurisë së ndërtesës
-
-Konfigurimi i pajisjeve kompjuterike
-
-Raportet e incidenteve
+							<tx l="eng" name="Site Security.
+Plan Devices configuration. 
+Incident reports.
+"/>
+							<tx l="spa" name="Seguridad del sitio.
+Plan de configuración de dispositivos.
+Reportes de incidentes.
+"/>
+							<tx l="fre" name="Sécurité du site.
+Plan de configuration des appareils.
+Rapports d'incident.
+"/>
+							<tx l="ara" name="حماية الموقع.
+تكوين خطة الأجهزة.
+تقارير الحادث.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="IInquire how the organization’s security unit knows that a physical  intrusion has occurred to secure locations
-
-Inquire how the organization’s security unit knows when a cyber intrusion has occurred to their network or system
-
-Check instructions to find out the Process for handling an intrusion to a secure space or building or network resource
-
-Check incident reports to identify whether intrusion was detected in real-time, later, and if they are aware of what damage was caused
-
+							<tx l="eng" name="Inquire how the organization’s security unit knows that a physical  intrusion has occurred to secure locations.
+Inquire how the organization’s security unit knows when a cyber intrusion has occurred to their network or system.
+Check instructions to find out the Process for handling an intrusion to a secure space or building or network resource.
+Check incident reports to identify whether intrusion was detected in real-time, later, and if they are aware of what damage was caused.
 Check if the organization has a clear desk or clean screen policy to prevent unauthorized access.
-
+"/>
+							<tx l="spa" name="Pregunte cómo sabe la unidad de seguridad de la organización que se ha producido una intrusión física en ubicaciones seguras.
+Pregunte cómo la unidad de seguridad de la organización sabe cuándo se ha producido una intrusión cibernética en su red o sistema.
+Consulte las instrucciones para conocer el proceso para manejar una intrusión en un espacio seguro, edificio o recurso de red.
+Verifique los informes de incidentes para identificar si se detectó una intrusión en tiempo real, más tarde, y si están al tanto del daño causado.
+Compruebe si la organización tiene un escritorio transparente o una política de pantalla limpia para evitar el acceso no autorizado.
+"/>
+							<tx l="fre" name="Renseignez-vous sur la manière dont l’unité de sécurité de l’organisation sait qu’une intrusion physique s’est produite pour sécuriser les lieux.
+Renseignez-vous sur la manière dont l’unité de sécurité de l’organisation sait quand une cyber-intrusion s’est produite dans son réseau ou son système.
+Consultez les instructions pour connaître le processus de gestion d'une intrusion dans un espace ou un bâtiment ou une ressource réseau sécurisé.
+Vérifiez les rapports d'incident pour déterminer si une intrusion a été détectée en temps réel, plus tard, et s'ils sont conscients des dommages causés.
+Vérifiez si l'organisation a un bureau clair ou une politique d'écran propre pour empêcher tout accès non autorisé.
+"/>
+							<tx l="ara" name="استفسر عن كيفية معرفة وحدة الأمن بالمؤسسة بحدوث اختراق مادي لتأمين المواقع.
+استفسر عن الكيفية التي تعرف بها وحدة الأمن التابعة للمؤسسة وقت حدوث اختراق إلكتروني لشبكتها أو نظامها.
+تحقق من التعليمات لمعرفة عملية التعامل مع اقتحام مساحة أو مبنى أو مورد شبكة آمن.
+تحقق من تقارير الحوادث لتحديد ما إذا تم اكتشاف التطفل في الوقت الفعلي ، ولاحقًا ، وما إذا كانوا على علم بالضرر الذي حدث.
+تحقق مما إذا كانت المنظمة لديها مكتب شفاف أو سياسة شاشة نظيفة لمنع الوصول غير المصرح به.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -7287,72 +7490,120 @@ Check if the organization has a clear desk or clean screen policy to prevent una
 		<Area nr="08">
 			<title>
 				<tx l="eng" name="Access Control"/>
-				<tx l="fre" name="Kontrollet e aksesit"/>
+				<tx l="spa" name="Control de acceso"/>
+				<tx l="fre" name="Control de acceso"/>
+				<tx l="ara" name="صلاحية التحكم صلاحية الدخول"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>Access control refers to exerting control over who can interact with a resource. Often but not always, this involves an authority, who does the controlling. The resource can be a given building, group of buildings, or computer-based IT system.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>El control de acceso se refiere a ejercer control sobre quién puede interactuar con un recurso. A menudo, pero no siempre, esto implica una autoridad, que controla. El recurso puede ser un edificio determinado, un grupo de edificios o un sistema informático.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Le contrôle d'accès fait référence à l'exercice d'un contrôle sur qui peut interagir avec une ressource. Souvent, mais pas toujours, cela implique une autorité, qui fait le contrôle. La ressource peut être un bâtiment donné, un groupe de bâtiments ou un système informatique.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>يشير التحكم في الوصول إلى ممارسة التحكم في من يمكنه التفاعل مع مورد. في كثير من الأحيان ولكن ليس دائمًا ، هذا ينطوي على سلطة تقوم بالسيطرة. يمكن أن يكون المورد عبارة عن مبنى معين ، أو مجموعة من المباني ، أو نظام تكنولوجيا معلومات.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Access policy"/>
-					<tx l="fre" name="Politikat e aksesit"/>
+					<tx l="spa" name="Política de acceso"/>
+					<tx l="fre" name="Politique d'accès"/>
+					<tx l="ara" name="نهج الوصول"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>The Access Policy gives a basis for control of relevant information distribution.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La Política de acceso proporciona una base para el control de la distribución de información relevante.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>La politique d'accès fournit une base pour le contrôle de la distribution des informations pertinentes.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>توفر سياسة الوصول أساسًا للتحكم في توزيع المعلومات ذات الصلة.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Access Control">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that only authorized users have access to relevant information"/>
-							<tx l="fre" name="Të sigurohet se vetëm përdoruesit e autorizuar ndaj informacioneve"/>
+							<tx l="spa" name="Para garantizar que solo los usuarios autorizados tengan acceso a la información relevante"/>
+							<tx l="fre" name="S'assurer que seuls les utilisateurs autorisés ont accès aux informations pertinentes"/>
+							<tx l="ara" name="للتأكد من أن المستخدمين المصرح لهم فقط لديهم حق الوصول إلى المعلومات ذات الصلة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Access policy - Does the organization have clear and efficient policy on access control?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The Access Policy gives sound basis for control of relevant information distribution."/>
-							<tx l="fre" name="Politikat e aksesit japin një bazë për kontrollin e ndërhyrjes ndaj informacioneve"/>
+							<tx l="spa" name="La Política de acceso proporciona una base sólida para el control de la distribución de información relevante."/>
+							<tx l="fre" name="La politique d'accès fournit une base solide pour le contrôle de la distribution des informations pertinentes."/>
+							<tx l="ara" name="توفر سياسة الوصول أساسًا سليمًا للتحكم في توزيع المعلومات ذات الصلة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Access Policy and procedures
-List of users 
-Access control list/matrix
+							<tx l="eng" name="Access Policy and procedures.
+List of users .
+Access control list/matrix.
 "/>
-							<tx l="fre" name="Politikat dhe procedurat e aksesit
-
-Lista e përdoruesve
-
-Lista/matrica e aksesit
+							<tx l="spa" name="Política y procedimientos de acceso.
+Lista de usuarios.
+Lista / matriz de control de acceso.
+"/>
+							<tx l="fre" name="Politique d'accès et procédures.
+Liste des utilisateurs.
+Liste / matrice de contrôle d'accès.
+"/>
+							<tx l="ara" name="سياسة وإجراءات الوصول.
+قائمة المستخدمين.
+قائمة / مصفوفة التحكم في الوصول.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Analyze Access Policy and procedures to ensure that employee duties and areas of responsibility are separated in order to reduce opportunities for unauthorized access and privilege approval.
-
 Validation Test: Operating effectiveness of authorization of user access to the LAN (not separate testing of user access to applications should be done in conjunction with application reviews).
 Select  a  sample  of  user  and  system  accounts  to  determine existence (access control software maybe used) of the following:
-•	clearly defined requested role and/or privileges mapped to job functions
-•	business justification for access
-•	data owner and management authorization (i.e. signatures/ written approvals)
-•	Business/risk justification and management approval for non-standard requests;
-•	Access requested is commensurate with job function/role and required segregation of duties.
-
+• Clearly defined requested role and/or privileges mapped to job functions;
+• Business justification for access;
+• Data owner and management authorization (i.e. signatures/ written approvals);
+• Business/risk justification and management approval for non-standard requests;
+• Access requested is commensurate with job function/role and required segregation of duties.
 "/>
-							<tx l="fre" name="Analiza e politikave dhe procedurave për të garantuar se detyrat e punonjësve dhe përgjegjësitë e tyre janë të ndara në mënyrë që të reduktohen mundësitë për aksesin e paautorizuar.
-Testi i vlefshmërisë: Efektiviteti i operimit të aksesit të autorizuar të përdoruesit ndaj LAN (jo testim i ndarë i aksesit të përdoruesve ndaj aplikacioneve).
-Përzgjidhni një kampion përdoruesish dhe llogari sistemi për të përcaktuar ekzistencën e elementëve të mëposhtëm (mund të përdoret program i kontrollit të aksesit):
-- detyra/përgjegjësi të mirë përcaktuara dhe të pozicionuara në funksionet e punës
-- justifikimi i biznesit për akses
-- autorizimi i zotëruesit të të dhënave dhe i menaxhimit (nënshkrim/ aprovim i shkruar)
-- justifikimi i biznesit/riskut dhe aprovimi i menaxhimit për kërkesat jo standarde
-- kërkesat për akses janë konform funksionit/detyrës së punës dhe ndarjes së nevojshme të detyrave
+							<tx l="spa" name="Analice la Política de acceso y los procedimientos para garantizar que los deberes y las áreas de responsabilidad de los empleados estén separados a fin de reducir las oportunidades de acceso no autorizado y aprobación de privilegios.
+Prueba de validación: eficacia operativa de la autorización del acceso de los usuarios a la red (no se deben realizar pruebas separadas del acceso de los usuarios a las aplicaciones junto con las revisiones de las aplicaciones).
+Seleccione una muestra de cuentas de usuario y del sistema para determinar la existencia (se puede usar software de control de acceso) de lo siguiente:
+• Rol solicitado claramente definido y / o privilegios asignados a funciones laborales;
+• Justificación del negocio para el acceso;
+• Autorización del propietario y la gestión de los datos (es decir, firmas / aprobaciones por escrito);
+• Justificación del negocio / de riesgo y aprobación de la gerencia para solicitudes no estándar;
+• El acceso solicitado es acorde con la función / rol del trabajo y la segregación de deberes requerida.
+"/>
+							<tx l="fre" name="Analyser la politique d'accès et les procédures pour s'assurer que les tâches des employés et les domaines de responsabilité sont séparés afin de réduire les opportunités d'accès non autorisé et d'approbation des privilèges.
+Test de validation: efficacité opérationnelle de l'autorisation d'accès des utilisateurs au réseau local (aucun test séparé de l'accès des utilisateurs aux applications ne doit être effectué conjointement avec les examens des applications).
+Sélectionnez un échantillon de comptes utilisateur et système pour déterminer l'existence (un logiciel de contrôle d'accès peut être utilisé) des éléments suivants:
+• Rôle demandé et / ou privilèges clairement définis mappés aux fonctions du poste;
+• justification métier de l'accès;
+• Propriétaire des données et autorisation de gestion (c'est-à-dire signatures / approbations écrites);
+• justification de l'activité / des risques et approbation de la direction pour les demandes non standard;
+• L'accès demandé est proportionnel à la fonction / rôle du poste et à la séparation des tâches requise.
+"/>
+							<tx l="ara" name="قم بتحليل سياسة الوصول والإجراءات لضمان فصل واجبات الموظف ومجالات المسؤولية من أجل تقليل فرص الوصول غير المصرح به والموافقة على الامتياز.
+اختبار التحقق من الصحة: فعالية تشغيل إذن وصول المستخدم إلى الشبكة (لا ينبغي إجراء اختبار منفصل لوصول المستخدم إلى التطبيقات بالتزامن مع مراجعات التطبيق).
+حدد عينة من حسابات المستخدم والنظام لتحديد وجود (ربما يتم استخدام برنامج التحكم في الوصول) مما يلي:
+• الدور المطلوب المحدد بوضوح و / أو الامتيازات المعينة لوظائف الوظيفة ؛
+• مبرر الأعمال للوصول.
+• مالك البيانات وتفويض الإدارة (مثل التوقيعات / الموافقات الخطية) ؛
+• تبرير الأعمال / المخاطر وموافقة الإدارة على الطلبات غير القياسية.
+• الوصول المطلوب يتناسب مع الوظيفة / الدور الوظيفي والفصل المطلوب بين الواجبات.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -7377,67 +7628,91 @@ Përzgjidhni një kampion përdoruesish dhe llogari sistemi për të përcaktuar
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Privileges management"/>
-					<tx l="fre" name="Menaxhimi i privilegjeve"/>
+					<tx l="spa" name="Gestión de privilegios"/>
+					<tx l="fre" name="Gestion des privilèges"/>
+					<tx l="ara" name="إدارة الامتيازات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
-						<ak>The Information Security function monitors the control effectiveness of user account
-management operations on a timely basis and reports the operating efficiency and effectiveness.</ak>
+						<ak>The Information Security function monitors the control effectiveness of user account management operations on a timely basis and reports the operating efficiency and effectiveness.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>La función de Seguridad de la Información monitorea la efectividad del control de las operaciones de administración de cuentas de usuario de manera oportuna e informa la eficiencia y efectividad operativa.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>La fonction de sécurité de l'information surveille l'efficacité du contrôle des opérations de gestion des comptes d'utilisateurs en temps opportun et rend compte de l'efficience et de l'efficacité des opérations.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تراقب وظيفة أمن المعلومات فعالية الرقابة على عمليات إدارة حساب المستخدم في الوقت المناسب وتبلغ عن كفاءة التشغيل وفعاليته.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Access Control">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that only authorized users have access to relevant information."/>
-							<tx l="fre" name="Të sigurohet se vetëm përdoruesit e autorizuar ndaj informacioneve"/>
+							<tx l="spa" name="Asegurar que solo los usuarios autorizados tengan acceso a la información relevante."/>
+							<tx l="fre" name="S'assurer que seuls les utilisateurs autorisés ont accès aux informations pertinentes."/>
+							<tx l="ara" name="للتأكد من أن المستخدمين المصرح لهم فقط لديهم حق الوصول إلى المعلومات ذات الصلة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Privileges management - Is process for granting and revoking access control to employees and contractors safe and effective?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="The Information Security function monitors the control effectiveness of user account management operations on a timely basis and reports the operating efficiency and effectiveness"/>
-							<tx l="fre" name="Funskioni i Sigurisë së Informacionit monitoron efektivitetin e kontrollit të operacioneve të menaxhimit të llogarive të përdoruesve në kohë dhe raporton eficencën dhe efektivitetin e operimit"/>
+							<tx l="eng" name="The Information Security function monitors the control effectiveness of user account management operations on a timely basis and reports the operating efficiency and effectiveness."/>
+							<tx l="spa" name="La función de Seguridad de la Información monitorea la efectividad del control de las operaciones de administración de cuentas de usuario de manera oportuna e informa la eficiencia y efectividad operativa."/>
+							<tx l="fre" name="La fonction de sécurité de l'information surveille l'efficacité du contrôle des opérations de gestion des comptes d'utilisateurs en temps opportun et rend compte de l'efficience et de l'efficacité des opérations"/>
+							<tx l="ara" name="تراقب وظيفة أمن المعلومات فعالية الرقابة على عمليات إدارة حساب المستخدم في الوقت المناسب وتبلغ عن كفاءة التشغيل وفعاليته."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Access control procedures
-
-Sample of employees’ transfers and terminations
-
+							<tx l="eng" name="Access control procedures.
+Sample of employees’ transfers and terminations.
 "/>
-							<tx l="fre" name="Procedurat e kontrollit të aksesit
-
-Kampion të punonjësve të transferuar dhe të pushuar
+							<tx l="spa" name="AProcedimientos de control de acceso.
+Muestra de traslados y ceses de empleados.
+"/>
+							<tx l="fre" name="Procédures de contrôle d'accès.
+Échantillon de mutations et de licenciements d’employés.
+"/>
+							<tx l="ara" name="إجراءات مراقبة الدخول.
+عينة من عمليات نقل الموظفين وإنهاء الخدمة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Check procedures to determine how often the various accesses and privileges that employees or users have in the organization are reviewed.
-Check how the privileges that are granted to an employee are confirmed (Examples include asking the supervisor, area manager, group, etc.)
-Interview sample of users and check instructions to verify how the users are informed about their responsibility for protecting sensitive information or assets when the access is granted to them
+Check how the privileges that are granted to an employee are confirmed (Examples include asking the supervisor, area manager, group, etc.).
+Interview sample of users and check instructions to verify how the users are informed about their responsibility for protecting sensitive information or assets when the access is granted to them.
 Determine whether the organization’s security practices require users and system processes to be uniquely identifiable and systems to be configured to enforce authentication before access is granted, and that such control mechanisms are utilized for controlling logical access across all users, system processes and IT resources.
-Analyze other than password privileges, e.g. how it is checked that a user does indeed have sufficient access and privileges to the requested resource? (Examples include access from secure location, hardware tokens or fingerprint readers, etc.)
-
-Validation Test 1: Operating effectiveness of transfers and terminations:
-•	Obtain from HR a sample of employee transfers and terminations and, through review of system account profiles and/or CAATs (e.g. ACL, IDEA) determine if access has been appropriately altered and/or revoked in a timely manner.
-
-Validation Test 2: Password management:
-•	Verify  that  the  quality  requirements  for  passwords  are defined and enforced by the network management system and/or operating systems based on local requirements/ organization policy or best practice.
-
-
+Analyze other than password privileges, e.g. how it is checked that a user does indeed have sufficient access and privileges to the requested resource? (Examples include access from secure location, hardware tokens or fingerprint readers, etc.).
+Validation Test 1: Operating effectiveness of transfers and terminations: Obtain from HR a sample of employee transfers and terminations and, through review of system account profiles and/or CAATs (e.g. ACL, IDEA) determine if access has been appropriately altered and/or revoked in a timely manner.
+Validation Test 2: Password management: Verify  that  the  quality  requirements  for  passwords  are defined and enforced by the network management system and/or operating systems based on local requirements/ organization policy or best practice.
 "/>
-							<tx l="fre" name="ntroll të procedurave për të përcaktuar sesa shpesh akseset dhe privilegjet e përdoruesve rishikohen.
-Kontrolloni sesi privilegjet e dhëna ndaj përdoruesve janë konfirmuar (Shembujt përfshijnë marrjen në pyetje të mbikëqyrësit, zonën menaxheriale, grupe të ndryshme, etj.)
-Intervista me kampion përdoruesish dhe kontroll të instruksioneve për të verifikuar sesi informohen përdoruesit mbi përgjegjësitë e tyre në mbrojtjen e informacionit sensitiv ose të aseteve, nëse u është dhënë aksesi përkatës.
-Përcaktoni nëse praktikat e sigurisë së organizatës kërkojnë përdorues dhe procese të sistemit që të jenë unifikisht të identifikueshëm dhe sistemet të konfigurohen për të zbatuar autenticitetin përpara dhënies së aksesit, dhe se mekanizma të tilla kontrolli shfrytëzohen në të gjithë përdoruesit dhe në aksesin logjik të tyre, në proceset e sistemit, dhe në burimet e IT.
-Analizoni më tepër se privilegjet në fjalëkalimet. p.sh. si kontrollohet se një përdorues ka aksesin dhe privilegjet e  mjaftueshme për të kërkuar një burim?
-(Shembujt përfshijnë aksesin në vendndodhje të sigurta, njohjen e shenjave të gishtërinjve, etj.)
-Testi i vlefshmërisë nr. 1: Efektiviteti i operimit të transferimit dhe të pushimit nga puna:  
-Merrni nga HR një kampion të transferimeve dhe të pushimit ose dorëheqjes nga puna të punonjësve, dhe nëpërmjet rishikimit të profileve të llogarive në sistem të tyre dhe/ose nëpërmjet CAAT (p.sh. ACL, IDEA) përcaktoni nëse aksesi ka qenë i përshtatshëm dhe i anuluar në kohë.
-Testi i vlefshmërisë nr. 2: Menaxhimi i fjalëkalimeve:
-Verifikoni nëse janë përcaktuar kërkesat për cilësinë e fjalëkalimeve dhe zbatohen nga sistemi i menaxhimit të rrjetit dhe/ose sistemit të operimit bazuar në politikat e kërkesave lokale/organizacionale ose nga praktikat më të mira. 
+							<tx l="spa" name="Verifique los procedimientos para determinar con qué frecuencia se revisan los distintos accesos y privilegios que los empleados o usuarios tienen en la organización.
+Verifique cómo se confirman los privilegios que se otorgan a un empleado (los ejemplos incluyen preguntar al supervisor, gerente de área, grupo, etc.).
+Entreviste a una muestra de usuarios y verifique las instrucciones para verificar cómo los usuarios están informados sobre su responsabilidad de proteger la información o los activos sensibles cuando se les otorga el acceso.
+Determine si las prácticas de seguridad de la organización requieren que los usuarios y los procesos del sistema sean identificables de manera única y que los sistemas estén configurados para hacer cumplir la autenticación antes de que se otorgue el acceso, y que dichos mecanismos de control se utilicen para controlar el acceso lógico en todos los usuarios, procesos del sistema y recursos de TI.
+Analizar otros privilegios de contraseña, p. Ej. ¿Cómo se comprueba que un usuario tiene acceso y privilegios suficientes al recurso solicitado? (Los ejemplos incluyen acceso desde una ubicación segura, tokens de hardware o lectores de huellas digitales, etc.).
+Prueba de validación 1: Efectividad operativa de transferencias y terminaciones: Obtenga del Departamento de Recursos Humanos una muestra de transferencias y terminaciones de empleados y, mediante la revisión de los perfiles de cuentas del sistema y / o CAAT (por ejemplo, ACL, IDEA), determine si el acceso se ha alterado o revocado de manera apropiada de una manera oportuna.
+Prueba de validación 2: Gestión de contraseñas: Verifique que los requisitos de calidad para las contraseñas estén definidos y aplicados por el sistema de gestión de red y / o los sistemas operativos en función de los requisitos / políticas de la organización o las mejores prácticas locales.
+"/>
+							<tx l="fre" name="Vérifiez les procédures pour déterminer la fréquence à laquelle les différents accès et privilèges dont disposent les employés ou les utilisateurs dans l'organisation sont examinés.
+Vérifiez comment les privilèges accordés à un employé sont confirmés (par exemple, demander au superviseur, au responsable régional, au groupe, etc.).
+Interrogez un échantillon d'utilisateurs et vérifiez les instructions pour vérifier comment les utilisateurs sont informés de leur responsabilité de protéger les informations ou les actifs sensibles lorsque leur accès est accordé.
+Déterminez si les pratiques de sécurité de l'organisation exigent que les utilisateurs et les processus système soient identifiables de manière unique et que les systèmes soient configurés pour appliquer l'authentification avant que l'accès soit accordé, et que ces mécanismes de contrôle soient utilisés pour contrôler l'accès logique à tous les utilisateurs, processus système et ressources informatiques.
+Analysez d'autres privilèges comme les privilèges de mot de passe, par ex. comment vérifier qu'un utilisateur dispose effectivement d'un accès et de privilèges suffisants sur la ressource demandée? (Les exemples incluent l'accès à partir d'un emplacement sécurisé, des jetons matériels ou des lecteurs d'empreintes digitales, etc.).
+Test de validation 1: Efficacité opérationnelle des transferts et des résiliations: Obtenez auprès des RH un échantillon des transferts et des cessations d'employés et, en examinant les profils de compte système et / ou les CAAT (par exemple, ACL, IDEA), déterminez si l'accès a été modifié et / ou révoqué de manière appropriée en temps opportun.
+Test de validation 2: gestion des mots de passe: vérifiez que les exigences de qualité pour les mots de passe sont définies et appliquées par le système de gestion de réseau et / ou les systèmes d'exploitation en fonction des exigences locales / de la politique de l'organisation ou des meilleures pratiques.
+"/>
+							<tx l="ara" name="تحقق من الإجراءات لتحديد عدد المرات التي تتم فيها مراجعة الامتيازات والامتيازات المختلفة التي يتمتع بها الموظفون أو المستخدمون في المؤسسة.
+تحقق من كيفية تأكيد الامتيازات الممنوحة للموظف (تشمل الأمثلة سؤال المشرف ، مدير المنطقة ، المجموعة ، إلخ).
+مقابلة عينة من المستخدمين والتحقق من التعليمات للتحقق من كيفية إبلاغ المستخدمين بمسؤوليتهم عن حماية المعلومات أو الأصول الحساسة عند منحهم الوصول.
+حدد ما إذا كانت ممارسات أمان المؤسسة تتطلب تعريف المستخدمين وعمليات النظام بشكل فريد وأن يتم تكوين الأنظمة لفرض المصادقة قبل منح الوصول ، وأن آليات التحكم هذه تُستخدم للتحكم في الوصول المنطقي عبر جميع المستخدمين وعمليات النظام وموارد تكنولوجيا المعلومات.
+تحليل بخلاف امتيازات كلمة المرور ، على سبيل المثال كيف يتم التحقق من أن المستخدم لديه بالفعل وصول وامتيازات كافية إلى المورد المطلوب؟ (تشمل الأمثلة الوصول من موقع آمن أو الرموز المميزة للأجهزة أو قارئات بصمات الأصابع وما إلى ذلك).
+اختبار التحقق من الصحة 1: الفعالية التشغيلية لعمليات النقل والإنهاء: احصل من قسم الموارد البشرية على عينة من عمليات نقل الموظفين وإنهاء الخدمة ، ومن خلال مراجعة ملفات تعريف حساب النظام و / أو CAATs (مثل ACL و IDEA) حدد ما إذا كان الوصول قد تم تغييره بشكل مناسب و / أو إبطالها في الوقت المناسب.
+اختبار التحقق من الصحة 2: إدارة كلمة المرور: تحقق من تحديد متطلبات الجودة لكلمات المرور وفرضها بواسطة نظام إدارة الشبكة و / أو أنظمة التشغيل بناءً على المتطلبات المحلية / سياسة المؤسسة أو أفضل الممارسات.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -7464,81 +7739,133 @@ Verifikoni nëse janë përcaktuar kërkesat për cilësinë e fjalëkalimeve dh
 	<Domain nr="06">
 		<title>
 			<tx l="eng" name="BCP-DRP"/>
-			<tx l="fre" name="BCP/DRP"/>
+			<tx l="spa" name="BCP-DRP"/>
+			<tx l="fre" name="BCP-DRP"/>
+			<tx l="ara" name="BCP-DRP"/>
 		</title>
 		<Narrative>
 			<narr l="eng">
 				<ak>Business Continuity Planning (BCP) is the process an organisation uses to plan and test the recovery of their business processes after a disruption. It also describes how an organization will continue to function under adverse conditions that may arise (for example natural or other disasters).
 Disaster recovery planning (DRP) is the process of planning and testing for recovery of information technology infrastructure after a natural or other disaster. It is a subset of Business Continuity Planning. BCP is for the organisational business functions whereas DRP is for the IT resources that support the business functions.</ak>
 			</narr>
+			<narr l="spa">
+				<ak>Planificación de la continuidad del negocio (BCP) es el proceso que utiliza una organización para planificar y probar la recuperación de sus procesos comerciales después de una interrupción. También describe cómo una organización continuará funcionando en condiciones adversas que puedan surgir (por ejemplo, desastres naturales o de otro tipo).
+La planificación de recuperación ante desastres (DRP) es el proceso de planificación y prueba para la recuperación de la infraestructura de tecnología de la información después de un desastre natural o de otro tipo. Es un subconjunto de la planificación de la continuidad del negocio. BCP es para las funciones del negocio de la organización, mientras que DRP es para los recursos de TI que respaldan las funciones del negocio.</ak>
+			</narr>
+			<narr l="fre">
+				<ak>La planification de la continuité des activités (BCP) est le processus qu'une organisation utilise pour planifier et tester la reprise de ses processus métier après une interruption. Il décrit également comment une organisation continuera de fonctionner dans des conditions défavorables pouvant survenir (par exemple, des catastrophes naturelles ou autres).
+La planification de reprise après sinistre (DRP) est le processus de planification et de test pour la reprise de l'infrastructure informatique après une catastrophe naturelle ou autre. Il s'agit d'un sous-ensemble de la planification de la continuité des activités. BCP est pour les fonctions métier tandis que DRP est pour les ressources informatiques qui prennent en charge les fonctions métier</ak>
+			</narr>
+			<narr l="ara">
+				<ak>تخطيط استمرارية الأعمال (BCP) هي العملية التي تستخدمها المنظمة لتخطيط واختبار استعادة عملياتها التجارية بعد حدوث اضطراب. كما يصف أيضًا كيف ستستمر المنظمة في العمل في ظل الظروف المعاكسة التي قد تنشأ (على سبيل المثال الكوارث الطبيعية أو غيرها من الكوارث).
+تخطيط التعافي من الكوارث (DRP) هو عملية التخطيط والاختبار لاستعادة البنية التحتية لتكنولوجيا المعلومات بعد كارثة طبيعية أو كارثة أخرى. إنها مجموعة فرعية من تخطيط استمرارية الأعمال. BCP مخصص لوظائف الأعمال التنظيمية بينما DRP مخصص لموارد تكنولوجيا المعلومات التي تدعم وظائف العمل.</ak>
+			</narr>
 		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Business Continuity Policy, Plan and Organisation"/>
-				<tx l="fre" name="Politikat e Vazhdimësisë së Biznesit"/>
+				<tx l="spa" name="Política, plan y organización de continuidad del negocio"/>
+				<tx l="fre" name="Politique, plan et organisation de continuité des activités"/>
+				<tx l="ara" name="سياسة وخطة وتنظيم استمرارية الأعمال"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>An effective continuity planning starts with the establishment of an organization’s business continuity policy. The business continuity management team representing all appropriate business functions also plays an important role to the success of the organisation’s business continuity plan. The Business Continutiy Planning policy statement should define the organisation’s overall continuity objectives and establish the organisational framework and responsibilities for continuity planning.</ak>
 				</narr>
+				<narr l="spa">
+					<ak>Una planificación de la continuidad efectiva comienza con el establecimiento de la política de continuidad del negocio de una organización. El equipo de gestión de la continuidad del negocio que representa todas las funciones del negocio apropiadas también juega un papel importante para el éxito del plan de continuidad del negocio de la organización. La declaración de política de Planificación de la continuidad del negocio debe definir los objetivos generales de continuidad de la organización y establecer el marco organizativo y las responsabilidades para la planificación de la continuidad.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Une planification efficace de la continuité commence par l’établissement de la politique de continuité des activités d’une organisation. L’équipe de gestion de la continuité des activités représentant toutes les fonctions métier appropriées joue également un rôle important dans le succès du plan de continuité des activités de l’organisation. L'énoncé de politique de planification de la continuité des activités doit définir les objectifs généraux de continuité de l'organisation et établir le cadre organisationnel et les responsabilités pour la planification de la continuité.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>يبدأ التخطيط الفعال للاستمرارية بوضع سياسة استمرارية الأعمال في المؤسسة. يلعب فريق إدارة استمرارية الأعمال الذي يمثل جميع وظائف العمل المناسبة أيضًا دورًا مهمًا في نجاح خطة استمرارية الأعمال الخاصة بالمنظمة. يجب أن يحدد بيان سياسة التخطيط المستمر للأعمال أهداف الاستمرارية الشاملة للمؤسسة ويضع الإطار التنظيمي والمسؤوليات لتخطيط الاستمرارية.</ak>
+				</narr>
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Contingency plan and policy for business continuity"/>
-					<tx l="fre" name="Plani dhe politika e kontigjencës për vazhdimësinë e biznesit"/>
+					<tx l="spa" name="Plan de contingencia y política para la continuidad del negocio."/>
+					<tx l="fre" name="Plan de contingence et politique de continuité des activités"/>
+					<tx l="ara" name="خطة الطوارئ وسياسة استمرارية الأعمال"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>Organizational policy on business continuity containing roles and responsibilities, scope, resource allocation criteria/ principles, training requirements, maintenance schedule, testing schedule, back up plans etc and approval levels and related parties.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Política de la organización sobre la continuidad del negocio que contiene roles y responsabilidades, alcance, criterios / principios de asignación de recursos, requisitos de capacitación, programa de mantenimiento, programa de pruebas, planes de respaldo, etc. y niveles de aprobación y partes relacionadas.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Politique organisationnelle sur la continuité des activités contenant les rôles et responsabilités, la portée, les critères / principes d'allocation des ressources, les exigences de formation, le calendrier de maintenance, le calendrier des tests, les plans de sauvegarde, etc. et les niveaux d'approbation et les parties liées.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تتضمن السياسة التنظيمية لاستمرارية الأعمال الأدوار والمسؤوليات والنطاق ومعايير / مبادئ تخصيص الموارد ومتطلبات التدريب وجدول الصيانة وجدول الاختبار وخطط النسخ الاحتياطي وما إلى ذلك ومستويات الموافقة والأطراف ذات الصلة.</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Business Continuity Policy">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether there is an effective business continuity policy in the organization"/>
-							<tx l="fre" name="Vlerësimi nëse ekzistojnë politika efektive mbi vazhdimësinë e biznesit"/>
+							<tx l="spa" name="Evaluar si existe una política de continuidad del negocio efectiva en la organización."/>
+							<tx l="fre" name="Évaluer s'il existe une politique efficace de continuité des activités dans l'organisation"/>
+							<tx l="ara" name="لتقييم ما إذا كانت هناك سياسة استمرارية أعمال فعالة في المنظمة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the organization have a contingency plan and policy for business continuity</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Organizational policy on business continuity containing roles and responsibilities, scope, resource allocation criteria/ principles, training requirements, maintenance schedule, testing schedule, back up plans etc and approval levels and related parties. Alternative: The organization has a published contingency plan and policy in place which comprehensively covers all areas of contingency operations and clearly identifies training requirements and testing schedule"/>
-							<tx l="fre" name="Politikat organizacionale mbi vazhdimësinë e biznesit, të cilat përmbajnë detyrat dhe përgjegjësitë, qëllimin, kriteret e alokimit të burimeve/parimet, kërkesat për trajnim, skedulë të mirëmbajtjes, skedula e testimeve, planet backup, si dhe nivele e aprovimit.
-Alternative: Organizata ka plan dhe politika të publikuara të qëndrueshme të cilat mbulojnë të gjitha fushat e operacioneve dhe identifikon qartësisht kërkesat për trajnim dhe skeduat e testimit.
-"/>
+							<tx l="eng" name="Organizational policy on business continuity containing roles and responsibilities, scope, resource allocation criteria/ principles, training requirements, maintenance schedule, testing schedule, back up plans etc and approval levels and related parties. Alternative: The organization has a published contingency plan and policy in place which comprehensively covers all areas of contingency operations and clearly identifies training requirements and testing schedule."/>
+							<tx l="spa" name="Política de la organización sobre la continuidad del negocio que contiene roles y responsabilidades, alcance, criterios / principios de asignación de recursos, requisitos de capacitación, programa de mantenimiento, programa de pruebas, planes de respaldo, etc. y niveles de aprobación y partes relacionadas. Alternativa: La organización tiene un plan y una política de contingencia publicados que cubre de manera integral todas las áreas de operaciones de contingencia e identifica claramente los requisitos de capacitación y el programa de pruebas."/>
+							<tx l="fre" name="Politique organisationnelle sur la continuité des activités contenant les rôles et responsabilités, la portée, les critères / principes d'allocation des ressources, les exigences de formation, le calendrier de maintenance, le calendrier des tests, les plans de sauvegarde, etc. et les niveaux d'approbation et les parties liées. Alternative: L'organisation a mis en place un plan et une politique d'urgence publiés qui couvrent de manière exhaustive tous les domaines des opérations d'urgence et identifient clairement les besoins de formation et le calendrier des tests."/>
+							<tx l="ara" name="تتضمن السياسة التنظيمية لاستمرارية الأعمال الأدوار والمسؤوليات والنطاق ومعايير / مبادئ تخصيص الموارد ومتطلبات التدريب وجدول الصيانة وجدول الاختبار وخطط النسخ الاحتياطي وما إلى ذلك ومستويات الموافقة والأطراف ذات الصلة. بديل: لدى المنظمة خطة طوارئ وسياسة منشورة تغطي بشكل شامل جميع مجالات عمليات الطوارئ وتحدد بوضوح متطلبات التدريب والجدول الزمني للاختبار."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Business Continuity Policy Document IT Policy Document
-Approval process for adoption of business policy objectives
-
-Correspondence and minutes of meetings related to business continuity
-
+							<tx l="eng" name="Business Continuity Policy Document.
+IT Policy Document.
+Approval process for adoption of business policy objectives.
+Correspondence and minutes of meetings related to business continuity.
 "/>
-							<tx l="fre" name="Dokument i Politikave të Vazhdimësisë së Biznesit
-
-Dokument i Politikave IT
-
-Procesi i aprovimit të adoptimit të objektivave të politikave të biznesit
-Korrespondenca dhe procesverbalet e mbledhjeve lidhur me vazhdimësinë e biznesit
+							<tx l="spa" name="Business Continuity Policy Document.
+IT Policy Document.
+Approval process for adoption of business policy objectives.
+Correspondence and minutes of meetings related to business continuity.
+"/>
+							<tx l="fre" name="Document de politique de continuité des activités.
+Document de politique informatique.
+Processus d'approbation pour l'adoption des objectifs de la politique de l'entreprise.
+Correspondance et procès-verbaux de réunions liés à la continuité des activités.
+"/>
+							<tx l="ara" name="وثيقة سياسة استمرارية الأعمال.
+وثيقة سياسة تكنولوجيا المعلومات.
+عملية الموافقة على اعتماد أهداف سياسة الأعمال.
+المراسلات ومحاضر الاجتماعات المتعلقة باستمرارية العمل.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review for assessing that the policy is consistent with the organization’s overall IT policies.
-
 Document review to assess that the policy addresses requirements of business continuity by defining organization’s contingency objectives, organizational framework and responsibilities for contingency planning.
-
 Review or interview personnel to determine how often the policy is updated if conditions change.
-
 Review policy to determine who approved it and when was it last distributed / Interview a sample of business users to assess if the policy has been sufficiently communicated within the organization.
 "/>
-							<tx l="fre" name="Rishikim të dokumenteve për të vlerësuar nëse politikat janë konsistente me politikat e përgjithshme të IT në organizatë.
-Rishikim të dokumenteve për të vlerësuar se politikat adresojnë kërkesat për vazhdimësi biznesi duke përcaktuar objektivat e qëndrueshëm të organizatës, strukturën e organizatës, dhe përgjegjësitë për planfikim qëndrueshmërie.
-Rishikim se intervista me personelin për të përcaktuar sesa shpesh përditësohen politikat nëse ndryshojnë kushtet.
-Rishikim të politikave për të përcaktuar se nga kush janë aprovuar dhe kur është shpërndarë për herë të fundit/ Intervista me një kampjon përdoruesish biznesi për të vlerësuar nëse politikat janë komunikuar mjaftueshëm në organizatë.
+							<tx l="spa" name="Revisión de documentos para evaluar que la política es consistente con las políticas de TI generales de la organización.
+Revisión de documentos para evaluar que la política aborda los requisitos de continuidad del negocio mediante la definición de los objetivos de contingencia de la organización, el marco organizativo y las responsabilidades para la planificación de contingencias.
+Revise o entreviste al personal para determinar con qué frecuencia se actualiza la política si cambian las condiciones.
+Revise la política para determinar quién la aprobó y cuándo se distribuyó por última vez / Entreviste a una muestra de usuarios comerciales para evaluar si la política se ha comunicado suficientemente dentro de la organización.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer la cohérence de la politique avec les politiques informatiques globales de l'organisation.
+Examen des documents pour évaluer que la politique répond aux exigences de continuité des activités en définissant les objectifs d’urgence de l’organisation, le cadre organisationnel et les responsabilités en matière de planification d’urgence
+Examiner ou interroger le personnel pour déterminer à quelle fréquence la politique est mise à jour si les conditions changent.
+Examiner la politique pour déterminer qui l'a approuvée et quand a-t-elle été distribuée pour la dernière fois / Interviewer un échantillon d'utilisateurs professionnels pour évaluer si la politique a été suffisamment communiquée au sein de l'organisation.
+"/>
+							<tx l="ara" name="مراجعة المستندات لتقييم توافق السياسة مع سياسات تكنولوجيا المعلومات العامة للمؤسسة.
+مراجعة الوثيقة لتقييم أن السياسة تتناول متطلبات استمرارية الأعمال من خلال تحديد أهداف الطوارئ للمنظمة ، والإطار التنظيمي والمسؤوليات للتخطيط للطوارئ.
+مراجعة أو مقابلة الموظفين لتحديد عدد المرات التي يتم فيها تحديث السياسة إذا تغيرت الظروف.
+مراجعة السياسة لتحديد من وافق عليها ومتى تم توزيعها آخر مرة / مقابلة عينة من مستخدمي الأعمال لتقييم ما إذا كانت السياسة قد تم توصيلها بشكل كافٍ داخل المنظمة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -7564,74 +7891,116 @@ Rishikim të politikave për të përcaktuar se nga kush janë aprovuar dhe kur 
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Establishment of Business Continuity Function"/>
-				<tx l="fre" name="Struktura e Funksionit të Vazhdimësisë së Biznesit"/>
+				<tx l="spa" name="Establecimiento de la función de continuidad del negocio"/>
+				<tx l="fre" name="Mise en place de la fonction de continuité des activités"/>
+				<tx l="ara" name="تأسيس وظيفة استمرارية الأعمال"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
-					<ak>The business continuity management team must be organised to represent all appropriate
-business functions. Senior management and other related officials must support a continuity program and be associated with the process of developing the policy.</ak>
+					<ak>The business continuity management team must be organised to represent all appropriate business functions. Senior management and other related officials must support a continuity program and be associated with the process of developing the policy.</ak>
 				</narr>
 			</Narrative>
+				<narr l="spa">
+					<ak>El equipo de gestión de la continuidad del negocio debe estar organizado para representar todas las funciones del negocio apropiadas. La alta gerencia y otros funcionarios relacionados deben apoyar un programa de continuidad y estar asociados con el proceso de desarrollo de la política.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>L'équipe de gestion de la continuité des activités doit être organisée pour représenter toutes les fonctions métier appropriées. La haute direction et les autres fonctionnaires concernés doivent soutenir un programme de continuité et être associés au processus d'élaboration de la politique.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>Tيجب تنظيم فريق إدارة استمرارية الأعمال لتمثيل جميع وظائف العمل المناسبة. يجب أن تدعم الإدارة العليا والمسؤولون الآخرون ذوو الصلة برنامج الاستمرارية وأن يكونوا مرتبطين بعملية تطوير السياسة.</ak>
+				</narr>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Business continuity team or equivalent function"/>
-					<tx l="fre" name="Ekipi i vazhdimësisë së biznesit ose funksioni ekuivalent"/>
+					<tx l="spa" name="Equipo de continuidad del negocio o función equivalente"/>
+					<tx l="fre" name="Équipe de continuité des activités ou fonction équivalente"/>
+					<tx l="ara" name="فريق استمرارية العمل أو وظيفة معادلة"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak>A business continuity team or equivalent function is in place.</ak>
+					</narr>
+					<narr l="spa">
+						<ak>Existe un equipo de continuidad del negocio o una función equivalente.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Une équipe de continuité des activités ou une fonction équivalente est en place.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>وجود فريق استمرارية الأعمال أو وظيفة معادلة..</ak>
 					</narr>
 				</Narrative>
 				<Matrix id="Organization of Business Continuity Function">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether there is an effective business continuity policy in the organization."/>
-							<tx l="fre" name="Vlerësimi nëse ekziston grupi i përshtatshëm i vazhdimësisë së biznesit"/>
+							<tx l="spa" name="Evaluar si existe una política de continuidad del negocio eficaz en la organización."/>
+							<tx l="fre" name="Évaluer s'il existe une politique efficace de continuité des activités dans l'organisation."/>
+							<tx l="ara" name="لتقييم ما إذا كانت هناك سياسة استمرارية أعمال فعالة في المنظمة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is there a business continuity team or equivalent function in place?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Coverage of all critical areas of the organization in the team. Roles and responsibility requirements for the team"/>
-							<tx l="fre" name="Mbulim i të gjitha fushave kritike të organizatës 
-Kërkesat për detyrat dhe përgjegjësitë për anëtarët e grupit
-"/>
+							<tx l="eng" name="Coverage of all critical areas of the organization in the team. Roles and responsibility requirements for the team."/>
+							<tx l="spa" name="Cobertura de todas las áreas críticas de la organización en el equipo. Roles y requisitos de responsabilidad del equipo."/>
+							<tx l="fre" name="Couverture de tous les domaines critiques de l'organisation au sein de l'équipe. Rôles et exigences de responsabilité de l'équipe."/>
+							<tx l="ara" name="تغطية جميع المجالات الحاسمة للمنظمة في الفريق. الأدوار ومتطلبات المسؤولية للفريق."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Organization chart of organization 
-
-Organization chart of business continuity team Role/ responsibility description of the business
-continuity team members
-
-Correspondence / meeting minutes on issues of business continuity
-
-Business continuity plan
+							<tx l="eng" name="Chart of organization.
+Organization chart of business continuity team.
+Role / responsibility description of the business.
+Continuity team members.
+Correspondence / meeting minutes on issues of business continuity.
+Business continuity plan.
 "/>
-							<tx l="fre" name="Grafik i strukturës organike
-Strukturë organike e grupit të vazhdimësisë së biznesit
-Përshkrim të detyrave/ përgjegjësive të anëtarëve të grupit të vazhdimësisë së biznesit
-Procesverbale të korrespondencës/mbledhjeve  mbi temat e vazhdimëisë së biznesit
-
-Plan i vazhdimësisë së biznesit
+							<tx l="spa" name="Organigrama.
+Organigrama del equipo de continuidad del negocio.
+Descripción del rol / responsabilidad del negocio.
+Miembros del equipo de continuidad.
+Actas de correspondencia / reuniones sobre cuestiones de continuidad del negocio.
+Plan de continuidad del negocio.
+"/>
+							<tx l="fre" name="Organigramme.
+Organigramme de l'équipe de continuité des activités.
+Description du rôle / responsabilité de l'entreprise.
+Membres de l'équipe de continuité.
+Correspondance / procès-verbaux de réunion sur les questions de continuité des activités.
+Plan de continuité des activités.
+"/>
+							<tx l="ara" name="مخطط التنظيم.
+المخطط التنظيمي لفريق استمرارية الأعمال.
+وصف الدور / المسؤولية للعمل.
+أعضاء فريق الاستمرارية.
+المراسلات / محاضر الاجتماعات حول قضايا استمرارية العمل.
+خطة استمرارية العمل.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review / Interview relevant staff to assess that all critical areas of organization are represented in the business continuity team or equivalent.
-
 Document review to assess that there is adequate ownership and assignment of business continuity responsibility on the Senior Management. For example, has the management identified the level and urgency of recovery, and this is reflected in the policy.
-
 Document review to assess that all critical departments have assigned team members for disaster recovery and their roles are clearly laid out.
-
 Interview a sample staff in business continuity team / equivalent to assess that they are aware of their roles for business continuity for each critical business unit/department.
 "/>
-							<tx l="fre" name="Rishikim të dokumenteve/intervistë me stafin përgjegjës për të vlerësuar të gjitha fushat kritike të organizatës të cilat duhet të përfaqësohen në grupin e vazhdimësisë së biznesit.
-Rishikim të dokumenteve për të vlerësuar se ekzistojnë pronësi dhe detyra mbi përgjegjësitë e vazhdimësisë së biznesit në Menaxhimin e lartë. Për shembull, nëse menaxhimi ka identifikuar nivelin dhe emergjencën e rimëkëmbjes, dhe nëse është reflektuar kjo në politika.
-Rishikim të dokumenteve për të vlerësuar se të gjithë departamentet kritikë kanë përcaktuar anëtarë në grupin për rimëkëmbje nga katastrofa së bashku me detyrat e mirë-përcaktuara.
-Intervista me një kampjon të personelit në grupin e vazhdimësisë së biznesit/ ose ekuivalent, për të vlerësuar nëse ata janë të ndërgjegjshëm për rolin e tyre në vazhdimësinë e biznesit për çdo njësi kritike të biznesit/departament
+							<tx l="spa" name="Revisión de documentos / Entrevista al personal relevante para evaluar que todas las áreas críticas de la organización están representadas en el equipo de continuidad del negocio o equivalente.
+Revisión de documentos para evaluar que existe apropiación adecuada y asignación de responsabilidad de continuidad del negocio en la Alta Dirección. Por ejemplo, ¿ha identificado la administración el nivel y la urgencia de la recuperación, y esto se refleja en la política?
+Revisión de documentos para evaluar que todos los departamentos críticos han asignado miembros del equipo para la recuperación de desastres y sus funciones están claramente definidas.
+Entreviste a una muestra del personal del equipo de continuidad del negocio / equivalente para evaluar si conocen sus roles para la continuidad del negocio para cada unidad / departamento de negocio crítico.
+"/>
+							<tx l="fre" name="Examen des documents / Interviewer le personnel concerné pour évaluer que tous les domaines critiques de l'organisation sont représentés dans l'équipe de continuité des activités ou l'équivalent.
+Examen des documents pour évaluer qu'il existe une appropriation et une attribution adéquates de la responsabilité de la continuité des activités à la direction. Par exemple, la direction a-t-elle identifié le niveau et l'urgence du rétablissement, et cela se reflète dans la politique.
+Examen des documents pour évaluer que tous les services critiques ont affecté des membres de l'équipe à la reprise après sinistre et que leurs rôles sont clairement définis.
+Interrogez un échantillon de personnel de l'équipe de continuité des activités / équivalent pour vérifier qu'ils sont conscients de leurs rôles en matière de continuité des activités pour chaque unité / service métier critique.
+"/>
+							<tx l="ara" name="مراجعة الوثيقة / مقابلة الموظفين المعنيين لتقييم أن جميع المجالات الحرجة للمؤسسة ممثلة في فريق استمرارية الأعمال أو ما يعادله.
+مراجعة المستندات لتقييم وجود ملكية كافية وإسناد مسؤولية استمرارية الأعمال إلى الإدارة العليا. على سبيل المثال ، هل حددت الإدارة مستوى الاسترداد وإلحاحه ، وهذا ينعكس في السياسة.
+مراجعة الوثائق لتقييم أن جميع الإدارات الهامة قد عينت أعضاء فريق للتعافي من الكوارث وتم تحديد أدوارهم بوضوح.
+مقابلة عينة من الموظفين في فريق استمرارية الأعمال / فريق مكافئ لتقييم مدى إدراكهم لأدوارهم في استمرارية الأعمال لكل قسم / وحدة عمل مهمة.
 "/>
 						</anm>
 					</AnalysisMethod>

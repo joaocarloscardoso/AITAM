@@ -28,7 +28,7 @@
     "natural": "^5.0.3",
     "neo4j-driver": "^4.2.3",
     "nodemailer": "^6.6.0",
-    "npm-check-updates": "^11.5.10",
+    "npm-check-updates": "^11.5.11",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "pluralize": "^8.0.0",
