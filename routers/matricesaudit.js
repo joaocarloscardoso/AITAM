@@ -58,6 +58,8 @@ matricesaudit.get('/planMatrix',function(req,res){
         req.session.lang=credentials.WorkLang;
     };
 
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var PlanMatrix = Matrices.LoadPlanMatrix(NewAuditFile, req.query.plugin, req.query.domain, req.query.area, req.query.issue, req.session.lang);
         res.render('toolaudit/supportmatrix', {
@@ -70,7 +72,9 @@ matricesaudit.get('/planMatrix',function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit
         });
     } else {
         res.render('login/login', {

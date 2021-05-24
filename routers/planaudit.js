@@ -178,7 +178,7 @@ planaudit.get('/syncauditplanning',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            appButtons:  appObjects.buttons,
+            appButtons:  appObjects.buttons, 
             appAudit: appObjects.audit
         });
     } else {
