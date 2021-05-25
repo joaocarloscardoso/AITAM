@@ -71,7 +71,8 @@ planaudit.get('/auditplanning',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -80,7 +81,8 @@ planaudit.get('/auditplanning',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -136,7 +138,8 @@ planaudit.post('/auditplanning', function(req, res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }    
 });
@@ -179,7 +182,8 @@ planaudit.get('/syncauditplanning',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons, 
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -188,7 +192,8 @@ planaudit.get('/syncauditplanning',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });

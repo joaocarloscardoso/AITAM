@@ -74,7 +74,8 @@ matricesaudit.get('/planMatrix',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -83,7 +84,8 @@ matricesaudit.get('/planMatrix',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -126,7 +128,8 @@ matricesaudit.get('/findingMatrix',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -135,7 +138,8 @@ matricesaudit.get('/findingMatrix',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -178,7 +182,8 @@ matricesaudit.get('/FindingData',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -187,7 +192,8 @@ matricesaudit.get('/FindingData',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -231,7 +237,8 @@ matricesaudit.get('/recMatrix',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -240,7 +247,8 @@ matricesaudit.get('/recMatrix',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -283,7 +291,8 @@ matricesaudit.get('/preassessMatrix',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -292,7 +301,8 @@ matricesaudit.get('/preassessMatrix',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -354,7 +364,8 @@ matricesaudit.post('/preassessMatrix', function(req, res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }    
 });
@@ -407,7 +418,8 @@ matricesaudit.post('/planMatrix', function(req, res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }    
 });
@@ -474,7 +486,8 @@ matricesaudit.post('/findingMatrix', function(req, res){
                         rectracking: credentials.portfolio,
                         user: user,
                         appButtons:  appObjects.buttons,
-                        appAudit: appObjects.audit
+                        appAudit: appObjects.audit,
+                        sessionlang: req.session.lang
                     });                    
                 }
             }else{
@@ -488,7 +501,8 @@ matricesaudit.post('/findingMatrix', function(req, res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }    
 });
@@ -581,7 +595,8 @@ matricesaudit.post('/recMatrix', function(req, res){
                         rectracking: credentials.portfolio,
                         user: user,
                         appButtons:  appObjects.buttons,
-                        appAudit: appObjects.audit
+                        appAudit: appObjects.audit,
+                        sessionlang: req.session.lang
                     });            
                 }
             }else{
@@ -595,7 +610,8 @@ matricesaudit.post('/recMatrix', function(req, res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }    
 });
@@ -637,7 +653,8 @@ matricesaudit.get('/portfolio',function(req,res){
                     catalog: Result,
                     user: user,
                     rectracking: credentials.portfolio,
-                    audit: true
+                    audit: true,
+                    sessionlang: req.session.lang
                 });     
             });
         } else {
@@ -651,7 +668,8 @@ matricesaudit.get('/portfolio',function(req,res){
                 catalog: Catalog,
                 user: user,
                 rectracking: credentials.portfolio,
-                audit: true
+                audit: true,
+                sessionlang: req.session.lang
             });     
         }
     } else {
@@ -661,7 +679,8 @@ matricesaudit.get('/portfolio',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -712,7 +731,8 @@ matricesaudit.post('/portfolio', function(req, res){
                                 catalog: Result,
                                 rectracking: credentials.portfolio,
                                 user: user,
-                                audit: true
+                                audit: true,
+                                sessionlang: req.session.lang
                             });     
                         });
                     });
@@ -728,7 +748,8 @@ matricesaudit.post('/portfolio', function(req, res){
                                 catalog: Result,
                                 rectracking: credentials.portfolio,
                                 user: user,
-                                audit: true
+                                audit: true,
+                                sessionlang: req.session.lang
                             });     
                         });    
                     });
@@ -745,7 +766,8 @@ matricesaudit.post('/portfolio', function(req, res){
                             catalog: Result,
                             rectracking: credentials.portfolio,
                             user: user,
-                            audit: true
+                            audit: true,
+                            sessionlang: req.session.lang
                         });     
                     });    
                 });
@@ -758,7 +780,8 @@ matricesaudit.post('/portfolio', function(req, res){
             auditfile: '',
             rectracking: credentials.portfolio,
             audit: true,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }    
 });
@@ -794,7 +817,8 @@ matricesaudit.get('/portfoliodetach', function(req, res){
                     catalog: Result,
                     rectracking: credentials.portfolio,
                     user: user,
-                    audit: true
+                    audit: true,
+                    sessionlang: req.session.lang
                 });     
             });    
         });
@@ -805,7 +829,8 @@ matricesaudit.get('/portfoliodetach', function(req, res){
             auditfile: '',
             audit: true,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }    
 });
@@ -837,7 +862,8 @@ matricesaudit.get('/portfolioattach', function(req, res){
                 catalog: Result,
                 user: user,
                 rectracking: credentials.portfolio,
-                audit: true
+                audit: true,
+                sessionlang: req.session.lang
             });     
         });    
     } else {
@@ -847,7 +873,8 @@ matricesaudit.get('/portfolioattach', function(req, res){
             auditfile: '',
             audit: true,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }    
 });
@@ -890,7 +917,8 @@ matricesaudit.post('/toolAttachaudit', function(req, res){
                 auditfile: 'work/' + 'port_' + req.sessionID + '.xml',
                 audit: status,
                 rectracking: credentials.portfolio,
-                user: user
+                user: user,
+                sessionlang: req.session.lang
             });
         }
         log.info(`User (` +  req.session.passport.user + `) uploaded a file: ${JSON.stringify(files)}`);
@@ -911,7 +939,8 @@ matricesaudit.post('/toolAttachaudit', function(req, res){
                         catalog: Result,
                         user: user,
                         rectracking: credentials.portfolio,
-                        audit: true
+                        audit: true,
+                        sessionlang: req.session.lang
                     });     
                 });    
             } else {
@@ -925,7 +954,8 @@ matricesaudit.post('/toolAttachaudit', function(req, res){
                         catalog: Result,
                         user: user,
                         rectracking: credentials.portfolio,
-                        audit: true
+                        audit: true,
+                        sessionlang: req.session.lang
                     });     
                 });    
             };

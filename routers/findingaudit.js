@@ -72,7 +72,8 @@ findingaudit.get('/auditfindings',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -81,7 +82,8 @@ findingaudit.get('/auditfindings',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -132,7 +134,8 @@ findingaudit.post('/auditfindings', function(req, res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }    
 });
@@ -175,7 +178,8 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -184,7 +188,8 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
             //persons: persons,
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });

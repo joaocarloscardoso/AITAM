@@ -77,7 +77,8 @@ tooleaudit.get('/toolauditreference',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -86,7 +87,8 @@ tooleaudit.get('/toolauditreference',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -128,7 +130,8 @@ tooleaudit.get('/toolauditplugins',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -137,7 +140,8 @@ tooleaudit.get('/toolauditplugins',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -195,7 +199,8 @@ tooleaudit.get('/auditstatistics',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -204,7 +209,8 @@ tooleaudit.get('/auditstatistics',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -247,7 +253,8 @@ tooleaudit.post('/tooleditaudit', function(req, res){
                 auditfile: 'work/' + req.sessionID + '.xml',
                 audit: status,
                 rectracking: credentials.portfolio,
-                user: user
+                user: user,
+                sessionlang: req.session.lang
             });
         }
         log.info(`User (` +  req.session.passport.user + `) uploaded a file: ${JSON.stringify(files)}`);
@@ -264,7 +271,8 @@ tooleaudit.post('/tooleditaudit', function(req, res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     });
     /*
@@ -312,7 +320,8 @@ tooleaudit.post('/toolnewaudit', function(req, res){
         rectracking: credentials.portfolio,
         user: user,
         appButtons:  appObjects.buttons,
-        appAudit: appObjects.audit
+        appAudit: appObjects.audit,
+        sessionlang: req.session.lang
     });
 });  
 
@@ -363,7 +372,8 @@ tooleaudit.post('/toolauditreference', [
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     }
     else {
@@ -437,7 +447,8 @@ tooleaudit.post('/toolauditplugins', function(req, res){
                 rectracking: credentials.portfolio,
                 user: user,
                 appButtons:  appObjects.buttons,
-                appAudit: appObjects.audit
+                appAudit: appObjects.audit,
+                sessionlang: req.session.lang
             });
         }
     } else {
@@ -447,7 +458,8 @@ tooleaudit.post('/toolauditplugins', function(req, res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }    
 });

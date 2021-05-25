@@ -63,7 +63,8 @@ login.get('/login',function(req,res){
         auditfile: '',
         audit: status,
         rectracking: credentials.portfolio,
-        user: user
+        user: user,
+        sessionlang: req.session.lang
     });
 });
 

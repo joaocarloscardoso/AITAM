@@ -72,7 +72,8 @@ auditrec.get('/auditrecs',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -81,7 +82,8 @@ auditrec.get('/auditrecs',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -125,7 +127,8 @@ auditrec.get('/deleteauditrec/:auditrecId',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -134,7 +137,8 @@ auditrec.get('/deleteauditrec/:auditrecId',function(req,res){
             //persons: persons,
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });

@@ -2,7 +2,11 @@
 		<title>Active IT Audit Manual</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/assets/css/main.css" />
+		<%  if (sessionlang == "ara" || sessionlang == "heb") { %>
+			<link rel="stylesheet" href="/assets/css/rtl.main.css" />
+		<% } else { %>
+			<link rel="stylesheet" href="/assets/css/main.css" />
+		<% } %>
 		<!--custom pop-up modal-->
 		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

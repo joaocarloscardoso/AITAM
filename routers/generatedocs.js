@@ -68,7 +68,8 @@ generatedocs.get('/docplanMatrix',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -101,7 +102,8 @@ generatedocs.get('/docpreassessMatrix',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -134,7 +136,8 @@ generatedocs.get('/docfindingMatrix',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -167,7 +170,8 @@ generatedocs.get('/docrecMatrix',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -200,7 +204,8 @@ generatedocs.get('/docauditprogramme',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -233,7 +238,8 @@ generatedocs.get('/docexecutivesummary',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -266,7 +272,8 @@ generatedocs.get('/docplanList',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -299,7 +306,8 @@ generatedocs.get('/docmatriceslist',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -332,7 +340,8 @@ generatedocs.get('/rectrackreport',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -365,7 +374,8 @@ generatedocs.get('/docexecutivesummarywrecs',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -396,7 +406,8 @@ generatedocs.get('/docmethodmatrix',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });
@@ -426,7 +437,8 @@ generatedocs.get('/heatmatrix',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -435,7 +447,8 @@ generatedocs.get('/heatmatrix',function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }
 });

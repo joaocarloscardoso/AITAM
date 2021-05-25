@@ -38,7 +38,16 @@ var fs = require("fs");
 var cube = express.Router();
 
 cube.get('/kgraph', (req, res) => {
+       try {
+              if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+                     req.session.lang=credentials.WorkLang;
+              };
+       } catch (error) {
+              req.session.lang=credentials.WorkLang;
+       };
+
        res.render('./cube/kgraph', {
+              sessionlang: req.session.lang
        });
 });
 

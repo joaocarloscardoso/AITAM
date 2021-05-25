@@ -166,7 +166,8 @@ app.get('/',function(req,res){
         auditfile: AuditFile,
         audit: status,
         rectracking: credentials.portfolio,
-        user: user
+        user: user,
+        sessionlang: req.session.lang
         //persons: persons
     });
 });
@@ -198,7 +199,8 @@ app.get('/index',function(req,res){
         auditfile: AuditFile,
         audit: status,
         rectracking: credentials.portfolio,
-        user: user
+        user: user,
+        sessionlang: req.session.lang
         //persons: persons
     });
 });
@@ -263,7 +265,8 @@ app.post(('/work/delete'),function(req,res){
             auditfile: '',
             audit: '',
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            sessionlang: req.session.lang
         });
     } else {
         res.redirect('/login/login');
@@ -306,7 +309,8 @@ app.get(('/toolaudit/work/download'),function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            sessionlang: req.session.lang
         });
     }    
 });
@@ -337,7 +341,8 @@ app.get(('/toolaudit/work/onclose'),function(req,res){
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            sessionlang: req.session.lang
             //persons: persons
         });
     } else {
@@ -347,7 +352,8 @@ app.get(('/toolaudit/work/onclose'),function(req,res){
             auditfile: '',
             audit: status,
             rectracking: credentials.portfolio,
-            user:''
+            user:'',
+            sessionlang: req.session.lang
         });
     }    
 });

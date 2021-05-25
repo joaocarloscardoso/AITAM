@@ -71,7 +71,8 @@ preassessaudit.get('/auditpreassessment',function(req,res){
             rectracking: credentials.portfolio,
             user: user,
             appButtons:  appObjects.buttons,
-            appAudit: appObjects.audit
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang
         });
     } else {
         res.render('login/login', {
@@ -79,7 +80,8 @@ preassessaudit.get('/auditpreassessment',function(req,res){
             //persons: persons,
             audit: status,
             rectracking: credentials.portfolio,
-            user: ''
+            user: '',
+            sessionlang: req.session.lang
         });
     }
 });

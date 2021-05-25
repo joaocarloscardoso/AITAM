@@ -81,7 +81,8 @@ portal.get('/toolindex', (req, res) => {
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            sessionlang: req.session.lang
         });
     } else {
         res.redirect('/login/login');
@@ -116,7 +117,8 @@ portal.get('/contactfeedback',function(req,res){
         auditfile: 'work/' + req.sessionID + '.xml',
         audit: status,
         rectracking: credentials.portfolio,
-        user: user
+        user: user,
+        sessionlang: req.session.lang
     });
 });
 
@@ -146,7 +148,8 @@ portal.get('/project',function(req,res){
         auditfile: 'work/' + req.sessionID + '.xml',
         audit: status,
         rectracking: credentials.portfolio,
-        user: user
+        user: user,
+        sessionlang: req.session.lang
     });  
 });
 
@@ -176,7 +179,8 @@ portal.get('/desktop',function(req,res){
         auditfile: 'work/' + req.sessionID + '.xml',
         audit: status,
         rectracking: credentials.portfolio,
-        user: user
+        user: user,
+        sessionlang: req.session.lang
 
     });  
 });
@@ -207,7 +211,8 @@ portal.get('/newsdesktopv2',function(req,res){
         auditfile: 'work/' + req.sessionID + '.xml',
         audit: status,
         rectracking: credentials.portfolio,
-        user: user
+        user: user,
+        sessionlang: req.session.lang
     });  
 });
 
@@ -317,7 +322,8 @@ portal.get('/catalogplugins',function(req,res){
         auditfile: 'work/' + req.sessionID + '.xml',
         audit: status,
         rectracking: credentials.portfolio,
-        user: user
+        user: user,
+        sessionlang: req.session.lang
     });  
 });
 
@@ -354,7 +360,8 @@ portal.get('/rectracking',function(req,res){
             catalog: Result,
             user: user,
             rectracking: credentials.portfolio,
-            audit: status
+            audit: status,
+            sessionlang: req.session.lang
         });  
     });
 });
@@ -389,7 +396,8 @@ portal.get('/recmanagement',function(req,res){
             catalog: Result,
             user: user,
             rectracking: credentials.portfolio,
-            audit: status
+            audit: status,
+            sessionlang: req.session.lang
         });  
     });
 });
@@ -438,7 +446,8 @@ portal.post('/contactus', [
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
-            user: user
+            user: user,
+            sessionlang: req.session.lang
         });
     }
     else {
