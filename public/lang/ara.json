@@ -5,7 +5,7 @@
 		"audit": {
 			"menu_title":"التدقيق",
 			"reference": "المرجعي",
-			"plug-ins":"المكونات الإضافية",
+			"plug_ins":"المكونات الإضافية",
 			"preliminary": "الأنشطة الأولية",
 			"plan":"يخطط",
 			"findings":"الموجودات",

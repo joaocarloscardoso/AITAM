@@ -5,7 +5,7 @@
 		"audit": {
 			"menu_title":"La auditoría",
 			"reference": "Referencia",
-			"plug-ins":"Complementos",
+			"plug_ins":"Complementos",
 			"preliminary": "Actividades preliminares",
 			"plan":"Plan",
 			"findings":"Resultados",

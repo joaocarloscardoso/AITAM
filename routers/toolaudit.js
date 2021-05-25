@@ -260,7 +260,8 @@ tooleaudit.post('/tooleditaudit', function(req, res){
                 audit: status,
                 rectracking: credentials.portfolio,
                 user: user,
-                sessionlang: req.session.lang
+                sessionlang: req.session.lang,
+                nav: appObjects.pageNavigation
             });
         }
         log.info(`User (` +  req.session.passport.user + `) uploaded a file: ${JSON.stringify(files)}`);

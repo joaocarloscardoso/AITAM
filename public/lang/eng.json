@@ -5,7 +5,7 @@
 		"audit": {
 			"menu_title":"The audit",
 			"reference": "Reference",
-			"plug-ins":"Plug-ins",
+			"plug_ins":"Plug-ins",
 			"preliminary": "Preliminary activities",
 			"plan":"Plan",
 			"findings":"Findings",
