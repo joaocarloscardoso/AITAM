@@ -1,6 +1,37 @@
 {
 	"messages":{},
-	"pageNavigation":{},
+	"pageNavigation":{
+		"home": "الصفحة الرئيسية",
+		"audit": {
+			"menu_title":"التدقيق",
+			"reference": "المرجعي",
+			"plug-ins":"المكونات الإضافية",
+			"preliminary": "الأنشطة الأولية",
+			"plan":"يخطط",
+			"findings":"الموجودات",
+			"recommendations":"التوصيات",
+			"analytics":{
+				"menu_title":"تحليلات",
+				"treemap": "مراجعة مخطط الشجرة",
+				"dommain_characterization": "توصيف المجال",
+				"hints": "تلميحات",
+				"findings_analysis": "تحليل النتائج",
+				"sentiment_analysis_findings":"تحليل المشاعر على النتائج",
+				"recommendations_tracking":"متابعة التوصيات"
+			},
+			"download":"تحميل",
+			"close":"أغلق ملف التدقيق"
+		},
+		"tool":"أداة",
+		"recommendations":{
+			"menu_title":"التوصيات",
+			"browse":"تصفح",
+			"manage":"إدارة التجميعات"
+		},
+		"project":"المشروع",
+		"get_in_touch":"ابقى على تواصل",
+		"change_language":"تغيير اللغة"
+	},
 	"buttons":{
 		"save": {
 			"name": "حفظ", 

@@ -51,6 +51,16 @@ generatedocs.get('/docplanMatrix',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.' + credentials.ReportFormat;
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var data = Matrices.LoadPlanMatrix(NewAuditFile, req.query.plugin, req.query.domain, req.query.area, req.query.issue, req.session.lang);
         carbone.render('./public/templates/PlanMatrix.' + credentials.ReportFormat, data, function(err, result){
@@ -69,7 +79,8 @@ generatedocs.get('/docplanMatrix',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -84,6 +95,16 @@ generatedocs.get('/docpreassessMatrix',function(req,res){
 
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var data = Matrices.LoadPreAssessMatrix(NewAuditFile, req.query.area, req.query.issue, req.session.lang);
@@ -103,7 +124,8 @@ generatedocs.get('/docpreassessMatrix',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -118,6 +140,16 @@ generatedocs.get('/docfindingMatrix',function(req,res){
 
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var data = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang);
@@ -137,7 +169,8 @@ generatedocs.get('/docfindingMatrix',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -152,6 +185,16 @@ generatedocs.get('/docrecMatrix',function(req,res){
 
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var data = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id, req.session.lang);
@@ -171,7 +214,8 @@ generatedocs.get('/docrecMatrix',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -186,6 +230,16 @@ generatedocs.get('/docauditprogramme',function(req,res){
 
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var data = Docs.LoadAuditProgramme(NewAuditFile, req.session.lang);
@@ -205,7 +259,8 @@ generatedocs.get('/docauditprogramme',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -220,6 +275,16 @@ generatedocs.get('/docexecutivesummary',function(req,res){
 
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var data = Docs.LoadExecutiveSummary(NewAuditFile, req.session.lang);
@@ -239,7 +304,8 @@ generatedocs.get('/docexecutivesummary',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -254,6 +320,16 @@ generatedocs.get('/docplanList',function(req,res){
 
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.' + credentials.ReportFormat;
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var data = Planning.LoadPlanning2Doc(NewAuditFile, req.query.op, req.session.lang);
@@ -273,7 +349,8 @@ generatedocs.get('/docplanList',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -288,6 +365,16 @@ generatedocs.get('/docmatriceslist',function(req,res){
 
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var data = Docs.LoadMatricesCollection(NewAuditFile, req.session.lang);
@@ -307,7 +394,8 @@ generatedocs.get('/docmatriceslist',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -322,6 +410,16 @@ generatedocs.get('/rectrackreport',function(req,res){
 
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var data = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile, req.session.lang);
@@ -341,7 +439,8 @@ generatedocs.get('/rectrackreport',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -356,6 +455,16 @@ generatedocs.get('/docexecutivesummarywrecs',function(req,res){
 
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var data = Docs.LoadExecutiveSummaryWRecs(NewAuditFile, req.session.lang);
@@ -375,7 +484,8 @@ generatedocs.get('/docexecutivesummarywrecs',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -390,6 +500,16 @@ generatedocs.get('/docmethodmatrix',function(req,res){
 
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.xlsx';
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var data = Docs.LoadAuditProgramme(NewAuditFile, req.session.lang);
@@ -407,7 +527,8 @@ generatedocs.get('/docmethodmatrix',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -426,6 +547,16 @@ generatedocs.get('/heatmatrix',function(req,res){
         user ='';
     };
 
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
+
     if (status) {
         var heatdata = Docs.LoadPlanHeatMatrix(NewAuditFile, req.session.lang);
         res.render('toolaudit/heatmatrix', {
@@ -438,7 +569,8 @@ generatedocs.get('/heatmatrix',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -448,7 +580,8 @@ generatedocs.get('/heatmatrix',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });

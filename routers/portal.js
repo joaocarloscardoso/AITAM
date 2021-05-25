@@ -14,8 +14,6 @@ var pluginsService = require('../lib/catplugins.js')(credentials.PlugInsPath);
 var log = require('../lib/log.js');
 //portfolios
 var portfolio = require('../lib/portfolio.js');
-//language
-var AvailableLang = require('../lib/language.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
 //common utilities
@@ -72,6 +70,8 @@ portal.get('/toolindex', (req, res) => {
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
+
 
     //console.log('Inside GET /authrequired callback');
     //console.log(`User authenticated? ${req.isAuthenticated()}`);
@@ -82,7 +82,8 @@ portal.get('/toolindex', (req, res) => {
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.redirect('/login/login');
@@ -108,6 +109,8 @@ portal.get('/contactfeedback',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
+
 
     //res.send('Hello e-gov');
     //res.json(persons);
@@ -118,7 +121,8 @@ portal.get('/contactfeedback',function(req,res){
         audit: status,
         rectracking: credentials.portfolio,
         user: user,
-        sessionlang: req.session.lang
+        sessionlang: req.session.lang,
+        nav: appObjects.pageNavigation
     });
 });
 
@@ -141,6 +145,8 @@ portal.get('/project',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
+
 
     res.render('./portal/project', {
         //action: req.query.action,
@@ -149,7 +155,8 @@ portal.get('/project',function(req,res){
         audit: status,
         rectracking: credentials.portfolio,
         user: user,
-        sessionlang: req.session.lang
+        sessionlang: req.session.lang,
+        nav: appObjects.pageNavigation
     });  
 });
 
@@ -172,6 +179,7 @@ portal.get('/desktop',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     res.render('portal/desktop', {
         //action: req.query.action,
@@ -180,8 +188,8 @@ portal.get('/desktop',function(req,res){
         audit: status,
         rectracking: credentials.portfolio,
         user: user,
-        sessionlang: req.session.lang
-
+        sessionlang: req.session.lang,
+        nav: appObjects.pageNavigation
     });  
 });
 
@@ -204,6 +212,7 @@ portal.get('/newsdesktopv2',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     res.render('portal/newsdesktopv2', {
         //action: req.query.action,
@@ -212,7 +221,8 @@ portal.get('/newsdesktopv2',function(req,res){
         audit: status,
         rectracking: credentials.portfolio,
         user: user,
-        sessionlang: req.session.lang
+        sessionlang: req.session.lang,
+        nav: appObjects.pageNavigation
     });  
 });
 
@@ -236,8 +246,9 @@ portal.get('/language',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
-    var LangCatalog = AvailableLang.GetWorkingLanguages();
+    var LangCatalog = appLang.GetWorkingLanguages();
     //console.log(PluginsCatalog.length)
     res.render('portal/language', {
         //action: req.query.action,
@@ -248,7 +259,8 @@ portal.get('/language',function(req,res){
         audit: status,
         rectracking: credentials.portfolio,
         user: user,
-        sessionlang: req.session.lang
+        sessionlang: req.session.lang,
+        nav: appObjects.pageNavigation
     });  
 });
 
@@ -270,8 +282,9 @@ portal.post('/language',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
-    var LangCatalog = AvailableLang.GetWorkingLanguages();
+    var LangCatalog = appLang.GetWorkingLanguages();
     //console.log(PluginsCatalog.length)
     res.render('portal/language', {
         //action: req.query.action,
@@ -282,7 +295,8 @@ portal.post('/language',function(req,res){
         audit: status,
         rectracking: credentials.portfolio,
         user: user,
-        sessionlang: req.session.lang
+        sessionlang: req.session.lang,
+        nav: appObjects.pageNavigation
     });  
 });
 
@@ -306,6 +320,7 @@ portal.get('/catalogplugins',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     var LastDate = pluginsService.getMostRecentFileName();
     var PluginsCatalog = pluginsService.getListOfPlugins(req.session.lang);
@@ -323,7 +338,8 @@ portal.get('/catalogplugins',function(req,res){
         audit: status,
         rectracking: credentials.portfolio,
         user: user,
-        sessionlang: req.session.lang
+        sessionlang: req.session.lang,
+        nav: appObjects.pageNavigation
     });  
 });
 
@@ -347,6 +363,7 @@ portal.get('/rectracking',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     //console.log(PluginsCatalog.length)
     portfolio.ListPortfolios(user, '1').then(function(Result){
@@ -361,7 +378,8 @@ portal.get('/rectracking',function(req,res){
             user: user,
             rectracking: credentials.portfolio,
             audit: status,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });  
     });
 });
@@ -386,6 +404,7 @@ portal.get('/recmanagement',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     //console.log(PluginsCatalog.length)
     portfolio.ListPortfoliosFromUser(user).then(function(Result){
@@ -397,7 +416,8 @@ portal.get('/recmanagement',function(req,res){
             user: user,
             rectracking: credentials.portfolio,
             audit: status,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });  
     });
 });
@@ -428,6 +448,7 @@ portal.post('/contactus', [
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     // Get content
     var newMessage = {
@@ -447,7 +468,8 @@ portal.post('/contactus', [
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
     else {

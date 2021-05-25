@@ -12,6 +12,8 @@ var Findings = require('../lib/findings.js');
 var log = require('../lib/log.js');
 //nlp
 var nlp = require('../lib/nlp.js');
+//multilanguage support
+var appLang = require('../lib/language.js');
 //nlp
 var Recommendations = require('../lib/auditrec.js');
 //audit maps
@@ -65,6 +67,7 @@ analyticsaudit.get('/Findings',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var GeneralDomainCatalog = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile, req.session.lang);
@@ -99,7 +102,8 @@ analyticsaudit.get('/Findings',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -108,7 +112,8 @@ analyticsaudit.get('/Findings',function(req,res){
             auditfile: '',
             rectracking: credentials.portfolio,
             audit: status,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -134,6 +139,7 @@ analyticsaudit.get('/Recommendations',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var CrawlerFile = credentials.WorkSetPath;
@@ -157,7 +163,8 @@ analyticsaudit.get('/Recommendations',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -167,7 +174,8 @@ analyticsaudit.get('/Recommendations',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -193,6 +201,7 @@ analyticsaudit.post('/Recommendations',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var VectorFile = credentials.WorkSetPath;
@@ -249,7 +258,8 @@ analyticsaudit.post('/Recommendations',function(req,res){
                     audit: status,
                     rectracking: credentials.portfolio,
                     user: user,
-                    sessionlang: req.session.lang
+                    sessionlang: req.session.lang,
+                    nav: appObjects.pageNavigation
                 });        
                 session.close();  
             })
@@ -264,7 +274,8 @@ analyticsaudit.post('/Recommendations',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -290,6 +301,7 @@ analyticsaudit.get('/SentimentFindings',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var SentimentFile = credentials.WorkSetPath;
@@ -306,7 +318,8 @@ analyticsaudit.get('/SentimentFindings',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -316,7 +329,8 @@ analyticsaudit.get('/SentimentFindings',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -342,6 +356,7 @@ analyticsaudit.get('/SentimentFindingsDetailed',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var SentimentFile = credentials.WorkSetPath;
@@ -360,7 +375,8 @@ analyticsaudit.get('/SentimentFindingsDetailed',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -370,7 +386,8 @@ analyticsaudit.get('/SentimentFindingsDetailed',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -396,6 +413,7 @@ analyticsaudit.get('/StatsRecommendations',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         var SentimentFile = credentials.WorkSetPath;
@@ -412,7 +430,8 @@ analyticsaudit.get('/StatsRecommendations',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -422,7 +441,8 @@ analyticsaudit.get('/StatsRecommendations',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -448,6 +468,7 @@ analyticsaudit.get('/AuditMap',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         //var AuditMapFile = credentials.WorkSetPath;
@@ -464,7 +485,8 @@ analyticsaudit.get('/AuditMap',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -474,7 +496,8 @@ analyticsaudit.get('/AuditMap',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });

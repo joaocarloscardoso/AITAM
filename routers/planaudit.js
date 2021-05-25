@@ -72,7 +72,8 @@ planaudit.get('/auditplanning',function(req,res){
             user: user,
             appButtons:  appObjects.buttons,
             appAudit: appObjects.audit,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -82,7 +83,8 @@ planaudit.get('/auditplanning',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -94,7 +96,17 @@ planaudit.post('/auditplanning', function(req, res){
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
     var status = InitialAudit.VerifyAuditFile(NewAuditFile);
     var user = '';
-        
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
+    
     if (status) {
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
@@ -139,7 +151,8 @@ planaudit.post('/auditplanning', function(req, res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }    
 });
@@ -183,7 +196,8 @@ planaudit.get('/syncauditplanning',function(req,res){
             user: user,
             appButtons:  appObjects.buttons, 
             appAudit: appObjects.audit,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -193,7 +207,8 @@ planaudit.get('/syncauditplanning',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });

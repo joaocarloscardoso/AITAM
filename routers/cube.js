@@ -45,9 +45,12 @@ cube.get('/kgraph', (req, res) => {
        } catch (error) {
               req.session.lang=credentials.WorkLang;
        };
+       var appObjects = appLang.GetData(req.session.lang);
+
 
        res.render('./cube/kgraph', {
-              sessionlang: req.session.lang
+              sessionlang: req.session.lang,
+              nav: appObjects.pageNavigation
        });
 });
 

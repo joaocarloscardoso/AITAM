@@ -7,30 +7,30 @@
                     <% } else { %>
                         <li>
                     <% } %>
-                    <a href="/index">Home</a></li>
+                    <a href="/index"><%=nav.home %></a></li>
                     <%  if (audit) { %>
                     <li>
-                        <a href="#">The audit</a>
+                        <a href="#"><%=nav.audit.menu_title %></a>
                         <ul>
-                            <li><a href="/toolaudit/toolauditreference?src=tbl">Reference</a></li>
-                            <li><a href="/toolaudit/toolauditplugins">Plug-ins</a></li>
-                            <li><a href="/preassessaudit/auditpreassessment">Preliminary activities</a></li>
-                            <li><a href="/planaudit/auditplanning">Plan</a></li>
-                            <li><a href="/findingaudit/auditfindings">Findings</a></li>
-                            <li><a href="/auditrec/auditrecs">Recommendations</a></li>
+                            <li><a href="/toolaudit/toolauditreference?src=tbl"><%=nav.audit.reference %></a></li>
+                            <li><a href="/toolaudit/toolauditplugins"><%=nav.audit.plug-ins %></a></li>
+                            <li><a href="/preassessaudit/auditpreassessment"><%=nav.audit.preliminary %></a></li>
+                            <li><a href="/planaudit/auditplanning"><%=nav.audit.plan %></a></li>
+                            <li><a href="/findingaudit/auditfindings"><%=nav.audit.findings %></a></li>
+                            <li><a href="/auditrec/auditrecs"><%=nav.audit.recommendations %></a></li>
                             <li>
-                                <a href="#">Analytics</a>
+                                <a href="#"><%=nav.audit.analytics.menu_title %></a>
                                 <ul>
-                                    <li><a href="/analytics/AuditMap">Audit tree map</a></li>
-                                    <li><a href="/toolaudit/auditstatistics">Domain characterization</a></li>
-                                    <li><a href="/analytics/Recommendations">Hints</a></li>
-                                    <li><a href="/analytics/Findings">Findings analysis</a></li>
-                                    <li><a href="/analytics/SentimentFindings">Sentiment analysis on findings</a></li>
-                                    <li><a href="/analytics/StatsRecommendations">Recommendations tracking</a></li>
+                                    <li><a href="/analytics/AuditMap"><%=nav.audit.analytics.treemap %></a></li>
+                                    <li><a href="/toolaudit/auditstatistics"><%=nav.audit.analytics.dommain_characterization %></a></li>
+                                    <li><a href="/analytics/Recommendations"><%=nav.audit.analytics.hints %></a></li>
+                                    <li><a href="/analytics/Findings"><%=nav.audit.analytics.findings_analysis %></a></li>
+                                    <li><a href="/analytics/SentimentFindings"><%=nav.audit.analytics.sentiment_analysis_findings %></a></li>
+                                    <li><a href="/analytics/StatsRecommendations"><%=nav.audit.analytics.recommendations_tracking %></a></li>
                                 </ul>
                             </li>
-                            <li><a target="_blank" href="/toolaudit/work/download">Download</a></li>
-                            <li><a href="/toolaudit/work/onclose">Close Audit File</a></li>
+                            <li><a target="_blank" href="/toolaudit/work/download"><%=nav.audit.download %></a></li>
+                            <li><a href="/toolaudit/work/onclose"><%=nav.audit.close %></a></li>
                         </ul>
                     </li>
                     <% } %>
@@ -39,7 +39,7 @@
                     <% } else { %>
                         <li>
                     <% } %>
-                    <a href="/portal/tool">Tool</a></li>
+                    <a href="/portal/tool"><%=nav.tool %></a></li>
                     <%  if (action == 'project') { %>
                         <li class="current">
                     <% } else { %>
@@ -47,18 +47,18 @@
                     <% } %>
                     <%  if (rectracking == 'Yes') { %>
                         <%  if (user == '') { %>
-                            <a href="/portal/rectracking">Recommendations</a>
+                            <a href="/portal/rectracking"><%=nav.recommendations.menu_title %></a>
                         <% } else { %>
-                            <a href="#">Recommendations</a>
+                            <a href="#"><%=nav.recommendations.menu_title %></a>
                             <ul>
-                                <li><a href="/portal/rectracking">Browse</a></li>
-                                <li><a href="/portal/recmanagement">Manages portfolios</a></li>
+                                <li><a href="/portal/rectracking"><%=nav.recommendations.browse %></a></li>
+                                <li><a href="/portal/recmanagement">Manages portfolios<%=nav.recommendations.manage %></a></li>
                             </ul>
                         <% } %>
                     <% } %>
                     </li>
-                    <li><a href="/portal/project">Project</a></li>
-                    <li><a href="#contact">Get In Touch</a></li>
-                    <li><a href="/portal/language">Change language</a></li>
+                    <li><a href="/portal/project"><%=nav.project %></a></li>
+                    <li><a href="#contact"><%=nav.get_in_touch %></a></li>
+                    <li><a href="/portal/language"><%=nav.change_language %></a></li>
                 </ul>
             </nav>

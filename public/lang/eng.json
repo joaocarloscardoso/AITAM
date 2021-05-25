@@ -1,6 +1,37 @@
 {
 	"messages":{},
-	"pageNavigation":{},
+	"pageNavigation":{
+		"home": "Home",
+		"audit": {
+			"menu_title":"The audit",
+			"reference": "Reference",
+			"plug-ins":"Plug-ins",
+			"preliminary": "Preliminary activities",
+			"plan":"Plan",
+			"findings":"Findings",
+			"recommendations":"Recommendations",
+			"analytics":{
+				"menu_title":"Analytics",
+				"treemap": "Audit tree map",
+				"dommain_characterization": "Domain characterization",
+				"hints": "Hints",
+				"findings_analysis": "Findings analysis",
+				"sentiment_analysis_findings":"Sentiment analysis on findings",
+				"recommendations_tracking":"Recommendations tracking"
+			},
+			"download":"Download",
+			"close":"Close Audit File"
+		},
+		"tool":"Tool",
+		"recommendations":{
+			"menu_title":"Recommendations",
+			"browse":"Browse",
+			"manage":"Manage portfolios"
+		},
+		"project":"Project",
+		"get_in_touch":"Get In Touch",
+		"change_language":"Change language"
+	},
 	"buttons":{
 		"save": {
 			"name": "Save", 

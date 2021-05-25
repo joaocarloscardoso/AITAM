@@ -12,6 +12,8 @@ var portfolio = require('../lib/portfolio.js');
 var log = require('../lib/log.js');
 //nlp
 var nlp = require('../lib/nlp.js');
+//multilanguage support
+var appLang = require('../lib/language.js');
 //nlp
 var Recommendations = require('../lib/auditrec.js');
 //audit maps
@@ -63,6 +65,7 @@ analyticsportfolio.get('/portfolio',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     portfolio.LoadPortfolioOverview(req.query.id, req.session.lang).then(function(Result){
         res.render('toolaudit/portfolioanalytics', {
@@ -73,7 +76,8 @@ analyticsportfolio.get('/portfolio',function(req,res){
             user: user,
             rectracking: credentials.portfolio,
             audit: status,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });     
     });
 });
@@ -99,6 +103,7 @@ analyticsportfolio.get('/audit',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     //var DataRecommendations = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile);
     portfolio.LoadPortfolioAudit(req.query.id, req.query.auditid, req.session.lang).then(function(Result){
@@ -110,7 +115,8 @@ analyticsportfolio.get('/audit',function(req,res){
             user: user,
             rectracking: credentials.portfolio,
             audit: status,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });     
     });
 

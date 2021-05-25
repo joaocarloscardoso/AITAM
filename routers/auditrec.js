@@ -14,6 +14,8 @@ var log = require('../lib/log.js');
 var appLang = require('../lib/language.js');
 //common utilities
 var common = require('../lib/common.js');
+//multilanguage support
+var appLang = require('../lib/language.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');
@@ -73,7 +75,8 @@ auditrec.get('/auditrecs',function(req,res){
             user: user,
             appButtons:  appObjects.buttons,
             appAudit: appObjects.audit,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -83,7 +86,8 @@ auditrec.get('/auditrecs',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -128,7 +132,8 @@ auditrec.get('/deleteauditrec/:auditrecId',function(req,res){
             user: user,
             appButtons:  appObjects.buttons,
             appAudit: appObjects.audit,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -138,7 +143,8 @@ auditrec.get('/deleteauditrec/:auditrecId',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });

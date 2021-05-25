@@ -57,6 +57,7 @@ login.get('/login',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
     
     res.render('login/login', {
         action: 'login',
@@ -64,7 +65,8 @@ login.get('/login',function(req,res){
         audit: status,
         rectracking: credentials.portfolio,
         user: user,
-        sessionlang: req.session.lang
+        sessionlang: req.session.lang,
+        nav: appObjects.pageNavigation
     });
 });
 

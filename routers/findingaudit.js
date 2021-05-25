@@ -73,7 +73,8 @@ findingaudit.get('/auditfindings',function(req,res){
             user: user,
             appButtons:  appObjects.buttons,
             appAudit: appObjects.audit,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -83,7 +84,8 @@ findingaudit.get('/auditfindings',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -94,7 +96,17 @@ findingaudit.post('/auditfindings', function(req, res){
     NewAuditFile = NewAuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
     var status = InitialAudit.VerifyAuditFile(NewAuditFile);
-        
+
+    try {
+        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
+            req.session.lang=credentials.WorkLang;
+        };
+    } catch (error) {
+        req.session.lang=credentials.WorkLang;
+    };
+
+    var appObjects = appLang.GetData(req.session.lang);
+    
     if (status) {
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
@@ -135,7 +147,8 @@ findingaudit.post('/auditfindings', function(req, res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }    
 });
@@ -179,7 +192,8 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
             user: user,
             appButtons:  appObjects.buttons,
             appAudit: appObjects.audit,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -189,7 +203,8 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });

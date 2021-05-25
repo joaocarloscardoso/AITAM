@@ -1,6 +1,37 @@
 {
 	"messages":{},
-	"pageNavigation":{},
+	"pageNavigation":{
+		"home": "Inicio",
+		"audit": {
+			"menu_title":"La auditoría",
+			"reference": "Referencia",
+			"plug-ins":"Complementos",
+			"preliminary": "Actividades preliminares",
+			"plan":"Plan",
+			"findings":"Resultados",
+			"recommendations":"Recomendaciones",
+			"analytics":{
+				"menu_title":"Analítica",
+				"treemap": "Mapa del árbol de auditoría",
+				"dommain_characterization": "Caracterización de dominio",
+				"hints": "Sugerencias",
+				"findings_analysis": "Análisis de resultados",
+				"sentiment_analysis_findings":"Análisis de sentimiento sobre los resultados",
+				"recommendations_tracking":"Seguimiento de recomendaciones"
+			},
+			"download":"Descargar",
+			"close":"Cerrar archivo de auditoría"
+		},
+		"tool":"Herramienta",
+		"recommendations":{
+			"menu_title":"Recomendaciones",
+			"browse":"Navegar",
+			"manage":"Gestionar agregaciones"
+		},
+		"project":"Proyecto",
+		"get_in_touch":"Ponerse en contacto",
+		"change_language":"Cambiar idioma"
+	},
 	"buttons":{
 		"save": {
 			"name": "Guardar", 

@@ -1,6 +1,37 @@
 {
 	"messages":{},
-	"pageNavigation":{},
+	"pageNavigation":{
+		"home": "Accueil ",
+		"audit": {
+			"menu_title":"L'audit",
+			"reference": "Référence",
+			"plug-ins":"Plug-ins",
+			"preliminary": "Activités préliminaires",
+			"plan":"Plan",
+			"findings":"Résultats",
+			"recommendations":"Recommandations",
+			"analytics":{
+				"menu_title":"Analytique",
+				"treemap": "Carte de l'arborescence d'audit",
+				"dommain_characterization": "Caractérisation de domaine",
+				"hints": "Conseils",
+				"findings_analysis": "Analyse des résultats",
+				"sentiment_analysis_findings":"Analyse des sentiments sur les résultats",
+				"recommendations_tracking":"Suivi des recommandations"
+			},
+			"download":"Télécharger",
+			"close":"Fermer le fichier d'audit"
+		},
+		"tool":"Outil",
+		"recommendations":{
+			"menu_title":"Recommandations",
+			"browse":"Parcourir",
+			"manage":"Gérer les portefeuilles"
+		},
+		"project":"Projet",
+		"get_in_touch":"Entrer en contact",
+		"change_language":"Changer de langue"
+	},
 	"buttons":{
 		"save": {
 			"name": "Sauvegarder", 

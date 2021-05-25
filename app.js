@@ -13,6 +13,8 @@ var emailService = require('./lib/email.js')(credentials);
 var pluginsService = require('./lib/catplugins.js')(credentials.PlugInsPath);
 //logging system
 var log = require('./lib/log.js');
+//multilanguage support
+var appLang = require('./lib/language.js');
 //generation of uuid
 //old method bellow deprecated: https://github.com/uuidjs/uuid#deep-requires-now-deprecated
 //const uuid = require('uuid/v4');
@@ -160,6 +162,7 @@ app.get('/',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
     
     res.render('index', {
         action: 'home',
@@ -167,7 +170,8 @@ app.get('/',function(req,res){
         audit: status,
         rectracking: credentials.portfolio,
         user: user,
-        sessionlang: req.session.lang
+        sessionlang: req.session.lang,
+        nav: appObjects.pageNavigation
         //persons: persons
     });
 });
@@ -193,6 +197,7 @@ app.get('/index',function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     res.render('index', {
         action: 'home',
@@ -200,7 +205,8 @@ app.get('/index',function(req,res){
         audit: status,
         rectracking: credentials.portfolio,
         user: user,
-        sessionlang: req.session.lang
+        sessionlang: req.session.lang,
+        nav: appObjects.pageNavigation
         //persons: persons
     });
 });
@@ -250,6 +256,7 @@ app.post(('/work/delete'),function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         vDocfile = vDocfile.replace("/","\\");
@@ -266,7 +273,8 @@ app.post(('/work/delete'),function(req,res){
             audit: '',
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.redirect('/login/login');
@@ -292,6 +300,7 @@ app.get(('/toolaudit/work/download'),function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     var newFileName = FileAuditID.GetAuditID(file);
     if (newFileName == '') {
@@ -310,7 +319,8 @@ app.get(('/toolaudit/work/download'),function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }    
 });
@@ -334,6 +344,7 @@ app.get(('/toolaudit/work/onclose'),function(req,res){
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+    var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
         res.render('./portal/onclose', {
@@ -342,7 +353,8 @@ app.get(('/toolaudit/work/onclose'),function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: user,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
             //persons: persons
         });
     } else {
@@ -353,7 +365,8 @@ app.get(('/toolaudit/work/onclose'),function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }    
 });

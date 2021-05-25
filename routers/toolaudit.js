@@ -78,7 +78,8 @@ tooleaudit.get('/toolauditreference',function(req,res){
             user: user,
             appButtons:  appObjects.buttons,
             appAudit: appObjects.audit,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -88,7 +89,8 @@ tooleaudit.get('/toolauditreference',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -131,7 +133,8 @@ tooleaudit.get('/toolauditplugins',function(req,res){
             user: user,
             appButtons:  appObjects.buttons,
             appAudit: appObjects.audit,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -141,7 +144,8 @@ tooleaudit.get('/toolauditplugins',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -200,7 +204,8 @@ tooleaudit.get('/auditstatistics',function(req,res){
             user: user,
             appButtons:  appObjects.buttons,
             appAudit: appObjects.audit,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     } else {
         res.render('login/login', {
@@ -210,7 +215,8 @@ tooleaudit.get('/auditstatistics',function(req,res){
             audit: status,
             rectracking: credentials.portfolio,
             user:'',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
 });
@@ -272,7 +278,8 @@ tooleaudit.post('/tooleditaudit', function(req, res){
             user: user,
             appButtons:  appObjects.buttons,
             appAudit: appObjects.audit,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     });
     /*
@@ -321,7 +328,8 @@ tooleaudit.post('/toolnewaudit', function(req, res){
         user: user,
         appButtons:  appObjects.buttons,
         appAudit: appObjects.audit,
-        sessionlang: req.session.lang
+        sessionlang: req.session.lang,
+        nav: appObjects.pageNavigation
     });
 });  
 
@@ -373,7 +381,8 @@ tooleaudit.post('/toolauditreference', [
             user: user,
             appButtons:  appObjects.buttons,
             appAudit: appObjects.audit,
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }
     else {
@@ -448,7 +457,8 @@ tooleaudit.post('/toolauditplugins', function(req, res){
                 user: user,
                 appButtons:  appObjects.buttons,
                 appAudit: appObjects.audit,
-                sessionlang: req.session.lang
+                sessionlang: req.session.lang,
+                nav: appObjects.pageNavigation
             });
         }
     } else {
@@ -459,7 +469,8 @@ tooleaudit.post('/toolauditplugins', function(req, res){
             audit: status,
             rectracking: credentials.portfolio,
             user: '',
-            sessionlang: req.session.lang
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
         });
     }    
 });
