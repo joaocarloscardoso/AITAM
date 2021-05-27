@@ -1,4 +1,515 @@
-<ActiveITAuditDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<Audit><About id="" descriptionfile=""><version id="1.0" name=""/><title><tx l="eng" name="" rem=""/></title><WorkingLanguage wl="eng"/></About><Background><ak/></Background><Scope><ak/></Scope><Preassessment>
+	<About id="PreactIS">
+		<version id="20180418" name="main"/>
+		<title>
+			<tx l="eng" name="IT Audit Preassessment: Understanding the Auditee's IT systems"/>
+			<tx l="pol" name="Analiza przedkontrolna: przegląd systemów IT kontrolowanego"/>
+		</title>
+		<WorkingLanguage wl="eng pol alb"/>
+	</About>
+	<paArea nr="A1">
+		<title>
+			<tx l="eng" name="Preliminary Activities"/>
+			<tx l="alb" name="Veprimtari Paraprake"/></title>
+		<paIssue nr="01">
+			<title>
+				<tx l="eng" name="Preliminary Activities"/>
+				<tx l="alb" name="Veprimtari Paraprake"/></title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Preliminary activities"/>
+					<tx l="alb" name="Veprimtari Paraprake"/></title>
+				<paSection nr="01" relatesto="">
+					<title>
+						<tx l="eng" name="Do the staff assigned to this IT-audit have sufficient competence and required capabilities?"/>
+						<tx l="alb" name="A ka ekipi i caktuar per këtë auditim të TI-së kompetenca të mjaftueshme dhe aftësitë e nevojshme?"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.8 and 16. -  The IT audit team is composed of members that collectively have the competence to perform the IT Audit."/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.8 dhe 16. - Ekipi i auditimit te TI-se përbëhet nga anëtarë që së bashku kanë kompetenca për të kryer auditimin e TI-së."/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.8 dhe 16. - Ekipi i auditimit te TI-se përbëhet nga anëtarë që së bashku kanë kompetenca për të kryer auditimin e TI-së."/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="02" relatesto="">
+					<title>
+						<tx l="eng" name="Have all staff members assigned to this IT-audit signed a statement where they accept to comply with all relevant ethical requirement and have assured independence to perform this audit engagement?"/>
+						<tx l="alb" name="A ka ekipi i caktuar per këtë auditim të TI-së kompetenca të mjaftueshme dhe aftësitë e nevojshme?"/></title>
+					<paElement nr="01" relatesto="" type="list" value="Yes|No">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 100.36. – Auditors should comply with the relevant ethical requirements and be independent."/>
+							<tx l="alb" name="Kriteret: ISSAI 100.36. – Audituesit duhet te veprojne sipas kerkesave etike dhe te jene te pavarur"/></title>
+						<val>
+							<tx l="eng" name="Yes"/>
+							<tx l="alb" name="Kriteret: ISSAI 100.36. – Audituesit duhet te veprojne sipas kerkesave etike dhe te jene te pavarur"/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="03" relatesto="">
+					<title>
+						<tx l="eng" name="Identified threats"/>
+						<tx l="alb" name="Risqe te identifikuara"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: Threats for. ex. limited resources to perform the it-audit. Limited access to IT-system, data or personnel at the audited entity."/>
+							<tx l="alb" name="Kriteret: Rrezik per. Psh. Burime te pamjaftueshme per te kryer auditimin e TI-se. Akses i kufizuar ne sistemin e TI, te dhenat apo personelin e institucionit te audituar."/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Kriteret: Rrezik per. Psh. Burime te pamjaftueshme per te kryer auditimin e TI-se. Akses i kufizuar ne sistemin e TI, te dhenat apo personelin e institucionit te audituar."/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="04" relatesto="">
+					<title>
+						<tx l="eng" name="Materiality"/>
+						<tx l="alb" name="Materialiteti"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.6  - Materiality shall be considered at all states of the IT audit process."/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.6 - Materialiteti duhet te merret ne konsiderate ne te gjitha fazat e procesit te auditimit te TI-se."/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.6 - Materialiteti duhet te merret ne konsiderate ne te gjitha fazat e procesit te auditimit te TI-se."/></val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+		<paIssue nr="02">
+			<title>
+				<tx l="eng" name="Planning meeting of the IT audit team"/>
+				<tx l="alb" name="Planifikimi i takimit me ekipin e auditimit te TI-se"/></title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Memo from the planning meeting of the IT audit team"/>
+					<tx l="alb" name="Memo nga takimi planifikues i ekipit te auditimit te TI-se"/></title>
+				<paSection nr="01" relatesto="">
+					<title>
+						<tx l="eng" name="Planning of the IT-audit and timetable"/>
+						<tx l="alb" name="Planifikimi i auditimit te TI dhe parashikimi"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: When should the IT-audit be conducted and how much audit effort should be allowcated to this IT-audit."/>
+							<tx l="alb" name="Kriteret: Kur duhet kryer auditimi i TI dhe sa perkushtim duhet per ta kryer ate."/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Kriteret: Kur duhet kryer auditimi i TI dhe sa perkushtim duhet per ta kryer ate."/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="02" relatesto="">
+					<title>
+						<tx l="eng" name="IT-Fraud risk"/>
+						<tx l="alb" name="Rreziku i mashtrimit ne TI"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.23 – IT Auditors should identify and assess the risk and fraud relevant to the audit objectives of IT audits."/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.23 – Audituesit e TI-se duhet te identifikojne dhe vleresojne riskun dhe mashtrimin lidhur me objektivat e auditimeve te TI-se."/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.23 – Audituesit e TI-se duhet te identifikojne dhe vleresojne riskun dhe mashtrimin lidhur me objektivat e auditimeve te TI-se."/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="03" relatesto="">
+					<title>
+						<tx l="eng" name="Other issues that should be discussed in the opening meeting of the IT-audit team"/>
+						<tx l="alb" name="Ceshtje te tjera qe duhen diskutuar ne takimin prezantues me ekipin e auditimit"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria"/>
+							<tx l="alb" name="Kritere"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Kritere"/></val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+		<paIssue nr="03">
+			<title>
+				<tx l="eng" name="Opening meeting with the management of the audited entity"/>
+				<tx l="alb" name="Takim hapes me drejtuesit e institucionit te audituar"/></title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Memo from the opening meeting with the management of the audited entity"/>
+					<tx l="alb" name="Memo nga takimi prezantues me drejtuesit e institucionit te audituar"/></title>
+				<paSection nr="01" relatesto="">
+					<title>
+						<tx l="eng" name="Memo from the opening meeting with the management of the auditied entity"/>
+						<tx l="alb" name="Memo nga takimi prezantues me drejtuesit e institucionit te audituar"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.19 SAI shall engage with the audited entity before commencement of audit."/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.19 SAI duhet te angazhohet me institucionin e audituar perpara se te filloje auditimi."/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.19 SAI duhet te angazhohet me institucionin e audituar perpara se te filloje auditimi."/></val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+	</paArea>
+	<paArea nr="A2">
+		<title>
+			<tx l="eng" name="Planning the Audit"/>
+			<tx l="alb" name="Planifikimi i auditimit"/></title>
+		<paIssue nr="01">
+			<title>
+				<tx l="eng" name="Understanding the entity"/>
+				<tx l="alb" name="Te kuptuarit e institucionit"/></title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Understand the entity and assessment that IT-objectives are aligned to the Business objectives (ISSAI 21.1.b)"/>
+					<tx l="alb" name="Te kuptuarit e institucionit dhe konstatimi se objektivat e TI jane ne perputhje me objektivat e Biznesit (ISSAI 21.1.b)"/></title>
+				<paSection nr="01" relatesto="">
+					<title>
+						<tx l="eng" name="Nature of the entity"/>
+						<tx l="alb" name="Natyra e institucionit"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.12.2-6. The prerequiste to develop the audit programme will be a clear understanding of audited entity, its Information Systems and IT related activities."/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.12.2-6. Kushti per te pergatitur planin e auditimit do te sherbeje per te kuptuar institucionin e audituar, sistemet e tij te TI-se dhe veprimtarite lidhur me TI."/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.12.2-6. Kushti per te pergatitur planin e auditimit do te sherbeje per te kuptuar institucionin e audituar, sistemet e tij te TI-se dhe veprimtarite lidhur me TI."/></val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="alb" name="Pershkrim"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pershkrim"/></val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Identified risk factor"/>
+							<tx l="alb" name="Identifikimi i riskut"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Identifikimi i riskut"/></val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Implication of the identified risk factor"/>
+							<tx l="alb" name="Ndikimi i faktorit të riskut të identifikuar"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Ndikimi i faktorit të riskut të identifikuar"/></val>
+					</paElement>
+					<paElement nr="05" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Affected assertions"/>
+							<tx l="alb" name="Pohimet e ndikuara"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pohimet e ndikuara"/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="02" relatesto="">
+					<title>
+						<tx l="eng" name="External factors"/>
+						<tx l="alb" name="Faktoret e jashtem"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.12.2-6. The prerequiste to develop the audit programme will be a clear understanding of audited entity, its Information Systems and IT related activities."/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.12.2-6. Kushti per te pergatitur planin e auditimit do te sherbeje per te kuptuar institucionin e audituar, sistemet e tij te TI-se dhe veprimtarite lidhur me TI."/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.12.2-6. Kushti per te pergatitur planin e auditimit do te sherbeje per te kuptuar institucionin e audituar, sistemet e tij te TI-se dhe veprimtarite lidhur me TI."/></val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="alb" name="Pershkrim"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pershkrim"/></val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Identified risk factor"/>
+							<tx l="alb" name="Identifikimi i riskut"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Identifikimi i riskut"/></val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Implication of the identified risk factor"/>
+							<tx l="alb" name="Ndikimi i faktorit të riskut të identifikuar"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Ndikimi i faktorit të riskut të identifikuar"/></val>
+					</paElement>
+					<paElement nr="05" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Affected assertions"/>
+							<tx l="alb" name="Pohimet e ndikuara"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pohimet e ndikuara"/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="03" relatesto="">
+					<title>
+						<tx l="eng" name="Internal factors"/>
+						<tx l="alb" name="Faktoret e brendshem"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.12.2-6. The prerequiste to develop the audit programme will be a clear understanding of audited entity, its Information Systems and IT related activities."/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.12.2-6. Kushti per te pergatitur planin e auditimit do te sherbeje per te kuptuar institucionin e audituar, sistemet e tij te TI-se dhe veprimtarite lidhur me TI."/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.12.2-6. Kushti per te pergatitur planin e auditimit do te sherbeje per te kuptuar institucionin e audituar, sistemet e tij te TI-se dhe veprimtarite lidhur me TI."/></val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="alb" name="Pershkrim"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pershkrim"/></val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Identified risk factor"/>
+							<tx l="alb" name="Identifikimi i riskut"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Identifikimi i riskut"/></val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Implication of the identified risk factor"/>
+							<tx l="alb" name="Ndikimi i faktorit të riskut të identifikuar"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Ndikimi i faktorit të riskut të identifikuar"/></val>
+					</paElement>
+					<paElement nr="05" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Affected assertions"/>
+							<tx l="alb" name="Pohimet e ndikuara"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pohimet e ndikuara"/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="04" relatesto="">
+					<title>
+						<tx l="eng" name="Materiality"/>
+						<tx l="alb" name="Materialiteti"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.6 – SAI shall consider materiality at all stages of the IT audit process."/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.6 – SAI duhet te marri ne konsiderate materialitetin ne te gjitha fazat e auditimit te TI."/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Kriteret: ISSAI 5300.6 – SAI duhet te marri ne konsiderate materialitetin ne te gjitha fazat e auditimit te TI."/></val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="alb" name="Pershkrim"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pershkrim"/></val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Identified risk factor"/>
+							<tx l="alb" name="Identifikimi i faktorit risk"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Identifikimi i faktorit risk"/></val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Implication of the identified risk factor"/>
+							<tx l="alb" name="Ndikimi i faktorit të riskut të identifikuar"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Ndikimi i faktorit të riskut të identifikuar"/></val>
+					</paElement>
+					<paElement nr="05" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Affected assertions"/>
+							<tx l="alb" name="Pohimet e ndikuara"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pohimet e ndikuara"/></val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+		<paIssue nr="02">
+			<title>
+				<tx l="eng" name="Understanding the IT-systems"/>
+				<tx l="alb" name="Te kuptuarit e sistemeve te TI-se"/></title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Preliminary Assessment of IT Controls (ISSAI 5300 21.1.). Suitable mechanisms are in place and functioning."/>
+					<tx l="alb" name="Vleresim Paraprak i Kontrolleve te TI (ISSAI 5300 21.1.).Mekanizma te pershtatshem jane zbatuar dhe jane funksional"/></title>
+				<paSection nr="01" relatesto="Domain">
+					<title>
+						<tx l="eng" name="Preliminary Assessment of IT Controls (ISSAI 5300 21.1.). Suitable mechanisms are in place and functioning."/>
+						<tx l="alb" name="Vleresim Paraprak i Kontrolleve te TI-se (ISSAI 5300 21.1.). Mekanizma te pershtatshem jane zbatuar dhe jane funksional"/></title>
+					<paElement nr="01" relatesto="" type="list" value="Low|Medium|High">
+						<title>
+							<tx l="eng" name="Responsibilities defined"/>
+							<tx l="alb" name="Percaktimi i pergjegjesive"/></title>
+						<val>
+							<tx l="eng" name="Low"/>
+							<tx l="alb" name="Percaktimi i pergjegjesive"/></val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="list" value="Low|Medium|High">
+						<title>
+							<tx l="eng" name="Adequate structure"/>
+							<tx l="alb" name="Strukture adekuate"/></title>
+						<val>
+							<tx l="eng" name="Low"/>
+							<tx l="alb" name="Strukture adekuate"/></val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="list" value="Low|Medium|High">
+						<title>
+							<tx l="eng" name="Sufficient regulation"/>
+							<tx l="alb" name="Rregullore e mjaftueshme"/></title>
+						<val>
+							<tx l="eng" name="Low"/>
+							<tx l="alb" name="Rregullore e mjaftueshme"/></val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="list" value="Low|Medium|High">
+						<title>
+							<tx l="eng" name="Explanatory and clear documentation"/>
+							<tx l="alb" name="Dokumentacion i qarte dhe udhezues"/></title>
+						<val>
+							<tx l="eng" name="Low"/>
+							<tx l="alb" name="Dokumentacion i qarte dhe udhezues"/></val>
+					</paElement>
+					<paElement nr="05" relatesto="Area" type="list" value="Low|Medium|High">
+						<title>
+							<tx l="eng" name=""/>
+							<tx l="alb" name=""/></title>
+						<val>
+							<tx l="eng" name="Low"/>
+							<tx l="alb" name=""/></val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+		<paIssue nr="03">
+			<title>
+				<tx l="eng" name="Input into audit strategy and audit plan"/>
+				<tx l="alb" name="Input ne strategjine dhe planin e auditimit"/></title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Input into Audit Strategy and Audit Plan for this audit engagement  (ISSAI 100.48)"/>
+					<tx l="alb" name="Input ne strategjine dhe planin e auditimit per kete auditim (ISSAI 100.48)"/></title>
+				<paSection nr="01" relatesto="">
+					<title>
+						<tx l="eng" name="Any issues that need to be follow-up from previous audit of this audited entity?"/>
+						<tx l="alb" name="Ceshtje te tjera qe duhen shqyrtuar nga auditimi i meparshem i insitucionit te audituar?"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="alb" name="Pershkrim"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pershkrim"/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="02" relatesto="">
+					<title>
+						<tx l="eng" name="Scope of the Audit"/>
+						<tx l="alb" name="Qellimi i auditimit"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="alb" name="Pershkrim"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pershkrim"/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="03" relatesto="">
+					<title>
+						<tx l="eng" name="Applicable dates of coverage of audit"/>
+						<tx l="alb" name="Afatet e vendosura per te mbuluar auditimin"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Dates"/>
+							<tx l="alb" name="Datat"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Datat"/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="04" relatesto="">
+					<title>
+						<tx l="eng" name="Is this IT audit in line with the SAI’s overall objectives and strategy?"/>
+						<tx l="alb" name="Eshte ky auditim i TI-se ne perputhje me objektivat dhe strategjine e pergjithshme te SAI?"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="alb" name="Pershkrim"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pershkrim"/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="05" relatesto="">
+					<title>
+						<tx l="eng" name="Other Issues that have to be considered in planning the IT-audit"/>
+						<tx l="alb" name="Ceshtje te tjera qe duhen marre ne konsiderate ne planifikimin e auditimit te TI-se"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Specialist competence needs"/>
+							<tx l="alb" name="Nevoja për kompetenca të specialistëve"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Nevoja për kompetenca të specialistëve"/></val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Need for special audit methodology"/>
+							<tx l="alb" name="Nevoja per metodologji te vecante auditimi"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Nevoja per metodologji te vecante auditimi"/></val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Supplementary investigation / analysis needs"/>
+							<tx l="alb" name="Hetim shtese / analiza e nevojave"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Hetim shtese / analiza e nevojave"/></val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Take into consideration the work done by Internal Auditors in these areas if any"/>
+							<tx l="alb" name="Merr ne konsiderate punen e kryer nga audituesit e brendshem ne keto fusha"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Merr ne konsiderate punen e kryer nga audituesit e brendshem ne keto fusha"/></val>
+					</paElement>
+				</paSection>
+				<paSection nr="06" relatesto="">
+					<title>
+						<tx l="eng" name="What staffmembers will perform the audit, when will it be performed and how much time is allocated for this IT-audit"/>
+						<tx l="alb" name="Cfare do te auditoje ekipi, kur do te kryhet auditimi dhe sa kohe duhet per auditimin e TI-se"/></title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="alb" name="Pershkrim"/></title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="alb" name="Pershkrim"/></val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+	</paArea>
+</Preassessment>
+<Arrangements><team/><timetable/></Arrangements><ActiveITAuditDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 	<About id="AITAM">
 		<version id="20210331" name="main"/>
 		<title>
@@ -10232,3 +10743,4 @@ Détails d'implémentation.
 		</Area>
 	</Domain>
 </ActiveITAuditDomains>
+<PlugIns/><Cases/></Audit>

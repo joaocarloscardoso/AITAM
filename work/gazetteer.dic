@@ -31,30 +31,133 @@ Bulgaria|Country|0
 Poland|Country|0
 Bosnia and Herzegovina|Country|0
 Serbia|Country|0
-work process design|Function|0
-product-service purchase|Function|0
-purchase|Function|0
-finance|Function|0
-regulation|Function|0
-IT|Function|0
-governance|Function|0
-development and research|Function|0
-infrastructure|Function|0
-human resources|Function|0
-security|Function|0
-logistics|Function|0
-assets management|Function|0
-product service delivery|Function|0
-project methodology|Function|0
-documentation|Function|0
-regulations|Function|0
-strategy|Function|0
-planning|Function|0
-analysis|Function|0
-data processing|Function|0
-product-service delivery|Function|0
-outsourcing|Function|0
-monitoring|Function|0
-coordination|Function|0
-training|Function|0
-archives|Function|0
+planning|Process|0
+implementation|Process|0
+review-audit|Process|0
+measurement|Process|0
+registering|Process|0
+monitoring-supervision|Process|0
+coordination|Process|0
+reporting|Process|0
+authorization|Process|0
+testing|Process|0
+requirements management|Topics|0
+information society|Topics|0
+large scale undertaking|Topics|0
+system maintenance |Topics|0
+business continuity management |Topics|0
+protection of information |Topics|0
+education institutions premises|Topics|0
+population register|Topics|0
+vendor lockin|Topics|0
+product marking|Topics|0
+relocation of government jobs|Topics|0
+system maintenance|Topics|0
+government eService|Topics|0
+cost estimation|Topics|0
+digitalization|Topics|0
+emergency preparedness|Topics|0
+forest protection|Topics|0
+migration abroad|Topics|0
+web solution|Topics|0
+phasing out old systems|Topics|0
+public trust|Topics|0
+repayments|Topics|0
+homelessness|Topics|0
+IT service quality |Topics|0
+government�s key priorities|Topics|0
+dry ports|Topics|0
+immigrant students|Topics|0
+process maturity|Topics|0
+application confidence|Topics|0
+public e-�services|Topics|0
+website|Topics|0
+combating terrorism|Topics|0
+cyber security|Topics|0
+internal audit|Topics|0
+data transmission|Topics|0
+legacy systems|Topics|0
+management dashboard|Topics|0
+agile projects|Topics|0
+data center consolidation|Topics|0
+IT software delevopment|Topics|0
+IT architecture|Topics|0
+business continuity management|Topics|0
+IT investment|Topics|0
+IT procurement|Topics|0
+measurement of project success|Topics|0
+state-owned companies|Topics|0
+personal data protection|Topics|0
+IT governance|Topics|0
+civil service staff|Topics|0
+consultants|Topics|0
+temporary staff|Topics|0
+internal control|Topics|0
+public e-services|Topics|0
+service center|Topics|0
+taxation systems|Topics|0
+small business|Topics|0
+interoperability|Topics|0
+user friendliness|Topics|0
+performance measurement|Topics|0
+application controls|Topics|0
+compliance costs|Topics|0
+organizations IT services|Topics|0
+bridges|Topics|0
+IT government|Topics|0
+conflicts of interest|Topics|0
+job scheduling|Topics|0
+cyber-security|Topics|0
+protection of information|Topics|0
+government IT agency|Topics|0
+database|Topics|0
+data centers|Topics|0
+IT service quality|Topics|0
+local government-owned companies|Topics|0
+overheads accounting|Topics|0
+records and documents management|Topics|0
+IT service quality   |Topics|0
+regulators|Topics|0
+research infrastructure|Topics|0
+data protection|Topics|0
+outsourced systems|Topics|0
+large scale project|Topics|0
+staff scheduling|Topics|0
+organizations IT services   |Topics|0
+management of innovation|Topics|0
+costs reporting|Topics|0
+acquiring an IT system|Topics|0
+user-friendliness|Topics|0
+VAT abuse|Topics|0
+service level|Topics|0
+alternative financing|Topics|0
+digital transformation|Topics|0
+civil service system|Topics|0
+open data|Topics|0
+digitization|Topics|0
+Society|Topics|0
+Citizen|Topics|0
+User|Topics|0
+Supplier|Topics|0
+Public opinion|Topics|0
+Entity|Topics|0
+Government|Topics|0
+Public service|Topics|0
+Ministry|Topics|0
+Department|Topics|0
+Company|Topics|0
+Association|Topics|0
+Foundation|Topics|0
+Agency|Topics|0
+INSTITUTION|Topics|0
+Audience|Topics|0
+Parliament|Topics|0
+Partner|Topics|0
+Customer|Topics|0
+STAKEHOLDER|Topics|0
+Directorate|Topics|0
+Taxpayer|Topics|0
+Collaborator|Topics|0
+Regulator|Topics|0
+Municipality|Topics|0
+County|Topics|0
