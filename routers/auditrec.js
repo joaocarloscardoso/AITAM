@@ -12,8 +12,8 @@ var AuditRecommendations = require('../lib/auditrec.js');
 var log = require('../lib/log.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
-//common utilities
-var common = require('../lib/common.js');
+//common business functions
+var commonF = require('../lib/common.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
 
@@ -43,21 +43,10 @@ auditrec.get('/auditrecs',function(req,res){
     NewAuditFile = NewAuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
     var status = InitialAudit.VerifyAuditFile(NewAuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
-
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+    
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
@@ -100,21 +89,10 @@ auditrec.get('/deleteauditrec/:auditrecId',function(req,res){
     NewAuditFile = NewAuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
     var status = InitialAudit.VerifyAuditFile(NewAuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
-
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+    
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {

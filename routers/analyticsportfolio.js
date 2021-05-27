@@ -20,8 +20,8 @@ var Recommendations = require('../lib/auditrec.js');
 var AuditMap = require('../lib/auditmap.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
-//common utilities
-var common = require('../lib/common.js');
+//common business functions
+var commonF = require('../lib/common.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');
@@ -51,20 +51,10 @@ analyticsportfolio.get('/portfolio',function(req,res){
     NewAuditFile = NewAuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
     var status = InitialAudit.VerifyAuditFile(NewAuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
     portfolio.LoadPortfolioOverview(req.query.id, req.session.lang).then(function(Result){
@@ -89,20 +79,10 @@ analyticsportfolio.get('/audit',function(req,res){
     NewAuditFile = NewAuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
     var status = InitialAudit.VerifyAuditFile(NewAuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
     //var DataRecommendations = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile);

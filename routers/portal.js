@@ -16,8 +16,8 @@ var log = require('../lib/log.js');
 var portfolio = require('../lib/portfolio.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
-//common utilities
-var common = require('../lib/common.js');
+//common business functions
+var commonF = require('../lib/common.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');
@@ -56,20 +56,10 @@ portal.get('/toolindex', (req, res) => {
     AuditFile = AuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
 
@@ -95,20 +85,10 @@ portal.get('/contactfeedback',function(req,res){
     AuditFile = AuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
 
@@ -131,20 +111,10 @@ portal.get('/project',function(req,res){
     AuditFile = AuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
 
@@ -165,20 +135,10 @@ portal.get('/desktop',function(req,res){
     AuditFile = AuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
     res.render('portal/desktop', {
@@ -198,20 +158,10 @@ portal.get('/newsdesktopv2',function(req,res){
     AuditFile = AuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
     res.render('portal/newsdesktopv2', {
@@ -232,20 +182,10 @@ portal.get('/language',function(req,res){
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
     var LastDate = ''
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
     var LangCatalog = appLang.GetWorkingLanguages();
@@ -270,18 +210,16 @@ portal.post('/language',function(req,res){
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
     var LastDate = ''
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
+    var user = commonF.GetUser(req);
+
+    //set chosen working language
     try {
         req.session.lang=req.body['langSelected'];
     } catch (error) {
         req.session.lang=credentials.WorkLang;
     };
+
     var appObjects = appLang.GetData(req.session.lang);
 
     var LangCatalog = appLang.GetWorkingLanguages();
@@ -306,20 +244,10 @@ portal.get('/catalogplugins',function(req,res){
     AuditFile = AuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
     var LastDate = pluginsService.getMostRecentFileName();
@@ -349,20 +277,10 @@ portal.get('/rectracking',function(req,res){
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
     var LastDate = ''
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
     //console.log(PluginsCatalog.length)
@@ -390,20 +308,10 @@ portal.get('/recmanagement',function(req,res){
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
     var LastDate = ''
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
     //console.log(PluginsCatalog.length)
@@ -434,20 +342,10 @@ portal.post('/contactus', [
     AuditFile = AuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
     var appObjects = appLang.GetData(req.session.lang);
 
     // Get content

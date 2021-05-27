@@ -14,8 +14,8 @@ var pluginsService = require('../lib/catplugins.js')(credentials.PlugInsPath);
 var log = require('../lib/log.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
-//common utilities
-var common = require('../lib/common.js');
+//common business functions
+var commonF = require('../lib/common.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');
@@ -38,13 +38,8 @@ var fs = require("fs");
 var cube = express.Router();
 
 cube.get('/kgraph', (req, res) => {
-       try {
-              if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-                     req.session.lang=credentials.WorkLang;
-              };
-       } catch (error) {
-              req.session.lang=credentials.WorkLang;
-       };
+       req.session.lang = commonF.GetLang(req);
+
        var appObjects = appLang.GetData(req.session.lang);
 
 

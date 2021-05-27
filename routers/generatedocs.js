@@ -16,8 +16,8 @@ var Excel = require('../lib/excel.js');
 var log = require('../lib/log.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
-//common utilities
-var common = require('../lib/common.js');
+//common business functions
+var commonF = require('../lib/common.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');
@@ -51,13 +51,7 @@ generatedocs.get('/docplanMatrix',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.' + credentials.ReportFormat;
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
@@ -96,13 +90,7 @@ generatedocs.get('/docpreassessMatrix',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
@@ -141,13 +129,7 @@ generatedocs.get('/docfindingMatrix',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
@@ -186,13 +168,7 @@ generatedocs.get('/docrecMatrix',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
@@ -231,13 +207,7 @@ generatedocs.get('/docauditprogramme',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
@@ -276,13 +246,7 @@ generatedocs.get('/docexecutivesummary',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
@@ -321,13 +285,7 @@ generatedocs.get('/docplanList',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.' + credentials.ReportFormat;
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
@@ -366,13 +324,7 @@ generatedocs.get('/docmatriceslist',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
@@ -411,13 +363,7 @@ generatedocs.get('/rectrackreport',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
@@ -456,13 +402,7 @@ generatedocs.get('/docexecutivesummarywrecs',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.'+ credentials.ReportFormat;
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
@@ -501,13 +441,7 @@ generatedocs.get('/docmethodmatrix',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.xlsx';
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
+    req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
@@ -540,21 +474,10 @@ generatedocs.get('/heatmatrix',function(req,res){
     NewAuditFile = NewAuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
     var status = InitialAudit.VerifyAuditFile(NewAuditFile);
-    var user = '';
-    try {
-        user = req.session.passport.user;
-    } catch (error) {
-        user ='';
-    };
 
-    try {
-        if (req.session.lang === "" || typeof req.session.lang === 'undefined'){
-            req.session.lang=credentials.WorkLang;
-        };
-    } catch (error) {
-        req.session.lang=credentials.WorkLang;
-    };
-
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+    
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {

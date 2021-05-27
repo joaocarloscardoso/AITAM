@@ -56,3 +56,105 @@
 {"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 10:11:54"}
 {"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 13:20:34"}
 {"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 13:20:37"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 16:56:44"}
+{"message":"Session created received the id:555b270a-dc90-426f-9da6-dc3ca0fc862a","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 16:56:55"}
+{"message":"Session created received the id:555b270a-dc90-426f-9da6-dc3ca0fc862a","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 16:56:56"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 16:57:59"}
+{"message":"Session created received the id:b67092b2-7e44-46cd-8629-b84694b42811","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 16:58:06"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 16:58:09"}
+{"message":"404 - Not Found","level":"\u001b[33mwarn\u001b[39m","timestamp":"2021-05-27 16:58:11"}
+{"message":"Session created received the id:880a17a1-2c3d-43ca-a202-109427b528f0","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 16:58:16"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 16:58:32"}
+{"message":"Session created received the id:ab509c4d-f955-49ff-9d2e-9a7888dc7f6a","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 16:58:34"}
+{"message":"Session created received the id:ab509c4d-f955-49ff-9d2e-9a7888dc7f6a","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 16:58:56"}
+{"message":"Session created received the id:ab509c4d-f955-49ff-9d2e-9a7888dc7f6a","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 16:59:09"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:03:59"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:05:50"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:06:48"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:07:33"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:08:24"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:08:53"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:10:01"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:13:55"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:14:23"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:18:36"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:20:06"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:20:37"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:22:36"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:23:00"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:24:49"}
+{"message":"Session created received the id:88a2c92b-e619-4e55-bfe3-6f189d1d429e","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:24:53"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:25:02"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:25:02"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:25:02"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\88a2c92b-e619-4e55-bfe3-6f189d1d429e.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:25:08"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:27:13"}
+{"message":"Session created received the id:51c5dac8-71aa-444e-96b7-bdd1d826498c","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:27:15"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:27:25"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:27:25"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:27:25"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\51c5dac8-71aa-444e-96b7-bdd1d826498c.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:27:26"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:29:04"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:29:07"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:00"}
+{"message":"Session created received the id:bbeaf8f5-e25d-4e78-ab85-703245564c06","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:07"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:09"}
+{"message":"Session created received the id:8d6814d5-ea98-49f2-bda1-90796ca1ca1a","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:16"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:21"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:29"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:29"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:29"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\8d6814d5-ea98-49f2-bda1-90796ca1ca1a.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:32"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:39"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:54"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:54"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:54"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\4e1cb6b6-6d26-445e-9fbf-90b2666d7ec9.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:33:55"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:36:57"}
+{"message":"Session created received the id:6ed0da5d-b4a3-45f9-8d2b-038f3c1be6b2","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:00"}
+{"message":"Session created received the id:6ed0da5d-b4a3-45f9-8d2b-038f3c1be6b2","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:00"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:06"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:11"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:11"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:11"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\6ed0da5d-b4a3-45f9-8d2b-038f3c1be6b2.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:13"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:22"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:32"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:32"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:32"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\d16fe4da-74e9-4acf-a4c3-41acf3966845.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:37:33"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:41:13"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:41:28"}
+{"message":"Session created received the id:c1d6cbcf-1150-4c09-806d-6d100c6cc26e","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:43:29"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:48:45"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:49:13"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:52:34"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:52:34"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:52:34"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\f4ee2f42-65b9-4e78-ae6e-07d481c50c71.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:52:35"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:57:55"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:09"}
+{"message":"Session created received the id:8cacb67c-e4c0-4337-9bd4-1b5f3756ba88","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:12"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:15"}
+{"message":"Session created received the id:6961f112-6c2e-45e9-982e-6df84da23ec6","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:18"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:32"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:32"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:32"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\6961f112-6c2e-45e9-982e-6df84da23ec6.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:34"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:44"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:53"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:53"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:53"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\a35df31e-b3bc-43b9-b44e-77cffee6fe73.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 17:58:55"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:01:23"}
+{"message":"Session created received the id:37d733df-9da0-4293-910d-a61ede9a86d7","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:01:29"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:01:36"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:01:36"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:01:36"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\37d733df-9da0-4293-910d-a61ede9a86d7.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:01:37"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:03:15"}
+{"message":"Session created received the id:acc3289a-f595-428f-8db9-dfc0f234dc5c","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:03:42"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:03:53"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:03:53"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:03:53"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\acc3289a-f595-428f-8db9-dfc0f234dc5c.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-05-27 18:03:54"}
