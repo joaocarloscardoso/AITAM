@@ -181,14 +181,28 @@ portal.get('/language',function(req,res){
     AuditFile = AuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
-    var LastDate = ''
+    var LastDate = '';
+    var coreVersion= new Date().getFullYear().toString();
+    var supportedLanguages= '';
+
+    if (status)
+    {
+        coreVersion= InitialAudit.GetCoreVersion(AuditFile).substring(0, 4);
+        supportedLanguages = InitialAudit.GetCoreSupportedLanguages(AuditFile);
+    }
 
     var user = commonF.GetUser(req);
     req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
 
-    var LangCatalog = appLang.GetWorkingLanguages();
+    if (Number(coreVersion) < 2021) {
+        var LangCatalog = [{ code: 'eng', name: 'English' }];
+        var supportedLanguages='eng';
+    } else {
+        var LangCatalog = appLang.GetWorkingLanguages(supportedLanguages);
+    }
+
     //console.log(PluginsCatalog.length)
     res.render('portal/language', {
         //action: req.query.action,
@@ -210,6 +224,14 @@ portal.post('/language',function(req,res){
     var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
     var LastDate = ''
+    var coreVersion= new Date().getFullYear().toString()
+    var supportedLanguages= '';
+
+    if (status)
+    {
+        coreVersion= InitialAudit.GetCoreVersion(AuditFile).substring(0, 4);
+        supportedLanguages = InitialAudit.GetCoreSupportedLanguages(AuditFile);
+    }
 
     var user = commonF.GetUser(req);
 
@@ -222,7 +244,13 @@ portal.post('/language',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
-    var LangCatalog = appLang.GetWorkingLanguages();
+    if (Number(coreVersion) < 2021) {
+        var LangCatalog = [{ code: 'eng', name: 'English' }];
+        var supportedLanguages='eng';
+    } else {
+        var LangCatalog = appLang.GetWorkingLanguages(supportedLanguages);
+    }
+
     //console.log(PluginsCatalog.length)
     res.render('portal/language', {
         //action: req.query.action,

@@ -191,6 +191,7 @@ tooleaudit.get('/auditstatistics',function(req,res){
 tooleaudit.post('/tooleditaudit', function(req, res){
     var form = new formidable.IncomingForm();
     form.uploadDir = credentials.WorkSetPath;
+    var langMessage = '';
     
     form.on('fileBegin', function(field, file) {
         //rename the incoming file to the file's name
@@ -203,9 +204,22 @@ tooleaudit.post('/tooleditaudit', function(req, res){
         var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
         var status = InitialAudit.VerifyAuditFile(AuditFile);
 
-        var user = commonF.GetUser(req);
-        req.session.lang = commonF.GetLang(req);
+        var coreVersion= '';
+    
+        if (status)
+        {
+            coreVersion= InitialAudit.GetCoreVersion(AuditFile).substring(0, 4);
+        }
             
+        var user = commonF.GetUser(req);
+        if (Number(coreVersion) < 2021) {
+            //set chosen working language to english
+            req.session.lang = credentials.WorkLang;
+            langMessage = ' The audit file loaded belongs to an early version of AITAM. To ensure compatibility, working language will switch automatically to english!'
+        } else {
+            req.session.lang = commonF.GetLang(req);
+        }
+
         var appObjects = appLang.GetData(req.session.lang);
 
         if(err) { 
@@ -228,7 +242,7 @@ tooleaudit.post('/tooleditaudit', function(req, res){
         return res.render('toolaudit/toolwork', {
             action: 'audit',
             operation: 'audit_creation',
-            msg: 'Load completed successfuly!',
+            msg: 'Load completed successfuly!' + langMessage,
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,

@@ -1,13 +1,13 @@
 <ActiveITAuditDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 	<About id="AITAM">
-		<version id="20210331" name="main"/>
+		<version id="20210101" name="main"/>
 		<title>
 			<tx l="eng" name="Active IT Audit Manual"/>
 			<tx l="spa" name="Manual activo de Auditoría de TI"/>
 			<tx l="fre" name="Manuel d'audit informatique actif"/>
 			<tx l="ara" name="دليل تدقيق تكنولوجيا المعلومات النشط"/>
 		</title>
-		<WorkingLanguage wl="eng pol alb"/>
+		<WorkingLanguage wl="eng spa fre ara"/>
 	</About>
 	<Domain nr="01">
 		<title>
