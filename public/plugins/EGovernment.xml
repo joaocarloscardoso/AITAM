@@ -1,65 +1,169 @@
-<PlugIn id="E-GOV" >
+<PlugIn id="E-GOV">
 	<About descriptionfile="EGovernmentDescription.docx">
 		<version id="1.0" name="main"/>
 		<title>
-			<tx l="eng" name="E-Government &amp; Other Web Services Roll Out"/>
-			<tx l="pol" name="E-administracja - publikacja web-serwisów"/>
+			<tx l="eng" name="E-Government and Other Web Services Roll Out"/>
+			<tx l="spa" name="Implementación de gobierno electrónico y otros servicios web"/>
+			<tx l="fre" name="Déploiement de l'administration électronique et d'autres services Web"/>
+			<tx l="ara" name="طرح الحكومة الإلكترونية وخدمات الويب الأخرى"/>
 		</title>
-		<WorkingLanguage wl="eng pol"/>
+		<WorkingLanguage wl="eng spa fre ara"/>
 	</About>
 	<Domain nr="01">
 		<title>
 			<tx l="eng" name="IT Governance"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			<tx l="spa" name="Gobierno de TI"/>
+			<tx l="fre" name="Gouvernance informatique"/>
+			<tx l="ara" name="حوكمة تقنية المعلومات"/>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Mechanism"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Mecanismo"/>
+				<tx l="fre" name="Mécanisme"/>
+				<tx l="ara" name="آلية"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Risk Assessment and Compliance Mechanism"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Evaluación de riesgos y mecanismo de cumplimiento"/>
+					<tx l="fre" name="Évaluation des risques et mécanisme de conformité"/>
+					<tx l="ara" name="آلية تقييم المخاطر والامتثال"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Risk Assessment and Compliance Mechanism">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the entity has an adequate mechanism to ensure compliance."/>
+							<tx l="spa" name="Evaluar si la entidad tiene un mecanismo adecuado para asegurar el cumplimiento."/>
+							<tx l="fre" name="Évaluer si l'entité dispose d'un mécanisme adéquat pour assurer la conformité."/>
+							<tx l="ara" name="تقييم ما إذا كان لدى الكيان آلية مناسبة لضمان الامتثال."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How does the organization ensure that it has an adequate and working compliance mechanism to ensure all policies and procedures are being followed?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Most likely, a certain agency is assigned to set or regulate the direction of ICT use in Government. Look for oversight or other criteria in your SAI."/>
+							<tx l="spa" name="Lo más probable es que se asigne una determinada agencia para establecer o regular la dirección del uso de las TIC en el gobierno. Busque supervisión u otros criterios en su ISC."/>
+							<tx l="fre" name="Très probablement, une certaine agence est chargée de définir ou de réglementer l'orientation de l'utilisation des TIC au sein du gouvernement. Recherchez la surveillance ou d'autres critères dans votre ISC."/>
+							<tx l="ara" name="على الأرجح ، يتم تعيين وكالة معينة لتحديد أو تنظيم اتجاه استخدام تكنولوجيا المعلومات والاتصالات في الحكومة. ابحث عن الرقابة أو المعايير الأخرى في الجهاز الأعلى للرقابة والمحاسبة الخاص بك"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Organizational policies &amp; procedures
-(Security, SDLC, Training, etc)
-Organization Chart
-Quality Assurance Plan
-Reports from compliance teams or groups
-Steering Committee Minutes
+							<tx l="eng" name="Organizational policies and procedures.
+(Security, SDLC, Training, etc).
+Organization Chart.
+Quality Assurance Plan.
+Reports from compliance teams or groups.
+Steering Committee Minutes.
+"/>
+							<tx l="spa" name="Políticas y procedimientos organizacionales.
+Seguridad, SDLC, Formación, etc.
+Organigrama.
+Plan de garantía de calidad.
+Informes de equipos o grupos de cumplimiento.
+Actas del Comité Directivo.
+"/>
+							<tx l="fre" name="Politiques et procédures organisationnelles.
+Sécurité, SDLC, formation, etc..
+Organigramme.
+Plan d'Assurance de la Qualité.
+Rapports d'équipes ou de groupes de conformité.
+Procès-verbaux du comité directeur.
+"/>
+							<tx l="ara" name="السياسات والإجراءات التنظيمية.
+الأمن ، SDLC ، التدريب ، إلخ.
+الهيكل التنظيمي.
+خطة ضمان الجودة.
+تقارير من فرق أو مجموعات الامتثال.
+محاضر اللجنة التوجيهية.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="
-Select a sample of policies and organizational procedures to assess compliance.
-
+							<tx l="eng" name="Select a sample of policies and organizational procedures to assess compliance.
 Interview management to determine who is responsible for ensuring compliance to the (audit selected) policies and associated procedures.
 Interview team or group responsible for compliance of above to determine how they accomplish their duties.
-
 Review reports from various compliance groups to see what they found, what actions they have taken and reported to management.
-
-Review steering committee minutes to see if high level
-
+Review steering committee minutes.
+"/>
+							<tx l="spa" name="Seleccione una muestra de políticas y procedimientos organizacionales para evaluar el cumplimiento.
+Entrevistar a la gerencia para determinar quién es responsable de garantizar el cumplimiento de las políticas (seleccionadas por auditoría) y los procedimientos asociados.
+Entrevistar al equipo o grupo responsable del cumplimiento de lo anterior para determinar cómo cumplen con sus funciones.
+Revise los informes de varios grupos de cumplimiento para ver qué encontraron, qué acciones tomaron e informaron a la gerencia.
+Revise las actas del comité directivo.
+"/>
+							<tx l="fre" name="Sélectionnez un échantillon de politiques et de procédures organisationnelles pour évaluer la conformité.
+Interviewer la direction pour déterminer qui est responsable de la conformité aux politiques (sélectionnées par l'audit) et aux procédures associées.
+Interviewer l'équipe ou le groupe responsable de la conformité ci-dessus pour déterminer comment ils accomplissent leurs tâches.
+Passez en revue les rapports de divers groupes de conformité pour voir ce qu'ils ont trouvé, quelles mesures ils ont prises et signalées à la direction.
+Passez en revue les procès-verbaux du comité de pilotage.
+"/>
+							<tx l="ara" name="حدد عينة من السياسات والإجراءات التنظيمية لتقييم الامتثال.
+إدارة المقابلة لتحديد المسؤول عن ضمان الامتثال لسياسات (التدقيق المختار) والإجراءات المرتبطة بها.
+مقابلة الفريق أو المجموعة المسؤولة عن الامتثال لما ورد أعلاه لتحديد كيفية إنجازهم لواجباتهم.
+قم بمراجعة التقارير من مجموعات الامتثال المختلفة لمعرفة ما وجدوه ، والإجراءات التي اتخذوها وأبلغوا بها إلى الإدارة.
+مراجعة محاضر اللجنة التوجيهية.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -69,43 +173,111 @@ Review steering committee minutes to see if high level
 	<Domain nr="02">
 		<title>
 			<tx l="eng" name="IT Operations"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Capacity Management"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Gestión de capacidad"/>
+				<tx l="fre" name="Gestion de la capacité"/>
+				<tx l="ara" name="إدارة القدرات"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Ensuring Capacity Meets Service Needs"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Garantizar que la capacidad satisfaga las necesidades del servicios"/>
+					<tx l="fre" name="S'assurer que la capacité répond aux besoins de service"/>
+					<tx l="ara" name="ضمان القدرة على تلبية احتياجات الخدمة"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Ensuring Capacity Meets Service Needs">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the IT organization is ensuring that the system capacity and performance meets current and future business needs."/>
+							<tx l="spa" name="Evalúe si la organización de TI se asegura de que la capacidad y el rendimiento del sistema satisfagan las necesidades del negocio actuales y futuras."/>
+							<tx l="fre" name="Évaluer si l'organisation informatique s'assure que la capacité et les performances du système répondent aux besoins de l'entreprise actuels et futurs."/>
+							<tx l="ara" name="قم بتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تضمن أن قدرة النظام وأدائه يلبي احتياجات العمل الحالية والمستقبلية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the IT organization collect and review system performance data on a real time/periodic basis for better alignment with business needs?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Agency policy on capacity monitoring, user satisfaction, stakeholder approval of metrics, etc"/>
+							<tx l="eng" name="Agency policy on capacity monitoring, user satisfaction, stakeholder approval of metrics, etc."/>
+							<tx l="spa" name="Política de la agencia sobre monitoreo de capacidad, satisfacción del usuario, aprobación de métricas por parte de las partes interesadas, etc."/>
+							<tx l="fre" name="Politique de l'Agence sur le suivi des capacités, la satisfaction des utilisateurs, l'approbation des paramètres par les parties prenantes, etc."/>
+							<tx l="ara" name="سياسة الوكالة بشأن مراقبة القدرات ، ورضا المستخدم ، وموافقة أصحاب المصلحة على المقاييس ، وما إلى ذلك."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Reports, action items, help desk response time, and other metrics.
-"/>
+							<tx l="eng" name="Reports, action items, help desk response time, and other metrics."/>
+							<tx l="spa" name="Informes, elementos de acción, tiempo de respuesta del servicio de asistencia técnica y otras métricas."/>
+							<tx l="fre" name="Rapports, éléments d'action, temps de réponse du support technique et autres mesures."/>
+							<tx l="ara" name="التقارير وعناصر العمل ووقت استجابة مكتب المساعدة والمقاييس الأخرى."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Use Compliance issue in SLA matrix. Pay special attention to all elements having impact on capacity, i.e. compare actual capacity metrics to the SLA requirements, etc.
-
-Interview IT Personnel to see how parameters are established and or reviewed when needed with appropriate business / mission users."/>
+							<tx l="eng" name="Use Compliance issue in SLA matrix. Pay special attention to all elements having impact on capacity, i.e. compare actual capacity metrics to the SLA requirements, etc. Interview IT Personnel to see how parameters are established and or reviewed when needed with appropriate business / mission users."/>
+							<tx l="spa" name="Utilice el problema de cumplimiento en la matriz del acuerdo de nivel de servicio. Preste especial atención a todos los elementos que tienen un impacto en la capacidad, es decir, compare las métricas de capacidad real con los requisitos del Acuerdo de nivel de servicio, etc. Entreviste al personal de TI para ver cómo se establecen o revisan los parámetros cuando sea necesario con los usuarios de la misión / negocio apropiados."/>
+							<tx l="fre" name="Utilisez le problème de conformité dans la matrice de l'accord de niveau de service. Portez une attention particulière à tous les éléments ayant un impact sur la capacité, c'est-à-dire comparez les mesures de capacité réelles aux exigences de l'accord de niveau de service, etc."/>
+							<tx l="ara" name="استخدام مشكلة الامتثال في مصفوفة اتفاقية مستوى الخدمة. إيلاء اهتمام خاص لجميع العناصر التي لها تأثير على السعة ، أي مقارنة مقاييس السعة الفعلية بمتطلبات اتفاقية مستوى الخدمة ، وما إلى ذلك. مقابلة موظفي تكنولوجيا المعلومات لمعرفة كيفية إنشاء المعلمات و / أو مراجعتها عند الحاجة مع مستخدمي الأعمال / المهام المناسبين.."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -114,11 +286,42 @@ Interview IT Personnel to see how parameters are established and or reviewed whe
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Problem and Incident Management"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Gestión de incidentes y problemas"/>
+				<tx l="fre" name="Gestion des problèmes et des incidents"/>
+				<tx l="ara" name="إدارة المشاكل والحوادث"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Effectiveness of Problem and Incident Management Procedures"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Effectiveness of Problem and Incident Management Procedures">
 					<Objectives>
 						<obj>
@@ -156,9 +359,20 @@ Check whether the incident response team records all resolved incidents
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -166,7 +380,21 @@ Check whether the incident response team records all resolved incidents
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Monitoring"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Monitoring">
 					<Objectives>
 						<obj>
@@ -191,9 +419,20 @@ Check whether the incident response team records all resolved incidents
 							<tx l="eng" name="Use Compliance issue in SLA matrix. Pay special attention to all elements having impact on capacity, i.e. compare actual capacity metrics to the SLA requirements etc."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -201,7 +440,21 @@ Check whether the incident response team records all resolved incidents
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Analyze And tune"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Analyze And tune">
 					<Objectives>
 						<obj>
@@ -232,9 +485,20 @@ Review minutes of meetings and find whether IT staffing issues, capacity problem
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -243,11 +507,39 @@ Review minutes of meetings and find whether IT staffing issues, capacity problem
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Service Management"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Monitoring of IT Operations"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Monitoring of IT Operations">
 					<Objectives>
 						<obj>
@@ -285,9 +577,20 @@ Interview sample of users to understand the level of awareness
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -297,15 +600,57 @@ Interview sample of users to understand the level of awareness
 	<Domain nr="03">
 		<title>
 			<tx l="eng" name="Development and Acquisition"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Project Management &amp; Control"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Identification of Users"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Identification of Users">
 					<Objectives>
 						<obj>
@@ -350,9 +695,20 @@ Review training or other dissemination mechanisms (email, memo, notice) to see i
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -361,11 +717,39 @@ Review training or other dissemination mechanisms (email, memo, notice) to see i
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Requirements Development &amp; Management"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Configuration Management"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Configuration Management">
 					<Objectives>
 						<obj>
@@ -400,9 +784,20 @@ Interview personnel responsible for configuration management if there is no poli
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -410,7 +805,21 @@ Interview personnel responsible for configuration management if there is no poli
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Identification of Requirements for  IT"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Identification of Requirements for  IT">
 					<Objectives>
 						<obj>
@@ -441,9 +850,20 @@ Review sample requirements to ensure that there is an initial review, and that s
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -451,7 +871,21 @@ Review sample requirements to ensure that there is an initial review, and that s
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Prioritization of Requirements for  IT"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+						<narr l="spa">
+							<ak/>
+						</narr>
+						<narr l="fre">
+							<ak/>
+						</narr>
+						<narr l="ara">
+							<ak/>
+						</narr>
+					</narr>
+				</Narrative>
 				<Matrix id="Prioritization of Requirements for  IT">
 					<Objectives>
 						<obj>
@@ -477,9 +911,20 @@ Review, approval, and priority noted on requirements or requirements matrix.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -487,7 +932,21 @@ Review, approval, and priority noted on requirements or requirements matrix.
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Management &amp; Control of Approved IT Projects"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Management &amp; Control of Approved IT Projects">
 					<Objectives>
 						<obj>
@@ -522,9 +981,20 @@ Interview project managers to determine which SDLC method is being used for the 
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -532,7 +1002,21 @@ Interview project managers to determine which SDLC method is being used for the 
 			<Issue nr="05" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Quality Assurance &amp; Testing"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Project Management &amp; Control">
 					<Objectives>
 						<obj>
@@ -574,9 +1058,20 @@ Interview contract officer at the organization to determine how it manages the c
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -586,15 +1081,57 @@ Interview contract officer at the organization to determine how it manages the c
 	<Domain nr="04">
 		<title>
 			<tx l="eng" name="Outsourcing"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Data Rights"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data Rights Identification"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Data Rights Identification">
 					<Objectives>
 						<obj>
@@ -642,9 +1179,20 @@ Verify if the disclosure of information by outsourced agency is authorized.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -653,11 +1201,39 @@ Verify if the disclosure of information by outsourced agency is authorized.
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Security"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Security Requirements and Monitoring"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Security Requirements and Monitoring">
 					<Objectives>
 						<obj>
@@ -714,9 +1290,20 @@ Verify if the organization receives regular reports and acts on the information 
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -725,11 +1312,39 @@ Verify if the organization receives regular reports and acts on the information 
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Service Level Agreement"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="SLA Development and Enforcement"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="SLA Development and Enforcement">
 					<Objectives>
 						<obj>
@@ -775,9 +1390,20 @@ Verify the action taken by the organization for deviations from service level ag
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -786,11 +1412,30 @@ Verify the action taken by the organization for deviations from service level ag
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="Vendor or Contract Monitoring"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Vendor or Contract Monitoring"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Vendor or Contract Monitoring">
 					<Objectives>
 						<obj>
@@ -830,9 +1475,20 @@ Review of notices and action-taken reports for action taken to be commensurate w
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -842,15 +1498,57 @@ Review of notices and action-taken reports for action taken to be commensurate w
 	<Domain nr="05">
 		<title>
 			<tx l="eng" name="Information Security"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Access Control"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Ensuring Authorized Access"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Ensuring Authorized Access">
 					<Objectives>
 						<obj>
@@ -890,9 +1588,20 @@ Access requested is commensurate with job function/role and required segregation
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -900,7 +1609,21 @@ Access requested is commensurate with job function/role and required segregation
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Granting and Revoking Access"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Access Control">
 					<Objectives>
 						<obj>
@@ -950,9 +1673,20 @@ requirements/ organisation policy or best practice.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -961,11 +1695,39 @@ requirements/ organisation policy or best practice.
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Communications and Operations Management"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Configuration Control"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Configuration Control">
 					<Objectives>
 						<obj>
@@ -997,9 +1759,20 @@ If so, interview managers to check what procedures have been implemented to conf
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1007,7 +1780,21 @@ If so, interview managers to check what procedures have been implemented to conf
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Securing Internal and External Communnications"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Securing Internal and External Communnications">
 					<Objectives>
 						<obj>
@@ -1039,9 +1826,20 @@ Check how often the communication and data handling procedures are reviewed and 
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1049,7 +1847,21 @@ Check how often the communication and data handling procedures are reviewed and 
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Securing Network Communications"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Securing Network Communications">
 					<Objectives>
 						<obj>
@@ -1103,9 +1915,20 @@ Determine:
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1114,11 +1937,39 @@ Determine:
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Risk Assessment"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Confidentiality"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Confidentiality Requirements and Implementation">
 					<Objectives>
 						<obj>
@@ -1162,9 +2013,20 @@ Check management action on such breaches.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1172,7 +2034,21 @@ Check management action on such breaches.
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Risk Identification and Mitigation Policy"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Risk Identification and Mitigation">
 					<Objectives>
 						<obj>
@@ -1210,9 +2086,20 @@ Review incidence response reports and earlier risk documents/ registers to exami
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1220,7 +2107,21 @@ Review incidence response reports and earlier risk documents/ registers to exami
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Risk Mitigation"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Risk Mitigation">
 					<Objectives>
 						<obj>
@@ -1252,9 +2153,20 @@ Take into account that problem/incident reports may be incomplete in some cases.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1264,15 +2176,57 @@ Take into account that problem/incident reports may be incomplete in some cases.
 	<Domain nr="06">
 		<title>
 			<tx l="eng" name="BCP-DRP"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="BCP-DRP"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="BCP-DRP Policy"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="BCP-DRP Policy">
 					<Objectives>
 						<obj>
@@ -1308,9 +2262,20 @@ Review or interview personnel to determine how often the policy is updated if co
 Review policy to determine who approved it and when was it last distributed / interview a sample of business users to assess if the policy has been sufficiently communicated within the organization."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1318,7 +2283,21 @@ Review policy to determine who approved it and when was it last distributed / in
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="BCP-DRP Testing"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="BCP-DRP Testing">
 					<Objectives>
 						<obj>
@@ -1374,9 +2353,20 @@ disaster recovery plan are adequately updated.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1384,7 +2374,21 @@ disaster recovery plan are adequately updated.
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="DRP Plan Implementation"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Disaster Recovery Plan Implementation">
 					<Objectives>
 						<obj>
@@ -1450,9 +2454,20 @@ Document review/ Interview staff to assess that the relevant staff have been tra
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1462,15 +2477,57 @@ Document review/ Interview staff to assess that the relevant staff have been tra
 	<Domain nr="07">
 		<title>
 			<tx l="eng" name="Application Controls"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Input"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data Entry Authorization"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Data Entry Authorization">
 					<Objectives>
 						<obj>
@@ -1506,9 +2563,20 @@ Determine if a separation of duties (SOD) table exists, and review for adequate 
 of document. Verify the adoption of compensating controls in cases which SOD was not feasible."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1516,7 +2584,21 @@ of document. Verify the adoption of compensating controls in cases which SOD was
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Error Handling"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Error Handling">
 					<Objectives>
 						<obj>
@@ -1557,9 +2639,20 @@ Ask managers about the existence of procedures for periodically reviewing the lo
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1567,7 +2660,18 @@ Ask managers about the existence of procedures for periodically reviewing the lo
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Souce Data Management"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Source Data Management">
 					<Objectives>
 						<obj>
@@ -1618,9 +2722,20 @@ Enquire responsible personnel about retention policies. Verify how these policie
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1628,7 +2743,18 @@ Enquire responsible personnel about retention policies. Verify how these policie
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Valid Data"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Valid Data">
 					<Objectives>
 						<obj>
@@ -1679,9 +2805,20 @@ the application developers or administrator to obtain information on interfaces 
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1690,11 +2827,27 @@ the application developers or administrator to obtain information on interfaces 
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Processing"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data Integrity and Reliability"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Data Integrity and Reliability">
 					<Objectives>
 						<obj>
@@ -1743,9 +2896,20 @@ files. Verify that suspense files are correctly and consistently produced and th
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1754,11 +2918,33 @@ files. Verify that suspense files are correctly and consistently produced and th
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Output"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Application Security"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Application Security">
 					<Objectives>
 						<obj>
@@ -1799,9 +2985,20 @@ Verify, where possible, using automated evidence collection, if unique identifie
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1809,7 +3006,12 @@ Verify, where possible, using automated evidence collection, if unique identifie
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Completness and Accuracy of Output Data"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Completness and Accuracy of Output Data">
 					<Objectives>
 						<obj>
@@ -1855,9 +3057,20 @@ Select a representative sample of output reports, and test the reasonableness an
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1865,7 +3078,18 @@ Select a representative sample of output reports, and test the reasonableness an
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Output Data Completness"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Output Data Completness">
 					<Objectives>
 						<obj>
@@ -1910,9 +3134,20 @@ Select a representative sample of output reports, and test the reasonableness an
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1920,7 +3155,18 @@ Select a representative sample of output reports, and test the reasonableness an
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Output"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Output Data Protection">
 					<Objectives>
 						<obj>
@@ -1951,9 +3197,20 @@ Check if there are documented procedures for labeling sensitive application outp
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
