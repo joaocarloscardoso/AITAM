@@ -307,6 +307,9 @@ Passez en revue les procès-verbaux du comité de pilotage.
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Effectiveness of Problem and Incident Management Procedures"/>
+					<tx l="spa" name="Efectividad de los procedimientos de gestión de incidentes y problemas"/>
+					<tx l="fre" name="Efficacité des procédures de gestion des problèmes et des incidents"/>
+					<tx l="ara" name="فعالية إجراءات إدارة المشكلة والحوادث"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -326,36 +329,73 @@ Passez en revue les procès-verbaux du comité de pilotage.
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To evaluate the effectiveness of organization’s problem and incident management policies and procedures."/>
+							<tx l="spa" name="Evaluar la efectividad de las políticas y procedimientos de gestión de incidentes y problemas de la organización."/>
+							<tx l="fre" name="Évaluer l’efficacité des politiques et procédures de gestion des problèmes et des incidents de l’organisation."/>
+							<tx l="ara" name="لتقييم فعالية سياسات وإجراءات إدارة المشاكل والحوادث في المنظمة."/>
 						</obj>
 					</Objectives>
-					<AuditIssue>AHow effective is the response to incidents. Does the incidence response strategy result in effective response to incidents?</AuditIssue>
+					<AuditIssue>How effective is the response to incidents. Does the incidence response strategy result in effective response to incidents?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Agency policy on Incident Management, IT Operations SLA."/>
+							<tx l="eng" name="Agency policy on Incident Management, IT Operations, Service Level Agreemnet (SLA)."/>
+							<tx l="spa" name="Política de la agencia sobre gestión de incidentes, operaciones de TI, acuerdo de nivel de servicio (SLA)."/>
+							<tx l="fre" name="Politique de l'agence sur la gestion des incidents, les opérations informatiques, l'accord de niveau de service (SLA)."/>
+							<tx l="ara" name="سياسة الوكالة بشأن إدارة الحوادث وعمليات تكنولوجيا المعلومات واتفاقية مستوى الخدمة (SLA)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Incident response action items, forms logs, etc.
-Periodic security awareness training
-Incident handling procedures – guidelines for prioritizing incidents
+Periodic security awareness training.
+Incident handling procedures – guidelines for prioritizing incidents.
 Case reports and action taken.
+"/>
+							<tx l="spa" name="Elementos de acción de respuesta a incidentes, registros de formularios, etc.
+Formación periódica de concienciación sobre seguridad.
+Procedimientos de manejo de incidentes: pautas para priorizar incidentes.
+Reportes de casos y acciones tomadas.
+"/>
+							<tx l="fre" name="Éléments d'action de réponse aux incidents, journaux de formulaires, etc.
+Formation périodique de sensibilisation à la sécurité.
+Procédures de gestion des incidents - directives pour hiérarchiser les incidents.
+Rapports de cas et mesures prises.
+"/>
+							<tx l="ara" name="عناصر إجراءات الاستجابة للحوادث وسجلات النماذج وما إلى ذلك.
+تدريب دوري للتوعية الأمنية.
+إجراءات التعامل مع الحوادث - إرشادات لتحديد أولويات الحوادث.
+تقارير الحالة والإجراءات المتخذة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Check if an incident response/handling priority is assigned to each asset or service.
-
-Verify whether procedures provide for the capture and analysis of volatile50 and static data in a timely manner.
-
+Verify whether procedures provide for the capture and analysis of volatile and static data in a timely manner.
 Verify whether the response team periodically makes users aware of policies and procedures regarding appropriate use of networks, systems, external media and applications.
-
 Review documents to find whether post-incident activities such as refresher training has been given to user groups to avoid costly recurrence of significant incidents.
-
-Look for whether source of incident was identified. Look for action taken. (Procedure change, reprimand, training, etc.).
-
-Check whether the incident response team records all resolved incidents
+Look for whether source of incident was identified. Look for action taken (Procedure change, reprimand, training, etc.).
+Check whether the incident response team records all resolved incidents.
+"/>
+							<tx l="spa" name="Verifique si se asigna una prioridad de manejo / respuesta a incidentes a cada activo o servicio.
+Verifique si los procedimientos prevén la captura y análisis de datos volátiles y estáticos de manera oportuna.
+Verifique si el equipo de respuesta informa periódicamente a los usuarios sobre las políticas y procedimientos relacionados con el uso apropiado de redes, sistemas, medios externos y aplicaciones.
+Revise los documentos para averiguar si se han proporcionado actividades posteriores al incidente, como capacitación de actualización, a los grupos de usuarios para evitar la recurrencia costosa de incidentes importantes.
+Busque si se identificó la fuente del incidente. Busque las medidas tomadas (Cambio de procedimiento, amonestación, formación, etc.).
+Compruebe si el equipo de respuesta a incidentes registra todos los incidentes resueltos.
+"/>
+							<tx l="fre" name="Vérifiez si une priorité de traitement / réponse aux incidents est attribuée à chaque actif ou service.
+Vérifiez si les procédures prévoient la capture et l'analyse des données volatiles et statiques en temps opportun.
+Vérifiez si l'équipe d'intervention informe périodiquement les utilisateurs des politiques et procédures concernant l'utilisation appropriée des réseaux, des systèmes, des supports externes et des applications.
+Examinez les documents pour déterminer si des activités post-incident telles que des formations de recyclage ont été dispensées aux groupes d'utilisateurs pour éviter la répétition coûteuse d'incidents importants.
+Recherchez si la source de l'incident a été identifiée. Recherchez les mesures prises (Changement de procédure, réprimande, formation, etc.).
+Vérifiez si l'équipe d'intervention en cas d'incident enregistre tous les incidents résolus.
+"/>
+							<tx l="ara" name="تحقق مما إذا تم تعيين أولوية الاستجابة / التعامل مع الحادث لكل أصل أو خدمة.
+تحقق مما إذا كانت الإجراءات تنص على التقاط وتحليل البيانات المتقلبة والثابتة في الوقت المناسب.
+تحقق مما إذا كان فريق الاستجابة يقوم بشكل دوري بتوعية المستخدمين بالسياسات والإجراءات المتعلقة بالاستخدام المناسب للشبكات والأنظمة والوسائط الخارجية والتطبيقات.
+قم بمراجعة المستندات لمعرفة ما إذا كانت أنشطة ما بعد الحادث مثل التدريب التنشيطي قد تم تقديمها لمجموعات المستخدمين لتجنب التكرار المكلف للحوادث الكبيرة.
+ابحث عما إذا كان قد تم تحديد مصدر الحادث. ابحث عن الإجراء الذي تم اتخاذه (تغيير الإجراء ، التوبيخ ، التدريب ، إلخ).
+تحقق مما إذا كان فريق الاستجابة للحوادث يسجل جميع الحوادث التي تم حلها.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -399,24 +439,34 @@ Check whether the incident response team records all resolved incidents
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the IT organization is ensuring that the system capacity and performance meets current and future business needs."/>
+							<tx l="spa" name="Evalúe si la organización de TI se asegura de que la capacidad y el rendimiento del sistema satisfagan las necesidades comerciales actuales y futuras."/>
+							<tx l="fre" name="Évaluer si l'organisation informatique s'assure que la capacité et les performances du système répondent aux besoins commerciaux actuels et futurs."/>
+							<tx l="ara" name="قم بتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تضمن أن قدرة النظام وأدائه يلبي احتياجات العمل الحالية والمستقبلية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Monitoring - Does the IT organization collect and review system performance data on a real time/periodic basis for better alignment with business needs?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Best practices by sys/network administrators like performance base lining, collection of traffic and configuration information, system resource availability, observe traffic stats and trends, what-if analyses, use of tools to pinpoint causes of performance deterioration"/>
+							<tx l="spa" name="Las mejores prácticas de los administradores de sistemas / redes, como referencia del rendimiento, recopilación de información de configuración y tráfico, disponibilidad de recursos del sistema, observación de las estadísticas y tendencias del tráfico, análisis hipotéticos, uso de herramientas para identificar las causas del deterioro del rendimiento"/>
+							<tx l="fre" name="Les meilleures pratiques des administrateurs système / réseau telles que l'analyse de base des performances, la collecte d'informations sur le trafic et la configuration, la disponibilité des ressources système, l'observation des statistiques et des tendances du trafic, des analyses hypothétiques, l'utilisation d'outils pour identifier les causes de la détérioration des performances"/>
+							<tx l="ara" name="أفضل الممارسات من قبل مسؤولي النظام / الشبكة مثل تحديد الأساس للأداء ، وجمع معلومات حركة المرور والتكوين ، وتوافر موارد النظام ، ومراقبة إحصاءات واتجاهات حركة المرور ، وتحليلات ماذا لو ، واستخدام الأدوات لتحديد أسباب تدهور الأداء"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Reports, action items, help desk response time, and other metrics.
-
-"/>
+							<tx l="eng" name="Reports, action items, help desk response time, and other metrics."/>
+							<tx l="spa" name="Informes, elementos de acción, tiempo de respuesta de lo servicio de ayuda y otras métricas."/>
+							<tx l="fre" name="Rapports, éléments d'action, temps de réponse du service d'assistance et autres mesures."/>
+							<tx l="ara" name="التقارير وعناصر العمل ووقت استجابة مكتب المساعدة والمقاييس الأخرى."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Use Compliance issue in SLA matrix. Pay special attention to all elements having impact on capacity, i.e. compare actual capacity metrics to the SLA requirements etc."/>
+							<tx l="spa" name="Utilice el problema de cumplimiento en la matriz del acuerdo de nivel de servicio. Preste especial atención a todos los elementos que tienen un impacto en la capacidad, es decir, compare las métricas de capacidad reales con los requisitos de la matriz del Acuerdo de nivel de servicio, etc."/>
+							<tx l="fre" name="Utilice el problema de cumplimiento en la matriz del acuerdo de nivel de servicio. Preste especial atención a todos los elementos que tienen un impacto en la capacidad, es decir, compare las métricas de capacidad reales con los requisitos de la matriz del Acuerdo de nivel de servicio, etc."/>
+							<tx l="ara" name="استخدام مشكلة الامتثال في مصفوفة اتفاقية مستوى الخدمة. إيلاء اهتمام خاص لجميع العناصر التي لها تأثير على السعة ، أي مقارنة مقاييس السعة الفعلية بمتطلبات مصفوفة اتفاقية مستوى الخدمة وما إلى ذلك."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -459,29 +509,45 @@ Check whether the incident response team records all resolved incidents
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the IT organization is ensuring that the system capacity and performance meets current and future business needs"/>
+							<tx l="eng" name="Evaluar si la organización de TI se asegura de que la capacidad y el rendimiento del sistema satisfagan las necesidades del negocio actuales y futuras."/>
+							<tx l="eng" name="Évaluer si l'organisation informatique s'assure que la capacité et les performances du système répondent aux besoins métier actuels et futurs"/>
+							<tx l="eng" name="قم بتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تضمن أن قدرة النظام وأدائه يلبي احتياجات العمل الحالية والمستقبلية"/>
 						</obj>
 					</Objectives>
-					<AuditIssue>Analyze &amp; tune - Is the performance data analyzed and tuned for efficiency gains and avoidance of capacity constraints? If needed has the IT organization planned for and acquired additional resources to meet business needs? Does the IT organization hire, train, or contract for staff as the business needs change?</AuditIssue>
+					<AuditIssue>Analyze and tune - Is the performance data analyzed and tuned for efficiency gains and avoidance of capacity constraints? If needed has the IT organization planned for and acquired additional resources to meet business needs? Does the IT organization hire, train, or contract for staff as the business needs change?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Parameters set in the agreement/operation guide; best practices in performance tuning ( memory, optimization of network response time, OS, I/O; efficient design of database schema, scheduling tasks according to priority and resource requirement, upgrade or tuning procedures set up to handle capacity issues on both a reactive and long-term basis)."/>
+							<tx l="eng" name="Parameters set in the agreement/operation guide; best practices in performance tuning (memory, optimization of network response time, OS, I/O; efficient design of database schema, scheduling tasks according to priority and resource requirement, upgrade or tuning procedures set up to handle capacity issues on both a reactive and long-term basis)."/>
+							<tx l="spa" name="Parámetros establecidos en la guía de acuerdo / operación; mejores prácticas en el ajuste del rendimiento (memoria, optimización del tiempo de respuesta de la red, sistema operativo, I/O; diseño eficiente del esquema de la base de datos, programación de tareas de acuerdo con la prioridad y el requisito de recursos, procedimientos de actualización o ajuste establecidos para manejar problemas de capacidad tanto en un entorno reactivo como base a largo plazo)."/>
+							<tx l="fre" name="Paramètres définis dans le guide d'accord / d'opération; meilleures pratiques en matière de réglage des performances (mémoire, optimisation du temps de réponse du réseau, OS, I/O; conception efficace du schéma de base de données, planification des tâches en fonction de la priorité et des besoins en ressources, procédures de mise à niveau ou de réglage mises en place pour gérer les problèmes de capacité sur un plan réactif et à long terme)."/>
+							<tx l="ara" name="المعلمات المحددة في دليل الاتفاقية / العملية ؛ أفضل الممارسات في ضبط الأداء (الذاكرة ، تحسين وقت استجابة الشبكة ، نظام التشغيل ، الإدخال / الإخراج ؛ التصميم الفعال لمخطط قاعدة البيانات ، جدولة المهام وفقًا للأولوية ومتطلبات الموارد ، إجراءات الترقية أو الضبط المعدة للتعامل مع مشكلات السعة على كل من رد الفعل و على المدى الطويل)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Reports, actions, status reports, performance metric graphs,
-
-Minutes of meeting at the apex IT organization level.
-"/>
+							<tx l="eng" name="Reports, actions, status reports, performance metric graphs, minutes of meeting at the apex IT organization level."/>
+							<tx l="spa" name="Reports, actions, status reports, performance metric graphMinutes of meeting at the apex IT organization level."/>
+							<tx l="fre" name="Rapports, actions, rapports d'état, graphiques de mesure de performance, procès-verbaux de réunion au haute niveau de l'organisation informatique."/>
+							<tx l="ara" name="التقارير والإجراءات وتقارير الحالة والرسوم البيانية لمقاييس الأداء ومحاضر الاجتماعات على مستوى مؤسسة تكنولوجيا المعلومات الرئيسية."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the reports that the IT Organization generates daily or at other chosen time frame, look to see if they generate and analyze trend data, identify bottlenecks to look for action items, exception reporting for capacity issues. Compare to SLA requirements.
-
 Compare reports/trend patterns to verify procedural actions taken in response to the reports.
-
 Review minutes of meetings and find whether IT staffing issues, capacity problems and any additional resource needs are discussed and highlighted at the right time.
+"/>
+							<tx l="spa" name="Revise los informes que la organización de TI genera diariamente o en otro período de tiempo elegido, observe si generan y analizan datos de tendencias, identifique estrangulaciones para buscar elementos de acción, informes de excepciones para problemas de capacidad. Compare con los requisitos del acuerdo de nivel de servicio.
+Compare informes / patrones de tendencias para verificar las acciones de procedimiento tomadas en respuesta a los informes.
+Revise las actas de las reuniones y averigüe si los problemas de personal de TI, los problemas de capacidad y las necesidades de recursos adicionales se debaten y destacan en el momento adecuado.
+"/>
+							<tx l="fre" name="Examinez les rapports que l'organisation informatique génère quotidiennement ou à une autre période choisie, vérifiez s'ils génèrent et analysent les données de tendance, identifiez les goulots d'étranglement pour rechercher des éléments d'action, signalez les exceptions pour les problèmes de capacité. Comparer aux exigences de l'accord de niveau de service.
+Comparez les rapports/les tendances pour vérifier les actions procédurales prises en réponse aux rapports.
+Examinez les procès-verbaux des réunions et déterminez si les problèmes de personnel informatique, les problèmes de capacité et les besoins en ressources supplémentaires sont discutés et mis en évidence au bon moment.
+"/>
+							<tx l="ara" name="راجع التقارير التي تنشئها منظمة تكنولوجيا المعلومات يوميًا أو في إطار زمني آخر مختار ، وانظر لمعرفة ما إذا كانت تولد بيانات الاتجاهات وتحللها ، وتحدد الاختناقات للبحث عن عناصر العمل ، وتقارير الاستثناءات لقضايا السعة. قارن بمتطلبات اتفاقية مستوى الخدمة.
+قارن بين التقارير / أنماط الاتجاه للتحقق من الإجراءات الإجرائية المتخذة استجابة للتقارير.
+راجع محاضر الاجتماعات واكتشف ما إذا كانت مشكلات موظفي تكنولوجيا المعلومات ومشاكل القدرات وأي احتياجات إضافية من الموارد قد تمت مناقشتها وإبرازها في الوقت المناسب.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -507,6 +573,9 @@ Review minutes of meetings and find whether IT staffing issues, capacity problem
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Service Management"/>
+				<tx l="spa" name="Gestión De Servicios"/>
+				<tx l="fre" name="La gestion des services"/>
+				<tx l="ara" name="Sإدارة الخدمات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -525,6 +594,9 @@ Review minutes of meetings and find whether IT staffing issues, capacity problem
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Monitoring of IT Operations"/>
+					<tx l="spa" name="Monitoreo de operaciones de TI"/>
+					<tx l="fre" name="Suivi des opérations informatiques"/>
+					<tx l="ara" name="مراقبة عمليات تكنولوجيا المعلومات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -544,36 +616,65 @@ Review minutes of meetings and find whether IT staffing issues, capacity problem
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the IT organization is actively monitoring IT operations against agreed-to Service Level Agreement or contract."/>
+							<tx l="spa" name="Evaluar si la organización de TI está monitoreando activamente las operaciones de TI según el Acuerdo o contrato de nivel de servicio acordado."/>
+							<tx l="fre" name="Pour évaluer si l'organisation informatique surveille activement les opérations informatiques par rapport à l'accord de niveau de service ou au contrat convenu."/>
+							<tx l="ara" name="لتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تراقب بنشاط عمليات تكنولوجيا المعلومات مقابل اتفاقية أو عقد مستوى الخدمة المتفق عليه"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>What Key Parameters and baseline service metrics are covered by the SLA between the business and the IT organization?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="SLA or other well established IT Operational parameters in your country or agency. Rather than internal SLA, focus should be put on SLA between the e-government owner and its stakeholders"/>
+							<tx l="eng" name="SLA or other well established IT Operational parameters in your country or agency. Rather than internal SLA, focus should be put on SLA between the e-government owner and its stakeholders."/>
+							<tx l="spa" name="Acuerdo de nivel de servicio u otros parámetros operativos de TI bien establecidos en su país o agencia. En lugar de un acuerdo de nivel de servicio interno, se debe centrar la atención en el acuerdo de nivel de servicio entre el propietario del gobierno electrónico y sus partes interesadas."/>
+							<tx l="fre" name="Accord de niveau de service ou d'autres paramètres opérationnels informatiques bien établis dans votre pays ou agence. Plutôt qu'un accord de niveau de service interne, l'accent doit être mis sur l'accord de niveau de service entre le propriétaire de l'administration en ligne et ses parties prenantes."/>
+							<tx l="ara" name="اتفاقية مستوى الخدمة أو غيرها من معايير تشغيل تكنولوجيا المعلومات الراسخة في بلدك أو وكالتك. بدلاً من اتفاقية مستوى الخدمة الداخلية ، يجب التركيز على اتفاقية مستوى الخدمة بين مالك الحكومة الإلكترونية وأصحاب المصلحة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Entity’s SLA between business owners and IT organization.
-
-Help desk responsibilities
-
-Service reports generated
-
+Help desk responsibilities.
+Service reports generated.
 User/ application response time.
+"/>
+							<tx l="spa" name="Acuerdo de nivel de servicio de la entidad entre los propietarios de negocios y la organización de TI.
+Responsabilidades de lo servicio de ayuda.
+Generación de informes de servicio.
+Tiempo de respuesta del usuario / aplicación.
+"/>
+							<tx l="fre" name="Accord de niveau de service de l'entité entre les propriétaires d'entreprise et l'organisation informatique.
+Responsabilités du service d'assistance.
+Rapports de service générés.
+Temps de réponse utilisateur/application.
+"/>
+							<tx l="ara" name="اتفاقية مستوى خدمة الكيان بين أصحاب الأعمال ومنظمة تكنولوجيا المعلومات.
+مسؤوليات مكتب المساعدة.
+تم إنشاء تقارير الخدمة.
+وقت استجابة المستخدم / التطبيق.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review the SLA to find whether it contains appropriate elements – detailed and measurable service level objectives, systems and services covered, quality of
-service (QoS), services not covered, application level support and troubleshooting, system availability, help desk hours, response and resolution time dependent on severity classification of a problem, throughput, maintenance schedules etc.
-
+							<tx l="eng" name="Review the SLA to find whether it contains appropriate elements – detailed and measurable service level objectives, systems and services covered, quality of service (QoS), services not covered, application level support and troubleshooting, system availability, help desk hours, response and resolution time dependent on severity classification of a problem, throughput, maintenance schedules, etc.
 Check whether data back-up and recovery practices are consistent with the entity’s BCP standards.
-
 Check if the Business Process Owners have signed on the agreement.
-
-Interview sample of users to understand the level of awareness
+Interview sample of users to understand the level of awareness.
+"/>
+							<tx l="spa" name="Revise el Acuerdo de nivel de servicio para determinar si contiene los elementos adecuados: objetivos de nivel de servicio detallados y medibles, sistemas y servicios cubiertos, calidad de servicio (QoS), servicios no cubiertos, soporte y resolución de problemas a nivel de aplicación, disponibilidad del sistema, horas de servicio de asistencia técnica, respuesta. y el tiempo de resolución depende de la clasificación de gravedad de un problema, rendimiento, programas de mantenimiento, etc.
+Verifique si las prácticas de respaldo y recuperación de datos son consistentes con los estándares BCP de la entidad.
+Compruebe si los propietarios de procesos de negocio han firmado el acuerdo.
+Entrevistar a una muestra de usuarios para comprender el nivel de conciencia.
+"/>
+							<tx l="fre" name="Examinez le contrat de niveau de service pour déterminer s'il contient des éléments appropriés : objectifs de niveau de service détaillés et mesurables, systèmes et services couverts, qualité de service (QoS), services non couverts, assistance et dépannage au niveau des applications, disponibilité du système, heures d'assistance, réponse et le temps de résolution en fonction de la classification de la gravité d'un problème, du débit, des calendriers de maintenance, etc.
+Vérifiez si les pratiques de sauvegarde et de récupération des données sont conformes aux normes BCP de l'entité.
+Vérifiez si les Business Process Owners ont signé l'accord.
+Interviewez un échantillon d'utilisateurs pour comprendre le niveau de sensibilisation.
+"/>
+							<tx l="ara" name="راجع اتفاقية مستوى الخدمة لمعرفة ما إذا كانت تحتوي على عناصر مناسبة - أهداف مستوى الخدمة التفصيلية والقابلة للقياس ، والأنظمة والخدمات المشمولة ، وجودة الخدمة (QoS) ، والخدمات غير المشمولة ، ودعم مستوى التطبيق واستكشاف الأخطاء وإصلاحها ، وتوافر النظام ، وساعات مكتب المساعدة ، والاستجابة ووقت الحل يعتمد على تصنيف خطورة المشكلة والإنتاجية والجداول الزمنية للصيانة وما إلى ذلك.
+تحقق مما إذا كانت ممارسات النسخ الاحتياطي واستعادة البيانات متوافقة مع معايير BCP للكيان.
+تحقق مما إذا كان مالكو إجراءات الأعمال قد وقعوا على الاتفاقية.
+عينة مقابلة من المستخدمين لفهم مستوى الوعي.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -636,6 +737,9 @@ Interview sample of users to understand the level of awareness
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Identification of Users"/>
+					<tx l="spa" name="Identificación de usuarios"/>
+					<tx l="fre" name="Identification des utilisateurs"/>
+					<tx l="ara" name="تحديد المستخدمين"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -655,43 +759,89 @@ Interview sample of users to understand the level of awareness
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the entity has an adequate mechanism to ensure compliance"/>
+							<tx l="spa" name="Evaluar si la entidad tiene un mecanismo adecuado para asegurar el cumplimiento."/>
+							<tx l="fre" name="Évaluer si l'entité dispose d'un mécanisme adéquat pour assurer la conformité"/>
+							<tx l="ara" name="قم بتقييم ما إذا كان لدى الكيان آلية مناسبة لضمان الامتثال"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How does the organisation ensure that it has an adequate and working compliance mechanism to ensure all policies and procedures are being followed?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Most likely, a certain agency is assigned to set or regulate the direction of ICT use in Government. 
-Auditors need to make sure that any e-government initiative being audited is adhere to the applied regulation.
-"/>
+							<tx l="eng" name="Most likely, a certain agency is assigned to set or regulate the direction of ICT use in Government.  Auditors need to make sure that any e-government initiative being audited is adhere to the applied regulation."/>
+							<tx l="spa" name="Lo más probable es que se asigne una determinada agencia para establecer o regular la dirección del uso de las TIC en el gobierno. Los auditores deben asegurarse de que cualquier iniciativa de gobierno electrónico que se audite se adhiera a la regulación aplicada."/>
+							<tx l="fre" name="Très probablement, une certaine agence est chargée de définir ou de réglementer l'orientation de l'utilisation des TIC au sein du gouvernement. Les auditeurs doivent s'assurer que toute initiative d'administration électronique faisant l'objet d'un audit est conforme à la réglementation en vigueur."/>
+							<tx l="ara" name="على الأرجح ، يتم تعيين وكالة معينة لتحديد أو تنظيم اتجاه استخدام تكنولوجيا المعلومات والاتصالات في الحكومة. يحتاج المدققون إلى التأكد من أن أي مبادرة حكومية إلكترونية يتم تدقيقها تلتزم باللوائح المعمول بها."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Organisational policies &amp; procedures
-(Security, SDLC, Training, etc)
-Organisation Chart
-Quality Assurance Plan
-Reports from compliance teams or groups
-Steering Committee Minutes
+							<tx l="eng" name="Organisational policies and procedures.
+(Security, SDLC, Training, etc.).
+Organisation Chart.
+Quality Assurance Plan.
+Reports from compliance teams or groups.
+Steering Committee Minutes.
+"/>
+							<tx l="spa" name="Políticas y procedimientos organizacionales.
+(Seguridad, SDLC, Formación, etc.).
+Organigrama.
+Plan de garantía de calidad.
+Informes de equipos o grupos de cumplimiento.
+Actas del Comité Directivo.
+"/>
+							<tx l="fre" name="Politiques et procédures organisationnelles.
+(Sécurité, SDLC, Formation, etc.).
+Organigramme.
+Plan d'Assurance Qualité.
+Rapports des équipes ou des groupes de conformité.
+Procès-verbal du comité directeur.
+"/>
+							<tx l="ara" name="السياسات والإجراءات التنظيمية.
+(الأمن ، SDLC ، التدريب ، إلخ).
+الهيكل التنظيمي.
+خطة ضمان الجودة.
+تقارير من فرق أو مجموعات الامتثال.
+محاضر اللجنة التوجيهية.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Select a sample of policies and organisational procedures to assess compliance.
-
 Interview management to determine who is responsible for ensuring compliance to the (audit selected) policies and associated procedures.
 Interview team or group responsible for compliance of above to determine how they accomplish their duties.
-
 Review reports from various compliance groups to see what they found, what actions they have taken and reported to management.
-
 Review steering committee minutes to see if high level compliance issues are discussed at this or at other meetings.
-
 Interview author(s) to determine reason for update to existing policies or procedures.
-
 Review past non-compliance issues and resolutions.
-
 Review training or other dissemination mechanisms (email, memo, notice) to see if non-compliance issues were addressed.
+"/>
+							<tx l="spa" name="Seleccione una muestra de políticas y procedimientos organizacionales para evaluar el cumplimiento.
+Entrevistar a la gerencia para determinar quién es responsable de garantizar el cumplimiento de las políticas (seleccionadas por auditoría) y los procedimientos asociados.
+Entrevistar al equipo o grupo responsable del cumplimiento de lo anterior para determinar cómo cumplen con sus funciones.
+Revise los informes de varios grupos de cumplimiento para ver qué encontraron, qué acciones tomaron e informaron a la gerencia.
+Revise las actas del comité directivo para ver si se discuten problemas de cumplimiento de alto nivel en esta o en otras reuniones.
+Entreviste a los autores para determinar el motivo de la actualización de las políticas o procedimientos existentes.
+Revise los problemas y las resoluciones de incumplimiento anteriores.
+Revise la capacitación u otros mecanismos de difusión (correo electrónico, memorando, notificación) para ver si se abordaron los problemas de incumplimiento.
+"/>
+							<tx l="fre" name="Sélectionnez un échantillon de politiques et de procédures organisationnelles pour évaluer la conformité.
+Gestion des entretiens pour déterminer qui est chargé d'assurer la conformité aux politiques (sélectionnées par l'audit) et aux procédures associées.
+Interviewez l'équipe ou le groupe responsable de la conformité à ce qui précède pour déterminer comment ils accomplissent leurs tâches.
+Examinez les rapports de divers groupes de conformité pour voir ce qu'ils ont trouvé, quelles mesures ils ont prises et signalées à la direction.
+Examinez les procès-verbaux du comité directeur pour voir si les questions de conformité de haut niveau sont discutées lors de cette réunion ou d'autres.
+Interviewez les auteurs pour déterminer la raison de la mise à jour des politiques ou procédures existantes.
+Passez en revue les problèmes de non-conformité passés et les résolutions.
+Passez en revue la formation ou d'autres mécanismes de diffusion (courriel, mémo, avis) pour voir si les problèmes de non-conformité ont été résolus.
+"/>
+							<tx l="ara" name="حدد عينة من السياسات والإجراءات التنظيمية لتقييم الامتثال.
+إدارة المقابلة لتحديد المسؤول عن ضمان الامتثال لسياسات (التدقيق المختار) والإجراءات المرتبطة بها.
+مقابلة الفريق أو المجموعة المسؤولة عن الامتثال لما ورد أعلاه لتحديد كيفية إنجازهم لواجباتهم.
+قم بمراجعة التقارير من مجموعات الامتثال المختلفة لمعرفة ما وجدوه ، والإجراءات التي اتخذوها وأبلغوا بها إلى الإدارة.
+راجع محاضر اللجنة التوجيهية لمعرفة ما إذا كانت قضايا الامتثال عالية المستوى قد تمت مناقشتها في هذا الاجتماع أو في اجتماعات أخرى.
+مقابلة المؤلفين لتحديد سبب تحديث السياسات أو الإجراءات الحالية.
+مراجعة قضايا عدم الامتثال والقرارات السابقة.
+قم بمراجعة التدريب أو آليات النشر الأخرى (البريد الإلكتروني ، المذكرة ، الإشعار) لمعرفة ما إذا تم معالجة قضايا عدم الامتثال.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -716,7 +866,10 @@ Review training or other dissemination mechanisms (email, memo, notice) to see i
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Requirements Development &amp; Management"/>
+				<tx l="eng" name="Requirements Development and Management"/>
+				<tx l="spa" name="Desarrollo y gestión de requisitos"/>
+				<tx l="fre" name="Développement et gestion des exigences"/>
+				<tx l="ara" name="تطوير وإدارة المتطلبات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -735,6 +888,9 @@ Review training or other dissemination mechanisms (email, memo, notice) to see i
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Configuration Management"/>
+					<tx l="spa" name="Gestión de la configuración"/>
+					<tx l="fre" name="Gestion de la configuration"/>
+					<tx l="ara" name="إدارة التكوين"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -754,33 +910,61 @@ Review training or other dissemination mechanisms (email, memo, notice) to see i
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization manages configurations of work products related to development and acquisition."/>
+							<tx l="spa" name="Evaluar cómo la organización gestiona las configuraciones de los productos de trabajo relacionados con el desarrollo y la adquisición."/>
+							<tx l="fre" name="Évaluez comment l'organisation gère les configurations des produits de travail liés au développement et à l'acquisition."/>
+							<tx l="ara" name="تقييم كيفية إدارة المنظمة لتكوينات منتجات العمل المتعلقة بالتطوير والاستحواذ."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>What policy does the organization use for configuration management and are they being followed?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Agency Configuration Management Policy &amp; Procedures.
-					Make sure that e-government or web services being audited is conform to applied configuration standard"/>
+							<tx l="eng" name="Agency Configuration Management Policy and Procedures. Make sure that e-government or web services being audited is conform to applied configuration standard"/>
+							<tx l="spa" name="Política y procedimientos de gestión de la configuración de la agencia. Asegúrese de que el gobierno electrónico o los servicios web que se auditan cumplen con el estándar de configuración aplicado"/>
+							<tx l="fre" name="Politique et procédures de gestion de la configuration de l'agence. Assurez-vous que l'e-gouvernement ou les services Web audités sont conformes à la norme de configuration appliquée"/>
+							<tx l="ara" name="سياسة وإجراءات إدارة تكوين الوكالة. تأكد من أن الحكومة الإلكترونية أو خدمات الويب التي يتم تدقيقها تتوافق مع معايير التكوين المطبقة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Configuration management policy or procedures or equivalent."/>
+							<tx l="spa" name="Política o procedimientos de gestión de la configuración o equivalente."/>
+							<tx l="fre" name="Politique ou procédures de gestion de la configuration ou équivalent."/>
+							<tx l="ara" name="سياسة إدارة التكوين أو الإجراءات أو ما يعادلها."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the configuration management policy for adequacy by looking for (as an example):
-
-Scope of policy and mandate
-Definition of roles and responsibilities
-
-Required resources and tools
-Linkage to procedures
-
-Rules to deal with non-compliance.
-
+Scope of policy and mandate;
+Definition of roles and responsibilities;
+Required resources and tools;
+Linkage to procedures;
+Rules to deal with non-compliance;
 Interview personnel responsible for configuration management if there is no policy to assess how they ensure that their duties are uniformly carried out for the organization.
+"/>
+							<tx l="spa" name="Revise la política de administración de la configuración para verificar su idoneidad buscando (como ejemplo):
+Alcance de la política y mandato;
+Definición de roles y responsabilidades;
+Recursos y herramientas necesarios;
+Vinculación con los procedimientos;
+Reglas para hacer frente al incumplimiento;
+Entrevistar al personal responsable de la gestión de la configuración si no existe una política para evaluar cómo se aseguran de que sus funciones se lleven a cabo de manera uniforme para la organización.
+"/>
+							<tx l="fre" name="Vérifiez l'adéquation de la politique de gestion de la configuration en recherchant (par exemple) :
+Portée de la politique et du mandat ;
+Définition des rôles et responsabilités ;
+Ressources et outils nécessaires ;
+Lien avec les procédures ;
+Règles pour traiter la non-conformité ;
+Interrogez le personnel responsable de la gestion de la configuration s'il n'y a pas de politique pour évaluer comment ils s'assurent que leurs tâches sont exécutées uniformément pour l'organisation.
+"/>
+							<tx l="ara" name="راجع سياسة إدارة التكوين للتأكد من كفاءتها من خلال البحث عن (كمثال):
+نطاق السياسة والولاية ؛
+تحديد الأدوار والمسؤوليات ؛
+الموارد والأدوات المطلوبة ؛
+الارتباط بالإجراءات ؛
+قواعد التعامل مع عدم الامتثال ؛
+مقابلة الموظفين المسؤولين عن إدارة التكوين إذا لم تكن هناك سياسة لتقييم كيفية ضمان تنفيذ واجباتهم بشكل موحد للمنظمة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -805,6 +989,9 @@ Interview personnel responsible for configuration management if there is no poli
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Identification of Requirements for  IT"/>
+					<tx l="spa" name="Identificación de requisitos para TI"/>
+					<tx l="fre" name="Identification des besoins informatiques"/>
+					<tx l="ara" name="تحديد متطلبات تكنولوجيا المعلومات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -824,29 +1011,57 @@ Interview personnel responsible for configuration management if there is no poli
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization identifies, prioritizes and manages their requirements for IT systems."/>
+							<tx l="spa" name="Evalúe cómo la organización identifica, prioriza y gestiona sus requisitos para los sistemas de TI."/>
+							<tx l="fre" name="Évaluez comment l'organisation identifie, hiérarchise et gère ses exigences en matière de systèmes informatiques."/>
+							<tx l="ara" name="قم بتقييم كيفية تحديد المنظمة وترتيب أولوياتها وإدارتها لمتطلباتها لأنظمة تكنولوجيا المعلومات."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How does the organization identify user requirements for IT Systems?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Obtain an understanding of how the agency develop requirements for the e-government implementation"/>
+							<tx l="spa" name="Obtener una comprensión de cómo la agencia desarrolla los requisitos para la implementación del gobierno electrónico."/>
+							<tx l="fre" name="Comprendre comment l'agence élabore les exigences pour la mise en œuvre du gouvernement électronique"/>
+							<tx l="ara" name="الحصول على فهم لكيفية تطوير الوكالة لمتطلبات تنفيذ الحكومة الإلكترونية"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Requirements’ management plan or procedure
-Sample user submitted requirements
-Sample initial review
+							<tx l="eng" name="Requirements’ management plan or procedure.
+Sample user submitted requirements.
+Sample initial review.
+"/>
+							<tx l="spa" name="Plan o procedimiento de gestión de requisitos.
+Ejemplo de requisitos enviados por el usuario.
+Ejemplo de revisión inicial.
+"/>
+							<tx l="fre" name="Plan ou procédure de gestion des exigences.
+Exemple d'exigences soumises par l'utilisateur.
+Exemple d'examen initial.
+"/>
+							<tx l="ara" name="خطة أو إجراء إدارة المتطلبات.
+نموذج المتطلبات المقدمة من المستخدم.
+عينة من المراجعة الأولية.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the requirements’ management plan or procedures to ensure users, stakeholders, or other relevant users are involved in identifying requirements.
-
 In a major functionality enhancement development, user consultation and prototype development can be implemented in parallel. The information interchange between the business process owners and vendor/ IT organization needs to be looked into.
-
 Review sample requirements to ensure that there is an initial review, and that similar or duplicate requirements are grouped.
+"/>
+							<tx l="spa" name="Revise el plan o los procedimientos de gestión de los requisitos para asegurarse de que los usuarios, las partes interesadas u otros usuarios relevantes participen en la identificación de los requisitos.
+En un desarrollo de mejora de funcionalidad importante, la consulta del usuario y el desarrollo de prototipos se pueden implementar en paralelo. Es necesario analizar el intercambio de información entre los propietarios de los procesos del negocio y el proveedor / organización de TI.
+Revise los requisitos de muestra para asegurarse de que haya una revisión inicial y de que se agrupen los requisitos similares o duplicados.
+"/>
+							<tx l="fre" name="Examinez le plan ou les procédures de gestion des exigences pour vous assurer que les utilisateurs, les parties prenantes ou d'autres utilisateurs concernés sont impliqués dans l'identification des exigences.
+Dans un développement majeur d'amélioration de fonctionnalités, la consultation des utilisateurs et le développement de prototypes peuvent être mis en œuvre en parallèle. L'échange d'informations entre les propriétaires de processus métier et le fournisseur/l'organisation informatique doit être examiné.
+Examinez les exemples d'exigences pour vous assurer qu'il y a un examen initial et que les exigences similaires ou en double sont regroupées.
+"/>
+							<tx l="ara" name="راجع خطة أو إجراءات إدارة المتطلبات لضمان مشاركة المستخدمين أو أصحاب المصلحة أو المستخدمين الآخرين ذوي الصلة في تحديد المتطلبات.
+في تطوير تحسين الوظائف الرئيسية ، يمكن تنفيذ استشارة المستخدم وتطوير النموذج الأولي بشكل متوازٍ. يجب النظر في تبادل المعلومات بين مالكي عمليات الأعمال والبائع / مؤسسة تكنولوجيا المعلومات.
+قم بمراجعة متطلبات العينة للتأكد من وجود مراجعة أولية ، وأنه تم تجميع المتطلبات المماثلة أو المكررة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -871,6 +1086,9 @@ Review sample requirements to ensure that there is an initial review, and that s
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Prioritization of Requirements for  IT"/>
+					<tx l="spa" name="Priorización de requisitos para TI"/>
+					<tx l="fre" name="Priorisation des exigences pour l'informatique"/>
+					<tx l="ara" name="تحديد أولويات متطلبات تكنولوجيا المعلومات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -890,25 +1108,34 @@ Review sample requirements to ensure that there is an initial review, and that s
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization identifies, prioritizes and manages their requirements for IT systems."/>
+							<tx l="spa" name="Evalúe cómo la organización identifica, prioriza y gestiona sus requisitos para los sistemas de TI."/>
+							<tx l="fre" name="Évaluez comment l'organisation identifie, hiérarchise et gère ses exigences en matière de systèmes informatiques."/>
+							<tx l="ara" name="قم بتقييم كيفية تحديد المنظمة وترتيب أولوياتها وإدارتها لمتطلباتها لأنظمة تكنولوجيا المعلومات."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How does the organization analyze, prioritize, and manage user requirements?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency policy on requirements collection, analysis and prioritization"/>
+							<tx l="spa" name="Política de la agencia sobre recopilación, análisis y priorización de requisitos"/>
+							<tx l="fre" name="Politique de l'agence sur la collecte, l'analyse et la hiérarchisation des exigences"/>
+							<tx l="ara" name="سياسة الوكالة بشأن جمع المتطلبات وتحليلها وتحديد الأولويات"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="List of requirements
-Review, approval, and priority noted on requirements or requirements matrix.
-"/>
+							<tx l="eng" name="List of requirements. Review, approval, and priority noted on requirements or requirements matrix."/>
+							<tx l="spa" name="Lista de requisitos. Revisión, aprobación y prioridad anotadas en requisitos o matriz de requisitos."/>
+							<tx l="fre" name="Liste des exigences. Examen, approbation et priorité notés sur les exigences ou la matrice des exigences."/>
+							<tx l="ara" name="قائمة المتطلبات. المراجعة والموافقة والأولوية المذكورة في مصفوفة المتطلبات أو المتطلبات."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review requirements to determine that they include author, date, priority, etc.
-"/>
+							<tx l="eng" name="Review requirements to determine that they include author, date, priority, etc."/>
+							<tx l="spa" name="Revise los requisitos para determinar que incluyen autor, fecha, prioridad, etc."/>
+							<tx l="fre" name="Examiner les exigences pour déterminer qu'elles incluent l'auteur, la date, la priorité, etc."/>
+							<tx l="ara" name="مراجعة المتطلبات لتحديد أنها تشمل المؤلف والتاريخ والأولوية وما إلى ذلك."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -931,7 +1158,10 @@ Review, approval, and priority noted on requirements or requirements matrix.
 			</Issue>
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
-					<tx l="eng" name="Management &amp; Control of Approved IT Projects"/>
+					<tx l="eng" name="Management and Control of Approved IT Projects"/>
+					<tx l="spa" name="Gestión y control de proyectos informáticos aprobados"/>
+					<tx l="fre" name="Gestion et contrôle des projets informatiques approuvés"/>
+					<tx l="ara" name="Gestión y control de proyectos informáticos aprobados"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -947,37 +1177,61 @@ Review, approval, and priority noted on requirements or requirements matrix.
 						<ak/>
 					</narr>
 				</Narrative>
-				<Matrix id="Management &amp; Control of Approved IT Projects">
+				<Matrix id="Management and Control of Approved IT Projects">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization manages and controls the development or acquisition of approved IT projects"/>
+							<tx l="spa" name="Evaluar cómo la organización gestiona y controla el desarrollo o la adquisición de proyectos de TI aprobados"/>
+							<tx l="fre" name="Évaluer la façon dont l'organisation gère et contrôle le développement ou l'acquisition de projets informatiques approuvés"/>
+							<tx l="ara" name="تقييم كيف تدير المنظمة وتتحكم في تطوير أو الحصول على مشاريع تكنولوجيا المعلومات المعتمدة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How does the organization plan for the development or acquisition of IT projects?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Agency policy on IT project management, processes and or procedures for the conduct of reviews, meetings, cost estimates, tracking, action items, etc"/>
+							<tx l="eng" name="Agency policy on IT project management, processes and or procedures for the conduct of reviews, meetings, cost estimates, tracking, action items, etc."/>
+							<tx l="spa" name="Política de la agencia sobre gestión de proyectos de TI, procesos y / o procedimientos para la realización de revisiones, reuniones, estimaciones de costos, seguimiento, elementos de acción, etc."/>
+							<tx l="fre" name="Politique de l'agence sur la gestion des projets informatiques, les processus et/ou les procédures pour la conduite des revues, des réunions, des estimations de coûts, du suivi, des mesures à prendre, etc."/>
+							<tx l="ara" name="سياسة الوكالة بشأن إدارة مشروعات تكنولوجيا المعلومات وعملياتها و / أو إجراءات إجراء المراجعات والاجتماعات وتقديرات التكلفة والتتبع وعناصر العمل وما إلى ذلك."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Project management plan or equivalent
-"/>
+							<tx l="eng" name="Project management plan or equivalent"/>
+							<tx l="spa" name="Plan de gestión de proyectos o equivalente"/>
+							<tx l="fre" name="Plan de gestion de projet ou équivalent"/>
+							<tx l="ara" name="خطة إدارة المشروع أو ما يعادلها"/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Compare plan and activities to policy and or other procedures on how to manage the project. Select some sample activities, e.g., conduct of reviews, stakeholder involvement, approvals, etc. and ensure they take place at the appropriate times and stages along the project life cycle.
-
 Review the requirements’ management plan or equivalent to ensure that it contains the project description, scope, cost, schedule, risks, management structure and that it identifies stakeholders (internal or external).
-
 Review the plan to ensure that it has been approved by senior management and incorporates comments by stakeholder.
-
 Review the project’s organizational chart to determine the roles of individuals who are responsible for quality assurance or testing, development, and installation of the system on organizations IT infrastructure, support group, etc.
-
 For acquisition projects, ensure that the plan or equivalent list of those who will be responsible for oversight of the contractor exists and review approvals given by responsible persons.
-
 Interview project managers to determine which SDLC method is being used for the development of the project.
+"/>
+							<tx l="spa" name="Compare el plan y las actividades con la política u otros procedimientos sobre cómo administrar el proyecto. Seleccione algunas actividades de muestra, por ejemplo, realización de revisiones, participación de las partes interesadas, aprobaciones, etc., y asegúrese de que se lleven a cabo en los momentos y etapas adecuados a lo largo del ciclo de vida del proyecto.
+Revise el plan de gestión de los requisitos o equivalente para asegurarse de que contenga la descripción, el alcance, el costo, el cronograma, los riesgos, la estructura de gestión del proyecto y que identifique a las partes interesadas (internas o externas).
+Revise el plan para asegurarse de que haya sido aprobado por la alta dirección e incorpore los comentarios de las partes interesadas.
+Revise el organigrama del proyecto para determinar los roles de las personas responsables de la garantía de calidad o las pruebas, el desarrollo y la instalación del sistema en la infraestructura de TI de las organizaciones, el grupo de apoyo, etc.
+Para proyectos de adquisición, asegúrese de que exista el plan o lista equivalente de los que serán responsables de la supervisión del contratista y revise las aprobaciones otorgadas por las personas responsables.
+Entreviste a los gerentes de proyecto para determinar qué método SDLC se está utilizando para el desarrollo del proyecto.
+"/>
+							<tx l="fre" name="Comparez le plan et les activités à la politique et/ou à d'autres procédures sur la façon de gérer le projet. Sélectionnez quelques exemples d'activités, par exemple, la conduite d'examens, la participation des parties prenantes, les approbations, etc. et assurez-vous qu'elles ont lieu aux moments et aux étapes appropriés tout au long du cycle de vie du projet.
+Examiner le plan de gestion des exigences ou l'équivalent pour s'assurer qu'il contient la description du projet, la portée, le coût, le calendrier, les risques, la structure de gestion et qu'il identifie les parties prenantes (internes ou externes).
+Examinez le plan pour vous assurer qu'il a été approuvé par la haute direction et qu'il intègre les commentaires des parties prenantes.
+Examinez l'organigramme du projet pour déterminer les rôles des personnes responsables de l'assurance qualité ou des tests, du développement et de l'installation du système sur l'infrastructure informatique de l'organisation, le groupe de support, etc.
+Pour les projets d'acquisition, assurez-vous que le plan ou la liste équivalente de ceux qui seront responsables de la surveillance de l'entrepreneur existe et examinez les approbations données par les personnes responsables.
+Interviewez les chefs de projet pour déterminer quelle méthode SDLC est utilisée pour le développement du projet.
+"/>
+							<tx l="ara" name="قارن الخطة والأنشطة بالسياسة و / أو الإجراءات الأخرى المتعلقة بكيفية إدارة المشروع. حدد بعض نماذج الأنشطة ، على سبيل المثال ، إجراء المراجعات ، ومشاركة أصحاب المصلحة ، والموافقات ، وما إلى ذلك ، وتأكد من إجرائها في الأوقات والمراحل المناسبة طوال دورة حياة المشروع.
+قم بمراجعة خطة إدارة المتطلبات أو ما يعادلها للتأكد من أنها تحتوي على وصف المشروع ، والنطاق ، والتكلفة ، والجدول الزمني ، والمخاطر ، وهيكل الإدارة ، وأنها تحدد أصحاب المصلحة (داخليين أو خارجيين).
+قم بمراجعة الخطة للتأكد من اعتمادها من قبل الإدارة العليا وتضمين تعليقات أصحاب المصلحة.
+راجع المخطط التنظيمي للمشروع لتحديد أدوار الأفراد المسؤولين عن ضمان الجودة أو الاختبار ، والتطوير ، وتركيب النظام على البنية التحتية لتكنولوجيا المعلومات الخاصة بالمؤسسات ، ومجموعة الدعم ، وما إلى ذلك.
+بالنسبة لمشاريع الاستحواذ ، تأكد من وجود الخطة أو قائمة معادلة لأولئك الذين سيكونون مسؤولين عن الإشراف على المقاول ومراجعة الموافقات المقدمة من الأشخاص المسؤولين.
+مقابلة مديري المشروع لتحديد طريقة SDLC التي يتم استخدامها لتطوير المشروع.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1001,7 +1255,10 @@ Interview project managers to determine which SDLC method is being used for the 
 			</Issue>
 			<Issue nr="05" RiskWeight="1" Include="No" Remarks="">
 				<title>
-					<tx l="eng" name="Quality Assurance &amp; Testing"/>
+					<tx l="eng" name="Quality Assurance and Testing"/>
+					<tx l="spa" name="Control de calidad y pruebas"/>
+					<tx l="fre" name="Assurance de la qualité et des tests"/>
+					<tx l="ara" name="ضمان الجودة والاختبار"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -1021,40 +1278,73 @@ Interview project managers to determine which SDLC method is being used for the 
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess how the organization ensures that IT projects under development or acquisition meet their quality goals."/>
+							<tx l="spa" name="Evalúe cómo la organización se asegura de que los proyectos de TI en desarrollo o adquisición cumplan con sus objetivos de calidad."/>
+							<tx l="fre" name="Évaluez comment l'organisation s'assure que les projets informatiques en cours de développement ou d'acquisition atteignent leurs objectifs de qualité."/>
+							<tx l="ara" name="تقييم كيف تضمن المنظمة أن مشاريع تكنولوجيا المعلومات قيد التطوير أو الاستحواذ تفي بأهداف الجودة الخاصة بها."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Assess how the organization ensures that IT projects under development or acquisition meet their quality goals.</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency QA Policy for IT Projects, Agency Testing Policy and Methodology, Agency Software Development Plan, Agency Contractor / Contract Management Plan, Policy."/>
+							<tx l="spa" name="Política de control de calidad de la agencia para proyectos de TI, política y metodología de pruebas de la agencia, plan de desarrollo de software de la agencia, plan de gestión del contrato / contratista de la agencia, política."/>
+							<tx l="fre" name="Politique d'assurance qualité de l'agence pour les projets informatiques, politique et méthodologie de test de l'agence, plan de développement logiciel de l'agence, plan de gestion des contrats/entrepreneurs de l'agence, politique."/>
+							<tx l="ara" name="سياسة ضمان الجودة للوكالة لمشاريع تكنولوجيا المعلومات ، وسياسة ومنهجية اختبار الوكالة ، وخطة تطوير برامج الوكالة ، وخطة إدارة العقود / مقاول الوكالة ، والسياسة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Test plan
-
-Test schedule
-
-Test results
-
-Accept or reject criteria
+							<tx l="eng" name="Test plan.
+Test schedule.
+Test results.
+Accept or reject criteria.
+"/>
+							<tx l="spa" name="Plan de prueba.
+Calendario de pruebas.
+Resultados de la prueba.
+Aceptar o rechazar criterios.
+"/>
+							<tx l="fre" name="Plan de test.
+Calendrier des tests.
+Résultats de test.
+Accepter ou rejeter les critères.
+"/>
+							<tx l="ara" name="خطة اختبار.
+جدول الاختبار.
+نتائج الإختبار.
+قبول أو رفض المعايير.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review test plans.
-
 Compare project cost and schedule baselines with project status reports to assess deviations, if any.
-
 Interview project manager/review reports to determine whether appropriate corrective action was taken for major deviations.
-
 Interview project management team and review minutes of meetings with contractor to assess the frequency and effectiveness of monitoring the outsourced project activities.
-
 Review contractor SLA or contract to ensure that they are following the terms of the contract, for example look for contractors conducting periodic reviews, providing status reports, tracking action items, conducting risk management activities in accordance to the contract. 
-
 Interview contract officer at the organization to determine how it manages the contractor if SLAs are not available.
-
+"/>
+							<tx l="spa" name="Revise los planes de prueba.
+Compare los costos del proyecto y las líneas de base del cronograma con los informes de estado del proyecto para evaluar las desviaciones, si las hubiera.
+Entreviste al gerente de proyecto / revise los informes para determinar si se tomaron las medidas correctivas adecuadas para las desviaciones importantes.
+Entreviste al equipo de gestión del proyecto y revise las actas de las reuniones con el contratista para evaluar la frecuencia y eficacia del seguimiento de las actividades del proyecto subcontratado.
+Revise al contratista del Acuerdo de nivel de servicio o contrato para asegurarse de que están siguiendo los términos del contrato, por ejemplo, busque contratistas que realicen revisiones periódicas, proporcionen informes de estado, realicen un seguimiento de los elementos de acción, realicen actividades de gestión de riesgos de acuerdo con el contrato.
+Entreviste al oficial de contratos de la organización para determinar cómo administra al contratista si los acuerdos de nivel de servicio no están disponibles.
+"/>
+							<tx l="fre" name="Examiner les plans de test.
+Comparez les coûts de projet et les références de calendrier avec les rapports d'état du projet pour évaluer les écarts, le cas échéant.
+Interviewer le gestionnaire de projet/examiner les rapports pour déterminer si des mesures correctives appropriées ont été prises pour les écarts majeurs.
+Interviewer l'équipe de gestion de projet et examiner les procès-verbaux des réunions avec l'entrepreneur pour évaluer la fréquence et l'efficacité du suivi des activités de projet externalisées.
+Examiner le sous-traitant de l'accord de niveau de service ou du contrat pour s'assurer qu'il respecte les termes du contrat, par exemple rechercher des sous-traitants effectuant des examens périodiques, fournissant des rapports d'état, suivant les éléments d'action, menant des activités de gestion des risques conformément au contrat.
+Interviewez l'agent des contrats de l'organisation pour déterminer comment elle gère l'entrepreneur si les accords de niveau de service ne sont pas disponibles.
+"/>
+							<tx l="ara" name="مراجعة خطط الاختبار.
+قارن تكلفة المشروع وجدول خطوط الأساس بتقارير حالة المشروع لتقييم الانحرافات ، إن وجدت.
+مقابلة مدير المشروع / تقارير المراجعة لتحديد ما إذا كان قد تم اتخاذ الإجراء التصحيحي المناسب للانحرافات الرئيسية.
+مقابلة فريق إدارة المشروع ومراجعة محاضر الاجتماعات مع المقاول لتقييم وتيرة وفعالية مراقبة أنشطة المشروع الخارجية.
+مراجعة المقاول لاتفاقية مستوى الخدمة أو العقد للتأكد من أنه يتبع شروط العقد ، على سبيل المثال ابحث عن المقاولين الذين يقومون بإجراء مراجعات دورية ، وتقديم تقارير الحالة ، وتتبع بنود الإجراءات ، وإجراء أنشطة إدارة المخاطر وفقًا للعقد.
+مقابلة موظف العقود في المؤسسة لتحديد كيفية إدارتها للمقاول إذا لم تكن اتفاقيات مستوى الخدمة متاحة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1081,6 +1371,9 @@ Interview contract officer at the organization to determine how it manages the c
 	<Domain nr="04">
 		<title>
 			<tx l="eng" name="Outsourcing"/>
+			<tx l="spa" name="Subcontratación"/>
+			<tx l="fre" name="Externalisation"/>
+			<tx l="ara" name="الاستعانة بمصادر خارجية"/>
 		</title>
 		<Narrative>
 			<narr l="eng">
@@ -1099,6 +1392,9 @@ Interview contract officer at the organization to determine how it manages the c
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Data Rights"/>
+				<tx l="spa" name="Derechos de datos"/>
+				<tx l="fre" name="Droits sur les données"/>
+				<tx l="ara" name="حقوق البيانات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1117,6 +1413,9 @@ Interview contract officer at the organization to determine how it manages the c
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data Rights Identification"/>
+					<tx l="spa" name="Identificación de derechos de datos"/>
+					<tx l="fre" name="Identification des droits sur les données"/>
+					<tx l="ara" name="تعريف حقوق البيانات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -1135,47 +1434,86 @@ Interview contract officer at the organization to determine how it manages the c
 				<Matrix id="Data Rights Identification">
 					<Objectives>
 						<obj>
-							<tx l="eng" name="TTo assess whether the organization’s data protection requirements are identified, and that they are part of the contractual requirements."/>
+							<tx l="eng" name="To assess whether the organization’s data protection requirements are identified, and that they are part of the contractual requirements."/>
+							<tx l="spa" name="Evaluar si los requisitos de protección de datos de la organización están identificados y si son parte de los requisitos contractuales."/>
+							<tx l="fre" name="Évaluer si les exigences de l'organisation en matière de protection des données sont identifiées et si elles font partie des exigences contractuelles."/>
+							<tx l="ara" name="لتقييم ما إذا كانت متطلبات حماية البيانات الخاصة بالمنظمة محددة ، وأنها جزء من المتطلبات التعاقدية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Are the data protection and access rights built into the service contract?  Is the data defined appropriately to cover the transaction data as well as the programs/ software supporting the data, as the case may be? Is there a mechanism to ensure that the data protection and security requirements as per the Service Level Agreement are being adopted and implemented by the service provider?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Laws governing data rights if data is given to vendor, security, control, transfer, etc."/>
+							<tx l="spa" name="Leyes que rigen los derechos sobre los datos si los datos se entregan al proveedor, seguridad, control, transferencia, etc."/>
+							<tx l="fre" name="Lois régissant les droits sur les données si les données sont transmises au fournisseur, à la sécurité, au contrôle, au transfert, etc."/>
+							<tx l="ara" name="القوانين التي تحكم حقوق البيانات إذا تم تقديم البيانات إلى البائع ، أو الأمان ، أو التحكم ، أو النقل ، إلخ."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="
-Organization’s Data Protection and access rights requirements
-
-Definition of data (for protection and access rights) Contract with the service provider
-
-List of data access records from the service provider 
-
-Reports of third party audits or self-audits with recommendations and follow up on them Monitoring reports
-
-Correspondence with the service provider on the subject 
-
-Incident handling reports Non-disclosure agreement with the outsourced agency
-
-List of information disclosed by the outsourced agency to third party / unrelated party(s)
+							<tx l="eng" name="Organization’s Data Protection and access rights requirements.
+Definition of data (for protection and access rights). Contract with the service provider.
+List of data access records from the service provider.
+Reports of third party audits or self-audits with recommendations and follow up on them. Monitoring reports.
+Correspondence with the service provider on the subject.
+Incident handling reports. Non-disclosure agreement with the outsourced agency.
+List of information disclosed by the outsourced agency to third party / unrelated party(s).
+"/>
+							<tx l="spa" name="Requisitos de derechos de acceso y protección de datos de la organización.
+Definición de datos (para protección y derechos de acceso). Contrato con el proveedor de servicios.
+Lista de registros de acceso a datos del proveedor de servicios.
+Informes de auditorías de terceros o auto-auditorías con recomendaciones y seguimiento de las mismas. Informes de seguimiento.
+Correspondencia con el proveedor de servicios sobre el tema.
+Informes de manejo de incidentes. Acuerdo de confidencialidad con la agencia subcontratada.
+Lista de información divulgada por la agencia subcontratada a terceros / partes no relacionadas.
+"/>
+							<tx l="fre" name="Exigences de l'organisation en matière de protection des données et de droits d'accès.
+Définition des données (pour la protection et les droits d'accès). Contrat avec le prestataire.
+Liste des enregistrements d'accès aux données du fournisseur de services.
+Rapports d'audits tiers ou d'auto-audits avec recommandations et suivi. Rapports de suivi.
+Correspondance avec le prestataire sur le sujet.
+Rapports de traitement des incidents. Accord de non-divulgation avec l'agence externalisée.
+Liste des informations divulguées par l'agence sous-traitée à des tiers/parties non liées.
+"/>
+							<tx l="ara" name="متطلبات حقوق الوصول وحماية بيانات المؤسسة.
+تعريف البيانات (للحماية وحقوق الوصول). التعاقد مع مزود الخدمة.
+قائمة سجلات الوصول إلى البيانات من مزود الخدمة.
+تقارير تدقيق الطرف الثالث أو المراجعة الذاتية مع التوصيات ومتابعة ذلك. تقارير المراقبة.
+المراسلات مع مزود الخدمة حول الموضوع.
+تقارير التعامل مع الحادث. اتفاقية عدم إفشاء مع وكالة خارجية.
+قائمة المعلومات التي كشفتها وكالة الاستعانة بمصادر خارجية لطرف ثالث / طرف (أطراف) غير ذي صلة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="
-Document review on adequacy of data protection and access rights requirements/ definition of data.
-
+							<tx l="eng" name="Document review on adequacy of data protection and access rights requirements/ definition of data.
 Document review of the contract with service provider to check for incorporation of Data Protection and access rights requirements.
 Document review of third party/ self-audit reports.
-
 Document review of the monitoring reports, correspondence and incident handling reports to assess the follow-up activities by the organization.
-
 Review of the non-disclosure agreement to verify that all relevant information is covered.
-
 Verify if the disclosure of information by outsourced agency is authorized.
+"/>
+							<tx l="spa" name="Revisión de documentos sobre la adecuación de la protección de datos y los requisitos de derechos de acceso / definición de datos.
+Revisión documental del contrato con el proveedor de servicios para verificar la incorporación de los requisitos de Protección de Datos y derechos de acceso.
+Revisión de documentos de informes de autoauditoría o de terceros.
+Revisión documental de los informes de seguimiento, correspondencia e informes de manejo de incidentes para evaluar las actividades de seguimiento por parte de la organización.
+Revisión del acuerdo de confidencialidad para verificar que toda la información relevante esté cubierta.
+Verifique si la divulgación de información por parte de una agencia subcontratada está autorizada.
+"/>
+							<tx l="fre" name="Examen des documents sur l'adéquation des exigences en matière de protection des données et de droits d'accès/définition des données.
+Examen des documents du contrat avec le fournisseur de services pour vérifier l'intégration des exigences en matière de protection des données et de droits d'accès.
+Examen des documents des rapports de tiers/d'auto-audit.
+Examen des documents des rapports de surveillance, de la correspondance et des rapports de gestion des incidents pour évaluer les activités de suivi de l'organisation.
+Examen de l'accord de non-divulgation pour vérifier que toutes les informations pertinentes sont couvertes.
+Vérifiez si la divulgation d'informations par l'agence externalisée est autorisée.
+"/>
+							<tx l="ara" name="مراجعة الوثيقة حول كفاية حماية البيانات ومتطلبات حقوق الوصول / تعريف البيانات.
+مراجعة وثيقة العقد مع مزود الخدمة للتحقق من تضمين حماية البيانات ومتطلبات حقوق الوصول.
+مراجعة وثائق الطرف الثالث / تقارير المراجعة الذاتية.
+مراجعة وثائق تقارير المراقبة والمراسلات وتقارير التعامل مع الحوادث لتقييم أنشطة المتابعة من قبل المنظمة.
+مراجعة اتفاقية عدم الإفشاء للتحقق من تغطية جميع المعلومات ذات الصلة.
+تحقق مما إذا كان الكشف عن المعلومات من قبل وكالة خارجية مصرحًا به.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1201,6 +1539,9 @@ Verify if the disclosure of information by outsourced agency is authorized.
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Security"/>
+				<tx l="spa" name="Seguridad"/>
+				<tx l="fre" name="Sécurité"/>
+				<tx l="ara" name="أمن"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1219,6 +1560,9 @@ Verify if the disclosure of information by outsourced agency is authorized.
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Security Requirements and Monitoring"/>
+					<tx l="spa" name="Requisitos de seguridad y supervisión"/>
+					<tx l="fre" name="Exigences de sécurité et surveillance"/>
+					<tx l="ara" name="متطلبات الأمن والمراقبة"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -1238,55 +1582,97 @@ Verify if the disclosure of information by outsourced agency is authorized.
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the security requirements are addressed in outsourcing and being complied with."/>
+							<tx l="spa" name="Evaluar si los requisitos de seguridad se abordan en la subcontratación y se cumplen."/>
+							<tx l="fre" name="Évaluer si les exigences de sécurité sont prises en compte dans l'externalisation et respectées."/>
+							<tx l="ara" name="لتقييم ما إذا كانت المتطلبات الأمنية قد تم تناولها في الاستعانة بمصادر خارجية والامتثال لها."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Have the security requirements been identified by the organisation with respect to outsourcing? Is there a mechanism ensuring that the security requirements of the organisation are addressed by the service provider? Does the organisation have a mechanism to monitor compliance to security requirements by the service provider?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency Security Requirements for contractors and vendors"/>
+							<tx l="spa" name="Requisitos de seguridad de la agencia para contratistas y proveedores"/>
+							<tx l="fre" name="Exigences de sécurité de l'Agence pour les entrepreneurs et les fournisseurs"/>
+							<tx l="ara" name="متطلبات أمن الوكالة للمقاولين والبائعين"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Organization security policy
-
-Outsourcing Contract
-
-Service Level Agreement
-
-Inventory of data, application software and hardware with the service provider
-
-Inventory of back up data files and
-application software with the service
-provider
-
-Access control logs of the data files, application software as well as hardware at the outsourced location
-
-Security plan for the back-up site and
-disaster recovery site
-
-Monitoring reports with respect to
-security issues
-
+							<tx l="eng" name="Organization security policy.
+Outsourcing Contract.
+Service Level Agreement.
+Inventory of data, application software and hardware with the service provider.
+Inventory of back up data files and application software with the service provider.
+Access control logs of the data files, application software as well as hardware at the outsourced location.
+Security plan for the back-up site and disaster recovery site.
+Monitoring reports with respect to security issues.
 Correspondence between organization and service provider with respect to security issues.
+"/>
+							<tx l="spa" name="Política de seguridad de la organización.
+Contrato de subcontratación.
+Acuerdo de nivel de servicio.
+Inventario de datos, software de aplicación y hardware con el proveedor de servicios.
+Inventario de archivos de datos de respaldo y software de aplicación con el proveedor de servicios.
+Acceda a los registros de control de los archivos de datos, software de aplicación y hardware en la ubicación subcontratada.
+Plan de seguridad para el sitio de respaldo y el sitio de recuperación ante desastres.
+Seguimiento de informes con respecto a cuestiones de seguridad.
+Correspondencia entre la organización y el proveedor de servicios con respecto a los problemas de seguridad.
+"/>
+							<tx l="fre" name="Politique de sécurité de l'organisation.
+Contrat d'externalisation.
+Accord de niveau de service.
+Inventaire des données, logiciels applicatifs et matériels avec le prestataire.
+Inventaire des fichiers de données de sauvegarde et des logiciels d'application avec le fournisseur de services.
+Journaux de contrôle d'accès des fichiers de données, des logiciels d'application ainsi que du matériel sur le site externalisé.
+Plan de sécurité pour le site de sauvegarde et le site de reprise après sinistre.
+Rapports de surveillance concernant les problèmes de sécurité.
+Correspondance entre l'organisation et le fournisseur de services en ce qui concerne les questions de sécurité.
+"/>
+							<tx l="ara" name="سياسة أمن المنظمة.
+عقد الاستعانة بمصادر خارجية.
+اتفاقية مستوى الخدمة.
+جرد البيانات والبرامج التطبيقية والأجهزة مع مزود الخدمة.
+جرد لملفات البيانات الاحتياطية وبرامج التطبيق مع مزود الخدمة.
+سجلات التحكم في الوصول لملفات البيانات وبرامج التطبيقات وكذلك الأجهزة الموجودة في موقع الاستعانة بمصادر خارجية.
+خطة أمنية لموقع النسخ الاحتياطي وموقع التعافي من الكوارث.
+تقارير المراقبة فيما يتعلق بالمسائل الأمنية.
+المراسلات بين المنظمة ومقدم الخدمة فيما يتعلق بقضايا الأمن.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review to assess that the security requirements have been identified by the organization and built into the outsourcing contract or SLA.
-
 Verify if the organization has the inventory of data files, application software.
-
 Verify that the organization monitors/ is aware that status of data files, application software and hardware are preserved during the back up and data recovery process carried out by the outsourced agency.
-
 Verify if the organization has assurance on authorization of any change in data, application software and hardware by the outsourced agency.
-
 Verify if the organization has an assurance on the access to the data, application software and hardware at the outsourced location through study of access logs (physical and logical).
-
 Verify if the organization has assurance on security mechanisms put in place by the service provider.
-
 Verify if the organization receives regular reports and acts on the information in the monitoring reports.
+"/>
+							<tx l="spa" name="Revisión de documentos para evaluar que la organización haya identificado los requisitos de seguridad y que se hayan incorporado al contrato de subcontratación o al acuerdo de nivel de servicio.
+Verifique si la organización tiene el inventario de archivos de datos, software de aplicación.
+Verificar que la organización monitorea / es consciente de que el estado de los archivos de datos, el software de aplicación y el hardware se conservan durante el proceso de respaldo y recuperación de datos realizado por la agencia subcontratada.
+Verifique si la organización tiene la seguridad de la autorización de cualquier cambio en los datos, el software de aplicación y el hardware por parte de la agencia subcontratada.
+Verificar si la organización tiene una garantía sobre el acceso a los datos, software de aplicación y hardware en la ubicación subcontratada mediante el estudio de los registros de acceso (físicos y lógicos).
+Verifique si la organización tiene garantías sobre los mecanismos de seguridad establecidos por el proveedor de servicios.
+Verificar si la organización recibe informes periódicos y actúa sobre la información de los informes de seguimiento.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer que les exigences de sécurité ont été identifiées par l'organisation et intégrées dans le contrat d'externalisation ou l'accord de niveau de service.
+Vérifiez si l'organisation dispose de l'inventaire des fichiers de données, des logiciels d'application.
+Vérifiez que l'organisation surveille / sait que l'état des fichiers de données, des logiciels d'application et du matériel est préservé pendant le processus de sauvegarde et de récupération des données effectué par l'agence sous-traitée.
+Vérifiez si l'organisation a l'assurance de l'autorisation de toute modification des données, des logiciels d'application et du matériel par l'agence externalisée.
+Vérifiez si l'organisation a une assurance sur l'accès aux données, aux logiciels d'application et au matériel sur le site externalisé grâce à l'étude des journaux d'accès (physiques et logiques).
+Vérifiez si l'organisation a une assurance sur les mécanismes de sécurité mis en place par le fournisseur de services.
+Vérifiez si l'organisation reçoit des rapports réguliers et agit sur la base des informations contenues dans les rapports de surveillance.
+"/>
+							<tx l="ara" name="مراجعة المستندات لتقييم أن المتطلبات الأمنية قد حددتها المنظمة وضمنتها في عقد الاستعانة بمصادر خارجية أو اتفاقية مستوى الخدمة.
+تحقق مما إذا كانت المنظمة لديها مخزون من ملفات البيانات ، وبرامج التطبيقات.
+تحقق من أن المؤسسة تراقب / تدرك أنه يتم الاحتفاظ بحالة ملفات البيانات وبرامج التطبيقات والأجهزة أثناء عملية النسخ الاحتياطي واستعادة البيانات التي تقوم بها الوكالة الخارجية.
+تحقق مما إذا كانت المنظمة لديها ضمان بشأن الإذن بأي تغيير في البيانات وبرامج التطبيقات والأجهزة من قبل وكالة الاستعانة بمصادر خارجية.
+تحقق مما إذا كان لدى المؤسسة ضمان بشأن الوصول إلى البيانات وبرامج التطبيقات والأجهزة في موقع الاستعانة بمصادر خارجية من خلال دراسة سجلات الوصول (المادية والمنطقية).
+تحقق مما إذا كانت المنظمة لديها ضمانات بشأن آليات الأمان التي وضعها مزود الخدمة.
+تحقق مما إذا كانت المنظمة تتلقى تقارير منتظمة وتتصرف بناءً على المعلومات الواردة في تقارير المراقبة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1312,6 +1698,9 @@ Verify if the organization receives regular reports and acts on the information 
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Service Level Agreement"/>
+				<tx l="spa" name="Acuerdo de nivel de servicio"/>
+				<tx l="fre" name="Accord de niveau de service"/>
+				<tx l="ara" name="اتفاقية مستوى الخدمة"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1330,6 +1719,9 @@ Verify if the organization receives regular reports and acts on the information 
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="SLA Development and Enforcement"/>
+					<tx l="spa" name="Desarrollo y aplicación del acuerdo de nivel de servicio"/>
+					<tx l="fre" name="Développement et application des accords de niveau de service"/>
+					<tx l="ara" name="تطوير وتنفيذ اتفاقية مستوى الخدمة"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -1349,44 +1741,80 @@ Verify if the organization receives regular reports and acts on the information 
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the agency has developed the Service Level Agreement detailing all its requirements and is actively monitoring the vendor against the agreement."/>
+							<tx l="spa" name="Evaluar si la agencia ha desarrollado el Acuerdo de nivel de servicio que detalla todos sus requisitos y si está monitoreando activamente al proveedor en relación con el acuerdo."/>
+							<tx l="fre" name="Évaluer si l'agence a développé l'accord de niveau de service détaillant toutes ses exigences et surveille activement le fournisseur par rapport à l'accord."/>
+							<tx l="ara" name="لتقييم ما إذا كانت الوكالة قد طورت اتفاقية مستوى الخدمة التي توضح بالتفصيل جميع متطلباتها وتراقب البائع بنشاط مقابل الاتفاقية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is a service level agreement agreed to between the organization and the service provider? Is the service level agreement detailed enough to identify all roles and responsibilities between the organization and the service provider? Is the service level agreement implemented diligently? Does the organization have a mechanism to monitor the implementation of the service level agreement? Is there a mechanism available to address exceptions to the service level agreement?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Established SLA with vendor, review and approval of SLA content. SLA enforcement policy/procedures at agency."/>
+							<tx l="spa" name="Acuerdo de nivel de servicio establecido con el proveedor, revisión y aprobación del contenido del Acuerdo de nivel de servicio. Política / procedimientos de cumplimiento del Acuerdo de nivel de servicio en la agencia."/>
+							<tx l="fre" name="Établissement d'un accord de niveau de service avec le fournisseur, examen et approbation du contenu de l'accord de niveau de service. Politique/procédures d'application des accords sur les niveaux de service au sein de l'agence."/>
+							<tx l="ara" name="اتفاقية مستوى الخدمة المحددة مع البائع ، ومراجعة محتوى اتفاقية مستوى الخدمة والموافقة عليها. سياسة / إجراءات تنفيذ اتفاقية مستوى الخدمة في الوكالة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Service level agreement or contract
-
-Technical and other requirements
-(list of services that will be performed by the vendor)
-
-List of responsibilities of organization and vendor
-
-Baselines for the services that will be measured, measurement period, duration, location, and reporting timelines (defect rates, response time, help desk staffing hours, etc.)
-
+							<tx l="eng" name="Service level agreement or contract.
+Technical and other requirements (list of services that will be performed by the vendor).
+List of responsibilities of organization and vendor.
+Baselines for the services that will be measured, measurement period, duration, location, and reporting timelines (defect rates, response time, help desk staffing hours, etc.).
 Periodic vendor performance status reports.
 "/>
+							<tx l="spa" name="Acuerdo o contrato de nivel de servicio.
+Requisitos técnicos y de otro tipo (lista de servicios que realizará el proveedor).
+Lista de responsabilidades de la organización y el proveedor.
+Líneas base para los servicios que se medirán, período de medición, duración, ubicación y cronogramas de informes (tasas de defectos, tiempo de respuesta, horas de personal de la mesa de ayuda, etc.).
+Informes periódicos del estado de desempeño de los proveedores.
+"/>
+							<tx l="fre" name="Accord ou contrat de niveau de service.
+Exigences techniques et autres (liste des services qui seront exécutés par le fournisseur).
+Liste des responsabilités de l'organisation et du fournisseur.
+Lignes de base pour les services qui seront mesurés, période de mesure, durée, emplacement et calendriers de rapport (taux de défauts, temps de réponse, heures de personnel du service d'assistance, etc.).
+Rapports périodiques sur l'état des performances des fournisseurs.
+"/>
+							<tx l="ara" name="اتفاقية أو عقد مستوى الخدمة.
+المتطلبات الفنية والمتطلبات الأخرى (قائمة الخدمات التي سيتم تنفيذها من قبل البائع).
+قائمة مسؤوليات المنظمة والبائعين.
+خطوط الأساس للخدمات التي سيتم قياسها ، وفترة القياس ، والمدة ، والموقع ، والجداول الزمنية لإعداد التقارير (معدلات العيوب ، ووقت الاستجابة ، وساعات عمل مكتب المساعدة ، وما إلى ذلك).
+تقارير دورية عن حالة أداء البائعين."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review to assess that all user requirements are translated to service level requirements.
-
 Document review to assess that the roles and responsibilities of the organization and the service provider are clearly identified and delineated.
-
 Document review to assess that the parameters for performance levels are clearly identified and included in the service level agreement.
-
 Document review to assess that the service level monitoring mechanism is established and agreed to between the organization and service provider.
-
 Review vendors status reports to assess that the parameters in the SLA are being reported on by the contractor and reviewed by appropriate personnel within the organization.
-
 Assessment of compliance to SLA technical parameters and baselines.
-
 Verify the action taken by the organization for deviations from service level agreement.
+"/>
+							<tx l="spa" name="Revisión de documentos para evaluar que todos los requisitos del usuario se traducen en requisitos de nivel de servicio.
+Revisión de documentos para evaluar que los roles y responsabilidades de la organización y el proveedor de servicios están claramente identificados y delineados.
+Revisión de documentos para evaluar que los parámetros para los niveles de desempeño estén claramente identificados e incluidos en el acuerdo de nivel de servicio.
+Revisión de documentos para evaluar que el mecanismo de monitoreo del nivel de servicio está establecido y acordado entre la organización y el proveedor de servicios.
+Revise los informes de estado de los proveedores para evaluar si el contratista informa sobre los parámetros del acuerdo de nivel de servicio y el personal adecuado dentro de la organización los está revisando.
+Evaluación del cumplimiento de los parámetros técnicos y líneas base del acuerdo de nivel de servicio
+Verifique la acción tomada por la organización para las desviaciones del acuerdo de nivel de servicio.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer que toutes les exigences des utilisateurs sont traduites en exigences de niveau de service.
+Examen des documents pour évaluer que les rôles et les responsabilités de l'organisation et du fournisseur de services sont clairement identifiés et délimités.
+Examen des documents pour évaluer que les paramètres des niveaux de performance sont clairement identifiés et inclus dans l'accord de niveau de service.
+Examen des documents pour évaluer que le mécanisme de surveillance du niveau de service est établi et convenu entre l'organisation et le fournisseur de services.
+Examiner les rapports d'état des fournisseurs pour évaluer que les paramètres de l'accord de niveau de service sont signalés par l'entrepreneur et examinés par le personnel approprié au sein de l'organisation.
+Évaluation de la conformité aux paramètres techniques et aux bases de référence de l'accord de niveau de service.
+Vérifier les mesures prises par l'organisation pour les écarts par rapport à l'accord de niveau de service.
+"/>
+							<tx l="ara" name="مراجعة المستندات لتقييم أن جميع متطلبات المستخدم قد تمت ترجمتها إلى متطلبات مستوى الخدمة.
+مراجعة الوثيقة لتقييم أن أدوار ومسؤوليات المنظمة ومقدم الخدمة محددة ومحددة بوضوح.
+مراجعة الوثيقة لتقييم أن معلمات مستويات الأداء محددة بوضوح ومضمنة في اتفاقية مستوى الخدمة.
+مراجعة الوثيقة لتقييم إنشاء آلية مراقبة مستوى الخدمة والاتفاق عليها بين المؤسسة ومقدم الخدمة.
+مراجعة تقارير حالة البائعين لتقييم أن المعلمات الواردة في اتفاقية مستوى الخدمة يتم الإبلاغ عنها من قبل المقاول ومراجعتها من قبل الموظفين المناسبين داخل المنظمة.
+تقييم الامتثال لاتفاقية مستوى الخدمةالمعايير الفنية وخطوط الأساس.
+التحقق من الإجراء الذي اتخذته المنظمة للانحرافات عن اتفاقية مستوى الخدمة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1412,6 +1840,9 @@ Verify the action taken by the organization for deviations from service level ag
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="Vendor or Contract Monitoring"/>
+				<tx l="spa" name="Monitoreo de proveedores o contratos"/>
+				<tx l="fre" name="Surveillance des fournisseurs ou des contrats"/>
+				<tx l="ara" name="مراقبة البائع أو العقد"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1430,9 +1861,21 @@ Verify the action taken by the organization for deviations from service level ag
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Vendor or Contract Monitoring"/>
+					<tx l="spa" name="Monitoreo de proveedores o contratos"/>
+					<tx l="fre" name="Surveillance des fournisseurs ou des contrats"/>
+					<tx l="ara" name="مراقبة البائع أو العقد"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
 						<ak/>
 					</narr>
 				</Narrative>
@@ -1440,38 +1883,69 @@ Verify the action taken by the organization for deviations from service level ag
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the organization is managing the contractor or vendor and takes appropriate action when performance or quality deviates from established baselines."/>
+							<tx l="spa" name="Evaluar si la organización está administrando al contratista o al proveedor y toma las medidas adecuadas cuando el desempeño o la calidad se desvían de los puntos de referencia establecidos."/>
+							<tx l="fre" name="Évaluer si l'organisation gère l'entrepreneur ou le fournisseur et prend les mesures appropriées lorsque la performance ou la qualité s'écarte des lignes de base établies."/>
+							<tx l="ara" name="لتقييم ما إذا كانت المنظمة تدير المقاول أو البائع وتتخذ الإجراء المناسب عندما ينحرف الأداء أو الجودة عن خطوط الأساس المحددة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is there a contract with the service provider? Are Service Levels identified and agreed through a Service Level Agreement? Is there a monitoring arrangement (for services) with the service provider? Are the service levels ensured through this arrangement? Is appropriate action taken when service level agreement provisions are not met?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Agency policy and procedures on vendor or contractor monitoring and oversight, agency policy on IT project management if same as contractor management, etc. SLA, contract with vendor/contractor."/>
+							<tx l="eng" name="Agency policy and procedures on vendor or contractor monitoring and oversight, agency policy on IT project management if same as contractor management, etc. Service Level Agreement, contract with vendor/contractor."/>
+							<tx l="spa" name="Política y procedimientos de la agencia sobre supervisión del proveedor o contratista, política de la agencia sobre la gestión de proyectos de TI si es la misma que la gestión del contratista, etc. Acuerdo de nivel de servicio, contrato con el proveedor / contratista."/>
+							<tx l="fre" name="Politique et procédures de l'agence sur la surveillance du fournisseur ou de l'entrepreneur, politique de l'agence sur la gestion de projet informatique si identique à la gestion de l'entrepreneur, etc. Accord de niveau de service, contrat avec le fournisseur/entrepreneur."/>
+							<tx l="ara" name="سياسة الوكالة وإجراءاتها بشأن المراقبة والإشراف على البائع أو المتعاقد ، وسياسة الوكالة بشأن إدارة مشروع تكنولوجيا المعلومات إذا كانت مماثلة لإدارة المقاول ، وما إلى ذلك. اتفاقية مستوى الخدمة ، التعاقد مع البائع / المقاول."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="
-Contract/ Service Level Agreement
-Approved schedules, baselines, cost and other technical parameters that define the product or service being acquired or outsourced
-
-Monitoring documents/ reports / meeting minutes of reviews conducted, action items, direction to vendor (task orders, statement of work, etc.)
-
-Impact assessment of deviations
-
-Action items or direction to vendor
-
+							<tx l="eng" name="Contract/ Service Level Agreement.
+Approved schedules, baselines, cost and other technical parameters that define the product or service being acquired or outsourced.
+Monitoring documents/ reports / meeting minutes of reviews conducted, action items, direction to vendor (task orders, statement of work, etc.).
+Impact assessment of deviations.
+Action items or direction to vendor.
 Action taken reports on deviations from service levels."/>
+							<tx l="spa" name="Contrato / Acuerdo de nivel de servicio.
+Horarios aprobados, líneas base, costos y otros parámetros técnicos que definen el producto o servicio que se adquiere o subcontrata.
+Monitoreo de documentos / informes / actas de reuniones de revisiones realizadas, elementos de acción, dirección al proveedor (órdenes de trabajo, declaración de trabajo, etc.).
+Evaluación de impacto de desviaciones.
+Elementos de acción o dirección al proveedor.
+Informes de acciones tomadas sobre desviaciones de los niveles de servicio."/>
+							<tx l="fre" name="Contrat/Accord de niveau de service.
+Calendriers, références, coûts et autres paramètres techniques approuvés qui définissent le produit ou le service à acquérir ou à sous-traiter.
+Documents de suivi/rapports/procès-verbaux de réunion des examens effectués, mesures à prendre, orientation vers le fournisseur (commandes de tâches, énoncé des travaux, etc.).
+Évaluation de l'impact des écarts.
+Éléments d'action ou direction au fournisseur.
+Les mesures prises signalent les écarts par rapport aux niveaux de service."/>
+							<tx l="ara" name="عقد / اتفاقية مستوى الخدمة.
+الجداول المعتمدة وخطوط الأساس والتكلفة والمعايير الفنية الأخرى التي تحدد المنتج أو الخدمة التي يتم الحصول عليها أو الاستعانة بمصادر خارجية.
+مراقبة المستندات / التقارير / محاضر الاجتماعات الخاصة بالمراجعات التي تم إجراؤها ، وعناصر العمل ، والتوجيه إلى البائع (أوامر المهام ، وبيان العمل ، وما إلى ذلك).
+تقييم تأثير الانحرافات.
+عناصر العمل أو التوجيه للبائع.
+تقارير الإجراءات المتخذة بشأن الانحرافات عن مستويات الخدمة."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review to assess if a service level agreement has been established.
-
 Review of monitoring reports submitted by the contractor to ensure that they contain elements that are in the contract or SLA (cost, schedule, performance, risk, status, issues, and status of past action items or tasks).
-
 Review of monitoring reports to identify service deficiency/ deviation and assessment of impact due to the deficiencies/ deviations.
-
 Review of notices and action-taken reports for action taken to be commensurate with impact on business and contractual provisions.
+"/>
+							<tx l="spa" name="Revisión de documentos para evaluar si se ha establecido un acuerdo de nivel de servicio.
+Revisión de los informes de seguimiento presentados por el contratista para asegurarse de que contengan elementos que se encuentran en el contrato o Acuerdo de nivel de servicio (costo, cronograma, desempeño, riesgo, estado, problemas y estado de acciones o tareas pasadas).
+Revisión de informes de seguimiento para identificar deficiencias / desviaciones del servicio y evaluación del impacto debido a las deficiencias / desviaciones.
+Revisión de notificaciones e informes de acciones tomadas para que las acciones tomadas estén en consonancia con el impacto en las disposiciones del negocio y contractuales.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer si un accord de niveau de service a été établi.
+Examen des rapports de surveillance soumis par l'entrepreneur pour s'assurer qu'ils contiennent des éléments qui sont dans le contrat ou l'accord de niveau de service (coût, calendrier, performance, risque, statut, problèmes et statut des actions ou tâches passées).
+Examen des rapports de surveillance pour identifier les déficiences/écarts de service et évaluation de l'impact dû aux déficiences/écarts.
+Examen des avis et des rapports sur les mesures prises pour que les mesures prises soient proportionnelles à l'impact sur les dispositions métier et contractuelles.
+"/>
+							<tx l="ara" name="مراجعة الوثيقة لتقييم ما إذا كان قد تم وضع اتفاقية مستوى الخدمة.
+مراجعة تقارير المراقبة المقدمة من قبل المقاول للتأكد من أنها تحتوي على عناصر موجودة في العقد أو اتفاقية مستوى الخدمة (التكلفة ، والجدول الزمني ، والأداء ، والمخاطر ، والحالة ، والقضايا ، وحالة عناصر العمل أو المهام السابقة).
+مراجعة تقارير المراقبة لتحديد قصور / انحراف الخدمة وتقييم التأثير الناتج عن أوجه القصور / الانحرافات.
+مراجعة الإخطارات والتقارير التي تم إتخاذها للإجراءات المتخذة لتكون متناسبة مع التأثير على الأعمال والأحكام التعاقدية.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1498,6 +1972,9 @@ Review of notices and action-taken reports for action taken to be commensurate w
 	<Domain nr="05">
 		<title>
 			<tx l="eng" name="Information Security"/>
+			<tx l="spa" name="Seguridad de información"/>
+			<tx l="fre" name="Sécurité de l'information"/>
+			<tx l="ara" name="أمن المعلومات"/>
 		</title>
 		<Narrative>
 			<narr l="eng">
@@ -1516,6 +1993,9 @@ Review of notices and action-taken reports for action taken to be commensurate w
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Access Control"/>
+				<tx l="spa" name="Control de acceso"/>
+				<tx l="fre" name="Contrôle d'accès"/>
+				<tx l="ara" name="صلاحية التحكم صلاحية الدخول"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
