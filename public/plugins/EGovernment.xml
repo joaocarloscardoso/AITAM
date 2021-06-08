@@ -2014,6 +2014,9 @@ Examen des avis et des rapports sur les mesures prises pour que les mesures pris
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Ensuring Authorized Access"/>
+					<tx l="spa" name="Garantizar el acceso autorizado"/>
+					<tx l="fre" name="Garantir l'accès autorisé"/>
+					<tx l="ara" name="ضمان الوصول المصرح به"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -2033,38 +2036,77 @@ Examen des avis et des rapports sur les mesures prises pour que les mesures pris
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that only authorised users have access to relevant information"/>
+							<tx l="spa" name="Para garantizar que solo los usuarios autorizados tengan acceso a la información relevante"/>
+							<tx l="fre" name="Pour garantir que seuls les utilisateurs autorisés ont accès aux informations pertinentes"/>
+							<tx l="ara" name="للتأكد من أن المستخدمين المصرح لهم فقط لديهم حق الوصول إلى المعلومات ذات الصلة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Access policy - Does the organisation have clear and efficient policy on access?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency Security Policy, Policy on Access Control and Authorized Use of IT Resources"/>
+							<tx l="spa" name="Política de seguridad de la agencia, política de control de acceso y uso autorizado de recursos de TI"/>
+							<tx l="fre" name="Politique de sécurité de l'agence, politique de contrôle d'accès et utilisation autorisée des ressources informatiques"/>
+							<tx l="ara" name="سياسة أمان الوكالة وسياسة التحكم في الوصول والاستخدام المصرح به لموارد تكنولوجيا المعلومات"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Access Policy and procedures
-
-List of users
-
-Access control list/ matrix.
+							<tx l="eng" name="Access Policy and procedures.
+List of users.
+Access control list/matrix.
+"/>
+							<tx l="spa" name="Política y procedimientos de acceso.
+Lista de usuarios.
+Lista/matriz de control de acceso.
+"/>
+							<tx l="fre" name="Politique d'accès et procédures.
+Liste des utilisateurs.
+Liste/matrice de contrôle d'accès.
+"/>
+							<tx l="ara" name="سياسة وإجراءات الوصول.
+قائمة المستخدمين.
+قائمة / مصفوفة التحكم في الوصول.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Analyze Access Policy and procedures to ensure that employee duties and areas of responsibility are separated in order to reduce opportunities for unauthorized
-access and privilege approval.
-
+							<tx l="eng" name="Analyze Access Policy and procedures to ensure that employee duties and areas of responsibility are separated in order to reduce opportunities for unauthorized access and privilege approval.
 Validation Test: Operating effectiveness of authorization of user access to the LAN (not separate testing of user access to applications should be done in conjunction with application reviews).
-
 Select a sample of user and system accounts to determine existence (access control software maybe used) of the following:
-
-clearly defined requested role and/or privileges mapped to job functions.
-business justification for access.
-data owner and management authorization (i.e. signatures/ written approvals).
-Business/risk justification and management approval for non-standard requests.
-Access requested is commensurate with job function/role and required segregation of duties.
+. clearly defined requested role and/or privileges mapped to job functions;
+. business justification for access;
+. data owner and management authorization (i.e. signatures/ written approvals);
+. business/risk justification and management approval for non-standard requests;
+. access requested is commensurate with job function/role and required segregation of duties.
+"/>
+							<tx l="spa" name="Analice la Política de acceso y los procedimientos para garantizar que los deberes y las áreas de responsabilidad de los empleados estén separados a fin de reducir las oportunidades de acceso no autorizado y aprobación de privilegios.
+Prueba de validación: eficacia operativa de la autorización del acceso de los usuarios a la LAN (no se deben realizar pruebas separadas del acceso de los usuarios a las aplicaciones junto con las revisiones de las aplicaciones).
+Seleccione una muestra de cuentas de usuario y del sistema para determinar la existencia (se puede usar software de control de acceso) de lo siguiente:
+. rol solicitado claramente definido y / o privilegios asignados a funciones laborales;
+. justificación del negocio para el acceso;
+. propietario de datos y autorización de gestión (es decir, firmas / aprobaciones por escrito);
+. justificación del negocio / de riesgos y aprobación de la gerencia para solicitudes no estándar;
+. el acceso solicitado es acorde con la función / rol del trabajo y la segregación de deberes requerida.
+"/>
+							<tx l="fre" name="Analyser la politique et les procédures d'accès pour s'assurer que les tâches et les domaines de responsabilité des employés sont séparés afin de réduire les opportunités d'accès non autorisé et d'approbation de privilèges.
+Test de validation : Efficacité opérationnelle de l'autorisation d'accès des utilisateurs au réseau local (et non des tests séparés de l'accès des utilisateurs aux applications doivent être effectués conjointement avec les examens des applications).
+Sélectionnez un échantillon de comptes utilisateur et système pour déterminer l'existence (un logiciel de contrôle d'accès peut être utilisé) des éléments suivants :
+. rôle et/ou privilèges demandés clairement définis et mappés sur les fonctions du poste ;
+. justification métier de l'accès;
+. propriétaire des données et autorisation de gestion (c.-à-d. signatures/approbations écrites) ;
+. justification métier/risque et approbation de la direction pour les demandes non standard ;
+. l'accès demandé est proportionné à la fonction/rôle de l'emploi et à la séparation des tâches requise.
+"/>
+							<tx l="ara" name="قم بتحليل سياسة الوصول والإجراءات لضمان فصل واجبات الموظف ومجالات المسؤولية من أجل تقليل فرص الوصول غير المصرح به والموافقة على الامتياز.
+اختبار التحقق من الصحة: فعالية تشغيل إذن وصول المستخدم إلى الشبكة المحلية (لا ينبغي إجراء اختبار منفصل لوصول المستخدم إلى التطبيقات بالتزامن مع مراجعات التطبيق).
+حدد عينة من حسابات المستخدم والنظام لتحديد وجود (ربما يتم استخدام برنامج التحكم في الوصول) مما يلي:
+. الدور المطلوب المحدد بوضوح و / أو الامتيازات المعينة لوظائف الوظيفة ؛
+. مبرر تجاري للوصول ؛
+. مالك البيانات وتفويض الإدارة (مثل التوقيعات / الموافقات الكتابية) ؛
+. تبرير الأعمال / المخاطر وموافقة الإدارة على الطلبات غير القياسية ؛
+. يتناسب الوصول المطلوب مع الوظيفة / الدور الوظيفي والفصل المطلوب بين المهام.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2089,6 +2131,9 @@ Access requested is commensurate with job function/role and required segregation
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Granting and Revoking Access"/>
+					<tx l="spa" name="Otorgar y revocar el acceso"/>
+					<tx l="fre" name="Accorder et révoquer l'accès"/>
+					<tx l="ara" name="منح وإلغاء حق الوصول"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -2108,48 +2153,71 @@ Access requested is commensurate with job function/role and required segregation
 					<Objectives>
 						<obj>
 							<tx l="eng" name="How effective are procedures for granting and revoking access to IT Resources"/>
+							<tx l="spa" name="¿Son efectivos los procedimientos para otorgar y revocar el acceso a los recursos de TI?"/>
+							<tx l="fre" name="Quelle est l'efficacité des procédures d'octroi et de révocation de l'accès aux ressources informatiques"/>
+							<tx l="ara" name="ما مدى فعالية إجراءات منح وإلغاء الوصول إلى موارد تكنولوجيا المعلومات"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Privileges management - Is process for granting and revoking access control to employees and contractors safe and effective?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency Security Policy, Access Granting and Revoking Policy and Procedures"/>
+							<tx l="spa" name="Política de seguridad de la agencia, política y procedimientos de concesión y revocación de acceso"/>
+							<tx l="fre" name="Politique de sécurité de l'agence, politique et procédures d'octroi et de révocation d'accès"/>
+							<tx l="ara" name="سياسة أمان الوكالة وسياسة وإجراءات منح الوصول وإلغاءه"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Access control procedures
-
-Sample of employees’ transfers and terminations
-
+							<tx l="eng" name="Access control procedures.
+Sample of employees’ transfers and terminations.
+"/>
+							<tx l="spa" name="Procedimientos de control de acceso.
+Muestra de traslados y ceses de empleados.
+"/>
+							<tx l="fre" name="Procédures de contrôle d'accès.
+Exemple de transferts et de cessations d'emploi d'employés.
+"/>
+							<tx l="ara" name="إجراءات مراقبة الدخول.
+عينة من عمليات نقل الموظفين وإنهاء الخدمة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Check procedures to determine how often the various accesses and privileges that employees or users have in the organisation are reviewed.
-
-Check how the privileges that are granted to an employee are confirmed
-(Examples include asking the supervisor, area manager, group, etc.)
-
+Check how the privileges that are granted to an employee are confirmed (Examples include asking the supervisor, area manager, group, etc.)
 Interview sample of users and check instructions to verify how the users are informed about their responsibility for protecting sensitive information or assets when the access is granted to them.
-
 Determine whether the organisation’s security practices require users and system processes to be uniquely identifiable and systems to be configured to enforce
 authentication before access is granted, and that such control mechanisms are utilised for controlling logical access across all users, system processes and IT
 resources.
-
-Analyse other than password privileges, e.g. how it is checked that a user does indeed have sufficient access and privileges to the requested resource? (Examples
-include access from secure location, hardware tokens or fingerprint readers, etc.)
-
-Validation Test 1: Operating effectiveness of transfers and terminations:
-
-Obtain from HR a sample of employee transfers and terminations and, through review of system account profiles and/or CAATs (e.g. ACL, IDEA) determine if access has been appropriately altered and/or revoked in a timely manner.
-
-Validation Test 2: Password management:
-
-Verify that the quality requirements for passwords are defined and enforced by the network management system and/or operating systems based on local
-requirements/ organisation policy or best practice.
-
+Analyse other than password privileges, e.g. how it is checked that a user does indeed have sufficient access and privileges to the requested resource? (Examples include access from secure location, hardware tokens or fingerprint readers, etc.)
+Validation Test 1: Operating effectiveness of transfers and terminations: Obtain from HR a sample of employee transfers and terminations and, through review of system account profiles and/or CAATs (e.g. ACL, IDEA) determine if access has been appropriately altered and/or revoked in a timely manner.
+Validation Test 2: Password management: Verify that the quality requirements for passwords are defined and enforced by the network management system and/or operating systems based on local requirements/ organisation policy or best practice.
+"/>
+							<tx l="spa" name="Verifique los procedimientos para determinar con qué frecuencia se revisan los distintos accesos y privilegios que los empleados o usuarios tienen en la organización.
+Verifique cómo se confirman los privilegios que se otorgan a un empleado (los ejemplos incluyen preguntarle al supervisor, gerente de área, grupo, etc.).
+Entreviste a una muestra de usuarios y verifique las instrucciones para verificar cómo los usuarios están informados sobre su responsabilidad de proteger la información o los activos sensibles cuando se les otorga el acceso.
+Determinar si las prácticas de seguridad de la organización requieren que los usuarios y los procesos del sistema sean identificables de manera única y que los sistemas estén configurados para hacer cumplir autenticación antes de que se conceda el acceso, y que dichos mecanismos de control se utilicen para controlar el acceso lógico en todos los usuarios, procesos del sistema y recursos de TI
+Analizar otros privilegios de contraseña, p. Ej. ¿Cómo se comprueba que un usuario tiene acceso y privilegios suficientes al recurso solicitado? (Los ejemplos incluyen acceso desde una ubicación segura, tokens de hardware o lectores de huellas digitales, etc.)
+Prueba de validación 1: Efectividad operativa de transferencias y terminaciones: Obtenga de Recursos Humanos una muestra de transferencias y terminaciones de empleados y, mediante la revisión de los perfiles de cuentas del sistema y / o CAAT (por ejemplo, ACL, IDEA), determine si el acceso se ha modificado o revocado de manera oportuna.
+Prueba de validación 2: Gestión de contraseñas: Verifique que los requisitos de calidad para las contraseñas estén definidos y aplicados por el sistema de gestión de red y / o los sistemas operativos según los requisitos / políticas de la organización o las mejores prácticas locales.
+"/>
+							<tx l="fre" name="Vérifiez les procédures pour déterminer à quelle fréquence les divers accès et privilèges dont disposent les employés ou les utilisateurs dans l'organisation sont examinés.
+Vérifiez comment les privilèges accordés à un employé sont confirmés (par exemple, demander au superviseur, au responsable de zone, au groupe, etc.)
+Interrogez un échantillon d'utilisateurs et vérifiez les instructions pour vérifier comment les utilisateurs sont informés de leur responsabilité de protéger les informations ou les actifs sensibles lorsque leur accès est accordé.
+Déterminez si les pratiques de sécurité de l'organisation exigent que les utilisateurs et les processus système soient identifiables de manière unique et que les systèmes soient configurés pour appliquer l'authentification avant que l'accès ne soit accordé, et que ces mécanismes de contrôle soient utilisés pour contrôler l'accès logique à tous les utilisateurs, processus système et ressources informatiques.
+Analysez les privilèges autres que les mots de passe, par ex. comment vérifier qu'un utilisateur a bien un accès et des privilèges suffisants à la ressource demandée ? (Les exemples incluent l'accès depuis un emplacement sécurisé, des jetons matériels ou des lecteurs d'empreintes digitales, etc.)
+Test de validation 1 : Efficacité opérationnelle des transferts et des cessations d'emploi : Obtenir des ressources humaines un échantillon des transferts et des cessations d'emploi d'employés et, en examinant les profils de compte système et/ou les CAAT (par exemple, ACL, IDEA) déterminer si l'accès a été modifié de manière appropriée et/ou révoqué en temps opportun.
+Test de validation 2 : Gestion des mots de passe : vérifiez que les exigences de qualité pour les mots de passe sont définies et appliquées par le système de gestion de réseau et/ou les systèmes d'exploitation en fonction des exigences locales/de la politique d'organisation ou des meilleures pratiques.
+"/>
+							<tx l="ara" name="تحقق من الإجراءات لتحديد عدد المرات التي تتم فيها مراجعة الامتيازات والامتيازات المختلفة التي يتمتع بها الموظفون أو المستخدمون في المؤسسة.
+تحقق من كيفية تأكيد الامتيازات الممنوحة للموظف (تشمل الأمثلة سؤال المشرف ، مدير المنطقة ، المجموعة ، إلخ.)
+مقابلة عينة من المستخدمين والتحقق من التعليمات للتحقق من كيفية إبلاغ المستخدمين بمسؤوليتهم عن حماية المعلومات أو الأصول الحساسة عند منحهم الوصول.
+حدد ما إذا كانت ممارسات أمان المؤسسة تتطلب أن تكون عمليات النظام والمستخدمين قابلة للتعريف بشكل فريد وأن يتم تكوين الأنظمة لفرض المصادقة قبل منح الوصول ، وأن آليات التحكم هذه تُستخدم للتحكم في الوصول المنطقي عبر جميع المستخدمين وعمليات النظام وموارد تكنولوجيا المعلومات.
+تحليل بخلاف امتيازات كلمة المرور ، على سبيل المثال كيف يتم التحقق من أن المستخدم لديه بالفعل وصول وامتيازات كافية إلى المورد المطلوب؟ (تشمل الأمثلة الوصول من موقع آمن ، أو الرموز المميزة للأجهزة أو قارئات بصمات الأصابع ، وما إلى ذلك)
+اختبار التحقق 1: الفعالية التشغيلية لعمليات النقل والإنهاء: احصل من الموارد البشرية على عينة من عمليات نقل الموظفين وإنهاء الخدمة ، ومن خلال مراجعة ملفات تعريف حساب النظام و / أو CAATs (مثل ACL و IDEA) حدد ما إذا كان الوصول قد تم تغييره بشكل مناسب و / أو في الوقت المناسب.
+اختبار التحقق من الصحة 2: إدارة كلمة المرور: تحقق من تحديد متطلبات الجودة لكلمات المرور وفرضها بواسطة نظام إدارة الشبكة و / أو أنظمة التشغيل بناءً على المتطلبات المحلية / سياسة المؤسسة أو أفضل الممارسات.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2175,6 +2243,9 @@ requirements/ organisation policy or best practice.
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Communications and Operations Management"/>
+				<tx l="spa" name="Gestión de comunicaciones y operaciones"/>
+				<tx l="fre" name="Gestion des communication et opérations"/>
+				<tx l="ara" name="إدارة الاتصالات والعمليات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2193,6 +2264,9 @@ requirements/ organisation policy or best practice.
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Configuration Control"/>
+					<tx l="spa" name="Control de configuración"/>
+					<tx l="fre" name="Contrôle de configuration"/>
+					<tx l="ara" name="التحكم في التكوين"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -2212,30 +2286,57 @@ requirements/ organisation policy or best practice.
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure IT applications and other configuration items are under appropriate control"/>
+							<tx l="spa" name="Para garantizar que las aplicaciones de TI y otros elementos de configuración estén bajo el control adecuado"/>
+							<tx l="fre" name="Pour s'assurer que les applications informatiques et autres éléments de configuration sont sous contrôle approprié"/>
+							<tx l="ara" name="للتأكد من أن تطبيقات تكنولوجيا المعلومات وعناصر التكوين الأخرى تحت السيطرة المناسبة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Are the IT resource settings/ applications under appropriate configuration control?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency Configuration Management Policy and Procedures"/>
+							<tx l="spa" name="Política y procedimientos de gestión de la configuración de la agencia"/>
+							<tx l="fre" name="Politique et procédures de gestion de la configuration de l'agence"/>
+							<tx l="ara" name="سياسة وإجراءات إدارة تكوين الوكالة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Policy and procedures referring to configuration matters in operations area
-
+							<tx l="eng" name="Policy and procedures referring to configuration matters in operations area.
 Configuration lists/ library.
+"/>
+							<tx l="spa" name="Política y procedimientos referidos a asuntos de configuración en el área de operaciones.
+Listas de configuración / biblioteca.
+"/>
+							<tx l="fre" name="Politique et procédures relatives aux questions de configuration dans la zone d'exploitation.
+Listes de configuration/bibliothèque.
+"/>
+							<tx l="ara" name="السياسة والإجراءات التي تشير إلى مسائل التكوين في منطقة العمليات.
+تكوين قوائم / مكتبة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review role matrices to determine who is responsible for administering the configuration, and what the scope of the configuration control in operations is.
-
 Check how it is registered, controlled and updated.
-
 Verify if any problems occurred in the past because of configuration discrepancies.
-If so, interview managers to check what procedures have been implemented to configuration changes
+If so, interview managers to check what procedures have been implemented to configuration changes.
+"/>
+							<tx l="spa" name="Revise las matrices de roles para determinar quién es responsable de administrar la configuración y cuál es el alcance del control de configuración en las operaciones.
+Compruebe cómo se registra, controla y actualiza.
+Verifique si ocurrió algún problema en el pasado debido a discrepancias de configuración.
+Si es así, entreviste a los gerentes para verificar qué procedimientos se han implementado para los cambios de configuración.
+"/>
+							<tx l="fre" name="Examinez les matrices de rôles pour déterminer qui est responsable de l'administration de la configuration et quelle est la portée du contrôle de la configuration dans les opérations.
+Vérifiez comment il est enregistré, contrôlé et mis à jour.
+Vérifiez si des problèmes se sont produits dans le passé en raison de divergences de configuration.
+Si tel est le cas, interrogez les responsables pour vérifier quelles procédures ont été mises en œuvre pour les changements de configuration.
+"/>
+							<tx l="ara" name="راجع مصفوفات الأدوار لتحديد المسؤول عن إدارة التكوين ، وما هو نطاق التحكم في التكوين في العمليات.
+تحقق من كيفية تسجيله والتحكم فيه وتحديثه.
+تحقق مما إذا كانت هناك أية مشكلات حدثت في الماضي بسبب اختلافات في التكوين.
+إذا كان الأمر كذلك ، فقم بمقابلة المديرين للتحقق من الإجراءات التي تم تنفيذها لتغييرات التكوين.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2260,6 +2361,9 @@ If so, interview managers to check what procedures have been implemented to conf
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Securing Internal and External Communnications"/>
+					<tx l="spa" name="Protección de las comunicaciones internas y externas"/>
+					<tx l="fre" name="Sécuriser les communications internes et externes"/>
+					<tx l="ara" name="تأمين الاتصالات الداخلية والخارجية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -2279,30 +2383,53 @@ If so, interview managers to check what procedures have been implemented to conf
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that internal and external communication is secure"/>
+							<tx l="spa" name="Para garantizar que la comunicación interna y externa sea segura"/>
+							<tx l="fre" name="Assurer la sécurité des communications internes et externes"/>
+							<tx l="ara" name="للتأكد من أن الاتصال الداخلي والخارجي آمن"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Policy and procedures - Are policy and procedures adequate for safe and efficient internal and external communication?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency Security Policy and Procedures"/>
+							<tx l="spa" name="Política y procedimientos de seguridad de la agencia"/>
+							<tx l="fre" name="Politique et procédures de sécurité de l'Agence"/>
+							<tx l="ara" name="سياسة وإجراءات أمان الوكالة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Formal and written policy for communications and IT operations
-
-Documentations of operational procedures
+							<tx l="eng" name="Formal and written policy for communications and IT operations.
+Documentations of operational procedures.
+"/>
+							<tx l="spa" name="Política formal y escrita para comunicaciones y operaciones de TI.
+Documentación de procedimientos operativos.
+"/>
+							<tx l="fre" name="Politique formelle et écrite pour les communications et les opérations informatiques.
+Documentation des procédures opérationnelles.
+"/>
+							<tx l="ara" name="السياسة الرسمية والمكتوبة للاتصالات وعمليات تكنولوجيا المعلومات.
+توثيق الإجراءات التشغيلية.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Check whether the policies and procedures of the organisation embrace communication with citizens, mass media, and external organisations.
-
-Verify how the organisation documents its operating procedures and makes them available to all users. Interview a sample set of users at different levels to examine
-whether the procedures for data handling are well known by employees.
-
+Verify how the organisation documents its operating procedures and makes them available to all users. Interview a sample set of users at different levels to examine whether the procedures for data handling are well known by employees.
 Check how often the communication and data handling procedures are reviewed and updated.
+"/>
+							<tx l="spa" name="Verifique si las políticas y procedimientos de la organización abarcan la comunicación con los ciudadanos, los medios de comunicación y las organizaciones externas.
+Verifique cómo la organización documenta sus procedimientos operativos y los pone a disposición de todos los usuarios. Entreviste a un grupo de muestra de usuarios en diferentes niveles para examinar si los empleados conocen bien los procedimientos para el manejo de datos.
+Compruebe con qué frecuencia se revisan y actualizan los procedimientos de comunicación y manejo de datos.
+"/>
+							<tx l="fre" name="Vérifiez si les politiques et procédures de l'organisation englobent la communication avec les citoyens, les médias et les organisations externes.
+Vérifier comment l'organisation documente ses procédures de fonctionnement et les met à la disposition de tous les utilisateurs. Interrogez un échantillon d'utilisateurs à différents niveaux pour examiner si les procédures de traitement des données sont bien connues des employés.
+Vérifiez la fréquence à laquelle les procédures de communication et de traitement des données sont revues et mises à jour.
+"/>
+							<tx l="ara" name="تحقق مما إذا كانت سياسات وإجراءات المنظمة تتضمن التواصل مع المواطنين ووسائل الإعلام والمنظمات الخارجية.
+تحقق من كيفية توثيق المنظمة لإجراءات التشغيل وإتاحتها لجميع المستخدمين. مقابلة مجموعة عينة من المستخدمين على مستويات مختلفة لفحص ما إذا كانت إجراءات معالجة البيانات معروفة جيدًا من قبل الموظفين.
+تحقق من عدد المرات التي يتم فيها مراجعة وتحديث إجراءات الاتصال ومعالجة البيانات.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2327,6 +2454,9 @@ Check how often the communication and data handling procedures are reviewed and 
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Securing Network Communications"/>
+					<tx l="spa" name="Asegurar las comunicaciones de la red"/>
+					<tx l="fre" name="Sécurisation des communications réseau"/>
+					<tx l="ara" name="تأمين اتصالات الشبكة"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -2346,52 +2476,118 @@ Check how often the communication and data handling procedures are reviewed and 
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that internal and external communication is secure."/>
+							<tx l="spa" name="Para garantizar que la comunicación interna y externa sea segura."/>
+							<tx l="fre" name="Assurer la sécurité des communications internes et externes."/>
+							<tx l="ara" name="للتأكد من أن الاتصال الداخلي والخارجي آمن."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How does the organisation manage and control information in the network?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency Security Policy and Procedures, Network protocols and procedures"/>
+							<tx l="spa" name="Política y procedimientos de seguridad de la agencia, protocolos y procedimientos de red"/>
+							<tx l="fre" name="Politique et procédures de sécurité de l'agence, protocoles et procédures de réseau"/>
+							<tx l="ara" name="سياسة وإجراءات أمان الوكالة وبروتوكولات الشبكة وإجراءاتها"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Information restriction policy
-
-Network Admin Logs/Registers
-
-Results of the logs analysis
-
-User Acceptance Test Report
-
-Service Level Agreement(s)
-
+							<tx l="eng" name="Information restriction policy.
+Network Admin Logs/Registers.
+Results of the logs analysis.
+User Acceptance Test Report.
+Service Level Agreement(s).
 Information available to the public or found in the web pages.
+"/>
+							<tx l="spa" name="Política de restricción de información.
+Registros (logs) de administración de red.
+Resultados del análisis de logs.
+Informe de prueba de aceptación del usuario.
+Acuerdos de Nivel de Servicio.
+Información disponible para el público o que se encuentra en las páginas web.
+"/>
+							<tx l="fre" name="Politique de restriction des informations.
+Journaux/registres (logs) d'administrateur réseau.
+Résultats de l'analyse des journaux.
+Rapport de test d'acceptation par l'utilisateur.
+Accords de Niveau de Service.
+Informations accessibles au public ou trouvées dans les pages Web.
+"/>
+							<tx l="ara" name="سياسة تقييد المعلومات.
+سجلات / سجلات مسؤول الشبكة.
+نتائج تحليل السجلات.
+تقرير اختبار قبول المستخدم.
+اتفاقيات مستوى الخدمة.
+المعلومات المتاحة للجمهور أو الموجودة في صفحات الويب.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Check what tools are used for network monitoring and analysis. verify whether users and IT systems of the audited organisation are protected against spam.
-
+							<tx l="eng" name="Check what tools are used for network monitoring and analysis. 
+Verify whether users and IT systems of the audited organisation are protected against spam.
 Check whether Intrusion Detection System configurations and logs are analysed by appropriate personnel to ensure security of information from hacking attacks and malware intrusions. Verify whether the attacks (failed and effective ones) are analyzed and reported.
-
 Check the statistics of spam, hacking and malware attacks.
-
-Inquire how the organisation provides secure transmission of transactions passing over public networks. Eg. Circulating/ notifying operating procedures to users for
-e-commerce/ online transactions.
+Inquire how the organisation provides secure transmission of transactions passing over public networks. Eg. Circulating/ notifying operating procedures to users for e-commerce/ online transactions.
 Review policies to verify whether data transmission outside the organisation requires an encrypted format prior to transmission.
-
 Inquire whether information security policies have been implemented in
 accordance to the sensitivity classification of organisation’s data (e.g., confidential, sensitive).
 Through enquiry determine whether the client utilises cryptography for sensitive information processing.
 If so, conduct a validation testing.
-Control Validation Testing Procedures
+Control Validation Testing Procedures.
 Validation Test 1: Operating effectiveness of cryptographic controls:
 Determine:
 •	the existence of processes for the key management life cycle.
 •	key destruction.
 •	segregation of duties for the authorised key custodians.
+"/>
+							<tx l="spa" name="Compruebe qué herramientas se utilizan para el análisis y la supervisión de la red. 
+Verificar si los usuarios y los sistemas de TI de la organización auditada están protegidos contra el spam.
+Compruebe si el personal adecuado analiza las configuraciones y los registros del sistema de detección de intrusiones para garantizar la seguridad de la información frente a ataques de piratería e intrusiones de malware. Verifique si los ataques (fallidos y efectivos) se analizan e informan.
+Consulta las estadísticas de spam, piratería y ataques de malware.
+Pregunte cómo la organización proporciona una transmisión segura de transacciones que pasan por redes públicas. P.ej. Circulación / notificación de procedimientos operativos a usuarios para comercio electrónico / transacciones en línea.
+Revise las políticas para verificar si la transmisión de datos fuera de la organización requiere un formato encriptado antes de la transmisión.
+Pregunte si se han implementado políticas de seguridad de la información de acuerdo con la clasificación de sensibilidad de los datos de la organización (por ejemplo, confidencial, sensible).
+A través de la investigación, determine si el cliente utiliza criptografía para el procesamiento de información confidencial.
+Si es así, realice una prueba de validación.
+Procedimientos de prueba de validación de control.
+Prueba de validación 1: eficacia operativa de los controles criptográficos:
+Determinar:
+• la existencia de procesos para el ciclo de vida de la gestión de claves.
+• destrucción de claves.
+• segregación de funciones para los custodios de claves autorizados.
+"/>
+							<tx l="fre" name="Vérifiez quels outils sont utilisés pour la surveillance et l'analyse du réseau.
+Vérifiez si les utilisateurs et les systèmes informatiques de l'organisation auditée sont protégés contre le spam.
+Vérifiez si les configurations et les journaux du système de détection d'intrusions sont analysés par le personnel approprié pour garantir la sécurité des informations contre les attaques de piratage et les intrusions de logiciels malveillants. Vérifiez si les attaques (échouées et efficaces) sont analysées et signalées.
+Consultez les statistiques de spam, de piratage et d'attaques de logiciels malveillants.
+Renseignez-vous sur la manière dont l'organisation assure la transmission sécurisée des transactions transitant sur les réseaux publics. Par exemple, diffusion/notification des modes opératoires aux utilisateurs pour les transactions e-commerce/en ligne.
+Examinez les politiques pour vérifier si la transmission de données à l'extérieur de l'organisation nécessite un format crypté avant la transmission.
+Vérifiez si les politiques de sécurité de l'information ont été mises en œuvre conformément à la classification de sensibilité des données de l'organisation (par exemple, confidentielles, sensibles).
+Grâce à une enquête, déterminez si le client utilise la cryptographie pour le traitement d'informations sensibles.
+Si tel est le cas, effectuez un test de validation.
+Procédures de test de validation de contrôle.
+Test de validation 1 : Efficacité opérationnelle des contrôles cryptographiques :
+Déterminer:
+• l'existence de processus pour le cycle de vie de la gestion des clés.
+• destruction de clé.
+• séparation des tâches pour les principaux dépositaires autorisés.
+"/>
+							<tx l="ara" name="تحقق من الأدوات المستخدمة لمراقبة الشبكة وتحليلها.
+تحقق مما إذا كان المستخدمون وأنظمة تكنولوجيا المعلومات في المؤسسة الخاضعة للرقابة محمية ضد البريد العشوائي.
+تحقق مما إذا كان يتم تحليل تكوينات وسجلات نظام الكشف عن التطفل من قبل الأفراد المناسبين لضمان أمن المعلومات من هجمات القرصنة وتطفل البرامج الضارة. تحقق مما إذا كانت الهجمات (الفاشلة والفعالة) قد تم تحليلها والإبلاغ عنها.
+تحقق من إحصائيات البريد العشوائي والقرصنة وهجمات البرامج الضارة.
+استفسر عن كيفية قيام المنظمة بتوفير النقل الآمن للمعاملات التي تمر عبر الشبكات العامة. على سبيل المثال. تعميم / إخطار إجراءات التشغيل للمستخدمين للتجارة الإلكترونية / المعاملات عبر الإنترنت.
+راجع السياسات للتحقق مما إذا كان نقل البيانات خارج المؤسسة يتطلب تنسيقًا مشفرًا قبل الإرسال.
+استفسر عما إذا تم تنفيذ سياسات أمن المعلومات وفقًا لتصنيف حساسية بيانات المنظمة (على سبيل المثال ، سرية ، حساسة).
+من خلال الاستفسار تحديد ما إذا كان العميل يستخدم التشفير لمعالجة المعلومات الحساسة.
+إذا كان الأمر كذلك ، قم بإجراء اختبار التحقق من الصحة.
+إجراءات اختبار التحقق من صحة الضبط.
+اختبار التحقق 1: فعالية تشغيل عناصر التحكم في التشفير:
+تحديد:
+• وجود عمليات لدورة حياة الإدارة الرئيسية.
+• تدمير المفاتيح.
+• الفصل في واجبات أمناء الحفظ الرئيسيين المفوضين.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2417,6 +2613,9 @@ Determine:
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Risk Assessment"/>
+				<tx l="spa" name="Evaluación de riesgos"/>
+				<tx l="fre" name="L'évaluation des risques"/>
+				<tx l="ara" name="تقييم المخاطر"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2435,6 +2634,9 @@ Determine:
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Confidentiality"/>
+					<tx l="spa" name="Confidencialidad"/>
+					<tx l="fre" name="Confidentialité"/>
+					<tx l="ara" name="سرية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -2454,42 +2656,69 @@ Determine:
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Confidentiality Requirements are identified and enforced"/>
+							<tx l="spa" name="Los requisitos de confidencialidad se identifican y se hacen cumplir"/>
+							<tx l="fre" name="Les exigences de confidentialité sont identifiées et appliquées"/>
+							<tx l="ara" name="يتم تحديد متطلبات السرية وتنفيذها"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Confidentiality - Has the organization confidentiality requirements or non-disclosure agreements that appropriately reflect the need for protecting information? Do the policies secure information in the organization’s relation with external parties?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Agency Security Policy and Procedures, Agency Confidentiality requirements "/>
+							<tx l="eng" name="Agency Security Policy and Procedures, Agency Confidentiality requirements"/>
+							<tx l="spa" name="Política y procedimientos de seguridad de la agencia, requisitos de confidencialidad de la agencia"/>
+							<tx l="fre" name="Politique et procédures de sécurité de l'agence, exigences de confidentialité de l'agence"/>
+							<tx l="ara" name="سياسة وإجراءات أمان الوكالة ، متطلبات سرية الوكالة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="External and internal regulations concerning confidential and classified
-information.
-
-Eg, Non-disclosure clauses for employees.
-
-Contractual arrangements with external parties 
-
-Information security policy
-
+							<tx l="eng" name="External and internal regulations concerning confidential and classified information. Eg, Non-disclosure clauses for employees.
+Contractual arrangements with external parties.
+Information security policy.
 IT Security Plan.
+"/>
+							<tx l="spa" name="Normativa externa e interna sobre información confidencial y clasificada. Por ejemplo, cláusulas de no divulgación para empleados.
+Acuerdos contractuales con partes externas.
+Política de seguridad de la información.
+Plan de seguridad de TI.
+"/>
+							<tx l="fre" name="Réglementation externe et interne concernant les informations confidentielles et classifiées. Par exemple, des clauses de non-divulgation pour les employés.
+Arrangements contractuels avec des parties externes.
+Politique de sécurité de l'information.
+Plan de sécurité informatique.
+"/>
+							<tx l="ara" name="اللوائح الخارجية والداخلية المتعلقة بالمعلومات السرية والسرية. على سبيل المثال ، بنود عدم الإفصاح للموظفين.
+الترتيبات التعاقدية مع الأطراف الخارجية.
+سياسة أمن المعلومات.
+خطة أمن تكنولوجيا المعلومات.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="
-Check procedural measures taken by the organization to comply with the confidentiality requirements.
+							<tx l="eng" name="Check procedural measures taken by the organization to comply with the confidentiality requirements.
 Where access to confidentiality breach cases are restricted to special law procedures and specialized agencies only, base your opinion on their reports and recommendations to the organization’s management – if available.
-
 Review contractual arrangements with external parties or contractors. Do they involve granting and invoking access, processing, communicating or managing organizational information assets?
-
 Check whether the contractual terms and obligations define the security restrictions and obligations that control how contractors will use organization’s assets and access information systems and services.
-
-Check whether any information security breaches were committed by contractors.
-
-Check management action on such breaches.
+Check whether any information security breaches were committed by contractors. Check management action on such breaches.
+"/>
+							<tx l="spa" name="Verificar las medidas de procedimiento adoptadas por la organización para cumplir con los requisitos de confidencialidad.
+Cuando el acceso a los casos de violación de la confidencialidad esté restringido a procedimientos legales especiales y agencias especializadas únicamente, base su opinión en sus informes y recomendaciones a la gerencia de la organización, si están disponibles.
+Revise los arreglos contractuales con partes externas o contratistas. ¿Implican otorgar e invocar acceso, procesar, comunicar o administrar activos de información organizacional?
+Compruebe si los términos y obligaciones contractuales definen las restricciones y obligaciones de seguridad que controlan cómo los contratistas utilizarán los activos de la organización y accederán a los sistemas y servicios de información.
+Compruebe si los contratistas cometieron violaciones de seguridad de la información.Verifique la acción de la administración sobre tales infracciones.
+"/>
+							<tx l="fre" name="Vérifier les mesures procédurales prises par l'organisation pour se conformer aux exigences de confidentialité.
+Lorsque l'accès aux cas de violation de la confidentialité est limité aux procédures légales spéciales et aux agences spécialisées uniquement, fondez votre opinion sur leurs rapports et recommandations à la direction de l'organisation - si disponibles.
+Examiner les ententes contractuelles avec des parties ou des entrepreneurs externes. Impliquent-ils l'octroi et l'appel d'accès, le traitement, la communication ou la gestion des actifs informationnels de l'organisation ?
+Vérifiez si les conditions et obligations contractuelles définissent les restrictions et obligations de sécurité qui contrôlent la manière dont les sous-traitants utiliseront les actifs de l'organisation et accéderont aux systèmes et services d'information.
+Vérifiez si des violations de la sécurité des informations ont été commises par des sous-traitants. Vérifier l'action de la direction sur de telles violations.
+"/>
+							<tx l="ara" name="تحقق من الإجراءات الإجرائية التي تتخذها المنظمة للامتثال لمتطلبات السرية.
+عندما يقتصر الوصول إلى قضايا خرق السرية على إجراءات القانون الخاص والوكالات المتخصصة فقط ، قم ببناء رأيك على تقاريرهم وتوصياتهم إلى إدارة المنظمة - إذا كان ذلك متاحًا.
+مراجعة الترتيبات التعاقدية مع الأطراف الخارجية أو المقاولين. هل تتضمن منح واستدعاء الوصول أو المعالجة أو الاتصال أو إدارة أصول المعلومات التنظيمية؟
+تحقق مما إذا كانت الشروط والالتزامات التعاقدية تحدد القيود والالتزامات الأمنية التي تتحكم في كيفية استخدام المتعاقدين لأصول المؤسسة والوصول إلى أنظمة المعلومات والخدمات.
+تحقق مما إذا كان المقاولون قد ارتكبوا أي انتهاكات لأمن المعلومات. تحقق من إجراءات الإدارة بشأن مثل هذه الانتهاكات.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2533,36 +2762,73 @@ Check management action on such breaches.
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that all risks associated with information security have been identified and an appropriate risk mitigation strategy is put in place."/>
+							<tx l="spa" name="Asegurar que se hayan identificado todos los riesgos asociados con la seguridad de la información y que se haya implementado una estrategia adecuada de mitigación de riesgos."/>
+							<tx l="fre" name="S'assurer que tous les risques associés à la sécurité de l'information ont été identifiés et qu'une stratégie appropriée d'atténuation des risques est mise en place."/>
+							<tx l="ara" name="للتأكد من أن جميع المخاطر المرتبطة بأمن المعلومات قد تم تحديدها ووضع استراتيجية مناسبة للتخفيف من المخاطر."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>To ensure that all risks associated with information security have been identified and an appropriate risk mitigation strategy is put in place.</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency Security Policy and Procedures"/>
+							<tx l="spa" name="Política y procedimientos de seguridad de la agencia"/>
+							<tx l="fre" name="Politique et procédures de sécurité de l'Agence"/>
+							<tx l="ara" name="سياسة وإجراءات أمان الوكالة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="DDocumented Risk Assessments
-
-Risk register
-
+							<tx l="eng" name="Documented Risk Assessments.
+Risk register.
 Incident handling reports.
+"/>
+							<tx l="spa" name="Evaluaciones de riesgos documentadas.
+Registro de riesgo.
+Informes de manejo de incidentes.
+"/>
+							<tx l="fre" name="Évaluations des risques documentées.
+Registre des risques.
+Rapports de gestion des incidents.
+"/>
+							<tx l="ara" name="تقييمات المخاطر الموثقة.
+سجل المخاطر.
+تقارير التعامل مع الحادث.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review documents to check if the risk assessment performed by the audited organization was based on sufficiently comprehensive information. Check whether data and reports were obtained from the organization’s incident management system. (Support your analysis with results of Analysis Methods of IT Operations focused on Incident Management system, esp. if the information security incident handling forms a system separated from a general incident management system.)
-
-Validation Test 1: Security audit trails: Determine if security audit trails capture user identification (ID), type of event, data and time, success or failure indication, origination of event, and the identity or the name of the affected object
-
+							<tx l="eng" name="Review documents to check if the risk assessment performed by the audited organization was based on sufficiently comprehensive information. Check whether data and reports were obtained from the organization’s incident management system. Support your analysis with results of Analysis Methods of IT Operations focused on Incident Management system, especially if the information security incident handling forms a system separated from a general incident management system.
+Validation Test 1: Security audit trails: Determine if security audit trails capture user identification (ID), type of event, data and time, success or failure indication, origination of event, and the identity or the name of the affected object.
 Interview relevant personnel to verify whether there is a standard re-assessment of risk whenever the organization plans to roll out new information systems, upgrades, and new versions.
 Check the risk assessment design for completeness, relevancy, timeliness and measurability.
-Check if consequences of infrastructure inoperability is considered while assigning
-risk categories. Verify documents to see if a business impact analysis is done for the consequences of critical information becoming unavailable, corrupted, inappropriately compromised or lost.
-
+Check if consequences of infrastructure inoperability is considered while assigning risk categories. 
+Verify documents to see if a business impact analysis is done for the consequences of critical information becoming unavailable, corrupted, inappropriately compromised or lost.
 Review incidence response reports and earlier risk documents/ registers to examine whether the risk assessment methodology has been effective in the past.
+"/>
+							<tx l="spa" name="Revise los documentos para verificar si la evaluación de riesgos realizada por la organización auditada se basó en información suficientemente completa. Compruebe si los datos y los informes se obtuvieron del sistema de gestión de incidentes de la organización. Respalde su análisis con los resultados de los métodos de análisis de operaciones de TI centrados en el sistema de gestión de incidentes, especialmente si el manejo de incidentes de seguridad de la información forma un sistema separado de un sistema general de gestión de incidentes.
+Prueba de validación 1: pistas de auditoría de seguridad: determine si las pistas de auditoría de seguridad capturan la identificación del usuario (ID), tipo de evento, datos y hora, indicación de éxito o falla, origen del evento y la identidad o el nombre del objeto afectado.
+Entreviste al personal relevante para verificar si existe una reevaluación estándar del riesgo cada vez que la organización planea implementar nuevos sistemas de información, actualizaciones y nuevas versiones.
+Verifique que el diseño de la evaluación de riesgos esté completo, sea relevante, puntual y mensurable.
+Compruebe si se tienen en cuenta las consecuencias de la inoperabilidad de la infraestructura al asignar categorías de riesgo.
+Verifique los documentos para ver si se realiza un análisis de impacto del negocio para las consecuencias de que la información crítica no esté disponible, se corrompa, se vea comprometida de manera inapropiada o se pierda.
+Revise los informes de respuesta a incidentes y los documentos / registros de riesgos anteriores para examinar si la metodología de evaluación de riesgos ha sido eficaz en el pasado.
+"/>
+							<tx l="fre" name="Examiner les documents pour vérifier si l'évaluation des risques effectuée par l'organisation auditée était basée sur des informations suffisamment complètes. Vérifiez si les données et les rapports ont été obtenus à partir du système de gestion des incidents de l'organisation. Soutenez votre analyse avec les résultats des méthodes d'analyse des opérations informatiques axées sur le système de gestion des incidents, en particulier si le traitement des incidents de sécurité de l'information constitue un système séparé d'un système général de gestion des incidents.
+Test de validation 1 : pistes d'audit de sécurité : déterminez si les pistes d'audit de sécurité capturent l'identification de l'utilisateur (ID), le type d'événement, les données et l'heure, l'indication de réussite ou d'échec, l'origine de l'événement et l'identité ou le nom de l'objet affecté.
+Interrogez le personnel concerné pour vérifier s'il existe une réévaluation standard des risques chaque fois que l'organisation prévoit de déployer de nouveaux systèmes d'information, des mises à niveau et de nouvelles versions.
+Vérifiez l'exhaustivité, la pertinence, l'opportunité et la mesurabilité de la conception de l'évaluation des risques.
+Vérifiez si les conséquences de l'inopérabilité de l'infrastructure sont prises en compte lors de l'attribution des catégories de risque.
+Vérifiez les documents pour voir si une analyse d'impact sur l'entreprise est effectuée pour les conséquences d'informations critiques devenues indisponibles, corrompues, compromises de manière inappropriée ou perdues.
+Examiner les rapports de réponse à l'incidence et les documents/registres de risques antérieurs pour déterminer si la méthodologie d'évaluation des risques a été efficace dans le passé.
+"/>
+							<tx l="ara" name="مراجعة المستندات للتحقق مما إذا كان تقييم المخاطر الذي أجرته المنظمة الخاضعة للرقابة يستند إلى معلومات شاملة بما فيه الكفاية. تحقق مما إذا تم الحصول على البيانات والتقارير من نظام إدارة الحوادث في المنظمة. ادعم تحليلك بنتائج تحليل أساليب عمليات تكنولوجيا المعلومات التي تركز على نظام إدارة الحوادث ، خاصة إذا كانت معالجة حادث أمن المعلومات تشكل نظامًا منفصلاً عن نظام إدارة الحوادث العامة.
+اختبار التحقق من الصحة 1: مسارات تدقيق الأمان: تحديد ما إذا كانت مسارات تدقيق الأمان تلتقط هوية المستخدم ، ونوع الحدث ، والبيانات والوقت ، ومؤشر النجاح أو الفشل ، وإنشاء الحدث ، وهوية أو اسم الكائن المتأثر.
+مقابلة الموظفين المعنيين للتحقق مما إذا كان هناك إعادة تقييم معياري للمخاطر كلما خططت المنظمة لطرح أنظمة معلومات جديدة وترقيات وإصدارات جديدة.
+تحقق من تصميم تقييم المخاطر للتأكد من اكتماله وملاءمته وتوقيته وإمكانية قياسه.
+تحقق مما إذا كانت عواقب عدم تشغيل البنية التحتية تؤخذ في الاعتبار أثناء تعيين فئات المخاطر.
+تحقق من المستندات لمعرفة ما إذا كان قد تم إجراء تحليل تأثير الأعمال لعواقب عدم توفر المعلومات الهامة أو تلفها أو تعرضها للخطر أو فقدها بشكل غير لائق.
+مراجعة تقارير الاستجابة للحوادث ووثائق / سجلات المخاطر السابقة لفحص ما إذا كانت منهجية تقييم المخاطر فعالة في الماضي.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2587,6 +2853,9 @@ Review incidence response reports and earlier risk documents/ registers to exami
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Risk Mitigation"/>
+					<tx l="spa" name="Mitigación de riesgos"/>
+					<tx l="fre" name="Atténuation des risques"/>
+					<tx l="ara" name="تخفيف المخاطر"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -2606,30 +2875,53 @@ Review incidence response reports and earlier risk documents/ registers to exami
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Are Identified risks being mitigated as per policy?"/>
+							<tx l="spa" name="¿Se están mitigando los riesgos identificados según la política?"/>
+							<tx l="fre" name="Les risques identifiés sont-ils atténués conformément à la politique?"/>
+							<tx l="ara" name="هل يتم التخفيف من المخاطر التي تم تحديدها وفقًا للسياسة؟"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Mitigation - Are significant risks mitigated in effective and efficient way?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency Security Policy and Procedures, Agency Risk Management Policy"/>
+							<tx l="spa" name="Política y procedimientos de seguridad de la agencia, Política de gestión de riesgos de la agencia"/>
+							<tx l="fre" name="Politique et procédures de sécurité de l'Agence, Politique de gestion des risques de l'Agence"/>
+							<tx l="ara" name="سياسة وإجراءات أمان الوكالة ، سياسة إدارة مخاطر الوكالة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Problem/incident handling reports
-
-Periodic activity reports
-
+							<tx l="eng" name="Problem/incident handling reports.
+Periodic activity reports.
+"/>
+							<tx l="spa" name="Informes de manejo de problemas / incidentes.
+Informes periódicos de actividad.
+"/>
+							<tx l="fre" name="Rapports de gestion des problèmes/incidents.
+Rapports d'activités périodiques.
+"/>
+							<tx l="ara" name="تقارير التعامل مع المشكلة / الحادث.
+تقارير النشاط الدورية.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review incident handling reports and check whether appropriate procedures were in place to prevent, detect and control security risks identified in the risk assessment document.
-
 In organizations that do not follow a well-defined risk assessment mechanism, determine what compensatory control exist. Analyze if any serious security incidents occurred in relation to risks that might have been mitigated better with a properly working risk assessment mechanism, vis-à-vis existing compensatory controls.
-
 Take into account that problem/incident reports may be incomplete in some cases. Nevertheless, important events may be reflected directly or indirectly in other documents, as e.g. annual activity reports or other periodic reports.
+"/>
+							<tx l="spa" name="Revise los informes de manejo de incidentes y verifique si se implementaron los procedimientos adecuados para prevenir, detectar y controlar los riesgos de seguridad identificados en el documento de evaluación de riesgos.
+En organizaciones que no siguen un mecanismo de evaluación de riesgos bien definido, determine qué control compensatorio existe. Analizar si se produjo algún incidente de seguridad grave en relación con los riesgos que podrían haberse mitigado mejor con un mecanismo de evaluación de riesgos que funcione correctamente, en comparación con los controles compensatorios existentes.
+Tenga en cuenta que los informes de problemas / incidentes pueden estar incompletos en algunos casos. No obstante, los eventos importantes pueden reflejarse directa o indirectamente en otros documentos, como p. Ej. informes anuales de actividad u otros informes periódicos.
+"/>
+							<tx l="fre" name="Examiner les rapports de traitement des incidents et vérifier si des procédures appropriées étaient en place pour prévenir, détecter et contrôler les risques de sécurité identifiés dans le document d'évaluation des risques.
+Dans les organisations qui ne suivent pas un mécanisme d'évaluation des risques bien défini, déterminez quel contrôle compensatoire existe. Analysez si des incidents de sécurité graves se sont produits en relation avec des risques qui auraient pu être mieux atténués avec un mécanisme d'évaluation des risques fonctionnant correctement, par rapport aux contrôles compensatoires existants.
+Tenez compte du fait que les rapports de problèmes/incidents peuvent être incomplets dans certains cas. Néanmoins, des événements importants peuvent être reflétés directement ou indirectement dans d'autres documents, comme par ex. rapports d'activité annuels ou autres rapports périodiques.
+"/>
+							<tx l="ara" name="راجع تقارير التعامل مع الحوادث وتحقق مما إذا كانت الإجراءات المناسبة مطبقة لمنع واكتشاف ومراقبة المخاطر الأمنية المحددة في وثيقة تقييم المخاطر.
+في المنظمات التي لا تتبع آلية محددة جيدًا لتقييم المخاطر ، حدد التحكم التعويضي الموجود. قم بتحليل ما إذا وقعت أي حوادث أمنية خطيرة فيما يتعلق بالمخاطر التي كان من الممكن تخفيفها بشكل أفضل من خلال آلية تقييم مخاطر تعمل بشكل صحيح ، مقابل الضوابط التعويضية الحالية.
+ضع في اعتبارك أن تقارير المشكلة / الحوادث قد تكون غير مكتملة في بعض الحالات. ومع ذلك ، قد تنعكس الأحداث المهمة بشكل مباشر أو غير مباشر في وثائق أخرى ، على سبيل المثال تقارير النشاط السنوية أو التقارير الدورية الأخرى.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2674,6 +2966,9 @@ Take into account that problem/incident reports may be incomplete in some cases.
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="BCP-DRP"/>
+				<tx l="spa" name="BCP-DRP"/>
+				<tx l="fre" name="BCP-DRP"/>
+				<tx l="ara" name="BCP-DRP"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2692,6 +2987,9 @@ Take into account that problem/incident reports may be incomplete in some cases.
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="BCP-DRP Policy"/>
+					<tx l="spa" name="Política BCP-DRP"/>
+					<tx l="fre" name="Politique BCP-DRP"/>
+					<tx l="ara" name="سياسة BCP-DRP"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -2711,35 +3009,62 @@ Take into account that problem/incident reports may be incomplete in some cases.
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether there is an effective business continuity policy in the organisation."/>
+							<tx l="spa" name="Evaluar si existe una política de continuidad del negocio eficaz en la organización."/>
+							<tx l="fre" name="Évaluer s'il existe une politique de continuité d'activité efficace dans l'organisation."/>
+							<tx l="ara" name="لتقييم ما إذا كانت هناك سياسة استمرارية أعمال فعالة في المنظمة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the organisation have a contingency plan and policy for business continuity?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="BCP and DRP Policy, Approvals, Modifications, etc."/>
+							<tx l="spa" name="Política de BCP y DRP, aprobaciones, modificaciones, etc."/>
+							<tx l="fre" name="Politique BCP et DRP, approbations, modifications, etc."/>
+							<tx l="ara" name="سياسة BCP و DRP ، الموافقات ، التعديلات ، إلخ."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Business Continuity Policy Document
-
-IT Policy Document
-
-Approval process for adoption of business policy objectives
-
-Correspondence and minutes of meetings related to business continuity
+							<tx l="eng" name="Business Continuity Policy Document.
+IT Policy Document.
+Approval process for adoption of business policy objectives.
+Correspondence and minutes of meetings related to business continuity.
+"/>
+							<tx l="spa" name="Documento de política de continuidad del negocio.
+Documento de política de TI.
+Proceso de aprobación para la adopción de objetivos de política empresarial.
+Correspondencia y actas de reuniones relacionadas con la continuidad del negocio.
+"/>
+							<tx l="fre" name="Document de politique de continuité des activités.
+Document de politique informatique.
+Processus d'approbation pour l'adoption des objectifs de la politique commerciale.
+Correspondance et procès-verbaux de réunions liés à la continuité des activités.
+"/>
+							<tx l="ara" name="وثيقة سياسة استمرارية الأعمال.
+وثيقة سياسة تكنولوجيا المعلومات.
+عملية الموافقة على اعتماد أهداف سياسة الأعمال.
+المراسلات ومحاضر الاجتماعات المتعلقة باستمرارية العمل.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review for assessing that the policy is consistent with the organization’s overall IT policies.
-
 Document review to assess that the policy addresses requirements of business continuity by defining organization’s contingency objectives, organizational framework and responsibilities for contingency planning.
-
 Review or interview personnel to determine how often the policy is updated if conditions change.
-
 Review policy to determine who approved it and when was it last distributed / interview a sample of business users to assess if the policy has been sufficiently communicated within the organization."/>
+							<tx l="spa" name="Revisión de documentos para evaluar que la política es consistente con las políticas de TI generales de la organización.
+Revisión de documentos para evaluar que la política aborda los requisitos de continuidad del negocio al definir los objetivos de contingencia de la organización, el marco organizacional y las responsabilidades para la planificación de contingencias.
+Revise o entreviste al personal para determinar con qué frecuencia se actualiza la política si cambian las condiciones.
+Revise la política para determinar quién la aprobó y cuándo se distribuyó por última vez / entreviste a una muestra de usuarios comerciales para evaluar si la política se ha comunicado suficientemente dentro de la organización."/>
+							<tx l="fre" name="Examen des documents pour évaluer que la politique est cohérente avec les politiques informatiques globales de l'organisation.
+Examen des documents pour évaluer que la politique répond aux exigences de continuité des activités en définissant les objectifs d'urgence de l'organisation, le cadre organisationnel et les responsabilités en matière de planification d'urgence.
+Passez en revue ou interrogez le personnel pour déterminer la fréquence à laquelle la politique est mise à jour si les conditions changent.
+Examinez la politique pour déterminer qui l'a approuvée et quand a-t-elle été distribuée pour la dernière fois / interrogez un échantillon d'utilisateurs professionnels pour évaluer si la politique a été suffisamment communiquée au sein de l'organisation."/>
+							<tx l="ara" name="مراجعة المستندات لتقييم توافق السياسة مع سياسات تكنولوجيا المعلومات العامة للمؤسسة.
+مراجعة الوثيقة لتقييم أن السياسة تتناول متطلبات استمرارية الأعمال من خلال تحديد أهداف الطوارئ للمنظمة ، والإطار التنظيمي والمسؤوليات للتخطيط للطوارئ.
+مراجعة أو مقابلة الموظفين لتحديد عدد المرات التي يتم فيها تحديث السياسة إذا تغيرت الظروف.
+مراجعة السياسة لتحديد من وافق عليها ومتى تم توزيعها / مقابلة عينة من مستخدمي الأعمال لتقييم ما إذا كانت السياسة قد تم إبلاغها بشكل كافٍ داخل المنظمة."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -2763,6 +3088,9 @@ Review policy to determine who approved it and when was it last distributed / in
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="BCP-DRP Testing"/>
+					<tx l="spa" name="Prueba de BCP-DRP"/>
+					<tx l="fre" name="Tests BCP-DRP"/>
+					<tx l="ara" name="اختبار BCP-DRP"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -2782,54 +3110,89 @@ Review policy to determine who approved it and when was it last distributed / in
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the business continuity disaster recovery procedures have been tested."/>
+							<tx l="spa" name="Evaluar si se han probado los procedimientos de continuidad del negocio y recuperación ante desastres."/>
+							<tx l="fre" name="Évaluer si les procédures de continuité des activités et de reprise après sinistre ont été testées."/>
+							<tx l="ara" name="لتقييم ما إذا كان قد تم اختبار إجراءات استمرارية الأعمال والتعافي من الكوارث."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Has the organization tested its BC and DR procedures, and what changes (if any) have been made as a result of the test?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="BCP DRP Testing Policy"/>
+							<tx l="spa" name="Política de prueba de BCP DRP"/>
+							<tx l="fre" name="Politique de test BCP DRP"/>
+							<tx l="ara" name="سياسة اختبار BCP DRP"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="BC and DR procedures and Test procedures
-
-List of items for which business continuity/disaster recovery plan has to be tested 
-
-Frequency of testing of business continuity
-plan and disaster recovery plan
-
-List of tests conducted
-
-List of test criteria like RTOs and RPOs etc
-
-List of testing methods employed
-
-Test results and actions taken or test
-Recommendations
-
+							<tx l="eng" name="BC and DR procedures and Test procedures.
+List of items for which business continuity/disaster recovery plan has to be tested.
+Frequency of testing of business continuity plan and disaster recovery plan.
+List of tests conducted.
+List of test criteria like RTOs and RPOs etc.
+List of testing methods employed.
+Test results and actions taken or test recommendations.
 Follow up action on test results.
+"/>
+							<tx l="spa" name="Procedimientos de Continuidad del Negocio y Recuperación ante Desastres, Procedimientos de Prueba.
+Lista de elementos para los que se debe probar el plan de continuidad del negocio / recuperación ante desastres.
+Frecuencia de las pruebas del plan de continuidad del negocio y del plan de recuperación ante desastres.
+Lista de pruebas realizadas.
+Lista de criterios de prueba como RTO y RPO, etc.
+Lista de métodos de prueba empleados.
+Resultados de prueba y acciones tomadas o recomendaciones de prueba.
+Acción de seguimiento sobre los resultados de las pruebas.
+"/>
+							<tx l="fre" name="Procédures de continuité d'activité et de reprise après sinistre, procédures de test.
+Liste des éléments pour lesquels le plan de continuité d'activité/de reprise après sinistre doit être testé.
+Fréquence des tests du plan de continuité des activités et du plan de reprise après sinistre.
+Liste des tests effectués.
+Liste des critères de test comme les RTO et les RPO, etc.
+Liste des méthodes d'essai employées.
+Résultats des tests et actions entreprises ou recommandations de tests.
+Action de suivi sur les résultats des tests.
+"/>
+							<tx l="ara" name="إجراءات استمرارية الأعمال والتعافي من الكوارث وإجراءات الاختبار.
+قائمة العناصر التي يجب اختبار خطة استمرارية الأعمال / التعافي من الكوارث لها.
+تكرار اختبار خطة استمرارية الأعمال وخطة التعافي من الكوارث.
+قائمة الاختبارات التي أجريت.
+قائمة معايير الاختبار مثل RTOs و RPOs إلخ.
+قائمة طرق الاختبار المستخدمة.
+نتائج الاختبار والإجراءات المتخذة أو توصيات الاختبار.
+متابعة الإجراءات على نتائج الاختبار.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="
-Document review to assess whether all relevant items are covered for testing.
-
+							<tx l="eng" name="Document review to assess whether all relevant items are covered for testing.
 Document review to assess whether the tests are conducted are right intervals, in time.
-
-Document review to assess that the tests were conducted against
-identified criteria.
-
-Document review to assess that the tests were conducted using
-appropriate testing methods.
-
+Document review to assess that the tests were conducted against identified criteria.
+Document review to assess that the tests were conducted using appropriate testing methods.
 Document review to assess that the recommendations are conveyed to appropriate authorities for follow-up.
-
-Document review to assess that the test recommendations are
-adequately followed up and the business continuity plan or the
-disaster recovery plan are adequately updated.
+Document review to assess that the test recommendations are adequately followed up and the business continuity plan or the disaster recovery plan are adequately updated.
+"/>
+							<tx l="spa" name="Revisión de documentos para evaluar si todos los elementos relevantes están cubiertos para las pruebas.
+Revisión de documentos para evaluar si las pruebas se realizan en los intervalos correctos, en el tiempo.
+Revisión de documentos para evaluar que las pruebas se realizaron según los criterios identificados.
+Revisión de documentos para evaluar que las pruebas se realizaron utilizando métodos de prueba adecuados.
+Revisión de documentos para evaluar que las recomendaciones se transmiten a las autoridades correspondientes para su seguimiento.
+Revisión de documentos para evaluar que las recomendaciones de las pruebas se siguen adecuadamente y que el plan de continuidad del negocio o el plan de recuperación ante desastres se actualizan adecuadamente.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer si tous les éléments pertinents sont couverts pour les tests.
+Examen des documents pour évaluer si les tests sont effectués à des intervalles appropriés, dans le temps.
+Examen des documents pour évaluer que les tests ont été menés en fonction de critères identifiés.
+Examen des documents pour évaluer que les tests ont été effectués à l'aide de méthodes de test appropriées.
+Examen des documents pour évaluer que les recommandations sont transmises aux autorités compétentes pour un suivi.
+Examen des documents pour évaluer que les recommandations de test sont adéquatement suivies et que le plan de continuité d'activité ou le plan de reprise après sinistre sont adéquatement mis à jour.
+"/>
+							<tx l="ara" name="مراجعة الوثيقة لتقييم ما إذا كانت جميع العناصر ذات الصلة مغطاة للاختبار.
+مراجعة المستندات لتقييم ما إذا كانت الاختبارات قد أجريت في فترات زمنية مناسبة أم لا.
+مراجعة المستندات لتقييم أن الاختبارات أجريت وفقًا للمعايير المحددة.
+مراجعة المستندات لتقييم أن الاختبارات أجريت باستخدام طرق الاختبار المناسبة.
+مراجعة الوثيقة لتقييم أن التوصيات يتم إحالتها إلى السلطات المختصة للمتابعة.
+مراجعة المستندات لتقييم أن توصيات الاختبار يتم متابعتها بشكل كافٍ ويتم تحديث خطة استمرارية الأعمال أو خطة التعافي من الكوارث بشكل كافٍ.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2883,54 +3246,109 @@ disaster recovery plan are adequately updated.
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Procedures for the hardware, data, application software
-
-Back-up logs/ Version logs
-
-Roles and responsibilities for back-up
-
-List of storage locations and periodicity
-
-Retention schedule
-
-Security arrangement for back-up site
-
-Disaster logs
-
-Roles and responsibilities for  recovery activities
-
-Training records of responsible personnel Impact assessment of
-Disasters 
-
+							<tx l="eng" name="Procedures for the hardware, data, application software.
+Back-up logs/ Version logs.
+Roles and responsibilities for back-up.
+List of storage locations and periodicity.
+Retention schedule.
+Security arrangement for back-up site.
+Disaster logs.
+Roles and responsibilities for  recovery activities.
+Training records of responsible personnel.
+Impact assessment of disasters.
 Report on disaster recovery activities.
+"/>
+							<tx l="spa" name="Procedimientos para el hardware, datos, software de aplicación.
+Registros de respaldo / Registros de versión.
+Roles y responsabilidades de respaldo.
+Lista de ubicaciones de almacenamiento y periodicidad.
+Calendario de retención.
+Arreglo de seguridad para el sitio de respaldo.
+Registros de desastres.
+Funciones y responsabilidades de las actividades de recuperación.
+Registros de formación del personal responsable.
+Evaluación de impacto de desastres.
+Informe sobre las actividades de recuperación ante desastres.
+"/>
+							<tx l="fre" name="Procédures pour le hardware, les données, les logiciels d'application.
+Journaux de sauvegarde/ Journaux de version.
+Rôles et responsabilités pour le back-up.
+Liste des lieux de stockage et périodicité.
+Calendrier de conservation.
+Disposition de sécurité pour le site de sauvegarde.
+Journaux de sinistre.
+Rôles et responsabilités pour les activités de rétablissement.
+Dossiers de formation du personnel responsable.
+Évaluation de l'impact des catastrophes.
+Rapport sur les activités de reprise après sinistre.
+"/>
+							<tx l="ara" name="Pإجراءات الأجهزة والبيانات وبرامج التطبيقات.
+سجلات النسخ الاحتياطي / سجلات الإصدار.
+أدوار ومسؤوليات النسخ الاحتياطي.
+قائمة بأماكن التخزين والوتيرة.
+جدول الاستبقاء.
+الترتيب الأمني لموقع النسخ الاحتياطي.
+سجلات الكوارث.
+الأدوار والمسؤوليات لأنشطة الاسترداد.
+سجلات تدريب الموظفين المسؤولين.
+تقييم أثر الكوارث.
+تقرير عن أنشطة التعافي من الكوارث.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review to assess that the back-up plan includes all critical hardware, data, application software.
-
 Document review to assess that detailed back-up procedures have been devised.
-
 Document review to assess that the back-up plan is adequately implemented.
-
 Analysis of logs to assess the back-up is taken at determined timelines and are retained for the specified time period.
-
 Verify that the right version of back up is available. 
-
 Document review to assess the adequacy of back-up location and the mode of transport of back up files etc. to the back-up location.
-
 Verify that the security, logical or physical is adequate for the back-up site.
-
 Verify that the back-up files can be used for recovery.
-
 Document review to assess that back-up procedures are implemented minimising loss of time and resources.
 Document review to assess that detailed recovery procedure has been devised and includes resetting of system parameters, installation of patches, establishing the configuration settings, availability of the system documentation and operating procedures, reinstallation of application and system software, availability of most recent backup, and testing of system.
-
 Document review to assess that recovery procedures are implemented minimising loss of time and resources.
-
 Document review/ Interview staff to assess that the relevant staff have been trained on the back-up and recovery procedures.
-
+"/>
+							<tx l="spa" name="Revisión de documentos para evaluar que el plan de respaldo incluye todo el hardware, datos y software de aplicación críticos.
+Revisión de documentos para evaluar si se han elaborado procedimientos de respaldo detallados.
+Revisión de documentos para evaluar que el plan de respaldo se implemente de manera adecuada.
+El análisis de los registros para evaluar la copia de seguridad se realiza en determinados plazos y se retiene durante el período de tiempo especificado.
+Verifique que esté disponible la versión correcta de la copia de seguridad.
+Revisión de documentos para evaluar la idoneidad de la ubicación de la copia de seguridad y el modo de transporte de los archivos de copia de seguridad, etc. a la ubicación de la copia de seguridad.
+Verifique que la seguridad, lógica o física, sea adecuada para el sitio de respaldo.
+Verifique que los archivos de respaldo se puedan usar para la recuperación.
+Revisión de documentos para evaluar que los procedimientos de respaldo se implementan minimizando la pérdida de tiempo y recursos.
+Revisión de documentos para evaluar que se ha diseñado un procedimiento de recuperación detallado e incluye el restablecimiento de los parámetros del sistema, la instalación de parches, el establecimiento de los parámetros de configuración, la disponibilidad de la documentación del sistema y los procedimientos operativos, la reinstalación de la aplicación y el software del sistema, la disponibilidad de la copia de seguridad más reciente y prueba del sistema.
+Revisión de documentos para evaluar que los procedimientos de recuperación se implementan minimizando la pérdida de tiempo y recursos.
+Revisión de documentos / Entrevista al personal para evaluar que el personal relevante haya sido capacitado en los procedimientos de respaldo y recuperación.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer que le plan de sauvegarde inclut tout le hardware, les données et les logiciels d'application critiques.
+Examen des documents pour évaluer que des procédures de sauvegarde détaillées ont été conçues.
+Examen des documents pour évaluer que le plan de sauvegarde est correctement mis en œuvre.
+L'analyse des journaux pour évaluer la sauvegarde est effectuée à des délais déterminés et est conservée pendant la période spécifiée.
+Vérifiez que la bonne version de sauvegarde est disponible.
+Examen des documents pour évaluer l'adéquation de l'emplacement de sauvegarde et le mode de transport des fichiers de sauvegarde, etc. vers l'emplacement de sauvegarde.
+Vérifiez que la sécurité, logique ou physique est adéquate pour le site de sauvegarde.
+Vérifiez que les fichiers de sauvegarde peuvent être utilisés pour la récupération.
+Examen des documents pour évaluer que les procédures de sauvegarde sont mises en œuvre en minimisant la perte de temps et de ressources.
+Examen des documents pour évaluer que la procédure de récupération détaillée a été conçue et comprend la réinitialisation des paramètres du système, l'installation des correctifs, l'établissement des paramètres de configuration, la disponibilité de la documentation du système et des procédures d'exploitation, la réinstallation de l'application et du logiciel système, la disponibilité de la sauvegarde la plus récente, et test du système.
+Examen des documents pour évaluer que les procédures de récupération sont mises en œuvre en minimisant la perte de temps et de ressources.
+Examen des documents/Interview du personnel pour évaluer que le personnel concerné a été formé sur les procédures de sauvegarde et de récupération.
+"/>
+							<tx l="ara" name="مراجعة المستندات لتقييم أن خطة النسخ الاحتياطي تشمل جميع الأجهزة والبيانات وبرامج التطبيقات الهامة.
+مراجعة الوثيقة لتقييم أن إجراءات النسخ الاحتياطي التفصيلية قد تم وضعها.
+مراجعة الوثيقة لتقييم تنفيذ الخطة الاحتياطية بشكل مناسب.
+يتم إجراء تحليل السجلات لتقييم النسخ الاحتياطي في جداول زمنية محددة ويتم الاحتفاظ بها للفترة الزمنية المحددة.
+تحقق من توفر الإصدار الصحيح من النسخ الاحتياطي.
+مراجعة المستندات لتقييم مدى كفاية موقع النسخ الاحتياطي وطريقة نقل الملفات الاحتياطية وما إلى ذلك إلى موقع النسخ الاحتياطي.
+تحقق من أن الأمان المنطقي أو المادي مناسب لموقع النسخ الاحتياطي.
+تحقق من إمكانية استخدام ملفات النسخ الاحتياطي للاسترداد.
+مراجعة المستندات لتقييم تنفيذ إجراءات النسخ الاحتياطي لتقليل ضياع الوقت والموارد.
+مراجعة المستندات لتقييم أن إجراء الاسترداد التفصيلي قد تم وضعه ويتضمن إعادة تعيين معلمات النظام ، وتثبيت التصحيحات ، وإنشاء إعدادات التكوين ، وتوافر وثائق النظام وإجراءات التشغيل ، وإعادة تثبيت التطبيق وبرامج النظام ، وتوافر أحدث نسخة احتياطية ، و اختبار النظام.
+مراجعة المستندات لتقييم تنفيذ إجراءات الاسترداد لتقليل ضياع الوقت والموارد.
+مراجعة الوثائق / مقابلة الموظفين لتقييم أن الموظفين المعنيين قد تم تدريبهم على إجراءات النسخ الاحتياطي والاسترداد.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -2957,6 +3375,9 @@ Document review/ Interview staff to assess that the relevant staff have been tra
 	<Domain nr="07">
 		<title>
 			<tx l="eng" name="Application Controls"/>
+			<tx l="spa" name="Controles de aplicación"/>
+			<tx l="fre" name="Contrôles d'application"/>
+			<tx l="ara" name="ضوابط التطبيق"/>
 		</title>
 		<Narrative>
 			<narr l="eng">
@@ -2975,6 +3396,9 @@ Document review/ Interview staff to assess that the relevant staff have been tra
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Input"/>
+				<tx l="spa" name="Entrada"/>
+				<tx l="fre" name="Entrée"/>
+				<tx l="ara" name="إدخال"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2993,6 +3417,9 @@ Document review/ Interview staff to assess that the relevant staff have been tra
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data Entry Authorization"/>
+					<tx l="spa" name="Autorización de entrada de datos"/>
+					<tx l="fre" name="Autorisation de saisie de données"/>
+					<tx l="ara" name="إذن إدخال البيانات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -3012,35 +3439,54 @@ Document review/ Interview staff to assess that the relevant staff have been tra
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Only authorized personnel allowed to enter data into the application"/>
+							<tx l="spa" name="Solo el personal autorizado puede ingresar datos en la aplicación"/>
+							<tx l="fre" name="Seul le personnel autorisé est autorisé à saisir des données dans l'application"/>
+							<tx l="ara" name="يسمح للأفراد المصرح لهم فقط بإدخال البيانات في التطبيق"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>How data entry authorisation into the application is being managed?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Access control procedures, audit trail procedures, roles and responsibilities of users"/>
+							<tx l="spa" name="Procedimientos de control de acceso, procedimientos de pista de auditoría (audit trail), roles y responsabilidades de los usuarios"/>
+							<tx l="fre" name="Procédures de contrôle d'accès, procédures de piste d'audit (audit trail), rôles et responsabilités des utilisateurs"/>
+							<tx l="ara" name="إجراءات التحكم في الوصول وإجراءات تتبع المراجعة وأدوار ومسؤوليات المستخدمين"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Legal and external compliance requirements
-
-Business requirements and rules 
-
-User manuals
+							<tx l="eng" name="Legal and external compliance requirements.
+Business requirements and rules.
+User manuals.
+"/>
+							<tx l="spa" name="Requisitos de cumplimiento legal y externo.
+Requisitos y reglas comerciales.
+Manuales de usuario.
+"/>
+							<tx l="fre" name="Exigences de conformité légales et externes.
+Exigences et règles commerciales.
+Manuels d'utilisation.
+"/>
+							<tx l="ara" name="متطلبات الامتثال القانونية والخارجية.
+متطلبات وقواعد العمل.
+أدلة المستخدم.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="
-Inquire whether and confirm that the design of the system provides for the use of preapproved authorisation lists. Verify, through inspection of authorisation lists, that authorisation levels are properly defined for each group of transactions. Assess whether authorisation rules for data input, editing, acceptance, rejection
-and override for major classes of transactions are well designed and documented.
-
-Observe that authorisation levels are properly applied running the application in a testing environment. Verify, through the use of CAATs or embedded audit modules, that the authorisation records present in the database are compliant to the
-authorisation rules defined.
-
-Determine if a separation of duties (SOD) table exists, and review for adequate separation of key duties/ job functions and permitted transactions, then, look into list of users and user-specific access privileges. Assess whether segregation of duties ensures that the person keying the data is not also responsible for verification
-of document. Verify the adoption of compensating controls in cases which SOD was not feasible."/>
+							<tx l="eng" name="Inquire whether and confirm that the design of the system provides for the use of preapproved authorisation lists. Verify, through inspection of authorisation lists, that authorisation levels are properly defined for each group of transactions. Assess whether authorisation rules for data input, editing, acceptance, rejection and override for major classes of transactions are well designed and documented.
+Observe that authorisation levels are properly applied running the application in a testing environment. Verify, through the use of CAATs or embedded audit modules, that the authorisation records present in the database are compliant to the authorisation rules defined.
+Determine if a separation of duties (SOD) table exists, and review for adequate separation of key duties/ job functions and permitted transactions, then, look into list of users and user-specific access privileges. Assess whether segregation of duties ensures that the person keying the data is not also responsible for verification of document. Verify the adoption of compensating controls in cases which SOD was not feasible."/>
+							<tx l="spa" name="Pregunte si, y confirme, que el diseño del sistema prevé el uso de listas de autorización preaprobadas. Verifique, mediante la inspección de las listas de autorización, que los niveles de autorización estén correctamente definidos para cada grupo de transacciones. Evalúe si las reglas de autorización para la entrada, edición, aceptación, rechazo y anulación de datos para las principales clases de transacciones están bien diseñadas y documentadas.
+Observe que los niveles de autorización se aplican correctamente al ejecutar la aplicación en un entorno de prueba. Verificar, mediante el uso de CAAT o módulos de auditoría integrados, que los registros de autorización presentes en la base de datos cumplan con las reglas de autorización definidas.
+Determine si existe una tabla de separación de tareas (SOD) y revise la separación adecuada de las tareas clave / funciones de trabajo y las transacciones permitidas, luego, busque en la lista de usuarios y privilegios de acceso específicos del usuario. Evalúe si la segregación de funciones garantiza que la persona que introduce los datos no sea también responsable de la verificación del documento. Verificar la adopción de controles compensatorios en los casos en los que la SOD no fuera factible."/>
+							<tx l="fre" name="Renseignez-vous et confirmez que la conception du système prévoit l'utilisation de listes d'autorisations préapprouvées. Vérifiez, en inspectant les listes d'autorisations, que les niveaux d'autorisation sont correctement définis pour chaque groupe de transactions. Évaluez si les règles d'autorisation pour la saisie, l'édition, l'acceptation, le rejet et la dérogation des données pour les principales catégories de transactions sont bien conçues et documentées.
+Observez que les niveaux d'autorisation sont correctement appliqués lors de l'exécution de l'application dans un environnement de test. Vérifier, à l'aide de CAAT ou de modules d'audit embarqués, que les enregistrements d'autorisation présents dans la base de données sont conformes aux règles d'autorisation définies.
+Déterminez s'il existe une table de séparation des tâches (SOD) et vérifiez la séparation adéquate des tâches/fonctions clés et des transactions autorisées, puis examinez la liste des utilisateurs et les privilèges d'accès spécifiques à l'utilisateur. Évaluer si la séparation des tâches garantit que la personne qui saisit les données n'est pas également responsable de la vérification du document. Vérifier l'adoption de contrôles compensatoires dans les cas où le SOD n'était pas réalisable."/>
+							<tx l="ara" name="استفسر عما إذا كان تصميم النظام يوفر استخدام قوائم التفويض المعتمدة مسبقًا وتأكد من ذلك. تحقق ، من خلال فحص قوائم التفويضات ، من تحديد مستويات التفويض بشكل صحيح لكل مجموعة من المعاملات. قم بتقييم ما إذا كانت قواعد التفويض الخاصة بإدخال البيانات والتحرير والقبول والرفض والتجاوز للفئات الرئيسية من المعاملات مصممة وموثقة جيدًا.
+لاحظ أن مستويات التفويض يتم تطبيقها بشكل صحيح أثناء تشغيل التطبيق في بيئة اختبار. تحقق ، من خلال استخدام CAATs أو وحدات التدقيق المدمجة ، من أن سجلات التفويض الموجودة في قاعدة البيانات متوافقة مع قواعد التفويض المحددة.
+حدد ما إذا كان جدول فصل الواجبات (SOD) موجودًا ، وقم بمراجعة الفصل المناسب بين المهام الرئيسية / وظائف الوظيفة والمعاملات المسموح بها ، ثم ابحث في قائمة المستخدمين وامتيازات الوصول الخاصة بالمستخدم. قم بتقييم ما إذا كان الفصل بين الواجبات يضمن أن الشخص الذي يقوم بإدخال البيانات ليس مسؤولاً أيضًا عن التحقق من المستند. التحقق من اعتماد ضوابط تعويضية في الحالات التي لم يكن SOD ممكنًا."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -3064,6 +3510,9 @@ of document. Verify the adoption of compensating controls in cases which SOD was
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Error Handling"/>
+					<tx l="spa" name="Manejo de errores"/>
+					<tx l="fre" name="La gestion des erreurs"/>
+					<tx l="ara" name="معالجة الأخطاء"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -3083,39 +3532,73 @@ of document. Verify the adoption of compensating controls in cases which SOD was
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Error Handling Is Part of the application"/>
+							<tx l="spa" name="El manejo de errores es parte de la aplicación"/>
+							<tx l="fre" name="La gestion des erreurs fait partie de l'application"/>
+							<tx l="ara" name="معالجة الخطأ جزء من التطبيق"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the application have adequate procedures for error handling?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Application user manual, procedures for error handling and remediation / updates"/>
+							<tx l="spa" name="Manual de usuario de la aplicación, procedimientos para el manejo de errores y corrección / actualizaciones"/>
+							<tx l="fre" name="Manuel d'utilisation de l'application, procédures de gestion des erreurs et de correction / mises à jour"/>
+							<tx l="ara" name="دليل مستخدم التطبيق ، إجراءات معالجة الأخطاء ومعالجتها / التحديثات"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Error types and messages
-
-Log review procedures
-
-Policies and procedures for dealing with rejected data 
-
-Suspense file review procedures
+							<tx l="eng" name="Error types and messages.
+Log review procedures.
+Policies and procedures for dealing with rejected data.
+Suspense file review procedures.
+"/>
+							<tx l="spa" name="Tipos de error y mensajes.
+Procedimientos de revisión de registros.
+Políticas y procedimientos para tratar los datos rechazados.
+Procedimientos de revisión de expedientes en suspenso.
+"/>
+							<tx l="fre" name="Types d'erreurs et messages.
+Procédures d'examen des journaux.
+Politiques et procédures de traitement des données rejetées.
+Procédures d'examen des dossiers d'attente.
+"/>
+							<tx l="ara" name="أنواع ورسائل الخطأ.
+إجراءات مراجعة السجل.
+سياسات وإجراءات التعامل مع البيانات المرفوضة.
+إجراءات مراجعة ملف التشويق.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Discuss the application’s error and exception handling with the developer and/or administrator. Inquire whether and confirm that policies and procedures exist for
-handling transactions that fail edit and validation checks.
-
+							<tx l="eng" name="Discuss the application’s error and exception handling with the developer and/or administrator. Inquire whether and confirm that policies and procedures exist for handling transactions that fail edit and validation checks.
 Verify whether the system provides error messages for every type of error (field level or transaction level) not meeting the edit validation.
-
 Verify how the application behaves if data is rejected by the input controls.
-Check whether the data items are recorded or if they are automatically written in a suspense file. Check if the automated suspense file includes codes indicating error types, date and time of entry and identify the person entering data. Evaluate
-if there are procedures for reviewing and correcting data in the suspense file before processing it again. 
+Check whether the data items are recorded or if they are automatically written in a suspense file. Check if the automated suspense file includes codes indicating error types, date and time of entry and identify the person entering data. Evaluate if there are procedures for reviewing and correcting data in the suspense file before processing it again. 
 Assess whether an escalation procedure is in place when error rates are too high and corrective action is taken.
-
 Ask managers about the existence of procedures for periodically reviewing the log. Verify whether the procedures include the initiation of corrective measures. Obtain 1 evidence – either documental or digital – that the log is being periodically reviewed.
+"/>
+							<tx l="spa" name="Analice el manejo de errores y excepciones de la aplicación con el desarrollador y / o administrador. Pregunte si existen políticas y procedimientos para manejar transacciones que no superan las comprobaciones de edición y validación y confirme que existen.
+Verifique si el sistema proporciona mensajes de error para cada tipo de error (nivel de campo o nivel de transacción) que no cumpla con la validación de edición.
+Verifique cómo se comporta la aplicación si los controles de entrada rechazan los datos.
+Compruebe si los elementos de datos se registran o si se escriben automáticamente en un archivo de suspenso. Verifique si el archivo de suspenso automatizado incluye códigos que indiquen los tipos de error, la fecha y la hora de entrada e identifique a la persona que ingresa los datos. Evalúe si existen procedimientos para revisar y corregir datos en el archivo de suspenso antes de procesarlo nuevamente.
+Evalúe si existe un procedimiento de escalamiento cuando las tasas de error son demasiado altas y se toman medidas correctivas.
+Pregunte a los gerentes sobre la existencia de procedimientos para revisar periódicamente el registro. Verificar si los procedimientos incluyen el inicio de medidas correctivas. Obtenga evidencia, ya sea documental o digital, de que el registro se revisa periódicamente.
+"/>
+							<tx l="fre" name="Discutez de la gestion des erreurs et des exceptions de l'application avec le développeur et/ou l'administrateur. Demandez si et confirmez qu'il existe des politiques et des procédures pour le traitement des transactions qui échouent aux vérifications d'édition et de validation.
+Vérifiez si le système fournit des messages d'erreur pour chaque type d'erreur (au niveau du champ ou au niveau de la transaction) ne répondant pas à la validation de modification.
+Vérifiez le comportement de l'application si les données sont rejetées par les contrôles d'entrée.
+Vérifiez si les données sont enregistrées ou si elles sont automatiquement inscrites dans un fichier d'attente. Vérifiez si le fichier d'attente automatisé comprend des codes indiquant les types d'erreurs, la date et l'heure de saisie et identifiez la personne qui saisit les données. Évaluez s'il existe des procédures de révision et de correction des données dans le dossier d'attente avant de le traiter à nouveau.
+Évaluez si une procédure d'escalade est en place lorsque les taux d'erreur sont trop élevés et que des mesures correctives sont prises.
+Interroger les managers sur l'existence de procédures de révision périodique du journal. Vérifier si les procédures incluent l'initiation de mesures correctives. Obtenez preuve - documentée ou numérique - que le journal est révisé périodiquement.
+"/>
+							<tx l="ara" name="ناقش خطأ التطبيق ومعالجة الاستثناءات مع المطور و / أو المسؤول. استفسر عما إذا كانت السياسات والإجراءات موجودة للتعامل مع المعاملات التي تفشل في عمليات التحقق من التحرير والتحقق من صحة وتأكد من ذلك.
+تحقق مما إذا كان النظام يوفر رسائل خطأ لكل نوع من أنواع الخطأ (مستوى الحقل أو مستوى المعاملة) لا يفي بالتحقق من صحة التحرير.
+تحقق من كيفية تصرف التطبيق إذا تم رفض البيانات بواسطة عناصر تحكم الإدخال.
+تحقق مما إذا تم تسجيل عناصر البيانات أو ما إذا كانت مكتوبة تلقائيًا في ملف معلق. تحقق مما إذا كان ملف التعليق الآلي يتضمن أكواد تشير إلى أنواع الأخطاء وتاريخ ووقت الإدخال وتحديد الشخص الذي يقوم بإدخال البيانات. قم بتقييم ما إذا كانت هناك إجراءات لمراجعة البيانات وتصحيحها في الملف المعلق قبل معالجتها مرة أخرى.
+قم بتقييم ما إذا كان إجراء التصعيد مطبقًا عندما تكون معدلات الخطأ عالية جدًا ويتم اتخاذ الإجراءات التصحيحية.
+اسأل المديرين عن وجود إجراءات لمراجعة السجل بشكل دوري. تحقق مما إذا كانت الإجراءات تتضمن بدء الإجراءات التصحيحية. الحصول على دليل - سواء كان موثقًا أو رقميًا - على أن السجل قيد المراجعة بشكل دوري.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3139,9 +3622,15 @@ Ask managers about the existence of procedures for periodically reviewing the lo
 			</Issue>
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
-					<tx l="eng" name="Souce Data Management"/>
+					<tx l="eng" name="Source Data Management"/>
+					<tx l="spa" name="Gestión de datos fuente"/>
+					<tx l="fre" name="Gestion des données sources"/>
+					<tx l="ara" name="إدارة مصدر البيانات"/>
 				</title>
 				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
 					<narr l="spa">
 						<ak/>
 					</narr>
@@ -3155,50 +3644,86 @@ Ask managers about the existence of procedures for periodically reviewing the lo
 				<Matrix id="Source Data Management">
 					<Objectives>
 						<obj>
-							<tx l="eng" name="How effective are the  management of source  data and relevant documents and paper trail?"/>
+							<tx l="eng" name="How effective are the management of source  data and relevant documents and paper trail?"/>
+							<tx l="spa" name="¿Qué tan efectiva es la gestión de los datos fuente y los documentos relevantes y los registros en papel?"/>
+							<tx l="fre" name="Quelle est l'efficacité de la gestion des données sources, des documents pertinents et de la trace papier ?"/>
+							<tx l="ara" name="ما مدى فعالية إدارة بيانات المصدر والوثائق ذات الصلة والأدلة الورقية؟"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is management of source documents, data collection and entry adequate?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency Data and Document Retention Policy and Procedures"/>
+							<tx l="spa" name="Política y procedimientos de retención de documentos y datos de la agencia"/>
+							<tx l="fre" name="Politique et procédures de conservation des données et des documents de l'agence"/>
+							<tx l="ara" name="سياسة وإجراءات الاحتفاظ بالبيانات والوثائق الخاصة بالوكالة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="
-Classes of source documents
-
-Entity’s criteria for timeliness, completeness and accuracy of source
-
-Documents Data preparation
-
-Procedures Data interfaces with other
-Applications 
-
-Document retention policies
-
-System flow diagrams
+							<tx l="eng" name="Classes of source documents.
+Entity’s criteria for timeliness, completeness and accuracy of source.
+Documents Data preparation.
+Procedures Data interfaces with other applications.
+Document retention policies.
+System flow diagrams.
+"/>
+							<tx l="spa" name="Clases de documentos fuente.
+Criterios de la entidad para puntualidad, integridad y precisión de la fuente.
+Documentos de preparación de datos.
+Procedimientos de interfaces de datos con otras aplicaciones.
+Políticas de retención de documentos.
+Diagramas de flujo del sistema.
+"/>
+							<tx l="fre" name="Classes de documents sources.
+Critères de l'entité concernant l'actualité, l'exhaustivité et l'exactitude de la source.
+Documents de préparation des données.
+Procédures d'interfaces de données avec d'autres applications.
+Politiques de conservation des documents.
+Organigrammes du système.
+"/>
+							<tx l="ara" name="فئات من وثائق المصدر.
+معايير الكيان لحسن توقيت واكتمال ودقة المصدر.
+وثائق إعداد البيانات.
+إجراءات واجهات البيانات مع التطبيقات الأخرى.
+سياسات الاحتفاظ بالمستندات.
+مخططات تدفق النظام.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Inspect and observe creation and documentation of data preparation procedures, and inquire whether and confirm that procedures are understood and the correct source media are used.
-
 Assess whether the Data Processing group (DP) or equivalent group maintains a log of all the user departments’ source documents received and their final disposal. 
-
-Verify the existence of a system of reconciliation of record counts with
-user department groups.
-
+Verify the existence of a system of reconciliation of record counts with user department groups.
 Verify that all source documents include standard components, contain proper documentation (e.g., timeliness, predetermined input codes, default values) and are authorised by management.
-
 Inspect whether critical source documents are pre-numbered and how out-ofsequence numbers are identified and taken into account. Identify and review out-of-sequence numbers, gaps and duplicates using automated tools (CAATs).
-
 Verify if there is assignment of unique and sequential numbers to each transaction preventing duplication.
-
 Enquire responsible personnel about retention policies. Verify how these policies are ensured. A sample of system records might be checked against its source documents.
-
+"/>
+							<tx l="spa" name="Inspeccione y observe la creación y documentación de los procedimientos de preparación de datos, y averigüe si se comprenden los procedimientos y si se utilizan los medios de origen correctos y confirme que se han utilizado.
+Evalúe si el grupo de procesamiento de datos (DP) o el grupo equivalente mantiene un registro de todos los documentos fuente de los departamentos de usuarios recibidos y su disposición final.
+Verificar la existencia de un sistema de conciliación de conteos de registros con grupos de departamentos de usuarios.
+Verifique que todos los documentos fuente incluyan componentes estándar, contengan la documentación adecuada (por ejemplo, puntualidad, códigos de entrada predeterminados, valores predeterminados) y estén autorizados por la administración.
+Inspeccione si los documentos de origen críticos están numerados previamente y cómo se identifican y se tienen en cuenta los números fuera de secuencia. Identifique y revise números fuera de secuencia, vacíos y duplicados utilizando herramientas automatizadas (CAAT).
+Verifique si hay asignación de números únicos y secuenciales a cada transacción evitando la duplicación.
+Pregunte al personal responsable sobre las políticas de retención. Verifique cómo se garantizan estas políticas. Se puede comparar una muestra de registros del sistema con sus documentos de origen.
+"/>
+							<tx l="fre" name="Inspectez et observez la création et la documentation des procédures de préparation des données, et vérifiez si et confirmez que les procédures sont comprises et que le support source correct est utilisé.
+Évaluer si le groupe de traitement des données (DP) ou un groupe équivalent tient un journal de tous les documents sources des services utilisateurs reçus et de leur élimination finale.
+Vérifier l'existence d'un système de rapprochement des comptes d'enregistrements avec les groupes de services utilisateurs.
+Vérifiez que tous les documents sources incluent des composants standard, contiennent une documentation appropriée (par exemple, actualité, codes d'entrée prédéterminés, valeurs par défaut) et sont autorisés par la direction.
+Vérifiez si les documents sources critiques sont prénumérotés et comment les numéros hors séquence sont identifiés et pris en compte. Identifiez et examinez les numéros hors séquence, les lacunes et les doublons à l'aide d'outils automatisés (CAAT).
+Vérifiez s'il y a une attribution de numéros uniques et séquentiels à chaque transaction empêchant la duplication.
+Renseignez-vous auprès du personnel responsable sur les politiques de rétention. Vérifiez comment ces politiques sont assurées. Un échantillon d'enregistrements système peut être vérifié par rapport à ses documents source.
+"/>
+							<tx l="ara" name="فحص ومراقبة إنشاء وتوثيق إجراءات إعداد البيانات ، والاستفسار عما إذا كانت الإجراءات مفهومة واستخدام وسائط المصدر الصحيحة وتأكيدها.
+قم بتقييم ما إذا كانت مجموعة معالجة البيانات (DP) أو المجموعة المكافئة تحتفظ بسجل لجميع مستندات المصدر الخاصة بأقسام المستخدمين المستلمة والتخلص النهائي منها.
+تحقق من وجود نظام لتسوية عدد السجلات مع مجموعات أقسام المستخدمين.
+تحقق من أن جميع مستندات المصدر تتضمن مكونات قياسية ، وتحتوي على وثائق مناسبة (على سبيل المثال ، حسن التوقيت ، ورموز الإدخال المحددة مسبقًا ، والقيم الافتراضية) ومصرح بها من قبل الإدارة.
+افحص ما إذا كانت مستندات المصدر الهامة مرقمة مسبقًا وكيف يتم تحديد الأرقام خارج التسلسل وأخذها في الاعتبار. تحديد ومراجعة الأرقام غير المتسلسلة والفجوات والتكرارات باستخدام الأدوات الآلية (CAATs).
+تحقق مما إذا كان هناك تخصيص لأرقام فريدة ومتسلسلة لكل معاملة لمنع الازدواجية.
+استفسر من الموظفين المسؤولين عن سياسات الاحتفاظ. تحقق من كيفية ضمان هذه السياسات. قد يتم التحقق من عينة من سجلات النظام مقابل مستندات المصدر الخاصة بها.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3223,8 +3748,14 @@ Enquire responsible personnel about retention policies. Verify how these policie
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Valid Data"/>
+					<tx l="spa" name="Datos válidos"/>
+					<tx l="fre" name="Données valides"/>
+					<tx l="ara" name="بيانات صالحة"/>
 				</title>
 				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
 					<narr l="spa">
 						<ak/>
 					</narr>
@@ -3239,49 +3770,85 @@ Enquire responsible personnel about retention policies. Verify how these policie
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether valid data is being entered into the application by authorised personnel."/>
+							<tx l="spa" name="Evaluar si personal autorizado está ingresando datos válidos en la aplicación."/>
+							<tx l="fre" name="Évaluer si des données valides sont saisies dans l'application par le personnel autorisé."/>
+							<tx l="ara" name="لتقييم ما إذا كان يتم إدخال بيانات صحيحة في التطبيق من قبل الموظفين المعتمدين."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Validation of inputs - Does the application have adequate input validation controls?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Application manual or data entry procedures for various applications (financial, mission, personnel, etc.)"/>
+							<tx l="spa" name="Manual de aplicación o procedimientos de entrada de datos para diversas aplicaciones (financiera, misión, personal, etc.)"/>
+							<tx l="fre" name="Manuel d'application ou procédures de saisie de données pour diverses applications (financières, mission, personnel, etc.)"/>
+							<tx l="ara" name="دليل التطبيق أو إجراءات إدخال البيانات لمختلف التطبيقات (المالية ، والبعثات ، والموظفين ، وما إلى ذلك)"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Business requirements and rules
-
-Data input types
-
-Legal and external compliance requirements
-
-Structure of data interfaces with other applications 
-
-System flow diagrams
-
-User manuals
-
-Validation rules
+							<tx l="eng" name="Business requirements and rules.
+Data input types.
+Legal and external compliance requirements.
+Structure of data interfaces with other applications. 
+System flow diagrams.
+User manuals.
+Validation rules.
+"/>
+							<tx l="spa" name="Requisitos y reglas del negocio.
+Tipos de entrada de datos.
+Requisitos de cumplimiento legal y externo.
+Estructura de interfaces de datos con otras aplicaciones.
+Diagramas de flujo del sistema.
+Manuales de usuario.
+Reglas de validación.
+"/>
+							<tx l="fre" name="Exigences et règles de l'entreprise.
+Types d'entrée de données.
+Exigences de conformité légales et externes.
+Structure des interfaces de données avec d'autres applications.
+Organigrammes du système.
+Manuels d'utilisation.
+Règles de validation.
+"/>
+							<tx l="ara" name="Business requirements and rules.
+Data input types.
+Legal and external compliance requirements.
+Structure of data interfaces with other applications. 
+System flow diagrams.
+User manuals.
+Validation rules.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Analyse business rules, requirements, application documentation and inquire business process owners to determine which validation rules should be assured
-in the business process being assessed. Check if these validation rules were proper designed and documented. Verify whether the validation controls for data input are being enforced: observing application users into real action; running the application in a testing environment and testing different interfaces for data entry; and analysing data records stored in the database through the use of CAATs.
+							<tx l="eng" name="Analyse business rules, requirements, application documentation and inquire business process owners to determine which validation rules should be assured in the business process being assessed. Check if these validation rules were proper designed and documented. Verify whether the validation controls for data input are being enforced: observing application users into real action; running the application in a testing environment and testing different interfaces for data entry; and analysing data records stored in the database through the use of CAATs.
 Obtain functional description for each class of input and design information on transaction data entry. Inspect the functionality and design for the presence of timely and complete checks and error messages. If possible, observe transaction data entry.
-
-Assess whether validation criteria and parameters on input data match business
-rules and enforce rejection of unmatched input types. In case of online processing
-systems, verify that invalid data is rejected or edited on entry and test the logic checks/calculation checks performed. Database operatives (such as *, =, or, select) should be disallowed as valid input, as they can be used to disrupt or retrieve information from the database.
-
+Assess whether validation criteria and parameters on input data match business rules and enforce rejection of unmatched input types. In case of online processing systems, verify that invalid data is rejected or edited on entry and test the logic checks/calculation checks performed. Database operatives (such as *, =, or, select) should be disallowed as valid input, as they can be used to disrupt or retrieve information from the database.
 Inquire managers about whether validation criteria and parameters on input data are periodically reviewed, confirmed and updated in a timely, appropriate and authorised manner. Assurance could be obtained through documentation review, code analysis or interviews.
-
-Inquire and check documentation in order to verify the possibility of overriding input data control validations and controls. Verify if the override actions are being
-properly logged and reviewed for appropriateness. Check whether authority to override is restricted to only supervisory staff and to a limited number of situations. Inspect error corrections, entry overrides and other documents to verify that the procedures are followed.
-
-Determine which interfaces exist with the application. These interfaces could be in the form of real-time data transmission or periodic transmission of data files via batch processes. Review system flow diagrams and system code, and interview
-the application developers or administrator to obtain information on interfaces and controls over them. E.g.: Control totals from interface transmissions. E.g., Hash
+Inquire and check documentation in order to verify the possibility of overriding input data control validations and controls. Verify if the override actions are being properly logged and reviewed for appropriateness. Check whether authority to override is restricted to only supervisory staff and to a limited number of situations. Inspect error corrections, entry overrides and other documents to verify that the procedures are followed.
+Determine which interfaces exist with the application. These interfaces could be in the form of real-time data transmission or periodic transmission of data files via batch processes. Review system flow diagrams and system code, and interview the application developers or administrator to obtain information on interfaces and controls over them. E.g.: Control totals from interface transmissions. E.g., Hash
+"/>
+							<tx l="spa" name="Analice las reglas del negocio, los requisitos, la documentación de la aplicación y consulte a los propietarios de los procesos del negocio para determinar qué reglas de validación deben asegurarse en el proceso del negocio que se evalúa. Compruebe si estas reglas de validación se diseñaron y documentaron correctamente. Verificar si se están aplicando los controles de validación para la entrada de datos: observar a los usuarios de la aplicación en acción real; ejecutar la aplicación en un entorno de prueba y probar diferentes interfaces para la entrada de datos; y analizar los registros de datos almacenados en la base de datos mediante el uso de CAAT.
+Obtenga una descripción funcional para cada clase de entrada y diseñe información sobre la entrada de datos de transacciones. Inspeccione la funcionalidad y el diseño para detectar la presencia de verificaciones y mensajes de error completos y oportunos. Si es posible, observe la entrada de datos de la transacción.
+Evalúe si los criterios y parámetros de validación de los datos de entrada coinciden con las reglas del negocio y haga cumplir el rechazo de tipos de entrada incomparables. En el caso de los sistemas de procesamiento en línea, verifique que los datos no válidos sean rechazados o editados al ingresar y pruebe las verificaciones lógicas / verificaciones de cálculo realizadas. Los operativos de la base de datos (como *, = o, select) deben rechazarse como entrada válida, ya que pueden usarse para interrumpir o recuperar información de la base de datos.
+Pregunte a los gerentes si los criterios y parámetros de validación de los datos de entrada se revisan, confirman y actualizan periódicamente de manera oportuna, apropiada y autorizada. La garantía se puede obtener mediante la revisión de la documentación, el análisis de códigos o entrevistas.
+Consultar y verificar la documentación para verificar la posibilidad de invalidar las validaciones y los controles de control de datos de entrada. Verifique si las acciones de anulación se registran correctamente y se revisan para verificar su idoneidad. Compruebe si la autoridad para anular está restringida solo al personal de supervisión y a un número limitado de situaciones. Inspeccione las correcciones de errores, anulaciones de entrada y otros documentos para verificar que se sigan los procedimientos.
+Determine qué interfaces existen con la aplicación. Estas interfaces podrían adoptar la forma de transmisión de datos en tiempo real o transmisión periódica de archivos de datos a través de procesos por lotes. Revise los diagramas de flujo del sistema y el código del sistema, y ​​entreviste a los desarrolladores o al administrador de la aplicación para obtener información sobre las interfaces y los controles sobre ellos. Ej .: Controle los totales de las transmisiones de la interfaz. Por ejemplo, hash.
+"/>
+							<tx l="fre" name="Analysez les règles métier, les exigences, la documentation de l'application et interrogez les propriétaires de processus métier pour déterminer quelles règles de validation doivent être assurées dans le processus métier en cours d'évaluation. Vérifiez si ces règles de validation ont été correctement conçues et documentées. Vérifiez si les contrôles de validation pour la saisie des données sont appliqués : observation des utilisateurs de l'application en action réelle ; exécuter l'application dans un environnement de test et tester différentes interfaces pour la saisie de données ; et l'analyse des enregistrements de données stockés dans la base de données à l'aide de CAAT.
+Obtenez une description fonctionnelle pour chaque classe d'informations d'entrée et de conception lors de la saisie des données de transaction. Inspectez la fonctionnalité et la conception pour la présence de contrôles et de messages d'erreur opportuns et complets. Si possible, observez la saisie des données de transaction.
+Évaluez si les critères et paramètres de validation sur les données d'entrée correspondent aux règles métier et appliquez le rejet des types d'entrée sans correspondance. Dans le cas des systèmes de traitement en ligne, vérifiez que les données non valides sont rejetées ou modifiées lors de la saisie et testez les contrôles logiques/contrôles de calcul effectués. Les opérateurs de base de données (tels que *, = ou, select) doivent être interdits en tant qu'entrée valide, car ils peuvent être utilisés pour perturber ou récupérer des informations de la base de données.
+Demandez aux gestionnaires si les critères de validation et les paramètres des données d'entrée sont périodiquement examinés, confirmés et mis à jour en temps opportun, de manière appropriée et autorisée. L'assurance pourrait être obtenue au moyen d'un examen de la documentation, d'une analyse de code ou d'entrevues.
+Renseignez-vous et vérifiez la documentation afin de vérifier la possibilité d'outrepasser les validations et les contrôles de contrôle des données d'entrée. Vérifiez si les actions de remplacement sont correctement enregistrées et vérifiées pour leur pertinence. Vérifiez si le pouvoir d'outrepasser est limité au seul personnel de supervision et à un nombre limité de situations. Inspecter les corrections d'erreurs, les remplacements d'entrées et autres documents pour vérifier que les procédures sont suivies.
+Déterminez quelles interfaces existent avec l'application. Ces interfaces pourraient prendre la forme d'une transmission de données en temps réel ou d'une transmission périodique de fichiers de données via des processus par lots. Examinez les organigrammes du système et le code du système, et interrogez les développeurs d'applications ou l'administrateur pour obtenir des informations sur les interfaces et les contrôles sur celles-ci. Ex. : Totaux de contrôle des transmissions d'interface. Par exemple, Hash.
+"/>
+							<tx l="ara" name="قم بتحليل قواعد ومتطلبات العمل ووثائق التطبيق واستفسر من مالكي عمليات الأعمال لتحديد قواعد التحقق من الصحة التي يجب ضمانها في عملية الأعمال التي يتم تقييمها. تحقق مما إذا كانت قواعد التحقق هذه مصممة وموثقة بشكل صحيح. التحقق مما إذا كان يتم فرض ضوابط التحقق من صحة إدخال البيانات: مراقبة مستخدمي التطبيق في عمل حقيقي ؛ تشغيل التطبيق في بيئة اختبار واختبار واجهات مختلفة لإدخال البيانات ؛ وتحليل سجلات البيانات المخزنة في قاعدة البيانات من خلال استخدام CAATs.
+احصل على وصف وظيفي لكل فئة من فئات المدخلات ومعلومات التصميم الخاصة بإدخال بيانات المعاملة. افحص الوظائف والتصميم بحثًا عن وجود فحوصات ورسائل خطأ كاملة وفي الوقت المناسب. إذا أمكن ، لاحظ إدخال بيانات المعاملة.
+قم بتقييم ما إذا كانت معايير التحقق من الصحة والمعلمات على بيانات الإدخال تتطابق مع قواعد العمل وفرض رفض أنواع المدخلات غير المتطابقة. في حالة أنظمة المعالجة عبر الإنترنت ، تحقق من رفض البيانات غير الصالحة أو تحريرها عند الإدخال واختبر عمليات التحقق المنطقية / عمليات التحقق من الحساب التي تم إجراؤها. يجب عدم السماح بعوامل تشغيل قاعدة البيانات (مثل * أو = أو تحديد) كمدخلات صالحة ، حيث يمكن استخدامها لتعطيل المعلومات أو استردادها من قاعدة البيانات.
+استفسر من المديرين عما إذا كانت معايير التحقق من الصحة والمعلمات على بيانات الإدخال يتم مراجعتها بشكل دوري وتأكيدها وتحديثها في الوقت المناسب وبطريقة مناسبة ومعتمدة. يمكن الحصول على التأكيد من خلال مراجعة الوثائق أو تحليل الكود أو المقابلات.
+الاستفسار والتحقق من الوثائق للتحقق من إمكانية تجاوز عمليات التحقق من صحة وضوابط التحكم في بيانات الإدخال. تحقق مما إذا كان يتم تسجيل إجراءات الإلغاء بشكل صحيح ومراجعتها للتأكد من ملاءمتها. تحقق مما إذا كانت سلطة التجاوز مقصورة على الموظفين الإشرافيين فقط وعدد محدود من المواقف. افحص تصحيحات الأخطاء وتجاوزات الإدخال والمستندات الأخرى للتحقق من اتباع الإجراءات.
+تحديد الواجهات الموجودة مع التطبيق. يمكن أن تكون هذه الواجهات في شكل نقل بيانات في الوقت الفعلي أو نقل دوري لملفات البيانات عبر عمليات دفعية. راجع مخططات تدفق النظام ورمز النظام ، وقم بمقابلة مطوري التطبيق أو المسؤول للحصول على معلومات حول الواجهات والضوابط عليها. على سبيل المثال: مجاميع التحكم من إرسالات الواجهة. على سبيل المثال ، تجزئة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3307,8 +3874,14 @@ the application developers or administrator to obtain information on interfaces 
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Processing"/>
+				<tx l="spa" name="Procesando"/>
+				<tx l="fre" name="Traitement"/>
+				<tx l="ara" name="معالجة"/>
 			</title>
 			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
 				<narr l="spa">
 					<ak/>
 				</narr>
@@ -3322,9 +3895,21 @@ the application developers or administrator to obtain information on interfaces 
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data Integrity and Reliability"/>
+					<tx l="eng" name="Integridad y confiabilidad de los datos"/>
+					<tx l="eng" name="Intégrité et fiabilité des données"/>
+					<tx l="eng" name="تكامل البيانات والموثوقية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
 						<ak/>
 					</narr>
 				</Narrative>
@@ -3332,47 +3917,81 @@ the application developers or administrator to obtain information on interfaces 
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the application ensures data integrity, validity and reliability throughout the transaction processing cycle"/>
+							<tx l="spa" name="Evaluar si la aplicación garantiza la integridad, validez y confiabilidad de los datos a lo largo del ciclo de procesamiento de transacciones."/>
+							<tx l="fre" name="To assess whether the application ensures data integrity, validity and reliability throughout the transaction processing cycle"/>
+							<tx l="ara" name="لتقييم ما إذا كان التطبيق يضمن سلامة البيانات وصلاحيتها وموثوقيتها خلال دورة معالجة المعاملات"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Do the application controls ensure the integrity and completeness of its transactions?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Application manual, business logic, user needs, applicable mission rules"/>
+							<tx l="spa" name="Manual de aplicación, lógica del negocio, necesidades del usuario, reglas de misión aplicables"/>
+							<tx l="fre" name="Manuel d'application, logique métier, besoins utilisateurs, règles de mission applicables"/>
+							<tx l="ara" name="دليل التطبيق ، منطق الأعمال ، احتياجات المستخدم ، قواعد المهمة المعمول بها"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="
-Application design documentation
-
-Business rules and requirements
-
-Out-of-balance reports 
-
-Reconciliations
-
-Report review procedures Suspense files
+							<tx l="eng" name="Application design documentation.
+Business rules and requirements.
+Out-of-balance reports.
+Reconciliations.
+Report review procedures Suspense files.
+"/>
+							<tx l="spa" name="Documentación de diseño de aplicaciones.
+Normas y requisitos del negocio.
+Informes.
+Reconciliaciones.
+Procedimientos de revisión de informes Archivos en suspenso.
+"/>
+							<tx l="fre" name="Documentation de conception d'applications.
+Règles et exigences de l'entreprise.
+Rapports.
+Réconciliations.
+Procédures d'examen des rapports Dossiers d'attente.
+"/>
+							<tx l="ara" name="وثائق تصميم التطبيق.
+قواعد ومتطلبات العمل.
+التقارير.
+المصالحات.
+تقرير إجراءات مراجعة الملفات المعلقة.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="IAssess whether the application has adequate validity checks in place to ensure processing integrity. Inspect the functionality and design for the presence of sequence and duplication errors, referential integrity checks, control, and hash totals.
-
-Inspect reconciliations and other documents to verify whether input counts are coherent with output counts to ensure completeness of data processing. Trace transactions through the process to verify that reconciliations effectively determine
-whether file totals match or the out-of-balance condition is reported. Inquire whether control files are used to record transaction counts and monetary values, and that the values are compared after posting.
-
+							<tx l="eng" name="Assess whether the application has adequate validity checks in place to ensure processing integrity. Inspect the functionality and design for the presence of sequence and duplication errors, referential integrity checks, control, and hash totals.
+Inspect reconciliations and other documents to verify whether input counts are coherent with output counts to ensure completeness of data processing. Trace transactions through the process to verify that reconciliations effectively determine whether file totals match or the out-of-balance condition is reported. Inquire whether control files are used to record transaction counts and monetary values, and that the values are compared after posting.
 Verify that reports are generated identifying out-of-balance conditions and that the reports are reviewed, approved and distributed to the appropriate personnel.
-
-Take a sample of data input transactions. Use appropriate automated analysis and
-search tools to identify cases where errors were identified erroneously and cases where errors were not detected.
-
+Take a sample of data input transactions. Use appropriate automated analysis and search tools to identify cases where errors were identified erroneously and cases where errors were not detected.
 Inquire whether and confirm that utilities are used, where possible, to automatically maintain the integrity of data during unexpected interruptions in data processing.
-
 Inspect the audit trail and other documents, plans, policies and procedures to verify that system capabilities are effectively designed to automatically maintain data integrity.
-
-Inspect the functional description and design information on transaction data entry to verify whether transactions failing validation routines are posted to suspense
-files. Verify that suspense files are correctly and consistently produced and that users are informed of transactions posted to suspense accounts. For a sample of  transaction systems, verify that suspense accounts and suspense files for transactions failing validation routines contain only recent errors. Confirm that older failing transactions have been appropriately remediated
+Inspect the functional description and design information on transaction data entry to verify whether transactions failing validation routines are posted to suspense files. Verify that suspense files are correctly and consistently produced and that users are informed of transactions posted to suspense accounts. For a sample of  transaction systems, verify that suspense accounts and suspense files for transactions failing validation routines contain only recent errors. Confirm that older failing transactions have been appropriately remediated.
+"/>
+							<tx l="spa" name="Evalúe si la aplicación cuenta con controles de validación adecuados para garantizar la integridad del procesamiento. Inspeccione la funcionalidad y el diseño para detectar la presencia de errores de secuencia y duplicación, verificaciones de integridad referencial, control y totales hash.
+Inspeccione las conciliaciones y otros documentos para verificar si los recuentos de entrada son coherentes con los recuentos de salida para garantizar la integridad del procesamiento de datos. Rastree las transacciones a través del proceso para verificar que las conciliaciones determinen efectivamente si los totales del archivo coinciden o si se informa la condición de desequilibrio. Pregunte si los archivos de control se utilizan para registrar los recuentos de transacciones y los valores monetarios, y si los valores se comparan después de la contabilización.
+Verifique que se generen informes que identifiquen las condiciones de desequilibrio y que los informes se revisen, aprueben y distribuyan al personal correspondiente.
+Tome una muestra de transacciones de entrada de datos. Utilice las herramientas de búsqueda y análisis automatizadas adecuadas para identificar los casos en los que se identificaron errores por error y los casos en los que no se detectaron.
+Pregunte si se utilizan servicios públicos y confirme, cuando sea posible, para mantener automáticamente la integridad de los datos durante interrupciones inesperadas en el procesamiento de datos.
+Inspeccione la pista de auditoría (audit trail) y otros documentos, planes, políticas y procedimientos para verificar que las capacidades del sistema estén diseñadas de manera efectiva para mantener automáticamente la integridad de los datos.
+Inspeccione la descripción funcional y la información de diseño en la entrada de datos de transacciones para verificar si las transacciones que fallan en las rutinas de validación se publican en archivos de suspensión. Verifique que los archivos de suspenso se produzcan de manera correcta y coherente y que los usuarios estén informados de las transacciones registradas en las cuentas de suspenso. Para obtener una muestra de sistemas de transacciones, verifique que las cuentas en suspenso y los archivos en suspenso para transacciones que no superen las rutinas de validación contengan solo errores recientes. Confirme que las transacciones fallidas más antiguas se hayan corregido adecuadamente.
+"/>
+							<tx l="fre" name="Évaluez si l'application dispose de contrôles de validation adéquats pour garantir l'intégrité du traitement. Inspectez la fonctionnalité et la conception pour la présence d'erreurs de séquence et de duplication, les contrôles d'intégrité référentielle, le contrôle et les totaux de hachage.
+Inspecter les rapprochements et autres documents pour vérifier si les décomptes d'entrée sont cohérents avec les décomptes de sortie pour assurer l'exhaustivité du traitement des données. Suivez les transactions tout au long du processus pour vérifier que les rapprochements déterminent efficacement si les totaux des fichiers correspondent ou si la condition de déséquilibre est signalée. Demandez si les fichiers de contrôle sont utilisés pour enregistrer le nombre de transactions et les valeurs monétaires, et si les valeurs sont comparées après la publication.
+Vérifiez que des rapports sont générés identifiant les conditions de déséquilibre et que les rapports sont examinés, approuvés et distribués au personnel approprié.
+Prenez un échantillon de transactions d'entrée de données. Utilisez des outils d'analyse et de recherche automatisés appropriés pour identifier les cas où les erreurs ont été identifiées par erreur et les cas où les erreurs n'ont pas été détectées.
+Demandez si et confirmez que des utilitaires sont utilisés, dans la mesure du possible, pour maintenir automatiquement l'intégrité des données lors d'interruptions inattendues du traitement des données.
+Inspectez la piste d'audit (audit trail) et d'autres documents, plans, politiques et procédures pour vérifier que les capacités du système sont effectivement conçues pour maintenir automatiquement l'intégrité des données.
+Inspectez la description fonctionnelle et les informations de conception sur la saisie des données de transaction pour vérifier si les transactions qui échouent aux routines de validation sont enregistrées dans des fichiers d'attente. Vérifier que les fichiers d'attente sont produits correctement et de manière cohérente et que les utilisateurs sont informés des transactions enregistrées sur les comptes d'attente Pour un échantillon de systèmes de transactions, vérifiez que les comptes d'attente et les fichiers d'attente pour les transactions dont les routines de validation échouent contiennent uniquement des erreurs récentes. Confirmez que les anciennes transactions défaillantes ont été corrigées de manière appropriée.
+"/>
+							<tx l="ara" name="قم بتقييم ما إذا كان التطبيق يحتوي على فحوصات تحقق كافية لضمان سلامة المعالجة. افحص الوظائف والتصميم بحثًا عن وجود أخطاء في التسلسل والنسخ ، وفحوصات السلامة المرجعية ، والتحكم ، وإجماليات التجزئة.
+افحص التسويات والمستندات الأخرى للتحقق مما إذا كانت عمليات جرد الإدخال متسقة مع أعداد المخرجات لضمان اكتمال معالجة البيانات. تتبع المعاملات من خلال العملية للتحقق من أن التسويات تحدد بشكل فعال ما إذا كانت إجماليات الملفات تتطابق أو يتم الإبلاغ عن حالة عدم التوازن. استفسر عما إذا كانت ملفات التحكم تُستخدم لتسجيل عدد المعاملات والقيم النقدية ، وأن القيم تتم مقارنتها بعد الترحيل.
+تحقق من إنشاء التقارير التي تحدد الظروف غير المتوازنة وأن التقارير تتم مراجعتها والموافقة عليها وتوزيعها على الموظفين المناسبين.
+خذ عينة من معاملات إدخال البيانات. استخدم أدوات التحليل والبحث الآلية المناسبة لتحديد الحالات التي تم فيها تحديد الأخطاء بشكل خاطئ والحالات التي لم يتم فيها اكتشاف الأخطاء.
+استفسر عما إذا كانت الأدوات المساعدة تُستخدم وتأكد من استخدامها ، حيثما أمكن ، للحفاظ تلقائيًا على سلامة البيانات أثناء الانقطاعات غير المتوقعة في معالجة البيانات.
+افحص مسار التدقيق والمستندات والخطط والسياسات والإجراءات الأخرى للتحقق من أن قدرات النظام مصممة بشكل فعال للحفاظ على تكامل البيانات تلقائيًا.
+افحص الوصف الوظيفي ومعلومات التصميم الخاصة بإدخال بيانات المعاملة للتحقق مما إذا كانت المعاملات الفاشلة لإجراءات التحقق من الصحة قد تم ترحيلها إلى الملفات المعلقة. تحقق من أن الملفات المعلقة يتم إنتاجها بشكل صحيح ومتسق وأن المستخدمين يتم إبلاغهم بالمعاملات التي تم ترحيلها إلى الحسابات المعلقة. بالنسبة لعينة من أنظمة المعاملات ، تحقق من أن الحسابات المعلقة وملفات التعليق للمعاملات التي فشلت في إجراءات التحقق من الصحة تحتوي على أخطاء حديثة فقط. تأكد من أن المعاملات القديمة الفاشلة قد تم إصلاحها بشكل مناسب.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3398,8 +4017,14 @@ files. Verify that suspense files are correctly and consistently produced and th
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Output"/>
+				<tx l="spa" name="Producción"/>
+				<tx l="fre" name="Production"/>
+				<tx l="ara" name="انتاج |"/>
 			</title>
 			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
 				<narr l="spa">
 					<ak/>
 				</narr>
@@ -3413,8 +4038,14 @@ files. Verify that suspense files are correctly and consistently produced and th
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Application Security"/>
+					<tx l="spa" name="Seguridad de la aplicación"/>
+					<tx l="fre" name="Sécurité des applications"/>
+					<tx l="ara" name="أمان التطبيق"/>
 				</title>
 				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
 					<narr l="spa">
 						<ak/>
 					</narr>
@@ -3429,39 +4060,69 @@ files. Verify that suspense files are correctly and consistently produced and th
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether application’s information is properly secured against misuse."/>
+							<tx l="spa" name="Evalúe si la información de la aplicación está protegida adecuadamente contra el uso indebido."/>
+							<tx l="fre" name="Évaluez si les informations de l'application sont correctement protégées contre les abus."/>
+							<tx l="ara" name="تقييم ما إذا كانت معلومات التطبيق مؤمنة بشكل صحيح ضد سوء الاستخدام."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Do the traceability mechanisms of the application are sufficient for its purpose?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Agency Security Policy, Data Protection manual, access control logs, etc."/>
+							<tx l="spa" name="Política de seguridad de la agencia, manual de protección de datos, logs de control de acceso, etc."/>
+							<tx l="fre" name="Politique de sécurité de l'agence, manuel de protection des données, journaux de contrôle d'accès, etc."/>
+							<tx l="ara" name="سياسة أمان الوكالة ، ودليل حماية البيانات ، وسجلات التحكم في الوصول ، وما إلى ذلك."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Audit trail structure and documentation
-
-Override policies
-
-Review procedures
-
-System flowcharts
+							<tx l="eng" name="Audit trail structure and documentation.
+Override policies.
+Review procedures.
+System flowcharts.
+"/>
+							<tx l="spa" name="Estructura y documentación de la pista de auditoría (audit trail).
+Anular políticas.
+Revise los procedimientos.
+Diagramas de flujo del sistema.
+"/>
+							<tx l="fre" name="Structure et documentation de la piste d'audit (audit trail).
+Ignorer les politiques.
+Réviser les procédures.
+Organigrammes du système.
+"/>
+							<tx l="ara" name="هيكل مسار التدقيق والوثائق.
+تجاوز السياسات.
+مراجعة الإجراءات.
+مخططات انسيابية للنظام.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="
-Obtain documentation and assess the design, implementation, access and review of audit trails. Inspect the audit trail structure and other documents to verify that the audit trail is designed effectively. Inquire who can disable or delete the audit trails.
-
+							<tx l="eng" name="Obtain documentation and assess the design, implementation, access and review of audit trails. Inspect the audit trail structure and other documents to verify that the audit trail is designed effectively. Inquire who can disable or delete the audit trails.
 Inspect the audit trail, other documents, plans, policies and procedures to verify that adjustments, overrides and high-value transactions are designed effectively to be promptly reviewed in detail.
-
-Inspect the audit trail, transactions (or batches), reviews and other documents; trace transactions through the process and, where possible, use automated evidence collection, including sample data, embedded audit modules or CAATs,
-to verify that periodic review and maintenance of the audit trail effectively detects unusual activity and supervisor reviews are effective.
-
+Inspect the audit trail, transactions (or batches), reviews and other documents; trace transactions through the process and, where possible, use automated evidence collection, including sample data, embedded audit modules or CAATs, to verify that periodic review and maintenance of the audit trail effectively detects unusual activity and supervisor reviews are effective.
 Inquire how the access to the audit trail is restricted. Examine access rights and access logs to the audit trail files. Verify whether only restrict and authorised personnel have access to the audit trail. Assess if the audit trail is protected against privileged modifications.
-
 Verify, where possible, using automated evidence collection, if unique identifiers are being assigned to each transaction.
+"/>
+							<tx l="spa" name="Obtener documentación y evaluar el diseño, implementación, acceso y revisión de pistas de auditoría (audit trail). Inspeccione la estructura de la pista de auditoría y otros documentos para verificar que la pista de auditoría esté diseñada de manera eficaz. Pregunte quién puede deshabilitar o eliminar las pistas de auditoría.
+Inspeccione la pista de auditoría, otros documentos, planes, políticas y procedimientos para verificar que los ajustes, anulaciones y transacciones de alto valor estén diseñados de manera efectiva para ser revisados ​​en detalle con prontitud.
+Inspeccionar la pista de auditoría, transacciones (o lotes), revisiones y otros documentos; rastrear transacciones a través del proceso y, cuando sea posible, utilizar la recopilación de evidencia automatizada, incluidos datos de muestra, módulos de auditoría incorporados o CAAT, para verificar que la revisión periódica y el mantenimiento de la pista de auditoría detectan de manera efectiva la actividad inusual y las revisiones de los supervisores son efectivas.
+Pregunte cómo se restringe el acceso a la pista de auditoría. Examine los derechos de acceso y los registros de acceso a los archivos de seguimiento de auditoría. Verifique si solo el personal autorizado y restringido tiene acceso a la pista de auditoría. Evalúe si la pista de auditoría está protegida contra modificaciones privilegiadas.
+Verifique, cuando sea posible, mediante la recopilación de pruebas automatizada, si se están asignando identificadores únicos a cada transacción.
+"/>
+							<tx l="fre" name="Obtenir de la documentation et évaluer la conception, la mise en œuvre, l'accès et l'examen des pistes d'audit (audit trail). Inspectez la structure de la piste d'audit et d'autres documents pour vérifier que la piste d'audit est conçue de manière efficace. Demandez qui peut désactiver ou supprimer les pistes d'audit.
+Inspectez la piste d'audit, les autres documents, plans, politiques et procédures pour vérifier que les ajustements, les dérogations et les transactions de grande valeur sont conçus efficacement pour être rapidement examinés en détail.
+Inspecter la piste d'audit, les transactions (ou lots), les revues et autres documents ; suivre les transactions tout au long du processus et, si possible, utiliser la collecte automatisée de preuves, y compris des échantillons de données, des modules d'audit intégrés ou des CAAT, pour vérifier que l'examen et la maintenance périodiques de la piste d'audit détectent efficacement les activités inhabituelles et que les examens du superviseur sont efficaces.
+Renseignez-vous sur la manière dont l'accès à la piste d'audit est restreint. Examinez les droits d'accès et les journaux d'accès aux fichiers de piste d'audit. Vérifiez si seul le personnel restreint et autorisé a accès à la piste d'audit. Évaluez si la piste d'audit est protégée contre les modifications privilégiées.
+Vérifiez, si possible, à l'aide de la collecte automatisée de preuves, si des identifiants uniques sont attribués à chaque transaction.
+"/>
+							<tx l="ara" name="الحصول على الوثائق وتقييم التصميم والتنفيذ والوصول ومراجعة مسارات التدقيق. افحص هيكل مسار التدقيق والمستندات الأخرى للتحقق من أن مسار التدقيق مصمم بشكل فعال. استفسر من يمكنه تعطيل أو حذف مسارات التدقيق.
+افحص مسار التدقيق والمستندات الأخرى والخطط والسياسات والإجراءات للتحقق من أن التعديلات والتجاوزات والمعاملات عالية القيمة مصممة بشكل فعال لمراجعتها بالتفصيل على الفور.
+فحص مسار التدقيق والمعاملات (أو الدُفعات) والمراجعات والمستندات الأخرى ؛ تتبع المعاملات من خلال العملية ، وحيثما أمكن ، استخدم جمع الأدلة الآلي ، بما في ذلك عينات البيانات ، ووحدات التدقيق المدمجة أو CAATs ، للتحقق من أن المراجعة الدورية وصيانة مسار التدقيق يكتشفان بشكل فعال نشاطًا غير عادي ومراجعات المشرف فعالة.
+استفسر عن كيفية تقييد الوصول إلى مسار التدقيق. افحص حقوق الوصول وسجلات الوصول إلى ملفات مسار التدقيق. تحقق مما إذا كان الأشخاص المقيدون والمصرح لهم فقط يمكنهم الوصول إلى مسار التدقيق. قم بتقييم ما إذا كان مسار التدقيق محميًا ضد التعديلات المميزة.
+تحقق ، حيثما أمكن ، باستخدام جمع الأدلة الآلي ، إذا تم تخصيص معرفات فريدة لكل معاملة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3486,54 +4147,99 @@ Verify, where possible, using automated evidence collection, if unique identifie
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Completness and Accuracy of Output Data"/>
+					<tx l="spa" name="Completitud y precisión de los datos de salida"/>
+					<tx l="fre" name="Intégralité et précision des données de sortie"/>
+					<tx l="ara" name="اكتمال ودقة بيانات المخرجات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
 						<ak/>
 					</narr>
-				</Narrative>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+					</Narrative>
 				<Matrix id="Completness and Accuracy of Output Data">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether application assures that output information is complete and accurate before further use and that it is properly protected."/>
+							<tx l="spa" name="Evalúe si la aplicación asegura que la información de salida sea completa y precisa antes de su uso posterior y que esté debidamente protegida."/>
+							<tx l="fre" name="Évaluez si l'application garantit que les informations de sortie sont complètes et exactes avant toute utilisation ultérieure et qu'elles sont correctement protégées."/>
+							<tx l="ara" name="قم بتقييم ما إذا كان التطبيق يؤكد أن معلومات المخرجات كاملة ودقيقة قبل الاستخدام الإضافي وأنها محمية بشكل صحيح."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the application have controls to ensure completeness and accuracy of its output?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Format of reports and other output data, content, user acceptance or changes to output data"/>
+							<tx l="spa" name="Formato de informes y otros datos de salida, contenido, aceptación del usuario o cambios en los datos de salida"/>
+							<tx l="fre" name="Format des rapports et autres données de sortie, contenu, acceptation de l'utilisateur ou modifications des données de sortie"/>
+							<tx l="ara" name="تنسيق التقارير وبيانات الإخراج الأخرى أو المحتوى أو قبول المستخدم أو التغييرات في بيانات الإخراج"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Completeness and accuracy controls
-
-Methods for balancing and reconciliation
-
-List of electronic outputs/reports
-
-Sample of electronic output
+							<tx l="eng" name="Completeness and accuracy controls.
+Methods for balancing and reconciliation.
+List of electronic outputs/reports.
+Sample of electronic output.
+"/>
+							<tx l="spa" name="Controles de integridad y precisión.
+Métodos de equilibrio y reconciliación.
+Lista de salidas / informes electrónicos.
+Muestra de salida electrónica.
+"/>
+							<tx l="fre" name="Contrôles d'exhaustivité et de précision.
+Méthodes d'équilibrage et de réconciliation.
+Liste des sorties/rapports électroniques.
+Exemple de sortie électronique.
+"/>
+							<tx l="ara" name="ضوابط الاكتمال والدقة.
+طرق الموازنة والمصالحة.
+قائمة المخرجات / التقارير الإلكترونية.
+عينة من المخرجات الإلكترونية.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="
-Obtain a list of all electronic outputs that are reused in end-user applications.
-
+							<tx l="eng" name="Obtain a list of all electronic outputs that are reused in end-user applications.
 Verify that the electronic output is tested for completeness and accuracy before the output is reused and reprocessed.
-
-Examine the balancing and reconciliation of output as established by documented
-methods.
-
-Select a representative sample of electronic output, and trace selected documents through the process to ensure that completeness and accuracy are verified before
-other operations are performed.
-
+Examine the balancing and reconciliation of output as established by documented methods.
+Select a representative sample of electronic output, and trace selected documents through the process to ensure that completeness and accuracy are verified before other operations are performed.
 Re-perform completeness and accuracy tests to validate that they are effective.
-
 Examine if each output product contains processing program name or number; title or description; processing period covered; user name and location; date and time prepared; and security classification.
-
 Select a representative sample of output reports, and test the reasonableness and accuracy of the output. Verify that potential errors are reported and centrally logged.
+"/>
+							<tx l="spa" name="Obtenga una lista de todas las salidas electrónicas que se reutilizan en aplicaciones de usuario final.
+Verifique que la salida electrónica esté probada para verificar su integridad y precisión antes de que la salida se reutilice y reprocese.
+Examinar el equilibrio y la conciliación de la producción según lo establecido por los métodos documentados.
+Seleccione una muestra representativa de salida electrónica y rastree los documentos seleccionados a lo largo del proceso para garantizar que se verifique la integridad y precisión antes de realizar otras operaciones.
+Vuelva a realizar las pruebas de integridad y precisión para validar su eficacia.
+Examinar si cada producto de salida contiene el nombre o el número del programa de procesamiento; título o descripción; período de procesamiento cubierto; nombre de usuario y ubicación; fecha y hora preparadas; y clasificación de seguridad.
+Seleccione una muestra representativa de informes de salida y pruebe la razonabilidad y precisión de la salida. Verifique que los posibles errores se informen y se registren de forma centralizada.
+"/>
+							<tx l="fre" name="Obtenez une liste de toutes les sorties électroniques qui sont réutilisées dans les applications de l'utilisateur final.
+Vérifiez que la sortie électronique est testée pour l'exhaustivité et l'exactitude avant que la sortie ne soit réutilisée et retraitée.
+Examiner l'équilibrage et le rapprochement de la production tels qu'établis par des méthodes documentées.
+Sélectionnez un échantillon représentatif de la production électronique et suivez les documents sélectionnés tout au long du processus pour vous assurer que l'exhaustivité et l'exactitude sont vérifiées avant que d'autres opérations ne soient effectuées.
+Répétez les tests d'exhaustivité et d'exactitude pour valider leur efficacité.
+Examinez si chaque produit de sortie contient le nom ou le numéro du programme de traitement ; titre ou description ; période de traitement couverte; nom d'utilisateur et emplacement ; date et heure de préparation ; et la cote de sécurité.
+Sélectionnez un échantillon représentatif de rapports de sortie et testez le caractère raisonnable et l'exactitude de la sortie. Vérifiez que les erreurs potentielles sont signalées et enregistrées de manière centralisée.
+"/>
+							<tx l="ara" name="احصل على قائمة بجميع المخرجات الإلكترونية التي يعاد استخدامها في تطبيقات المستخدم النهائي.
+تحقق من اختبار الإخراج الإلكتروني للتأكد من اكتماله ودقته قبل إعادة استخدام الإخراج وإعادة معالجته.
+افحص موازنة وتسوية المخرجات كما هو محدد بالطرق الموثقة.
+حدد عينة تمثيلية من المخرجات الإلكترونية ، وتتبع المستندات المحددة من خلال العملية لضمان التحقق من الاكتمال والدقة قبل تنفيذ العمليات الأخرى.
+أعد إجراء اختبارات الاكتمال والدقة للتحقق من فعاليتها.
+افحص ما إذا كان كل منتج ناتج يحتوي على اسم أو رقم برنامج المعالجة ؛ العنوان أو الوصف ؛ فترة المعالجة مغطاة ؛ اسم المستخدم والموقع ؛ التاريخ والوقت المعد ؛ والتصنيف الأمني.
+حدد عينة تمثيلية لتقارير الإخراج ، واختبر مدى معقولية المخرجات ودقتها. تحقق من الإبلاغ عن الأخطاء المحتملة وتسجيلها مركزيًا.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3558,8 +4264,14 @@ Select a representative sample of output reports, and test the reasonableness an
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Output Data Completness"/>
+					<tx l="spa" name="Integridad de los datos de salida"/>
+					<tx l="fre" name="Intégralité des données de sortie"/>
+					<tx l="ara" name="اكتمال بيانات الإخراج"/>
 				</title>
 				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
 					<narr l="spa">
 						<ak/>
 					</narr>
@@ -3574,43 +4286,78 @@ Select a representative sample of output reports, and test the reasonableness an
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether application assures that output information is complete and accurate before further use and that it is properly protected"/>
+							<tx l="spa" name="Evaluar si la aplicación asegura que la información de salida sea completa y precisa antes de su uso posterior y que esté debidamente protegida"/>
+							<tx l="fre" name="Évaluer si l'application garantit que les informations de sortie sont complètes et exactes avant toute utilisation ultérieure et qu'elles sont correctement protégées"/>
+							<tx l="ara" name="قم بتقييم ما إذا كان التطبيق يؤكد أن معلومات المخرجات كاملة ودقيقة قبل الاستخدام الإضافي وأنها محمية بشكل صحيح"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the application have controls to ensure completeness and accuracy of its output?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Application user manual, data protection requirements and procedures, sample reports, user acceptance and change requests for automated reports and data."/>
+							<tx l="spa" name="Manual de usuario de la aplicación, requisitos y procedimientos de protección de datos, informes de muestra, aceptación del usuario y solicitudes de cambio para informes y datos automatizados."/>
+							<tx l="fre" name="Manuel d'utilisation de l'application, exigences et procédures de protection des données, exemples de rapports, acceptation des utilisateurs et demandes de modification pour les rapports et données automatisés."/>
+							<tx l="ara" name="دليل مستخدم التطبيق ومتطلبات وإجراءات حماية البيانات وعينات التقارير وقبول المستخدم وطلبات التغيير للتقارير والبيانات الآلية."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Completeness and accuracy controls
-
-Methods for balancing and reconciliation
-
-List of electronic outputs/reports
-
-Sample of electronic output
+							<tx l="eng" name="Completeness and accuracy controls.
+Methods for balancing and reconciliation.
+List of electronic outputs/reports.
+Sample of electronic output.
+"/>
+							<tx l="spa" name="Controles de integridad y precisión.
+Métodos de equilibrio y reconciliación.
+Lista de salidas / informes electrónicos.
+Muestra de salida electrónica.
+"/>
+							<tx l="fre" name="Contrôles d'exhaustivité et de précision.
+Méthodes d'équilibrage et de réconciliation.
+Liste des sorties/rapports électroniques.
+Exemple de sortie électronique.
+"/>
+							<tx l="ara" name="ضوابط الاكتمال والدقة.
+طرق الموازنة والمصالحة.
+قائمة المخرجات / التقارير الإلكترونية.
+عينة من المخرجات الإلكترونية.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Obtain a list of all electronic outputs that are reused in end-user applications.
-
 Verify that the electronic output is tested for completeness and accuracy before the output is reused and reprocessed.
-
-Examine the balancing and reconciliation of output as established by documented
-methods.
-
-Select a representative sample of electronic output, and trace selected documents through the process to ensure that completeness and accuracy are verified before
-other operations are performed.
-
+Examine the balancing and reconciliation of output as established by documented methods.
+Select a representative sample of electronic output, and trace selected documents through the process to ensure that completeness and accuracy are verified before other operations are performed.
 Re-perform completeness and accuracy tests to validate that they are effective.
-
 Examine if each output product contains processing program name or number; title or description; processing period covered; user name and location; date and time prepared; and security classification.
-
 Select a representative sample of output reports, and test the reasonableness and accuracy of the output. Verify that potential errors are reported and centrally logged.
+"/>
+							<tx l="spa" name="Obtenga una lista de todas las salidas electrónicas que se reutilizan en aplicaciones de usuario final.
+Verifique que la salida electrónica esté probada para verificar su integridad y precisión antes de que la salida se reutilice y reprocese.
+Examinar el equilibrio y la conciliación de la producción según lo establecido por los métodos documentados.
+Seleccione una muestra representativa de salida electrónica y rastree los documentos seleccionados a lo largo del proceso para garantizar que se verifique la integridad y precisión antes de realizar otras operaciones.
+Vuelva a realizar las pruebas de integridad y precisión para validar su eficacia.
+Examinar si cada producto de salida contiene el nombre o el número del programa de procesamiento; título o descripción; período de procesamiento cubierto; nombre de usuario y ubicación; fecha y hora preparadas; y clasificación de seguridad.
+Seleccione una muestra representativa de informes de salida y pruebe la razonabilidad y precisión de la salida. Verifique que los posibles errores se informen y se registren de forma centralizada.
+"/>
+							<tx l="fre" name="Obtenez une liste de toutes les sorties électroniques qui sont réutilisées dans les applications de l'utilisateur final.
+Vérifiez que la sortie électronique est testée pour l'exhaustivité et l'exactitude avant que la sortie ne soit réutilisée et retraitée.
+Examiner l'équilibrage et le rapprochement de la production tels qu'établis par des méthodes documentées.
+Sélectionnez un échantillon représentatif de la production électronique et suivez les documents sélectionnés tout au long du processus pour vous assurer que l'exhaustivité et l'exactitude sont vérifiées avant que d'autres opérations ne soient effectuées.
+Répétez les tests d'exhaustivité et d'exactitude pour valider leur efficacité.
+Examinez si chaque produit de sortie contient le nom ou le numéro du programme de traitement; titre ou description; période de traitement couverte; nom d'utilisateur et emplacement; date et heure de préparation; et la cote de sécurité.
+Sélectionnez un échantillon représentatif de rapports de sortie et testez le caractère raisonnable et l'exactitude de la sortie. Vérifiez que les erreurs potentielles sont signalées et enregistrées de manière centralisée.
+"/>
+							<tx l="ara" name="احصل على قائمة بجميع المخرجات الإلكترونية التي يعاد استخدامها في تطبيقات المستخدم النهائي.
+تحقق من اختبار الإخراج الإلكتروني للتأكد من اكتماله ودقته قبل إعادة استخدام الإخراج وإعادة معالجته.
+افحص موازنة وتسوية المخرجات كما هو محدد بالطرق الموثقة.
+حدد عينة تمثيلية من المخرجات الإلكترونية ، وتتبع المستندات المحددة من خلال العملية لضمان التحقق من الاكتمال والدقة قبل تنفيذ العمليات الأخرى.
+أعد إجراء اختبارات الاكتمال والدقة للتحقق من فعاليتها.
+افحص ما إذا كان كل منتج ناتج يحتوي على اسم أو رقم برنامج المعالجة ؛ العنوان أو الوصف ؛ فترة المعالجة مغطاة ؛ اسم المستخدم والموقع ؛ التاريخ والوقت المعد ؛ والتصنيف الأمني.
+حدد عينة تمثيلية لتقارير الإخراج ، واختبر مدى معقولية المخرجات ودقتها. تحقق من الإبلاغ عن الأخطاء المحتملة وتسجيلها مركزيًا.
+"/>
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -3635,8 +4382,14 @@ Select a representative sample of output reports, and test the reasonableness an
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Output"/>
+					<tx l="spa" name="Producción"/>
+					<tx l="fre" name="Production"/>
+					<tx l="ara" name="انتاج |"/>
 				</title>
 				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
 					<narr l="spa">
 						<ak/>
 					</narr>
@@ -3651,29 +4404,53 @@ Select a representative sample of output reports, and test the reasonableness an
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Are out data protected for unauthorized use or dissemination"/>
+							<tx l="spa" name="¿Están nuestros datos protegidos para uso o difusión no autorizados?"/>
+							<tx l="fre" name="Les données sont-elles protégées contre une utilisation ou une diffusion non autorisée"/>
+							<tx l="ara" name="هي البيانات الصادرة محمية للاستخدام أو النشر غير المصرح به"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is the output data properly protected!</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Data protection policy and procedures, access control logs, report distribution policy, training records on data security"/>
+							<tx l="spa" name="Política y procedimientos de protección de datos, registros de control de acceso, política de distribución de informes, registros de capacitación sobre seguridad de datos"/>
+							<tx l="fre" name="Politique et procédures de protection des données, journaux de contrôle d'accès, politique de distribution des rapports, dossiers de formation sur la sécurité des données"/>
+							<tx l="ara" name="سياسة وإجراءات حماية البيانات ، وسجلات التحكم في الوصول ، وسياسة توزيع التقارير ، وسجلات التدريب على أمن البيانات"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Output handling and retention procedures
-
-Information classification
-policies
+							<tx l="eng" name="Output handling and retention procedures.
+Information classification.
+Policies.
+"/>
+							<tx l="spa" name="Procedimientos de manejo y retención de salida.
+Clasificación de la información.
+Políticas.
+"/>
+							<tx l="fre" name="Procédures de gestion et de conservation des sorties.
+Classement des informations.
+Stratégies.
+"/>
+							<tx l="ara" name="معالجة المخرجات وإجراءات الاستبقاء.
+تصنيف المعلومات.
+سياسات.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review output handling and retention procedures for privacy and security. Assess whether procedures have been defined that require the logging of potential errors and their resolution prior to distribution of the reports. Examine the system of
-reconciliation of output batch control totals with input batch control totals before release of reports establishing data integrity.
-
+							<tx l="eng" name="Review output handling and retention procedures for privacy and security. Assess whether procedures have been defined that require the logging of potential errors and their resolution prior to distribution of the reports. Examine the system of reconciliation of output batch control totals with input batch control totals before release of reports establishing data integrity.
 Check if there are documented procedures for labeling sensitive application output and, where required, sending sensitive output to special access-controlled output devices. Review the distribution methods of sensitive information and verify that the mechanisms correctly enforce pre-established access rights.
+"/>
+							<tx l="spa" name="Revise los procedimientos de manejo y retención de salida para la privacidad y seguridad. Evaluar si se han definido procedimientos que requieran el registro de posibles errores y su resolución antes de la distribución de los informes. Examine el sistema de conciliación de los totales de control de lotes de salida con los totales de control de lotes de entrada antes de publicar los informes para establecer la integridad de los datos.
+Compruebe si existen procedimientos documentados para etiquetar la salida de aplicaciones sensibles y, cuando sea necesario, enviar la salida sensible a dispositivos de salida especiales con control de acceso. Revisar los métodos de distribución de información sensible y verificar que los mecanismos hagan cumplir correctamente los derechos de acceso preestablecidos.
+"/>
+							<tx l="fre" name="Passez en revue les procédures de gestion et de conservation des résultats pour la confidentialité et la sécurité. Évaluer si des procédures ont été définies qui nécessitent la journalisation des erreurs potentielles et leur résolution avant la distribution des rapports. Examiner le système de rapprochement des totaux de contrôle des lots de sortie avec les totaux de contrôle des lots d'entrée avant la publication des rapports établissant l'intégrité des données.
+Vérifiez s'il existe des procédures documentées pour l'étiquetage des sorties d'application sensibles et, le cas échéant, l'envoi des sorties sensibles à des périphériques de sortie spéciaux à accès contrôlé. Passez en revue les méthodes de diffusion des informations sensibles et vérifiez que les mécanismes appliquent correctement les droits d'accès préétablis.
+"/>
+							<tx l="ara" name="مراجعة إجراءات معالجة الإخراج والاحتفاظ بالخصوصية والأمان. قم بتقييم ما إذا تم تحديد الإجراءات التي تتطلب تسجيل الأخطاء المحتملة وحلها قبل توزيع التقارير. افحص نظام تسوية إجماليات التحكم في دُفعات الإخراج مع إجماليات التحكم في دُفعات الإدخال قبل إصدار التقارير التي تثبت سلامة البيانات.
+تحقق مما إذا كانت هناك إجراءات موثقة لتمييز مخرجات التطبيق الحساسة ، وعند الاقتضاء ، إرسال مخرجات حساسة إلى أجهزة إخراج خاصة يتم التحكم في الوصول إليها. راجع طرق توزيع المعلومات الحساسة وتحقق من أن الآليات تنفذ بشكل صحيح حقوق الوصول المحددة مسبقًا.
 "/>
 						</anm>
 					</AnalysisMethod>
