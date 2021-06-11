@@ -1,60 +1,141 @@
-<PlugIn id="LAND" >
-	<About descriptionfile="LandRegistryDescription.docx">
+<PlugIn id="LAND">
+	<About descriptionfile="">
 		<version id="1.0" name="main"/>
 		<title>
 			<tx l="eng" name="Land Registry Automation"/>
-			<tx l="pol" name="Automatyzacja rejestru gruntów"/>
+			<tx l="spa" name="Automatización del Registro de la Propiedad"/>
+			<tx l="fre" name="Automatisation du registre foncier"/>
+			<tx l="ara" name="أتمتة تسجيل الأراضي"/>
 		</title>
-		<WorkingLanguage wl="eng pol"/>
+		<WorkingLanguage wl="eng spa fre ara"/>
 	</About>
 	<Domain nr="02">
 		<title>
 			<tx l="eng" name="IT Operations"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			<tx l="spa" name="Operaciones de TI"/>
+			<tx l="fre" name="Opérations informatiques"/>
+			<tx l="ara" name="عمليات تكنولوجيا المعلومات"/>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="IT Service Continuity Management"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Gestión de la continuidad del servicio de TI"/>
+				<tx l="fre" name="Gestion de la continuité des services informatiques"/>
+				<tx l="ara" name="إدارة استمرارية خدمة تكنولوجيا المعلومات"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
-					<tx l="eng" name="Effectivenesst"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="eng" name="Effectiveness"/>
+					<tx l="spa" name="Eficacia"/>
+					<tx l="fre" name="Efficacité"/>
+					<tx l="ara" name="فعالية"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Service Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the IT organization is actively monitoring IT operations against agreed to internal Service Level Agreement or contract."/>
+							<tx l="spa" name="Evaluar si la organización de TI está monitoreando activamente las operaciones de TI según lo acordado con el Acuerdo o contrato de nivel de servicio interno."/>
+							<tx l="fre" name="Évaluer si l'organisation informatique surveille activement les opérations informatiques par rapport à l'accord de niveau de service ou au contrat interne."/>
+							<tx l="ara" name="لتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تراقب بنشاط عمليات تكنولوجيا المعلومات مقابل اتفاقية أو عقد مستوى الخدمة الداخلي المتفق عليه."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Effectiveness - Does the management of IT services ensure satisfaction of business users and help meet business objectives of the organization?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Achievement of performance metrics that are aligned to business needs and goals"/>
+							<tx l="spa" name="Logro de métricas de desempeño que estén alineadas con las necesidades y objetivos del negocio"/>
+							<tx l="fre" name="Réalisation d'indicateurs de performance alignés sur les besoins et les objectifs de l'entreprise"/>
+							<tx l="ara" name="تحقيق مقاييس الأداء التي تتماشى مع احتياجات العمل وأهدافه"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Help desk reports, Minutes of meetings between business stakeholders and IT organization,
-
-Agenda items for SLA review cycles 
-Incentive and penalty clauses (especially important if IT support services are outsourced
-"/>
+							<tx l="eng" name="Help desk reports, Minutes of meetings between business stakeholders and IT organization, agenda items for SLA review cycles, incentive and penalty clauses (especially important if IT support services are outsourced)."/>
+							<tx l="spa" name="Informes de lo servicio de ayuda, actas de reuniones entre las partes interesadas del negocio y la organización de TI, elementos de la agenda para los ciclos de revisión de los acuerdos de nivel de servicio, cláusulas de incentivos y penalizaciones (especialmente importante si se subcontratan los servicios de soporte de TI)."/>
+							<tx l="fre" name="Rapports du service d'assistance, procès-verbaux des réunions entre les parties prenantes de l'entreprise et l'organisation informatique, points à l'ordre du jour des cycles de révision des accords de niveau de service, clauses d'incitation et de pénalité (particulièrement important si les services d'assistance informatique sont externalisés)."/>
+							<tx l="ara" name="Hتقارير مكتب المساعدة ، ومحاضر الاجتماعات بين أصحاب المصلحة التجاريين ومنظمة تكنولوجيا المعلومات ، وعناصر جدول الأعمال لدورات مراجعة اتفاقيات مستوى الخدمة ، وشروط الحوافز والعقوبات (مهمة بشكل خاص إذا تم الاستعانة بمصادر خارجية لخدمات دعم تكنولوجيا المعلومات)."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Interview a sample of business users (at various levels) or conduct a satisfaction survey about the Quality of services by the help desk and IT support group.
-
 Review help desk reports to check whether a significant proportion of critical service issues were prevented before reported by users.
-
 Check whether the resolution time for reported issues were less than the parameters set in the SLA.
-
 Check whether SLA parameters were being reviewed by management periodically and examine QoS issues.
+"/>
+							<tx l="spa" name="Entreviste a una muestra de usuarios (en varios niveles) o realice una encuesta de satisfacción sobre la calidad de los servicios por parte del servicio de asistencia técnica y el grupo de soporte de TI.
+Revise los informes de lo servicio de ayuda para verificar si una proporción significativa de los problemas críticos del servicio se evitó antes de que los usuarios informaran.
+Compruebe si el tiempo de resolución de los problemas informados fue inferior a los parámetros establecidos en el Acuerdo de nivel de servicio.
+Verifique si los parámetros del Acuerdo de nivel de servicio fueron revisados por la gerencia periódicamente y examine los problemas de QoS.
+"/>
+							<tx l="fre" name="Interviewer un échantillon d'utilisateurs métiers (à différents niveaux) ou mener une enquête de satisfaction sur la Qualité des services par le helpdesk et le groupe de support informatique.
+Examinez les rapports du service d'assistance pour vérifier si une proportion importante des problèmes de service critiques ont été évités avant que les utilisateurs ne les signalent.
+Vérifiez si le temps de résolution des problèmes signalés était inférieur aux paramètres définis dans le contrat de niveau de service.
+Vérifiez si les paramètres de l'accord de niveau de service ont été examinés périodiquement par la direction et examinez les problèmes de QoS.
+"/>
+							<tx l="ara" name="قم بإجراء مقابلة مع عينة من مستخدمي الأعمال (على مستويات مختلفة) أو قم بإجراء استطلاع رأي حول جودة الخدمات من قبل مكتب المساعدة ومجموعة دعم تكنولوجيا المعلومات.
+راجع تقارير مكتب المساعدة للتحقق مما إذا كان قد تم منع نسبة كبيرة من مشكلات الخدمة الحرجة قبل الإبلاغ عنها من قبل المستخدمين.
+تحقق مما إذا كان وقت حل المشكلات التي تم الإبلاغ عنها أقل من المعلمات المحددة في اتفاقية مستوى الخدمة.
+تحقق مما إذا كانت معلمات اتفاقية مستوى الخدمة قيد المراجعة من قبل الإدارة بشكل دوري وفحص مشكلات جودة الخدمة.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -63,42 +144,109 @@ Check whether SLA parameters were being reviewed by management periodically and 
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Capacity Management"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Gestión de capacidad"/>
+				<tx l="fre" name="Gestion de la capacité"/>
+				<tx l="ara" name="إدارة القدرات"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Agree to parameters"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Aceptar los parámetros"/>
+					<tx l="fre" name="Accepter les paramètres"/>
+					<tx l="ara" name="توافق على المعلمات"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Capacity Management">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the IT organization is ensuring that the system capacity and performance meets current and future business needs."/>
+							<tx l="spa" name="Evalúe si la organización de TI se asegura de que la capacidad y el rendimiento del sistema satisfagan las necesidades del negocio actuales y futuras."/>
+							<tx l="fre" name="Évaluez si l'organisation informatique s'assure que la capacité et les performances du système répondent aux besoins actuels et futurs de l'entreprise."/>
+							<tx l="ara" name="قم بتقييم ما إذا كانت مؤسسة تكنولوجيا المعلومات تضمن أن قدرة النظام وأدائه يلبي احتياجات العمل الحالية والمستقبلية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Agree to parameters - Is there a documented agreement between the business and IT organization which is used as the basis for selecting operational parameters for IT operations?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="IT governance – track and monitor strategy implementation in terms of measurable metrics."/>
+							<tx l="spa" name="Gobernanza de TI - rastrea y supervisa la implementación de la estrategia en términos de métricas mensurables."/>
+							<tx l="fre" name="Gouvernance informatique - suivre et surveiller la mise en œuvre de la stratégie en termes de mesures mesurables."/>
+							<tx l="ara" name="حوكمة تكنولوجيا المعلومات - تتبع ورصد تنفيذ الإستراتيجية من حيث المقاييس القابلة للقياس."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Internal SLA, or other form of agreement
-
-IT operational parameters – processing resource availability, average system login time, % downtime, average system response time, etc
+							<tx l="eng" name="Internal SLA, or other form of agreement.
+IT operational parameters – processing resource availability, average system login time, % downtime, average system response time, etc.
+"/>
+							<tx l="spa" name="Acuerdo de nivel de servicio interno u otra forma de acuerdo.
+Parámetros operativos de TI: disponibilidad de recursos de procesamiento, tiempo medio de inicio de sesión del sistema,% de tiempo de inactividad, tiempo medio de respuesta del sistema, etc.
+"/>
+							<tx l="fre" name="Accord de niveau de service interne, ou autre forme d'accord.
+Paramètres opérationnels informatiques - disponibilité des ressources de traitement, temps moyen de connexion au système, % de temps d'arrêt, temps de réponse moyen du système, etc.
+"/>
+							<tx l="ara" name="اتفاقية مستوى الخدمة الداخلية ، أو أي شكل آخر من أشكال الاتفاقية.
+المعلمات التشغيلية لتكنولوجيا المعلومات - معالجة توافر الموارد ، ومتوسط وقت تسجيل الدخول إلى النظام ، ونسبة وقت التوقف عن العمل ، ومتوسط وقت استجابة النظام ، وما إلى ذلك.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review the agreement or operating guidance that the IT group is using. Ensure that it is has been reviewed and signed by the relevant business users or senior executive management.
-
-Compare performance baseline parameters (viz. network resource availability, host response time) set by IT organization with the Operating guidance set by Business process owners to verify that the IT organization follows the operating guidance
+Compare performance baseline parameters (viz. network resource availability, host response time) set by IT organization with the Operating guidance set by Business process owners to verify that the IT organization follows the operating guidance.
+"/>
+							<tx l="spa" name="Revise el acuerdo o la guía operativa que está utilizando el grupo de TI. Asegúrese de que haya sido revisado y firmado por los usuarios del negocio relevantes o la alta dirección ejecutiva.
+Compare los parámetros de referencia de rendimiento (es decir, disponibilidad de recursos de red, tiempo de respuesta del host) establecidos por la organización de TI con la guía operativa establecida por los propietarios de procesos de negocio para verificar que la organización de TI sigue la guía operativa.
+"/>
+							<tx l="fre" name="Passez en revue l'accord ou les directives d'exploitation que le groupe informatique utilise. Assurez-vous qu'il a été examiné et signé par les utilisateurs métier concernés ou la haute direction.
+Comparez les paramètres de référence des performances (à savoir la disponibilité des ressources réseau, le temps de réponse de l'hôte) définis par l'organisation informatique avec les directives d'exploitation définies par les propriétaires de processus métier pour vérifier que l'organisation informatique suit les directives d'exploitation.
+"/>
+							<tx l="ara" name="راجع الاتفاقية أو إرشادات التشغيل التي تستخدمها مجموعة تكنولوجيا المعلومات. تأكد من أنه قد تمت مراجعته والتوقيع عليه من قبل مستخدمي الأعمال المعنيين أو الإدارة التنفيذية العليا.
+قارن بين معلمات خط الأساس للأداء (بمعنى توافر موارد الشبكة ووقت استجابة المضيف) التي حددتها مؤسسة تكنولوجيا المعلومات مع إرشادات التشغيل التي وضعها مالكو عمليات الأعمال للتحقق من أن مؤسسة تكنولوجيا المعلومات تتبع إرشادات التشغيل.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -107,48 +255,121 @@ Compare performance baseline parameters (viz. network resource availability, hos
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Problem and Incident Management"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Gestión de incidentes y problemas"/>
+				<tx l="fre" name="Gestion des problèmes et des incidents"/>
+				<tx l="ara" name="إدارة المشاكل والحوادث"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Policy awareness"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Conciencia de políticas"/>
+					<tx l="fre" name="Sensibilisation aux politiques"/>
+					<tx l="ara" name="الوعي بالسياسات"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Policy awarenesst">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To evaluate the effectiveness of organization’s problem and incident management policies and procedures."/>
+							<tx l="spa" name="Evaluar la efectividad de las políticas y procedimientos de gestión de incidentes y problemas de la organización."/>
+							<tx l="fre" name="Évaluer l'efficacité des politiques et procédures de gestion des problèmes et des incidents de l'organisation."/>
+							<tx l="ara" name="لتقييم فعالية سياسات وإجراءات إدارة المشاكل والحوادث في المنظمة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Policy awareness - Is there a documented incident response policy and are the business users aware of it?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Best practices in incident response."/>
+							<tx l="spa" name="Mejores prácticas en respuesta a incidentes."/>
+							<tx l="fre" name="Meilleures pratiques en matière de réponse aux incidents."/>
+							<tx l="ara" name="أفضل الممارسات في الاستجابة للحوادث."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Entity’s incidents response policy
-
-Guidelines for communicating with outside parties regarding incidents
+							<tx l="eng" name="Entity’s incidents response policy.
+Guidelines for communicating with outside parties regarding incidents.
+"/>
+							<tx l="spa" name="Política de respuesta a incidentes de la entidad.
+Pautas para comunicarse con terceros en relación con incidentes.
+"/>
+							<tx l="fre" name="Politique de réponse aux incidents de l'entité.
+Lignes directrices pour communiquer avec des parties externes concernant les incidents.
+"/>
+							<tx l="ara" name="سياسة الاستجابة لحوادث الكيان.
+إرشادات للتواصل مع الأطراف الخارجية فيما يتعلق بالحوادث.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review the policy to find whether it contains appropriate stages
-
+							<tx l="eng" name="Review the policy to find whether it contains appropriate stages.
 Preparation, detection and analysis, containment and eradication, post-incident activity. Does type of activity depend on high incidence or weight of incidents?
-
-Verify whether the policy assigns responsibility, scope and reporting requirements
-
+Verify whether the policy assigns responsibility, scope and reporting requirements.
 Review the actual procedures by which the business users are made aware of the policy; and the nature of communication between the incidents response team and the business stakeholders.
-
-Interview a sample of business users across the organization to get an assurance about the awareness about the incident response plan
+Interview a sample of business users across the organization to get an assurance about the awareness about the incident response plan.
+"/>
+							<tx l="spa" name="Revise la política para averiguar si contiene las etapas adecuadas.
+Preparación, detección y análisis, contención y erradicación, actividad post incidente. ¿Depende el tipo de actividad de la alta incidencia o peso de las incidencias?
+Verifique si la política asigna responsabilidad, alcance y requisitos de informes.
+Revisar los procedimientos reales mediante los cuales los usuarios del negocio conocen la política; y la naturaleza de la comunicación entre el equipo de respuesta a incidentes y las partes interesadas del negocio.
+Entreviste a una muestra de usuarios de toda la organización para asegurarse de conocer el plan de respuesta a incidentes.
+"/>
+							<tx l="fre" name="Examinez la stratégie pour déterminer si elle contient des étapes appropriées.
+Préparation, détection et analyse, confinement et éradication, activité post-incident. Le type d'activité dépend-il d'une incidence ou d'un poids élevé des incidents ?
+Vérifiez si la politique attribue la responsabilité, la portée et les exigences en matière de rapports.
+Examiner les procédures réelles par lesquelles les utilisateurs métier sont informés de la politique ; et la nature de la communication entre l'équipe de réponse aux incidents et les parties prenantes de l'entreprise.
+Interrogez un échantillon d'utilisateurs professionnels dans l'ensemble de l'organisation pour obtenir une assurance sur la connaissance du plan de réponse aux incidents.
+"/>
+							<tx l="ara" name="راجع السياسة لمعرفة ما إذا كانت تحتوي على مراحل مناسبة.
+التحضير والكشف والتحليل والاحتواء والقضاء ونشاط ما بعد الحادث. هل نوع النشاط يعتمد على نسبة عالية من الحوادث أو وزنها؟
+تحقق مما إذا كانت السياسة تحدد المسؤولية والنطاق ومتطلبات إعداد التقارير.
+مراجعة الإجراءات الفعلية التي يتم من خلالها توعية مستخدمي الأعمال بالسياسة ؛ وطبيعة الاتصال بين فريق الاستجابة للحوادث وأصحاب المصلحة التجاريين.
+قم بإجراء مقابلة مع عينة من مستخدمي الأعمال في جميع أنحاء المؤسسة للحصول على تأكيد حول الوعي بخطة الاستجابة للحوادث.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -157,45 +378,104 @@ Interview a sample of business users across the organization to get an assurance
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="Change Management"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Gestión del cambio"/>
+				<tx l="fre" name="Gestion du changement"/>
+				<tx l="ara" name="إدارة التغيير"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Fallback procedures"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Procedimientos alternativos"/>
+					<tx l="fre" name="Procédures de repli"/>
+					<tx l="ara" name="الإجراءات الاحتياطية"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Fallback procedures">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the entity has implemented a standardized procedure for controlling all changes to the core IT systems and applications."/>
+							<tx l="spa" name="Evaluar si la entidad ha implementado un procedimiento estandarizado para controlar todos los cambios en los sistemas y aplicaciones de TI centrales."/>
+							<tx l="fre" name="Évaluer si l'entité a mis en place une procédure standardisée pour contrôler toutes les modifications apportées aux systèmes et applications informatiques de base."/>
+							<tx l="ara" name="قم بتقييم ما إذا كان الكيان قد نفذ إجراءً موحدًا للتحكم في جميع التغييرات التي تطرأ على أنظمة وتطبيقات تكنولوجيا المعلومات الأساسية."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Fallback procedures - How does the IT organization ensure that the organization can revert back to a previous version if needed?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Change Management best practices - documentation on procedures and responsibilities for recovery of affected areas due to undesirable change impact"/>
+							<tx l="spa" name="Mejores prácticas de gestión de cambios - documentación sobre procedimientos y responsabilidades para la recuperación de las áreas afectadas debido a un impacto de cambio no deseado"/>
+							<tx l="fre" name="Meilleures pratiques de gestion du changement - documentation sur les procédures et les responsabilités pour la récupération des zones affectées en raison d'un impact de changement indésirable"/>
+							<tx l="ara" name="أفضل ممارسات إدارة التغيير - توثيق الإجراءات والمسؤوليات لاستعادة المناطق المتأثرة بسبب تأثير التغيير غير المرغوب فيه"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Change management procedures Documentation on change tests and
-implementation
-
-Recovery documentation and configuration change logs
-
-Backup and restore procedures
-
+							<tx l="eng" name="Change management procedures. Documentation on change tests and implementation.
+Recovery documentation and configuration change logs.
+Backup and restore procedures.
 "/>
+							<tx l="spa" name="Procedimientos de gestión de cambios. Documentación sobre pruebas de cambio e implementación.
+Registros de cambios de configuración y documentación de recuperación (logs).
+Procedimientos de copia de seguridad y restauración.
+"/>
+							<tx l="fre" name="Procédures de gestion du changement. Documentation sur les tests de changement et la mise en œuvre.
+Documentation de récupération et journaux des modifications de configuration (logs).
+Procédures de sauvegarde et de restauration.
+"/>
+							<tx l="ara" name="تغيير إجراءات الإدارة. توثيق اختبارات التغيير والتنفيذ.
+وثائق الاسترداد وسجلات تغيير التكوين.
+إجراءات النسخ الاحتياطي والاستعادة."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review documentation, interview business users to find if unintended impacts of functionality changes/ enhancements have been addressed on priority, in line with business interests
-
-"/>
+							<tx l="eng" name="Review documentation, interview business users to find if unintended impacts of functionality changes/ enhancements have been addressed on priority, in line with business interests"/>
+							<tx l="spa" name="Revisar la documentación, entrevistar a los usuarios para averiguar si los impactos no deseados de los cambios / mejoras de funcionalidad se han abordado con prioridad, de acuerdo con los intereses del negocio"/>
+							<tx l="fre" name="Examiner la documentation, interroger les utilisateurs professionnels pour déterminer si les impacts imprévus des modifications/améliorations des fonctionnalités ont été traités en priorité, conformément aux intérêts de l'entreprise"/>
+							<tx l="ara" name="مراجعة الوثائق ، مقابلة مستخدمي الأعمال لمعرفة ما إذا كانت التأثيرات غير المقصودة للتغييرات / التحسينات الوظيفية قد تم تناولها على سبيل الأولوية ، بما يتماشى مع اهتمامات العمل"/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -204,40 +484,114 @@ Backup and restore procedures
 	</Domain>
 	<Domain nr="05">
 		<title>
-			<tx l="eng" name="Information Security"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			<tx l="eng" name="Information and Cyber Security"/>
+			<tx l="spa" name="Información y ciberseguridad"/>
+			<tx l="fre" name="Information et cybersécurité"/>
+			<tx l="ara" name="المعلومات والأمن السيبراني"/>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Security Policy"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Politica de seguridad"/>
+				<tx l="fre" name="Politique de sécurité"/>
+				<tx l="ara" name="نهج الأمان"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Information Security Policy"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Política de seguridad de la información"/>
+					<tx l="fre" name="Politique de sécurité de l'information"/>
+					<tx l="ara" name="سياسة أمن المعلومات"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Information Security Policy">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether there is adequate strategic direction and support for information security in terms of a security policy, its coverage, organization-wide awareness and compliance"/>
+							<tx l="spa" name="Evaluar si existe una dirección estratégica y un apoyo adecuados para la seguridad de la información en términos de una política de seguridad, su cobertura, concienciación y cumplimiento en toda la organización."/>
+							<tx l="fre" name="Évaluer s'il existe une orientation stratégique et un soutien adéquats pour la sécurité de l'information en termes de politique de sécurité, sa couverture, la sensibilisation et la conformité à l'échelle de l'organisation"/>
+							<tx l="ara" name="لتقييم ما إذا كان هناك توجيه ودعم استراتيجي كافيين لأمن المعلومات من حيث السياسة الأمنية وتغطيتها والوعي على مستوى المنظمة والامتثال"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Information Security Policy - Does the organization possess an Information Security Policy? Is it properly implemented and documented? Does it form a consistent and robust IT security plan?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization’s information security policy covers all operational risks and is able to reasonably protect all business critical information assets from loss, damage or abuse. (Ref:ISO 27000 series Information Security Management System and other internal policy, procedures or applicable regulations)"/>
+							<tx l="spa" name="La política de seguridad de la información de la organización cubre todos los riesgos operativos y es capaz de proteger razonablemente todos los activos de información crítica del negocio contra pérdidas, daños o abuso. (Ref: Sistema de gestión de seguridad de la información de la serie ISO 27000 y otras políticas internas, procedimientos o normativas aplicables)"/>
+							<tx l="fre" name="La politique de sécurité de l'information de l'organisation couvre tous les risques opérationnels et est en mesure de protéger raisonnablement tous les actifs d'information critiques contre les pertes, les dommages ou les abus. (Réf : Système de gestion de la sécurité de l'information de la série ISO 27000 et autres politiques, procédures ou réglementations internes applicables)"/>
+							<tx l="ara" name="تغطي سياسة أمن المعلومات الخاصة بالمنظمة جميع المخاطر التشغيلية وهي قادرة على حماية جميع أصول المعلومات الهامة للأعمال بشكل معقول من الضياع أو التلف أو إساءة الاستخدام. (المرجع: ISO 27000 series نظام إدارة أمن المعلومات والسياسات الداخلية الأخرى أو الإجراءات أو اللوائح المعمول بها)"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="IT Strategy
-
-Legal acts defining information security requirements
-
-Formal and written information security policy
-
-Organization structure and its job description
-
-Contractual arrangements with external parties
-IT Security Plan
+							<tx l="eng" name="IT Strategy.
+Legal acts defining information security requirements.
+Formal and written information security policy.
+Organization structure and its job description.
+Contractual arrangements with external parties.
+IT Security Plan.
+"/>
+							<tx l="spa" name="Estrategia de TI.
+Actos legales que definen los requisitos de seguridad de la información.
+Política de seguridad de la información formal y escrita.
+Estructura organizativa y descripción de su puesto.
+Acuerdos contractuales con partes externas.
+Plan de seguridad de TI.
+"/>
+							<tx l="fre" name="Stratégie informatique.
+Actes juridiques définissant les exigences en matière de sécurité de l'information.
+Politique de sécurité de l'information formelle et écrite.
+Structure de l'organisation et sa description de poste.
+Arrangements contractuels avec des parties externes.
+Plan de sécurité informatique.
+"/>
+							<tx l="ara" name="استراتيجية تكنولوجيا المعلومات.
+الإجراءات القانونية التي تحدد متطلبات أمن المعلومات.
+سياسة أمن المعلومات الرسمية والمكتوبة.
+الهيكل التنظيمي ووصفه الوظيفي.
+الترتيبات التعاقدية مع الأطراف الخارجية.
+خطة أمن تكنولوجيا المعلومات.
 "/>
 						</inf>
 					</InformationRequired>
@@ -252,11 +606,49 @@ Review and analyze the charter to verify that it refers to the organizational ri
 Check security incident reports and follow-up documents to find what actions the organization takes when individuals violate the security policy.
 Check the incident reports to identify the number of Information Security breaches by employees or external parties in given period to assess effectiveness of the policy.
 "/>
+							<tx l="spa" name="Consulte el documento para examinar si la estrategia de TI destaca adecuadamente el papel fundamental de la seguridad de la información. También consulte y utilice la matriz de gobierno de TI para la estrategia de TI. En ausencia de una estrategia de TI escrita, entreviste a la alta gerencia, la gerencia de nivel medio y el personal para ver cuál es su comprensión del papel estratégico de la seguridad de la información.
+Evaluar el cumplimiento de los requisitos externos de cumplimiento de la política de seguridad de la información y estrategia de TI de la organización.
+Compare los objetivos de las políticas y los procedimientos de seguridad para determinar la eficacia de la integración de los requisitos de seguridad de la información en el plan de seguridad de TI (estatuto, marco, manual, etc.). Verifique si se revisa periódicamente en los niveles de gestión adecuados.
+Examine la cobertura del plan de seguridad de TI y verifique si considera planes tácticos de TI, clasificación de datos, estándares de tecnología, políticas de seguridad y control y gestión de riesgos.
+Verifique si el plan de seguridad de TI identifica: Roles y responsabilidades (junta, gerencia ejecutiva, gerencia de línea, miembros del personal y todos los usuarios de la infraestructura de TI de la empresa), requisitos de personal, conciencia de seguridad y capacitación; Prácticas de ejecución; necesidad de inversiones en los recursos de seguridad necesarios.
+Revise y analice el estatuto para verificar que se refiere al apetito por el riesgo de la organización en relación con la seguridad de la información y que el estatuto incluye claramente el alcance y los objetivos de la función de gestión de la seguridad.
+Verifique los informes de incidentes de seguridad y los documentos de seguimiento para averiguar qué acciones toma la organización cuando las personas violan la política de seguridad.
+Consulte los informes de incidentes para identificar el número de infracciones de seguridad de la información cometidas por empleados o partes externas en un período determinado para evaluar la eficacia de la política.
+"/>
+							<tx l="fre" name="Consultez le document pour déterminer si la stratégie informatique met en évidence de manière adéquate le rôle essentiel de la sécurité de l'information. Consultez et utilisez également la matrice de gouvernance informatique pour la stratégie informatique. En l'absence d'une stratégie informatique écrite, interrogez les cadres supérieurs, les cadres intermédiaires et le personnel pour voir quelle est leur compréhension du rôle stratégique de la sécurité de l'information.
+Évaluer la conformité aux exigences de conformité externes de la stratégie informatique et de la politique de sécurité de l'information de l'organisation.
+Comparer les objectifs de la politique et les procédures de sécurité pour déterminer l'efficacité de l'intégration des exigences de sécurité de l'information dans le plan de sécurité informatique (charte, cadre, manuel, etc.). Vérifiez s'il est régulièrement revu aux niveaux de gestion appropriés.
+Examinez la couverture du plan de sécurité informatique et vérifiez s'il prend en compte les plans tactiques informatiques, la classification des données, les normes technologiques, les politiques de sécurité et de contrôle et la gestion des risques.
+Vérifiez si le plan de sécurité informatique identifie : les rôles et les responsabilités (conseil d'administration, direction générale, hiérarchie, membres du personnel et tous les utilisateurs de l'infrastructure informatique de l'entreprise), les besoins en personnel, la sensibilisation à la sécurité et la formation ; Pratiques d'application de la loi ; besoin d'investissements dans les ressources de sécurité requises.
+Examiner et analyser la charte pour vérifier qu'elle fait référence à l'appétit pour le risque organisationnel relatif à la sécurité de l'information et qu'elle inclut clairement la portée et les objectifs de la fonction de gestion de la sécurité.
+Consultez les rapports d'incident de sécurité et les documents de suivi pour trouver les actions que l'organisation prend lorsque des individus violent la politique de sécurité.
+Vérifiez les rapports d'incident pour identifier le nombre de violations de la sécurité de l'information par des employés ou des parties externes au cours d'une période donnée afin d'évaluer l'efficacité de la politique.
+"/>
+							<tx l="ara" name="تحقق من المستند لفحص ما إذا كانت استراتيجية تكنولوجيا المعلومات تسلط الضوء بشكل كافٍ على الدور الحاسم لأمن المعلومات. راجع أيضًا واستخدم مصفوفة حوكمة تكنولوجيا المعلومات لاستراتيجية تكنولوجيا المعلومات. في حالة عدم وجود استراتيجية مكتوبة لتكنولوجيا المعلومات ، قم بإجراء مقابلة مع الإدارة العليا وإدارة المستوى المتوسط ​​والموظفين لمعرفة ما هو فهمهم للدور الاستراتيجي لأمن المعلومات.
+تقييم الامتثال لاستراتيجية تكنولوجيا المعلومات للمؤسسة ومتطلبات الامتثال الخارجية لسياسة أمن المعلومات.
+قارن أهداف السياسة وإجراءات الأمان لتحديد فعالية دمج متطلبات أمن المعلومات في خطة أمن تكنولوجيا المعلومات (ميثاق ، إطار عمل ، دليل ، إلخ). تحقق مما إذا كانت تتم مراجعتها بانتظام على مستويات الإدارة المناسبة.
+فحص تغطية خطة أمن تكنولوجيا المعلومات والتحقق مما إذا كانت تأخذ في الاعتبار الخطط التكتيكية لتقنية المعلومات ، وتصنيف البيانات ، ومعايير التكنولوجيا ، وسياسات الأمن والتحكم وإدارة المخاطر.
+تحقق مما إذا كانت خطة أمن تكنولوجيا المعلومات تحدد: الأدوار والمسؤوليات (مجلس الإدارة ، والإدارة التنفيذية ، والإدارة التنفيذية ، والموظفون وجميع مستخدمي البنية التحتية لتكنولوجيا المعلومات في المؤسسة) ، ومتطلبات التوظيف ، والوعي الأمني ​​والتدريب ؛ ممارسات الإنفاذ ؛ بحاجة إلى استثمارات في موارد الأمان المطلوبة.
+قم بمراجعة وتحليل الميثاق للتحقق من أنه يشير إلى الرغبة في المخاطرة التنظيمية المتعلقة بأمن المعلومات وأن الميثاق يتضمن بوضوح نطاق وأهداف وظيفة إدارة الأمن.
+تحقق من تقارير الحوادث الأمنية ووثائق المتابعة لمعرفة الإجراءات التي تتخذها المنظمة عندما ينتهك الأفراد السياسة الأمنية.
+تحقق من تقارير الحوادث لتحديد عدد انتهاكات أمن المعلومات من قبل الموظفين أو الأطراف الخارجية في فترة معينة لتقييم فعالية السياسة.
+"/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -264,29 +656,63 @@ Check the incident reports to identify the number of Information Security breach
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Confidentiality"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Confidencialidad"/>
+					<tx l="fre" name="Confidentialité"/>
+					<tx l="ara" name="سرية"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Information Security Policy">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether there is adequate strategic direction and support for information security in terms of a security policy, its coverage, organization-wide awareness and compliance."/>
+							<tx l="spa" name="Evaluar si existe una dirección estratégica y un apoyo adecuados para la seguridad de la información en términos de una política de seguridad, su cobertura, concienciación y cumplimiento en toda la organización."/>
+							<tx l="fre" name="Évaluer s'il existe une orientation stratégique et un soutien adéquats pour la sécurité de l'information en termes de politique de sécurité, sa couverture, la sensibilisation et la conformité à l'échelle de l'organisation."/>
+							<tx l="ara" name="لتقييم ما إذا كان هناك توجيه استراتيجي مناسب ودعم لأمن المعلومات من حيث السياسة الأمنية وتغطيتها والوعي على مستوى المنظمة والامتثال."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Confidentiality - Has the organization put confidentiality requirements or non-disclosure agreements that appropriately reflect the need for protecting information? Do the policies secure information in the organization’s relation with external parties</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization has a plan on how they identify emerging business or IT needs and the Steering Committee approving requirements has sufficient information to make their decisions."/>
+							<tx l="spa" name="La organización tiene un plan sobre cómo identificar las necesidades del negocio o de TI emergentes y el comité directivo que aprueba los requisitos tiene información suficiente para tomar sus decisiones."/>
+							<tx l="fre" name="L'organisation a un plan sur la façon dont elle identifie les nouveaux besoins métier ou informatiques et le comité directeur qui approuve les exigences dispose de suffisamment d'informations pour prendre ses décisions."/>
+							<tx l="ara" name="لدى المنظمة خطة حول كيفية تحديد الأعمال الناشئة أو احتياجات تكنولوجيا المعلومات ولدى اللجنة التوجيهية التي توافق على المتطلبات معلومات كافية لاتخاذ قراراتها."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="External and internal regulations concerning confidential and classified information.
-
-E.g. Non-disclosure clauses for employees.
-
-Contractual arrangements with external parties
-
-information security policy
-IT Security Plan
+							<tx l="eng" name="External and internal regulations concerning confidential and classified information. E.g. Non-disclosure clauses for employees.
+Contractual arrangements with external parties.
+information security policy.
+IT Security Plan.
+"/>
+							<tx l="spa" name="Normativa externa e interna sobre información confidencial y clasificada. P.ej. Cláusulas de no divulgación para empleados.
+Acuerdos contractuales con partes externas.
+política de seguridad de la información.
+Plan de seguridad de TI.
+"/>
+							<tx l="fre" name="Réglementation externe et interne concernant les informations confidentielles et classifiées. Par exemple, Clauses de non-divulgation pour les employés.
+Arrangements contractuels avec des parties externes.
+politique de sécurité de l'information.
+Plan de sécurité informatique.
+"/>
+							<tx l="ara" name="اللوائح الخارجية والداخلية المتعلقة بالمعلومات السرية والسرية. على سبيل المثال شروط عدم الإفصاح للموظفين.
+الترتيبات التعاقدية مع الأطراف الخارجية.
+سياسة أمن المعلومات.
+خطة أمن تكنولوجيا المعلومات.
 "/>
 						</inf>
 					</InformationRequired>
@@ -294,18 +720,52 @@ IT Security Plan
 						<anm>
 							<tx l="eng" name="Check procedural measures taken by the organization to comply with the confidentiality requirements.
 Where access to confidentiality breach cases are restricted to special law procedures and specialized agencies only, base your opinion on their reports and recommendations to the organization’s management – if available.
-
 Review contractual arrangements with external parties or contractors. Do they involve granting and invoking access, processing, communicating or managing organizational information assets?
 Check whether the contractual terms and obligations define the security restrictions and obligations that control how contractors will use organization’s assets and access information systems and services.
 Check whether any information security breaches were committed by contractors. 
 Check management action on such breaches were committed by contractors. 
-Check management action on such breaches
+Check management action on such breaches.
+"/>
+							<tx l="spa" name="Verificar las medidas de procedimiento adoptadas por la organización para cumplir con los requisitos de confidencialidad.
+Cuando el acceso a los casos de violación de la confidencialidad esté restringido a procedimientos legales especiales y agencias especializadas únicamente, base su opinión en sus informes y recomendaciones a la gerencia de la organización, si están disponibles.
+Revise los arreglos contractuales con partes externas o contratistas. ¿Implican otorgar e invocar acceso, procesar, comunicar o administrar activos de información organizacional?
+Compruebe si los términos y obligaciones contractuales definen las restricciones y obligaciones de seguridad que controlan cómo los contratistas utilizarán los activos de la organización y accederán a los sistemas y servicios de información.
+Compruebe si los contratistas cometieron violaciones de seguridad de la información.
+Verifique que los contratistas hayan cometido las acciones de la administración sobre tales infracciones.
+Verificar la acción de la administración sobre tales infracciones.
+"/>
+							<tx l="fre" name="Vérifier les mesures procédurales prises par l'organisation pour se conformer aux exigences de confidentialité.
+Lorsque l'accès aux cas de violation de la confidentialité est limité aux procédures légales spéciales et aux agences spécialisées uniquement, fondez votre opinion sur leurs rapports et recommandations à la direction de l'organisation - si disponibles.
+Examiner les ententes contractuelles avec des parties ou des entrepreneurs externes. Impliquent-ils l'octroi et l'appel d'accès, le traitement, la communication ou la gestion des actifs informationnels de l'organisation ?
+Vérifiez si les conditions et obligations contractuelles définissent les restrictions et obligations de sécurité qui contrôlent la manière dont les sous-traitants utiliseront les actifs de l'organisation et accéderont aux systèmes et services d'information.
+Vérifiez si des violations de la sécurité des informations ont été commises par des sous-traitants.
+Vérifier que les mesures de gestion concernant de telles violations ont été commises par les entrepreneurs.
+Vérifier l'action de la direction sur de telles violations.
+"/>
+							<tx l="ara" name="تحقق من الإجراءات الإجرائية التي تتخذها المنظمة للامتثال لمتطلبات السرية.
+عندما يقتصر الوصول إلى قضايا خرق السرية على إجراءات القانون الخاص والوكالات المتخصصة فقط ، قم ببناء رأيك على تقاريرهم وتوصياتهم إلى إدارة المنظمة - إذا كان ذلك متاحًا.
+مراجعة الترتيبات التعاقدية مع الأطراف الخارجية أو المقاولين. هل تتضمن منح واستدعاء الوصول أو المعالجة أو الاتصال أو إدارة أصول المعلومات التنظيمية؟
+تحقق مما إذا كانت الشروط والالتزامات التعاقدية تحدد القيود والالتزامات الأمنية التي تتحكم في كيفية استخدام المتعاقدين لأصول المؤسسة والوصول إلى أنظمة المعلومات والخدمات.
+تحقق مما إذا كان المقاولون قد ارتكبوا أي انتهاكات لأمن المعلومات.
+تحقق من إجراءات الإدارة بشأن مثل هذه الانتهاكات التي ارتكبها المقاولون.
+تحقق من إجراءات الإدارة بشأن مثل هذه الانتهاكات.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -314,63 +774,165 @@ Check management action on such breaches
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Communications and Operations Management"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Gestión de comunicaciones y operaciones"/>
+				<tx l="fre" name="Communication et gestion des opérations"/>
+				<tx l="ara" name="إدارة الاتصالات والعمليات"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Network control"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Control de la red"/>
+					<tx l="fre" name="Contrôle du réseau"/>
+					<tx l="ara" name="التحكم في الشبكة"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Network control">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that internal and external communication is secure."/>
+							<tx l="spa" name="Para garantizar que la comunicación interna y externa sea segura."/>
+							<tx l="fre" name="Assurer la sécurité des communications internes et externes."/>
+							<tx l="ara" name="للتأكد من أن الاتصال الداخلي والخارجي آمن."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Network control - How does the organization manage and control information in the network</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Network operations are managed and performed in safe and effective way. (Ref: ISO-27002, S15-IT Control (ISACA Standard), COBIT)"/>
+							<tx l="spa" name="Las operaciones de red se gestionan y realizan de forma segura y eficaz. (Ref: ISO-27002, Control S15-IT (Estándar ISACA), COBIT)"/>
+							<tx l="fre" name="Les opérations du réseau sont gérées et exécutées de manière sûre et efficace. (Réf : ISO-27002, Contrôle S15-IT (Norme ISACA), COBIT)"/>
+							<tx l="ara" name="تتم إدارة عمليات الشبكة وتنفيذها بطريقة آمنة وفعالة. (المرجع: ISO-27002، S15-IT Control (ISACA Standard)، COBIT)"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Information restriction policy
-
-Network Admin Logs/Registers
-
-Results of the logs analysis
-
-User Acceptance Test Report
-
-Service Level Agreement(s)
-
-Information available to the public or found in the web pages
+							<tx l="eng" name="Information restriction policy.
+Network Admin Logs/Registers.
+Results of the logs analysis.
+User Acceptance Test Report.
+Service Level Agreement(s).
+Information available to the public or found in the web pages.
+"/>
+							<tx l="spa" name="Política de restricción de información.
+Logs / registros de administración de red.
+Resultados del análisis de logs.
+Informe de prueba de aceptación del usuario.
+Acuerdos de Nivel de Servicio.
+Información disponible para el público o que se encuentra en las páginas web.
+"/>
+							<tx l="fre" name="Politique de restriction des informations.
+Journaux (logs)/registres d'administrateur réseau.
+Résultats de l'analyse des journaux.
+Rapport de test d'acceptation par l'utilisateur.
+Accords de Niveau de Service.
+Informations accessibles au public ou trouvées dans les pages Web.
+"/>
+							<tx l="ara" name="سياسة تقييد المعلومات.
+سجلات / سجلات مسؤول الشبكة.
+نتائج تحليل السجلات.
+تقرير اختبار قبول المستخدم.
+اتفاقيات مستوى الخدمة.
+المعلومات المتاحة للجمهور أو الموجودة في صفحات الويب.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Check what tools are used for network monitoring and analysis. verify whether users and IT systems of the audited organization are protected against spam
+							<tx l="eng" name="Check what tools are used for network monitoring and analysis. verify whether users and IT systems of the audited organization are protected against spam.
 Check whether Intrusion Detection System configurations and logs are analyzed by appropriate personnel to ensure security of information from hacking attacks and malware intrusions. Verify whether the attacks (failed and effective ones) are analyzed and reported.
 Check the statistics of spam, hacking and malware attacks.
 Inquire how the organization provides secure transmission of transactions passing over public networks. E.g. Circulating/ notifying operating procedures to users for e-commerce/ online transactions.
-
 Review policies to verify whether data transmission outside the organization require an encrypted format prior to transmission.
-
-Inquire whether information security policies have been implemented in accordance to the sensitivity classification of organization’s data (e.g., confidential, sensitive)
-Through enquiry determine whether the client utilizes cryptography for sensitive information processing.
-If so, conduct a validation testing.
-
-Control Validation Testing Procedures
+Inquire whether information security policies have been implemented in accordance to the sensitivity classification of organization’s data (e.g., confidential, sensitive).
+Through enquiry determine whether the client utilizes cryptography for sensitive information processing. If so, conduct a validation testing.
+Control Validation Testing Procedures.
 Validation Test 1: Operating effectiveness of cryptographic controls: Determine:
-•	the existence of processes for the key management life cycle
+•	the existence of processes for the key management life cycle;
 •	key destruction; and
-•	segregation of duties for the authorized key custodians..
+•	segregation of duties for the authorized key custodians.
+"/>
+							<tx l="spa" name="Compruebe qué herramientas se utilizan para el análisis y la supervisión de la red. Verifique si los usuarios y los sistemas de TI de la organización auditada están protegidos contra el spam.
+Compruebe si el personal adecuado analiza las configuraciones y los registros del sistema de detección de intrusiones para garantizar la seguridad de la información frente a ataques de piratería e intrusiones de malware. Verifique si los ataques (fallidos y efectivos) se analizan e informan.
+Consulta las estadísticas de spam, piratería y ataques de malware.
+Pregunte cómo la organización proporciona una transmisión segura de transacciones que pasan por redes públicas. P.ej. circulación / notificación de procedimientos operativos a usuarios para comercio electrónico / transacciones en línea.
+Revise las políticas para verificar si la transmisión de datos fuera de la organización requiere un formato encriptado antes de la transmisión.
+Pregunte si las políticas de seguridad de la información se han implementado de acuerdo con la clasificación de sensibilidad de los datos de la organización (por ejemplo, confidencial, sensible).
+A través de la investigación, determine si el cliente utiliza criptografía para el procesamiento de información confidencial. Si es así, realice una prueba de validación.
+Procedimientos de prueba de validación de control.
+Prueba de validación 1: Efectividad operativa de los controles criptográficos: Determine:
+• la existencia de procesos para el ciclo de vida de la gestión de claves;
+• destrucción de claves; y
+• segregación de funciones para los custodios de claves autorizados.
+"/>
+							<tx l="fre" name="Vérifiez quels outils sont utilisés pour la surveillance et l'analyse du réseau. Vérifier si les utilisateurs et les systèmes informatiques de l'organisation auditée sont protégés contre le spam.
+Vérifiez si les configurations et les journaux du système de détection d'intrusions sont analysés par le personnel approprié pour garantir la sécurité des informations contre les attaques de piratage et les intrusions de logiciels malveillants. Vérifiez si les attaques (échouées et efficaces) sont analysées et signalées.
+Consultez les statistiques de spam, de piratage et d'attaques de logiciels malveillants.
+Renseignez-vous sur la manière dont l'organisation assure la transmission sécurisée des transactions transitant sur les réseaux publics. Par exemple, diffusion/notification des modes opératoires aux utilisateurs pour les transactions e-commerce/en ligne.
+Examinez les politiques pour vérifier si la transmission de données à l'extérieur de l'organisation nécessite un format crypté avant la transmission.
+Vérifiez si les politiques de sécurité de l'information ont été mises en œuvre conformément à la classification de sensibilité des données de l'organisation (par exemple, confidentielles, sensibles).
+Grâce à une enquête, déterminez si le client utilise la cryptographie pour le traitement d'informations sensibles. Si tel est le cas, effectuez un test de validation.
+Procédures de test de validation de contrôle.
+Test de validation 1 : Efficacité opérationnelle des contrôles cryptographiques : Déterminer :
+• l'existence de processus pour le cycle de vie de la gestion des clés ;
+• destruction des clés ; et
+• séparation des tâches pour les principaux dépositaires autorisés.
+"/>
+							<tx l="ara" name="تحقق من الأدوات المستخدمة لمراقبة الشبكة وتحليلها. تحقق مما إذا كان المستخدمون وأنظمة تكنولوجيا المعلومات في المؤسسة الخاضعة للرقابة محمية ضد البريد العشوائي.
+تحقق مما إذا كان يتم تحليل تكوينات وسجلات نظام الكشف عن التطفل من قبل الأفراد المناسبين لضمان أمن المعلومات من هجمات القرصنة وتطفل البرامج الضارة. تحقق مما إذا كانت الهجمات (الفاشلة والفعالة) قد تم تحليلها والإبلاغ عنها.
+تحقق من إحصائيات البريد العشوائي والقرصنة وهجمات البرامج الضارة.
+استفسر عن كيفية قيام المنظمة بتوفير النقل الآمن للمعاملات التي تمر عبر الشبكات العامة. على سبيل المثال تعميم / إخطار إجراءات التشغيل للمستخدمين للتجارة الإلكترونية / المعاملات عبر الإنترنت.
+راجع السياسات للتحقق مما إذا كان نقل البيانات خارج المؤسسة يتطلب تنسيقًا مشفرًا قبل الإرسال.
+استفسر عما إذا تم تنفيذ سياسات أمن المعلومات وفقًا لتصنيف حساسية بيانات المنظمة (على سبيل المثال ، سرية ، حساسة).
+من خلال الاستفسار تحديد ما إذا كان العميل يستخدم التشفير لمعالجة المعلومات الحساسة. إذا كان الأمر كذلك ، قم بإجراء اختبار التحقق من الصحة.
+إجراءات اختبار التحقق من صحة الضبط.
+اختبار التحقق من الصحة 1: فعالية تشغيل عناصر التحكم في التشفير: تحديد:
+• وجود عمليات لدورة حياة الإدارة الرئيسية؛
+• تدمير المفاتيح. و
+• الفصل في واجبات أمناء الحفظ الرئيسيين المفوضين.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -379,51 +941,153 @@ Validation Test 1: Operating effectiveness of cryptographic controls: Determine:
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Human Resources IT Security"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Recursos humanos y seguridad informática"/>
+				<tx l="fre" name="Ressources humaines et sécurité informatique"/>
+				<tx l="ara" name="الموارد البشرية وأمن تكنولوجيا المعلومات"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Staff Awareness and Responsibility"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Conciencia y responsabilidad del personal"/>
+					<tx l="fre" name="Sensibilisation et responsabilité du personnel"/>
+					<tx l="ara" name="وعي الموظفين ومسؤوليتهم"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Staff Awareness and Responsibility">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that all employees (including contractors and any user of sensitive data) are qualified for data handling and understand their roles and responsibilities , and that access is removed once employment/ contract is terminated."/>
+							<tx l="spa" name="Para garantizar que todos los empleados (incluidos los contratistas y cualquier usuario de datos confidenciales) estén calificados para el manejo de datos y comprendan sus funciones y responsabilidades, y que el acceso se elimine una vez que finalice el empleo / contrato."/>
+							<tx l="fre" name="S'assurer que tous les employés (y compris les sous-traitants et tout utilisateur de données sensibles) sont qualifiés pour le traitement des données et comprennent leurs rôles et responsabilités, et que l'accès est supprimé une fois l'emploi/le contrat résilié."/>
+							<tx l="ara" name="للتأكد من أن جميع الموظفين (بما في ذلك المتعاقدين وأي مستخدم للبيانات الحساسة) مؤهلون للتعامل مع البيانات وفهم أدوارهم ومسؤولياتهم ، وأن الوصول يتم إزالته بمجرد إنهاء التوظيف / العقد."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Staff Awareness and Responsibility - Are employees aware of their roles and responsibilities with respect to their duties and security responsibilities?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Staff from recruitment to termination guards Information Security. Weaknesses in the staff’s professional approach do not jeopardize the organization’s information safety."/>
+							<tx l="spa" name="El personal, desde el reclutamiento hasta el despido, protege la seguridad de la información. Las deficiencias en el enfoque profesional del personal no ponen en peligro la seguridad de la información de la organización."/>
+							<tx l="fre" name="Le personnel, du recrutement à la résiliation, veille à la sécurité de l'information. Les faiblesses dans l'approche professionnelle du personnel ne mettent pas en péril la sécurité de l'information de l'organisation.."/>
+							<tx l="ara" name="الموظفون ، من التعيين إلى الإنهاء ، حراس أمن المعلومات. نقاط الضعف في النهج المهني للموظفين لا تعرض سلامة معلومات المنظمة للخطر."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="HR Policy and recruitment procedures
-Information Security policy and procedures
-Competency Standard for IT Personnel
-Individual assessment reports
-Security incident reports (including violation of code of ethics or code of conduct)
-Security
-Awareness Campaign
-User Management Roles and Responsibilities
+							<tx l="eng" name="HR Policy and recruitment procedures.
+Information Security policy and procedures.
+Competency Standard for IT Personnel.
+Individual assessment reports.
+Security incident reports (including violation of code of ethics or code of conduct).
+Security.
+Awareness Campaign.
+User Management Roles and Responsibilities.
+"/>
+							<tx l="spa" name="Política de recursos humanos y procedimientos de contratación.
+Política y procedimientos de seguridad de la información.
+Estándar de competencia para el personal de TI.
+Informes de evaluación individual.
+Informes de incidentes de seguridad (incluida la violación del código de ética o el código de conducta).
+Seguridad.
+Campaña de sensibilización.
+Funciones y responsabilidades de la gestión de usuarios.
+"/>
+							<tx l="fre" name="Politique des ressources humaines et procédures de recrutement.
+Politique et procédures de sécurité de l'information.
+Norme de compétence pour le personnel informatique.
+Rapports d'évaluation individuels.
+Rapports d'incident de sécurité (y compris la violation du code d'éthique ou du code de conduite).
+Sécurité.
+Campagne de sensibilisation.
+Rôles et responsabilités de la gestion des utilisateurs.
+"/>
+							<tx l="ara" name="سياسة الموارد البشرية وإجراءات التوظيف.
+سياسة وإجراءات أمن المعلومات.
+معيار الكفاءة لموظفي تكنولوجيا المعلومات.
+تقارير التقييم الفردية.
+تقارير الحوادث الأمنية (بما في ذلك انتهاك مدونة الأخلاقيات أو قواعد السلوك).
+حماية.
+حملة توعية.
+أدوار ومسؤوليات إدارة المستخدم.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Human resources vis-à-vis Information Security is one of key topics in other sections like IT Governance, and positions of this section like Information Security Policy (awareness, responsibility, top-down information flow, sanctions) or Access Control (individual user rights).]
+							<tx l="eng" name="Human resources vis-à-vis Information Security is one of key topics in other sections like IT Governance, and positions of this section like Information Security Policy (awareness, responsibility, top-down information flow, sanctions) or Access Control (individual user rights).
 Inspect hiring documentation for a representative sample of IT staff members to evaluate whether background checks have been completed and evaluated.
 Inspect selection criteria for performance of security clearance background checks.
 The role of each position must be clear. Supervision activities should be run to check adherence to management policies and procedures, the code of ethics, and professional practices.
 Check if roles which are critical for Information Security are clearly defined and documented. Employees and third parties assigned such roles should know their responsibilities with respect to protecting the organizational information assets, including electronic data, IS infrastructures, documents etc. Review for appropriate definition of critical roles, for which security clearance checks are required. This should apply to employees, contractors and vendors.
 Check for appropriate Segregation of Duties between IT security management and Operations.
-Check if the policy of IT personnel placement, transfer and rotation, as well as employee termination is clear to reduce dependence on the individual. Verify what      knowledge transfer mechanisms are followed
+Check if the policy of IT personnel placement, transfer and rotation, as well as employee termination is clear to reduce dependence on the individual. Verify what knowledge transfer mechanisms are followed.
+"/>
+							<tx l="spa" name="Los recursos humanos frente a la seguridad de la información es uno de los temas clave en otras secciones como el gobierno de TI, y posiciones de esta sección como la política de seguridad de la información (conciencia, responsabilidad, flujo de información de arriba hacia abajo, sanciones) o control de acceso (derechos de los usuarios individuales).
+Inspeccione la documentación de contratación de una muestra representativa de miembros del personal de TI para evaluar si se han completado y evaluado las verificaciones de antecedentes.
+Inspeccione los criterios de selección para la realización de verificaciones de antecedentes de autorización de seguridad.
+El papel de cada puesto debe quedar claro. Se deben realizar actividades de supervisión para verificar el cumplimiento de las políticas y procedimientos de gestión, el código de ética y las prácticas profesionales.
+Compruebe si los roles que son críticos para la seguridad de la información están claramente definidos y documentados. Los empleados y terceros a los que se les asignen tales roles deben conocer sus responsabilidades con respecto a la protección de los activos de información de la organización, incluidos los datos electrónicos, las infraestructuras de SI, los documentos, etc. Revise la definición adecuada de los roles críticos, para los cuales se requieren verificaciones de autorización de seguridad. Esto debería aplicarse a empleados, contratistas y proveedores.
+Compruebe la separación de funciones adecuada entre la gestión de seguridad de TI y las operaciones.
+Verifique si la política de colocación, transferencia y rotación del personal de TI, así como el despido de empleados, es clara para reducir la dependencia del individuo. Verificar qué mecanismos de transferencia de conocimiento se siguen.
+"/>
+							<tx l="fre" name="Les ressources humaines vis-à-vis de la sécurité de l'information sont l'un des sujets clés dans d'autres sections comme la gouvernance informatique, et les positions de cette section comme la politique de sécurité de l'information (sensibilisation, responsabilité, flux d'informations descendant, sanctions) ou le contrôle d'accès (droits des utilisateurs individuels).
+Inspectez la documentation d'embauche pour un échantillon représentatif de membres du personnel informatique afin d'évaluer si les vérifications des antécédents ont été effectuées et évaluées.
+Inspecter les critères de sélection pour l'exécution des vérifications des antécédents d'habilitation de sécurité.
+Le rôle de chaque poste doit être clair. Des activités de supervision doivent être menées pour vérifier le respect des politiques et procédures de gestion, du code de déontologie et des pratiques professionnelles.
+Vérifiez si les rôles essentiels à la sécurité de l'information sont clairement définis et documentés. Les employés et les tiers affectés à de tels rôles doivent connaître leurs responsabilités en matière de protection des actifs informationnels de l'organisation, y compris les données électroniques, les infrastructures SI, les documents, etc. Examiner la définition appropriée des rôles critiques, pour lesquels des contrôles d'habilitation de sécurité sont requis. Cela devrait s'appliquer aux employés, aux entrepreneurs et aux fournisseurs.
+Vérifiez la séparation appropriée des tâches entre la gestion de la sécurité informatique et les opérations.
+Vérifiez si la politique de placement, de transfert et de rotation du personnel informatique, ainsi que de licenciement des employés est claire pour réduire la dépendance à l'égard de l'individu. Vérifiez quels mécanismes de transfert de connaissances sont suivis.
+"/>
+							<tx l="ara" name="الموارد البشرية مقابل أمن المعلومات هي واحدة من الموضوعات الرئيسية في أقسام أخرى مثل إدارة تكنولوجيا المعلومات ، والمواقف في هذا القسم مثل سياسة أمن المعلومات (الوعي ، المسؤولية ، تدفق المعلومات من أعلى إلى أسفل ، العقوبات) أو التحكم في الوصول (حقوق المستخدم الفردي) ).
+افحص وثائق التوظيف للحصول على عينة تمثيلية من موظفي تكنولوجيا المعلومات لتقييم ما إذا كانت الفحوصات الأمنية قد اكتملت وتقييمها.
+فحص معايير الاختيار لأداء الفحوصات الأمنية للتصريح الأمني.
+يجب أن يكون دور كل منصب واضحا. يجب تشغيل أنشطة الإشراف للتحقق من الالتزام بسياسات الإدارة وإجراءاتها ومدونة قواعد الأخلاق والممارسات المهنية.
+تحقق مما إذا كانت الأدوار المهمة لأمن المعلومات محددة وموثقة بوضوح. يجب أن يعرف الموظفون والأطراف الثالثة المكلفة بهذه الأدوار مسؤولياتهم فيما يتعلق بحماية أصول المعلومات التنظيمية ، بما في ذلك البيانات الإلكترونية والبنى التحتية لخدمات المعلومات والوثائق وما إلى ذلك. مراجعة لتعريف مناسب للأدوار الحاسمة ، والتي تتطلب فحوصات التصريح الأمني. يجب أن ينطبق هذا على الموظفين والمقاولين والبائعين.
+تحقق من الفصل المناسب للواجبات بين إدارة أمن تكنولوجيا المعلومات والعمليات.
+تحقق مما إذا كانت سياسة تعيين موظفي تكنولوجيا المعلومات ونقلهم وتناوبهم ، وكذلك إنهاء خدمة الموظفين ، واضحة لتقليل الاعتماد على الفرد. تحقق من آليات نقل المعرفة المتبعة.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -432,28 +1096,68 @@ Check if the policy of IT personnel placement, transfer and rotation, as well as
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="Access Control"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Control de acceso"/>
+				<tx l="fre" name="Contrôle d'accès"/>
+				<tx l="ara" name="صلاحية التحكم صلاحية الدخول"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Access policy"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Política de acceso"/>
+					<tx l="fre" name="Politique d'accès"/>
+					<tx l="ara" name="نهج الوصول"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Access policy">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that only authorized users have access to relevant information"/>
+							<tx l="spa" name="Para garantizar que solo los usuarios autorizados tengan acceso a la información relevante"/>
+							<tx l="fre" name="Pour garantir que seuls les utilisateurs autorisés ont accès aux informations pertinentes"/>
+							<tx l="ara" name="لضمان وصول المستخدمين المصرح لهم فقط إلى المعلومات ذات الصلة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Access policy - Does the organization have clear and efficient policy on access control</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The Access Policy gives sound basis for control of relevant information distribution."/>
+							<tx l="spa" name="La Política de acceso proporciona una base sólida para el control de la distribución de información relevante."/>
+							<tx l="fre" name="La politique d'accès offre une base solide pour le contrôle de la diffusion des informations pertinentes."/>
+							<tx l="ara" name="توفر سياسة الوصول أساسًا سليمًا للتحكم في توزيع المعلومات ذات الصلة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Access Policy and procedures
-List of users 
-Access control list/matrix
+							<tx l="eng" name="Access Policy and procedures.
+List of users .
+Access control list/matrix.
 "/>
 						</inf>
 					</InformationRequired>
@@ -471,9 +1175,20 @@ Select  a  sample  of  user  and  system  accounts  to  determine existence (acc
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -481,7 +1196,21 @@ Select  a  sample  of  user  and  system  accounts  to  determine existence (acc
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Privileges management"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Access Control">
 					<Objectives>
 						<obj>
@@ -518,9 +1247,20 @@ Validation Test 2: Password management:
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -530,15 +1270,60 @@ Validation Test 2: Password management:
 	<Domain nr="06">
 		<title>
 			<tx l="eng" name="BCP-DRP"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			<tx l="spa" name="BCP-DRP"/>
+			<tx l="fre" name="BCP-DRP"/>
+			<tx l="ara" name="BCP-DRP"/>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Business Continuity Policy, Plan and Organisation"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01 " RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Contingency plan and policy for business continuity"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Contingency plan and policy for business continuity">
 					<Objectives>
 						<obj>
@@ -573,9 +1358,20 @@ Review policy to determine who approved it and when was it last distributed / In
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -584,11 +1380,39 @@ Review policy to determine who approved it and when was it last distributed / In
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Establishment of Business Continuity Function"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Business continuity team or equivalent function"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Organization of Business Continuity Function">
 					<Objectives>
 						<obj>
@@ -626,9 +1450,20 @@ Interview a sample staff in business continuity team / equivalent to assess that
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -637,11 +1472,39 @@ Interview a sample staff in business continuity team / equivalent to assess that
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Disaster Recovery Plan"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data and program back up procedures"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Data and program back up proceduresn">
 					<Objectives>
 						<obj>
@@ -690,9 +1553,20 @@ Document review to assess that the relevant staff has been trained on the backup
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -701,11 +1575,39 @@ Document review to assess that the relevant staff has been trained on the backup
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="Testing"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Testing the BCP and DRP"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Testing the BCP and DRP">
 					<Objectives>
 						<obj>
@@ -744,9 +1646,20 @@ Document review to assess that the test recommendations are adequately followed 
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -755,11 +1668,30 @@ Document review to assess that the test recommendations are adequately followed 
 		<Area nr="05">
 			<title>
 				<tx l="eng" name="Security"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data, application software, hardware and data centre are secured"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Data, application software, hardware and data centre are secured">
 					<Objectives>
 						<obj>
@@ -794,9 +1726,20 @@ Verify if there has been any breach of security through examination of access co
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -806,15 +1749,51 @@ Verify if there has been any breach of security through examination of access co
 	<Domain nr="07">
 		<title>
 			<tx l="eng" name="Application Controls"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			<tx l="spa" name="Controles de aplicación"/>
+			<tx l="fre" name="Contrôles d'application"/>
+			<tx l="ara" name="ضوابط التطبيق"/>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Input Controls"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Adequate input validation controls"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Adequate input validation controls">
 					<Objectives>
 						<obj>
@@ -859,9 +1838,20 @@ Determine which interfaces exist with the application. These interfaces could be
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -869,7 +1859,21 @@ Determine which interfaces exist with the application. These interfaces could be
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Management of source documents, data collection and entry"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Management of source documents, data collection and entry">
 					<Objectives>
 						<obj>
@@ -912,9 +1916,20 @@ Enquire responsible personnel about retention policies. Verify how these policie
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -922,7 +1937,21 @@ Enquire responsible personnel about retention policies. Verify how these policie
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Adequate procedures for error handling"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Adequate procedures for error handling">
 					<Objectives>
 						<obj>
@@ -959,9 +1988,20 @@ Enquire managers about the existence of procedures for periodically reviewing th
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -969,7 +2009,21 @@ Enquire managers about the existence of procedures for periodically reviewing th
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Management of data entry authorization into the application"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Management of data entry authorization into the application">
 					<Objectives>
 						<obj>
@@ -1003,9 +2057,20 @@ Assess whether segregation of duties ensure that the person keying the data is n
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1014,11 +2079,39 @@ Assess whether segregation of duties ensure that the person keying the data is n
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Processing Controls"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Mapping the business processes rules and requirements"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Mapping the business processes rules and requirements">
 					<Objectives>
 						<obj>
@@ -1055,9 +2148,20 @@ For highly critical transactions, set up a test system that operates like the li
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1065,7 +2169,21 @@ For highly critical transactions, set up a test system that operates like the li
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Application controls"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Application controls">
 					<Objectives>
 						<obj>
@@ -1109,9 +2227,20 @@ Verify that suspense files are correctly and consistently produced and that user
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1120,11 +2249,39 @@ Verify that suspense files are correctly and consistently produced and that user
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Output Controls"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Assessment of application"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Assessment of application">
 					<Objectives>
 						<obj>
@@ -1163,9 +2320,20 @@ Select a representative sample of output reports, and test the reasonableness an
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1173,7 +2341,21 @@ Select a representative sample of output reports, and test the reasonableness an
 			<Issue nr="02d" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Output data properly protected"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Output data properly protected">
 					<Objectives>
 						<obj>
@@ -1202,9 +2384,20 @@ Check if there are documented procedures for labeling sensitive application outp
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -1213,11 +2406,39 @@ Check if there are documented procedures for labeling sensitive application outp
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="Application security controls"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Traceability mechanisms"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Traceability mechanisms">
 					<Objectives>
 						<obj>
@@ -1257,9 +2478,20 @@ Verify, where possible, using automated evidence collection, if unique identifie
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
