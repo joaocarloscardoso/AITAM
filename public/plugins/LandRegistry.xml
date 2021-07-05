@@ -1164,14 +1164,40 @@ Access control list/matrix.
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Analyze Access Policy and procedures to ensure that employee duties and areas of responsibility are separated in order to reduce opportunities for unauthorized access and privilege approval.
-
 Validation Test: Operating effectiveness of authorization of user access to the LAN (not separate testing of user access to applications should be done in conjunction with application reviews).
 Select  a  sample  of  user  and  system  accounts  to  determine existence (access control software maybe used) of the following:
-•	clearly defined requested role and/or privileges mapped to job functions
-•	business justification for access
-•	data owner and management authorization (i.e. signatures/ written approvals)
+•	clearly defined requested role and/or privileges mapped to job functions;
+•	business justification for access;
+•	data owner and management authorization (i.e. signatures/ written approvals);
 •	Business/risk justification and management approval for non-standard requests;
-•	Access requested is commensurate with job function/role and required segregation of duties
+•	Access requested is commensurate with job function/role and required segregation of duties.
+"/>
+							<tx l="spa" name="Analice la Política de acceso y los procedimientos para garantizar que los deberes y las áreas de responsabilidad de los empleados estén separados a fin de reducir las oportunidades de acceso no autorizado y aprobación de privilegios.
+Prueba de validación: eficacia operativa de la autorización del acceso de los usuarios a la LAN (no se deben realizar pruebas separadas del acceso de los usuarios a las aplicaciones junto con las revisiones de las aplicaciones).
+Seleccione una muestra de cuentas de usuario y sistema para determinar la existencia (se puede usar software de control de acceso) de lo siguiente:
+• rol solicitado claramente definido y / o privilegios asignados a funciones laborales;
+• justificación del negocio para el acceso;
+• propietario de los datos y autorización de gestión (es decir, firmas / aprobaciones por escrito);
+• Justificación del negocio / de riesgo y aprobación de la gerencia para solicitudes no estándar;
+• El acceso solicitado es acorde con la función / rol del trabajo y la segregación de deberes requerida.
+"/>
+							<tx l="fre" name="Analyser la politique et les procédures d'accès pour s'assurer que les tâches et les domaines de responsabilité des employés sont séparés afin de réduire les opportunités d'accès non autorisé et d'approbation de privilèges.
+Test de validation : Efficacité opérationnelle de l'autorisation d'accès des utilisateurs au réseau local (ne pas séparer les tests d'accès des utilisateurs aux applications qui doivent être effectués conjointement avec les examens des applications).
+Sélectionnez un échantillon de comptes utilisateur et système pour déterminer l'existence (un logiciel de contrôle d'accès peut être utilisé) des éléments suivants :
+• rôle et/ou privilèges demandés clairement définis et mappés sur les fonctions du poste ;
+• justification métier de l'accès ;
+• propriétaire des données et autorisation de gestion (c'est-à-dire signatures/approbations écrites) ;
+• Justification métier/risque et approbation de la direction pour les demandes non standard ;
+• L'accès demandé est proportionné à la fonction/rôle de l'emploi et à la séparation des tâches requise.
+"/>
+							<tx l="ara" name="قم بتحليل سياسة الوصول والإجراءات لضمان فصل واجبات الموظف ومجالات المسؤولية من أجل تقليل فرص الوصول غير المصرح به والموافقة على الامتياز.
+اختبار التحقق من الصحة: فعالية تشغيل إذن وصول المستخدم إلى الشبكة المحلية (لا ينبغي إجراء اختبار منفصل لوصول المستخدم إلى التطبيقات بالتزامن مع مراجعات التطبيق).
+حدد عينة من حسابات المستخدم والنظام لتحديد وجود (ربما يتم استخدام برنامج التحكم في الوصول) مما يلي:
+• الدور المطلوب المحدد بوضوح و / أو الامتيازات المعينة لوظائف الوظيفة ؛
+• مبرر الأعمال للوصول.
+• مالك البيانات وتفويض الإدارة (مثل التوقيعات / الموافقات الخطية) ؛
+• تبرير الأعمال / المخاطر وموافقة الإدارة على الطلبات غير القياسية.
+• الوصول المطلوب يتناسب مع الوظيفة / الدور الوظيفي والفصل المطلوب بين الواجبات.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1196,6 +1222,9 @@ Select  a  sample  of  user  and  system  accounts  to  determine existence (acc
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Privileges management"/>
+					<tx l="spa" name="Gestión de privilegios"/>
+					<tx l="fre" name="Gestion des privilèges"/>
+					<tx l="ara" name="إدارة الامتيازات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -1215,20 +1244,26 @@ Select  a  sample  of  user  and  system  accounts  to  determine existence (acc
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To ensure that only authorized users have access to relevant information"/>
+							<tx l="spa" name="Para garantizar que solo los usuarios autorizados tengan acceso a la información relevante"/>
+							<tx l="fre" name="Pour garantir que seuls les utilisateurs autorisés ont accès aux informations pertinentes"/>
+							<tx l="ara" name="للتأكد من أن المستخدمين المصرح لهم فقط لديهم حق الوصول إلى المعلومات ذات الصلة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Privileges management - Is process for granting and revoking access control to employees and contractors safe and effective?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The Information Security function monitors the control effectiveness of user account management operations on a timely basis and reports the operating efficiency and effectiveness"/>
+							<tx l="spa" name="La función de Seguridad de la Información monitorea la efectividad del control de las operaciones de administración de cuentas de usuario de manera oportuna e informa la eficiencia y efectividad operativa"/>
+							<tx l="fre" name="La fonction de sécurité de l'information surveille l'efficacité du contrôle des opérations de gestion des comptes d'utilisateurs en temps opportun et rend compte de l'efficacité et de l'efficience opérationnelles"/>
+							<tx l="ara" name="تراقب وظيفة أمن المعلومات فعالية الرقابة على عمليات إدارة حساب المستخدم في الوقت المناسب وتبلغ عن كفاءة التشغيل وفعاليته"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Access control procedures
-
-Sample of employees’ transfers and terminations
-"/>
+							<tx l="eng" name="Access control procedures. Sample of employees’ transfers and terminations."/>
+							<tx l="spa" name="Procedimientos de control de acceso. Muestra de traslados y ceses de empleados."/>
+							<tx l="fre" name="Procédures de contrôle d'accès. Exemple de transferts et de cessations d'emploi d'employés."/>
+							<tx l="ara" name="إجراءات مراقبة الدخول. عينة من عمليات نقل الموظفين وإنهاء الخدمة."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
@@ -1238,12 +1273,32 @@ Check how the privileges that are granted to an employee are confirmed (Examples
 Interview sample of users and check instructions to verify how the users are informed about their responsibility for protecting sensitive information or assets when the access is granted to them
 Determine whether the organization’s security practices require users and system processes to be uniquely identifiable and systems to be configured to enforce authentication before access is granted, and that such control mechanisms are utilized for controlling logical access across all users, system processes and IT resources.
 Analyze other than password privileges, e.g. how it is checked that a user does indeed have sufficient access and privileges to the requested resource? (Examples include access from secure location, hardware tokens or fingerprint readers, etc.)
-
-Validation Test 1: Operating effectiveness of transfers and terminations:
-•	Obtain from HR a sample of employee transfers and terminations and, through review of system account profiles and/or CAATs (e.g. ACL, IDEA) determine if access has been appropriately altered and/or revoked in a timely manner.
-
-Validation Test 2: Password management:
-•	Verify  that  the  quality  requirements  for  passwords  are defined and enforced by the network management system and/or operating systems based on local requirements/ organization policy or best practice
+Validation Test 1: Operating effectiveness of transfers and terminations: Obtain from HR a sample of employee transfers and terminations and, through review of system account profiles and/or CAATs (e.g. ACL, IDEA) determine if access has been appropriately altered and/or revoked in a timely manner.
+Validation Test 2: Password management: Verify  that  the  quality  requirements  for  passwords  are defined and enforced by the network management system and/or operating systems based on local requirements/ organization policy or best practice.
+"/>
+							<tx l="spa" name="Verifique los procedimientos para determinar con qué frecuencia se revisan los distintos accesos y privilegios que los empleados o usuarios tienen en la organización.
+Verifique cómo se confirman los privilegios que se otorgan a un empleado (los ejemplos incluyen preguntarle al supervisor, gerente de área, grupo, etc.)
+Entreviste a una muestra de usuarios y verifique las instrucciones para verificar cómo se informa a los usuarios sobre su responsabilidad de proteger la información o los activos sensibles cuando se les otorga el acceso.
+Determine si las prácticas de seguridad de la organización requieren que los usuarios y los procesos del sistema sean identificables de manera única y que los sistemas estén configurados para hacer cumplir la autenticación antes de que se otorgue el acceso, y que dichos mecanismos de control se utilicen para controlar el acceso lógico en todos los usuarios, procesos del sistema y recursos de TI.
+Analizar otros privilegios de contraseña, p. Ej. ¿Cómo se comprueba que un usuario tiene acceso y privilegios suficientes al recurso solicitado? (Los ejemplos incluyen acceso desde una ubicación segura, tokens de hardware o lectores de huellas digitales, etc.)
+Prueba de validación 1: Efectividad operativa de transferencias y terminaciones: Obtenga de Recursos Humanos una muestra de transferencias y terminaciones de empleados y, mediante la revisión de los perfiles de cuentas del sistema y / o CAAT (por ejemplo, ACL, IDEA), determine si el acceso se ha alterado o revocado de manera apropiada de una manera oportuna.
+Prueba de validación 2: Gestión de contraseñas: Verifique que los requisitos de calidad para las contraseñas estén definidos y aplicados por el sistema de gestión de red y / o los sistemas operativos en función de los requisitos / políticas de la organización o las mejores prácticas locales.
+"/>
+							<tx l="fre" name="Vérifiez les procédures pour déterminer à quelle fréquence les divers accès et privilèges dont disposent les employés ou les utilisateurs dans l'organisation sont examinés.
+Vérifiez comment les privilèges accordés à un employé sont confirmés (par exemple, demander au superviseur, au responsable de zone, au groupe, etc.)
+Interroger un échantillon d'utilisateurs et évaluer les instructions pour vérifier comment les utilisateurs sont informés de leur responsabilité de protéger les informations ou les actifs sensibles lorsque l'accès leur est accordé.
+Déterminez si les pratiques de sécurité de l'organisation exigent que les utilisateurs et les processus système soient identifiables de manière unique et que les systèmes soient configurés pour appliquer l'authentification avant que l'accès ne soit accordé, et que ces mécanismes de contrôle soient utilisés pour contrôler l'accès logique à travers tous les utilisateurs, processus système et ressources informatiques.
+Analysez les privilèges autres que les mots de passe, par ex. comment vérifier qu'un utilisateur a bien un accès et des privilèges suffisants à la ressource demandée ? (Les exemples incluent l'accès depuis un emplacement sécurisé, des jetons matériels ou des lecteurs d'empreintes digitales, etc.)
+Test de validation 1 : Efficacité opérationnelle des transferts et des cessations d'emploi : Obtenir des ressources humaines un échantillon des transferts d'employés et des cessations d'emploi et, en examinant les profils de compte système et/ou les CAAT (par exemple ACL, IDEA), déterminer si l'accès a été modifié de manière appropriée et/ou révoqué en temps opportun.
+Test de validation 2 : Gestion des mots de passe : vérifiez que les exigences de qualité pour les mots de passe sont définies et appliquées par le système de gestion de réseau et/ou les systèmes d'exploitation en fonction des exigences locales/de la politique d'organisation ou des meilleures pratiques.
+"/>
+							<tx l="ara" name="تحقق من الإجراءات لتحديد عدد المرات التي تتم فيها مراجعة الامتيازات والامتيازات المختلفة التي يتمتع بها الموظفون أو المستخدمون في المؤسسة.
+تحقق من كيفية تأكيد الامتيازات الممنوحة للموظف (تشمل الأمثلة سؤال المشرف ، مدير المنطقة ، المجموعة ، إلخ.)
+مقابلة عينة من المستخدمين والتحقق من التعليمات للتحقق من كيفية إبلاغ المستخدمين بمسؤوليتهم عن حماية المعلومات أو الأصول الحساسة عند منحهم حق الوصول
+حدد ما إذا كانت ممارسات أمان المؤسسة تتطلب تعريف المستخدمين وعمليات النظام بشكل فريد وأن يتم تكوين الأنظمة لفرض المصادقة قبل منح الوصول ، وأن آليات التحكم هذه تُستخدم للتحكم في الوصول المنطقي عبر جميع المستخدمين وعمليات النظام وموارد تكنولوجيا المعلومات.
+تحليل بخلاف امتيازات كلمة المرور ، على سبيل المثال كيف يتم التحقق من أن المستخدم لديه بالفعل وصول وامتيازات كافية إلى المورد المطلوب؟ (تشمل الأمثلة الوصول من موقع آمن ، أو الرموز المميزة للأجهزة أو قارئات بصمات الأصابع ، وما إلى ذلك)
+اختبار التحقق 1: الفعالية التشغيلية لعمليات النقل والإنهاء: احصل من الموارد البشرية على عينة من عمليات نقل الموظفين وإنهاء الخدمة ، ومن خلال مراجعة ملفات تعريف حساب النظام و / أو CAATs (مثل ACL و IDEA) حدد ما إذا كان الوصول قد تم تغييره بشكل مناسب و / أو في الوقت المناسب.
+اختبار التحقق من الصحة 2: إدارة كلمة المرور: تحقق من تحديد متطلبات الجودة لكلمات المرور وفرضها بواسطة نظام إدارة الشبكة و / أو أنظمة التشغيل بناءً على المتطلبات المحلية / سياسة المؤسسة أو أفضل الممارسات.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1291,6 +1346,9 @@ Validation Test 2: Password management:
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Business Continuity Policy, Plan and Organisation"/>
+				<tx l="spa" name="Política, plan y organización de continuidad del negocio"/>
+				<tx l="fre" name="Politique, plan et organisation de continuité des activités"/>
+				<tx l="ara" name="سياسة وخطة وتنظيم استمرارية الأعمال"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1309,6 +1367,9 @@ Validation Test 2: Password management:
 			<Issue nr="01 " RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Contingency plan and policy for business continuity"/>
+					<tx l="spa" name="Plan de contingencia y política para la continuidad del negocio."/>
+					<tx l="fre" name="Plan d'urgence et politique de continuité des activités"/>
+					<tx l="ara" name="خطة الطوارئ وسياسة استمرارية الأعمال"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -1328,32 +1389,45 @@ Validation Test 2: Password management:
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether there is an effective business continuity policy in the organization"/>
+							<tx l="eng" name="Evaluar si existe una política de continuidad del negocio efectiva en la organización."/>
+							<tx l="eng" name="Évaluer s'il existe une politique de continuité d'activité efficace dans l'organisation"/>
+							<tx l="eng" name="لتقييم ما إذا كانت هناك سياسة استمرارية أعمال فعالة في المنظمة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the organization have a a contingency plan and policy for business continuity?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Organizational policy on business continuity containing roles and responsibilities, scope, resource allocation criteria/ principles, training requirements, maintenance schedule, testing schedule, back up plans etc and approval levels and related parties. Alternative: The organization has a published contingency plan and policy in place which comprehensively covers all areas of contingency operations and clearly identifies training requirements and testing schedules"/>
+							<tx l="spa" name="Política de la organización sobre la continuidad del negocio que contiene roles y responsabilidades, alcance, criterios / principios de asignación de recursos, requisitos de capacitación, programa de mantenimiento, programa de pruebas, planes de respaldo, etc. y niveles de aprobación y partes relacionadas. Alternativa: La organización cuenta con un plan y una política de contingencia publicados que cubre de manera integral todas las áreas de operaciones de contingencia e identifica claramente los requisitos de capacitación y los programas de pruebas."/>
+							<tx l="fre" name="Politique organisationnelle sur la continuité des activités contenant les rôles et les responsabilités, la portée, les critères/principes d'allocation des ressources, les exigences de formation, le calendrier de maintenance, le calendrier de test, les plans de sauvegarde, etc. et les niveaux d'approbation et les parties liées. Alternative : L'organisation a mis en place un plan et une politique d'urgence publiés qui couvrent de manière exhaustive tous les domaines des opérations d'urgence et identifient clairement les exigences de formation et les calendriers de test."/>
+							<tx l="ara" name="تتضمن السياسة التنظيمية لاستمرارية الأعمال الأدوار والمسؤوليات والنطاق ومعايير / مبادئ تخصيص الموارد ومتطلبات التدريب وجدول الصيانة وجدول الاختبار وخطط النسخ الاحتياطي وما إلى ذلك ومستويات الموافقة والأطراف ذات الصلة. بديل: لدى المنظمة خطة طوارئ وسياسة منشورة تغطي بشكل شامل جميع مجالات عمليات الطوارئ وتحدد بوضوح متطلبات التدريب وجداول الاختبار"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Business Continuity Policy Document IT Policy Document
-Approval process for adoption of business policy objectives
-
-Correspondence and minutes of meetings related to business continuity
-
+							<tx l="eng" name="Business Continuity Policy. Document IT Policy Document.
+Approval process for adoption of business policy objectives.
+Correspondence and minutes of meetings related to business continuity.
+"/>
+							<tx l="spa" name="Business Continuity Policy Document IT Policy Document.
+Approval process for adoption of business policy objectives.
+Correspondence and minutes of meetings related to business continuity.
+"/>
+							<tx l="fre" name="Document de politique de continuité des activités Document de politique informatique.
+Processus d'approbation pour l'adoption des objectifs de la politique commerciale.
+Correspondance et procès-verbaux de réunions liés à la continuité des activités.
+"/>
+							<tx l="ara" name="Business Continuity Policy Document IT Policy Document.
+Approval process for adoption of business policy objectives.
+Correspondence and minutes of meetings related to business continuity.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review for assessing that the policy is consistent with the organization’s overall IT policies.
-
 Document review to assess that the policy addresses requirements of business continuity by defining organization’s contingency objectives, organizational framework and responsibilities for contingency planning.
-
 Review or interview personnel to determine how often the policy is updated if conditions change.
-
 Review policy to determine who approved it and when was it last distributed / Interview a sample of business users to assess if the policy has been sufficiently communicated within the organization.
 "/>
 						</anm>
