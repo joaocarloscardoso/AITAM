@@ -1417,9 +1417,9 @@ Correspondence and minutes of meetings related to business continuity.
 Processus d'approbation pour l'adoption des objectifs de la politique commerciale.
 Correspondance et procès-verbaux de réunions liés à la continuité des activités.
 "/>
-							<tx l="ara" name="Business Continuity Policy Document IT Policy Document.
-Approval process for adoption of business policy objectives.
-Correspondence and minutes of meetings related to business continuity.
+							<tx l="ara" name="وثيقة سياسة استمرارية الأعمال وثيقة سياسة تكنولوجيا المعلومات.
+عملية الموافقة على اعتماد أهداف سياسة الأعمال.
+المراسلات ومحاضر الاجتماعات المتعلقة باستمرارية العمل.
 "/>
 						</inf>
 					</InformationRequired>
@@ -1429,6 +1429,21 @@ Correspondence and minutes of meetings related to business continuity.
 Document review to assess that the policy addresses requirements of business continuity by defining organization’s contingency objectives, organizational framework and responsibilities for contingency planning.
 Review or interview personnel to determine how often the policy is updated if conditions change.
 Review policy to determine who approved it and when was it last distributed / Interview a sample of business users to assess if the policy has been sufficiently communicated within the organization.
+"/>
+							<tx l="spa" name="Revisión de documentos para evaluar que la política es consistente con las políticas de TI generales de la organización.
+Revisión de documentos para evaluar que la política aborda los requisitos de continuidad del negocio mediante la definición de los objetivos de contingencia de la organización, el marco organizativo y las responsabilidades para la planificación de contingencias.
+Revise o entreviste al personal para determinar con qué frecuencia se actualiza la política si cambian las condiciones.
+Revise la política para determinar quién la aprobó y cuándo se distribuyó por última vez / Entreviste a una muestra de usuarios profesionales para evaluar si la política se ha comunicado suficientemente dentro de la organización.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer que la politique est cohérente avec les politiques informatiques globales de l'organisation.
+Examen des documents pour évaluer que la politique répond aux exigences de continuité des activités en définissant les objectifs d'urgence de l'organisation, le cadre organisationnel et les responsabilités en matière de planification d'urgence.
+Passez en revue ou interrogez le personnel pour déterminer la fréquence à laquelle la politique est mise à jour si les conditions changent.
+Examinez la politique pour déterminer qui l'a approuvée et quand a-t-elle été distribuée pour la dernière fois / Interrogez un échantillon d'utilisateurs professionnels pour évaluer si la politique a été suffisamment communiquée au sein de l'organisation.
+"/>
+							<tx l="ara" name="مراجعة المستندات لتقييم توافق السياسة مع سياسات تكنولوجيا المعلومات العامة للمؤسسة.
+مراجعة الوثيقة لتقييم أن السياسة تتناول متطلبات استمرارية الأعمال من خلال تحديد أهداف الطوارئ للمنظمة ، والإطار التنظيمي والمسؤوليات للتخطيط للطوارئ.
+مراجعة أو مقابلة الموظفين لتحديد عدد المرات التي يتم فيها تحديث السياسة إذا تغيرت الظروف.
+مراجعة السياسة لتحديد من وافق عليها ومتى تم توزيعها آخر مرة / مقابلة عينة من مستخدمي الأعمال لتقييم ما إذا كانت السياسة قد تم إبلاغها بشكل كافٍ داخل المنظمة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1454,6 +1469,9 @@ Review policy to determine who approved it and when was it last distributed / In
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Establishment of Business Continuity Function"/>
+				<tx l="spa" name="Establecimiento de la función de continuidad del negocio"/>
+				<tx l="fre" name="Établissement de la fonction de continuité des activités"/>
+				<tx l="ara" name="تأسيس وظيفة استمرارية الأعمال"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1472,6 +1490,9 @@ Review policy to determine who approved it and when was it last distributed / In
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Business continuity team or equivalent function"/>
+					<tx l="spa" name="Equipo de continuidad del negocio o función equivalente"/>
+					<tx l="fre" name="Équipe de continuité des activités ou fonction équivalente"/>
+					<tx l="ara" name="فريق استمرارية العمل أو وظيفة معادلة"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -1491,36 +1512,69 @@ Review policy to determine who approved it and when was it last distributed / In
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether there is an effective business continuity policy in the organization"/>
+							<tx l="spa" name="Evaluar si existe una política de continuidad del negocio efectiva en la organización."/>
+							<tx l="fre" name="Évaluer s'il existe une politique de continuité d'activité efficace dans l'organisation"/>
+							<tx l="ara" name="لتقييم ما إذا كانت هناك سياسة استمرارية أعمال فعالة في المنظمة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is there a business continuity team or equivalent function in place?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Coverage of all critical areas of the organization in the team. Roles and responsibility requirements for the team."/>
+							<tx l="spa" name="Cobertura de todas las áreas críticas de la organización en el equipo. Roles y requisitos de responsabilidad del equipo."/>
+							<tx l="fre" name="Couverture de tous les domaines critiques de l'organisation dans l'équipe. Rôles et responsabilités requises pour l'équipe."/>
+							<tx l="ara" name="تغطية جميع المجالات الحاسمة للمنظمة في الفريق. الأدوار ومتطلبات المسؤولية للفريق."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Organization chart of organization 
-
-Organization chart of business continuity team Role/ responsibility description of the business
-continuity team members
-
-Correspondence / meeting minutes on issues of business continuity
-
-Business continuity plan
+							<tx l="eng" name="Organization chart of organization.
+Organization chart of business continuity team.
+Role/ responsibility description of the business continuity team members.
+Correspondence / meeting minutes on issues of business continuity.
+Business continuity plan.
+"/>
+							<tx l="spa" name="Organigrama de la organización.
+Organigrama del equipo de continuidad del negocio.
+Descripción del rol / responsabilidad de los miembros del equipo de continuidad del negocio.
+Actas de correspondencia / reuniones sobre cuestiones de continuidad del negocio.
+Plan de negocios continuo.
+"/>
+							<tx l="fre" name="Organigramme de l'organisation.
+Organigramme de l'équipe de continuité des activités.
+Description du rôle/responsabilité des membres de l'équipe de continuité des activités.
+Correspondance / procès-verbal de réunion sur les questions de continuité d'activité.
+Plan de continuité d'activité.
+"/>
+							<tx l="ara" name="الهيكل التنظيمي للتنظيم.
+المخطط التنظيمي لفريق استمرارية الأعمال.
+وصف الدور / المسؤولية لأعضاء فريق استمرارية الأعمال.
+المراسلات / محاضر الاجتماعات حول قضايا استمرارية العمل.
+خطة استمرارية العمل.
 "/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Document review / Interview relevant staff to assess that all critical areas of organization are represented in the business continuity team or equivalent.
-
 Document review to assess that there is adequate ownership and assignment of business continuity responsibility on the Senior Management. For example, has the management identified the level and urgency of recovery, and this is reflected in the policy.
-
 Document review to assess that all critical departments have assigned team members for disaster recovery and their roles are clearly laid out.
-
-Interview a sample staff in business continuity team / equivalent to assess that they are aware of their roles for business continuity for each critical business unit/department
+Interview a sample staff in business continuity team / equivalent to assess that they are aware of their roles for business continuity for each critical business unit/department.
+"/>
+							<tx l="spa" name="Revisión de documentos / Entrevista al personal relevante para evaluar que todas las áreas críticas de la organización están representadas en el equipo de continuidad del negocio o equivalente.
+Revisión de documentos para evaluar que existe apropiación adecuada y asignación de responsabilidad de continuidad del negocio en la Alta Dirección. Por ejemplo, ¿ha identificado la administración el nivel y la urgencia de la recuperación, y esto se refleja en la política?
+Revisión de documentos para evaluar que todos los departamentos críticos han asignado miembros del equipo para la recuperación de desastres y sus funciones están claramente definidas.
+Entreviste a una muestra del personal del equipo de continuidad del negocio / equivalente para evaluar si conocen sus roles para la continuidad del negocio para cada unidad / departamento de negocio crítico.
+"/>
+							<tx l="fre" name="Examen des documents/Interview du personnel concerné pour évaluer que tous les domaines critiques de l'organisation sont représentés dans l'équipe de continuité des activités ou l'équivalent.
+Examen des documents pour évaluer qu'il existe une appropriation et une attribution adéquates de la responsabilité de la continuité des activités à la haute direction. Par exemple, la direction a-t-elle identifié le niveau et l'urgence du rétablissement, et cela se reflète dans la politique.
+Examen des documents pour évaluer que tous les départements critiques ont affecté des membres de l'équipe à la reprise après sinistre et que leurs rôles sont clairement définis.
+Interrogez un échantillon d'employés de l'équipe de continuité des activités / équivalent pour évaluer s'ils sont conscients de leurs rôles en matière de continuité des activités pour chaque unité commerciale / département critique.
+"/>
+							<tx l="ara" name="مراجعة الوثيقة / مقابلة الموظفين المعنيين لتقييم أن جميع المجالات الحرجة للمؤسسة ممثلة في فريق استمرارية الأعمال أو ما يعادله.
+مراجعة المستندات لتقييم وجود ملكية كافية وإسناد مسؤولية استمرارية الأعمال إلى الإدارة العليا. على سبيل المثال ، هل حددت الإدارة مستوى الاسترداد وإلحاحه ، وهذا ينعكس في السياسة.
+مراجعة الوثائق لتقييم أن جميع الإدارات الهامة قد عينت أعضاء فريق للتعافي من الكوارث وتم تحديد أدوارهم بوضوح.
+مقابلة عينة من الموظفين في فريق استمرارية الأعمال / فريق مكافئ لتقييم مدى إدراكهم لأدوارهم في استمرارية الأعمال لكل قسم / وحدة عمل مهمة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1546,6 +1600,9 @@ Interview a sample staff in business continuity team / equivalent to assess that
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Disaster Recovery Plan"/>
+				<tx l="spa" name="Plan de recuperación en un desastre"/>
+				<tx l="fre" name="Plan de reprise après sinistre"/>
+				<tx l="ara" name="خطة التعافي من الكوارث"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1564,6 +1621,9 @@ Interview a sample staff in business continuity team / equivalent to assess that
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data and program back up procedures"/>
+					<tx l="spa" name="Procedimientos de respaldo de datos y programas"/>
+					<tx l="fre" name="Procédures de sauvegarde des données et des programmes"/>
+					<tx l="ara" name="إجراءات النسخ الاحتياطي للبيانات والبرامج"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -1583,31 +1643,69 @@ Interview a sample staff in business continuity team / equivalent to assess that
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the Business Continuity Plan includes backup and recovery plans for hardware, data, application software and data center (recovery) and has been suitably implemented?"/>
+							<tx l="spa" name="¿Para evaluar si el Plan de Continuidad Comercial incluye planes de respaldo y recuperación para hardware, datos, software de aplicación y centro de datos (recuperación) y se ha implementado adecuadamente?"/>
+							<tx l="fre" name="Pour évaluer si le plan de continuité des activités comprend des plans de sauvegarde et de récupération pour le matériel, les données, les logiciels d'application et le centre de données (récupération) et a-t-il été correctement mis en œuvre?"/>
+							<tx l="ara" name="لتقييم ما إذا كانت خطة استمرارية الأعمال تتضمن خطط نسخ احتياطي واستعادة للأجهزة والبيانات وبرامج التطبيقات ومركز البيانات (الاسترداد) وتم تنفيذها بشكل مناسب؟"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Have the data and program back up procedures been devised and implemented effectively?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Criticality of applications and functions as per Business Impact Assessment. Determined periodicity of backups. Documented backup and recovery plans"/>
+							<tx l="eng" name="Criticality of applications and functions as per Business Impact Assessment. Determined periodicity of backups. Documented backup and recovery plans."/>
+							<tx l="spa" name="Criticidad de las aplicaciones y funciones según la evaluación de impacto empresarial. Periodicidad determinada de las copias de seguridad. Planes de respaldo y recuperación documentados."/>
+							<tx l="fre" name="Criticité des applications et des fonctions selon l'évaluation de l'impact sur l'entreprise. Périodicité déterminée des sauvegardes. Plans de sauvegarde et de restauration documentés."/>
+							<tx l="ara" name="أهمية التطبيقات والوظائف حسب تقييم تأثير الأعمال. دورية محددة من النسخ الاحتياطية. خطط النسخ الاحتياطي والاسترداد الموثقة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Back up plans and procedures for the hardware, data, application software
-
-Back up logs/ Version logs
-
-Roles and responsibilities for back up List of storage locations and periodicity Retention schedule
-
-Security arrangement for back up site Disaster logs
-
-Roles and responsibilities for recovery activities 
-
-Training records of responsible personnel 
-
-Impact assessment of disasters
-
-Report on disaster recovery activities
+							<tx l="eng" name="Back up plans and procedures for the hardware, data, application software.
+Back up logs/ Version logs.
+Roles and responsibilities for back up.
+List of storage locations and periodicity.
+Retention schedule.
+Security arrangement for back up site.
+Disaster logs.
+Roles and responsibilities for recovery activities.
+Training records of responsible personnel.
+Impact assessment of disasters.
+Report on disaster recovery activities.
+"/>
+							<tx l="spa" name="Planes y procedimientos de las copias de seguridad para el hardware, los datos y el software de aplicación.
+Copias de seguridad de registros / registros de versiones.
+Funciones y responsabilidades de respaldo.
+Lista de ubicaciones de almacenamiento y periodicidad.
+Calendario de retención.
+Arreglo de seguridad para el sitio de respaldo.
+Registros de desastres.
+Funciones y responsabilidades de las actividades de recuperación.
+Registros de formación del personal responsable.
+Evaluación de impacto de desastres.
+Informe sobre las actividades de recuperación ante desastres.
+"/>
+							<tx l="fre" name="Plans et procédures de sauvegarde pour le matériel, les données et les logiciels d'application.
+Sauvegarder les journaux / journaux de version.
+Rôles et responsabilités de la sauvegarde.
+Liste des lieux de stockage et périodicité.
+Calendrier de conservation.
+Disposition de sécurité pour le site de sauvegarde.
+Journaux de sinistre.
+Rôles et responsabilités pour les activités de rétablissement.
+Dossiers de formation du personnel responsable.
+Évaluation de l'impact des catastrophes.
+Rapport sur les activités de reprise après sinistre.
+"/>
+							<tx l="ara" name="خطط وإجراءات النسخ الاحتياطي للأجهزة والبيانات وبرامج التطبيقات.
+الاحتفاظ بنسخة احتياطية من السجلات / سجلات الإصدار.
+الأدوار والمسؤوليات الخاصة بالنسخ الاحتياطي.
+قائمة بأماكن التخزين والوتيرة.
+جدول الاستبقاء.
+الترتيب الأمني لموقع النسخ الاحتياطي.
+سجلات الكوارث.
+الأدوار والمسؤوليات لأنشطة الاسترداد.
+سجلات تدريب الموظفين المسؤولين.
+تقييم أثر الكوارث.
+تقرير عن أنشطة التعافي من الكوارث.
 "/>
 						</inf>
 					</InformationRequired>
@@ -1617,13 +1715,49 @@ Report on disaster recovery activities
 Document reviews to assess that detailed back up procedures have been devised.
 Document review to assess that the backup plan is adequately implemented.
 Analysis of logs to assess the backup is taken at determined timelines and is retained for the specified time period.
-Verify that the right version of back up is available. Document review to assess the adequacy of back up location and the mode of transport of back up files etc to the back up location.
+Verify that the right version of back up is available. Document review to assess the adequacy of back up location and the mode of transport of back up files etc. to the back up location.
 Verify that the security, logical or physical is adequate for the backup site.
-Verify that the backup files can be used for recovery Document review to assess that back up procedures are
-implemented minimizing loss of time and resources.
+Verify that the backup files can be used for recovery.
+Document review to assess that back up procedures are implemented minimizing loss of time and resources.
 Document review to assess that detailed recovery procedure has been devised and includes resetting of system parameters, installation of patches, establishing the configuration settings, availability of the system documentation and operating procedures, reinstallation of application and system software, availability of most recent backup, testing of system.
-Document review to assess that recovery procedures are implemented minimizing loss of time and resources
+Document review to assess that recovery procedures are implemented minimizing loss of time and resources.
 Document review to assess that the relevant staff has been trained on the backup and recovery procedures.
+"/>
+							<tx l="spa" name="Revisión de documentos para evaluar que el plan de respaldo incluye todo el hardware, datos y software de aplicación críticos.
+Revisiones de documentos para evaluar si se han elaborado procedimientos de respaldo detallados.
+Revisión de documentos para evaluar que el plan de respaldo se implemente de manera adecuada.
+El análisis de los registros para evaluar la copia de seguridad se realiza en determinados plazos y se conserva durante el período de tiempo especificado.
+Verifique que esté disponible la versión correcta de la copia de seguridad. Revisión de documentos para evaluar la idoneidad de la ubicación de la copia de seguridad y el modo de transporte de los archivos de copia de seguridad, etc. a la ubicación de la copia de seguridad.
+Verifique que la seguridad, lógica o física, sea adecuada para el sitio de respaldo.
+Verifique que los archivos de respaldo se puedan usar para la recuperación.
+Revisión de documentos para evaluar que los procedimientos de respaldo se implementan minimizando la pérdida de tiempo y recursos.
+Revisión de documentos para evaluar que se ha diseñado un procedimiento de recuperación detallado e incluye el restablecimiento de los parámetros del sistema, la instalación de parches, el establecimiento de los parámetros de configuración, la disponibilidad de la documentación del sistema y los procedimientos operativos, la reinstalación de la aplicación y el software del sistema, la disponibilidad de la copia de seguridad más reciente, las pruebas del sistema.
+Revisión de documentos para evaluar que los procedimientos de recuperación se implementan minimizando la pérdida de tiempo y recursos.
+Revisión de documentos para evaluar que el personal relevante haya sido capacitado en los procedimientos de respaldo y recuperación.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer que le plan de sauvegarde inclut tout le matériel, les données et les logiciels d'application critiques.
+Examens de documents pour évaluer que des procédures de sauvegarde détaillées ont été conçues.
+Examen des documents pour évaluer que le plan de sauvegarde est correctement mis en œuvre.
+L'analyse des journaux pour évaluer la sauvegarde est effectuée à des délais déterminés et est conservée pendant la période spécifiée.
+Vérifiez que la bonne version de sauvegarde est disponible. Examen des documents pour évaluer l'adéquation de l'emplacement de sauvegarde et le mode de transport des fichiers de sauvegarde, etc. vers l'emplacement de sauvegarde.
+Vérifiez que la sécurité, logique ou physique est adéquate pour le site de sauvegarde.
+Vérifiez que les fichiers de sauvegarde peuvent être utilisés pour la récupération.
+Examen des documents pour évaluer que les procédures de sauvegarde sont mises en œuvre en minimisant la perte de temps et de ressources.
+Examen des documents pour évaluer que la procédure de récupération détaillée a été conçue et comprend la réinitialisation des paramètres du système, l'installation des correctifs, l'établissement des paramètres de configuration, la disponibilité de la documentation du système et des procédures d'exploitation, la réinstallation de l'application et du logiciel système, la disponibilité de la sauvegarde la plus récente, les tests de système.
+Examen des documents pour évaluer que les procédures de récupération sont mises en œuvre en minimisant la perte de temps et de ressources.
+Examen des documents pour évaluer que le personnel concerné a été formé sur les procédures de sauvegarde et de récupération.
+"/>
+							<tx l="ara" name="مراجعة المستندات لتقييم أن خطة النسخ الاحتياطي تشمل جميع الأجهزة والبيانات وبرامج التطبيقات الهامة.
+مراجعة المستندات لتقييم أن إجراءات النسخ الاحتياطي التفصيلية قد تم وضعها.
+مراجعة الوثيقة لتقييم تنفيذ الخطة الاحتياطية بشكل مناسب.
+يتم إجراء تحليل السجلات لتقييم النسخة الاحتياطية في جداول زمنية محددة ويتم الاحتفاظ بها لفترة زمنية محددة.
+تحقق من توفر الإصدار الصحيح من النسخ الاحتياطي. مراجعة المستندات لتقييم مدى كفاية موقع النسخ الاحتياطي وطريقة نقل الملفات الاحتياطية وما إلى ذلك إلى موقع النسخ الاحتياطي.
+تحقق من أن الأمان المنطقي أو المادي مناسب لموقع النسخ الاحتياطي.
+تحقق من إمكانية استخدام ملفات النسخ الاحتياطي للاسترداد.
+مراجعة المستندات لتقييم تنفيذ إجراءات النسخ الاحتياطي لتقليل ضياع الوقت والموارد.
+مراجعة المستندات لتقييم أن إجراءات الاسترداد التفصيلية قد تم وضعها وتتضمن إعادة تعيين معلمات النظام ، وتثبيت التصحيحات ، وإنشاء إعدادات التكوين ، وتوافر وثائق النظام وإجراءات التشغيل ، وإعادة تثبيت التطبيق وبرامج النظام ، وتوافر أحدث نسخة احتياطية ، والاختبار من النظام.
+مراجعة المستندات لتقييم تنفيذ إجراءات الاسترداد لتقليل ضياع الوقت والموارد.
+مراجعة المستندات لتقييم أن الموظفين المعنيين قد تم تدريبهم على إجراءات النسخ الاحتياطي والاسترداد.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1649,6 +1783,9 @@ Document review to assess that the relevant staff has been trained on the backup
 		<Area nr="04">
 			<title>
 				<tx l="eng" name="Testing"/>
+				<tx l="spa" name="Pruebas"/>
+				<tx l="fre" name="Essai"/>
+				<tx l="ara" name="اختبارات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1667,6 +1804,9 @@ Document review to assess that the relevant staff has been trained on the backup
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Testing the BCP and DRP"/>
+					<tx l="spa" name="Prueba del plan de continuidad del negocio (BCP) y el plan de recuperación ante desastres (DRP)"/>
+					<tx l="fre" name="Tester le Plan de Continuité d'Activité (BCP) et le Plan de Reprise d'Activité (DRP)"/>
+					<tx l="ara" name="اختبار خطة استمرارية الأعمال وخطة التعافي من الكوارث"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -1686,26 +1826,57 @@ Document review to assess that the relevant staff has been trained on the backup
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the business continuity disaster recovery procedures have been tested"/>
+							<tx l="spa" name="Evaluar si se han probado los procedimientos de recuperación ante desastres de continuidad del negocio."/>
+							<tx l="fre" name="Évaluer si les procédures de reprise après sinistre de continuité d'activité ont été testées"/>
+							<tx l="ara" name="لتقييم ما إذا كانت إجراءات التعافي من الكوارث لاستمرارية الأعمال قد تم اختبارها"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Has the organization tested their BC and DR procedures and what changes have been made as a result of the test?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization should test their documented BCP and DRP procedures via drills or mock ups to ensure that they work in an actual conditions. Personnel involved in ensuring continuity should be aware of their roles."/>
+							<tx l="spa" name="La organización debe probar sus procedimientos documentados del Plan de Continuidad del Negocio y del Plan de Recuperación de Desastres (BCP y DRP) a través de simulacros para asegurarse de que funcionan en condiciones reales. El personal involucrado en asegurar la continuidad debe ser consciente de sus roles."/>
+							<tx l="fre" name="L'organisation doit tester son plan de continuité des activités documenté et ses procédures de plan de reprise après sinistre (BCP et DRP) via des exercices ou des maquettes pour s'assurer qu'ils fonctionnent dans des conditions réelles. Le personnel impliqué dans la continuité doit être conscient de son rôle."/>
+							<tx l="ara" name="يجب على المنظمة اختبار خطة استمرارية الأعمال الموثقة وإجراءات خطة التعافي من الكوارث (BCP و DRP) عبر التدريبات أو النماذج للتأكد من أنها تعمل في ظروف فعلية. يجب أن يكون الموظفون المشاركون في ضمان الاستمرارية على دراية بأدوارهم."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="BC and DR procedures and Test procedures
-List of items for which business continuity/ disaster
-recovery plan has to be tested
-Frequency of testing of business continuity plan and
-disaster recovery plan
-List of tests conducted
-List of test criteria like RTOs and RPOs etc
-List of testing methods employed
-Test results and actions taken or test recommendations
-Follow up action on test results
+							<tx l="eng" name="BC and DR procedures and Test procedures.
+List of items for which business continuity/ disaster recovery plan has to be tested.
+Frequency of testing of business continuity plan and disaster recovery plan.
+List of tests conducted.
+List of test criteria like RTOs and RPOs etc.
+List of testing methods employed.
+Test results and actions taken or test recommendations.
+Follow up action on test results.
+"/>
+							<tx l="spa" name="Procedimientos de continuidad del negocio y recuperación de desastres y procedimientos de prueba.
+Lista de elementos para los que se debe probar el plan de continuidad del negocio / recuperación ante desastres.
+Frecuencia de las pruebas del plan de continuidad del negocio y del plan de recuperación ante desastres.
+Lista de pruebas realizadas.
+Lista de criterios de prueba como RTO y RPO, etc.
+Lista de métodos de prueba empleados.
+Resultados de prueba y acciones tomadas o recomendaciones de prueba.
+Acción de seguimiento sobre los resultados de las pruebas.
+"/>
+							<tx l="fre" name="Procédures de continuité d'activité et de reprise après sinistre et Procédures de test.
+Liste des éléments pour lesquels le plan de continuité d'activité/de reprise après sinistre doit être testé.
+Fréquence des tests du plan de continuité des activités et du plan de reprise après sinistre.
+Liste des tests effectués.
+Liste des critères de test comme les RTO et les RPO, etc.
+Liste des méthodes d'essai employées.
+Résultats des tests et actions entreprises ou recommandations de tests.
+Action de suivi sur les résultats des tests.
+"/>
+							<tx l="ara" name="Bإجراءات استمرارية الأعمال واستعادة البيانات وإجراءات الاختبار.
+قائمة العناصر التي يجب اختبار خطة استمرارية الأعمال / التعافي من الكوارث لها.
+تكرار اختبار خطة استمرارية الأعمال وخطة التعافي من الكوارث.
+قائمة الاختبارات التي أجريت.
+قائمة معايير الاختبار مثل RTOs و RPOs إلخ.
+قائمة طرق الاختبار المستخدمة.
+نتائج الاختبار والإجراءات المتخذة أو توصيات الاختبار.
+متابعة الإجراءات على نتائج الاختبار.
 "/>
 						</inf>
 					</InformationRequired>
@@ -1716,7 +1887,28 @@ Document review to assess whether the tests are conducted at right intervals, in
 Document review to assess that the tests were conducted against identified criteria.
 Document review to assess that the tests were conducted using appropriate testing methods.
 Document review to assess that the recommendations are conveyed to appropriate authorities for follow up.
-Document review to assess that the test recommendations are adequately followed up and the business continuity plan or the disaster recovery plan are adequately updated..
+Document review to assess that the test recommendations are adequately followed up and the business continuity plan or the disaster recovery plan are adequately updated.
+"/>
+							<tx l="spa" name="Revisión de documentos para evaluar si todos los elementos relevantes están cubiertos para las pruebas.
+Revisión de documentos para evaluar si las pruebas se realizan en los intervalos correctos, en el tiempo.
+Revisión de documentos para evaluar que las pruebas se realizaron según los criterios identificados.
+Revisión de documentos para evaluar que las pruebas se realizaron utilizando métodos de prueba adecuados.
+Revisión de documentos para evaluar que las recomendaciones se transmiten a las autoridades correspondientes para su seguimiento.
+Revisión de documentos para evaluar que las recomendaciones de las pruebas se siguen adecuadamente y que el plan de continuidad del negocio o el plan de recuperación ante desastres se actualizan adecuadamente.
+"/>
+							<tx l="fre" name="Examen des documents pour évaluer si tous les éléments pertinents sont couverts pour les tests.
+Examen des documents pour évaluer si les tests sont effectués à intervalles réguliers, dans le temps.
+Examen des documents pour évaluer que les tests ont été menés en fonction de critères identifiés.
+Examen des documents pour évaluer que les tests ont été menés à l'aide de méthodes de test appropriées.
+Examen des documents pour évaluer que les recommandations sont transmises aux autorités compétentes pour un suivi.
+Examen des documents pour évaluer que les recommandations de test sont adéquatement suivies et que le plan de continuité d'activité ou le plan de reprise après sinistre sont adéquatement mis à jour.
+"/>
+							<tx l="ara" name="مراجعة الوثيقة لتقييم ما إذا كانت جميع العناصر ذات الصلة مغطاة للاختبار.
+مراجعة المستندات لتقييم ما إذا كانت الاختبارات قد أجريت في فترات زمنية مناسبة وفي الوقت المناسب.
+مراجعة المستندات لتقييم أن الاختبارات أجريت وفقًا للمعايير المحددة.
+مراجعة المستندات لتقييم أن الاختبارات أجريت باستخدام طرق الاختبار المناسبة.
+مراجعة الوثيقة لتقييم أن التوصيات يتم إحالتها إلى السلطات المختصة للمتابعة.
+مراجعة المستندات لتقييم أن توصيات الاختبار يتم متابعتها بشكل كافٍ ويتم تحديث خطة استمرارية الأعمال أو خطة التعافي من الكوارث بشكل كافٍ.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -1742,6 +1934,9 @@ Document review to assess that the test recommendations are adequately followed 
 		<Area nr="05">
 			<title>
 				<tx l="eng" name="Security"/>
+				<tx l="spa" name="Seguridad"/>
+				<tx l="fre" name="Sécurité"/>
+				<tx l="ara" name="حماية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1760,6 +1955,9 @@ Document review to assess that the test recommendations are adequately followed 
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data, application software, hardware and data centre are secured"/>
+					<tx l="spa" name="Data, application software, hardware and data centre are secured"/>
+					<tx l="fre" name="Data, application software, hardware and data centre are secured"/>
+					<tx l="ara" name="Data, application software, hardware and data centre are secured"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -1770,12 +1968,18 @@ Document review to assess that the test recommendations are adequately followed 
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether business continuity plan and disaster recovery plan ensures security of data, application software, hardware and data center"/>
+							<tx l="spa" name="To assess whether business continuity plan and disaster recovery plan ensures security of data, application software, hardware and data center"/>
+							<tx l="fre" name="To assess whether business continuity plan and disaster recovery plan ensures security of data, application software, hardware and data center"/>
+							<tx l="ara" name="To assess whether business continuity plan and disaster recovery plan ensures security of data, application software, hardware and data center"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>To determine whether the data, application software, hardware and data centre are secured during the back up procedure and disaster recovery</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Security baselines for the organization"/>
+							<tx l="spa" name="Security baselines for the organization"/>
+							<tx l="fre" name="Security baselines for the organization"/>
+							<tx l="ara" name="Security baselines for the organization"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
