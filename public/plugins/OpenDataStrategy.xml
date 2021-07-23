@@ -1,34 +1,87 @@
-<PlugIn id="OPENDATA" >
+<PlugIn id="OPENDATA">
 	<About descriptionfile="OpenDataStrategyDescription.docx">
 		<version id="1.0" name="main"/>
 		<title>
 			<tx l="eng" name="Open Data Strategy"/>
-			<tx l="pol" name="Strategia otwartych danych"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
-		<WorkingLanguage wl="eng pol"/>
+			<tx l="spa" name="Estrategia de datos abiertos"/>
+			<tx l="fre" name="Stratégie de données ouvertes"/>
+			<tx l="ara" name="استراتيجية البيانات المفتوحة"/>
+		</title>
+		<WorkingLanguage wl="eng spa fre ara"/>
 	</About>
 	<Domain nr="01">
 		<title>
 			<tx l="eng" name="IT Governance"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			<tx l="spa" name="Gobierno de TI"/>
+			<tx l="fre" name="Gouvernance informatique"/>
+			<tx l="ara" name="حوكمة تقنية المعلومات"/>
+		</title>
+		<narr l="eng">
+			<ak/>
+		</narr>
+		<narr l="spa">
+			<ak/>
+		</narr>
+		<narr l="fre">
+			<ak/>
+		</narr>
+		<narr l="ara">
+			<ak/>
+		</narr>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="IT Open Data Strategy and Planning"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Estrategia y planificación de datos abiertos de TI"/>
+				<tx l="fre" name="Stratégie et planification des données ouvertes informatiques"/>
+				<tx l="ara" name="استراتيجية البيانات المفتوحة لتكنولوجيا المعلومات والتخطيط"/>
+			</title>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Leadership"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Liderazgo"/>
+					<tx l="fre" name="Leadership"/>
+					<tx l="ara" name="قيادة"/>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Leadership">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the organization’s leadership effectively encourages, evaluates and monitors data openness in the organization"/>
+							<tx l="spa" name="Evaluar si el liderazgo de la organización alienta, evalúa y monitorea efectivamente la apertura de datos en la organización."/>
+							<tx l="fre" name="Évaluer si la direction de l'organisation encourage, évalue et surveille efficacement l'ouverture des données dans l'organisation"/>
+							<tx l="ara" name="لتقييم ما إذا كانت قيادة المنظمة تشجع بشكل فعال وتقيم وتراقب انفتاح البيانات في المنظمة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does senior management declare transparency and openness are principles of organization?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Senior management must formally declare that open data and transparency are fundamental principles of the organization."/>
+							<tx l="eng" name="Senior management must formally declare that open data and transparency are fundamental principles of the organization"/>
+							<tx l="spa" name="La alta dirección debe declarar formalmente que los datos abiertos y la transparencia son principios fundamentales de la organización"/>
+							<tx l="fre" name="La haute direction doit déclarer formellement que les données ouvertes et la transparence sont des principes fondamentaux de l'organisation"/>
+							<tx l="ara" name="يجب أن تعلن الإدارة العليا رسميًا أن البيانات المفتوحة والشفافية من المبادئ الأساسية للمنظمة"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
@@ -37,6 +90,18 @@
 Business model (mission, vision and core values) .
 Strategic policy or other guidance about transparency and open data.
 "/>
+							<tx l="spa" name="Carta de datos abierta.
+Modelo de negocio (misión, visión y valores fundamentales).
+Política estratégica u otra orientación sobre transparencia y datos abiertos.
+"/>
+							<tx l="fre" name="Charte des données ouvertes.
+Modèle du métier (mission, vision et valeurs fondamentales) .
+Politique stratégique ou autres orientations sur la transparence et les données ouvertes.
+"/>
+							<tx l="ara" name="فتح ميثاق البيانات.
+نموذج العمل (المهمة والرؤية والقيم الأساسية).
+السياسة الإستراتيجية أو إرشادات أخرى حول الشفافية والبيانات المفتوحة.
+"/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
@@ -44,11 +109,31 @@ Strategic policy or other guidance about transparency and open data.
 							<tx l="eng" name="To check if open data charter exists.
 To check if transparency and open data are present in business model , strategic policy or other guidance.
 "/>
+							<tx l="spa" name="Para comprobar si existe una carta de datos abiertos.
+Para comprobar si la transparencia y los datos abiertos están presentes en el modelo de negocio, la política estratégica u otra orientación.
+"/>
+							<tx l="fre" name="Pour vérifier si la charte des données ouvertes existe.
+Pour vérifier si la transparence et les données ouvertes sont présentes dans le modèle du métier, la politique stratégique ou d'autres orientations.
+"/>
+							<tx l="ara" name="للتحقق من وجود ميثاق البيانات المفتوحة.
+للتحقق مما إذا كانت الشفافية والبيانات المفتوحة موجودة في نموذج العمل أو السياسة الإستراتيجية أو إرشادات أخرى.
+"/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -56,24 +141,53 @@ To check if transparency and open data are present in business model , strategic
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Strategy"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Estrategia"/>
+					<tx l="fre" name="Stratégie"/>
+					<tx l="ara" name="إستراتيجية"/>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Strategy ">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Does senior management have full understanding of open data?"/>
+							<tx l="spa" name="¿La alta dirección tiene un conocimiento completo de los datos abiertos?"/>
+							<tx l="fre" name="La haute direction a-t-elle une compréhension complète des données ouvertes ?"/>
+							<tx l="ara" name="هل لدى الإدارة العليا فهم كامل للبيانات المفتوحة؟"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Did senior management formalize an open date plan or program that includes principles, governance guidelines, responsible and resources?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="There must be political and / or planning document with principles and guidelines. There must also be evidence of allocation of financial and human resources to the project. The document must be sanctioned by senior management."/>
+							<tx l="spa" name="Debe existir un documento político y / o de planificación con principios y lineamientos. También debe haber evidencia de asignación de recursos financieros y humanos al proyecto. El documento debe ser sancionado por la alta dirección."/>
+							<tx l="fre" name="Il doit y avoir un document politique et/ou de planification avec des principes et des lignes directrices. Il doit également y avoir la preuve de l'affectation des ressources financières et humaines au projet. Le document doit être sanctionné par la haute direction."/>
+							<tx l="ara" name="يجب أن تكون هناك وثيقة سياسية و / أو تخطيطية مع مبادئ وإرشادات. يجب أن يكون هناك أيضًا دليل على تخصيص الموارد المالية والبشرية للمشروع. يجب أن تتم المصادقة على الوثيقة من قبل الإدارة العليا."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Organization open data stragegy, plan or program. Documents to allocation of financial and human resources.
-
-Meeting minutes and other formal documents on the agency’s open data strategy
+							<tx l="eng" name="Organization open data strategy, plan or program. Documents to allocation of financial and human resources.
+Meeting minutes and other formal documents on the agency’s open data strategy.
+"/>
+							<tx l="spa" name="Estrategia, plan o programa de datos abiertos de la organización. Documentos para asignación de recursos financieros y humanos.
+Actas de reuniones y otros documentos formales sobre la estrategia de datos abiertos de la agencia.
+"/>
+							<tx l="fre" name="Stratégie, plan ou programme de données ouvertes de l'organisation. Documents d'affectation des ressources financières et humaines.
+Comptes rendus de réunion et autres documents formels sur la stratégie de données ouvertes de l'agence.
+"/>
+							<tx l="ara" name="منظمة البيانات المفتوحة استراتيجية أو خطة أو برنامج. وثائق تخصيص الموارد المالية والبشرية.
+محاضر الاجتماعات والمستندات الرسمية الأخرى حول استراتيجية البيانات المفتوحة للوكالة.
 "/>
 						</inf>
 					</InformationRequired>
@@ -81,13 +195,36 @@ Meeting minutes and other formal documents on the agency’s open data strategy
 						<anm>
 							<tx l="eng" name="To check if open data strategy or program exists .
 To check if senior management signed these documents.
-Ensure senior management or appropriate stakeholders were involved in developing the strategy for open data
+Ensure senior management or appropriate stakeholders were involved in developing the strategy for open data.
+"/>
+							<tx l="spa" name="Para comprobar si existe un programa o una estrategia de datos abiertos.
+Para comprobar si la alta dirección firmó estos documentos.
+Asegúrese de que la alta dirección o las partes interesadas apropiadas estuvieran involucradas en el desarrollo de la estrategia para datos abiertos.
+"/>
+							<tx l="fre" name="Pour vérifier si une stratégie ou un programme de données ouvertes existe.
+Pour vérifier si la haute direction a signé ces documents.
+S'assurer que la haute direction ou les parties prenantes appropriées ont été impliquées dans l'élaboration de la stratégie pour les données ouvertes.
+"/>
+							<tx l="ara" name="للتحقق من وجود استراتيجية أو برنامج البيانات المفتوحة.
+للتحقق مما إذا كانت الإدارة العليا قد وقعت هذه الوثائق.
+ضمان مشاركة الإدارة العليا أو أصحاب المصلحة المناسبين في تطوير استراتيجية البيانات المفتوحة.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -95,7 +232,19 @@ Ensure senior management or appropriate stakeholders were involved in developing
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Open Data Plan"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Open Data Plan">
 					<Objectives>
 						<obj>
@@ -118,9 +267,20 @@ Ensure senior management or appropriate stakeholders were involved in developing
 							<tx l="eng" name="Check if organization knows what the most interesting datasets are."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -128,7 +288,19 @@ Ensure senior management or appropriate stakeholders were involved in developing
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Plan Alignment"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Plan Alignment ">
 					<Objectives>
 						<obj>
@@ -154,9 +326,20 @@ IT strategic plan.
 							<tx l="eng" name="To check  if strategic plan and IT strategic plan contain references about open data."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -164,7 +347,19 @@ IT strategic plan.
 			<Issue nr="05" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Monitoring"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Monitoring Open Data">
 					<Objectives>
 						<obj>
@@ -190,9 +385,20 @@ Do reports contain information as required in the plan and or strategy?
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -200,7 +406,19 @@ Do reports contain information as required in the plan and or strategy?
 			<Issue nr="06" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Ownership"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Ownership">
 					<Objectives>
 						<obj>
@@ -224,9 +442,20 @@ Do reports contain information as required in the plan and or strategy?
 							<tx l="eng" name="To check if data owners exists, particularly to datasets whose openness is priority."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -234,7 +463,19 @@ Do reports contain information as required in the plan and or strategy?
 			<Issue nr="07" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Datasets"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Datasets Priority">
 					<Objectives>
 						<obj>
@@ -261,9 +502,20 @@ If necessary, ask staff about prioritization criteria.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -272,16 +524,55 @@ If necessary, ask staff about prioritization criteria.
 	</Domain>
 	<Domain nr="05">
 		<title>
-			<tx l="eng" name="Information Security"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			<tx l="eng" name="Information and Cyber Security"/>
+			<tx l="spa" name="Información y ciberseguridad"/>
+			<tx l="fre" name="Information et cybersécurité"/>
+			<tx l="ara" name="المعلومات والأمن السيبراني"/>
+		</title>
+		<narr l="eng">
+			<ak/>
+		</narr>
+		<narr l="spa">
+			<ak/>
+		</narr>
+		<narr l="fre">
+			<ak/>
+		</narr>
+		<narr l="ara">
+			<ak/>
+		</narr>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Security Policy"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Security Policy"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Open Data Security Policy">
 					<Objectives>
 						<obj>
@@ -304,9 +595,20 @@ If necessary, ask staff about prioritization criteria.
 							<tx l="eng" name="Review and ensure open data specifics are discussed and applicable controls and procedures are mentioned."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -314,7 +616,19 @@ If necessary, ask staff about prioritization criteria.
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Policy Implementation"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Only public data is made available">
 					<Objectives>
 						<obj>
@@ -339,9 +653,20 @@ Procedures to remove private or confidential data.
 							<tx l="eng" name="Datasets sampling, checking if there is some private or confidential data."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -350,11 +675,35 @@ Procedures to remove private or confidential data.
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Communications and Operations Management"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Access"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Access to open data is communicated and un-restricted as required">
 					<Objectives>
 						<obj>
@@ -379,9 +728,20 @@ Datasets  sampling, checking for same restrictions.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -389,7 +749,19 @@ Datasets  sampling, checking for same restrictions.
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Communications"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Open data availability is communicated">
 					<Objectives>
 						<obj>
@@ -414,9 +786,20 @@ Procedures to promote the publication of new datasets.
 							<tx l="eng" name="To check if institutional promotion of open data exists."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -426,15 +809,54 @@ Procedures to promote the publication of new datasets.
 	<Domain nr="07">
 		<title>
 			<tx l="eng" name="Application Controls"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			<tx l="spa" name="Controles de aplicación"/>
+			<tx l="fre" name="Contrôles d'application"/>
+			<tx l="ara" name="ضوابط التطبيق"/>
+		</title>
+		<narr l="eng">
+			<ak/>
+		</narr>
+		<narr l="spa">
+			<ak/>
+		</narr>
+		<narr l="fre">
+			<ak/>
+		</narr>
+		<narr l="ara">
+			<ak/>
+		</narr>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Output Controls"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Catalog"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Catalog">
 					<Objectives>
 						<obj>
@@ -462,9 +884,20 @@ To check if is widely available in a page or portal in Internet.
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -472,7 +905,19 @@ To check if is widely available in a page or portal in Internet.
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Access"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Access To Web Portal">
 					<Objectives>
 						<obj>
@@ -499,9 +944,20 @@ Industry best practices on web portal design (research to find)"/>
 If there is centralized open data portal, to check if datasets can be found in both."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -509,7 +965,19 @@ If there is centralized open data portal, to check if datasets can be found in b
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Metadata"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Metadata Availability">
 					<Objectives>
 						<obj>
@@ -532,9 +1000,20 @@ If there is centralized open data portal, to check if datasets can be found in b
 							<tx l="eng" name="Datasets  and their associated metadata sampling."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -542,7 +1021,19 @@ If there is centralized open data portal, to check if datasets can be found in b
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Update"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="Update to open data">
 					<Objectives>
 						<obj>
@@ -567,9 +1058,20 @@ Record of updates to information
 							<tx l="eng" name="Datasets  and their associated reference dates sampling and update cycle confirmation"/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -577,7 +1079,19 @@ Record of updates to information
 			<Issue nr="05" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data Formats"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
 				<Matrix id="General Best Practices For Open Data">
 					<Objectives>
 						<obj>
@@ -600,9 +1114,20 @@ Record of updates to information
 							<tx l="eng" name="Datasets  sampling, checking their associated formats."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
