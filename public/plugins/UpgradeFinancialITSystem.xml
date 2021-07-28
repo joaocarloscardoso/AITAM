@@ -1,52 +1,143 @@
 <PlugIn id="UPGRADEFINANCIAL">
-	<About  >
+	<About>
 		<version id="1.0" name="main"/>
 		<title>
 			<tx l="eng" name="Upgrade of Financial Management IT System"/>
-			<tx l="pol" name="Aktualizacja systemu finansowo-księgowego"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
-		<WorkingLanguage wl="eng pol"/>
+			<tx l="spa" name="Actualización del sistema informático de gestión financiera"/>
+			<tx l="fre" name="Mise à niveau du système informatique de gestion financière"/>
+			<tx l="ara" name="ترقية نظام تكنولوجيا المعلومات للإدارة المالية"/>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
+		<WorkingLanguage wl="eng spa fre ara"/>
 	</About>
 	<Domain nr="03">
 		<title>
 			<tx l="eng" name="Development and Acquisition"/>
-		</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			<tx l="spa" name="Desarrollo y Adquisición"/>
+			<tx l="fre" name="Développement et acquisition"/>
+			<tx l="ara" name="التطوير والاستحواذ"/>
+		</title>
+		<Narrative>
+			<narr l="eng">
+				<ak/>
+			</narr>
+			<narr l="spa">
+				<ak/>
+			</narr>
+			<narr l="fre">
+				<ak/>
+			</narr>
+			<narr l="ara">
+				<ak/>
+			</narr>
+		</Narrative>
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Upgrade Preparations"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				<tx l="spa" name="Preparativos de actualización"/>
+				<tx l="fre" name="Préparations de mise à niveau"/>
+				<tx l="ara" name="ترقية الاستعدادات"/>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Analysis and concept"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Análisis y concepto"/>
+					<tx l="fre" name="Analyse et conception"/>
+					<tx l="ara" name="التحليل والمفهوم"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Upgrade - Preparations">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
+							<tx l="spa" name="Evaluar si los preparativos se realizaron de una manera que garantice el mínimo riesgo y la máxima eficiencia de la operación de actualización."/>
+							<tx l="fre" name="Évaluer si les préparatifs ont été effectués de manière à garantir un risque minimal et une efficacité maximale de l'opération de mise à niveau"/>
+							<tx l="ara" name="قم بتقييم ما إذا تم إجراء الاستعدادات بطريقة تضمن الحد الأدنى من المخاطر وأقصى قدر من الكفاءة لعملية الترقية"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Analysis and concept</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="clear concept of what should be upgraded, what is critical and what is optional"/>
+							<tx l="eng" name="Clear concept of what should be upgraded, what is critical and what is optional"/>
+							<tx l="spa" name="Concepto claro de lo que debe actualizarse, lo que es crítico y lo que es opcional"/>
+							<tx l="fre" name="Concept clair de ce qui doit être mis à niveau, de ce qui est critique et de ce qui est facultatif"/>
+							<tx l="ara" name="مفهوم واضح لما يجب ترقيته وما هو حاسم وما هو اختياري"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Documented concept and analysis documentation
-Minutes of management meetings"/>
+							<tx l="eng" name="Documented concept and analysis documentation. Minutes of management meetings."/>
+							<tx l="spa" name="Documentación de conceptos y análisis. Actas de reuniones de dirección."/>
+							<tx l="fre" name="Concept documenté et documentation d'analyse. Comptes rendus des réunions de gestion."/>
+							<tx l="ara" name="توثيق المفهوم والتحليل. محاضر اجتماعات الإدارة."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="It is of utmost importance to have a clear concept of what should be upgraded, in which scope and at what cost. The concept should be supported by an reliable analysis of needs and possibilities. Weak concept may result in additional yet unnecessary tasks, time and money waste at later phases of the project with. Sometimes those cause failure of the upgrade, which goals cannot be reached just because resources were spent on additional activities.
-
 Effective IT Strategy can reflect general ability of organisations for prioritising goals and provide necessary instruments to reach them. Looking for a methodical support you can use IT Audit Handbook part on IT Governance – IT Strategy and planning and content of matrix on Business Needs Identification, Direction and Monitoring and on IT Strategy."/>
+							<tx l="spa" name="Es de suma importancia tener un concepto claro de qué se debe actualizar, en qué alcance y a qué costo. El concepto debe estar respaldado por un análisis confiable de necesidades y posibilidades. Un concepto débil puede resultar en tareas adicionales pero innecesarias, pérdida de tiempo y dinero en fases posteriores del proyecto. A veces, estos causan fallas en la actualización, cuyos objetivos no se pueden alcanzar solo porque se gastaron recursos en actividades adicionales.
+Una estrategia de TI eficaz puede reflejar la capacidad general de las organizaciones para priorizar los objetivos y proporcionar los instrumentos necesarios para alcanzarlos. Si busca un soporte metódico, puede utilizar la parte del Manual de auditoría de TI sobre Gobierno de TI - Estrategia y planificación de TI y contenido de la matriz sobre Identificación, dirección y monitoreo de las necesidades del negocio y Estrategia de TI."/>
+							<tx l="fre" name="Il est de la plus haute importance d'avoir une idée claire de ce qui doit être amélioré, dans quelle mesure et à quel coût. Le concept doit être étayé par une analyse fiable des besoins et des possibilités. Un concept faible peut entraîner des tâches supplémentaires mais inutiles, une perte de temps et d'argent lors des phases ultérieures du projet. Parfois, ceux-ci entraînent l'échec de la mise à niveau, objectifs qui ne peuvent être atteints simplement parce que des ressources ont été dépensées pour des activités supplémentaires.
+Une stratégie informatique efficace peut refléter la capacité générale des organisations à hiérarchiser les objectifs et fournir les instruments nécessaires pour les atteindre. Si vous recherchez un soutien méthodique, vous pouvez utiliser la partie du manuel d'audit informatique sur la gouvernance informatique - la stratégie informatique et la planification et le contenu de la matrice sur l'identification, la direction et le suivi des besoins de l'entreprise et sur la stratégie informatique."/>
+							<tx l="ara" name="من الأهمية بمكان أن يكون لديك مفهوم واضح لما يجب ترقيته وفي أي نطاق وبأي تكلفة. يجب دعم المفهوم بتحليل موثوق للاحتياجات والإمكانيات. قد يؤدي المفهوم الضعيف إلى مهام إضافية ولكنها غير ضرورية ، وإهدار الوقت والمال في مراحل لاحقة من المشروع. في بعض الأحيان يتسبب ذلك في فشل الترقية ، ولا يمكن الوصول إلى الأهداف لمجرد إنفاق الموارد على أنشطة إضافية.
+يمكن أن تعكس استراتيجية تكنولوجيا المعلومات الفعالة القدرة العامة للمؤسسات لتحديد أولويات الأهداف وتوفير الأدوات اللازمة للوصول إليها. عند البحث عن دعم منهجي ، يمكنك استخدام جزء كتيب تدقيق تكنولوجيا المعلومات في حوكمة تكنولوجيا المعلومات - إستراتيجية تكنولوجيا المعلومات والتخطيط ومحتوى المصفوفة حول تحديد احتياجات العمل والتوجيه والمراقبة واستراتيجية تكنولوجيا المعلومات."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -54,43 +145,84 @@ Effective IT Strategy can reflect general ability of organisations for prioritis
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Pre-upgrade risk assessment"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Evaluación de riesgos previa a la actualización"/>
+					<tx l="fre" name="Évaluation des risques avant la mise à niveau"/>
+					<tx l="ara" name="تقييم المخاطر قبل الترقية"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Upgrade - Preparations">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
+							<tx l="spa" name="Evaluar si los preparativos se realizaron de una manera que garantice el mínimo riesgo y la máxima eficiencia de la operación de actualización"/>
+							<tx l="fre" name="Évaluer si les préparatifs ont été effectués de manière à garantir un risque minimal et une efficacité maximale de l'opération de mise à niveau"/>
+							<tx l="ara" name="قم بتقييم ما إذا تم إجراء الاستعدادات بطريقة تضمن الحد الأدنى من المخاطر وأقصى قدر من الكفاءة لعملية الترقية"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Pre-upgrade risk assessment</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="organisation and documentation of the risk assessment, its follow-up in terms of planning, resources and responsibilities"/>
+							<tx l="eng" name="Organisation and documentation of the risk assessment, its follow-up in terms of planning, resources and responsibilities"/>
+							<tx l="spa" name="Organización y documentación de la evaluación de riesgos, su seguimiento en términos de planificación, recursos y responsabilidades"/>
+							<tx l="fre" name="Organisation et documentation de l'évaluation des risques, son suivi en termes de planification, de ressources et de responsabilités"/>
+							<tx l="ara" name="تنظيم وتوثيق تقييم المخاطر ومتابعته من حيث التخطيط والموارد والمسؤوليات"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Documentation of risk analysis
-
-Minutes of the risk assessment meetings
-
-Comments of staff and management on risks taken into account
-"/>
+							<tx l="eng" name="Documentation of risk analysis. Minutes of the risk assessment meetings. Comments of staff and management on risks taken into account."/>
+							<tx l="spa" name="Documentación de análisis de riesgos. Actas de las reuniones de evaluación de riesgos. Comentarios del personal y la dirección sobre los riesgos tomados en cuenta."/>
+							<tx l="fre" name="Documentation de l'analyse des risques. Comptes rendus des réunions d'évaluation des risques. Commentaires du personnel et de la direction sur les risques pris en compte."/>
+							<tx l="ara" name="توثيق تحليل المخاطر. محاضر اجتماعات تقييم المخاطر. أخذ تعليقات الموظفين والإدارة على المخاطر في الاعتبار."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Use IT Audit Handbook part on IT Governance – Internal Control. Exemplary audit matrix for Risk Assessment and Compliance Mechanisms can be helpful.
-
 Check out if the risk analysis was performed and treated in pragmatic or rather purely formal way. Be sure, was it a part of the broader risk analysis (e.g. encompassing whole organisation, IT, procurement), or a standalone analysis related to the coming upgrade. Was it performed by a team of experts experienced in upgrades? Where risks escalated to appropriate levels of management?
-
 Apart from typical risks referred to IT systems upgrades, were specific conditions taken into account: why the organisation needs the upgrade, is it urgent or important, what if this particular upgrade was postponed or not implemented at all? 
-
 Organisation’s managements tend to treat upgrades as purely technical operations. Problems with low profile of the whole operation, insufficient resourcing and unclear accountability can steam from this point."/>
+							<tx l="spa" name="Utilice la parte del Manual de auditoría de TI sobre Gobierno de TI - Control interno. Puede resultar útil una matriz de auditoría ejemplar para la evaluación de riesgos y los mecanismos de cumplimiento.
+Compruebe si el análisis de riesgos se realizó y se trató de manera pragmática o más bien puramente formal. Asegúrese de que forma parte del análisis de riesgos más amplio (por ejemplo, que abarca toda la organización, TI, adquisiciones) o un análisis independiente relacionado con la próxima actualización. ¿Fue realizado por un equipo de expertos con experiencia en actualizaciones? ¿Dónde los riesgos escalaron a niveles apropiados de gestión?
+Aparte de los riesgos típicos referidos a las actualizaciones de los sistemas de TI, ¿se tomaron en cuenta condiciones específicas: por qué la organización necesita la actualización, es urgente o importante, qué pasa si esta actualización en particular se pospuso o no se implementó en absoluto?
+La dirección de la organización tiende a tratar las actualizaciones como operaciones puramente técnicas. Los problemas con el bajo perfil de toda la operación, la falta de recursos y la responsabilidad poco clara pueden surgir de este punto."/>
+							<tx l="fre" name="Utilisez la partie du manuel d'audit informatique sur la gouvernance informatique - le contrôle interne. Une matrice d'audit exemplaire pour les mécanismes d'évaluation des risques et de conformité peut être utile.
+Vérifiez si l'analyse des risques a été réalisée et traitée de manière pragmatique ou plutôt purement formelle. Assurez-vous que cela faisait partie de l'analyse des risques plus large (par exemple, englobant l'ensemble de l'organisation, l'informatique, les achats) ou une analyse autonome liée à la mise à niveau à venir. A-t-il été réalisé par une équipe d'experts expérimentés dans les mises à niveau ? Où les risques ont-ils atteint les niveaux de gestion appropriés ?
+Outre les risques typiques liés aux mises à niveau des systèmes informatiques, des conditions spécifiques ont-elles été prises en compte : pourquoi l'organisation a-t-elle besoin de la mise à niveau, est-elle urgente ou importante, et si cette mise à niveau particulière était reportée ou pas du tout mise en œuvre ?
+Les directions de l'organisation ont tendance à considérer les mises à niveau comme des opérations purement techniques. Des problèmes avec un profil bas de l'ensemble de l'opération, des ressources insuffisantes et une responsabilité peu claire peuvent surgir à partir de ce point."/>
+							<tx l="ara" name="استخدام جزء كتيب تدقيق تكنولوجيا المعلومات حول حوكمة تكنولوجيا المعلومات - الرقابة الداخلية. يمكن أن تكون مصفوفة التدقيق النموذجية لتقييم المخاطر وآليات الامتثال مفيدة.
+تحقق مما إذا كان تحليل المخاطر قد تم إجراؤه ومعالجته بطريقة عملية أو بطريقة رسمية بحتة. تأكد ، هل كان جزءًا من تحليل المخاطر الأوسع (على سبيل المثال ، يشمل المنظمة بأكملها ، وتكنولوجيا المعلومات ، والمشتريات) ، أو تحليل مستقل متعلق بالترقية القادمة. هل قام بها فريق من الخبراء ذوي الخبرة في الترقيات؟ أين تصاعدت المخاطر إلى مستويات الإدارة المناسبة؟
+بصرف النظر عن المخاطر النموذجية المشار إليها في ترقيات أنظمة تكنولوجيا المعلومات ، هل تم أخذ شروط محددة في الاعتبار: لماذا تحتاج المنظمة للترقية ، هل هي عاجلة أو مهمة ، ماذا لو تم تأجيل هذه الترقية الخاصة أو لم يتم تنفيذها على الإطلاق؟
+تميل إدارات المنظمة إلى التعامل مع الترقيات على أنها عمليات تقنية بحتة. يمكن أن تنطلق المشاكل المتعلقة بانخفاض مستوى العملية برمتها وعدم كفاية الموارد والمساءلة غير الواضحة من هذه النقطة."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -98,10 +230,30 @@ Organisation’s managements tend to treat upgrades as purely technical operatio
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Planning"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+					<tx l="spa" name="Planificación"/>
+					<tx l="fre" name="Planification"/>
+					<tx l="ara" name="تخطيط"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Upgrade - Preparations">
 					<Objectives>
 						<obj>
+							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
+							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
+							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
 							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
 						</obj>
 					</Objectives>
@@ -147,9 +299,20 @@ The user documentation should be modified if necessary and the Help Desk functio
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -157,7 +320,21 @@ The user documentation should be modified if necessary and the Help Desk functio
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Resources"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Upgrade - Preparations">
 					<Objectives>
 						<obj>
@@ -184,9 +361,20 @@ Staff trainings strategy"/>
 In case of problems occurring at later stages, check if the staff assigned to the upgrade tasks was sufficient in number, competencies and responsibilities. Was the task fed back as effectively and fair managed?"/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -194,7 +382,21 @@ In case of problems occurring at later stages, check if the staff assigned to th
 			<Issue nr="05" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Provider of the upgrade"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Upgrade - Preparations">
 					<Objectives>
 						<obj>
@@ -235,9 +437,20 @@ On the other hand, the external experts should find in the organisation strong e
 Consequences can be financial (e.g. related to vendor dependence) or operational – if the upgrade is conducted with insufficient expertise."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -246,11 +459,39 @@ Consequences can be financial (e.g. related to vendor dependence) or operational
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Upgrade Implementation"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Provider of the upgrade"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Upgrade - Implementation">
 					<Objectives>
 						<obj>
@@ -288,9 +529,20 @@ Outsourcing – Service Level Agreement
 "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -298,7 +550,21 @@ Outsourcing – Service Level Agreement
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Information security"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Upgrade - Implementation">
 					<Objectives>
 						<obj>
@@ -331,9 +597,20 @@ Compare the two sets of data – if necessary with help of CAATs. If some discre
 Use IT Audit Handbook part on Application Controls – Output to assess the traceability (Application Security matrix) of any doubtful records.  IT Audit Handbook on Information Security and related audit matrices can be helpful to review policy, organization, access, environment and other fields that may be relevant in case of the audited upgrade."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -342,11 +619,39 @@ Use IT Audit Handbook part on Application Controls – Output to assess the trac
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Post-Upgrade Review"/>
-			</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+			</title>
+			<Narrative>
+				<narr l="eng">
+					<ak/>
+				</narr>
+				<narr l="spa">
+					<ak/>
+				</narr>
+				<narr l="fre">
+					<ak/>
+				</narr>
+				<narr l="ara">
+					<ak/>
+				</narr>
+			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Incidents and problems"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Post-Upgrade Review">
 					<Objectives>
 						<obj>
@@ -381,9 +686,20 @@ The list of problems should be discussed with the upgrade provider, who should p
 If the upgrade was unsuccessful, were the data restored and functions of the system restarted? In case of the most serious problems the Business Continuity may be at risk. The organisation’s approach to the BCP/DRP, like policies, structures, trainings may then have vital significance. The audit matrices on Organisation of Business Continuity Function, Security may be helpful.."/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>
@@ -391,7 +707,21 @@ If the upgrade was unsuccessful, were the data restored and functions of the sys
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Upgrade report"/>
-				</title><Narrative><narr l="eng"><ak></ak></narr></Narrative>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Post-Upgrade Review">
 					<Objectives>
 						<obj>
@@ -422,9 +752,20 @@ Pay special attention to financial part compared to calendar and parameters reac
 The report may be accompanied with internal documents containing list of meaningful lessons learnt, issues to be solved, recommendations and follow-up instructions. For instance, complexity and cost of the operation, interoperability issues, or availability of external experts can influence the Organization IT investment strategy. "/>
 						</anm>
 					</AnalysisMethod>
-					<foundPreviously><fp><tx l="eng" name="To be developed"/><tx l="pol" name="Do rozwinięcia"/></fp></foundPreviously><Conclusion>
+					<foundPreviously>
+						<fp>
+							<tx l="eng" name="To be developed"/>
+							<tx l="spa" name="Para ser desarrollado"/>
+							<tx l="fre" name="A développer"/>
+							<tx l="ara" name="لتطويرها"/>
+						</fp>
+					</foundPreviously>
+					<Conclusion>
 						<clu>
 							<tx l="eng" name="To be filled in by auditor"/>
+							<tx l="spa" name="A completar por el auditor"/>
+							<tx l="fre" name="À remplir par l'auditeur"/>
+							<tx l="ara" name="يتم ملؤها من قبل المدقق"/>
 						</clu>
 					</Conclusion>
 				</Matrix>

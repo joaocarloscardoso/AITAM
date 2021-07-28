@@ -232,6 +232,9 @@ S'assurer que la haute direction ou les parties prenantes appropriées ont été
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Open Data Plan"/>
+					<tx l="spa" name="Plan de los Datos Abiertos"/>
+					<tx l="fre" name="Plan des données ouvertes"/>
+					<tx l="ara" name="خطة البيانات المفتوحة"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -249,22 +252,34 @@ S'assurer que la haute direction ou les parties prenantes appropriées ont été
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess whether the organization has an appropriate open data plan."/>
+							<tx l="spa" name="Evaluar si la organización tiene un plan de datos abiertos adecuado."/>
+							<tx l="fre" name="Évaluer si l'organisation dispose d'un plan de données ouvert approprié."/>
+							<tx l="ara" name="لتقييم ما إذا كانت المنظمة لديها خطة بيانات مفتوحة مناسبة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does organization know data that are of greatest social interest and prioritize their openness?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Datasets whose openness is priority must be greatest social interest"/>
+							<tx l="spa" name="Los conjuntos de datos cuya apertura sea prioritaria deben ser de mayor interés social"/>
+							<tx l="fre" name="Les ensembles de données dont l'ouverture est prioritaire doivent avoir le plus grand intérêt social"/>
+							<tx l="ara" name="يجب أن تكون مجموعات البيانات التي يمثل الانفتاح الأولوية فيها مصلحة اجتماعية كبرى"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Data governance documents about interesting public datasets."/>
+							<tx l="spa" name="Documentos de gobernanza sobre conjuntos de datos públicos interesantes."/>
+							<tx l="fre" name="Documents de gouvernance sur des ensembles de données publics intéressants."/>
+							<tx l="ara" name="وثائق الحوكمة حول مجموعات البيانات العامة الشيقة."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Check if organization knows what the most interesting datasets are."/>
+							<tx l="eng" name="Compruebe si la organización sabe cuáles son los conjuntos de datos más interesantes."/>
+							<tx l="eng" name="Vérifiez si l'organisation sait quels sont les ensembles de données les plus intéressants."/>
+							<tx l="eng" name="تحقق مما إذا كانت المنظمة تعرف مجموعات البيانات الأكثر إثارة للاهتمام."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -288,6 +303,9 @@ S'assurer que la haute direction ou les parties prenantes appropriées ont été
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Plan Alignment"/>
+					<tx l="spa" name="Alineación del plan"/>
+					<tx l="fre" name="Alignement du plan"/>
+					<tx l="ara" name="محاذاة الخطة"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -305,12 +323,18 @@ S'assurer que la haute direction ou les parties prenantes appropriées ont été
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Open data plan is aligned with the strategy"/>
+							<tx l="spa" name="El plan de datos abiertos está alineado con la estrategia"/>
+							<tx l="fre" name="Le plan de données ouvertes est aligné sur la stratégie"/>
+							<tx l="ara" name="تتماشى خطة البيانات المفتوحة مع الاستراتيجية"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is organization´s open data plan aligned with organizational strategy?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Open data plan, strategic plan and IT strategic plan must be aligned."/>
+							<tx l="spa" name="El plan de datos abiertos, el plan estratégico y el plan estratégico de TI deben estar alineados."/>
+							<tx l="fre" name="Le plan de données ouvertes, le plan stratégique et le plan stratégique informatique doivent être alignés."/>
+							<tx l="ara" name="يجب مواءمة خطة البيانات المفتوحة والخطة الإستراتيجية والخطة الإستراتيجية لتكنولوجيا المعلومات."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
@@ -319,11 +343,26 @@ S'assurer que la haute direction ou les parties prenantes appropriées ont été
 Strategic plan.
 IT strategic plan.
 "/>
+							<tx l="spa" name="Plan de datos abiertos.
+Plan estratégico.
+Plan estratégico de TI.
+"/>
+							<tx l="fre" name="Plan de données ouvertes.
+Plan stratégique.
+Plan stratégique informatique.
+"/>
+							<tx l="ara" name="خطة البيانات المفتوحة.
+خطة استراتيجية.
+الخطة الإستراتيجية لتكنولوجيا المعلومات.
+"/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="To check  if strategic plan and IT strategic plan contain references about open data."/>
+							<tx l="spa" name="Verificar si el plan estratégico y el plan estratégico de TI contienen referencias sobre datos abiertos."/>
+							<tx l="fre" name="Pour vérifier si le plan stratégique et le plan stratégique informatique contiennent des références sur les données ouvertes."/>
+							<tx l="ara" name="للتحقق مما إذا كانت الخطة الإستراتيجية والخطة الإستراتيجية لتكنولوجيا المعلومات تحتويان على مراجع حول البيانات المفتوحة."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -347,6 +386,9 @@ IT strategic plan.
 			<Issue nr="05" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Monitoring"/>
+					<tx l="spa" name="Vigilancia"/>
+					<tx l="fre" name="Surveillance"/>
+					<tx l="ara" name="يراقب"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -364,17 +406,26 @@ IT strategic plan.
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Senior management monitors open data according to plan and strategy"/>
+							<tx l="spa" name="La alta dirección supervisa los datos abiertos de acuerdo con el plan y la estrategia"/>
+							<tx l="fre" name="La haute direction surveille les données ouvertes conformément au plan et à la stratégie"/>
+							<tx l="ara" name="تراقب الإدارة العليا البيانات المفتوحة وفقًا للخطة والاستراتيجية"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does senior management monitor the organization's data openness and keep it aligned with principles and objectives of the organization?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Senior management must steer data openness."/>
+							<tx l="spa" name="La alta dirección debe dirigir la apertura de datos."/>
+							<tx l="fre" name="La haute direction doit piloter l'ouverture des données."/>
+							<tx l="ara" name="يجب على الإدارة العليا توجيه انفتاح البيانات."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Monitoring reports related to open data projects."/>
+							<tx l="spa" name="Informes de seguimiento relacionados con proyectos de datos abiertos."/>
+							<tx l="fre" name="Rapports de suivi liés aux projets de données ouvertes."/>
+							<tx l="ara" name="تقارير المراقبة المتعلقة بمشاريع البيانات المفتوحة."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
@@ -382,6 +433,18 @@ IT strategic plan.
 							<tx l="eng" name="To check if open data report exists.
 To check if senior management monitors these reports.
 Do reports contain information as required in the plan and or strategy?
+"/>
+							<tx l="spa" name="Para comprobar si existe un informe de datos abiertos.
+Para comprobar si la alta dirección supervisa estos informes.
+¿Los informes contienen la información requerida en el plan o la estrategia?
+"/>
+							<tx l="fre" name="Pour vérifier si le rapport de données ouvertes existe.
+Pour vérifier si la haute direction surveille ces rapports.
+Les rapports contiennent-ils les informations requises dans le plan et/ou la stratégie ?
+"/>
+							<tx l="ara" name="للتحقق من وجود تقرير البيانات المفتوحة.
+للتحقق مما إذا كانت الإدارة العليا تراقب هذه التقارير.
+هل تحتوي التقارير على معلومات كما هو مطلوب في الخطة أو الإستراتيجية؟
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -406,6 +469,9 @@ Do reports contain information as required in the plan and or strategy?
 			<Issue nr="06" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Ownership"/>
+					<tx l="spa" name="Propiedad"/>
+					<tx l="fre" name="Propriété"/>
+					<tx l="ara" name="ملكية"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -423,23 +489,34 @@ Do reports contain information as required in the plan and or strategy?
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Ownership of data is identified and maintained"/>
+							<tx l="spa" name="La propiedad de los datos se identifica y mantiene"/>
+							<tx l="fre" name="La propriété des données est identifiée et maintenue"/>
+							<tx l="ara" name="تحديد ملكية البيانات والمحافظة عليها"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does organization identify the owners of data, particularly of datasets whose openness is priority?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Datasets whose openness is priority must have owners."/>
+							<tx l="spa" name="Los conjuntos de datos cuya apertura sea prioritaria deben tener propietarios."/>
+							<tx l="fre" name="Les ensembles de données dont l'ouverture est prioritaire doivent avoir des propriétaires."/>
+							<tx l="ara" name="يجب أن يكون لمجموعات البيانات التي يكون انفتاحها أولوية مالكين."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Data governance documents with owners datasets.
-"/>
+							<tx l="eng" name="Data governance documents with owners datasets."/>
+							<tx l="spa" name="Documentos de gobernanza con propietarios de conjuntos de datos."/>
+							<tx l="fre" name="Documents de gouvernance avec les propriétaires des ensembles de données."/>
+							<tx l="ara" name="مستندات الحوكمة مع مالكي مجموعات البيانات."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="To check if data owners exists, particularly to datasets whose openness is priority."/>
+							<tx l="spa" name="Para verificar si existen propietarios de datos, particularmente para conjuntos de datos cuya apertura es prioridad."/>
+							<tx l="fre" name="Pour vérifier si les propriétaires de données existent, en particulier pour les ensembles de données dont l'ouverture est prioritaire."/>
+							<tx l="ara" name="Tللتحقق من وجود مالكي البيانات ، لا سيما مجموعات البيانات التي يكون الانفتاح أولوية."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -463,6 +540,9 @@ Do reports contain information as required in the plan and or strategy?
 			<Issue nr="07" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Datasets"/>
+					<tx l="spa" name="Conjuntos de datos"/>
+					<tx l="fre" name="Ensembles de données"/>
+					<tx l="ara" name="مجموعات البيانات"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -480,26 +560,34 @@ Do reports contain information as required in the plan and or strategy?
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Open data plan includes high priority datasets"/>
+							<tx l="spa" name="El plan de datos abiertos incluye conjuntos de datos de alta prioridad"/>
+							<tx l="fre" name="Le plan de données ouvertes comprend des ensembles de données hautement prioritaires"/>
+							<tx l="ara" name="تتضمن خطة البيانات المفتوحة مجموعات بيانات ذات أولوية عالية"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Has organization´s open data plan a list of datasets whose openness is priority?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Open data plan must have a list of datasets must be open and prioritization criteria to choose them. The prioritization criteria must include the social interest about datasets, among others."/>
+							<tx l="spa" name="El plan de datos abiertos debe tener una lista de conjuntos de datos que deben estar abiertos y los criterios de priorización para elegirlos. Los criterios de priorización deben incluir el interés social por los conjuntos de datos, entre otros."/>
+							<tx l="fre" name="Le plan de données ouvert doit avoir une liste d'ensembles de données qui doit être ouvert et des critères de priorisation pour les choisir. Les critères de priorisation doivent inclure, entre autres, l'intérêt social pour les ensembles de données."/>
+							<tx l="ara" name="يجب أن تحتوي خطة البيانات المفتوحة على قائمة بمجموعات البيانات يجب أن تكون مفتوحة ومعايير تحديد الأولويات لاختيارها. يجب أن تتضمن معايير تحديد الأولويات الاهتمام الاجتماعي بمجموعات البيانات ، من بين أمور أخرى."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Open data plan
-List of datasets
-"/>
+							<tx l="eng" name="Open data plan. List of datasets."/>
+							<tx l="spa" name="Plan de datos abiertos. Lista de conjuntos de datos."/>
+							<tx l="fre" name="Plan de données ouvertes. Liste des ensembles de données."/>
+							<tx l="ara" name="خطة البيانات المفتوحة. قائمة مجموعات البيانات."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="To check open data plan looking for a list of dataset to open and a prioritization criteria. 
-If necessary, ask staff about prioritization criteria.
-"/>
+							<tx l="eng" name="To check open data plan looking for a list of dataset to open and a prioritization criteria. If necessary, ask staff about prioritization criteria."/>
+							<tx l="spa" name="Para verificar el plan de datos abiertos buscando una lista de conjuntos de datos para abrir y un criterio de priorización. Si es necesario, pregunte al personal sobre los criterios de priorización."/>
+							<tx l="fre" name="Pour vérifier le plan de données ouvertes, recherchez une liste d'ensembles de données à ouvrir et des critères de priorisation. Si nécessaire, demandez au personnel quels sont les critères de priorisation."/>
+							<tx l="ara" name="للتحقق من خطة البيانات المفتوحة التي تبحث عن قائمة بمجموعة البيانات المراد فتحها ومعايير تحديد الأولويات. إذا لزم الأمر ، اسأل الموظفين عن معايير تحديد الأولويات."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -544,6 +632,9 @@ If necessary, ask staff about prioritization criteria.
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Security Policy"/>
+				<tx l="spa" name="Politica de seguridad"/>
+				<tx l="fre" name="Politique de sécurité"/>
+				<tx l="ara" name="نهج الأمان"/>
 			</title>
 			<narr l="eng">
 				<ak/>
@@ -560,6 +651,9 @@ If necessary, ask staff about prioritization criteria.
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Security Policy"/>
+					<tx l="spa" name="Politica de seguridad"/>
+					<tx l="fre" name="Politique de sécurité"/>
+					<tx l="ara" name="نهج الأمان"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -577,22 +671,34 @@ If necessary, ask staff about prioritization criteria.
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Open data has an associated security policy"/>
+							<tx l="spa" name="Los datos abiertos tienen una política de seguridad asociada"/>
+							<tx l="fre" name="Les données ouvertes ont une politique de sécurité associée"/>
+							<tx l="ara" name="البيانات المفتوحة لها سياسة أمان مرتبطة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is open data governed by applicable security policies and procedures?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Open data should be covered by the agencies security policy or have an independent one."/>
+							<tx l="spa" name="Los datos abiertos deben estar cubiertos por la política de seguridad de la agencia o tener una independiente."/>
+							<tx l="fre" name="Les données ouvertes doivent être couvertes par la politique de sécurité de l'agence ou avoir une politique indépendante."/>
+							<tx l="ara" name="يجب أن تكون البيانات المفتوحة مشمولة بسياسة أمن الوكالات أو أن يكون لها سياسة مستقلة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Organizational security policy that covers open data"/>
+							<tx l="spa" name="Política de seguridad organizacional que cubre los datos abiertos"/>
+							<tx l="fre" name="Politique de sécurité organisationnelle qui couvre les données ouvertes"/>
+							<tx l="ara" name="سياسة الأمن التنظيمي التي تغطي البيانات المفتوحة"/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Review and ensure open data specifics are discussed and applicable controls and procedures are mentioned."/>
+							<tx l="spa" name="Revise y asegúrese de que se discutan los detalles específicos de los datos abiertos y se mencionen los controles y procedimientos aplicables."/>
+							<tx l="fre" name="Examiner et s'assurer que les spécificités des données ouvertes sont discutées et que les contrôles et procédures applicables sont mentionnés."/>
+							<tx l="ara" name="مراجعة والتأكد من مناقشة تفاصيل البيانات المفتوحة وذكر الضوابط والإجراءات المعمول بها."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -616,6 +722,9 @@ If necessary, ask staff about prioritization criteria.
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Policy Implementation"/>
+					<tx l="spa" name="Implementación de políticas"/>
+					<tx l="fre" name="La mise en œuvre de la politique"/>
+					<tx l="ara" name="تنفيذ السياسات"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -633,24 +742,34 @@ If necessary, ask staff about prioritization criteria.
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Organization does not put private or sensitive data in its open data"/>
+							<tx l="spa" name="La organización no pone datos privados o sensibles en sus datos abiertos"/>
+							<tx l="fre" name="L'organisation ne met pas de données privées ou sensibles dans ses données ouvertes"/>
+							<tx l="ara" name="لا تضع المنظمة بيانات خاصة أو حساسة في بياناتها المفتوحة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Do the dataset contain only public data?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Datasets must not have private data or data whose confidentially or sensitivity is protected by law."/>
+							<tx l="spa" name="Los conjuntos de datos no deben tener datos privados o datos cuya confidencialidad o sensibilidad esté protegida por la ley."/>
+							<tx l="fre" name="Les ensembles de données ne doivent pas contenir de données privées ou de données dont la confidentialité ou la sensibilité est protégée par la loi."/>
+							<tx l="ara" name="يجب ألا تحتوي مجموعات البيانات على بيانات أو بيانات خاصة يحمي القانون سريتها أو حساسيتها."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Link to open data catalog.
-Procedures to remove private or confidential data.
-"/>
+							<tx l="eng" name="Link to open data catalog. Procedures to remove private or confidential data."/>
+							<tx l="spa" name="Enlace al catálogo de datos abiertos. Procedimientos para eliminar datos privados o confidenciales."/>
+							<tx l="fre" name="Lien vers le catalogue de données ouvert. Procédures de suppression des données privées ou confidentielles."/>
+							<tx l="ara" name="رابط لفتح كتالوج البيانات. إجراءات إزالة البيانات الخاصة أو السرية."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Datasets sampling, checking if there is some private or confidential data."/>
+							<tx l="spa" name="Muestreo de conjuntos de datos, comprobando si hay datos privados o confidenciales."/>
+							<tx l="fre" name="Échantillonnage d'ensemble de données, vérification s'il existe des données privées ou confidentielles."/>
+							<tx l="ara" name="أخذ عينات مجموعات البيانات ، والتحقق مما إذا كانت هناك بعض البيانات الخاصة أو السرية."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -675,6 +794,9 @@ Procedures to remove private or confidential data.
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Communications and Operations Management"/>
+				<tx l="spa" name="Gestión de comunicaciones y operaciones"/>
+				<tx l="fre" name="Gestion des communications et des opérations"/>
+				<tx l="ara" name="إدارة الاتصالات والعمليات"/>
 			</title>
 			<narr l="eng">
 				<ak/>
@@ -691,6 +813,9 @@ Procedures to remove private or confidential data.
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Access"/>
+					<tx l="spa" name="El acceso"/>
+					<tx l="fre" name="L'accès"/>
+					<tx l="ara" name="وصول"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -707,25 +832,35 @@ Procedures to remove private or confidential data.
 				<Matrix id="Access to open data is communicated and un-restricted as required">
 					<Objectives>
 						<obj>
-							<tx l="eng" name="Open data is made available "/>
+							<tx l="eng" name="Open data is made available"/>
+							<tx l="spa" name="Los datos abiertos están disponibles"/>
+							<tx l="fre" name="Les données ouvertes sont mises à disposition"/>
+							<tx l="ara" name="البيانات المفتوحة متاحة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is the access to open data site (and to datasets themselves) widely available and without restrictions?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="There is no restrictions to open data portal (like robots.txt, captchas, etc), neither to datasets  (like requirement for identification or justification to access)."/>
+							<tx l="end" name="There is no restrictions to open data portal (like robots.txt, captchas, etc), neither to datasets  (like requirement for identification or justification to access)."/>
+							<tx l="spa" name="No hay restricciones para abrir el portal de datos (como robots.txt, captchas, etc.), ni para los conjuntos de datos (como requisito de identificación o justificación para acceder)."/>
+							<tx l="fre" name="Il n'y a aucune restriction au portail de données ouvertes (comme robots.txt, captchas, etc.), ni aux ensembles de données (comme l'exigence d'identification ou de justification d'accès)."/>
+							<tx l="ara" name="لا توجد قيود على فتح بوابة البيانات (مثل robots.txt و captchas وما إلى ذلك) ، ولا على مجموعات البيانات (مثل متطلبات التعريف أو التبرير للوصول)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Link to open data catalog."/>
+							<tx l="spa" name="Enlace al catálogo de datos abiertos."/>
+							<tx l="fre" name="Lien vers le catalogue de données ouvert."/>
+							<tx l="ara" name="رابط لفتح كتالوج البيانات."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="To check for any restriction on human or machine access to the portal. 
-Datasets  sampling, checking for same restrictions.
-"/>
+							<tx l="eng" name="To check for any restriction on human or machine access to the portal. Datasets  sampling, checking for same restrictions."/>
+							<tx l="spa" name="Para verificar cualquier restricción en el acceso de personas o máquinas al portal. Muestreo de conjuntos de datos, comprobando las mismas restricciones."/>
+							<tx l="fre" name="Pour vérifier toute restriction d'accès humain ou machine au portail. Échantillonnage des ensembles de données, vérification des mêmes restrictions."/>
+							<tx l="ara" name="للتحقق من أي قيود على وصول الإنسان أو الجهاز إلى البوابة. أخذ عينات مجموعات البيانات ، والتحقق من نفس القيود."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -765,25 +900,35 @@ Datasets  sampling, checking for same restrictions.
 				<Matrix id="Open data availability is communicated">
 					<Objectives>
 						<obj>
-							<tx l="eng" name="Open data portals and locations are communicated "/>
+							<tx l="eng" name="Open data portals and locations are communicated"/>
+							<tx l="spa" name="Se comunican las ubicaciones y los portales de datos abiertos"/>
+							<tx l="fre" name="Les portails de données ouvertes et les emplacements sont communiqués"/>
+							<tx l="ara" name="يتم توصيل بوابات ومواقع البيانات المفتوحة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the organization announce its open data in various media (eg .: newspapers , journals, events, etc. )?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization should have strategies and institutional procedures to give notice to potential stakeholders about the data available on the portal."/>
+							<tx l="spa" name="La organización debe contar con estrategias y procedimientos institucionales para dar aviso a los posibles interesados sobre los datos disponibles en el portal."/>
+							<tx l="fre" name="L'organisation doit avoir des stratégies et des procédures institutionnelles pour informer les parties prenantes potentielles des données disponibles sur le portail."/>
+							<tx l="ara" name="يجب أن يكون لدى المنظمة استراتيجيات وإجراءات مؤسسية لإعطاء إشعار لأصحاب المصلحة المحتملين بشأن البيانات المتاحة على البوابة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Promotional material about open data organization.
-Procedures to promote the publication of new datasets.
-"/>
+							<tx l="eng" name="Promotional material about open data organization. Procedures to promote the publication of new datasets."/>
+							<tx l="spa" name="Material promocional sobre organización de datos abiertos. Procedimientos para promover la publicación de nuevos conjuntos de datos."/>
+							<tx l="fre" name="Matériel promotionnel sur l'organisation des données ouvertes. Procédures pour promouvoir la publication de nouveaux ensembles de données."/>
+							<tx l="ara" name="مواد ترويجية حول تنظيم البيانات المفتوحة. إجراءات لتعزيز نشر مجموعات البيانات الجديدة."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="To check if institutional promotion of open data exists."/>
+							<tx l="spa" name="Verificar si existe promoción institucional de datos abiertos."/>
+							<tx l="fre" name="Vérifier si la promotion institutionnelle des données ouvertes existe."/>
+							<tx l="ara" name="للتحقق من وجود تعزيز مؤسسي للبيانات المفتوحة."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -828,6 +973,9 @@ Procedures to promote the publication of new datasets.
 		<Area nr="01">
 			<title>
 				<tx l="eng" name="Output Controls"/>
+				<tx l="spa" name="Controles de salida"/>
+				<tx l="fre" name="Contrôles de sortie"/>
+				<tx l="ara" name="ضوابط الإخراج"/>
 			</title>
 			<narr l="eng">
 				<ak/>
@@ -844,6 +992,9 @@ Procedures to promote the publication of new datasets.
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Catalog"/>
+					<tx l="spa" name="Catálogo"/>
+					<tx l="fre" name="Catalogue"/>
+					<tx l="ara" name="فهرس"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -861,27 +1012,34 @@ Procedures to promote the publication of new datasets.
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To assess if organization follows the good practices of open data disclosure."/>
+							<tx l="spa" name="Evaluar si la organización sigue las buenas prácticas de divulgación de datos abiertos."/>
+							<tx l="fre" name="Évaluer si l'organisation suit les bonnes pratiques de divulgation des données ouvertes."/>
+							<tx l="ara" name="لتقييم ما إذا كانت المنظمة تتبع الممارسات الجيدة للكشف عن البيانات المفتوحة."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the organization maintain a catalog for access to open datasets?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization must maintain and disseminate a catalog to open datasets, usually by means of page or portal for open data, rather than datasets  scattered in several different locations."/>
+							<tx l="spa" name="La organización debe mantener y difundir un catálogo de conjuntos de datos abiertos, generalmente por medio de una página o portal para datos abiertos, en lugar de conjuntos de datos dispersos en varias ubicaciones diferentes."/>
+							<tx l="fre" name="L'organisation doit maintenir et diffuser un catalogue d'ensembles de données ouvertes, généralement au moyen d'une page ou d'un portail pour les données ouvertes, plutôt que des ensembles de données dispersés à plusieurs endroits différents."/>
+							<tx l="ara" name="يجب على المنظمة الحفاظ على كتالوج ونشره لفتح مجموعات البيانات ، عادةً عن طريق الصفحة أو البوابة الإلكترونية للبيانات المفتوحة ، بدلاً من مجموعات البيانات المنتشرة في عدة مواقع مختلفة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="
-Link to open data catalog
-Reports of where these catalogs may be found, web page, etc.
-"/>
+							<tx l="eng" name="Link to open data catalog. Reports of where these catalogs may be found, web page, etc."/>
+							<tx l="spa" name="Enlace al catálogo de datos abiertos. Informes de dónde se pueden encontrar estos catálogos, página web, etc."/>
+							<tx l="fre" name="Lien vers le catalogue de données ouvert. Rapports indiquant où ces catalogues peuvent être trouvés, page Web, etc."/>
+							<tx l="ara" name="رابط لفتح كتالوج البيانات. تقارير عن أماكن وجود هذه الفهارس وصفحات الويب وما إلى ذلك."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="To check if the catalog exists.
-To check if is widely available in a page or portal in Internet.
-"/>
+							<tx l="eng" name="To check if the catalog exists. To check if is widely available in a page or portal in Internet."/>
+							<tx l="spa" name="Para comprobar si existe el catálogo. Para comprobar si está ampliamente disponible en una página o portal en Internet."/>
+							<tx l="fre" name="Pour vérifier si le catalogue existe. Pour vérifier si est largement disponible dans une page ou un portail Internet."/>
+							<tx l="ara" name="للتحقق من وجود الكتالوج. للتحقق مما إذا كان متاحًا على نطاق واسع في صفحة أو بوابة على الإنترنت."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -905,6 +1063,9 @@ To check if is widely available in a page or portal in Internet.
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Access"/>
+					<tx l="spa" name="Acceso"/>
+					<tx l="fre" name="Accès"/>
+					<tx l="ara" name="وصول"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -922,12 +1083,18 @@ To check if is widely available in a page or portal in Internet.
 					<Objectives>
 						<obj>
 							<tx l="eng" name="General best practices are followed in web portal design and access"/>
+							<tx l="spa" name="Se siguen las mejores prácticas generales en el diseño y acceso de portales web"/>
+							<tx l="fre" name="Les meilleures pratiques générales sont suivies dans la conception et l'accès au portail Web"/>
+							<tx l="ara" name="يتم اتباع أفضل الممارسات العامة في تصميم بوابة الويب والوصول إليها"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Is the open data page or portal appropriate?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization must facilitate the search for datasets . If there is centralized open data portal highest level in the government, the organization open data portal must be integrated with it. Preferably , you should refer to other sources of related data."/>
+							<tx l="spa" name="La organización debe facilitar la búsqueda de conjuntos de datos. Si existe un portal de datos abiertos centralizado de más alto nivel en el gobierno, el portal de datos abiertos de la organización debe estar integrado con él. Preferiblemente, debe consultar otras fuentes de datos relacionados."/>
+							<tx l="fre" name="L'organisation doit faciliter la recherche d'ensembles de données. S'il existe un portail de données ouvertes centralisé au plus haut niveau du gouvernement, le portail de données ouvertes de l'organisation doit y être intégré. De préférence, vous devriez vous référer à d'autres sources de données connexes."/>
+							<tx l="ara" name="يجب على المنظمة تسهيل البحث عن مجموعات البيانات. في حالة وجود بوابة بيانات مركزية مفتوحة على أعلى مستوى في الحكومة ، يجب دمج بوابة البيانات المفتوحة بالمنظمة معها. على نحو مفضل ، يجب عليك الرجوع إلى مصادر أخرى للبيانات ذات الصلة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
@@ -935,13 +1102,31 @@ To check if is widely available in a page or portal in Internet.
 							<tx l="eng" name="Link to open data catalog.
 Link to centralized open data catalog, if it exists.
 Industry best practices on web portal design (research to find)"/>
+							<tx l="spa" name="Enlace al catálogo de datos abiertos.
+Enlace al catálogo de datos abiertos centralizado, si existe.
+Mejores prácticas de la industria en el diseño de portales web (buscar para encontrar)"/>
+							<tx l="fre" name="Lien vers le catalogue de données ouvert.
+Lien vers le catalogue centralisé de données ouvertes, s'il existe.
+Meilleures pratiques de l'industrie sur la conception de portails Web (recherche pour trouver)"/>
+							<tx l="ara" name="رابط لفتح كتالوج البيانات.
+الارتباط بكتالوج البيانات المفتوح المركزي ، إن وجد.
+أفضل ممارسات الصناعة في تصميم بوابة الويب (البحث للعثور)"/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="To check if datasets are arranged to make the search easiest.
- To test search engine by dataset name, area/category, owner and last update.
+To test search engine by dataset name, area/category, owner and last update.
 If there is centralized open data portal, to check if datasets can be found in both."/>
+							<tx l="spa" name="Para comprobar si los conjuntos de datos están organizados para facilitar la búsqueda.
+Para probar el motor de búsqueda por nombre del conjunto de datos, área / categoría, propietario y última actualización.
+Si hay un portal de datos abierto centralizado, para comprobar si se pueden encontrar conjuntos de datos en ambos."/>
+							<tx l="fre" name="Pour vérifier si les ensembles de données sont organisés pour faciliter la recherche.
+Pour tester le moteur de recherche par nom de jeu de données, zone/catégorie, propriétaire et dernière mise à jour.
+S'il existe un portail de données ouvert centralisé, pour vérifier si des ensembles de données peuvent être trouvés dans les deux."/>
+							<tx l="ara" name="للتحقق مما إذا كانت مجموعات البيانات مرتبة لجعل البحث أسهل.
+لاختبار محرك البحث حسب اسم مجموعة البيانات والمنطقة / الفئة والمالك وآخر تحديث.
+إذا كان هناك بوابة بيانات مركزية مفتوحة ، للتحقق مما إذا كان يمكن العثور على مجموعات البيانات في كليهما."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -965,6 +1150,9 @@ If there is centralized open data portal, to check if datasets can be found in b
 			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Metadata"/>
+					<tx l="spa" name="Metadatos"/>
+					<tx l="fre" name="Métadonnées"/>
+					<tx l="ara" name="البيانات الوصفية"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -982,22 +1170,34 @@ If there is centralized open data portal, to check if datasets can be found in b
 					<Objectives>
 						<obj>
 							<tx l="eng" name="General Best Practices For Open Data Access"/>
+							<tx l="spa" name="Prácticas recomendadas generales para el acceso a datos abiertos"/>
+							<tx l="fre" name="Meilleures pratiques générales pour l'accès ouvert aux données"/>
+							<tx l="ara" name="أفضل الممارسات العامة للوصول إلى البيانات المفتوحة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Does the organization mantain appropriate metadata for datasets available?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="The open data should be accompanied by appropriate metadata. The most important metadata are : overview (about what it is the dataset ) , format of files and fields , description fields , reference dates , organizational area responsible for data (dataset owner)."/>
+							<tx l="eng" name="The open data should be accompanied by appropriate metadata. The most important metadata are : overview (about what it is the dataset), format of files and fields , description fields , reference dates , organizational area responsible for data (dataset owner)."/>
+							<tx l="spa" name="Los datos abiertos deben ir acompañados de los metadatos adecuados. Los metadatos más importantes son: descripción general (sobre qué es el conjunto de datos), formato de archivos y campos, campos de descripción, fechas de referencia, área organizativa responsable de los datos (propietario del conjunto de datos)."/>
+							<tx l="fre" name="Les données ouvertes doivent être accompagnées de métadonnées appropriées. Les métadonnées les plus importantes sont : aperçu (à propos de ce qu'est le jeu de données), format des fichiers et des champs, champs de description, dates de référence, domaine organisationnel responsable des données (propriétaire du jeu de données)."/>
+							<tx l="ara" name="يجب أن تكون البيانات المفتوحة مصحوبة ببيانات وصفية مناسبة. أهم البيانات الوصفية هي: نظرة عامة (حول ماهية مجموعة البيانات) ، تنسيق الملفات والحقول ، حقول الوصف ، التواريخ المرجعية ، المنطقة التنظيمية المسؤولة عن البيانات (مالك مجموعة البيانات)."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Link to open data catalog."/>
+							<tx l="spa" name="Enlace al catálogo de datos abiertos."/>
+							<tx l="fre" name="Lien vers le catalogue de données ouvert."/>
+							<tx l="ara" name="رابط لفتح كتالوج البيانات."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Datasets  and their associated metadata sampling."/>
+							<tx l="spa" name="Conjuntos de datos y su muestreo de metadatos asociados."/>
+							<tx l="fre" name="Ensembles de données et échantillonnage de leurs métadonnées associées."/>
+							<tx l="ara" name="مجموعات البيانات وأخذ عينات البيانات الوصفية المرتبطة بها."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -1021,6 +1221,9 @@ If there is centralized open data portal, to check if datasets can be found in b
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Update"/>
+					<tx l="spa" name="Actualización"/>
+					<tx l="fre" name="Mettre à jour"/>
+					<tx l="ara" name="تحديث"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -1038,24 +1241,34 @@ If there is centralized open data portal, to check if datasets can be found in b
 					<Objectives>
 						<obj>
 							<tx l="eng" name="General best practices for open data access"/>
+							<tx l="spa" name="Mejores prácticas generales para el acceso a datos abiertos"/>
+							<tx l="fre" name="Les meilleures pratiques générales sont suivies pour l'accès ouvert aux données"/>
+							<tx l="ara" name="أفضل الممارسات العامة للوصول إلى البيانات المفتوحة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Are open data updated?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Published datasets must be updated within the schedule set for them. This varies from one dataset to another , but it should be known , issued and controlled by the organization."/>
+							<tx l="eng" name="Published datasets must be updated within the schedule set for them. This varies from one dataset to another, but it should be known, issued and controlled by the organization."/>
+							<tx l="spa" name="Los conjuntos de datos publicados deben actualizarse dentro del cronograma establecido para ellos. Esto varía de un conjunto de datos a otro, pero debe ser conocido, emitido y controlado por la organización."/>
+							<tx l="fre" name="Les ensembles de données publiés doivent être mis à jour selon le calendrier défini pour eux. Celle-ci varie d'un ensemble de données à l'autre, mais elle doit être connue, émise et contrôlée par l'organisation."/>
+							<tx l="ara" name="يجب تحديث مجموعات البيانات المنشورة ضمن الجدول الزمني المحدد لها. هذا يختلف من مجموعة بيانات إلى أخرى ، ولكن يجب أن تكون معروفة ، وتصدر وتتحكم فيها المنظمة."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Link to open data catalog.
-Record of updates to information
-"/>
+							<tx l="eng" name="Link to open data catalog. Record of updates to information."/>
+							<tx l="spa" name="Enlace al catálogo de datos abiertos. Registro de actualizaciones de información."/>
+							<tx l="fre" name="Lien vers le catalogue de données ouvert. Enregistrement des mises à jour des informations."/>
+							<tx l="ara" name="رابط لفتح كتالوج البيانات. سجل تحديثات المعلومات."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Datasets  and their associated reference dates sampling and update cycle confirmation"/>
+							<tx l="eng" name="Datasets and their associated reference dates sampling and update cycle confirmation"/>
+							<tx l="spa" name="Conjuntos de datos y sus fechas de referencia asociadas, muestreo y confirmación del ciclo de actualización"/>
+							<tx l="fre" name="Ensembles de données et leurs dates de référence associées échantillonnage et confirmation du cycle de mise à jour"/>
+							<tx l="ara" name="مجموعات البيانات والتواريخ المرجعية المرتبطة بها وأخذ العينات وتأكيد دورة التحديث"/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -1079,6 +1292,9 @@ Record of updates to information
 			<Issue nr="05" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Data Formats"/>
+					<tx l="spa" name="Formatos de datos"/>
+					<tx l="fre" name="Formats de données"/>
+					<tx l="ara" name="تنسيقات البيانات"/>
 				</title>
 				<narr l="eng">
 					<ak/>
@@ -1095,23 +1311,35 @@ Record of updates to information
 				<Matrix id="General Best Practices For Open Data">
 					<Objectives>
 						<obj>
-							<tx l="eng" name="Open Data Formats Reflect Current Practices"/>
+							<tx l="eng" name="Open data formats reflect current practices"/>
+							<tx l="spa" name="Los formatos de datos abiertos reflejan las prácticas actuales"/>
+							<tx l="fre" name="Les formats de données ouvertes reflètent les pratiques actuelles"/>
+							<tx l="ara" name="تعكس تنسيقات البيانات المفتوحة الممارسات الحالية"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Are open data available on open formats?</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="Data must be on open or standard format, like CSV, HTML, JSON, XML, etc. It can be proprietary formats, in case to supply special clients needs, but there must be open format too"/>
+							<tx l="eng" name="Data must be on open or standard format, like CSV, HTML, JSON, XML, etc. It can be proprietary formats, in case to supply special clients needs, but there must be open format too."/>
+							<tx l="spa" name="Los datos deben estar en formato abierto o estándar, como CSV, HTML, JSON, XML, etc. Pueden ser formatos propietarios, en caso de satisfacer necesidades especiales de los clientes, pero también debe haber formato abierto."/>
+							<tx l="fre" name="Les données doivent être au format ouvert ou standard, comme CSV, HTML, JSON, XML, etc. Il peut s'agir de formats propriétaires, au cas où pour répondre aux besoins particuliers des clients, mais il doit également exister un format ouvert."/>
+							<tx l="ara" name="يجب أن تكون البيانات بتنسيق مفتوح أو قياسي ، مثل CSV و HTML و JSON و XML وما إلى ذلك. يمكن أن تكون تنسيقات خاصة ، في حالة توفير احتياجات العملاء الخاصة ، ولكن يجب أن يكون هناك تنسيق مفتوح أيضًا."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Link to open data catalog."/>
+							<tx l="spa" name="Enlace al catálogo de datos abiertos."/>
+							<tx l="fre" name="Lien vers le catalogue de données ouvert."/>
+							<tx l="ara" name="رابط لفتح كتالوج البيانات."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Datasets  sampling, checking their associated formats."/>
+							<tx l="spa" name="Muestreo de conjuntos de datos, comprobando sus formatos asociados."/>
+							<tx l="fre" name="Échantillonnage des ensembles de données, vérification de leurs formats associés."/>
+							<tx l="ara" name="أخذ عينات مجموعات البيانات ، والتحقق من التنسيقات المرتبطة بها."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
