@@ -252,28 +252,45 @@ Les directions de l'organisation ont tendance à considérer les mises à niveau
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
-							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
-							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
-							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
+							<tx l="spa" name="Evaluar si los preparativos se realizaron de una manera que garantice el mínimo riesgo y la máxima eficiencia de la operación de actualización"/>
+							<tx l="fre" name="Évaluer si les préparatifs ont été effectués de manière à garantir un risque minimal et une efficacité maximale de l'opération de mise à niveau"/>
+							<tx l="ara" name="قم بتقييم ما إذا تم إجراء الاستعدادات بطريقة تضمن الحد الأدنى من المخاطر وأقصى قدر من الكفاءة لعملية الترقية"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Planning</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Scope, level of detail and flexibility of the planning"/>
+							<tx l="spa" name="Alcance, nivel de detalle y flexibilidad de la planificación"/>
+							<tx l="fre" name="Portée, niveau de détail et flexibilité de la planification"/>
+							<tx l="ara" name="النطاق ومستوى التفاصيل ومرونة التخطيط"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Planning documents
-
-Information on role and responsibility of management and experts
-
-BDP and DRP documentation
-
-Technical documentation
-
-User documentation
+							<tx l="eng" name="Planning documents.
+Information on role and responsibility of management and experts.
+BDP and DRP documentation.
+Technical documentation.
+User documentation.
+"/>
+							<tx l="spa" name="Documentos de planificación.
+Información sobre el rol y la responsabilidad de la gerencia y los expertos.
+Plan de continuidad del negocio y documentación del plan de recuperación ante desastres.
+Documentación técnica.
+Documentación del usuario.
+"/>
+							<tx l="fre" name="Documents de planification.
+Informations sur le rôle et la responsabilité de la direction et des experts.
+Documentation du plan de continuité des activités et du plan de reprise après sinistre.
+Documentation technique.
+Documentation utilisateur.
+"/>
+							<tx l="ara" name="وثائق التخطيط.
+معلومات عن دور ومسؤولية الإدارة والخبراء.
+خطة استمرارية الأعمال ووثائق خطة التعافي من الكوارث.
+التوثيق الفني.
+وثائق المستخدم.
 "/>
 						</inf>
 					</InformationRequired>
@@ -296,6 +313,60 @@ Necessary resources and responsibilities should be clearly stated. Were both the
 Technical documentation of the system will be usually changed after the upgrade and the administration team will often have to deal with new parameters or function. Their training should be planned then in a proper time.
 
 The user documentation should be modified if necessary and the Help Desk function should be included in the upgrade operation planning. Was the Help Desk team planned to be trained, and then able to deal with post-upgrade issues if signalled by users?
+"/>
+							<tx l="spa" name="Si es posible, busque una relación entre la planificación de la actualización y la estrategia de TI de la organización. Utilice especialmente las secciones del Manual de auditoría de TI:
+- Gobierno de TI - Estrategia y planificación de TI
+- Desarrollo y Adquisición - Desarrollo y Gestión de Requisitos
+
+También puede ser útil el contenido de matrices ejemplares para:
+- Identificación, dirección y seguimiento de las necesidades de la organización
+- Estrategia de TI
+- Desarrollo y gestión de requisitos
+- Política de continuidad del negocio
+- Evaluación de impacto empresarial
+- Plan de recuperación en un desastre
+
+Preste especial atención si los planes tienen el alcance adecuado, el calendario realista de las fases de actualización, que deben contener controles para evaluar el progreso y la seguridad. ¿Se previó la posibilidad de que la actualización fallara? Entonces, ¿sería posible la recuperación del sistema y la continuidad del negocio?
+Los recursos y responsabilidades necesarios deben indicarse claramente. ¿Participaron tanto el equipo de TI como el equipo de actividad principal (por ejemplo, Finanzas o RR.HH.) en la planificación de la actualización? ¿Se informó a todas las partes interesadas sobre la actualización planificada?
+La documentación técnica del sistema generalmente se modificará después de la actualización y el equipo de administración a menudo tendrá que lidiar con nuevos parámetros o funciones. Su formación debe planificarse entonces en el momento adecuado.
+
+La documentación del usuario debe modificarse si es necesario y la función de mesa de ayuda debe incluirse en la planificación de la operación de actualización. ¿Se planificó que el equipo de soporte estuviera capacitado y luego se pudiera ocupar de los problemas posteriores a la actualización si así lo indicaban los usuarios?
+"/>
+							<tx l="fre" name="Si possible, trouvez une relation entre la planification de la mise à niveau et la stratégie informatique de l'organisation. Utilisez en particulier les sections du manuel d'audit informatique :
+- Gouvernance informatique – Stratégie et planification informatique
+- Développement et acquisition – Développement et gestion des exigences
+
+Vous pouvez également trouver utile le contenu d'exemples de matrices pour :
+- Identification, Orientation et Suivi des Besoins Métiers
+- Stratégie informatique
+- Développement et gestion des exigences
+- Politique de continuité d'activité
+- Évaluation de l'impact commercial
+- Plan de reprise après sinistre
+
+Portez une attention particulière si les plans ont une portée adéquate, un calendrier réaliste des phases de mise à niveau, qui doivent contenir des contrôles pour évaluer les progrès et la sécurité. La possibilité d'un échec de la mise à niveau était-elle prévue ? La reprise du système et la continuité d'activité seraient-elles alors possibles ?
+Les ressources et les responsabilités nécessaires doivent être clairement énoncées. L'équipe informatique et l'équipe d'activité principale (par exemple, Finance ou RH) ont-elles été impliquées dans la planification de la mise à niveau ? Toutes les parties intéressées ont-elles été informées de la mise à niveau prévue ?
+La documentation technique du système sera généralement modifiée après la mise à niveau et l'équipe d'administration devra souvent faire face à de nouveaux paramètres ou fonctions. Leur formation doit alors être planifiée en temps voulu.
+
+La documentation pour l'utilisateur doit être modifiée si nécessaire et la fonction Help Desk doit être incluse dans la planification de l'opération de mise à niveau. L'équipe du service d'assistance devait-elle être formée, puis capable de traiter les problèmes après la mise à niveau si les utilisateurs le signalaient ?
+"/>
+							<tx l="ara" name="إذا أمكن ، ابحث عن علاقة بين تخطيط الترقية واستراتيجية تكنولوجيا المعلومات الخاصة بالمنظمة. استخدم أقسام كتيب تدقيق تكنولوجيا المعلومات بشكل خاص:
+- حوكمة تقنية المعلومات. - التخطيط والاستراتيجية لتقنية المعلومات
+- التطوير والاستحواذ - تطوير وإدارة المتطلبات
+
+يمكنك أيضًا العثور على محتوى مفيد من المصفوفات النموذجية من أجل:
+- تحديد احتياجات العمل والتوجيه والمراقبة
+- إستراتيجية تكنولوجيا المعلومات
+- تطوير وإدارة المتطلبات
+- سياسة استمرارية العمل
+- تقييم اثر الاعمال
+- خطة التعافي من الكوارث
+
+انتبه بشكل خاص إذا كان للخطط النطاق المناسب والجدول الزمني الواقعي لمراحل الترقية ، والتي يجب أن تحتوي على ضوابط لتقييم التقدم والأمن. هل كان من المتوقع فشل الترقية؟ هل يمكن استعادة النظام واستمرارية الأعمال بعد ذلك؟
+يجب تحديد الموارد والمسؤوليات اللازمة بوضوح. هل شارك كل من فريق تكنولوجيا المعلومات وفريق النشاط الأساسي (مثل الشؤون المالية أو الموارد البشرية) في تخطيط الترقية؟ هل تم إبلاغ جميع الأطراف المهتمة بالترقية المخطط لها؟
+عادة ما يتم تغيير التوثيق الفني للنظام بعد الترقية وسيتعين على فريق الإدارة في كثير من الأحيان التعامل مع معلمات أو وظيفة جديدة. يجب التخطيط لتدريبهم في الوقت المناسب.
+
+يجب تعديل وثائق المستخدم إذا لزم الأمر ويجب تضمين وظيفة مكتب المساعدة في تخطيط عملية الترقية. هل كان فريق مكتب المساعدة مخططًا للتدريب ، ومن ثم قادرًا على التعامل مع مشكلات ما بعد الترقية إذا أشار المستخدمون إلى ذلك؟
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -320,6 +391,9 @@ The user documentation should be modified if necessary and the Help Desk functio
 			<Issue nr="04" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Resources"/>
+					<tx l="spa" name="Recursos"/>
+					<tx l="fre" name="Ressources"/>
+					<tx l="ara" name="موارد"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -339,26 +413,38 @@ The user documentation should be modified if necessary and the Help Desk functio
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
+							<tx l="spa" name="Evaluar si los preparativos se realizaron de una manera que garantice el mínimo riesgo y la máxima eficiencia de la operación de actualización"/>
+							<tx l="fre" name="Évaluer si les préparatifs ont été effectués de manière à garantir un risque minimal et une efficacité maximale de l'opération de mise à niveau"/>
+							<tx l="ara" name="قم بتقييم ما إذا تم إجراء الاستعدادات بطريقة تضمن الحد الأدنى من المخاطر وأقصى قدر من الكفاءة لعملية الترقية"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Resources</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization has a plan on how they identify emerging business or IT needs and the Steering Committee approving requirements has sufficient information to make their decisions."/>
+							<tx l="spa" name="La organización tiene un plan sobre cómo identificar las necesidades del negocio o de TI emergentes y el Comité Directivo que aprueba los requisitos tiene información suficiente para tomar sus decisiones."/>
+							<tx l="fre" name="L'organisation a un plan sur la façon dont elle identifie les nouveaux besoins métier ou informatiques et le comité directeur qui approuve les exigences dispose de suffisamment d'informations pour prendre ses décisions."/>
+							<tx l="ara" name="لدى المنظمة خطة حول كيفية تحديد الأعمال الناشئة أو احتياجات تكنولوجيا المعلومات ولدى اللجنة التوجيهية التي توافق على المتطلبات معلومات كافية لاتخاذ قراراتها."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Documents, which present the staff responsible for the upgrade (project documents, minutes, job descriptions).
-
-Staff trainings strategy"/>
+							<tx l="eng" name="Documents, which present the staff responsible for the upgrade (project documents, minutes, job descriptions). Staff trainings strategy."/>
+							<tx l="spa" name="Documentos, que presentan al personal responsable de la actualización (documentos del proyecto, actas, descripciones de puestos). Estrategia de formación de personal."/>
+							<tx l="fre" name="Documents, qui présentent le personnel responsable de la mise à niveau (documents de projet, procès-verbaux, descriptions de poste). Stratégie de formation du personnel."/>
+							<tx l="ara" name="المستندات التي تعرض الموظفين المسؤولين عن الترقية (مستندات المشروع ، والمحاضر ، ووصف الوظائف). استراتيجية تدريب الموظفين."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Use IT Audit Handbook part on IT Governance – People and resources and the audit matrix on People and Resources.
-
 In case of problems occurring at later stages, check if the staff assigned to the upgrade tasks was sufficient in number, competencies and responsibilities. Was the task fed back as effectively and fair managed?"/>
+							<tx l="spa" name="Utilice la parte del Manual de auditoría de TI sobre Gobierno de TI: personas y recursos y la matriz de auditoría sobre personas y recursos.
+En caso de que surjan problemas en etapas posteriores, verifique si el personal asignado a las tareas de actualización fue suficiente en número, competencias y responsabilidades. ¿Se realizó la retroalimentación de la tarea de manera tan eficaz y justa?"/>
+							<tx l="fre" name="Utilisez la partie du manuel d'audit informatique sur la gouvernance informatique - Personnes et ressources et la matrice d'audit sur les personnes et les ressources.
+En cas de problèmes survenant à des stades ultérieurs, vérifiez si le personnel affecté aux tâches de mise à niveau était suffisant en nombre, en compétences et en responsabilités. La tâche a-t-elle été gérée de manière aussi efficace et équitable ?"/>
+							<tx l="ara" name="استخدام جزء كتيب تدقيق تكنولوجيا المعلومات حول حوكمة تكنولوجيا المعلومات - الأفراد والموارد ومصفوفة التدقيق على الأشخاص والموارد.
+في حالة حدوث مشاكل في مراحل لاحقة ، تحقق مما إذا كان الموظفون المكلفون بمهام الترقية كافيين من حيث العدد والكفاءات والمسؤوليات. هل تمت تغذية المهمة بشكل فعال وعادل؟"/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -382,6 +468,9 @@ In case of problems occurring at later stages, check if the staff assigned to th
 			<Issue nr="05" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Provider of the upgrade"/>
+					<tx l="spa" name="Proveedor de la actualización"/>
+					<tx l="fre" name="Fournisseur de la mise à niveau"/>
+					<tx l="ara" name="مزود الترقية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -401,17 +490,26 @@ In case of problems occurring at later stages, check if the staff assigned to th
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess if the preparations were performed in a way that ensured minimum risk and maximum efficiency of the upgrade operation"/>
+							<tx l="spa" name="Evaluar si los preparativos se realizaron de una manera que garantice el mínimo riesgo y la máxima eficiencia de la operación de actualización."/>
+							<tx l="fre" name="Évaluer si les préparatifs ont été effectués de manière à garantir un risque minimal et une efficacité maximale de l'opération de mise à niveau"/>
+							<tx l="ara" name="قم بتقييم ما إذا تم إجراء الاستعدادات بطريقة تضمن الحد الأدنى من المخاطر وأقصى قدر من الكفاءة لعملية الترقية"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Provider of the upgrade (external experts)</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Effective and efficient use of support provided by external experts"/>
+							<tx l="spa" name="Uso eficaz y eficiente del apoyo proporcionado por expertos externos"/>
+							<tx l="fre" name="Utilisation efficace et efficiente du soutien fourni par des experts externes"/>
+							<tx l="ara" name="الاستخدام الفعال والفعال للدعم المقدم من قبل خبراء خارجيين"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
 							<tx l="eng" name="Meeting minutes and correspondence between the organisation and the expertize providers"/>
+							<tx l="spa" name="Actas de reuniones y correspondencia entre la organización y los proveedores especializados"/>
+							<tx l="fre" name="Compte-rendu de réunion et correspondance entre l'organisation et les prestataires d'expertise"/>
+							<tx l="ara" name="محاضر الاجتماعات والمراسلات بين المنظمة ومقدمي الخدمات ذوي الخبرة"/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
@@ -419,7 +517,7 @@ In case of problems occurring at later stages, check if the staff assigned to th
 							<tx l="eng" name="Use IT Audit Handbook part on Development and Acquisition Solicitation and all chapter on Outsourcing.
 
 Review the following audit matrices:
--	D&amp;A Solicitation
+-	Design and Analysis Solicitation
 -	Outsourcing Policy
 -	Outsourcing  Solicitation
 -	Vendor or Contractor Monitoring
@@ -435,6 +533,57 @@ Contract with the upgrade provider should meet all needed requirements, includin
 On the other hand, the external experts should find in the organisation strong enough in-house experts team to make the organisation profiting from the cooperation. 
 
 Consequences can be financial (e.g. related to vendor dependence) or operational – if the upgrade is conducted with insufficient expertise."/>
+							<tx l="spa" name="Utilice la parte del Manual de auditoría de TI sobre Solicitud de adquisición y desarrollo y todo el capítulo sobre Subcontratación.
+
+Revise las siguientes matrices de auditoría:
+- Solicitud de diseño y análisis
+- Política de subcontratación
+- Solicitud de subcontratación
+- Seguimiento de proveedores o contratistas
+- Proveedor de servicios en el extranjero
+- Conservación del conocimiento empresarial / propiedad del proceso empresarial
+- Control y gestión de costes
+- Respaldo y recuperación ante desastres para servicios subcontratados
+
+Es difícil imaginar que un sistema complejo se actualice sin ayuda externa. Los preparativos para la actualización son una buena prueba de las estrategias reales que la organización auditada aplica a la inversión y subcontratación de TI. A veces puede suceder que un sistema de TI, que se compró e instaló con éxito varios años antes, ahora no parece tener un mercado de expertos suficientemente desarrollado.
+
+El contrato con el proveedor de la actualización debe cumplir con todos los requisitos necesarios, incluidas las garantías e indemnizaciones y las reglas para identificar la responsabilidad de los posibles incidentes y problemas que se produzcan como resultado de la actualización.
+
+Por otro lado, los expertos externos deben encontrar en la organización un equipo interno de expertos lo suficientemente fuerte para que la organización se beneficie de la cooperación."/>
+							<tx l="fre" name="Utilisez la partie du manuel d'audit informatique sur la sollicitation de développement et d'acquisition et tout le chapitre sur l'externalisation.
+
+Examinez les matrices d'audit suivantes :
+- Sollicitation de conception et d'analyse
+- Politique d'externalisation
+- Sollicitation d'externalisation
+- Surveillance du fournisseur ou de l'entrepreneur
+- Prestataire de services à l'étranger
+- Maintien des connaissances de l'entreprise/appropriation des processus métier
+- Contrôle et gestion des coûts
+- Sauvegarde et reprise après sinistre pour les services externalisés
+
+Il est difficile d'imaginer un système complexe à mettre à niveau sans aucune aide extérieure. Les préparatifs de la mise à niveau sont alors un bon test des stratégies réelles que l'organisation auditée applique en matière d'investissement et d'externalisation informatiques. Il peut parfois arriver qu'un système informatique, qui a été acheté et installé avec succès plusieurs années auparavant, ne semble pas disposer aujourd'hui d'un marché d'experts suffisamment développé.
+
+Le contrat avec le fournisseur de mise à niveau doit répondre à toutes les exigences nécessaires, y compris les garanties et indemnités et les règles pour identifier la responsabilité des incidents et problèmes potentiels survenant à la suite de la mise à niveau.
+
+D'autre part, les experts externes doivent trouver dans l'organisation une équipe d'experts internes suffisamment forte pour que l'organisation profite de la coopération."/>
+							<tx l="ara" name="استخدم جزء كتيب تدقيق تكنولوجيا المعلومات حول التماس التطوير والاقتناء وكل فصل عن الاستعانة بمصادر خارجية.
+
+راجع مصفوفات التدقيق التالية:
+- طلب التصميم والتحليل
+- سياسة الاستعانة بمصادر خارجية
+- الاستعانة بمصادر خارجية
+- مراقبة البائع أو المقاول
+- مزود الخدمة في الخارج
+- الاحتفاظ بالمعرفة التجارية / ملكية العملية التجارية
+- مراقبة التكاليف وإدارتها
+- النسخ الاحتياطي والتعافي من الكوارث لخدمات الاستعانة بمصادر خارجية
+
+من الصعب تخيل ترقية نظام معقد دون أي مساعدة خارجية. تعد الاستعدادات للترقية اختبارًا جيدًا للاستراتيجيات الحقيقية التي تطبقها المنظمة المدققة على الاستثمار في تكنولوجيا المعلومات والاستعانة بمصادر خارجية. يمكن أن يحدث أحيانًا أن نظام تكنولوجيا المعلومات ، الذي تم شراؤه وتثبيته بنجاح قبل عدة سنوات ، لا يبدو الآن أنه يحتوي على سوق متطور بما فيه الكفاية من الخبراء.
+
+يجب أن يفي العقد مع مزود الترقية بجميع المتطلبات اللازمة ، بما في ذلك الضمانات والتعويضات والقواعد لتحديد المسؤولية عن الحوادث والمشاكل المحتملة التي تحدث نتيجة للترقية.
+
+من ناحية أخرى ، يجب أن يجد الخبراء الخارجيون في المنظمة فريق خبراء داخليًا قويًا بدرجة كافية لجعل المنظمة تستفيد من التعاون."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -459,6 +608,9 @@ Consequences can be financial (e.g. related to vendor dependence) or operational
 		<Area nr="02">
 			<title>
 				<tx l="eng" name="Upgrade Implementation"/>
+				<tx l="spa" name="Implementación de actualización"/>
+				<tx l="fre" name="Mise en œuvre de la mise à niveau"/>
+				<tx l="ara" name="تنفيذ الترقية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -477,6 +629,9 @@ Consequences can be financial (e.g. related to vendor dependence) or operational
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Provider of the upgrade"/>
+					<tx l="spa" name="Proveedor de la actualización"/>
+					<tx l="fre" name="Fournisseur de la mise à niveau"/>
+					<tx l="ara" name="مزود الترقية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -496,36 +651,49 @@ Consequences can be financial (e.g. related to vendor dependence) or operational
 					<Objectives>
 						<obj>
 							<tx l="eng" name="The upgrade operation should be executed successfully by supplying the System with new version of software and/or hardware, and without any damage or modification to significant data"/>
+							<tx l="spa" name="La operación de actualización debe ejecutarse con éxito proporcionando al sistema una nueva versión de software y / o hardware, y sin ningún daño o modificación de datos importantes"/>
+							<tx l="fre" name="L'opération de mise à niveau doit être exécutée avec succès en fournissant au système une nouvelle version du logiciel et/ou du matériel, et sans aucun dommage ou modification des données importantes"/>
+							<tx l="ara" name="يجب تنفيذ عملية الترقية بنجاح من خلال تزويد النظام بإصدار جديد من البرامج و / أو الأجهزة ، وبدون أي تلف أو تعديل للبيانات الهامة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Operation of upgrade</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="the upgrade executed in line with plans, results analysed, the whole operation properly documented"/>
+							<tx l="eng" name="The upgrade executed in line with plans, results analysed, the whole operation properly documented"/>
+							<tx l="spa" name="La actualización ejecutada de acuerdo con los planes, los resultados analizados, toda la operación debidamente documentada"/>
+							<tx l="fre" name="La mise à niveau exécutée conformément aux plans, les résultats analysés, l'ensemble de l'opération correctement documenté"/>
+							<tx l="ara" name="تم تنفيذ الترقية بما يتماشى مع الخطط ، والنتائج التي تم تحليلها ، والعملية بأكملها موثقة بشكل صحيح"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Minutes of the upgrade operation
-
-Review of results
-
-All other documentation related to the upgrade operation
-
-"/>
+							<tx l="eng" name="Minutes of the upgrade operation. Review of results. All other documentation related to the upgrade operation."/>
+							<tx l="spa" name="Acta de la operación de actualización. Revisión de resultados. Toda la demás documentación relacionada con la operación de actualización."/>
+							<tx l="fre" name="Procès-verbal de l'opération de mise à niveau. Examen des résultats. Toute autre documentation relative à l'opération de mise à niveau."/>
+							<tx l="ara" name="دقائق من عملية الترقية. مراجعة النتائج. جميع الوثائق الأخرى المتعلقة بعملية الترقية."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="The documentation should be analysed with special attention to gaps and exceptions. In case of any doubts ,contact the staff and/or external experts who took part in the upgrade operation.
-
 Where the results registered, analysed and compared to the planned parameters? If the results differed from the plans, were any ad hoc corrections executed? Were the issues occurring during the upgrade managed effectively?
-
 In IT Audit Handbook read: IT Operations - Service Level Agreement and Outsourcing – Service Level Agreement.
-
-Review the following exemplary audit matrices:
-IT Operations - Service Management,
-Outsourcing – Service Level Agreement
+Review the following exemplary audit matrices: IT Operations - Service Management, Outsourcing – Service Level Agreement.
+"/>
+							<tx l="spa" name="La documentación debe analizarse con especial atención a las lagunas y excepciones. En caso de dudas, póngase en contacto con el personal y / o expertos externos que participaron en la operación de actualización.
+¿Dónde se registraron, analizaron y compararon los resultados con los parámetros previstos? Si los resultados diferían de los planes, ¿se ejecutaron correcciones ad hoc? ¿Se gestionaron eficazmente los problemas que ocurrieron durante la actualización?
+En el Manual de auditoría de TI, lea: Operaciones de TI - Acuerdo de nivel de servicio y subcontratación - Acuerdo de nivel de servicio.
+Revise las siguientes matrices de auditoría ejemplares: Operaciones de TI - Gestión de servicios, Subcontratación - Acuerdo de nivel de servicio.
+"/>
+							<tx l="fre" name="La documentation doit être analysée avec une attention particulière aux lacunes et aux exceptions. En cas de doute, contactez le personnel et/ou les experts externes qui ont participé à l'opération de mise à niveau.
+Où les résultats enregistrés, analysés et comparés aux paramètres prévus ? Si les résultats différaient des plans, des corrections ad hoc ont-elles été effectuées ? Les problèmes survenus pendant la mise à niveau ont-ils été gérés efficacement ?
+Dans le Manuel d'audit informatique, lisez : Opérations informatiques - Accord sur les niveaux de service et sous-traitance - Accord sur les niveaux de service.
+Examinez les matrices d'audit exemplaires suivantes : Opérations informatiques - Gestion des services, Sous-traitance - Accord de niveau de service.
+"/>
+							<tx l="ara" name="يجب تحليل الوثائق مع إيلاء اهتمام خاص للثغرات والاستثناءات. في حالة وجود أي شكوك ، اتصل بالموظفين و / أو الخبراء الخارجيين الذين شاركوا في عملية الترقية.
+أين تم تسجيل النتائج وتحليلها ومقارنتها بالمعايير المخططة؟ إذا اختلفت النتائج عن الخطط ، فهل تم تنفيذ أي تصحيحات مخصصة؟ هل تم إدارة المشكلات التي حدثت أثناء الترقية بشكل فعال؟
+في كتيب تدقيق تكنولوجيا المعلومات ، اقرأ: عمليات تكنولوجيا المعلومات - اتفاقية مستوى الخدمة والاستعانة بمصادر خارجية - اتفاقية مستوى الخدمة.
+راجع مصفوفات التدقيق النموذجية التالية: عمليات تكنولوجيا المعلومات - إدارة الخدمة ، الاستعانة بمصادر خارجية - اتفاقية مستوى الخدمة.
 "/>
 						</anm>
 					</AnalysisMethod>
@@ -550,6 +718,9 @@ Outsourcing – Service Level Agreement
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Information security"/>
+					<tx l="spa" name="Seguridad de información"/>
+					<tx l="fre" name="Sécurité des informations"/>
+					<tx l="ara" name="أمن المعلومات"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -569,32 +740,46 @@ Outsourcing – Service Level Agreement
 					<Objectives>
 						<obj>
 							<tx l="eng" name="The upgrade operation should be executed successfully by supplying the System with new version of software and/or hardware, and without any damage or modification to significant data"/>
+							<tx l="spa" name="La operación de actualización debe ejecutarse con éxito proporcionando al sistema una nueva versión de software y / o hardware, y sin ningún daño o modificación de datos importantes"/>
+							<tx l="fre" name="L'opération de mise à niveau doit être exécutée avec succès en fournissant au système une nouvelle version du logiciel et/ou du matériel, et sans aucun dommage ou modification des données importantes"/>
+							<tx l="ara" name="يجب تنفيذ عملية الترقية بنجاح من خلال تزويد النظام بإصدار جديد من البرامج و / أو الأجهزة ، وبدون أي تلف أو تعديل للبيانات الهامة"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Information security</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="The organization has a plan on how they identify emerging business or IT needs and the Steering Committee approving requirements has sufficient information to make their decisions."/>
+							<tx l="spa" name="La organización tiene un plan sobre cómo identificar las necesidades del negocio o de TI emergentes y el Comité Directivo que aprueba los requisitos tiene información suficiente para tomar sus decisiones."/>
+							<tx l="fre" name="L'organisation a un plan sur la façon dont elle identifie les nouveaux besoins de l'entreprise ou informatiques et le comité directeur qui approuve les exigences dispose de suffisamment d'informations pour prendre ses décisions."/>
+							<tx l="ara" name="لدى المنظمة خطة حول كيفية تحديد الأعمال الناشئة أو احتياجات تكنولوجيا المعلومات ولدى اللجنة التوجيهية التي توافق على المتطلبات معلومات كافية لاتخاذ قراراتها."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Two reports reflecting the system’s data: pre-upgrade and post-upgrade
-
-List of all discrepancies
-
-Approval or disapproval of the discrepancies"/>
+							<tx l="eng" name="Two reports reflecting the system’s data: pre-upgrade and post-upgrade. List of all discrepancies. Approval or disapproval of the discrepancies."/>
+							<tx l="spa" name="Dos informes que reflejan los datos del sistema: pre-actualización y post-actualización. Lista de todas las discrepancias. Aprobación o desaprobación de las discrepancias."/>
+							<tx l="fre" name="Deux rapports reflétant les données du système : avant et après la mise à niveau. Liste de toutes les divergences. Approbation ou désapprobation des écarts."/>
+							<tx l="ara" name="تقريران يعكسان بيانات النظام: ما قبل الترقية وما بعد الترقية. قائمة بجميع التناقضات. الموافقة على التناقضات أو عدم الموافقة عليها."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="The content of the both data reports depends on nature of the upgraded system. For instance, if it is accounting system you will need at least a list of accounts with balances for the time before the upgrade started and a second list with the same accounts for the time the upgrade was completed.
-
 Check when the reports were prepared and who prepared them. They should be a part of the Upgrade acceptance documentation. If they are prepared for the audit purposes, be present at the process of retrieving them from the system.
-
 Compare the two sets of data – if necessary with help of CAATs. If some discrepancies occurred – they should have be documented directly after the upgrade execution and their causes should have been explained by the upgrade provider. A list of all discrepancies and plan of corrections should be prepared by the provider and approved by the key client (e.g. in case of the Accounting system the Organisation’s main Accountant).
-
 Use IT Audit Handbook part on Application Controls – Output to assess the traceability (Application Security matrix) of any doubtful records.  IT Audit Handbook on Information Security and related audit matrices can be helpful to review policy, organization, access, environment and other fields that may be relevant in case of the audited upgrade."/>
+							<tx l="spa" name="El contenido de ambos informes de datos depende de la naturaleza del sistema actualizado. Por ejemplo, si se trata de un sistema de contabilidad, necesitará al menos una lista de cuentas con saldos para el tiempo antes de que comenzara la actualización y una segunda lista con las mismas cuentas para el momento en que se completó la actualización.
+Compruebe cuándo se prepararon los informes y quién los preparó. Deben formar parte de la documentación de aceptación de la actualización. Si están preparados para fines de auditoría, esté presente en el proceso de recuperación del sistema.
+Compare los dos conjuntos de datos, si es necesario con la ayuda de CAAT. Si se produjeron algunas discrepancias, deberían haberse documentado directamente después de la ejecución de la actualización y el proveedor de la actualización debería haber explicado sus causas. El proveedor debe preparar una lista de todas las discrepancias y un plan de correcciones y el cliente clave debe aprobarlo (por ejemplo, en el caso del sistema de contabilidad, el principal contable de la organización).
+Utilice la parte del Manual de auditoría de TI sobre Controles de aplicación - Salida para evaluar la trazabilidad (matriz de seguridad de la aplicación) de cualquier registro dudoso. El Manual de auditoría de TI sobre seguridad de la información y las matrices de auditoría relacionadas pueden ser útiles para revisar la política, la organización, el acceso, el entorno y otros campos que pueden ser relevantes en el caso de la actualización auditada."/>
+							<tx l="fre" name="Le contenu des deux rapports de données dépend de la nature du système mis à niveau. Par exemple, s'il s'agit d'un système comptable, vous aurez besoin d'au moins une liste de comptes avec les soldes pour la période précédant le début de la mise à niveau et une deuxième liste avec les mêmes comptes au moment où la mise à niveau a été effectuée.
+Vérifiez quand les rapports ont été préparés et qui les a préparés. Ils doivent faire partie de la documentation d'acceptation de la mise à niveau. S'ils sont préparés à des fins d'audit, assistez au processus de récupération du système.
+Comparez les deux ensembles de données – si nécessaire avec l'aide des CAAT. Si des divergences se sont produites, elles auraient dû être documentées directement après l'exécution de la mise à niveau et leurs causes auraient dû être expliquées par le fournisseur de mise à niveau. Une liste de toutes les divergences et un plan de correction doivent être préparés par le fournisseur et approuvés par le client clé (par exemple, dans le cas du système comptable, le comptable principal de l'organisation).
+Utilisez la partie du manuel d'audit informatique sur les contrôles des applications - sortie pour évaluer la traçabilité (matrice de sécurité des applications) de tout enregistrement douteux. Le manuel d'audit informatique sur la sécurité de l'information et les matrices d'audit associées peuvent être utiles pour examiner la politique, l'organisation, l'accès, l'environnement et d'autres domaines qui peuvent être pertinents en cas de mise à niveau auditée."/>
+							<tx l="ara" name="يعتمد محتوى تقريري البيانات على طبيعة النظام الذي تمت ترقيته. على سبيل المثال ، إذا كان نظامًا محاسبيًا ، فستحتاج على الأقل إلى قائمة حسابات بها أرصدة للوقت قبل بدء الترقية وقائمة ثانية بنفس الحسابات لوقت اكتمال الترقية.
+تحقق من وقت إعداد التقارير ومن قام بإعدادها. يجب أن تكون جزءًا من وثائق قبول الترقية. إذا كانت معدة لأغراض التدقيق ، فكن حاضرًا في عملية استرجاعها من النظام.
+قارن بين مجموعتي البيانات - إذا لزم الأمر بمساعدة CAATs. في حالة حدوث بعض التناقضات - يجب توثيقها مباشرة بعد تنفيذ الترقية ويجب أن يشرح موفر الترقية أسبابها. يجب إعداد قائمة بجميع التناقضات وخطة التصحيحات من قبل المزود والموافقة عليها من قبل العميل الرئيسي (على سبيل المثال في حالة نظام المحاسبة المحاسب الرئيسي للمنظمة).
+استخدم جزء كتيب تدقيق تكنولوجيا المعلومات حول ضوابط التطبيق - المخرجات لتقييم إمكانية التتبع (مصفوفة أمان التطبيق) لأي سجلات مشكوك فيها. يمكن أن يكون كتيب تدقيق تكنولوجيا المعلومات حول أمن المعلومات ومصفوفات التدقيق ذات الصلة مفيدًا في مراجعة السياسة والتنظيم والوصول والبيئة والمجالات الأخرى التي قد تكون ذات صلة في حالة الترقية المدققة."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -619,6 +804,9 @@ Use IT Audit Handbook part on Application Controls – Output to assess the trac
 		<Area nr="03">
 			<title>
 				<tx l="eng" name="Post-Upgrade Review"/>
+				<tx l="spa" name="Revisión posterior a la actualización"/>
+				<tx l="fre" name="Examen post-mise à niveau"/>
+				<tx l="ara" name="مراجعة ما بعد الترقية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -637,6 +825,9 @@ Use IT Audit Handbook part on Application Controls – Output to assess the trac
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Incidents and problems"/>
+					<tx l="spa" name="Incidentes y problemas"/>
+					<tx l="fre" name="Incidents et problèmes"/>
+					<tx l="ara" name="الحوادث والمشاكل"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -656,34 +847,50 @@ Use IT Audit Handbook part on Application Controls – Output to assess the trac
 					<Objectives>
 						<obj>
 							<tx l="eng" name="The upgrade operation should be reviewed and analysed in terms of cost-effectiveness, security and IT Strategy"/>
+							<tx l="spa" name="La operación de actualización debe revisarse y analizarse en términos de rentabilidad, seguridad y estrategia de TI"/>
+							<tx l="fre" name="L'opération de mise à niveau doit être revue et analysée en termes de rentabilité, de sécurité et de stratégie informatique"/>
+							<tx l="ara" name="يجب مراجعة عملية الترقية وتحليلها من حيث الفعالية من حيث التكلفة والأمن واستراتيجية تكنولوجيا المعلومات"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Incidents and problems</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="All issues registered and treated appropriately depending on weight of matter and risks"/>
+							<tx l="spa" name="Todos los problemas registrados y tratados de manera adecuada según el peso del asunto y los riesgos"/>
+							<tx l="fre" name="Toutes les questions enregistrées et traitées de manière appropriée en fonction du poids de la matière et des risques"/>
+							<tx l="ara" name="يتم تسجيل جميع القضايا ومعالجتها بشكل مناسب حسب وزن المادة والمخاطر"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Minutes of the upgrade operation
-
-Incidents/problems register
-
-Signals from users"/>
+							<tx l="eng" name="Minutes of the upgrade operation. Incidents/problems register. Signals from users."/>
+							<tx l="spa" name="Actas de la operación de actualización. Registro de incidencias / problemas. Señales de los usuarios."/>
+							<tx l="fre" name="Procès-verbal de l'opération de mise à niveau. Registre des incidents/problèmes. Signaux des utilisateurs."/>
+							<tx l="ara" name="دقائق من عملية الترقية. تسجيل الحوادث / المشاكل. إشارات من المستخدمين."/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="Many incidents and problems will usually be noticed after the upgrade operation, when administrators and users perform their tasks with support of the modified system. They can also emerge after the upgrade because some of the functionalities or system parameters changed and the users or administrators were not trained effectively.
-
 Use IT Audit Handbook part on IT Operations – Problem and Incident Management and IT Operations – Change Management. The audit matrices under the same titles can be helpful too.
-
 The incidents which emerged in relation to the upgrade should have been registered and solved or if their scale is larger, classified as problems and escalated to the change management process.
-
 The list of problems should be discussed with the upgrade provider, who should prepare solutions agenda. The key client should accept this approach. In case of lack of agreement in this regard, legal steps should be taken by the Organisation to receive compensation.
-
-If the upgrade was unsuccessful, were the data restored and functions of the system restarted? In case of the most serious problems the Business Continuity may be at risk. The organisation’s approach to the BCP/DRP, like policies, structures, trainings may then have vital significance. The audit matrices on Organisation of Business Continuity Function, Security may be helpful.."/>
+If the upgrade was unsuccessful, were the data restored and functions of the system restarted? In case of the most serious problems the Business Continuity may be at risk. The organisation’s approach to the BCP/DRP, like policies, structures, trainings may then have vital significance. The audit matrices on Organisation of Business Continuity Function, Security may be helpful."/>
+							<tx l="spa" name="Por lo general, muchos incidentes y problemas se notarán después de la operación de actualización, cuando los administradores y usuarios realizan sus tareas con soporte del sistema modificado. También pueden surgir después de la actualización porque algunas de las funcionalidades o parámetros del sistema cambiaron y los usuarios o administradores no fueron capacitados de manera efectiva.
+Utilice la parte del Manual de auditoría de TI sobre Operaciones de TI - Gestión de problemas e incidentes y Operaciones de TI - Gestión de cambios. Las matrices de auditoría bajo los mismos títulos también pueden ser útiles.
+Los incidentes que surgieron en relación con la actualización deberían haberse registrado y resuelto o, si su escala es mayor, clasificarse como problemas y escalarse al proceso de gestión de cambios.
+La lista de problemas debe discutirse con el proveedor de actualizaciones, quien debe preparar la agenda de soluciones. El cliente clave debe aceptar este enfoque. En caso de falta de acuerdo al respecto, la Organización debe tomar las medidas legales necesarias para recibir una indemnización.
+Si la actualización no tuvo éxito, ¿se restauraron los datos y se reiniciaron las funciones del sistema? En el caso de los problemas más graves, la Continuidad del Negocio puede estar en riesgo. El enfoque de la organización hacia el Plan de Continuidad del Negocio / Plan de Recuperación ante Desastres, como políticas, estructuras, capacitaciones, puede entonces tener una importancia vital. Las matrices de auditoría sobre Organización de la función de continuidad del negocio, Seguridad pueden resultar útiles."/>
+							<tx l="fre" name="De nombreux incidents et problèmes sont généralement constatés après l'opération de mise à niveau, lorsque les administrateurs et les utilisateurs effectuent leurs tâches avec le support du système modifié. Ils peuvent également apparaître après la mise à niveau car certaines fonctionnalités ou paramètres système ont changé et les utilisateurs ou administrateurs n'ont pas été formés efficacement.
+Utilisez la partie du manuel d'audit informatique sur les opérations informatiques - gestion des problèmes et des incidents et les opérations informatiques - gestion du changement. Les matrices d'audit sous les mêmes titres peuvent également être utiles.
+Les incidents survenus en relation avec la mise à niveau doivent avoir été enregistrés et résolus ou, si leur ampleur est plus importante, classés comme problèmes et transmis au processus de gestion du changement.
+La liste des problèmes doit être discutée avec le fournisseur de mise à niveau, qui doit préparer l'agenda des solutions. Le client clé doit accepter cette approche. En cas d'absence d'accord à cet égard, des démarches juridiques devraient être entreprises par l'Organisation pour obtenir une indemnisation.
+Si la mise à niveau a échoué, les données ont-elles été restaurées et les fonctions du système redémarrées ? En cas de problèmes les plus graves, la continuité des activités peut être menacée. L'approche de l'organisation au plan de continuité des activités/plan de reprise après sinistre, comme les politiques, les structures et les formations, peut alors avoir une importance vitale. Les matrices d'audit sur l'organisation de la fonction de continuité des activités, la sécurité peuvent être utiles."/>
+							<tx l="ara" name="عادة ما يتم ملاحظة العديد من الحوادث والمشكلات بعد عملية الترقية ، عندما يقوم المسؤولون والمستخدمون بأداء مهامهم بدعم من النظام المعدل. يمكن أن تظهر أيضًا بعد الترقية لأن بعض الوظائف أو معلمات النظام قد تغيرت ولم يتم تدريب المستخدمين أو المسؤولين بشكل فعال.
+استخدام جزء كتيب تدقيق تكنولوجيا المعلومات في عمليات تكنولوجيا المعلومات - إدارة المشاكل والحوادث وعمليات تكنولوجيا المعلومات - إدارة التغيير. يمكن أن تكون مصفوفات التدقيق الموجودة تحت نفس العناوين مفيدة أيضًا.
+كان يجب تسجيل الحوادث التي ظهرت فيما يتعلق بالترقية وحلها أو إذا كان حجمها أكبر ، وتصنيفها على أنها مشاكل وتصعيدها إلى عملية إدارة التغيير.
+يجب مناقشة قائمة المشاكل مع موفر الترقية ، الذي يجب أن يعد أجندة الحلول. يجب على العميل الرئيسي قبول هذا النهج. في حالة عدم الاتفاق في هذا الصدد ، يجب اتخاذ الإجراءات القانونية من قبل المنظمة للحصول على التعويض.
+إذا لم تنجح الترقية ، فهل تمت استعادة البيانات وإعادة تشغيل وظائف النظام؟ في حالة وجود أخطر المشاكل ، قد تكون استمرارية العمل في خطر. قد يكون لنهج المنظمة في خطة استمرارية الأعمال / خطة التعافي من الكوارث ، مثل السياسات والهياكل والدورات التدريبية ، أهمية حيوية. قد تكون مصفوفات التدقيق الخاصة بوظيفة تنظيم استمرارية الأعمال والأمن مفيدة."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>
@@ -707,6 +914,9 @@ If the upgrade was unsuccessful, were the data restored and functions of the sys
 			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Upgrade report"/>
+					<tx l="spa" name="Informe de actualización"/>
+					<tx l="fre" name="Rapport de mise à niveau"/>
+					<tx l="ara" name="تقرير الترقية"/>
 				</title>
 				<Narrative>
 					<narr l="eng">
@@ -726,30 +936,46 @@ If the upgrade was unsuccessful, were the data restored and functions of the sys
 					<Objectives>
 						<obj>
 							<tx l="eng" name="The upgrade operation should be reviewed and analysed in terms of cost-effectiveness, security and IT Strategy"/>
+							<tx l="spa" name="La operación de actualización debe revisarse y analizarse en términos de rentabilidad, seguridad y estrategia de TI"/>
+							<tx l="fre" name="L'opération de mise à niveau doit être revue et analysée en termes de rentabilité, de sécurité et de stratégie informatique"/>
+							<tx l="ara" name="يجب مراجعة عملية الترقية وتحليلها من حيث الفعالية من حيث التكلفة والأمن واستراتيجية تكنولوجيا المعلومات"/>
 						</obj>
 					</Objectives>
 					<AuditIssue>Upgrade report</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="the upgrade should be reliably reported and formally documented"/>
+							<tx l="spa" name="la actualización debe informarse de manera confiable y documentarse formalmente"/>
+							<tx l="fre" name="la mise à niveau doit être signalée de manière fiable et documentée formellement"/>
+							<tx l="ara" name="يجب الإبلاغ عن الترقية بشكل موثوق وتوثيقها رسميًا"/>
 						</cri>
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Upgrade report
-
-Documents related to lessons learnt and recommendations"/>
+							<tx l="eng" name="Upgrade report. Documents related to lessons learnt and recommendations"/>
+							<tx l="eng" name="Informe de actualización. Documentos relacionados con lecciones aprendidas y recomendaciones"/>
+							<tx l="eng" name="Rapport de mise à niveau. Documents relatifs aux enseignements tirés et recommandations"/>
+							<tx l="eng" name="تقرير الترقية. الوثائق المتعلقة بالدروس المستفادة والتوصيات"/>
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
 							<tx l="eng" name="The report should be analysed with special attention concerned to its completeness and reliability – especially in case when the data comparison (see above) results in list of discrepancies.
-
 This should be a formal document clearly stating that the key client accepts work done by the provider as a whole or in an unambiguously defined scope. All interested parties should sign the document or provide their opinion in other way. 
-
 Pay special attention to financial part compared to calendar and parameters reached.
-
-The report may be accompanied with internal documents containing list of meaningful lessons learnt, issues to be solved, recommendations and follow-up instructions. For instance, complexity and cost of the operation, interoperability issues, or availability of external experts can influence the Organization IT investment strategy. "/>
+The report may be accompanied with internal documents containing list of meaningful lessons learnt, issues to be solved, recommendations and follow-up instructions. For instance, complexity and cost of the operation, interoperability issues, or availability of external experts can influence the Organization IT investment strategy."/>
+							<tx l="spa" name="El informe debe analizarse con especial atención a su integridad y confiabilidad, especialmente en caso de que la comparación de datos (ver arriba) dé como resultado una lista de discrepancias.
+Este debe ser un documento formal que indique claramente que el cliente clave acepta el trabajo realizado por el proveedor en su totalidad o en un alcance definido sin ambigüedades. Todas las partes interesadas deberán firmar el documento o dar su opinión de otra forma.
+Preste especial atención a la parte financiera en comparación con el calendario y los parámetros alcanzados.
+El informe puede ir acompañado de documentos internos que contengan una lista de lecciones significativas aprendidas, problemas por resolver, recomendaciones e instrucciones de seguimiento. Por ejemplo, la complejidad y el costo de la operación, los problemas de interoperabilidad o la disponibilidad de expertos externos pueden influir en la estrategia de inversión en TI de la organización."/>
+							<tx l="fre" name="Le rapport doit être analysé en portant une attention particulière à son exhaustivité et à sa fiabilité, en particulier dans le cas où la comparaison des données (voir ci-dessus) aboutit à une liste de divergences.
+Il doit s'agir d'un document formel indiquant clairement que le client clé accepte le travail effectué par le fournisseur dans son ensemble ou dans un cadre défini sans ambiguïté. Toutes les parties intéressées doivent signer le document ou donner leur avis d'une autre manière.
+Portez une attention particulière à la partie financière par rapport au calendrier et aux paramètres atteints.
+Le rapport peut être accompagné de documents internes contenant une liste des leçons apprises significatives, des problèmes à résoudre, des recommandations et des instructions de suivi. Par exemple, la complexité et le coût de l'opération, les problèmes d'interopérabilité ou la disponibilité d'experts externes peuvent influencer la stratégie d'investissement informatique de l'organisation."/>
+							<tx l="ara" name="يجب تحليل التقرير باهتمام خاص مع مراعاة اكتماله وموثوقيته - لا سيما في حالة عندما تؤدي مقارنة البيانات (انظر أعلاه) إلى قائمة من التناقضات.
+يجب أن يكون هذا مستندًا رسميًا ينص بوضوح على أن العميل الرئيسي يقبل العمل الذي يقوم به المزود ككل أو في نطاق محدد بشكل لا لبس فيه. يجب على جميع الأطراف المعنية التوقيع على الوثيقة أو إبداء رأيهم بطريقة أخرى.
+انتبه بشكل خاص للجزء المالي مقارنة بالتقويم والمعلمات التي تم الوصول إليها.
+قد يكون التقرير مصحوبًا بوثائق داخلية تحتوي على قائمة بالدروس المفيدة المستفادة ، والقضايا التي يتعين حلها ، والتوصيات وتعليمات المتابعة. على سبيل المثال ، يمكن أن يؤثر تعقيد العملية وتكلفتها ، أو مشكلات قابلية التشغيل البيني ، أو توافر خبراء خارجيين على استراتيجية الاستثمار في تكنولوجيا المعلومات الخاصة بالمنظمة."/>
 						</anm>
 					</AnalysisMethod>
 					<foundPreviously>

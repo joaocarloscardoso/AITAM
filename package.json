@@ -35,7 +35,7 @@
     "popoto": "^2.0.18",
     "sentiment": "^5.0.2",
     "session-file-store": "^1.5.0",
-    "stopword": "^1.0.10",
+    "stopword": "^1.0.11",
     "sweetalert": "^2.1.2",
     "underscore": "^1.13.1",
     "uuid": "^8.3.2",
