@@ -103,7 +103,7 @@ auditrec.get('/deleteauditrec/:auditrecId',function(req,res){
             operation: 'audit_recommendations',
             AuditErrors: '',
             reccatalog: reccatalog,
-            msg: 'Selected audit recommendation deleted!',
+            msg: appObjects.messages.recommendation_deleted,
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,

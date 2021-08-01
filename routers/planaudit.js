@@ -160,7 +160,7 @@ planaudit.get('/syncauditplanning',function(req,res){
             operation: 'audit_plan',
             AuditErrors: '',
             plancatalog: plancatalog,
-            msg: 'Sync with A2.02 matrix (“02 Understanding the IT-systems”) completed!',
+            msg: appObjects.messages.audit_sync_preassessment,
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,

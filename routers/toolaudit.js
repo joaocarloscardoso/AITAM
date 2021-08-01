@@ -210,17 +210,17 @@ tooleaudit.post('/tooleditaudit', function(req, res){
         {
             coreVersion= InitialAudit.GetCoreVersion(AuditFile).substring(0, 4);
         }
-            
+
+        var appObjects = appLang.GetData(req.session.lang);
+        
         var user = commonF.GetUser(req);
         if (Number(coreVersion) < 2021) {
             //set chosen working language to english
             req.session.lang = credentials.WorkLang;
-            langMessage = ' The audit file loaded belongs to an early version of AITAM. To ensure compatibility, working language will switch automatically to english!'
+            langMessage = appObjects.messages.audit_file_version;
         } else {
             req.session.lang = commonF.GetLang(req);
         }
-
-        var appObjects = appLang.GetData(req.session.lang);
 
         if(err) { 
             log.warn('Error loading file from user ' + req.session.passport.user +'!');
@@ -388,7 +388,7 @@ tooleaudit.post('/toolauditplugins', function(req, res){
                 operation: 'audit_plugins',
                 AuditErrors: '',
                 catalog: PluginsCatalog,
-                msg: 'Audit saved successfuly! Use "Download" command under "Audit" menu to get the file.',
+                msg: appObjects.messages.audit_edit_save,
                 auditfile: 'work/' + req.sessionID + '.xml',
                 audit: status,
                 rectracking: credentials.portfolio,

@@ -7,6 +7,7 @@
 			<tx l="fre" name="Mise à niveau du système informatique de gestion financière"/>
 			<tx l="ara" name="ترقية نظام تكنولوجيا المعلومات للإدارة المالية"/>
 		</title>
+		<WorkingLanguage wl="eng spa fre ara"/>
 		<Narrative>
 			<narr l="eng">
 				<ak/>
@@ -21,7 +22,6 @@
 				<ak/>
 			</narr>
 		</Narrative>
-		<WorkingLanguage wl="eng spa fre ara"/>
 	</About>
 	<Domain nr="03">
 		<title>

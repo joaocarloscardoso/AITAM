@@ -1,5 +1,16 @@
 {
-	"messages":{},
+	"messages":{
+		"mail_adress":"Invalid email!",
+		"mail_name":"Name must be at least 3 chars long!",
+		"mail_message":"Message must be at least 3 chars long!",
+		"audit_file_version":"The audit file loaded belongs to an early version of AITAM. To ensure compatibility, working language will switch automatically to english!",
+		"audit_edit_save":"Audit saved successfuly! Use Download command under Audit menu to get the file.",
+		"audit_sync_preassessment":"Sync with A2.02 matrix (“02 Understanding the IT-systems”) completed!",
+		"audit_portfolio_dettach":"Selected audit was successfully dettached!",
+		"audit_portfolio_attach":"Selected audit was attached to portfolio!",
+		"finding_deleted":"Selected finding deleted!",
+		"recommendation_deleted":"Selected audit recommendation deleted!"
+	},
 	"pageNavigation":{
 		"home": "Home",
 		"audit": {

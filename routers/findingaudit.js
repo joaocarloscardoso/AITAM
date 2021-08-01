@@ -157,7 +157,7 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
             operation: 'audit_findings',
             AuditErrors: '',
             findingcatalog: findingscatalog,
-            msg: 'Selected finding deleted!',
+            msg: appObjects.messages.finding_deleted,
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
             rectracking: credentials.portfolio,
