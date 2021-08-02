@@ -1,15 +1,15 @@
 {
 	"messages":{
-		"mail_adress":"Invalid email!",
-		"mail_name":"Name must be at least 3 chars long!",
-		"mail_message":"Message must be at least 3 chars long!",
-		"audit_file_version":"The audit file loaded belongs to an early version of AITAM. To ensure compatibility, working language will switch automatically to english!",
-		"audit_edit_save":"Audit saved successfuly! Use Download command under Audit menu to get the file.",
-		"audit_sync_preassessment":"Sync with A2.02 matrix (“02 Understanding the IT-systems”) completed!",
-		"audit_portfolio_dettach":"Selected audit was successfully dettached!",
-		"audit_portfolio_attach":"Selected audit was attached to portfolio!",
-		"finding_deleted":"Selected finding deleted!",
-		"recommendation_deleted":"Selected audit recommendation deleted!"
+		"mail_adress":"Email invalide!",
+		"mail_name":"Le nom doit comporter au moins 3 caractères !",
+		"mail_message":"Le message doit comporter au moins 3 caractères !",
+		"audit_file_version":"Le fichier d'audit chargé appartient à une ancienne version d'AITAM. Pour assurer la compatibilité, la langue de travail passera automatiquement à l'anglais!",
+		"audit_edit_save":"Audit enregistré avec succès ! Utilisez la commande Télécharger sous le menu Audit pour obtenir le fichier.",
+		"audit_sync_preassessment":"Synchronisation avec la matrice A2.02 (02 Comprendre les systèmes informatiques) terminée !",
+		"audit_portfolio_dettach":"L'audit sélectionné a été détaché avec succès!",
+		"audit_portfolio_attach":"L'audit sélectionné a été joint au portefeuille !",
+		"finding_deleted":"Le résultat sélectionné a été supprimé!",
+		"recommendation_deleted":"La recommandation d'audit sélectionnée a été supprimée !"
 	},
 	"pageNavigation":{
 		"home": "Accueil ",

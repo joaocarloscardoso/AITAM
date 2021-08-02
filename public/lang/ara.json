@@ -1,15 +1,15 @@
 {
 	"messages":{		
-		"mail_adress":"Invalid email!",
-		"mail_name":"Name must be at least 3 chars long!",
-		"mail_message":"Message must be at least 3 chars long!",
-		"audit_file_version":"The audit file loaded belongs to an early version of AITAM. To ensure compatibility, working language will switch automatically to english!",
-		"audit_edit_save":"Audit saved successfuly! Use Download command under Audit menu to get the file.",
-		"audit_sync_preassessment":"Sync with A2.02 matrix (“02 Understanding the IT-systems”) completed!",
-		"audit_portfolio_dettach":"Selected audit was successfully dettached!",
-		"audit_portfolio_attach":"Selected audit was attached to portfolio!",
-		"finding_deleted":"Selected finding deleted!",
-		"recommendation_deleted":"Selected audit recommendation deleted!"
+		"mail_adress":"بريد إلكتروني خاطئ!",
+		"mail_name":"يجب أن يكون الاسم 3 أحرف على الأقل!",
+		"mail_message":"يجب أن يكون طول الرسالة 3 أحرف على الأقل!",
+		"audit_file_version":"ينتمي ملف التدقيق الذي تم تحميله إلى إصدار مبكر من AITAM. لضمان التوافق ، ستتحول لغة العمل تلقائيًا إلى اللغة الإنجليزية!",
+		"audit_edit_save":"تم حفظ التدقيق بنجاح! استخدم أمر التنزيل ضمن قائمة التدقيق للحصول على الملف.",
+		"audit_sync_preassessment":"اكتملت المزامنة مع مصفوفة A2.02 (02 فهم أنظمة تكنولوجيا المعلومات)!",
+		"audit_portfolio_dettach":"تم فصل التدقيق المحدد بنجاح!",
+		"audit_portfolio_attach":"تم إرفاق التدقيق المختار بالمحفظة!",
+		"finding_deleted":"تم حذف النتائج المختارة!",
+		"recommendation_deleted":"تم حذف توصية التدقيق المختارة!"
 	},
 	"pageNavigation":{
 		"home": "الصفحة الرئيسية",
