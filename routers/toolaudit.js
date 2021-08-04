@@ -128,6 +128,51 @@ tooleaudit.get('/toolauditplugins',function(req,res){
     }
 });
 
+tooleaudit.get('/toolauditline',function(req,res){
+    //res.send('Hello e-gov');
+    //res.json(persons);
+    var NewAuditFile = credentials.WorkSetPath;
+    NewAuditFile = NewAuditFile + req.sessionID + '.xml';
+    var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
+    var status = InitialAudit.VerifyAuditFile(NewAuditFile);
+
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
+    var appObjects = appLang.GetData(req.session.lang);
+
+    if (status) {
+        //change to get interactions info
+        var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile, req.session.lang);
+        res.render('toolaudit/toolwork', {
+            action: 'audit',
+            operation: 'audit_line',
+            AuditErrors: '',
+            catalog: PluginsCatalog,
+            msg: '',
+            auditfile: 'work/' + req.sessionID + '.xml',
+            audit: status,
+            rectracking: credentials.portfolio,
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
+        });
+    } else {
+        res.render('login/login', {
+            action: 'login',
+            //persons: persons,
+            auditfile: '',
+            audit: status,
+            rectracking: credentials.portfolio,
+            user: '',
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
+        });
+    }
+});
+
 tooleaudit.get('/auditstatistics',function(req,res){
     //res.send('Hello e-gov');
     //res.json(persons);

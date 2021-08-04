@@ -122,6 +122,9 @@
 			"auditBackground":"Antecedentes de la auditoría",
 			"auditScope":"Alcance de auditoría"
 		},
+		"timeline" : {
+			"pageTitle": "Línea de interacciones de la auditoría"
+		},
 		"plugins" : {
 			"pageTitle": "Complementos disponibles para usar en la auditoría",
 			"nopluginsMsg": "¡No hay complementos disponibles!",

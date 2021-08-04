@@ -122,6 +122,9 @@
 			"auditBackground":"Contexte de l'audit",
 			"auditScope":"Étendue de l'audit"
 		},
+		"timeline" : {
+			"pageTitle": "Ligne d'interactions de l'audit"
+		},
 		"plugins" : {
 			"pageTitle": "Plug-ins disponibles pour une utilisation dans l'audit",
 			"nopluginsMsg": "Aucun plug-in disponible!",

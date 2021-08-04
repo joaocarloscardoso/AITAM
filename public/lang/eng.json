@@ -122,6 +122,9 @@
 			"auditBackground":"Audit background",
 			"auditScope":"Audit scope"
 		},
+		"timeline" : {
+			"pageTitle": "Audit line interactions"
+		},
 		"plugins" : {
 			"pageTitle": "Plug-ins available to use in audit",
 			"nopluginsMsg": "No Plug-Ins available!",
