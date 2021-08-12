@@ -142,13 +142,13 @@ tooleaudit.get('/toolauditline',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        //change to get interactions info
-        var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile, req.session.lang);
+        //change to get interactions info : statisticsService
+        var TimeLineCatalog = statisticsService.GetTimelineStatus(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',
             operation: 'audit_line',
             AuditErrors: '',
-            catalog: PluginsCatalog,
+            catalog: TimeLineCatalog,
             msg: '',
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
