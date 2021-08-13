@@ -15,6 +15,7 @@
 		"home": "Accueil ",
 		"audit": {
 			"menu_title":"L'audit",
+			"timeline": "Ligne d'interactions de l'audit",
 			"reference": "Référence",
 			"plug_ins":"Plug-ins",
 			"preliminary": "Activités préliminaires",
@@ -123,7 +124,24 @@
 			"auditScope":"Étendue de l'audit"
 		},
 		"timeline" : {
-			"pageTitle": "Ligne d'interactions de l'audit"
+			"pageTitle": "Ligne d'interactions de l'audit",
+			"referenceFilled":"Informations de référence d'audit enregistrées !",
+			"referencePartialFilled":"Informations de référence d'audit partiellement enregistrées !",
+			"referenceNotFilled":"Informations de référence d'audit non enregistrées !",
+			"pluginsSelected":" plugins sélectionnés !",
+			"pluginsNotSelected":"Aucun plugin sélectionné !",
+			"preassessmentFilled":"Informations des activités préliminaires enregistrées!",
+			"preassessmentNotFilled":"Informations des activités préliminaires non enregistrées!",
+			"planFilled":"Les informations sur la planification sont enregistrées!",
+			"planNotFilled":"Les informations sur la planification ne sont pas enregistrées!",
+			"findingsRegistered":" constatations de l'audit enregistrées !",
+			"recommendationsRegistered":" recommandations d'audit enregistrées !",
+			"reference": "Référence de l'audit",
+			"plugins": "Plug-ins disponible",
+			"preassessment": "Activités préliminaires",
+			"plan": "Planification de l'audit",
+			"findings": "Constatations de l'audit",
+			"recommendations": "Recommandations d'audit"
 		},
 		"plugins" : {
 			"pageTitle": "Plug-ins disponibles pour une utilisation dans l'audit",

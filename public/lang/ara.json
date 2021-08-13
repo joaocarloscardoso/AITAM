@@ -15,6 +15,7 @@
 		"home": "الصفحة الرئيسية",
 		"audit": {
 			"menu_title":"التدقيق",
+			"timeline": "خط تفاعلات المراجعة",
 			"reference": "المرجعي",
 			"plug_ins":"المكونات الإضافية",
 			"preliminary": "الأنشطة الأولية",
@@ -123,7 +124,24 @@
 			"auditScope":"نطاق التدقيق"
 		},
 		"timeline" : {
-			"pageTitle": "خط تفاعلات المراجعة"
+			"pageTitle": "خط تفاعلات المراجعة",
+			"referenceFilled":"تم ملء المعلومات المرجعية لمراجعة الحسابات!",
+			"referencePartialFilled":"تم ملء معلومات مرجعية المراجعة جزئيًا!",
+			"referenceNotFilled":"معلومات مرجعية المراجعة غير مسجلة!",
+			"pluginsSelected":"لم يتم تحديد مكونات إضافية!",
+			"pluginsNotSelected":"لم يتم تحديد مكونات إضافية!",
+			"preassessmentFilled":"معلومات حول الأنشطة الأولية المسجلة!",
+			"preassessmentNotFilled":"معلومات حول الأنشطة الأولية غير مسجلة!",
+			"planFilled":"معلومات حول سجل التخطيط!",
+			"planNotFilled":"لم يتم تسجيل المعلومات حول التخطيط!",
+			"findingsRegistered":" نتائج التدقيق مسجلة!",
+			"recommendationsRegistered":" توصيات التدقيق مسجلة!",
+			"reference": "مرجع المراجعة",
+			"plugins": "المكونات الإضافية المتاحة",
+			"preassessment": "الأنشطة الأولية",
+			"plan": "التخطيط للتدقيق",
+			"findings": "النتائج في المراجعة",
+			"recommendations": "توصيات المراجعة"
 		},
 		"plugins" : {
 			"pageTitle": "المكونات الإضافية المتاحة للاستخدام في التدقيق",

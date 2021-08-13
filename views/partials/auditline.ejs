@@ -7,61 +7,91 @@
                     <li>
                         <div class="content">
                             <h3></h3>
-                            <p><img src="../images/medium-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;Audit reference information partially filled!</p>
+                            <% if (catalog.reference == "notFilled") { %>
+                                <p><img src="../images/high-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referenceNotFilled %></p>
+                            <% } %>
+                            <% if (catalog.reference == "partial") { %>
+                                <p><img src="../images/medium-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referencePartialFilled %></p>
+                            <% } %>
+                            <% if (catalog.reference == "filled") { %>
+                                <p><img src="../images/include-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referenceFilled %></p>
+                            <% } %>
                         </div>
                         <div class="point"></div>
                         <div class="date">
-                            <h4>Reference</h4>
+                            <h4><%=appAudit.timeline.reference %></h4>
                         </div>
                     </li>
                     <li>
                         <div class="content">
                             <h3></h3>
-                            <p><img src="../images/info-32a.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;No plugins selected!</p>
+                            <p><img src="../images/info-32a.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;
+                            <% if (catalog.plugins == "0") { %>
+                                <%=appAudit.timeline.pluginsNotSelected %>
+                            <% } else { %>
+                                <%=catalog.plugins %>&nbsp;<%=appAudit.timeline.pluginsSelected %>
+                            <% } %>
+                            </p>
                         </div>
                         <div class="point"></div>
                         <div class="date">
-                            <h4>Plugins</h4>
+                            <h4><%=appAudit.timeline.plugins %></h4>
                         </div>
                     </li>
                     <li>
                         <div class="content">
                             <h3></h3>
-                            <p><img src="../images/high-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;Pre-assessment information not filled!</p>
+                            <% if (catalog.preassement == "notFilled") { %>
+                                <p><img src="../images/high-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.preassessmentNotFilled %></p>
+                            <% } else { %>
+                                <p><img src="../images/include-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.preassessmentFilled %></p>
+                            <% } %>
                         </div>
                         <div class="point"></div>
                         <div class="date">
-                            <h4>Preassessment</h4>
+                            <h4><%=appAudit.timeline.preassessment %></h4>
                         </div>
                     </li>
                     <li>
                         <div class="content">
                             <h3></h3>
-                            <p><img src="../images/include-24b.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;Risk evaluation and information selected for audit!</p>
+                            <% if (catalog.plan == "notFilled") { %>
+                                <p><img src="../images/high-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.planNotFilled %></p>
+                            <% } else { %>
+                                <p><img src="../images/include-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.planFilled %></p>
+                            <% } %>
                         </div>
                         <div class="point"></div>
                         <div class="date">
-                            <h4>Planning</h4>
+                            <h4><%=appAudit.timeline.plan %></h4>
                         </div>
                     </li>
                     <li>
                         <div class="content">
                             <h3></h3>
-                            <p><img src="../images/include-24b.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;10 Findings registered!</p>
+                            <% if (catalog.findings == "0") { %>
+                                <p><img src="../images/high-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/><%=catalog.findings %>&nbsp;<%=appAudit.timeline.findingsRegistered %></p>
+                            <% } else { %>
+                                <p><img src="../images/include-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/><%=catalog.findings %>&nbsp;<%=appAudit.timeline.findingsRegistered %></p>
+                            <% } %>
                         </div>
                         <div class="point"></div>
                         <div class="date">
-                            <h4>Findings</h4>
+                            <h4><%=appAudit.timeline.findings %></h4>
                         </div>
                     </li>
                     <li>
                         <div class="content">
                             <h3></h3>
-                            <p><img src="../images/include-24b.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;10 recommendations registered!</p>
+                            <% if (catalog.recommendations == "0") { %>
+                                <p><img src="../images/high-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/><%=catalog.recommendations %>&nbsp;<%=appAudit.timeline.recommendationsRegistered %></p>
+                            <% } else { %>
+                                <p><img src="../images/include-24.png" alt="" style="vertical-align: text-bottom; display: inline-block;"/><%=catalog.recommendations %>&nbsp;<%=appAudit.timeline.recommendationsRegistered %></p>
+                            <% } %>
                         </div>
                         <div class="point"></div>
                         <div class="date">
-                            <h4>Recommendations</h4>
+                            <h4><%=appAudit.timeline.recommendations %></h4>
                         </div>
                     </li>
                 </ul>

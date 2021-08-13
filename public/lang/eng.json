@@ -15,6 +15,7 @@
 		"home": "Home",
 		"audit": {
 			"menu_title":"The audit",
+			"timeline": "Audit line interactions",
 			"reference": "Reference",
 			"plug_ins":"Plug-ins",
 			"preliminary": "Preliminary activities",
@@ -123,7 +124,24 @@
 			"auditScope":"Audit scope"
 		},
 		"timeline" : {
-			"pageTitle": "Audit line interactions"
+			"pageTitle": "Audit line interactions",
+			"referenceFilled":"Audit reference information filled!",
+			"referencePartialFilled":"Audit reference information partially filled!",
+			"referenceNotFilled":"Audit reference information not filled!",
+			"pluginsSelected":" plugins selected!",
+			"pluginsNotSelected":"No plugins selected!",
+			"preassessmentFilled":"Pre-assessment information filled!",
+			"preassessmentNotFilled":"Pre-assessment information not filled!",
+			"planFilled":"Planning information filled!",
+			"planNotFilled":"Planning information not filled!",
+			"findingsRegistered":" findings registered!",
+			"recommendationsRegistered":" recommendations registered!",
+			"reference": "Audit Reference",
+			"plugins": "Plug-ins available",
+			"preassessment": "Preliminary activities",
+			"plan": "Planning the audit",
+			"findings": "Findings in audit",
+			"recommendations": "Audit recommendations"
 		},
 		"plugins" : {
 			"pageTitle": "Plug-ins available to use in audit",
