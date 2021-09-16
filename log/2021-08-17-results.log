@@ -27,3 +27,15 @@
 {"message":"404 - Not Found","level":"\u001b[33mwarn\u001b[39m","timestamp":"2021-08-17 08:19:58"}
 {"message":"404 - Not Found","level":"\u001b[33mwarn\u001b[39m","timestamp":"2021-08-17 08:20:05"}
 {"message":"Session created received the id:4b0b23cf-f7b2-468b-9459-35ce11193e69","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 08:26:51"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 10:29:14"}
+{"message":"Session created received the id:d79bf238-84c6-4960-898f-fabdad675dd8","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 10:34:31"}
+{"message":"Session created received the id:d79bf238-84c6-4960-898f-fabdad675dd8","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 10:34:32"}
+{"message":"404 - Not Found","level":"\u001b[33mwarn\u001b[39m","timestamp":"2021-08-17 10:34:33"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 10:35:17"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 10:35:28"}
+{"message":"req.user: undefined","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 10:35:44"}
+{"message":"Session id started: {\"user\":\"2f24vvg\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 10:35:44"}
+{"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 10:35:44"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\d79bf238-84c6-4960-898f-fabdad675dd8.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 10:35:48"}
+{"message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\d79bf238-84c6-4960-898f-fabdad675dd8.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2021-08-17T10:36:50.884Z\"}}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 10:36:51"}
+{"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\d79bf238-84c6-4960-898f-fabdad675dd8.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-08-17 10:39:30"}

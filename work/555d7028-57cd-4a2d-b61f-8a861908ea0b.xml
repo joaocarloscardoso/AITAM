@@ -1,4 +1,864 @@
-<ActiveITAuditDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<Audit><About id="" descriptionfile=""><version id="1.0" name=""/><title><tx l="eng" name="" rem=""/></title><WorkingLanguage wl="eng"/></About><Background><ak/></Background><Scope><ak/></Scope><Preassessment>
+	<About id="PreactIS">
+		<version id="20210101" name="main"/>
+		<title>
+			<tx l="eng" name="IT Audit Preassessment: Understanding the Auditee's IT systems"/>
+			<tx l="spa" name="Evaluación previa de auditoría de TI: comprensión de los sistemas de TI del auditado"/>
+			<tx l="fre" name="Pré-évaluation de l'audit informatique: comprendre les systèmes informatiques de l'audité"/>
+			<tx l="ara" name="التقييم المسبق لتدقيق تقنية المعلومات: فهم أنظمة تقنية المعلومات للجهة الخاضعة"/>
+		</title>
+		<WorkingLanguage wl="eng spa fre ara"/>
+	</About>
+	<paArea nr="A1">
+		<title>
+			<tx l="eng" name="Preliminary Activities"/>
+			<tx l="spa" name="Actividades preliminares"/>
+			<tx l="fre" name="Activités préliminaires"/>
+			<tx l="ara" name="الأنشطة الأولية"/>
+		</title>
+		<paIssue nr="01">
+			<title>
+				<tx l="eng" name="Preliminary Activities"/>
+				<tx l="spa" name="Actividades preliminares"/>
+				<tx l="fre" name="Activités préliminaires"/>
+				<tx l="ara" name="الأنشطة الأولية"/>
+			</title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Preliminary Activities"/>
+					<tx l="spa" name="Actividades preliminares"/>
+					<tx l="fre" name="Activités préliminaires"/>
+					<tx l="ara" name="الأنشطة الأولية"/>
+				</title>
+				<paSection nr="01" relatesto="">
+					<title>
+						<tx l="eng" name="Do the staff assigned to this IT-audit have sufficient competence and required capabilities?"/>
+						<tx l="spa" name="¿El personal asignado a esta auditoría de TI tiene la competencia suficiente y las capacidades requeridas?"/>
+						<tx l="fre" name="Le personnel affecté à cet audit informatique a-t-il des compétences suffisantes et les capacités requises?"/>
+						<tx l="ara" name="هل يتمتع الموظفون المعينون لمراجعة تقنية المعلومات هذه بالكفاءة الكافية والقدرات المطلوبة؟"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.8 and 16. -  The IT audit team is composed of members that collectively have the competence to perform the IT Audit."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.8 y 16. - El equipo de auditoría de TI está compuesto por miembros que colectivamente tienen la competencia para realizar la Auditoría de TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.8 et 16. - L'équipe d'audit informatique est composée de membres qui ont collectivement la compétence pour réaliser l'audit informatique."/>
+							<tx l="ara" name="المعايير: ISSAI 5300.8 و 16. - يتألف فريق تدقيق تقنية المعلومات من أعضاء يتمتعون بشكل جماعي بالكفاءة لأداء تدقيق تكنولوجيا المعلومات."/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="02" relatesto="">
+					<title>
+						<tx l="eng" name="Have all staff members assigned to this IT-audit signed a statement where they accept to comply with all relevant ethical requirement and have assured independence to perform this audit engagement?"/>
+						<tx l="spa" name="¿Todos los miembros del personal asignados a esta auditoría de TI han firmado una declaración en la que aceptan cumplir con todos los requisitos éticos relevantes y tienen independencia asegurada para realizar este trabajo de auditoría?"/>
+						<tx l="fre" name="Tous les membres du personnel affectés à cet audit informatique ont-ils signé une déclaration dans laquelle ils acceptent de se conformer à toutes les exigences déontologiques pertinentes et ont assuré leur indépendance pour effectuer cette mission d'audit?"/>
+						<tx l="ara" name="هل وقع جميع الموظفين المكلفين بتدقيق تكنولوجيا المعلومات هذا بيانًا يوافقون فيه على الامتثال لجميع المتطلبات الأخلاقية ذات الصلة وتأكدوا من الاستقلال لأداء مهمة التدقيق هذه؟"/>
+					</title>
+					<paElement nr="01" relatesto="" type="list" value="Yes|No">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 100.36. – Auditors should comply with the relevant ethical requirements and be independent."/>
+							<tx l="spa" name="Criterios: ISSAI 100.36. - Los auditores deben cumplir con los requisitos éticos relevantes y ser independientes."/>
+							<tx l="fre" name="Critères: ISSAI 100.36. - Les auditeurs doivent se conformer aux règles d'éthique applicables et être indépendants."/>
+							<tx l="ara" name="المعايير: 100.36 ISSAL. - يجب أن يلتزم المدققون بالمتطلبات الأخلاقية ذات الصلة وأن يكونوا مستقلين."/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="03" relatesto="">
+					<title>
+						<tx l="eng" name="Identified threats"/>
+						<tx l="spa" name="Amenazas identificadas"/>
+						<tx l="fre" name="Menaces identifiées"/>
+						<tx l="ara" name="التهديدات المحددة"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: Threats for. ex. limited resources to perform the it-audit. Limited access to IT-system, data or personnel at the audited entity."/>
+							<tx l="spa" name="Criterios: amenazas, por ejemplo, recursos limitados para realizar la auditoría de TI. Acceso limitado al sistema de TI, datos o personal en la entidad auditada."/>
+							<tx l="fre" name="Critères: Menaces, par exemple, ressources limitées pour effectuer l'audit informatique. Accès limité au système informatique, aux données ou au personnel de l'entité auditée."/>
+							<tx l="ara" name="المعايير: التهديدات ، على سبيل المثال ، الموارد المحدودة لأداء تدقيقها. وصول محدود إلى نظام تكنولوجيا المعلومات أو البيانات أو الموظفين في الكيان الخاضع للرقابة."/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="04" relatesto="">
+					<title>
+						<tx l="eng" name="Materiality"/>
+						<tx l="spa" name="Materialidad"/>
+						<tx l="fre" name="Matérialité"/>
+						<tx l="ara" name="المادية"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.6  - Materiality shall be considered at all states of the IT audit process."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.6 - La materialidad se considerará en todos los estados del proceso de auditoría de TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.6 - La matérialité doit être prise en compte à tous les stades du processus d'audit informatique."/>
+							<tx l="ara" name="المعايير: ISSAL 5300.6 - يجب مراعاة الأهمية النسبية في جميع حالات عملية تدقيق تكنولوجيا المعلومات."/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+		<paIssue nr="02">
+			<title>
+				<tx l="eng" name="Planning meeting of the IT audit team"/>
+				<tx l="spa" name="Reunión de planificación del equipo de auditoría de TI"/>
+				<tx l="fre" name="Réunion de planification de l'équipe d'audit informatique"/>
+				<tx l="ara" name="اجتماع التخطيط لفريق تدقيق تكنولوجيا المعلومات"/>
+			</title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Memo from the planning meeting of the IT audit team"/>
+					<tx l="spa" name="Nota de la reunión de planificación del equipo de auditoría de TI"/>
+					<tx l="fre" name="Mémo de la réunion de planification de l'équipe d'audit informatique"/>
+					<tx l="ara" name="مذكرة من اجتماع التخطيط لفريق تدقيق تكنولوجيا المعلومات"/>
+				</title>
+				<paSection nr="01" relatesto="">
+					<title>
+						<tx l="eng" name="Planning of the IT-audit and timetable"/>
+						<tx l="spa" name="Planificación de la auditoría de TI y el calendario"/>
+						<tx l="fre" name="Planification de l'audit informatique et calendrier"/>
+						<tx l="ara" name="التخطيط لتدقيق تكنولوجيا المعلومات والجدول الزمني"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: When should the IT-audit be conducted and how much audit effort should be allowcated to this IT-audit."/>
+							<tx l="spa" name="Criterios: Cuándo debe realizarse la auditoría de TI y cuánto esfuerzo de auditoría debe asignarse a esta auditoría de TI."/>
+							<tx l="fre" name="Critères: Quand l'audit informatique doit-il être réalisé et quel effort d'audit doit être alloué à cet audit informatique."/>
+							<tx l="ara" name="المعايير: متى يجب إجراء تدقيق تكنولوجيا المعلومات ومقدار جهود التدقيق التي يجب السماح بها لتدقيق تكنولوجيا المعلومات هذا."/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="02" relatesto="">
+					<title>
+						<tx l="eng" name="IT-Fraud risk"/>
+						<tx l="spa" name="Riesgo de fraude informático"/>
+						<tx l="fre" name="Risque de fraude informatique"/>
+						<tx l="ara" name="مخاطر الاحتيال على تقنية المعلومات"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.23 – IT Auditors should identify and assess the risk and fraud relevant to the audit objectives of IT audits."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.23 - Los auditores de TI deben identificar y evaluar el riesgo y el fraude relevantes para los objetivos de auditoría de las auditorías de TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.23 - Les auditeurs informatiques devraient identifier et évaluer le risque et la fraude en rapport avec les objectifs d'audit des audits informatiques."/>
+							<tx l="ara" name="المعايير: ISSAL 5300.23 - يجب على مدققي تكنولوجيا المعلومات تحديد وتقييم المخاطر والاحتيال ذات الصلة بأهداف التدقيق لعمليات تدقيق تكنولوجيا المعلومات."/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="03" relatesto="">
+					<title>
+						<tx l="eng" name="Other issues that should be discussed in the opening meeting of the IT-audit team"/>
+						<tx l="spa" name="Otros temas que deberían discutirse en la reunión de apertura del equipo de auditoría de TI"/>
+						<tx l="fre" name="Autres questions à discuter lors de la réunion d'ouverture de l'équipe d'audit informatique"/>
+						<tx l="ara" name="القضايا الأخرى التي ينبغي مناقشتها في الجلسة الافتتاحية لفريق تدقيق تكنولوجيا المعلومات"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria"/>
+							<tx l="spa" name="Criterios"/>
+							<tx l="fre" name="Critères"/>
+							<tx l="ara" name="معايير"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+		<paIssue nr="03">
+			<title>
+				<tx l="eng" name="Opening meeting with the management of the audited entity"/>
+				<tx l="spa" name="Reunión de apertura con la dirección de la entidad auditada"/>
+				<tx l="fre" name="Réunion d'ouverture avec la direction de l'entité auditée"/>
+				<tx l="ara" name="افتتاح الاجتماع مع إدارة الجهة الخاضعة للرقابة"/>
+			</title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Memo from the opening meeting with the management of the audited entity"/>
+					<tx l="spa" name="Memorando de la reunión de apertura con la dirección de la entidad auditada"/>
+					<tx l="fre" name="Mémo de la réunion d'ouverture avec la direction de l'entité auditée"/>
+					<tx l="ara" name="مذكرة من الاجتماع الافتتاحي مع إدارة الكيان الخاضع للرقابة"/>
+				</title>
+				<paSection nr="01" relatesto="">
+					<title>
+						<tx l="eng" name="Memo from the opening meeting with the management of the audited entity"/>
+						<tx l="spa" name="Memorando de la reunión de apertura con la dirección de la entidad auditada"/>
+						<tx l="fre" name="Mémo de la réunion d'ouverture avec la direction de l'entité auditée"/>
+						<tx l="ara" name="مذكرة من الاجتماع الافتتاحي مع إدارة الكيان الخاضع للرقابة"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.19 SAI shall engage with the audited entity before commencement of audit."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.19 La ISC se comprometerá con la entidad auditada antes del comienzo de la auditoría."/>
+							<tx l="fre" name="Critères: ISSAI 5300.19 L'ISC s'engage avec l'entité auditée avant le début de l'audit."/>
+							<tx l="ara" name="المعايير: ISSAL 5300.19 يجب أن يعمل الجهاز الأعلى للرقابة المالية والمحاسبة مع الكيان الخاضع للرقابة قبل البدء في التدقيق."/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+	</paArea>
+	<paArea nr="A2">
+		<title>
+			<tx l="eng" name="Planning the Audit"/>
+			<tx l="spa" name="Planificación de la auditoría"/>
+			<tx l="fre" name="Planification de l'audit"/>
+			<tx l="ara" name="التخطيط للتدقيق"/>
+		</title>
+		<paIssue nr="01">
+			<title>
+				<tx l="eng" name="Understanding the entity"/>
+				<tx l="spa" name="Entendiendo la entidad"/>
+				<tx l="fre" name="Comprendre l'entité"/>
+				<tx l="ara" name="فهم الكيان"/>
+			</title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Understand the entity and assessment that IT-objectives are aligned to the Business objectives (ISSAI 21.1.b)"/>
+					<tx l="spa" name="Comprender la entidad y evaluar que los objetivos de TI están alineados con los objetivos del negocio (ISSAI 21.1.b)"/>
+					<tx l="fre" name="Comprendre l'entité et évaluer que les objectifs informatiques sont alignés sur les objectifs du métier (ISSAI 21.1.b)"/>
+					<tx l="ara" name="فهم الكيان وتقييم أن أهداف تكنولوجيا المعلومات تتماشى مع أهداف العمل (ISSAI 21.1.b)"/>
+				</title>
+				<paSection nr="01" relatesto="">
+					<title>
+						<tx l="eng" name="Nature of the entity"/>
+						<tx l="spa" name="Naturaleza de la entidad"/>
+						<tx l="fre" name="Nature de l'entité"/>
+						<tx l="ara" name="طبيعة الكيان"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.12.2-6. The prerequiste to develop the audit programme will be a clear understanding of audited entity, its Information Systems and IT related activities."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.12.2-6. El requisito previo para desarrollar el programa de auditoría será una comprensión clara de la entidad auditada, sus sistemas de información y las actividades relacionadas con las TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.12.2-6. La condition préalable à l'élaboration du programme d'audit sera une compréhension claire de l'entité auditée, de ses systèmes d'information et des activités informatiques."/>
+							<tx l="ara" name="المعايير: ISSAI 5300.12.2-6. سيكون الشرط الأساسي لتطوير برنامج التدقيق هو الفهم الواضح للكيان الخاضع للرقابة وأنظمة المعلومات والأنشطة المتعلقة بتكنولوجيا المعلومات."/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="spa" name="Descripción"/>
+							<tx l="fre" name="Description"/>
+							<tx l="ara" name="وصف"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Identified risk factor"/>
+							<tx l="spa" name="Factor de riesgo identificado"/>
+							<tx l="fre" name="Facteur de risque identifié"/>
+							<tx l="ara" name="عامل الخطر المحدد"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Implication of the identified risk factor"/>
+							<tx l="spa" name="Implicación del factor de riesgo identificado"/>
+							<tx l="fre" name="Implication du facteur de risque identifié"/>
+							<tx l="ara" name="الآثار المترتبة على عامل الخطر المحدد"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="05" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Affected assertions"/>
+							<tx l="spa" name="Afirmaciones afectadas"/>
+							<tx l="fre" name="Assertions affectées"/>
+							<tx l="ara" name="التأكيدات المتأثرة"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="02" relatesto="">
+					<title>
+						<tx l="eng" name="External factors"/>
+						<tx l="spa" name="Factores externos"/>
+						<tx l="fre" name="Facteurs externes"/>
+						<tx l="ara" name="عوامل خارجية"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.12.2-6. The prerequiste to develop the audit programme will be a clear understanding of audited entity, its Information Systems and IT related activities."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.12.2-6. El requisito previo para desarrollar el programa de auditoría será una comprensión clara de la entidad auditada, sus sistemas de información y las actividades relacionadas con las TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.12.2-6. La condition préalable à l'élaboration du programme d'audit sera une compréhension claire de l'entité auditée, de ses systèmes d'information et des activités informatiques."/>
+							<tx l="ara" name="المعايير: ISSAI 5300.12.2-6. سيكون الشرط الأساسي لتطوير برنامج التدقيق هو الفهم الواضح للكيان الخاضع للرقابة وأنظمة المعلومات والأنشطة المتعلقة بتكنولوجيا المعلومات."/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="spa" name="Descripción"/>
+							<tx l="fre" name="Description"/>
+							<tx l="ara" name="وصف"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Identified risk factor"/>
+							<tx l="spa" name="Factor de riesgo identificado"/>
+							<tx l="fre" name="Facteur de risque identifié"/>
+							<tx l="ara" name="عامل الخطر المحدد"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Implication of the identified risk factor"/>
+							<tx l="spa" name="Implicaciones del factor de riesgo identificado"/>
+							<tx l="fre" name="Implications du facteur de risque identifié"/>
+							<tx l="ara" name="الآثار المترتبة على عامل الخطر المحدد"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="05" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Affected assertions"/>
+							<tx l="spa" name="Afirmaciones afectadas"/>
+							<tx l="fre" name="Assertions affectées"/>
+							<tx l="ara" name="التأكيدات المتأثرة"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="03" relatesto="">
+					<title>
+						<tx l="eng" name="Internal factors"/>
+						<tx l="alb" name="Faktoret e brendshem"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.12.2-6. The prerequiste to develop the audit programme will be a clear understanding of audited entity, its Information Systems and IT related activities."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.12.2-6. El requisito previo para desarrollar el programa de auditoría será una comprensión clara de la entidad auditada, sus sistemas de información y las actividades relacionadas con las TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.12.2-6. La condition préalable à l'élaboration du programme d'audit sera une compréhension claire de l'entité auditée, de ses systèmes d'information et des activités informatiques."/>
+							<tx l="ara" name="المعايير: ISSAI 5300.12.2-6. سيكون الشرط الأساسي لتطوير برنامج التدقيق هو الفهم الواضح للكيان الخاضع للرقابة وأنظمة المعلومات والأنشطة المتعلقة بتكنولوجيا المعلومات."/>
+						</title>
+						<val>
+							<tx l="eng" name="Implication of the identified risk factor"/>
+							<tx l="spa" name="Implicaciones del factor de riesgo identificado"/>
+							<tx l="fre" name="Implications du facteur de risque identifié"/>
+							<tx l="ara" name="الآثار المترتبة على عامل الخطر المحدد"/>
+						</val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="spa" name="Descripción"/>
+							<tx l="fre" name="Description"/>
+							<tx l="ara" name="وصف"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Identified risk factor"/>
+							<tx l="spa" name="Factor de riesgo identificado"/>
+							<tx l="fre" name="Facteur de risque identifié"/>
+							<tx l="ara" name="عامل الخطر المحدد"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Implication of the identified risk factor"/>
+							<tx l="spa" name="Implicaciones del factor de riesgo identificado"/>
+							<tx l="fre" name="Implications du facteur de risque identifié"/>
+							<tx l="ara" name="الآثار المترتبة على عامل الخطر المحدد"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="05" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Affected assertions"/>
+							<tx l="spa" name="Afirmaciones afectadas"/>
+							<tx l="fre" name="Assertions affectées"/>
+							<tx l="ara" name="التأكيدات المتأثرة"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="04" relatesto="">
+					<title>
+						<tx l="eng" name="Materiality"/>
+						<tx l="alb" name="Materialiteti"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Criteria: ISSAI 5300.6 – SAI shall consider materiality at all stages of the IT audit process."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.6 - La ISC deberá considerar la materialidad en todas las etapas del proceso de auditoría de TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.6 - L'ISC doit tenir compte du caractère significatif à toutes les étapes du processus d'audit informatique."/>
+							<tx l="ara" name="المعايير: ISSAL 5300.6 - يجب على الجهاز الأعلى للرقابة المالية والمحاسبة مراعاة الأهمية النسبية في جميع مراحل عملية تدقيق تكنولوجيا المعلومات."/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="spa" name="Descripción"/>
+							<tx l="fre" name="Description"/>
+							<tx l="ara" name="وصف"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Identified risk factor"/>
+							<tx l="spa" name="Factor de riesgo identificado"/>
+							<tx l="fre" name="Facteur de risque identifié"/>
+							<tx l="ara" name="عامل الخطر المحدد"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Implication of the identified risk factor"/>
+							<tx l="spa" name="Implicaciones del factor de riesgo identificado"/>
+							<tx l="fre" name="Implications du facteur de risque identifié"/>
+							<tx l="ara" name="الآثار المترتبة على عامل الخطر المحدد"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="05" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Affected assertions"/>
+							<tx l="spa" name="Afirmaciones afectadas"/>
+							<tx l="fre" name="Assertions affectées"/>
+							<tx l="ara" name="التأكيدات المتأثرة"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+		<paIssue nr="02">
+			<title>
+				<tx l="eng" name="Understanding the IT-systems"/>
+				<tx l="spa" name="Comprender los sistemas de TI"/>
+				<tx l="fre" name="Comprendre les systèmes informatiques"/>
+				<tx l="ara" name="فهم أنظمة تكنولوجيا المعلومات"/>
+			</title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Preliminary Assessment of IT Controls (ISSAI 5300 21.1.). Suitable mechanisms are in place and functioning."/>
+					<tx l="spa" name="Evaluación preliminar de los controles de TI (ISSAI 5300 21.1.). Existen y funcionan los mecanismos adecuados."/>
+					<tx l="fre" name="Évaluation préliminaire des contrôles informatiques (ISSAI 5300 21.1.). Des mécanismes appropriés sont en place et fonctionnent."/>
+					<tx l="ara" name="التقييم الأولي لضوابط تكنولوجيا المعلومات (ISSAI 5300 21.1.). الآليات المناسبة موجودة وتعمل."/>
+				</title>
+				<paSection nr="01" relatesto="Domain">
+					<title>
+						<tx l="eng" name="Preliminary Assessment of IT Controls (ISSAI 5300 21.1.). Suitable mechanisms are in place and functioning."/>
+						<tx l="spa" name="Evaluación preliminar de los controles de TI (ISSAI 5300 21.1.). Existen y funcionan los mecanismos adecuados."/>
+						<tx l="fre" name="Évaluation préliminaire des contrôles informatiques (ISSAI 5300 21.1.). Des mécanismes appropriés sont en place et fonctionnent."/>
+						<tx l="ara" name="التقييم الأولي لضوابط تكنولوجيا المعلومات (ISSAI 5300 21.1.). الآليات المناسبة موجودة وتعمل."/>
+					</title>
+					<paElement nr="01" relatesto="" type="list" value="Low|Medium|High">
+						<title>
+							<tx l="eng" name="Responsibilities defined"/>
+							<tx l="spa" name="Responsabilidades definidas"/>
+							<tx l="fre" name="Responsabilités définies"/>
+							<tx l="ara" name="تحديد المسؤوليات"/>
+						</title>
+						<val>
+							<tx l="eng" name="Low"/>
+							<tx l="spa" name="Low"/>
+							<tx l="fre" name="Low"/>
+							<tx l="ara" name="Low"/>
+						</val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="list" value="Low|Medium|High">
+						<title>
+							<tx l="eng" name="Adequate structure"/>
+							<tx l="spa" name="Estructura adecuada"/>
+							<tx l="fre" name="Une structure adéquate"/>
+							<tx l="ara" name="هيكل مناسب"/>
+						</title>
+						<val>
+							<tx l="eng" name="Low"/>
+							<tx l="spa" name="Low"/>
+							<tx l="fre" name="Low"/>
+							<tx l="ara" name="Low"/>
+						</val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="list" value="Low|Medium|High">
+						<title>
+							<tx l="eng" name="Sufficient regulation"/>
+							<tx l="eng" name="Regulación suficiente "/>
+							<tx l="eng" name="Réglementation suffisante"/>
+							<tx l="eng" name="تنظيم كاف "/>
+						</title>
+						<val>
+							<tx l="eng" name="Low"/>
+							<tx l="spa" name="Low"/>
+							<tx l="fre" name="Low"/>
+							<tx l="ara" name="Low"/>
+						</val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="list" value="Low|Medium|High">
+						<title>
+							<tx l="eng" name="Explanatory and clear documentation"/>
+							<tx l="eng" name="Documentación clara y explicativa"/>
+							<tx l="eng" name="Documentation explicative et claire"/>
+							<tx l="eng" name="التوثيق التوضيحي والواضح"/>
+						</title>
+						<val>
+							<tx l="eng" name="Low"/>
+							<tx l="spa" name="Low"/>
+							<tx l="fre" name="Low"/>
+							<tx l="ara" name="Low"/>
+						</val>
+					</paElement>
+					<paElement nr="05" relatesto="Area" type="list" value="Low|Medium|High">
+						<title>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</title>
+						<val>
+							<tx l="eng" name="Low"/>
+							<tx l="spa" name="Low"/>
+							<tx l="fre" name="Low"/>
+							<tx l="ara" name="Low"/>
+						</val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+		<paIssue nr="03">
+			<title>
+				<tx l="eng" name="Input into audit strategy and audit plan"/>
+				<tx l="spa" name="Contribuciones a la estrategia de auditoría y el plan de auditoría"/>
+				<tx l="fre" name="Contribution à la stratégie d'audit et au plan d'audit"/>
+				<tx l="ara" name="المساهمات في استراتيجية التدقيق وخطة التدقيق"/>
+			</title>
+			<paMatrix nr="01">
+				<title>
+					<tx l="eng" name="Input into Audit Strategy and Audit Plan for this audit engagement  (ISSAI 100.48)"/>
+					<tx l="spa" name="Contribuciones a la estrategia de auditoría y el plan de auditoría para este trabajo de auditoría (ISSAI 100.48)"/>
+					<tx l="fre" name="Contributions à la stratégie d'audit et au plan d'audit pour cette mission d'audit (ISSAI 100.48)"/>
+					<tx l="ara" name="المساهمات في استراتيجية التدقيق وخطة التدقيق لمهمة المراجعة هذه (100.48 ISSAL)"/>
+				</title>
+				<paSection nr="01" relatesto="">
+					<title>
+						<tx l="eng" name="Any issues that need to be follow-up from previous audit of this audited entity?"/>
+						<tx l="spa" name="¿Algún problema que deba ser objeto de seguimiento de una auditoría anterior de esta entidad auditada?"/>
+						<tx l="fre" name="Y a-t-il des problèmes qui doivent faire l'objet d'un suivi de l'audit précédent de cette entité auditée?"/>
+						<tx l="ara" name="هل هناك أي مسائل تحتاج إلى متابعة من التدقيق السابق لهذا الكيان الخاضع للرقابة؟"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="spa" name="Descripción"/>
+							<tx l="fre" name="Description"/>
+							<tx l="ara" name="وصف"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="02" relatesto="">
+					<title>
+						<tx l="eng" name="Scope of the Audit"/>
+						<tx l="spa" name="Scope of the Audit"/>
+						<tx l="fre" name="Scope of the Audit"/>
+						<tx l="ara" name="نطاق المراجعة"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="spa" name="Ámbito de la auditoría"/>
+							<tx l="fre" name="Portée de l'audit"/>
+							<tx l="ara" name="وصف"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="03" relatesto="">
+					<title>
+						<tx l="eng" name="Applicable dates of coverage of audit"/>
+						<tx l="spa" name="Fechas aplicables de cobertura de auditoría"/>
+						<tx l="fre" name="Dates applicables de la couverture de l'audit"/>
+						<tx l="ara" name="التواريخ المعمول بها لتغطية المراجعة"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Dates"/>
+							<tx l="spa" name="Fecha"/>
+							<tx l="fre" name="Date"/>
+							<tx l="ara" name="تاريخ"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="04" relatesto="">
+					<title>
+						<tx l="eng" name="Is this IT audit in line with the SAI’s overall objectives and strategy?"/>
+						<tx l="spa" name="¿Está esta auditoría de TI en línea con los objetivos y la estrategia generales de la ISC?"/>
+						<tx l="fre" name="Cet audit informatique est-il conforme aux objectifs généraux et à la stratégie de l’ISC?"/>
+						<tx l="ara" name="هل يتماشى تدقيق تقنية المعلومات هذا مع الأهداف والاستراتيجية العامة للجهاز؟"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="spa" name="Descripción"/>
+							<tx l="fre" name="Description"/>
+							<tx l="ara" name="وصف"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="05" relatesto="">
+					<title>
+						<tx l="eng" name="Other Issues that have to be considered in planning the IT-audit"/>
+						<tx l="eng" name="Otras cuestiones que deben tenerse en cuenta al planificar la auditoría de TI"/>
+						<tx l="eng" name="Autres problèmes à prendre en compte lors de la planification de l'audit informatique"/>
+						<tx l="eng" name="القضايا الأخرى التي يجب أخذها في الاعتبار عند التخطيط لتدقيق تكنولوجيا المعلومات"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Specialist competence needs"/>
+							<tx l="eng" name="Necesidades de competencias especializadas"/>
+							<tx l="eng" name="Besoins en compétences spécialisées"/>
+							<tx l="eng" name="احتياجات الكفاءة المتخصصة"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="02" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Need for special audit methodology"/>
+							<tx l="eng" name="Necesidad de una metodología de auditoría especial"/>
+							<tx l="eng" name="Besoin d'une méthodologie d'audit spéciale"/>
+							<tx l="eng" name="الحاجة إلى منهجية تدقيق خاصة"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="03" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Supplementary investigation / analysis needs"/>
+							<tx l="eng" name="Necesidades complementarias de investigación / análisis"/>
+							<tx l="eng" name="Besoins d'enquête / d'analyse supplémentaires"/>
+							<tx l="eng" name="احتياجات التحقيق / التحليل التكميلي"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+					<paElement nr="04" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Take into consideration the work done by Internal Auditors in these areas if any"/>
+							<tx l="eng" name="Tenga en cuenta el trabajo realizado por los auditores internos en estas áreas, si lo hubiere"/>
+							<tx l="eng" name="Prendre en considération le travail effectué par les auditeurs internes dans ces domaines le cas échéant"/>
+							<tx l="eng" name="ضع في الاعتبار العمل الذي قام به المدققون الداخليون في هذه المجالات إن وجدت"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+				<paSection nr="06" relatesto="">
+					<title>
+						<tx l="eng" name="What staffmembers will perform the audit, when will it be performed and how much time is allocated for this IT-audit"/>
+						<tx l="eng" name="Qué miembros del personal realizarán la auditoría, cuándo se realizará y cuánto tiempo se asignará para esta auditoría de TI"/>
+						<tx l="eng" name="Quels membres du personnel effectueront l'audit, quand sera-t-il effectué et combien de temps sera alloué à cet audit informatique"/>
+						<tx l="eng" name="ما هو أعضاء فريق العمل الذين سيقومون بإجراء التدقيق ، ومتى يتم إجراؤه ، ومقدار الوقت المخصص لتدقيق تقنية المعلومات هذا"/>
+					</title>
+					<paElement nr="01" relatesto="" type="text" value="">
+						<title>
+							<tx l="eng" name="Description"/>
+							<tx l="spa" name="Descripción"/>
+							<tx l="fre" name="Description"/>
+							<tx l="ara" name="وصف"/>
+						</title>
+						<val>
+							<tx l="eng" name=""/>
+							<tx l="spa" name=""/>
+							<tx l="fre" name=""/>
+							<tx l="ara" name=""/>
+						</val>
+					</paElement>
+				</paSection>
+			</paMatrix>
+		</paIssue>
+	</paArea>
+</Preassessment>
+<Arrangements><team/><timetable/></Arrangements><ActiveITAuditDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 	<About id="AITAM">
 		<version id="20210101" name="main"/>
 		<title>
@@ -10232,3 +11092,4 @@ Détails d'implémentation.
 		</Area>
 	</Domain>
 </ActiveITAuditDomains>
+<PlugIns/><Cases/></Audit>

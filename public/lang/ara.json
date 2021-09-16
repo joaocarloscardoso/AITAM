@@ -1,9 +1,9 @@
 {
 	"messages":{		
 		"mail_adress":"بريد إلكتروني خاطئ!",
-		"mail_name":"يجب أن يكون الاسم 3 أحرف على الأقل!",
+		"mail_name":"يجب أن يتكون الاسم من 3 أحرف على الأقل!",
 		"mail_message":"يجب أن يكون طول الرسالة 3 أحرف على الأقل!",
-		"audit_file_version":"ينتمي ملف التدقيق الذي تم تحميله إلى إصدار مبكر من AITAM. لضمان التوافق ، ستتحول لغة العمل تلقائيًا إلى اللغة الإنجليزية!",
+		"audit_file_version":"ينتمي ملف التدقيق الذي تم تحميله إلى إصدار قديم من AITAM. لضمان التوافق ، ستتغسر لغة العمل تلقائيًا إلى اللغة الإنجليزية!",
 		"audit_edit_save":"تم حفظ التدقيق بنجاح! استخدم أمر التنزيل ضمن قائمة التدقيق للحصول على الملف.",
 		"audit_sync_preassessment":"اكتملت المزامنة مع مصفوفة A2.02 (02 فهم أنظمة تكنولوجيا المعلومات)!",
 		"audit_portfolio_dettach":"تم فصل التدقيق المحدد بنجاح!",
@@ -15,33 +15,33 @@
 		"home": "الصفحة الرئيسية",
 		"audit": {
 			"menu_title":"التدقيق",
-			"timeline": "خط تفاعلات المراجعة",
-			"reference": "المرجعي",
+			"timeline": "خط تفاعلات التدقيق",
+			"reference": "المرجع",
 			"plug_ins":"المكونات الإضافية",
 			"preliminary": "الأنشطة الأولية",
-			"plan":"يخطط",
-			"findings":"الموجودات",
+			"plan":"الخطة",
+			"findings":"النتائج",
 			"recommendations":"التوصيات",
 			"analytics":{
 				"menu_title":"تحليلات",
-				"treemap": "مراجعة مخطط الشجرة",
-				"dommain_characterization": "توصيف المجال",
+				"treemap": "الخطة الشجرية للتدقيق",
+				"dommain_characterization": "وصف المجال",
 				"hints": "تلميحات",
 				"findings_analysis": "تحليل النتائج",
-				"sentiment_analysis_findings":"تحليل المشاعر على النتائج",
+				"sentiment_analysis_findings":"تحليل الآراء للنتائج",
 				"recommendations_tracking":"متابعة التوصيات"
 			},
 			"download":"تحميل",
-			"close":"أغلق ملف التدقيق"
+			"close":"أغلاق ملف التدقيق"
 		},
 		"tool":"أداة",
 		"recommendations":{
 			"menu_title":"التوصيات",
 			"browse":"تصفح",
-			"manage":"إدارة التجميعات"
+			"manage":"إدارة المحافظ"
 		},
 		"project":"المشروع",
-		"get_in_touch":"ابقى على تواصل",
+		"get_in_touch":"التواصل",
 		"change_language":"تغيير اللغة"
 	},
 	"buttons":{
@@ -50,7 +50,7 @@
 			"tooltip":""
 		},
 		"close": {
-			"name": "قريب", 
+			"name": "إغلاق", 
 			"tooltip":""
 		},
 		"reloadList": {
@@ -58,32 +58,32 @@
 			"tooltip":""
 		},
 		"generateDocument": {
-			"name": "توليد وثيقة", 
+			"name": "إصدار وثيقة", 
 			"tooltip":""
 		},
 		"planSyncPreassessment": {
-			"name": "تزامن مع التقييم المسبق", 
-			"tooltip":"تعتمد هذه الوظيفة على الاستخدام السابق لمصفوفة A2.02 (02 فهم أنظمة تكنولوجيا المعلومات)"
+			"name": "مزامنة مع التقييم المسبق", 
+			"tooltip":"يعتمد هذا الخيار على الاستخدام المسبق لمصفوفة A2.02 (02 فهم أنظمة تكنولوجيا المعلومات)"
 		},
 		"planExportList": {
 			"name": "قائمة التصدير", 
-			"tooltip":"تقوم هذه الوظيفة بإنشاء مستند معالجة كلمات يحتوي على القائمة"
+			"tooltip":"يقوم هذا الخيار بإنشاء مستند معالجة نصوص يحتوي على قائمة التخطيط"
 		},
 		"planAuditProgramme": {
-			"name": "برنامج المراجعة", 
-			"tooltip":"هذه الوظيفة يولد مستند معالجة النصوص التي تحتوي على برنامج التدقيق"
+			"name": "برنامج التدقيق", 
+			"tooltip":"هذه الخيارينشئ وثائق معالجة النصوص التي تحتوي على برنامج التدقيق"
 		},
 		"planAuditMatrix": {
-			"name": "مصفوفة المراجعة", 
-			"tooltip":"هذه الوظيفة تولد مصفوفة التدقيق"
+			"name": "مصفوفة التدقيق", 
+			"tooltip":"هذا الخيار ينشئ مصفوفة التدقيق"
 		},
 		"planRiskHeatMatrix": {
 			"name": "مصفوفة المخاطر", 
-			"tooltip":"هذه الوظيفة تولد مصفوفة المخاطر"
+			"tooltip":"هذا الخيار ينشئ مصفوفة المخاطر"
 		},
 		"planCollectionMatrices": {
 			"name": "مجموعة من المصفوفات", 
-			"tooltip":"هذه الوظيفة يولد جمع المصفوفات جميع العناصر الواردة في التدقيق"
+			"tooltip":"هذا الخيار ينشئ مجموعة مصفوفات لجميع العناصر الواردة في التدقيق"
 		},
 		"findingCreateFinding": {
 			"name": "إنشاء نتائج التدقيق", 
@@ -91,22 +91,22 @@
 		},
 		"findingExecutiveSummary": {
 			"name": "ملخص تنفيذي", 
-			"tooltip":"تقوم هذه الوظيفة بإنشاء مستند معالجة كلمات يحتوي على الملخص التنفيذي"
+			"tooltip":"يقوم هذا الخيار بإنشاء مستند معالجة نصوص يحتوي على الملخص التنفيذي"
 		},
 		"findingExecutiveSummaryRecommendations": {
 			"name": "ملخص تنفيذي (يشمل التوصيات)", 
-			"tooltip":"تقوم هذه الوظيفة بإنشاء مستند معالجة كلمات يحتوي على الملخص التنفيذي مع التوصيات"
+			"tooltip":"يقوم هذا الخيار بإنشاء مستند معالجة نصوص يحتوي على الملخص التنفيذي مع التوصيات"
 		},
 		"recommendationCreateRecommendation":{
 			"name":"إنشاء توصية",
 			"tooltip":""
 		},
 		"recommendationTrackReport":{
-			"name":"تقرير المسار",
-			"tooltip":"تقوم هذه الوظيفة بإنشاء مستند معالجة كلمات يحتوي على تقرير تتبع توصيات التدقيق"
+			"name":"تقرير المتابعة",
+			"tooltip":"يقوم هذا الخيار بإنشاء مستند معالجة نصوص يحتوي على تقرير تتبع توصيات التدقيق"
 		},
 		"recommendationsAddFinding":{
-			"name":"أضف أداة جديدة...",
+			"name":"أضافة عنصر جديد...",
 			"tooltip":""
 		},
 		"recommendationsDeleteFinding":{
@@ -117,21 +117,21 @@
 	"audit" : {
 		"newUpload":{},
 		"reference" : {
-			"pageTitle": "مرجع المراجعة",
-			"auditID": "معرف التدقيق",
+			"pageTitle": "مرجع التدقيق",
+			"auditID": "معرّف التدقيق",
 			"auitTitle": "عنوان التدقيق",
 			"auditBackground":"خلفية التدقيق",
-			"auditScope":"نطاق التدقيق"
+			"auditScope":"مجال التدقيق"
 		},
 		"timeline" : {
-			"pageTitle": "خط تفاعلات المراجعة",
-			"referenceFilled":"تم ملء المعلومات المرجعية لمراجعة الحسابات!",
-			"referencePartialFilled":"تم ملء معلومات مرجعية المراجعة جزئيًا!",
-			"referenceNotFilled":"معلومات مرجعية المراجعة غير مسجلة!",
-			"pluginsSelected":"لم يتم تحديد مكونات إضافية!",
+			"pageTitle": "خط تفاعلات التدقيق",
+			"referenceFilled":"تم تعبئة المعلومات المرجعية للتدقيق !",
+			"referencePartialFilled":"تم تعبئة المعلومات المرجعية للتدقيق جزئيًا!",
+			"referenceNotFilled":"معلومات مرجعية التدقيق غير معبأة!",
+			"pluginsSelected":"تم تحديد مكونات إضافية!",
 			"pluginsNotSelected":"لم يتم تحديد مكونات إضافية!",
-			"preassessmentFilled":"معلومات حول الأنشطة الأولية المسجلة!",
-			"preassessmentNotFilled":"معلومات حول الأنشطة الأولية غير مسجلة!",
+			"preassessmentFilled":"تم تعبئة معلومات حول التقييم الأولي !",
+			"preassessmentNotFilled":"لم يتم تعبئة معلومات حول التقييم الأولي!",
 			"planFilled":"معلومات حول سجل التخطيط!",
 			"planNotFilled":"لم يتم تسجيل المعلومات حول التخطيط!",
 			"findingsRegistered":" نتائج التدقيق مسجلة!",
@@ -140,8 +140,8 @@
 			"plugins": "المكونات الإضافية المتاحة",
 			"preassessment": "الأنشطة الأولية",
 			"plan": "التخطيط للتدقيق",
-			"findings": "النتائج في المراجعة",
-			"recommendations": "توصيات المراجعة"
+			"findings": "النتائج في التدقيق",
+			"recommendations": "توصيات التدقيق"
 		},
 		"plugins" : {
 			"pageTitle": "المكونات الإضافية المتاحة للاستخدام في التدقيق",
@@ -157,23 +157,23 @@
 		},
 		"preliminaryActivities" : {
 			"pageTitle": "الأنشطة الأولية والتخطيط (بدء) التدقيق",
-			"noPreliminaryActivitiesMsg": "لا توجد قضايا تقييم مسبق متاحة!",
+			"noPreliminaryActivitiesMsg": "لا توجد مشاكل تقييم مسبق متاحة!",
 			"areaHeader": "منطقة",
 			"itemHeader": "البند (ومصفوفة الدعم ذات الصلة)"
 		},
 		"plan" : {
-			"pageTitle": "المجالات والمناطق والعناصر",
-			"noPlan": "لا المجالات والمناطق والقضايا المتاحة!",
+			"pageTitle": "المجالات والمناطق والمسائل",
+			"noPlan": "لا يوجد مجالات أومناطق أو مسائل متاحة!",
 			"riskFilter": {
-				"description": "تصفية حسب",
-				"criteria1": "مخاطرة عالية",
-				"criteria2": "متوسطة/عالية المخاطر",
+				"description": "تصنيف حسب",
+				"criteria1": "خطورة عالية",
+				"criteria2": "خطورة متوسطة/عالية ",
 				"criteria3": "تدرج في التدقيق",
-				"criteria4": "جميع العناصر"
+				"criteria4": "جميع المسائل"
 			},
 			"domainHeader": "نطاق",
 			"areaHeader": "منطقة",
-			"issueHeader": "قضية",
+			"issueHeader": "مسألة",
 			"risksHeader": "المخاطر (الوزن)",
 			"includeHeader": "تدرج في التدقيق",
 			"reasonsHeader": "الأسباب والمخاطر والملاحظات",
@@ -191,9 +191,9 @@
 			"noFindings": "لا توجد نتائج متاحة!",
 			"findingFilter":"استخدم الارتباط التشعبي على المعرف لعرض / تحرير النتائج",
 			"NumberHeader": "الرقم والاسم",
-			"sourceHeader": "مصدر> المجال> المنطقة> عنصر",
+			"sourceHeader": "المصدر> المجال> المنطقة> المسألة",
 			"causeHeader": "السبب والنتيجة",
-			"descriptionHeader": "وصف",
+			"descriptionHeader": "الوصف",
 			"relevantHeader": "ذو صلة",
 			"operationHeader": "عملية",
 			"delete": "...حذف",
@@ -201,22 +201,22 @@
 				"source": "مصدر",
 				"domain":"نطاق",
 				"area":"منطقة",
-				"issue":"قضية",
-				"findingName":"اسم دليل المراجعة",
+				"issue":"مسألة",
+				"findingName":"اسم الاستنتاج",
 				"cause":"سبب",
 				"result":"نتيجة",
 				"findingNumber":"رقم دليل المراجعة",
 				"findingDescription":"وصف النتيجة",
 				"recommendation":"توصية",
-				"referenceLegalAct":"إشارة إلى القانون القانوني",
-				"referenceReport":"مرجع في التقرير",
-				"domainsAreasIssuesMap": "خريطة المجالات والمناطق والعناصر"
+				"referenceLegalAct":"إشارة إلى البند القانوني",
+				"referenceReport":"إشارة إلى التقرير",
+				"domainsAreasIssuesMap": "خريطة المجالات والمناطق والمسائل"
 			}
 		},
 		"recommendations": {
-			"pageTitle": "توصيات المراجعة",
+			"pageTitle": "توصيات التدقيق",
 			"noRecommendations": "لا توجد توصيات متاحة!",
-			"recommendationFilter":"استخدم الارتباط التشعبي على المعرف لتصور / تحرير توصية التدقيق",
+			"recommendationFilter":"استخدم الارتباط التشعبي على المعرف لتصوير / تحرير توصية التدقيق",
 			"NumberHeader":"عدد",
 			"RecommendationHeader":"توصية",
 			"PriorityHeader":"أفضلية",
@@ -227,49 +227,49 @@
 			"delete": "...حذف",
 			"relatedFindings":"النتائج ذات الصلة:",
 			"norelatedFindings":"(لا شيء حتى الان)",
-			"selFindingTooltip":"استخدم الارتباط التشعبي لإيجاد رقم # لتصوره",
+			"selFindingTooltip":"استخدم الارتباط التشعبي لرقم النتيجة لتصويرها",
 			"currentStatus":"يتم جمع الحالة الحالية من التقييم الأخير ، وإلا سيتم عرض القيمة (لم يتم الوصول إليها بعد)!",
 			"matrix": {
 				"recommendationDescription": "وصف التوصية",
 				"recommendationNumber":"رقم التوصية",
 				"numberTooltip":"عدد",
 				"priority":"أفضلية",
-				"riskCharacterization":"توصيف المخاطر",
+				"riskCharacterization":"وصف المخاطر",
 				"riskCharacterizationTooltip":"(الفئة الأكثر صلة من) المخاطر التي تواجهها المنظمات بشكل مباشر وغير مباشر نتيجة عدم تنفيذ توصيات المراجعة",
 				"riskLevel":"مستوى الخطر",
-				"importance":"أهمية",
+				"importance":"الأهمية",
 				"accepted":"مقبولة (من قبل الجهة الخاضعة للرقابة)",
 				"acceptedTooltip":"قبول التوصية من قبل الجهة الخاضعة للرقابة",
-				"categorizing":"تصنيف توصية المراجعة",
-				"categorizingTooltip":"تصنيف توصية المراجعة (بحد أقصى 100 حرف)",
-				"repetead":"متكرر في التدقيق (عمليات) السابقة؟ (سجل في خانة الملاحظات)",
-				"repeteadTooltip":"تكرار التوصية في عملية (عمليات) مراجعة سابقة",
-				"actionPlan":"خطة عمل",
-				"actionPlanTooltip":"العمل / خطة العلاج المقترحة",
+				"categorizing":"تصنيف توصية التدقيق",
+				"categorizingTooltip":"تصنيف توصية التدقيق (بحد أقصى 100 حرف)",
+				"repetead":"متكرر في عملية/(ات) التدقيق السابقة؟ (سجل تاريخ التوصيات في خانة الملاحظات)",
+				"repeteadTooltip":"تكرار التوصية في عملية/(ات) تدقيق سابقة",
+				"actionPlan":"خطة العمل",
+				"actionPlanTooltip":"خطة العمل / العلاج المقترحة",
 				"timeline":"الجدول الزمني",
 				"timelineTooltip":"الجدول الزمني المخطط لتنفيذ خطة العمل / العلاج المقترحة",
 				"outcome":"النتيجة المرجوة",
 				"outcomeTooltip":"وصف النتيجة المرجوة من تنفيذ التوصية",
-				"responsible":"مسؤول",
-				"responsibleTooltip":"تحديد وتوجيه التوصيات إلى أولئك الذين لديهم المسؤولية والسلطة للتصرف بناءً عليها",
+				"responsible":"المسؤول",
+				"responsibleTooltip":"تحديد وتوجيه التوصيات إلى من لديه المسؤولية والسلطة للتصرف بناءً عليها",
 				"remarks":"ملاحظات",
-				"remarksTooltip":"(غير منظم) ملاحظات وملاحظات حول التوصية التي سجلها المدقق",
+				"remarksTooltip":"(غير منظم) ملاحظات حول التوصية التي سجلها المدقق",
 				"relatedFindings":"النتائج ذات الصلة المبلغ عنها",
-				"selectFinding":"(حدد البحث في القائمة المنسدلة للحصول على المعلومات ذات الصلة!)",
+				"selectFinding":"(حدد النتيجة في القائمة المنسدلة للحصول على المعلومات ذات الصلة!)",
 				"trackNotes":"تتبع الملاحظات",
 				"relatedFindingsMatrix":{
-					"operation":"عملية",
-					"number":"عدد",
-					"description":"وصف",
-					"source":"مصدر> المجال> المنطقة> عنصر",
+					"operation":"العملية",
+					"number":"العدد",
+					"description":"الوصف",
+					"source":"المصدر> المجال> المنطقة> المسألة",
 					"relevant":"ذو صلة"
 				},
 				"monitoring":"أنشطة المراقبة والمتابعة",
 				"monitoringMatrix":{
-					"operation":"عملية",
+					"operation":"العملية",
 					"assessment":"تاريخ التقييم",
-					"status":"حالة",
-					"trackNote":"ملحوظة"
+					"status":"الحالة",
+					"trackNote":"ملحوظة التتبع"
 				}
 			}
 		},
@@ -290,30 +290,30 @@
 		},
 		"Plan":{
 			"Risk":{
-				"High":{ "name":"متوسط","value":"3" },
-				"Medium":{ "name":"واسطة","value":"2" },
-				"Low":{ "name":"قليل", "value":"1" }
+				"High":{ "name":"عالية","value":"3" },
+				"Medium":{ "name":"متوسطة","value":"2" },
+				"Low":{ "name":"منخفضة", "value":"1" }
 			}
 		},
 		"Recommendation": {
 			"Priority": {
-				"Urgent":{ "name":"العاجلة","value":"0" },
-				"Regular":{ "name":"عادي", "value":"0" }
+				"Urgent":{ "name":"عاجلة","value":"0" },
+				"Regular":{ "name":"عادية", "value":"0" }
 			},
 			"RiskCharacterization": {
-				"Governance":{ "name":"الحكم", "value":"0" },
+				"Governance":{ "name":"الحاكمية", "value":"0" },
 				"Operational":{ "name":"التشغيل", "value":"0" },
-				"Reputational":{ "name":"السمعة", "value":"0" },
+				"Reputational":{ "name":"المتعلقة بالسمعة", "value":"0" },
 				"Financial":{ "name":"مالي", "value":"0" },
 				"Compliance":{ "name":"الامتثال", "value":"0" },
 				"MisappropriationOfAssets":{ "name":"اختلاس الأصول", "value":"0" }
 			},
 			"RiskEvaluation": {
-				"State":{ "name":"حالة", "value":"0" },
-				"Region":{ "name":"منطقة", "value":"0" },
+				"State":{ "name":"الحالة", "value":"0" },
+				"Region":{ "name":"المنطقة", "value":"0" },
 				"Municipality":{ "name":"البلدية", "value":"0" },
 				"ActivityArea":{ "name":"منطقة النشاط", "value":"0" },
-				"Entity":{ "name":"كيان", "value":"0" }
+				"Entity":{ "name":"الهيئة", "value":"0" }
 			},
 			"Importance": {
 				"Strategic":{ "name":"استراتيجية", "value":"0" },

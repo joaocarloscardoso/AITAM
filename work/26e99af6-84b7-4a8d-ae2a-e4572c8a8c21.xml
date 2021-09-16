@@ -1074,9 +1074,9 @@
 						</inf>
 						<inf>
 							<tx l="eng" name="Minutes from periodic reviews"/>
-							<tx l="spa" name="Protokoły przeglądów okresowych"/>
-							<tx l="fre" name="Protokoły przeglądów okresowych"/>
-							<tx l="ara" name="Protokoły przeglądów okresowych"/>
+							<tx l="spa" name="Actas de revisiones periódicas"/>
+							<tx l="fre" name="Procès-verbaux des examens périodiques"/>
+							<tx l="ara" name="دقائق من المراجعات الدورية"/>
 						</inf>
 						<inf>
 							<tx l="eng" name="List of action items and their status"/>
