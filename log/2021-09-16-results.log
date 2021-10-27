@@ -44,3 +44,7 @@
 {"message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-09-16 09:33:54"}
 {"message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\eafc5f79-2bb4-4560-ba0a-9248e62b20c9.xml","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-09-16 09:34:07"}
 {"message":"Session created received the id:eafc5f79-2bb4-4560-ba0a-9248e62b20c9","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-09-16 09:34:38"}
+{"message":"Session created received the id:aab34b0e-1678-40e3-ab8c-96e5c5d5371f","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-09-16 13:48:40"}
+{"message":"Session created received the id:965bca46-1324-4ef8-b2f6-23fb4ddbb828","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-09-16 13:49:03"}
+{"message":"404 - Not Found","level":"\u001b[33mwarn\u001b[39m","timestamp":"2021-09-16 13:49:23"}
+{"message":"Session created received the id:d4401239-27a8-4200-b0dd-fe5ddf9c0dcf","level":"\u001b[34minfo\u001b[39m","timestamp":"2021-09-16 13:55:30"}
