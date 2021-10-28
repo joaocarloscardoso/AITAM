@@ -208,7 +208,7 @@
 				"result":"Result",
 				"findingNumber":"Finding number",
 				"findingDescription":"Description of the finding",
-				"recommendation":"Recommendation",
+				"recommendation":"Internal comments / Remarks",
 				"referenceLegalAct":"Reference to Legal Act",
 				"referenceReport":"Reference to the report",
 				"domainsAreasIssuesMap": "Domains, areas and issues map"

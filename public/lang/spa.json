@@ -208,7 +208,7 @@
 				"result":"Resultado",
 				"findingNumber":"Número de lo resultado de auditoría",
 				"findingDescription":"Descripción de lo resultado de auditoría",
-				"recommendation":"Recomendación",
+				"recommendation":"Comentarios / observaciones internas",
 				"referenceLegalAct":"Referencia a acto legal",
 				"referenceReport":"Referencia en el informe",
 				"domainsAreasIssuesMap": "Mapa de dominios, áreas y elementos"

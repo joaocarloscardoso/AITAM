@@ -208,7 +208,7 @@
 				"result":"Résultat",
 				"findingNumber":"Nombre de la constatations d'audit",
 				"findingDescription":"Description de la constatations d'audit",
-				"recommendation":"Recommandation",
+				"recommendation":"Commentaires internes / Remarques",
 				"referenceLegalAct":"Référence à l'acte juridique",
 				"referenceReport":"Référence dans le rapport",
 				"domainsAreasIssuesMap": "Carte des domaines, des zones et des éléments"
