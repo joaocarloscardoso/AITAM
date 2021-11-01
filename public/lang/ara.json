@@ -89,6 +89,10 @@
 			"name": "إنشاء نتائج التدقيق", 
 			"tooltip":""
 		},
+		"findingCloseCreateFinding": {
+			"name": "إغلاق وإنشاء أدلة التدقيق", 
+			"tooltip":""
+		},
 		"findingExecutiveSummary": {
 			"name": "ملخص تنفيذي", 
 			"tooltip":"يقوم هذا الخيار بإنشاء مستند معالجة نصوص يحتوي على الملخص التنفيذي"
@@ -99,6 +103,10 @@
 		},
 		"recommendationCreateRecommendation":{
 			"name":"إنشاء توصية",
+			"tooltip":""
+		},
+		"recommendationCloseCreateRecommendation":{
+			"name":"إغلاق وإنشاء التوصية",
 			"tooltip":""
 		},
 		"recommendationTrackReport":{
@@ -273,7 +281,18 @@
 				}
 			}
 		},
-		"analytics" : {},
+		"analytics" : {
+			"treemap" : {
+				"title" : "تدوين مخطط شجرة",
+				"noteTitle" : "ملحوظة:",
+				"noteDescription" : "يرجى مراعاة عدة عناصر ، مثل نوع الصور (بمثابة دلالات بصرية) ، والفروع ، والألوان ، والكلمات الرئيسية ، من أجل تسهيل هيكلة المعلومات واسترجاعها:",
+				"legendAudit" : "التدقيق ونقطة البداية لخريطة شجرة التدقيق",
+				"legendPlan" : "مجالات تكنولوجيا المعلومات المختارة والمجالات والقضايا ذات الصلة",
+				"legendFinding" : "وجدت النتائج ذات الصلة",
+				"legendRec" : "تمت صياغة التوصيات فيما يتعلق بالنتائج",
+				"actionNote" : "انقر فوق عقدة للحصول على مزيد من المعلومات."
+			}
+		},
 		"donwload" : {},
 		"close" : {}
 	},

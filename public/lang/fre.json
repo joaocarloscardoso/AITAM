@@ -89,6 +89,10 @@
 			"name": "Créer des preuves d'audit", 
 			"tooltip":""
 		},
+		"findingCloseCreateFinding": {
+			"name": "Fermer et créer des preuves d'audit", 
+			"tooltip":""
+		},
 		"findingExecutiveSummary": {
 			"name": "Résumé exécutif", 
 			"tooltip":"Cette fonctionnalité génère un document de traitement de texte contenant le résumé exécutif"
@@ -99,6 +103,10 @@
 		},
 		"recommendationCreateRecommendation":{
 			"name":"Créer une recommandation",
+			"tooltip":""
+		},
+		"recommendationCloseCreateRecommendation":{
+			"name":"Fermer et créer une recommandation",
 			"tooltip":""
 		},
 		"recommendationTrackReport":{
@@ -274,7 +282,18 @@
 				}
 			}
 		},
-		"analytics" : {},
+		"analytics" : {
+			"treemap" : {
+				"title" : "Carte de l'arborescence de l'audit",
+				"noteTitle" : "Noter:",
+				"noteDescription" : "Veuillez considérer plusieurs éléments, tels que le type d'images (agissant comme des signifiants visuels), les branches, les couleurs et les mots-clés, afin de faciliter la structuration et le rappel des informations:",
+				"legendAudit" : "L'audit et le point de départ d'une arborescence d'audit",
+				"legendPlan" : "Les domaines informatiques sélectionnés, les zones et les item respectifs",
+				"legendFinding" : "Les constatations d'audit pertinentes trouvées",
+				"legendRec" : "Les recommandations formulées, en lien avec les constats d'audit",
+				"actionNote" : "Cliquez sur un nœud pour obtenir plus d'informations."
+			}
+		},
 		"donwload" : {},
 		"close" : {}
 	},

@@ -89,6 +89,10 @@
 			"name": "Create finding", 
 			"tooltip":""
 		},
+		"findingCloseCreateFinding": {
+			"name": "Close and create finding", 
+			"tooltip":""
+		},
 		"findingExecutiveSummary": {
 			"name": "Executive summary", 
 			"tooltip":"This functionality generates a word processing document containing the Executive summary"
@@ -99,6 +103,10 @@
 		},
 		"recommendationCreateRecommendation":{
 			"name":"Create Recommendation",
+			"tooltip":""
+		},
+		"recommendationCloseCreateRecommendation":{
+			"name":"Close and create Recommendation",
 			"tooltip":""
 		},
 		"recommendationTrackReport":{
@@ -274,7 +282,18 @@
 				}
 			}
 		},
-		"analytics" : {},
+		"analytics" : {
+			"treemap" : {
+				"title" : "Audit Tree Map",
+				"noteTitle" : "Note:",
+				"noteDescription" : "Please consider several elements, such as the images type (act as visual signifiers), branches, colors and keywords, in order to make it easier to structure and recall information:",
+				"legendAudit" : "The audit and the starting point of an audit tree map",
+				"legendPlan" : "The selected IT domains, respective areas and issues",
+				"legendFinding" : "The relevant findings found",
+				"legendRec" : "The recommendations formulated, in relation with findings",
+				"actionNote" : "Click on a node to obtain more information."
+			}
+		},
 		"donwload" : {},
 		"close" : {}
 	},

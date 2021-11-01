@@ -89,6 +89,10 @@
 			"name": "Crear evidencia de auditoría", 
 			"tooltip":""
 		},
+		"findingCloseCreateFinding": {
+			"name": "Cerrar y crear evidencia de auditoría", 
+			"tooltip":""
+		},
 		"findingExecutiveSummary": {
 			"name": "Resumen ejecutivo", 
 			"tooltip":"Esta funcionalidad genera un documento de procesamiento de texto que contiene el resumen ejecutivo"
@@ -99,6 +103,10 @@
 		},
 		"recommendationCreateRecommendation":{
 			"name":"Crear recomendación",
+			"tooltip":""
+		},
+		"recommendationCloseCreateRecommendation":{
+			"name":"Cerrar y crear recomendación",
 			"tooltip":""
 		},
 		"recommendationTrackReport":{
@@ -274,7 +282,18 @@
 				}
 			}
 		},
-		"analytics" : {},
+		"analytics" : {
+			"treemap" : {
+				"title" : "Mapa de árbol de la auditoría",
+				"noteTitle" : "Nota:",
+				"noteDescription" : "Considere varios elementos, como el tipo de imágenes (actúan como significantes visuales), ramas, colores y palabras clave, para que sea más fácil estructurar y recordar la información:",
+				"legendAudit" : "La auditoría y el punto de partida de un mapa de árbol de auditoría",
+				"legendPlan" : "The selected IT domains, respective areas and issues",
+				"legendFinding" : "Los resultados relevantes encontrados",
+				"legendRec" : "Las recomendaciones formuladas, en relación con los resultados",
+				"actionNote" : "Haga clic en un nodo para obtener más información."
+			}
+		},
 		"donwload" : {},
 		"close" : {}
 	},

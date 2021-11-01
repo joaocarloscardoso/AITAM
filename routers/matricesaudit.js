@@ -95,10 +95,10 @@ matricesaudit.get('/findingMatrix',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang);
+        var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang, req.query.number);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
-            operation: 'finding_matrix',
+            operation: 'finding_matrix', 
             source: req.query.src,
             AuditErrors: '',
             Matrix: FindingMatrix,
@@ -186,7 +186,7 @@ matricesaudit.get('/recMatrix',function(req,res){
     //console.log(req.session.passport.user);
 
     if (status) {
-        var RecommendationMatrix = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id, req.session.lang);
+        var RecommendationMatrix = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id, req.session.lang, req.query.number);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
             operation: 'audit_recommendations',

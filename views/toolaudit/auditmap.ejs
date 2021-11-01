@@ -25,8 +25,29 @@
                                 <section id="contact" class="col-6 col-12-narrower">
                                     <header>
                                         <h2></h2>
-                                        <h2>Audit Tree Map</h2>
-                                        <p>Click on a node to obtain more information.</p>
+                                        <h2><%=appAudit.analytics.treemap.title %></h2>
+                                        <table>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <b><%=appAudit.analytics.treemap.noteTitle %></b><br/>
+                                                    <%=appAudit.analytics.treemap.noteDescription %>
+                                                    <br/>&nbsp;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="60px"><img src="../images/treemap_audit.png"></td><td style="vertical-align: middle;"><%=appAudit.analytics.treemap.legendAudit %></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="60px"><img src="../images/treemap_plan.png"></td><td style="vertical-align: middle;"><%=appAudit.analytics.treemap.legendPlan %></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="60px"><img src="../images/treemap_finding.png"></td><td style="vertical-align: middle;"><%=appAudit.analytics.treemap.legendFinding %></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="60px"><img src="../images/treemap_rec.png"></td><td style="vertical-align: middle;"><%=appAudit.analytics.treemap.legendRec %></td>
+                                            </tr>
+                                        </table><p>&nbsp;</p>
+                                        <p><%=appAudit.analytics.treemap.actionNote %></p>
                                     </header>
                                     <div id="mynetwork"></div>
                                 </section>
