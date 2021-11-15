@@ -481,6 +481,8 @@ generatedocs.get('/heatmatrix',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        Excel.GenerateRawData(NewAuditFile, req.session.lang);
+        
         var heatdata = Docs.LoadPlanHeatMatrix(NewAuditFile, req.session.lang);
         res.render('toolaudit/heatmatrix', {
             action: 'heatmatrix',
