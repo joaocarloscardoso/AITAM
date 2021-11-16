@@ -29,7 +29,8 @@
 				"hints": "تلميحات",
 				"findings_analysis": "تحليل النتائج",
 				"sentiment_analysis_findings":"تحليل الآراء للنتائج",
-				"recommendations_tracking":"متابعة التوصيات"
+				"recommendations_tracking":"متابعة التوصيات",
+				"raw_data":"تصدير بيانات التحليلات"
 			},
 			"download":"تحميل",
 			"close":"أغلاق ملف التدقيق"

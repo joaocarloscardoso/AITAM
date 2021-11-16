@@ -29,7 +29,8 @@
 				"hints": "Conseils",
 				"findings_analysis": "Analyse des résultats",
 				"sentiment_analysis_findings":"Analyse des sentiments sur les résultats",
-				"recommendations_tracking":"Suivi des recommandations"
+				"recommendations_tracking":"Suivi des recommandations",
+				"raw_data":"Exporter des données d'analyse"
 			},
 			"download":"Télécharger",
 			"close":"Fermer le fichier d'audit"
