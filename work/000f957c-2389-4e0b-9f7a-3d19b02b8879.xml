@@ -749,7 +749,7 @@
 organization in order to fulfill the organization’s mission.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Defining IT requirements"/>
 						<tx l="pol" name="Zarządzanie wymaganiami"/>
@@ -842,7 +842,7 @@ Intervistimi i menaxhimit ose personave të tjerë përgjegjës për aprovimin e
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
+				<Issue nr="02" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Leadership"/>
 						<tx l="pol" name="Kierownictwo"/>
@@ -912,7 +912,7 @@ Review project status reports (or other documentation that has the status of the
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="03" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
+				<Issue nr="03" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
 					<title>
 						<tx l="eng" name="IT Investments"/>
 						<tx l="alb" name="Investimet e IT"/>
@@ -1008,7 +1008,7 @@ Intervistimi i menaxhmit për të përcaktuar nëse organizata merr vendime mbi 
 						<ak>The IT Strategy represents the mutual alignment between IT strategy and business strategic objectives. The IT strategic objectives should consider the current and future needs of the business, the current IT capacity to deliver services and the requirement of resources.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Quality of IT strategy"/>
 						<tx l="alb" name="Konfirmimi nëse ekziston një strategji IT, e cila përfshin plan IT dhe proçeset për zhvillimin, aprovimin, dhe zbatimin dhe mirëmbajtjen e strategjisë, e cila është e lidhur me strategjinë dhe objektivat e organizatës. Risqet dhe burimet gjatë përmbushjes së objektivave të IT janë të menaxhuara efektivisht."/>
@@ -1084,7 +1084,7 @@ Rishikimi i Strategjisë së IT ose intervistimi i menaxhimit për të përcaktu
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
+				<Issue nr="02" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Risk management"/>
 						<tx l="alb" name="Menaxhimi i riskut"/>
@@ -1170,7 +1170,7 @@ Intervistimi i menaxhimit ose rishikim i proçesverbaleve për të përcaktuar n
 						<ak>Organisational structures are a key element of IT governance in articulating roles of the various management and governance bodies across the business and decision making. They should assign clearly defined delegation for decision making and performance monitoring. Organisational structures must be supported with appropriate standards, policies and procedures which should enhance decision making capacity.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Structure of the IT Organization"/>
 						<tx l="alb" name="Struktura e organizmit IT "/>
@@ -1236,7 +1236,7 @@ Rishikim i grafikut të organizmit të IT për të përcaktuar nëse është i p
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
+				<Issue nr="02" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Policy and procedures"/>
 						<tx l="alb" name="Politikat dhe proçedurat"/>
@@ -1354,7 +1354,7 @@ Rishikim i politikave për të përcaktuara saktësi duke parë për (si shembul
 						<ak>The human resource (HR) policy deals with the hiring, training, job termination and other functions of the HR organization. It deals with roles and responsibilities of various personnel within the organization as well as the requisite skill or training they are required to possess to carry out their duties.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
 					<title>
 						<tx l="eng" name="HR and logistics"/>
 						<tx l="alb" name="Burimet njerëzore dhe logjistika"/>
@@ -1449,7 +1449,7 @@ Rishikim i politikave për të përcaktuara saktësi duke parë për (si shembul
 						<ak>The management of IT risks should form an integral part of the company’s risk management strategy and policies. Organizations need to have a compliance mechanism that ensures that all the policies and associated procedures are being followed.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Mechanism"/>
 						<tx l="alb" name="Mekanizmat"/>
@@ -1550,7 +1550,7 @@ Rishikim  i mekanizmave të trajnimit ose të tjerë (emaile, memo, njoftime) p�
 						<ak>The purpose of continuity management is to maintain the appropriate on-going business continuity requirements. The IT organization accomplishes this by setting recovery time targets for the various IT components that support the business processes based on agreed to needs and requirements.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Key parameters"/>
 						<tx l="alb" name="Parametrat kryesorë"/>
@@ -1625,7 +1625,7 @@ Intervistim i një kampjoni përdoruesish për të kuptuar ndërgjegjësimin.
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Compliance"/>
 						<tx l="alb" name="Përputhshmëria"/>
@@ -1720,7 +1720,7 @@ Kontrolli nëse veprimet janë ndërmarrë nga njësia e IT, ose në rast të gr
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="03" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="03" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Effectiveness"/>
 						<tx l="alb" name="Efektivitetit"/>
@@ -1802,7 +1802,7 @@ Kontrolli nëse parametrat e SLA-s rishikohen periodikisht nga menaxhimi dhe në
 keeps up with the demands of the business or users. In order to manage capacity the IT organization needs to measure current conditions and needs to take action that facilitates providing users with additional capacity, for example by acquiring additional processing power when certain parameters are crossed.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Agree to parameters"/>
 						<tx l="alb" name="Aprovimi i parametrave"/>
@@ -1866,7 +1866,7 @@ Krahasimi i parametrave bazë të performancës (gadishmëria e burimeve në rrj
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Monitoring"/>
 						<tx l="alb" name="Monitorimi"/>
@@ -1920,7 +1920,7 @@ Krahasimi i parametrave bazë të performancës (gadishmëria e burimeve në rrj
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="03" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="03" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Analyze And tune"/>
 						<tx l="alb" name="Analiza dhe rakordimi"/>
@@ -1998,7 +1998,7 @@ Rishikim i procesverbaleve të mbledhjeve dhe observimi nëse çështjet e perso
 						<ak>Incident management is the systems and practices used to determine whether incidents or errors are recorded, analysed and resolved in a timely manner. Problem management aims to resolve issues through investigation and in depth analysis of a major or recurring incidents in order to identify the root cause.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Policy awareness"/>
 						<tx l="alb" name="Ndërgjegjësimi ndaj politikave"/>
@@ -2069,7 +2069,7 @@ Intervista me një kampjon përdoruesisht të biznesit në organizatë për të 
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Skill sets and resources"/>
 						<tx l="alb" name="Përcaktimi i aftësive dhe burimeve"/>
@@ -2162,7 +2162,7 @@ Verifikimi nëse orgnizata ka hartuar standarde logimi dhe procedura për tu sig
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Effectiveness of response"/>
 						<tx l="alb" name="Efektiviteti i përgjigjes"/>
@@ -2259,7 +2259,7 @@ Kontrolli nëse grupi i përgjigjes ndaj incidenteve regjistron të gjitha incid
 						<ak>The change management process is normally used to manage and control changes to assets, such as software, hardware, and related documentation. Change controls are needed to ensure that all changes to systems configurations are authorized, tested, documented and controlled so that the systems continue to support business operations in the manner planned and that there is an adequate trail of changes.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Policy"/>
 						<tx l="alb" name="Politikat"/>
@@ -2363,7 +2363,7 @@ Sigurohuni se ndryshimet në program janë të përshtatshme dhe të aprovuara k
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="02" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Fallback procedures"/>
 						<tx l="alb" name="Procedurat e emergjencës"/>
@@ -2436,7 +2436,7 @@ Evaluation of procedures for reviewing and correcting data in the suspension fil
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="03" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="03" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Emergency changes"/>
 						<tx l="alb" name="Ndryshimet emergjente"/>
@@ -2505,7 +2505,7 @@ Kërkoni një shembull të ndryshimeve emergjente. Bëni krahasime me procedurat
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="04" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="04" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Change closure and documentation"/>
 						<tx l="alb" name="Dokumentimi dhe mbyllja e ndryshimeve"/>
@@ -2595,7 +2595,7 @@ Ekzaminim nëse ekzistojnë mekanizmat për përditësimin e proceseve të bizne
 						<ak>For any project development or acquisition the organization needs to document the requirements of what they want and to manage those requirements. Managing requirements includes prioritizing them utilizing adopted criteria (for example criticality, cost, and complexity) and segmenting them into phases if they all cannot be implemented in one initial system.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Identify user requirements for IT Systems"/>
 						<tx l="alb" name="Identifikoni kërkesat e përdoruesit për sistemet  TI"/>
@@ -2663,7 +2663,7 @@ Rishikim i kampjoneve të kërkesave për t’u siguruar se ekziston një rishik
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Analyze, prioritize, and manage user requirements"/>
 						<tx l="alb" name="Analizoni, prioritizoni dhe menaxhoni kërkesat e përdoruesit"/>
@@ -2754,7 +2754,7 @@ Rishikim i kritereve për prioritarizimin e kërkesave për të vlerësuar nëse
 						<ak>Project management includes defining the project plan and control activities. Project management includes defining cost and schedule baseline, defining project schedules, and involving stakeholders for key activities. Project control involves supervision and periodic reporting to take corrective actions when the performance of the project is not in accordance with the plan.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Plan for the development or acquisition of IT projects"/>
 						<tx l="alb" name="Plani për zhvillimin ose blerjen e projekteve të TI"/>
@@ -2821,7 +2821,7 @@ Intervista me menaxherët e projektit për të përcaktuar cila metodë SDLC ës
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Control IT projects"/>
 						<tx l="alb" name="Kontrolli i projekteve të TI"/>
@@ -2904,7 +2904,7 @@ Rishikim i SLA së kontraktorit ose kontratave të tjera për tu siguruar se jan
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="03" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="03" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Project related risk management"/>
 						<tx l="alb" name="Menaxhimi i riskut lidhur me projektin"/>
@@ -2990,7 +2990,7 @@ Rishikim i procesverbaleve të mbledhjeve për tu siguruar se risqet diskutohen 
 						<ak>Quality assurance provides project staff and management insight into the interim and final work products quality and functionality. Quality assurance staff should periodically evaluate the work products to see that they meet the organization's documented quality standards. Agencies need to verify that the developed or acquired product meets the requirements, meets the acceptance criteria and has undergone testing with user and stakeholder involvement.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Quality assurance organization"/>
 						<tx l="alb" name="sigurimit të cilësisë se organizatës"/>
@@ -3069,7 +3069,7 @@ Rishikim i raporteve të strukturës së sigurimit të cilësisë për të përc
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Plan for and conduct testing on IT systems"/>
 						<tx l="alb" name="Plani dhe testimi i sistemeve të TI"/>
@@ -3161,7 +3161,7 @@ Rishikim i SLA-s ose kontratë tjetër për tu siguruar se janë duke u ndjekur 
 						<ak>Solicitation is the process of documenting the requirements of the business and collecting other references materials that will assist the vendor in providing the IT solution. It includes generating the solicitation package and putting it out for bid, getting proposals and making a selection among the various vendors.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Plan or procedure of solicitation activities"/>
 						<tx l="alb" name=" Plani ose procedura e dokumentimit të kërkesave"/>
@@ -3242,7 +3242,7 @@ Intervista me punonjësit e hartimit të kontratës për të vlerësuar sesi ata
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="02" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Selecting a vendor"/>
 						<tx l="alb" name="Përzgjedhja e Operatorit Ekonomik"/>
@@ -3319,7 +3319,7 @@ Rishikim i matricës së pikëzimit të furnizuesve ose element tjetër ekuivale
 						<ak>Configuration Management is used to ensure that the integrity of documents, software and other descriptive or support materials that are part of the system are maintained. Changes to these materials are managed and baselines (or versions) are established such that the organization is able to revert back to known and tested versions as needed.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Policy for configuration management"/>
 						<tx l="alb" name="Politika për menaxhimin e konfigurimit"/>
@@ -3384,7 +3384,7 @@ Intervista me personelin përgjegjës për menaxhimin e konfigurimit nëse nuk e
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+				<Issue nr="02" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; " RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Responsibility for authorizing changes"/>
 						<tx l="alb" name="Përgjegjësia për autorizimin e ndryshimeve"/>
@@ -3475,7 +3475,7 @@ Intervista me personelin përgjegjës për autorizimin e ndryshimeve në sistemi
 						<ak>Organizations need to have some policy which defines what functions can be outsourced and which functions must remain in-house. Typically organizations outsource routine IT operations, maintenance and even desktop hardware platforms.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; " RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Policy on outsourcing"/>
 						<tx l="alb" name="Politika për marrjen e sherbimeve nga jashtë"/>
@@ -3581,7 +3581,7 @@ Rishikim të dokumenteve për të vlerësuar se politikat përfshijnë identifik
 						<ak>Solicitation is the process of documenting the requirements of the system and collecting other references materials that will assist vendor in building the system. It includes generating the solicitation package and putting it out for bid, getting proposals and making a selection among the various vendors.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Policy on acquisition"/>
 						<tx l="alb" name="Politika për blerjet"/>
@@ -3681,7 +3681,7 @@ Zhvilloni takime me zyrën e kontraktuar për tu siguruar se niveli i duhur i me
 						<ak>Vendor management is a key element of outsourcing to ensure that the services are rendered according to the expectations of the client. The audited entity should have processes in place to ensure periodic follow up of the status of the project, quality of service, witnessing testing of built products prior to introduction into the operational environment, etc.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Vendor or Contractor Monitoring"/>
 						<tx l="alb" name="Monitorimi i Furnizuesit ose Kontraktuesit"/>
@@ -3772,7 +3772,7 @@ Rishikim të raporteve të monitorimit për të identifikuar defiçencat e shër
 						<ak>Privacy and also other security concerns would include possible mishandling or disclosure of sensitive data, unauthorised access to data and applications and disaster recovery plan.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Data Rights"/>
 						<tx l="alb" name="Të drejtat mbi të dhënat"/>
@@ -3877,7 +3877,7 @@ Rishikim të marrëveshjeve jo të mbyllura për të verifikuar se i gjithë inf
 						<ak>Employing overseas service provider is a common form of outsourcing, especially in a cloud computing environment. In this scenario, the risks to such outsourcing would involve foreign regulations on information storage and transfer may limit what can be stored and how it can be processed, data may be used by law enforcement of foreign country without the knowledge of the organisation, privacy and security standards may not always be commensurate and disputes because of the different legal jurisdiction cannot be totally avoided.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Overseas Service Provider"/>
 						<tx l="alb" name="Ofruesit e jashtëm të Shërbimit"/>
@@ -3994,7 +3994,7 @@ Rishikim i dokumenteve për të vlerësuar se çdo devijim nga SLA dhe kontrata 
 						<ak>There is an inherent risk of loss of business knowledge which resides within the developers of applications. If the vendor for some reason in unable to provide this service, Government IT organizations must be ready to assume this duty again.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Retaining Business Knowledge"/>
 						<tx l="alb" name="Të drejta mbi mbajtjen e njohurive të biznesit"/>
@@ -4093,7 +4093,7 @@ Rishikim të procesverbaleve të mbajtura gjatë mbledhjeve me kontraktorët pë
 						<ak>Generally audited entities outsource to realize cost savings. These are achieved when the cost to provide these services are cheaper from a vendor than utilizing in-house labor and or infrastructure.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Cost control and management"/>
 						<tx l="alb" name="Kontrolli dhe menaxhimi i kostos së sherbimeve nga jashtë"/>
@@ -4199,7 +4199,7 @@ Rishikim të veprimeve nga organizata në kostot shtesë/ të përshkallëzuara 
 SLA should define the services the vendor is expected to perform as well as the technical parameters for those services since it is a legally binding agreement between the vendor and the organization.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Service Level Agreement"/>
 						<tx l="alb" name="Marrëveshja e nivelit të shërbimit"/>
@@ -4288,7 +4288,7 @@ Verifikim të veprimeve të ndërmarrë nga organizata për shmangiet nga SLA.
 						<ak>While outsourcing databases and its administration, IT organizations must evaluate whether vendors have sufficiently robust security practices and if vendors can meet the security requirements, internally.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; " RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Medium;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Identified security requirements"/>
 						<tx l="alb" name="Kërkesat e identifikuara të sigurisë ne MNSH"/>
@@ -4377,7 +4377,7 @@ Verifikim nëse organizata merr raporte të rrgullta dhe akte mbi informacionin 
 plans as required in the contract or service level agreement.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Medium;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Back up and disaster recovery for outsourced services"/>
 						<tx l="alb" name="Backup (BCP) dhe rimëkëmbja nga katastrofat (DRP) për shërbimet e  e kontraktuara"/>
@@ -4471,7 +4471,7 @@ Rishikim të raporteve periodike për tu siguruar se procedurat janë përditës
 						<ak>Risk assessment is the process of identification, analysis, and evaluating risks in the IT Security infrastructure.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Assessment Mechanism"/>
 						<tx l="alb" name="Mekanizmat e vlerësimit"/>
@@ -4534,7 +4534,7 @@ In case of lack of the formal procedures and documents on risk assessment, do no
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Coverage"/>
 						<tx l="alb" name="Mbulimi"/>
@@ -4595,7 +4595,7 @@ Review incidence response reports and earlier risk documents/ registers to exami
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Mitigation"/>
 						<tx l="alb" name="Reduktimi"/>
@@ -4669,7 +4669,7 @@ Take into account that problem/incident reports may be incomplete in some cases.
 						<ak>The organization’s security policy is the set of laws, rules, and practices that regulate how an organization manages, protects, and distributes resources to achieve specified security objectives.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Information Security Policy"/>
 						<tx l="alb" name="Politikat e sigurisë së informacionit"/>
@@ -4750,7 +4750,7 @@ Checks whether tasks that are critical to Information Security are well defined 
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="02" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Confidentiality"/>
 						<tx l="alb" name="Konfidencialiteti"/>
@@ -4844,7 +4844,7 @@ Kontrolloni nëse kanë ndodhur shkelje të sigurisë së informacionit nga kont
 						<ak>Organization of the IT security implies implementing the security policy for the entity. This could be the work given to a unit or an individual, who work with the IT organization to acquire appropriate tools and implement the right processes which implement the security policy.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Structure"/>
 						<tx l="alb" name="Struktura"/>
@@ -4914,7 +4914,7 @@ Kontrolloni sesi menaxhimi i lartë mban një nivel të përshtatshëm të inter
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Coordination"/>
 						<tx l="alb" name="Koordinimi"/>
@@ -4989,7 +4989,7 @@ Rishikim të proceseve për të kontrolluar nëse ekzistojnë procedura të hart
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Cybersecurity Organization"/>
 					</title>
@@ -5064,7 +5064,7 @@ Check to see whether failure and or indecent reports with respect to security ar
 						<ak>An organization needs to keep track of the process and procedures it uses for its business operations. It includes the set of organizational procedures and processes that ensure the correct processing of data in the organization. This includes documenting procedures for media and data handling, emergency procedures, network security logging and backup procedures.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Policy and procedures"/>
 						<tx l="alb" name="Politikat dhe procedurat"/>
@@ -5127,7 +5127,7 @@ Examine whether mechanisms exist to update the institution&apos;s processes for 
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Network control and Cybersecurity Monitoring"/>
 					</title>
@@ -5190,7 +5190,7 @@ Review logs of network activity to ensure it is being conducted in accordance wi
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Configuration Management"/>
 						<tx l="alb" name="Menaxhimi i konfigurimit"/>
@@ -5263,7 +5263,7 @@ Ensure that the tools are current (by looking at publisher version numbers) and 
 						<ak>Asset management, broadly defined, refers to any system whereby things that are of value to an entity or group are monitored and maintained. Asset management is a systematic process of operating, maintaining, upgrading, and disposing of assets cost-effectively.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Low; ">
+				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Low; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Low; ">
 					<title>
 						<tx l="eng" name="Assets Management"/>
 						<tx l="alb" name="Menaxhimi i aseteve"/>
@@ -5351,7 +5351,7 @@ Rishikim të procedurave për dispozitat e aseteve dhe për nivelin e mbikëqyrj
 						<ak>Employees handling personal data in an organization need to receive appropriate awareness training and regular updates in an effort to safeguard the data entrusted to them. Appropriate roles and responsibilities assigned for each job description need to be defined and documented in alignment with the organization's security policy.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Staff Awareness and Responsibility"/>
 						<tx l="alb" name="Ndërgjegjësimi dhe përgjegjshmëria e punonjësve"/>
@@ -5429,7 +5429,7 @@ Check whether IT staffing policies, transfer and turnover, as well as terminatio
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Training"/>
 						<tx l="alb" name="Trajnimi"/>
@@ -5501,7 +5501,7 @@ Inspect the policy for determining training requirements. Confirm that the train
 						<ak>Describes measures that are designed to prevent theft or damage of IT hardware, unauthorized access, detecting cyber intrusion, and the copying or viewing of sensitive information; and guidance on how to design infrastructures to resist potentially hostile acts.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Premises safety"/>
 						<tx l="alb" name="Siguria e objekteve"/>
@@ -5565,7 +5565,7 @@ Review alerts and or appraise how they are reported and responded to.
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Physical access"/>
 						<tx l="alb" name="Aksesi fizik"/>
@@ -5643,7 +5643,7 @@ Any changes to the end user platform (i.e., attempting to install software, atte
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Intrusion defense"/>
 						<tx l="alb" name="Mbrojtja nga ndërhyrjet"/>
@@ -5720,7 +5720,7 @@ Check if the organization has a clear desk or clean screen policy to prevent una
 						<ak>Access control refers to exerting control over who can interact with a resource. Often but not always, this involves an authority, who does the controlling. The resource can be a given building, group of buildings, or computer-based IT system.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Access policy"/>
 						<tx l="alb" name="Politikat e aksesit"/>
@@ -5800,7 +5800,7 @@ Përzgjidhni një kampion përdoruesish dhe llogari sistemi për të përcaktuar
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Privileges management"/>
 						<tx l="alb" name="Menaxhimi i privilegjeve"/>
@@ -5901,7 +5901,7 @@ Disaster recovery planning (DRP) is the process of planning and testing for reco
 						<ak>An effective continuity planning starts with the establishment of an organization’s business continuity policy. The business continuity management team representing all appropriate business functions also plays an important role to the success of the organisation’s business continuity plan. The Business Continutiy Planning policy statement should define the organisation’s overall continuity objectives and establish the organisational framework and responsibilities for continuity planning.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Contingency plan and policy for business continuity"/>
 						<tx l="alb" name="Plani dhe politika e kontigjencës për vazhdimësinë e biznesit"/>
@@ -5996,7 +5996,7 @@ Rishikim të politikave për të përcaktuar se nga kush janë aprovuar dhe kur 
 business functions. Senior management and other related officials must support a continuity program and be associated with the process of developing the policy.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Business continuity team or equivalent function"/>
 						<tx l="alb" name="Ekipi i vazhdimësisë së biznesit ose funksioni ekuivalent"/>
@@ -6086,7 +6086,7 @@ Intervista me një kampjon të personelit në grupin e vazhdimësisë së biznes
 						<ak>Organisation determines which are the most critical and what resources are needed to recover and support them. This is carried out by carrying out a risk assessment, identifying probable threats and their impacts to the organisation’s information and related resources like data and application software, and operations.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Business impact and risk assessments"/>
 						<tx l="alb" name="Ndikimi (impakti) në biznez dhe vlerësimiet e rrezikut (riskut)"/>
@@ -6194,7 +6194,7 @@ Rishikim të dokumenteve për të vlerësuar se palët e interesuara janë të p
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Risk management process"/>
 						<tx l="alb" name="Procesi i menaxhimit të rrezikut (riskut)"/>
@@ -6293,7 +6293,7 @@ Rishikim të procesverbaleve të mbledhjeve, ose të listës së risqeve për t�
 						<ak>Environmental controls prevent or mitigate potential damage to facilities and interruptions in service.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Environment control mechanism"/>
 						<tx l="alb" name="Mekanizmi i kontrollit të mjedisit"/>
@@ -6397,7 +6397,7 @@ Rishikim të dokumenteve për të vlerësuar se personeli përgjegjës është t
 						<ak>A disaster recovery plan should be developed for restoring critical applications; this includes arrangements for alternative processing facilities in case the usual facilities are significantly damaged or cannot be accessed.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Data and program back up procedures"/>
 						<tx l="alb" name="Procedurat e backup  të të dhënave dhe programeve"/>
@@ -6494,7 +6494,7 @@ Document review to assess that backup procedures are implemented minimizing time
 						<ak>Disaster recovery plans should be documented, agreed on by both business and information security departments, and communicated to affected staff.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Testing the BCP and DRP"/>
 						<tx l="alb" name="Testimi i planit të vazhdimësisë së punës dhe planit të  rikuperimit ndaj  fatkeqësive( BCP, DRP)"/>
@@ -6590,7 +6590,7 @@ Intervista me një kampjon punonjësis për të vlerësuar nëse procedurat e ri
 						<ak>Testing continuity plans is essential to determine whether they will function as intended in an emergency situation. Testing will reveal important weaknesses in the plans, such as backup facilities that could not adequately replicate critical operations as anticipated.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 					<title>
 						<tx l="eng" name="Data, application software, hardware and data centre are secured"/>
 						<tx l="alb" name="Testimi I të dhënave, aplikacioneve, paisjeve dhe qendres së dhënave per siguri gjate BCP dhe DRP"/>
@@ -6686,7 +6686,7 @@ Rishikim të dokumenteve për të vlerësuar se rekomandimet e testimeve janë n
 						<ak>The security of the resources and operations should be inbuilt in the business continuity plan as the critical data, application software, operations and resources stand to be compromised easily during any instance of disaster or a business continuity management activity.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Outsourced service provider ensures BCP and DRP"/>
 						<tx l="alb" name="Të dhënat, aplikacionet, hardueri dhe qendra e të dhënave janë të siguruara"/>
@@ -6797,7 +6797,7 @@ Verifikim nëse kanë ndodhur thyerje të sigurisë nëprmjet ekzaminimit të re
 						<ak>The objectives of the input controls are to validate and authenticate the acts of source data preparation, authorisation and entry so that accurate, reliable and complete data is accepted by the application in a timely manner.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; ">
+				<Issue nr="01" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Adequate input validation controls"/>
 						<tx l="alb" name="Kontrolle të mjaftueshme të validimit të inputeve"/>
@@ -6889,7 +6889,7 @@ Përcaktoni se cilat ndërveprime ekzistojnë me aplikacionin. Këto ndërveprim
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; ">
+				<Issue nr="02" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Management of source documents, data collection and entry"/>
 						<tx l="alb" name="Menaxhimi i burimit te dokumenteve, mbledhja dhe hyrja e të dhënave "/>
@@ -6977,7 +6977,7 @@ Intervistoni personelin përgjegjës mbi politikat e ruajtjes. Verifikoni sesi k
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="03" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; ">
+				<Issue nr="03" RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; " RiskWeight="2" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Adequate procedures for error handling"/>
 						<tx l="alb" name="Procedurat adekuate për trajtimin e gabimeve"/>
@@ -7047,7 +7047,7 @@ Intervistoni menaxherët mbi ekzistencën e procedurave të rishikimit periodik 
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="04" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; ">
+				<Issue nr="04" RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; " RiskWeight="2" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Medium; ">
 					<title>
 						<tx l="eng" name="Management of data entry authorization into the application"/>
 						<tx l="alb" name="Menaxhimi i autorizimit për regjistrimin e të dhënave në aplikacion"/>
@@ -7129,7 +7129,7 @@ Përcaktoni nëse tabela e ndarjes së detyrave ekziston dhe rishikoni për ndar
 						<ak>The objective of processing control measures is to protect data integrity, validity and reliability and guard against processing errors throughout the transaction processing cycle - from the time data is received from the input subsystem to the time data is dispatched to the database, communication, or output subsystem.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
+				<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
 					<title>
 						<tx l="eng" name="Mapping the business processes rules and requirements"/>
 						<tx l="alb" name="Pasqyrimi i rregullave dhe kërkesave të proceseve të biznesit"/>
@@ -7205,7 +7205,7 @@ Për transaksionet kritike, vendosni një sistem testimi që operon si sistemi l
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
+				<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; " RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
 					<title>
 						<tx l="eng" name="Application controls"/>
 						<tx l="alb" name="Kontrollet e aplikacioneve"/>
@@ -7301,7 +7301,7 @@ Verifikoni nëse dosjet e pezullimit prodhohen në mënyrë korrekte dhe konsist
 						<ak>The objectives of output controls are measures built into the application to ensure that transaction output is complete, accurate and correctly distributed.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
+				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; " RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
 					<title>
 						<tx l="eng" name="Assessment of application"/>
 						<tx l="alb" name="Vlerësimi i aplikacionit"/>
@@ -7382,7 +7382,7 @@ Përzgjidhni një kampion të raporteve të outputit, dhe testoni arsyeshmërin�
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
+				<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; " RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
 					<title>
 						<tx l="eng" name="Output data properly protected"/>
 						<tx l="alb" name="Të dhënat e Output mbrohen siç duhet"/>
@@ -7462,7 +7462,7 @@ Rishikim i mënyrës së shpërndarjes të informacionit kritik dhe verifikimi n
 						<ak>Application security is concerned with maintaining confidentiality, integrity and availability of information at the application layer.</ak>
 					</narr>
 				</Narrative>
-				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
+				<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; " RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
 					<title>
 						<tx l="eng" name="Traceability mechanisms"/>
 						<tx l="alb" name="Mekanizmat e gjurmimit për keqpërdorime"/>
@@ -7535,7 +7535,7 @@ Verifikoni, nëse është e mundur, duke përdorur mbledhje automatike të evide
 						</Conclusion>
 					</Matrix>
 				</Issue>
-				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
+				<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - High; " RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - High; ">
 					<title>
 						<tx l="eng" name="Application data properly protected"/>
 						<tx l="alb" name="Të dhënat e aplikacionit të mbrojtura siç duhet"/>
@@ -7715,7 +7715,7 @@ In addition, the lack of reviewing user’s access rights on a periodic basis in
 			<quote type="description">The organization must have a plan for the continuity of the information system, which enables it to continue its activities. In order to realize this plan, the organization must identify the main processes of the organization's work, and the time of reaction, return and period of losses must be determined. In order to have an effective business continuity plan, the organization must define an organizational structure for the recovery of information systems in case of activation of this plan and it must test it in certain periods to verify whether it can restore its work processes in case of any natural disaster or system failure. </quote>
 			<quote type="recommendation"/>
 		</Case>
-	<Case nr="F20211101-101935" nm="sfdsf" eff="fsdfsdf" act="sdfsd" doc="sfsd" Include="Yes" number="24" name="sfs"><cts source="AITAM" domain="02 IT Operations" area="04 Change Management" issue="02 Fallback procedures"/><quote type="description">sdfdf</quote><quote type="recommendation">sdfds</quote></Case></Cases>
+	</Cases>
 	<Recommendations>
 		<Recommendation nr="R20200513-163510" priority="Urgent" risk="Governance" riskevaluation="State" accepted="Yes" repeated="No" importance="Strategic" category="(Not defined yet)" number="1">
 			<quote type="description">Ensure that the Tax Administration of Kosovo has information systems configured in accordance with the legal requirements of taxes, and it gives importance to information security to ensure the continuity and availability of systems in order to enable secure and uncompromising data;</quote>
