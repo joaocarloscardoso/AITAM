@@ -46,7 +46,7 @@
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.5",
     "xml2js": "^0.4.23",
-    "xmldom": "^0.1.1",
+    "xmldom": "^0.6.0",
     "xmlserializer": "^0.6.1",
     "xpath": "0.0.32"
   },
