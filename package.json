@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@xmldom/xmldom": "^0.8.0",
     "axios": ">=0.24.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.1",
@@ -46,7 +47,6 @@
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.5",
     "xml2js": "^0.4.23",
-    "xmldom": "^0.6.0",
     "xmlserializer": "^0.6.1",
     "xpath": "0.0.32"
   },
