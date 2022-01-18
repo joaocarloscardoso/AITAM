@@ -30,7 +30,8 @@
 				"findings_analysis": "تحليل النتائج",
 				"sentiment_analysis_findings":"تحليل الآراء للنتائج",
 				"recommendations_tracking":"متابعة التوصيات",
-				"raw_data":"تصدير بيانات التحليلات"
+				"raw_data":"تصدير بيانات التحليلات",
+				"procedure_data":"تصدير الإجراءات"
 			},
 			"download":"تحميل",
 			"close":"أغلاق ملف التدقيق"

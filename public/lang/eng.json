@@ -30,7 +30,8 @@
 				"findings_analysis": "Findings analysis",
 				"sentiment_analysis_findings":"Sentiment analysis on findings",
 				"recommendations_tracking":"Recommendations tracking",
-				"raw_data":"Export analytics data"
+				"raw_data":"Export analytics data",
+				"procedure_data":"Export procedures"
 			},
 			"download":"Download",
 			"close":"Close Audit File"

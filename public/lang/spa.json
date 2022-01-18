@@ -30,7 +30,8 @@
 				"findings_analysis": "Análisis de resultados",
 				"sentiment_analysis_findings":"Análisis de sentimiento sobre los resultados",
 				"recommendations_tracking":"Seguimiento de recomendaciones",
-				"raw_data":"Exportar datos analíticos"
+				"raw_data":"Exportar datos analíticos",
+				"procedure_data":"Exportar los procedimientos"
 			},
 			"download":"Descargar",
 			"close":"Cerrar archivo de auditoría"
