@@ -2,7 +2,7 @@
 	<About id="ATK-SIGTAS" descriptionfile="">
 		<version id="1.0" name=""/>
 		<title>
-			<tx l="eng" name="Tax administration system" rem=""/>
+			<tx l="eng" name="Tax administration" rem=""/>
 		</title>
 		<WorkingLanguage wl="eng"/>
 	</About>
@@ -14,7 +14,7 @@
 		<About id="PreactIS">
 			<version id="20180418" name="main"/>
 			<title>
-				<tx l="eng" name="IT Audit Preassessment: Understanding the Auditee&apos;s IT systems"/>
+				<tx l="eng" name="IT Audit Preassessment: Understanding the Auditee's IT systems"/>
 				<tx l="pol" name="Analiza przedkontrolna: przegląd systemów IT kontrolowanego"/>
 			</title>
 			<WorkingLanguage wl="eng pol alb"/>
@@ -3496,7 +3496,7 @@ With this audit we aim to provide relevant recommendations to stakeholders in or
 						<AuditIssue>Does the organization have a policy on outsourcing?</AuditIssue>
 						<Criteria>
 							<cri>
-								<tx l="eng" name="IT tasks and responsibilities for employees, contractors and third party users are defined and documented in accordance with the organization&apos;s information security policy.
+								<tx l="eng" name="IT tasks and responsibilities for employees, contractors and third party users are defined and documented in accordance with the organization's information security policy.
 Policies and procedures should form a sustainable managerial environment for internal and external communications."/>
 								<tx l="alb" name="Politikat organizacionale mbi prokurimin"/>
 							</cri>
@@ -3514,7 +3514,7 @@ Formal and written policies for IT communications and operations;
 Documentation on operational procedures;
 HR policies and recruitment procedures;
 Standards of competence for IT staff;
-Individuals&apos; evaluation reports;
+Individuals' evaluation reports;
 Security incident reports (including ethics code abuse or conduct code);
 Security awareness trainings and campaigns;
 Users management tasks and responsibilities"/>
@@ -3536,7 +3536,7 @@ Dokumentet/raportet e monitorimit
 							<anm>
 								<tx l="eng" name="Comparison of security policies and procedures to determine the integrity effectiveness of information security requirements in the IT security plan.
 Verification of whether it is regularly reviewed at appropriate managerial levels;
-Controls if the IT security plan identifies: tasks and responsibilities (board, executive management, line management, staff and all users of the organization&apos;s IT infrastructure), staffing requirements, security awareness and training, implementation of practices, need for investments in required security resources.
+Controls if the IT security plan identifies: tasks and responsibilities (board, executive management, line management, staff and all users of the organization's IT infrastructure), staffing requirements, security awareness and training, implementation of practices, need for investments in required security resources.
 Determining whether IT security responsibilities are well defined;
 Controls whether there is a process for prioritizing proposed security initiatives, including required levels of policies, standards, and procedures;
 Controls on how senior management maintains an appropriate level of interest in information security at TAK."/>
@@ -4708,7 +4708,7 @@ Formal and written policies for IT communications and operations;
 Documentation on operational procedures;
 HR policies and recruitment procedures;
 Standards of competence for IT staff;
-Individuals&apos; evaluation reports;
+Individuals' evaluation reports;
 Security incident reports (including ethics code abuse or conduct code);
 Security awareness trainings and campaigns;
 Users management tasks and responsibilities."/>
@@ -4731,7 +4731,7 @@ Plani i sigurisë së IT
 								<tx l="eng" name="Verifying how TAK documents its procedures and how it is made available to all users.
   Interviews with a sample of users of different levels to examine whether all procedures for handling data are known to employees;
 Checking how often data and communications handling procedures are reviewed and updated.
-Checks whether tasks that are critical to Information Security are well defined and documented. Employees and stakeholders who have been assigned these duties should recognize their responsibilities with respect to protecting the organization&apos;s information assets, including electronic data, IS infrastructure, documents, etc. Review for appropriate identification of critical tasks for which are required security checks. This should apply to employees, contractors and vendors."/>
+Checks whether tasks that are critical to Information Security are well defined and documented. Employees and stakeholders who have been assigned these duties should recognize their responsibilities with respect to protecting the organization's information assets, including electronic data, IS infrastructure, documents, etc. Review for appropriate identification of critical tasks for which are required security checks. This should apply to employees, contractors and vendors."/>
 							</anm>
 						</AnalysisMethod>
 						<foundPreviously>
@@ -5108,7 +5108,7 @@ Dokumentacioni për procedurat operacionale
 								<tx l="eng" name="Review documents to ensure that changes implemented are comprehensive and consistent.
 Have they followed operational procedures, configuration information, application documentation, help and training materials and are considered to be an integral part of the change.
 Examination if there is an appropriate storage period for change documentation and the pre and post change system and user documentation.
-Examine whether mechanisms exist to update the institution&apos;s processes for software changes to ensure that new and improved functionalities are used."/>
+Examine whether mechanisms exist to update the institution's processes for software changes to ensure that new and improved functionalities are used."/>
 							</anm>
 						</AnalysisMethod>
 						<foundPreviously>
@@ -5389,7 +5389,7 @@ Formal and written policies for IT communications and operations;
 Documentation on operational procedures;
 HR policies and recruitment procedures;
 Standards of competence for IT staff;
-Individuals&apos; evaluation reports;
+Individuals' evaluation reports;
 Security incident reports (including ethics code abuse or conduct code);
 Security awareness trainings and campaigns;
 Users management tasks and responsibilities"/>
@@ -5823,7 +5823,7 @@ With this audit we aim to provide relevant recommendations to stakeholders in or
 						<Criteria>
 							<cri>
 								<tx l="eng" name="Information technology administrator and operator account activities are regularly recorded and monitored. There are mechanisms for controlling the activities of users with full access to systems, and for users who are accessed externally and monitored on a continuous basis.
-The organization conducts a periodic review of user accounts including a review of users&apos; access rights to ensure that they remain appropriate for their function."/>
+The organization conducts a periodic review of user accounts including a review of users' access rights to ensure that they remain appropriate for their function."/>
 								<tx l="alb" name="Funskioni i Sigurisë së Informacionit monitoron efektivitetin e kontrollit të operacioneve të menaxhimit të llogarive të përdoruesve në kohë dhe raporton eficencën dhe efektivitetin e operimit"/>
 							</cri>
 						</Criteria>
@@ -5831,7 +5831,7 @@ The organization conducts a periodic review of user accounts including a review 
 							<inf>
 								<tx l="eng" name="Procedures for monitoring activities
 User activity monitoring reports.
-Tools used to monitor users&apos; external activities and monitoring reports.
+Tools used to monitor users' external activities and monitoring reports.
 Activity reports.
 Requests and reviews reports for user accounts.
 Interview with responsible persons."/>
@@ -6448,7 +6448,7 @@ Listë e hapave të ndërmarrë referuar reduktimit të risqeve mjedisorë
 						<AnalysisMethod>
 							<anm>
 								<tx l="eng" name="Review of information systems continuity documents to assess whether they are consistent with general TAK IT policies.
-Review documents to assess whether policies address the requirements for continuity of the information system by defining TAK&apos;s sustainable objectives, organizational structure, and responsibilities for emergency planning.
+Review documents to assess whether policies address the requirements for continuity of the information system by defining TAK's sustainable objectives, organizational structure, and responsibilities for emergency planning.
 Interview staff to determine how often policies are updated if conditions change.
 Document testing and review to assess that backup plans include all critical application data and software.
 Review documents to assess that backup procedures have been designed and to ensure that the backup plan is properly implemented.
@@ -7574,7 +7574,7 @@ detajet e zbatimit"/>
 						</InformationRequired>
 						<AnalysisMethod>
 							<anm>
-								<tx l="eng" name="Review the available documentation of the software/hardware solution. Interview the auditee&apos;s IT team to see how they understand the security mechanisms implemented into the application."/>
+								<tx l="eng" name="Review the available documentation of the software/hardware solution. Interview the auditee's IT team to see how they understand the security mechanisms implemented into the application."/>
 								<tx l="alb" name="Shqyrto dokumentacionin në dispozicion të softuerit / zgjidhjes hardware. Intervistoni skuadrën e TI të auditorit për të parë se si i kuptojnë mekanizmat e sigurisë të zbatuara në aplikacion."/>
 							</anm>
 						</AnalysisMethod>
@@ -7614,12 +7614,12 @@ detajet e zbatimit"/>
 			<quote type="description">The organization should have control procedures to ensure that transaction data in information systems are harmonized. The output reports must be complete and provide accurate representation of the data source.</quote>
 			<quote type="recommendation"/>
 		</Case>
-		<Case nr="F20200513-160339" nm="Tax payments made through e-banking after 17:00, are registered in TAK as payments made one day later" eff="Due to the absence of payment order&apos;s date in TAK registry, the date when the payment was executed, TAK registers the date of payment the day the banking transaction was realized and as a result the taxpayers are harmed. Furthermore, the taxpayer, although he paid the tax liability within the time limit, has been penalized with administrative penalty and interest." act="" doc="" Include="Yes" number="4">
+		<Case nr="F20200513-160339" nm="Tax payments made through e-banking after 17:00, are registered in TAK as payments made one day later" eff="Due to the absence of payment order's date in TAK registry, the date when the payment was executed, TAK registers the date of payment the day the banking transaction was realized and as a result the taxpayers are harmed. Furthermore, the taxpayer, although he paid the tax liability within the time limit, has been penalized with administrative penalty and interest." act="" doc="" Include="Yes" number="4">
 			<cts source="AITAM" domain="07 Application Controls" area="02 Processing Controls" issue="02 Application controls"/>
 			<quote type="description">The payment system must provide the necessary information in the messages of sending/receiving financial payment transactions, including the date and time of the transaction.   The payment of Tax liabilities must be realized within the set time limit. If any amount of any tax administered by TAK under applicable law in Kosovo has not been paid by the deadline set for payment, the taxpayer will be obliged to pay interest fee  and will be subjected to an administrative penalty of one percent (1%) of the tax liability. </quote>
 			<quote type="recommendation"/>
 		</Case>
-		<Case nr="F20200513-160501" nm="The SIGTAS system contains errors in the configuration of debt forgiveness transactions and tax refunds, appearing as an overpayment /credit in the taxpayer&apos;s tax statement." eff="Inadequate system configuration for tax debt forgiveness and tax refund cases risks that the taxpayers seek to be reimbursed for the overpayments/credits that appear in the tax account statement, even though they have not made that payment. This harms TAK financially leading to possible double transactions." act="" doc="" Include="Yes" number="5">
+		<Case nr="F20200513-160501" nm="The SIGTAS system contains errors in the configuration of debt forgiveness transactions and tax refunds, appearing as an overpayment /credit in the taxpayer's tax statement." eff="Inadequate system configuration for tax debt forgiveness and tax refund cases risks that the taxpayers seek to be reimbursed for the overpayments/credits that appear in the tax account statement, even though they have not made that payment. This harms TAK financially leading to possible double transactions." act="" doc="" Include="Yes" number="5">
 			<cts source="AITAM" domain="07 Application Controls" area="02 Processing Controls" issue="02 Application controls"/>
 			<quote type="description">The application must have validity control procedures to protect it against errors in transaction processing. They must be configured to ensure that application transactions are executed in accordance with the expected performance.</quote>
 			<quote type="recommendation"/>
@@ -7654,7 +7654,7 @@ detajet e zbatimit"/>
 			<quote type="description">Access to the internal network remotely can be done through a VPN with a detailed request from the employee, approved by the relevant supervisor, after the approval by the IT Director. </quote>
 			<quote type="recommendation"/>
 		</Case>
-		<Case nr="F20200513-162017" nm="User access rights do not change at the moment of the change of job position and termination of the contract" eff="Failure to terminate the employee&apos;s account in information systems immediately upon the termination of the employment contract, as well as not changing the roles in the system according to the responsibilities of the employee, poses the risk that the users of the systems carry out intentional unauthorized activities that affect the functioning of the systems, disclosure of information, financial loss as well as loss of reputation of the institution." act="" doc="" Include="Yes" number="12">
+		<Case nr="F20200513-162017" nm="User access rights do not change at the moment of the change of job position and termination of the contract" eff="Failure to terminate the employee's account in information systems immediately upon the termination of the employment contract, as well as not changing the roles in the system according to the responsibilities of the employee, poses the risk that the users of the systems carry out intentional unauthorized activities that affect the functioning of the systems, disclosure of information, financial loss as well as loss of reputation of the institution." act="" doc="" Include="Yes" number="12">
 			<cts source="AITAM" domain="05 Information  and Cyber Security" area="08 Access Control" issue="02 Privileges management"/>
 			<quote type="description">Access rights to the use of information systems for all employees, contractors or third parties must be terminated at the time of termination of the contract or adjusted to changes of responsibilities. </quote>
 			<quote type="recommendation"/>
@@ -7737,7 +7737,7 @@ In addition, the lack of reviewing user’s access rights on a periodic basis in
 			
 			
 		<findings><finding nr="F20200513-160001"/></findings><monitoring/></Recommendation>
-		<Recommendation nr="R20200513-163654" priority="Urgent" risk="Operational" riskevaluation="Entity" accepted="Yes" repeated="No" importance="Strategic" category="Systems&apos; synchronisation " number="3">
+		<Recommendation nr="R20200513-163654" priority="Urgent" risk="Operational" riskevaluation="Entity" accepted="Yes" repeated="No" importance="Strategic" category="Systems' synchronisation " number="3">
 			<quote type="description">Interconnect and validate the data fields between the EDI and SIGTAS systems for tax statement accounts and notify the taxpayer on the status of the statement processing. To continuously analyze the synchronization of data in the systems, to identify the transaction error for the unprocessed transactions, to correct it and seek for approval for execution and then re-process the transactions;</quote>
 			<quote type="aplan"/>
 			<quote type="responsible"/>
@@ -7787,7 +7787,7 @@ In addition, the lack of reviewing user’s access rights on a periodic basis in
 			
 			
 		<findings><finding nr="F20200513-160501"/></findings><monitoring/></Recommendation>
-		<Recommendation nr="R20200513-164330" priority="Urgent" risk="Operational" riskevaluation="Entity" accepted="Yes" repeated="No" importance="Strategic" category="System&apos;s configuration" number="8">
+		<Recommendation nr="R20200513-164330" priority="Urgent" risk="Operational" riskevaluation="Entity" accepted="Yes" repeated="No" importance="Strategic" category="System's configuration" number="8">
 			<quote type="description">Make the configuration in the system by clearly defining the processes in the application and in the output of the transaction results, accurate documentation of the logic of issuing the report as well as a logical solution on the numbers after the decimal point;</quote>
 			<quote type="aplan"/>
 			<quote type="responsible"/>
