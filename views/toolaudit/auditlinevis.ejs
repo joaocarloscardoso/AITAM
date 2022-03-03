@@ -1,0 +1,117 @@
+<!doctype html> 
+<html>
+    <%- include('../partials/head'); %>
+    <script type="text/javascript" src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <link href="https://unpkg.com/vis-timeline@latest/styles/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+        body {
+            font-family:  sans-serif, 'Source Sans Pro', cursive;
+        }
+
+        .vis-timeline {
+            border: 2px solid black;
+            font-family:  sans-serif, 'Source Sans Pro', cursive;
+            font-size: 11pt;
+            background: #f7f7f7;
+        }
+
+        .vis-item {
+            border-color: #9ea2a3;
+            background-color: #f2f8fa;
+            font-size: 12pt;
+            color: #000000;
+            box-shadow: 5px 5px 20px rgba(128,128,128, 0.5);
+        }
+
+        .vis-item,
+        .vis-item.vis-line {
+            border-width: 1px;
+        }
+
+        .vis-item.vis-dot {
+            border-width: 10px;
+            border-radius: 10px;
+        }
+
+        .vis-item.vis-selected {
+            border-color: #ff6384;
+            background-color: #d8cadc;
+        }
+
+        .vis-time-axis .vis-text {
+            color: black;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        .vis-time-axis .vis-text.vis-major {
+            font-weight: bold;
+        }
+
+        .vis-time-axis .vis-grid.vis-minor {
+            border-width: 2px;
+            border-color: #36bdf7;
+        }
+
+        .vis-time-axis .vis-grid.vis-major {
+            border-width: 2px;
+            border-color: #36bdf7;
+        }
+    </style>
+
+    <body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<%- include('../partials/header'); %>
+
+			<!-- Main -->
+            <div class="container">
+
+                <p>
+                    The style of the Timeline can be fully customized via CSS:
+                </p>
+                <div id="visualization"></div>
+
+                <script type="text/javascript">
+                    var container = document.getElementById('visualization');
+                    const d = new Date();
+                    let year = d.getFullYear();
+                    let month = d.getMonth();
+            
+                    // note that months are zero-based in the JavaScript Date object
+                    var items = new vis.DataSet([
+                        {start: new Date(year,month,1), content: '<div><b><a target="_blank" href="https://www.google.pt">Reference</a></b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">'},
+                        {start: new Date(year,month,2), content: '<div><b>Plug-ins</b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">&nbsp;Teste teste'},
+                        {start: new Date(year,month,3), content: '<div><b>Preliminary Activities</b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">&nbsp;Teste teste'},
+                        {start: new Date(year,month,4), content: '<div><b>Plan</b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">&nbsp;Teste teste'},
+                        {start: new Date(year,month,5), content: '<div><b>Findings</b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">&nbsp;Teste teste'},
+                        {start: new Date(year,month,6), content: '<div><b>Recommendations</b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">&nbsp;Teste teste'}
+                    ]);
+            
+                    var options = {
+                        editable: false,
+                        margin: {
+                            item: 20,
+                            axis: 40
+                        },
+                        horizontalScroll: true,
+                        showMajorLabels: true,
+                        showMinorLabels: false,
+                        showWeekScale: false
+                    };
+            
+                    var timeline = new vis.Timeline(container, items, options);
+                </script>
+            
+            </div>
+			<!-- Footer -->
+			<%- include('../partials/footer'); %>
+
+		</div>
+
+		<!-- Scripts -->
+		<%- include('../partials/scripts'); -%>
+    </body>
+</html>

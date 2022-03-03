@@ -144,7 +144,8 @@ tooleaudit.get('/toolauditline',function(req,res){
     if (status) {
         //change to get interactions info : statisticsService
         var TimeLineCatalog = statisticsService.GetTimelineStatus(NewAuditFile, req.session.lang);
-        res.render('toolaudit/toolwork', {
+        //res.render('toolaudit/toolwork', { 
+        res.render('toolaudit/auditlinevis', {
             action: 'audit',
             operation: 'audit_line',
             AuditErrors: '',

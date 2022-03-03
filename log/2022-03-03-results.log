@@ -1,0 +1,7 @@
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-03-03 21:06:10"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:0e96a5ed-f602-4373-a85e-9f15bffa707a","timestamp":"2022-03-03 21:06:27"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2022-03-03 21:06:28"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-03-03 21:06:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-03-03 21:06:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-03-03 21:06:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\0e96a5ed-f602-4373-a85e-9f15bffa707a.xml","timestamp":"2022-03-03 21:06:47"}
