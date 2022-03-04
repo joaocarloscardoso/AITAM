@@ -15,13 +15,16 @@
 		"home": "الصفحة الرئيسية",
 		"audit": {
 			"menu_title":"التدقيق",
-			"timeline": "خط تفاعلات التدقيق",
-			"reference": "المرجع",
-			"plug_ins":"المكونات الإضافية",
-			"preliminary": "الأنشطة الأولية",
-			"plan":"الخطة",
-			"findings":"النتائج",
-			"recommendations":"التوصيات",
+			"timeline": "لوحة التحكم في المراجعة",
+			"WorkingAreas":{
+				"menu_title":"مناطق العمل",
+				"reference": "المرجع",
+				"plug_ins":"المكونات الإضافية",
+				"preliminary": "الأنشطة الأولية",
+				"plan":"الخطة",
+				"findings":"النتائج",
+				"recommendations":"التوصيات"
+			},
 			"analytics":{
 				"menu_title":"تحليلات",
 				"treemap": "الخطة الشجرية للتدقيق",
@@ -134,7 +137,7 @@
 			"auditScope":"مجال التدقيق"
 		},
 		"timeline" : {
-			"pageTitle": "خط تفاعلات التدقيق",
+			"pageTitle": "لوحة التحكم في المراجعة",
 			"referenceFilled":"تم تعبئة المعلومات المرجعية للتدقيق !",
 			"referencePartialFilled":"تم تعبئة المعلومات المرجعية للتدقيق جزئيًا!",
 			"referenceNotFilled":"معلومات مرجعية التدقيق غير معبأة!",

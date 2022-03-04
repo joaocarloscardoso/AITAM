@@ -15,13 +15,16 @@
 		"home": "Inicio",
 		"audit": {
 			"menu_title":"La auditoría",
-			"timeline": "Línea de interacciones de la auditoría",
-			"reference": "Referencia",
-			"plug_ins":"Complementos",
-			"preliminary": "Actividades preliminares",
-			"plan":"Plan",
-			"findings":"Resultados",
-			"recommendations":"Recomendaciones",
+			"timeline": "Tablero de control de auditoría",
+			"WorkingAreas":{
+				"menu_title":"Áreas de trabajo",
+				"reference": "Referencia",
+				"plug_ins":"Complementos",
+				"preliminary": "Actividades preliminares",
+				"plan":"Plan",
+				"findings":"Resultados",
+				"recommendations":"Recomendaciones"
+			},
 			"analytics":{
 				"menu_title":"Analítica",
 				"treemap": "Mapa del árbol de auditoría",
@@ -134,7 +137,7 @@
 			"auditScope":"Alcance de auditoría"
 		},
 		"timeline" : {
-			"pageTitle": "Línea de interacciones de la auditoría",
+			"pageTitle": "Tablero de control de auditoría",
 			"referenceFilled":"¡Información de referencia de auditoría registrada!",
 			"referencePartialFilled":"¡Información de referencia de auditoría parcialmente registrada!",
 			"referenceNotFilled":"¡La información de referencia de auditoría no está registrada!",

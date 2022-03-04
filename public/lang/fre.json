@@ -15,13 +15,16 @@
 		"home": "Accueil ",
 		"audit": {
 			"menu_title":"L'audit",
-			"timeline": "Ligne d'interactions de l'audit",
-			"reference": "Référence",
-			"plug_ins":"Plug-ins",
-			"preliminary": "Activités préliminaires",
-			"plan":"Plan",
-			"findings":"Résultats",
-			"recommendations":"Recommandations",
+			"timeline": "Tableau de bord de contrôle de l'audit",
+			"WorkingAreas":{
+				"menu_title":"Zones de travail",
+				"reference": "Référence",
+				"plug_ins":"Plug-ins",
+				"preliminary": "Activités préliminaires",
+				"plan":"Plan",
+				"findings":"Résultats",
+				"recommendations":"Recommandations"
+			},
 			"analytics":{
 				"menu_title":"Analytique",
 				"treemap": "Carte de l'arborescence d'audit",
@@ -134,7 +137,7 @@
 			"auditScope":"Étendue de l'audit"
 		},
 		"timeline" : {
-			"pageTitle": "Ligne d'interactions de l'audit",
+			"pageTitle": "Tableau de bord de contrôle de l'audit",
 			"referenceFilled":"Informations de référence d'audit enregistrées !",
 			"referencePartialFilled":"Informations de référence d'audit partiellement enregistrées !",
 			"referenceNotFilled":"Informations de référence d'audit non enregistrées !",

@@ -68,10 +68,7 @@
 
 			<!-- Main -->
             <div class="container">
-
-                <p>
-                    The style of the Timeline can be fully customized via CSS:
-                </p>
+                <h1><%=appAudit.timeline.pageTitle %></h1>
                 <div id="visualization"></div>
 
                 <script type="text/javascript">
@@ -82,12 +79,40 @@
             
                     // note that months are zero-based in the JavaScript Date object
                     var items = new vis.DataSet([
-                        {start: new Date(year,month,1), content: '<div><b><a target="_blank" href="https://www.google.pt">Reference</a></b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">'},
-                        {start: new Date(year,month,2), content: '<div><b>Plug-ins</b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">&nbsp;Teste teste'},
-                        {start: new Date(year,month,3), content: '<div><b>Preliminary Activities</b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">&nbsp;Teste teste'},
-                        {start: new Date(year,month,4), content: '<div><b>Plan</b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">&nbsp;Teste teste'},
-                        {start: new Date(year,month,5), content: '<div><b>Findings</b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">&nbsp;Teste teste'},
-                        {start: new Date(year,month,6), content: '<div><b>Recommendations</b></div><br/><img src="../images/include-16b.png" style="width:16px; height:16px;">&nbsp;Teste teste'}
+                        <% if (catalog.reference == "notFilled") { %>
+                            {start: new Date(year,month,1), content: '<div><b><a href="/toolaudit/toolauditreference?src=tbl"><%=appAudit.timeline.reference %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referenceNotFilled %>'},
+                        <% } %>
+                        <% if (catalog.reference == "partial") { %>
+                            {start: new Date(year,month,1), content: '<div><b><a href="/toolaudit/toolauditreference?src=tbl"><%=appAudit.timeline.reference %></a></b></div><img src="../images/medium-16.png" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referencePartialFilled %>'},
+                        <% } %>
+                        <% if (catalog.reference == "filled") { %>
+                            {start: new Date(year,month,1), content: '<div><b><a href="/toolaudit/toolauditreference?src=tbl"><%=appAudit.timeline.reference %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referenceFilled %>'},
+                        <% } %>
+                        <% if (catalog.plugins == "0") { %>
+                            {start: new Date(year,month,2), content: '<div><b><a href="/toolaudit/toolauditplugins"><%=appAudit.timeline.plugins %></a></b></div><img src="../images/info-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.pluginsNotSelected %>'},
+                        <% } else { %>
+                            {start: new Date(year,month,2), content: '<div><b><a href="/toolaudit/toolauditplugins"><%=appAudit.timeline.plugins %></a></b></div><img src="../images/info-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.plugins %>&nbsp;<%=appAudit.timeline.pluginsSelected %>'},                                
+                        <% } %>
+                        <% if (catalog.preassement == "notFilled") { %>
+                            {start: new Date(year,month,3), content: '<div><b><a href="/preassessaudit/auditpreassessment"><%=appAudit.timeline.preassessment %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.preassessmentNotFilled %>'},
+                        <% } else { %>
+                            {start: new Date(year,month,3), content: '<div><b><a href="/preassessaudit/auditpreassessment"><%=appAudit.timeline.preassessment %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.preassessmentFilled %>'},
+                        <% } %>
+                        <% if (catalog.plan == "notFilled") { %>
+                            {start: new Date(year,month,4), content: '<div><b><a href="/planaudit/auditplanning"><%=appAudit.timeline.plan %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.planNotFilled %>'},
+                        <% } else { %>
+                            {start: new Date(year,month,4), content: '<div><b><a href="/planaudit/auditplanning"><%=appAudit.timeline.plan %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.planFilled %>'},
+                        <% } %>
+                        <% if (catalog.findings == "0") { %>
+                            {start: new Date(year,month,5), content: '<div><b><a href="/findingaudit/auditfindings"><%=appAudit.timeline.findings %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.findings %>&nbsp;<%=appAudit.timeline.findingsRegistered %>'},
+                        <% } else { %>
+                            {start: new Date(year,month,5), content: '<div><b><a href="/findingaudit/auditfindings"><%=appAudit.timeline.findings %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.findings %>&nbsp;<%=appAudit.timeline.findingsRegistered %>'},
+                        <% } %>
+                        <% if (catalog.recommendations == "0") { %>
+                            {start: new Date(year,month,6), content: '<div><b><a href="/auditrec/auditrecs"><%=appAudit.timeline.recommendations %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.recommendations %>&nbsp;<%=appAudit.timeline.recommendationsRegistered %>'}
+                        <% } else { %>
+                            {start: new Date(year,month,6), content: '<div><b><a href="/auditrec/auditrecs"><%=appAudit.timeline.recommendations %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.recommendations %>&nbsp;<%=appAudit.timeline.recommendationsRegistered %>'}
+                        <% } %>
                     ]);
             
                     var options = {
@@ -96,10 +121,11 @@
                             item: 20,
                             axis: 40
                         },
-                        horizontalScroll: true,
+                        horizontalScroll: false,
                         showMajorLabels: true,
                         showMinorLabels: false,
-                        showWeekScale: false
+                        showWeekScale: false,
+                        zoomable: false
                     };
             
                     var timeline = new vis.Timeline(container, items, options);
