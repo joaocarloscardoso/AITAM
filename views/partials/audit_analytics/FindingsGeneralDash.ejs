@@ -1,0 +1,83 @@
+<h1>General Domain Characterization</h1>
+<canvas id="chartjs-DC" class="chartjs" width="undefined" height="undefined"></canvas>
+<script>new Chart(document.getElementById("chartjs-DC"),
+    {"type":"horizontalBar",
+    "data":{"labels":[
+        <% let i=1 %>
+        <% GeneralFindingCatalog.wLabels.split("|").forEach(function(item) { %>
+            <% if (i == 1) { -%>
+                "<%= item %>"
+            <% } else { %>
+                ,"<%= item %>"
+            <% } %>
+            <% i++ %>
+        <% }) %>
+    ],
+    "datasets":[
+        {
+            "label":"Number of Findings",
+            "data":[<%= GeneralFindingCatalog.wNumber %>],
+            "fill":false,
+            "backgroundColor":[
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(75, 192, 192, 0.2)"
+            ],
+            "borderColor":[
+                "rgb(75, 192, 192)",
+                "rgb(75, 192, 192)",
+                "rgb(75, 192, 192)",
+                "rgb(75, 192, 192)",
+                "rgb(75, 192, 192)",
+                "rgb(75, 192, 192)",
+                "rgb(75, 192, 192)"
+            ],
+            "borderWidth":1
+        },
+        {
+            "label":"Findings Relevant",
+            "data":[<%= GeneralFindingCatalog.wRelevant %>],
+            "fill":false,
+            "backgroundColor":[
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+            ],
+            "borderColor":[
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+            ],
+            "borderWidth":1
+        }
+        /*,
+        {
+            "type": "line",
+            "label":"Threshold",
+            "data":[<%= GeneralFindingCatalog.wTreshold %>],
+            "fill":false,
+            "borderColor":"rgb(255, 99, 132)",
+            "borderWidth": 2,
+            "lineTension":0.1
+        }*/
+    ]},
+    "options":{
+            "scales":
+                {
+                    "xAxes":[{"ticks":{"beginAtZero":true,"stepSize": 1}}]
+                }
+    }
+    });
+</script>

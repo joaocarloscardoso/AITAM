@@ -18,6 +18,9 @@ var log = require('../lib/log.js');
 var appLang = require('../lib/language.js');
 //common business functions
 var commonF = require('../lib/common.js');
+var Findings = require('../lib/findings.js');
+var Recommendations = require('../lib/auditrec.js');
+
 
 //generation of uuid
 //const uuid = require('uuid/v4');
@@ -144,12 +147,23 @@ tooleaudit.get('/toolauditline',function(req,res){
     if (status) {
         //change to get interactions info : statisticsService
         var TimeLineCatalog = statisticsService.GetTimelineStatus(NewAuditFile, req.session.lang);
+        var PluginsCatalog = statisticsService.GetPluginsUsed(NewAuditFile, req.session.lang);
+        var GeneralDomainCatalog = statisticsService.GeneralDomainCharacterization(NewAuditFile, req.session.lang);
+        var GeneralRiskCatalog = statisticsService.GeneralRiskCharacterization(NewAuditFile, req.session.lang);
+        var GeneralFindingCatalog = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile, req.session.lang);
+        var DataRecommendations = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile, req.session.lang);
+
         //res.render('toolaudit/toolwork', { 
         res.render('toolaudit/auditlinevis', {
             action: 'audit',
             operation: 'audit_line',
             AuditErrors: '',
             catalog: TimeLineCatalog,
+            GeneralDomainCatalog: GeneralDomainCatalog,
+            GeneralRiskCatalog: GeneralRiskCatalog,
+            GeneralFindingCatalog: GeneralFindingCatalog,
+            data: DataRecommendations,
+            PluginsCatalog: PluginsCatalog,
             msg: '',
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
