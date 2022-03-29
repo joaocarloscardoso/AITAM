@@ -3685,3 +3685,8 @@ input[type="radio"]:disabled:checked+span:before {
 input[type="radio"]:disabled+span:before {
   border: 1px solid #ddd;
 }
+
+#divguid span {
+	font-size: 9px;
+	color: red;
+}

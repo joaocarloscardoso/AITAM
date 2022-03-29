@@ -362,12 +362,14 @@ app.use(function(req,res,next){
     //res.send('500 - Server Error');
 });
 
+
+//use app in http server
 // app.listen(3000,function(){
 //     graphdb.CreateDictionary();
 //     console.log('Server started on port 3000...');
 // })
 
-//pass app to https server
+//use app in https server
 https.createServer({
     key: fs.readFileSync('./key.pem'),
     cert: fs.readFileSync('./cert.pem'),

@@ -19,7 +19,7 @@
         .vis-item {
             border-color: #9ea2a3;
             background-color: #f2f8fa;
-            font-size: 12pt;
+            font-size: 11pt;
             color: #000000;
             box-shadow: 5px 5px 20px rgba(128,128,128, 0.5);
         }
@@ -69,6 +69,8 @@
 			<!-- Main -->
             <div class="container">
                 <h1><%=appAudit.timeline.pageTitle %></h1>
+                <h2>Time line</h2>
+
                 <div id="visualization"></div>
 
                 <script type="text/javascript">
@@ -80,13 +82,13 @@
                     // note that months are zero-based in the JavaScript Date object
                     var items = new vis.DataSet([
                         <% if (catalog.reference == "notFilled") { %>
-                            {start: new Date(year,month,1), content: '<div><b><a href="/toolaudit/toolauditreference?src=tbl"><%=appAudit.timeline.reference %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referenceNotFilled %>'},
+                            {start: new Date(year,month,1), content: '<div><b><a href="/toolaudit/toolauditreference?src=tbl"><%=appAudit.timeline.reference %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referenceNotFilled %><br/><hr/>ISSAI 100/1-34 GUID 5100/1-4'},
                         <% } %>
                         <% if (catalog.reference == "partial") { %>
-                            {start: new Date(year,month,1), content: '<div><b><a href="/toolaudit/toolauditreference?src=tbl"><%=appAudit.timeline.reference %></a></b></div><img src="../images/medium-16.png" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referencePartialFilled %>'},
+                            {start: new Date(year,month,1), content: '<div><b><a href="/toolaudit/toolauditreference?src=tbl"><%=appAudit.timeline.reference %></a></b></div><img src="../images/medium-16.png" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referencePartialFilled %><br/><hr/>ISSAI 100/1-34 GUID 5100/1-4'},
                         <% } %>
                         <% if (catalog.reference == "filled") { %>
-                            {start: new Date(year,month,1), content: '<div><b><a href="/toolaudit/toolauditreference?src=tbl"><%=appAudit.timeline.reference %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referenceFilled %>'},
+                            {start: new Date(year,month,1), content: '<div><b><a href="/toolaudit/toolauditreference?src=tbl"><%=appAudit.timeline.reference %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;"/>&nbsp;<%=appAudit.timeline.referenceFilled %><br/><hr/>ISSAI 100/1-34 GUID 5100/1-4'},
                         <% } %>
                         <% if (catalog.plugins == "0") { %>
                             {start: new Date(year,month,2), content: '<div><b><a href="/toolaudit/toolauditplugins"><%=appAudit.timeline.plugins %></a></b></div><img src="../images/info-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.pluginsNotSelected %>'},
@@ -94,24 +96,24 @@
                             {start: new Date(year,month,2), content: '<div><b><a href="/toolaudit/toolauditplugins"><%=appAudit.timeline.plugins %></a></b></div><img src="../images/info-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.plugins %>&nbsp;<%=appAudit.timeline.pluginsSelected %>'},                                
                         <% } %>
                         <% if (catalog.preassement == "notFilled") { %>
-                            {start: new Date(year,month,3), content: '<div><b><a href="/preassessaudit/auditpreassessment"><%=appAudit.timeline.preassessment %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.preassessmentNotFilled %>'},
+                            {start: new Date(year,month,3), content: '<div><b><a href="/preassessaudit/auditpreassessment"><%=appAudit.timeline.preassessment %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.preassessmentNotFilled %><br/><hr/>ISSAI 100/35-45 GUID 5100/5.5-10'},
                         <% } else { %>
-                            {start: new Date(year,month,3), content: '<div><b><a href="/preassessaudit/auditpreassessment"><%=appAudit.timeline.preassessment %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.preassessmentFilled %>'},
+                            {start: new Date(year,month,3), content: '<div><b><a href="/preassessaudit/auditpreassessment"><%=appAudit.timeline.preassessment %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.preassessmentFilled %><br/><hr/>ISSAI 100/35-45 GUID 5100/5.5-10'},
                         <% } %>
                         <% if (catalog.plan == "notFilled") { %>
-                            {start: new Date(year,month,4), content: '<div><b><a href="/planaudit/auditplanning"><%=appAudit.timeline.plan %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.planNotFilled %>'},
+                            {start: new Date(year,month,4), content: '<div><b><a href="/planaudit/auditplanning"><%=appAudit.timeline.plan %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.planNotFilled %><br/><hr/>ISSAI 100/46-48 – GUID 5100/5.1-4, 5.11-13'},
                         <% } else { %>
-                            {start: new Date(year,month,4), content: '<div><b><a href="/planaudit/auditplanning"><%=appAudit.timeline.plan %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.planFilled %>'},
+                            {start: new Date(year,month,4), content: '<div><b><a href="/planaudit/auditplanning"><%=appAudit.timeline.plan %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=appAudit.timeline.planFilled %><br/><hr/>ISSAI 100/46-48 – GUID 5100/5.1-4, 5.11-13'},
                         <% } %>
                         <% if (catalog.findings == "0") { %>
-                            {start: new Date(year,month,5), content: '<div><b><a href="/findingaudit/auditfindings"><%=appAudit.timeline.findings %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.findings %>&nbsp;<%=appAudit.timeline.findingsRegistered %>'},
+                            {start: new Date(year,month,5), content: '<div><b><a href="/findingaudit/auditfindings"><%=appAudit.timeline.findings %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.findings %>&nbsp;<%=appAudit.timeline.findingsRegistered %><br/><hr/>ISSAI 100/28.49-50 GUID 5100/6'},
                         <% } else { %>
-                            {start: new Date(year,month,5), content: '<div><b><a href="/findingaudit/auditfindings"><%=appAudit.timeline.findings %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.findings %>&nbsp;<%=appAudit.timeline.findingsRegistered %>'},
+                            {start: new Date(year,month,5), content: '<div><b><a href="/findingaudit/auditfindings"><%=appAudit.timeline.findings %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.findings %>&nbsp;<%=appAudit.timeline.findingsRegistered %><br/><hr/>ISSAI 100/28.49-50 GUID 5100/6'},
                         <% } %>
                         <% if (catalog.recommendations == "0") { %>
-                            {start: new Date(year,month,6), content: '<div><b><a href="/auditrec/auditrecs"><%=appAudit.timeline.recommendations %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.recommendations %>&nbsp;<%=appAudit.timeline.recommendationsRegistered %>'}
+                            {start: new Date(year,month,6), content: '<div><b><a href="/auditrec/auditrecs"><%=appAudit.timeline.recommendations %></a></b></div><img src="../images/high-16.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.recommendations %>&nbsp;<%=appAudit.timeline.recommendationsRegistered %><br/><hr/>ISSAI 100/51 GUID 5100/7'}
                         <% } else { %>
-                            {start: new Date(year,month,6), content: '<div><b><a href="/auditrec/auditrecs"><%=appAudit.timeline.recommendations %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.recommendations %>&nbsp;<%=appAudit.timeline.recommendationsRegistered %>'}
+                            {start: new Date(year,month,6), content: '<div><b><a href="/auditrec/auditrecs"><%=appAudit.timeline.recommendations %></a></b></div><img src="../images/include-16b.png" style="vertical-align: text-bottom; display: inline-block;">&nbsp;<%=catalog.recommendations %>&nbsp;<%=appAudit.timeline.recommendationsRegistered %><br/><hr/>ISSAI 100/51 GUID 5100/7'}
                         <% } %>
                     ]);
             
