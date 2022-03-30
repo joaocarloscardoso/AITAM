@@ -134,7 +134,7 @@
 			"auditID": "ID de la Auditoría",
 			"auitTitle": "Título de la auditoría",
 			"auditBackground":"Antecedentes de la auditoría",
-			"auditScope":"Alcance de auditoría"
+			"auditScope":"Objetivos de auditoría (GUID 5100/5.2 ISSAI 100/30) y alcance (GUID 5100/5.4 ISSAI 100/48)"
 		},
 		"timeline" : {
 			"pageTitle": "Tablero de control de auditoría",

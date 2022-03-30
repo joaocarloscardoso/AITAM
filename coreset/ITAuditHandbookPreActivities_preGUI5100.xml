@@ -39,10 +39,10 @@
 					</title>
 					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
-							<tx l="eng" name="The IT audit team is composed of members that collectively have the competence to perform the IT Audit. (GUID 5100 5.5-10)"/>
-							<tx l="spa" name="El equipo de auditoría de TI está compuesto por miembros que colectivamente tienen la competencia para realizar la Auditoría de TI. (GUID 5100 5.5-10)"/>
-							<tx l="fre" name="L'équipe d'audit informatique est composée de membres qui ont collectivement la compétence pour réaliser l'audit informatique. (GUID 5100 5.5-10)"/>
-							<tx l="ara" name="يتألف فريق تدقيق تقنية المعلومات من أعضاء يتمتعون بشكل جماعي بالكفاءة لأداء تدقيق تكنولوجيا المعلومات. (GUID 5100 5.5-10)"/>
+							<tx l="eng" name="Criteria: ISSAI 5300.8 and 16. -  The IT audit team is composed of members that collectively have the competence to perform the IT Audit."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.8 y 16. - El equipo de auditoría de TI está compuesto por miembros que colectivamente tienen la competencia para realizar la Auditoría de TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.8 et 16. - L'équipe d'audit informatique est composée de membres qui ont collectivement la compétence pour réaliser l'audit informatique."/>
+							<tx l="ara" name="المعايير: ISSAI 5300.8 و 16. - يتألف فريق تدقيق تقنية المعلومات من أعضاء يتمتعون بشكل جماعي بالكفاءة لأداء تدقيق تكنولوجيا المعلومات."/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -61,10 +61,10 @@
 					</title>
 					<paElement nr="01" relatesto="" type="list" value="Yes|No">
 						<title>
-							<tx l="eng" name="Auditors should comply with the relevant ethical requirements and be independent. (ISSAI 100.36)"/>
-							<tx l="spa" name="Los auditores deben cumplir con los requisitos éticos relevantes y ser independientes. (ISSAI 100.36)"/>
-							<tx l="fre" name="Les auditeurs doivent se conformer aux règles d'éthique applicables et être indépendants. (ISSAI 100.36)"/>
-							<tx l="ara" name="يجب أن يلتزم المدققون بالمتطلبات الأخلاقية ذات الصلة وأن يكونوا مستقلين. (ISSAI 100.36)"/>
+							<tx l="eng" name="Criteria: ISSAI 100.36. – Auditors should comply with the relevant ethical requirements and be independent."/>
+							<tx l="spa" name="Criterios: ISSAI 100.36. - Los auditores deben cumplir con los requisitos éticos relevantes y ser independientes."/>
+							<tx l="fre" name="Critères: ISSAI 100.36. - Les auditeurs doivent se conformer aux règles d'éthique applicables et être indépendants."/>
+							<tx l="ara" name="المعايير: 100.36 ISSAL. - يجب أن يلتزم المدققون بالمتطلبات الأخلاقية ذات الصلة وأن يكونوا مستقلين."/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -105,10 +105,10 @@
 					</title>
 					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
-							<tx l="eng" name="Materiality shall be considered at all states of the IT audit process. (ISSAI 100/41  GUID 5100/5.13)"/>
-							<tx l="spa" name="La materialidad se considerará en todos los estados del proceso de auditoría de TI. (ISSAI 100/41  GUID 5100/5.13)"/>
-							<tx l="fre" name="La matérialité doit être prise en compte à tous les stades du processus d'audit informatique. (ISSAI 100/41  GUID 5100/5.13)"/>
-							<tx l="ara" name="يجب مراعاة الأهمية النسبية في جميع حالات عملية تدقيق تكنولوجيا المعلومات. (ISSAI 100/41  GUID 5100/5.13)"/>
+							<tx l="eng" name="Criteria: ISSAI 5300.6  - Materiality shall be considered at all states of the IT audit process."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.6 - La materialidad se considerará en todos los estados del proceso de auditoría de TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.6 - La matérialité doit être prise en compte à tous les stades du processus d'audit informatique."/>
+							<tx l="ara" name="المعايير: ISSAL 5300.6 - يجب مراعاة الأهمية النسبية في جميع حالات عملية تدقيق تكنولوجيا المعلومات."/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -165,10 +165,10 @@
 					</title>
 					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
-							<tx l="eng" name="IT Auditors should identify and assess the risk and fraud relevant to the audit objectives of IT audits. (ISSAI 100/47)"/>
-							<tx l="spa" name="Los auditores de TI deben identificar y evaluar el riesgo y el fraude relevantes para los objetivos de auditoría de las auditorías de TI. (ISSAI 100/47)"/>
-							<tx l="fre" name="Les auditeurs informatiques devraient identifier et évaluer le risque et la fraude en rapport avec les objectifs d'audit des audits informatiques. (ISSAI 100/47)"/>
-							<tx l="ara" name="يجب على مدققي تكنولوجيا المعلومات تحديد وتقييم المخاطر والاحتيال ذات الصلة بأهداف التدقيق لعمليات تدقيق تكنولوجيا المعلومات. (ISSAI 100/47)"/>
+							<tx l="eng" name="Criteria: ISSAI 5300.23 – IT Auditors should identify and assess the risk and fraud relevant to the audit objectives of IT audits."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.23 - Los auditores de TI deben identificar y evaluar el riesgo y el fraude relevantes para los objetivos de auditoría de las auditorías de TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.23 - Les auditeurs informatiques devraient identifier et évaluer le risque et la fraude en rapport avec les objectifs d'audit des audits informatiques."/>
+							<tx l="ara" name="المعايير: ISSAL 5300.23 - يجب على مدققي تكنولوجيا المعلومات تحديد وتقييم المخاطر والاحتيال ذات الصلة بأهداف التدقيق لعمليات تدقيق تكنولوجيا المعلومات."/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -225,10 +225,10 @@
 					</title>
 					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
-							<tx l="eng" name="SAI may engage with the audited entity before commencement of audit."/>
-							<tx l="spa" name="La ISC puede se comprometer con la entidad auditada antes del comienzo de la auditoría."/>
-							<tx l="fre" name="L'ISC peu s'engagir avec l'entité auditée avant le début de l'audit."/>
-							<tx l="ara" name="يجب أن يعمل الجهاز الأعلى للرقابة المالية والمحاسبة مع الكيان الخاضع للرقابة قبل البدء في التدقيق."/>
+							<tx l="eng" name="Criteria: ISSAI 5300.19 SAI shall engage with the audited entity before commencement of audit."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.19 La ISC se comprometerá con la entidad auditada antes del comienzo de la auditoría."/>
+							<tx l="fre" name="Critères: ISSAI 5300.19 L'ISC s'engage avec l'entité auditée avant le début de l'audit."/>
+							<tx l="ara" name="المعايير: ISSAL 5300.19 يجب أن يعمل الجهاز الأعلى للرقابة المالية والمحاسبة مع الكيان الخاضع للرقابة قبل البدء في التدقيق."/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -257,10 +257,10 @@
 			</title>
 			<paMatrix nr="01">
 				<title>
-					<tx l="eng" name="Understand the entity and assessment that IT-objectives are aligned to the Business objectives. (ISSAI 100/45 GUID 5100/5.8)"/>
-					<tx l="spa" name="Comprender la entidad y evaluar que los objetivos de TI están alineados con los objetivos del negocio. (ISSAI 100/45 GUID 5100/5.8)"/>
-					<tx l="fre" name="Comprendre l'entité et évaluer que les objectifs informatiques sont alignés sur les objectifs du métier. (ISSAI 100/45 GUID 5100/5.8)"/>
-					<tx l="ara" name="فهم الكيان وتقييم أن أهداف تكنولوجيا المعلومات تتماشى مع أهداف العمل. (ISSAI 100/45 GUID 5100/5.8)"/>
+					<tx l="eng" name="Understand the entity and assessment that IT-objectives are aligned to the Business objectives (ISSAI 21.1.b)"/>
+					<tx l="spa" name="Comprender la entidad y evaluar que los objetivos de TI están alineados con los objetivos del negocio (ISSAI 21.1.b)"/>
+					<tx l="fre" name="Comprendre l'entité et évaluer que les objectifs informatiques sont alignés sur les objectifs du métier (ISSAI 21.1.b)"/>
+					<tx l="ara" name="فهم الكيان وتقييم أن أهداف تكنولوجيا المعلومات تتماشى مع أهداف العمل (ISSAI 21.1.b)"/>
 				</title>
 				<paSection nr="01" relatesto="">
 					<title>
@@ -271,10 +271,10 @@
 					</title>
 					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
-							<tx l="eng" name="The prerequiste to develop the audit programme will be a clear understanding of audited entity, its Information Systems and IT related activities. (ISSAI 100/45 GUID 5100/5.8)"/>
-							<tx l="spa" name="El requisito previo para desarrollar el programa de auditoría será una comprensión clara de la entidad auditada, sus sistemas de información y las actividades relacionadas con las TI. (ISSAI 100/45 GUID 5100/5.8)"/>
-							<tx l="fre" name="La condition préalable à l'élaboration du programme d'audit sera une compréhension claire de l'entité auditée, de ses systèmes d'information et des activités informatiques. (ISSAI 100/45 GUID 5100/5.8)"/>
-							<tx l="ara" name="سيكون الشرط الأساسي لتطوير برنامج التدقيق هو الفهم الواضح للكيان الخاضع للرقابة وأنظمة المعلومات والأنشطة المتعلقة بتكنولوجيا المعلومات. (ISSAI 100/45 GUID 5100/5.8)"/>
+							<tx l="eng" name="Criteria: ISSAI 5300.12.2-6. The prerequiste to develop the audit programme will be a clear understanding of audited entity, its Information Systems and IT related activities."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.12.2-6. El requisito previo para desarrollar el programa de auditoría será una comprensión clara de la entidad auditada, sus sistemas de información y las actividades relacionadas con las TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.12.2-6. La condition préalable à l'élaboration du programme d'audit sera une compréhension claire de l'entité auditée, de ses systèmes d'information et des activités informatiques."/>
+							<tx l="ara" name="المعايير: ISSAI 5300.12.2-6. سيكون الشرط الأساسي لتطوير برنامج التدقيق هو الفهم الواضح للكيان الخاضع للرقابة وأنظمة المعلومات والأنشطة المتعلقة بتكنولوجيا المعلومات."/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -347,8 +347,7 @@
 						<tx l="fre" name="Facteurs externes"/>
 						<tx l="ara" name="عوامل خارجية"/>
 					</title>
-					<!--From here downwards - TO BE DELETED?-->
-					<paElement nr="01 - double?" relatesto="" type="text" value="">
+					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
 							<tx l="eng" name="Criteria: ISSAI 5300.12.2-6. The prerequiste to develop the audit programme will be a clear understanding of audited entity, its Information Systems and IT related activities."/>
 							<tx l="spa" name="Criterios: ISSAI 5300.12.2-6. El requisito previo para desarrollar el programa de auditoría será una comprensión clara de la entidad auditada, sus sistemas de información y las actividades relacionadas con las TI."/>
@@ -424,7 +423,7 @@
 						<tx l="eng" name="Internal factors"/>
 						<tx l="alb" name="Faktoret e brendshem"/>
 					</title>
-					<paElement nr="01 - third times?" relatesto="" type="text" value="">
+					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
 							<tx l="eng" name="Criteria: ISSAI 5300.12.2-6. The prerequiste to develop the audit programme will be a clear understanding of audited entity, its Information Systems and IT related activities."/>
 							<tx l="spa" name="Criterios: ISSAI 5300.12.2-6. El requisito previo para desarrollar el programa de auditoría será una comprensión clara de la entidad auditada, sus sistemas de información y las actividades relacionadas con las TI."/>
@@ -500,13 +499,12 @@
 						<tx l="eng" name="Materiality"/>
 						<tx l="alb" name="Materialiteti"/>
 					</title>
-					<!--END of questionable fragment-->
 					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
-							<tx l="eng" name="SAI shall consider materiality at all stages of the IT audit process. (ISSAI 100/41  GUID 5100/5.13)"/>
-							<tx l="spa" name="La ISC deberá considerar la materialidad en todas las etapas del proceso de auditoría de TI. (ISSAI 100/41  GUID 5100/5.13)"/>
-							<tx l="fre" name="L'ISC doit tenir compte du caractère significatif à toutes les étapes du processus d'audit informatique. (ISSAI 100/41  GUID 5100/5.13)"/>
-							<tx l="ara" name="يجب على الجهاز الأعلى للرقابة المالية والمحاسبة مراعاة الأهمية النسبية في جميع مراحل عملية تدقيق تكنولوجيا المعلومات. (ISSAI 100/41  GUID 5100/5.13)"/>
+							<tx l="eng" name="Criteria: ISSAI 5300.6 – SAI shall consider materiality at all stages of the IT audit process."/>
+							<tx l="spa" name="Criterios: ISSAI 5300.6 - La ISC deberá considerar la materialidad en todas las etapas del proceso de auditoría de TI."/>
+							<tx l="fre" name="Critères: ISSAI 5300.6 - L'ISC doit tenir compte du caractère significatif à toutes les étapes du processus d'audit informatique."/>
+							<tx l="ara" name="المعايير: ISSAL 5300.6 - يجب على الجهاز الأعلى للرقابة المالية والمحاسبة مراعاة الأهمية النسبية في جميع مراحل عملية تدقيق تكنولوجيا المعلومات."/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -583,17 +581,17 @@
 			</title>
 			<paMatrix nr="01">
 				<title>
-					<tx l="eng" name="Preliminary Assessment of IT Controls. Suitable mechanisms are in place and functioning. (GUID 5100/6.3)"/>
-					<tx l="spa" name="Evaluación preliminar de los controles de TI. Existen y funcionan los mecanismos adecuados. (GUID 5100/6.3)"/>
-					<tx l="fre" name="Évaluation préliminaire des contrôles informatiques. Des mécanismes appropriés sont en place et fonctionnent. (GUID 5100/6.3)"/>
-					<tx l="ara" name="التقييم الأولي لضوابط تكنولوجيا المعلومات (. الآليات المناسبة موجودة وتعمل. (GUID 5100/6.3)"/>
+					<tx l="eng" name="Preliminary Assessment of IT Controls (ISSAI 5300 21.1.). Suitable mechanisms are in place and functioning."/>
+					<tx l="spa" name="Evaluación preliminar de los controles de TI (ISSAI 5300 21.1.). Existen y funcionan los mecanismos adecuados."/>
+					<tx l="fre" name="Évaluation préliminaire des contrôles informatiques (ISSAI 5300 21.1.). Des mécanismes appropriés sont en place et fonctionnent."/>
+					<tx l="ara" name="التقييم الأولي لضوابط تكنولوجيا المعلومات (ISSAI 5300 21.1.). الآليات المناسبة موجودة وتعمل."/>
 				</title>
 				<paSection nr="01" relatesto="Domain">
 					<title>
-						<tx l="eng" name="Preliminary Assessment of IT Controls. Suitable mechanisms are in place and functioning. (GUID 5100/6.3)"/>
-					<tx l="spa" name="Evaluación preliminar de los controles de TI. Existen y funcionan los mecanismos adecuados. (GUID 5100/6.3)"/>
-					<tx l="fre" name="Évaluation préliminaire des contrôles informatiques. Des mécanismes appropriés sont en place et fonctionnent. (GUID 5100/6.3)"/>
-					<tx l="ara" name="التقييم الأولي لضوابط تكنولوجيا المعلومات (. الآليات المناسبة موجودة وتعمل. (GUID 5100/6.3)"/>
+						<tx l="eng" name="Preliminary Assessment of IT Controls (ISSAI 5300 21.1.). Suitable mechanisms are in place and functioning."/>
+						<tx l="spa" name="Evaluación preliminar de los controles de TI (ISSAI 5300 21.1.). Existen y funcionan los mecanismos adecuados."/>
+						<tx l="fre" name="Évaluation préliminaire des contrôles informatiques (ISSAI 5300 21.1.). Des mécanismes appropriés sont en place et fonctionnent."/>
+						<tx l="ara" name="التقييم الأولي لضوابط تكنولوجيا المعلومات (ISSAI 5300 21.1.). الآليات المناسبة موجودة وتعمل."/>
 					</title>
 					<paElement nr="01" relatesto="" type="list" value="Low|Medium|High">
 						<title>

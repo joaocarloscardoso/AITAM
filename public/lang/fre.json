@@ -134,7 +134,7 @@
 			"auditID": "ID de l'Audit",
 			"auitTitle": "Titre de l'audit",
 			"auditBackground":"Contexte de l'audit",
-			"auditScope":"Étendue de l'audit"
+			"auditScope":"Objectifs de l'audit (GUID 5100/5.2 ISSAI 100/30) et étendue (GUID 5100/5.4 ISSAI 100/48)"
 		},
 		"timeline" : {
 			"pageTitle": "Tableau de bord de contrôle de l'audit",

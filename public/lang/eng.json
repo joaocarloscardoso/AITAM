@@ -134,7 +134,7 @@
 			"auditID": "Audit ID",
 			"auitTitle": "Audit title",
 			"auditBackground":"Audit background",
-			"auditScope":"Audit scope"
+			"auditScope":"Audit objectives (GUID 5100/5.2 ISSAI 100/30) and scope (GUID 5100/5.4 ISSAI 100/48)"
 		},
 		"timeline" : {
 			"pageTitle": "Audit control dashboard",
