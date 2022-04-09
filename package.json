@@ -24,7 +24,7 @@
     "formidable": "^1.2.2",
     "hammerjs": "^2.0.8",
     "keycharm": "^0.4.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "mongodb": "^4.4.1",
     "natural": "^5.1.13",
     "neo4j-driver": "^4.4.5",
