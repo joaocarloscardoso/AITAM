@@ -1,0 +1,22 @@
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-06-20 08:47:08"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:b211ff9d-4a47-462d-8585-32335f323420","timestamp":"2022-06-20 08:47:34"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2022-06-20 08:47:35"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-06-20 08:47:43"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-06-20 08:47:43"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-06-20 08:47:43"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\8bd52155-b022-461d-9fba-3463efe9d3f3.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-06-20T08:48:23.658Z\"}}","timestamp":"2022-06-20 08:48:23"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-06-20 09:03:59"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:ba0139b9-0f3b-43ed-a279-f4926e1d98a9","timestamp":"2022-06-20 09:11:15"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2022-06-20 09:11:16"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector deleted  5255785e-dcac-4306-a285-c62dd89210ad.xml on folder: C:\\develop\\nodejs\\projects\\aitam\\work\\, path: C:\\develop\\nodejs\\projects\\aitam\\work\\5255785e-dcac-4306-a285-c62dd89210ad.xml","timestamp":"2022-06-20 09:15:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector deleted  gazetteer.dic on folder: C:\\develop\\nodejs\\projects\\aitam\\work\\, path: C:\\develop\\nodejs\\projects\\aitam\\work\\gazetteer.dic","timestamp":"2022-06-20 09:15:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector deleted  748b9c90-6469-4c89-81c3-633ddb57d27e.xml on folder: C:\\develop\\nodejs\\projects\\aitam\\work\\, path: C:\\develop\\nodejs\\projects\\aitam\\work\\748b9c90-6469-4c89-81c3-633ddb57d27e.xml","timestamp":"2022-06-20 09:15:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector deleted  5255785e-dcac-4306-a285-c62dd89210ad.xml on folder: C:\\develop\\nodejs\\projects\\aitam\\work\\, path: C:\\develop\\nodejs\\projects\\aitam\\work\\5255785e-dcac-4306-a285-c62dd89210ad.xml","timestamp":"2022-06-20 09:15:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector error:  Error: Can't delete C:\\develop\\nodejs\\projects\\aitam\\work\\748b9c90-6469-4c89-81c3-633ddb57d27e.xml","timestamp":"2022-06-20 09:15:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector error:  Error: Can't delete C:\\develop\\nodejs\\projects\\aitam\\work\\gazetteer.dic","timestamp":"2022-06-20 09:15:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:ba0139b9-0f3b-43ed-a279-f4926e1d98a9","timestamp":"2022-06-20 09:37:02"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-06-20 09:39:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-06-20 09:39:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-06-20 09:39:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\c8f576bc-5870-43a2-8728-6bff9b1a5ee2.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-06-20T09:40:06.159Z\"}}","timestamp":"2022-06-20 09:40:06"}
+{"level":"\u001b[34minfo\u001b[39m","message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\c8f576bc-5870-43a2-8728-6bff9b1a5ee2.xml","timestamp":"2022-06-20 09:52:36"}
