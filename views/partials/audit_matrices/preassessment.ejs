@@ -34,11 +34,19 @@
             <hr/>
             <div class="row gtr-50">
                 <header>
-                    <h1><%= Section.SectionId %> <%= Section.SectionName %></h1>
+                    <% if (Section.SectionTip === "") { %>
+                        <h1><span><%= Section.SectionId %> <%= Section.SectionName %></span></h1>
+                    <%} else {%>
+                        <h1><span data-tooltip-right="<%= Section.SectionTip %>"><%= Section.SectionId %> <%= Section.SectionName %></span></h1>
+                    <% } %>
                 </header>
                 <% Section.Elements.forEach(function(Element){ %>
                     <div class="col-12">
-                        <%= Element.ElementId %> <%= Element.ElementName %><br/>
+                        <% if (Element.ElementTip === "") { %>
+                            <span><%= Element.ElementId %> <%= Element.ElementName %></span><br/>
+                        <%} else {%>
+                            <span data-tooltip-right="<%= Element.ElementTip %>"><%= Element.ElementId %> <%= Element.ElementName %></span><br/>
+                        <% } %>
                         <% if (Element.Type === "text") { %>
                             <textarea name="txt<%= i %>" id="txt<%= i %>" placeholder="<%= Element.ElementName %>" rows="3"><%= Element.Value %></textarea>
                             <input type="hidden" name="el<%= i %>" id="el<%= i %>" value="txt"/>

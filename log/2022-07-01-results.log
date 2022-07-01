@@ -1,0 +1,73 @@
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 08:25:43"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 08:25:47"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:e49da40c-f80b-49d1-9668-43429adf5231","timestamp":"2022-07-01 08:25:54"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 08:25:57"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2022-07-01 08:26:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 08:26:02"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:9e8a8f6b-a5ae-44fd-8f00-8c98ba4052a3","timestamp":"2022-07-01 08:26:04"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:9e8a8f6b-a5ae-44fd-8f00-8c98ba4052a3","timestamp":"2022-07-01 08:26:07"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:9e8a8f6b-a5ae-44fd-8f00-8c98ba4052a3","timestamp":"2022-07-01 08:26:08"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 08:26:18"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-07-01 08:26:18"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-07-01 08:26:18"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\8b8bdd0d-ecdf-4e9e-90dd-2cc3415a73ce.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-07-01T08:26:32.241Z\"}}","timestamp":"2022-07-01 08:26:32"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 10:01:07"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 10:01:10"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 10:02:10"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 10:02:19"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-07-01 10:02:19"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-07-01 10:02:19"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\9c4aace6-0a8d-4aad-b222-305433468392.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-07-01T10:02:26.168Z\"}}","timestamp":"2022-07-01 10:02:26"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 10:24:42"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 10:49:06"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 10:49:21"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 10:49:27"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-07-01 10:49:27"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-07-01 10:49:27"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\26067f19-e27e-4d2a-aa63-22a56f49c16e.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-07-01T10:49:37.979Z\"}}","timestamp":"2022-07-01 10:49:38"}
+{"level":"\u001b[34minfo\u001b[39m","message":"audit file download: C:\\develop\\nodejs\\projects\\aitam\\work\\26067f19-e27e-4d2a-aa63-22a56f49c16e.xml","timestamp":"2022-07-01 10:57:33"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 12:53:01"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 12:53:04"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 12:57:31"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 13:01:11"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 13:01:26"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 13:01:34"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-07-01 13:01:34"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-07-01 13:01:34"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\37dbe37b-09a0-404a-b7ef-b9cd45906c71.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-07-01T13:01:41.054Z\"}}","timestamp":"2022-07-01 13:01:41"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 13:05:53"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 13:06:02"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-07-01 13:06:02"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-07-01 13:06:02"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\f6fe99e6-b922-4166-8a6a-7305c5035fc3.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-07-01T13:06:07.925Z\"}}","timestamp":"2022-07-01 13:06:08"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 13:17:32"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 13:17:47"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-07-01 13:17:47"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-07-01 13:17:47"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\9b117356-1382-42e1-95ef-dbc76f8270ac.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-07-01T13:17:53.186Z\"}}","timestamp":"2022-07-01 13:17:53"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 13:19:47"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 13:20:02"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 13:20:08"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-07-01 13:20:08"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-07-01 13:20:08"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\57bab820-4255-49ed-a0f1-c9c19e51f56b.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-07-01T13:20:14.334Z\"}}","timestamp":"2022-07-01 13:20:14"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 13:22:15"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 13:22:24"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-07-01 13:22:24"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-07-01 13:22:24"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\dd9d2224-2134-4c2a-8943-5afb0c49764b.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-07-01T13:22:29.868Z\"}}","timestamp":"2022-07-01 13:22:30"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 13:25:39"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 13:25:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-07-01 13:25:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-07-01 13:25:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\335be387-c472-4ef9-a9ab-228016c2b438.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-07-01T13:25:54.439Z\"}}","timestamp":"2022-07-01 13:25:54"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 13:27:02"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 13:27:09"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-07-01 13:27:09"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-07-01 13:27:09"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\d32b6fc9-adad-419a-9b46-51d01c249311.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-07-01T13:27:14.507Z\"}}","timestamp":"2022-07-01 13:27:14"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-07-01 13:29:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-07-01 13:29:50"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-07-01 13:29:50"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-07-01 13:29:50"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":465587,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\e307cda1-c803-43a0-98a4-e736ad848691.xml\",\"name\":\"ATK-SIGTAS.xml\",\"type\":\"text/xml\",\"mtime\":\"2022-07-01T13:29:55.443Z\"}}","timestamp":"2022-07-01 13:29:55"}

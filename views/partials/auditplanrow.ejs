@@ -10,7 +10,7 @@
             <input type="hidden" id="<%= item.RowId %>Area" name="<%= item.RowId %>Area" value="<%= item.AreaId %>"/>
         </td>
         <td>
-            <a href="/auditMatrices/planMatrix?plugin=<%= item.PluginId %>&domain=<%= item.DomainId %>&area=<%= item.AreaId %>&issue=<%= item.IssueId %>&src=tbl" data-tooltip-bottom="<%= item.IssueTip %>&src=tbl"><%= item.Issue %></a>
+            <a href="/auditMatrices/planMatrix?plugin=<%= item.PluginId %>&domain=<%= item.DomainId %>&area=<%= item.AreaId %>&issue=<%= item.IssueId %>&src=tbl" data-tooltip-bottom="<%= item.IssueTip %>"><%= item.Issue %></a>
             <br/>Related findings found: <%= item.Findings %>
             <input type="hidden" id="<%= item.RowId %>Issue" name="<%= item.RowId %>Issue" value="<%= item.IssueId %>"/>
         </td>
