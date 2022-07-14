@@ -143,6 +143,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
+
 app.get('/',function(req,res){
     graphdb.CreateDictionary();
     log.info('Session created received the id:' + req.sessionID);
@@ -364,10 +365,10 @@ app.use(function(req,res,next){
 
 
 //use app in http server
-// app.listen(3000,function(){
-//     graphdb.CreateDictionary();
-//     console.log('Server started on port 3000...');
-// })
+//app.listen(3000,function(){
+//    graphdb.CreateDictionary();
+//    console.log('Server started on port 80...');
+//});
 
 //use app in https server
 https.createServer({

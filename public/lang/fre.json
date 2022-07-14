@@ -84,7 +84,8 @@
 		},
 		"planRiskHeatMatrix": {
 			"name": "Matrice des risques", 
-			"tooltip":"Cette fonctionnalité génère la matrice des risques"
+			"tooltip":"Cette fonctionnalité génère la matrice des risques",
+			"introduction": "Pour une image complète, veuillez utiliser la "
 		},
 		"planCollectionMatrices": {
 			"name": "Collection de matrices", 

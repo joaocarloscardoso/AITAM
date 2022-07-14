@@ -1,0 +1,60 @@
+<h1>"Most risky" domains</h1>
+<canvas id="chartjs-DRR" class="chartjs" width="undefined" height="undefined"></canvas>
+<script>new Chart(document.getElementById("chartjs-DRR"),
+    {"type":"horizontalBar",
+    "data":{"labels":[
+        <% let i=1 %>
+        <% GeneralDomainCatalog.wLabels.split("|").forEach(function(item) { %>
+            <% if (i == 1) { -%>
+                "<%= item %>"
+            <% } else { %>
+                ,"<%= item %>"
+            <% } %>
+            <% i++ %>
+        <% }) %>
+    ],
+    "datasets":[
+        {
+            "label":"Rank",
+            "data":[<%= GeneralDomainCatalog.wRiskRank %>],
+            "fill":false,
+            "backgroundColor":[
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+            ],
+            "borderColor":[
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+                "rgb(255, 99, 132)",
+            ],
+            "borderWidth":1
+        }
+        /*,
+        {
+            "type": "line",
+            "label":"Threshold",
+            "data":[<%= GeneralDomainCatalog.wTreshold %>],
+            "fill":false,
+            "borderColor":"rgb(255, 99, 132)",
+            "borderWidth": 2,
+            "lineTension":0.1
+        }*/
+    ]},
+    "options":{
+            "scales":
+                {
+                    "xAxes":[{"ticks":{"beginAtZero":true,"stepSize": 1}}]
+                }
+    }
+    });
+</script>
+

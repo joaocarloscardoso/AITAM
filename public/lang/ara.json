@@ -84,7 +84,8 @@
 		},
 		"planRiskHeatMatrix": {
 			"name": "مصفوفة المخاطر", 
-			"tooltip":"هذا الخيار ينشئ مصفوفة المخاطر"
+			"tooltip":"هذا الخيار ينشئ مصفوفة المخاطر",
+			"introduction": "للحصول على صورة كاملة الرجاء استخدام "
 		},
 		"planCollectionMatrices": {
 			"name": "مجموعة من المصفوفات", 
