@@ -37,6 +37,9 @@ var fs = require("fs");
 //garbage collector / file cleaner
 var FileCleaner = require('cron-file-cleaner').FileCleaner;
 
+const httpPort  = 3001;
+const httpsPort = 3000;
+
 const https = require('https');
 
 //graphdb access
@@ -125,6 +128,13 @@ app.use(express.static(path.join(__dirname,'public')));
 
 //to make variables global place them here 
 app.use(function(req,res,next){
+    //http redirect to https
+    if (!req.secure) {
+        vHost=req.headers.host
+        vHost=vHost.replace(httpPort.toString(), httpsPort.toString());
+        return res.redirect("https://" + vHost + req.url);
+    };
+    //end http redirect to https
     res.locals.errors = null;
     next();
 });
@@ -363,7 +373,6 @@ app.use(function(req,res,next){
     //res.send('500 - Server Error');
 });
 
-
 //use app in http server
 //app.listen(3000,function(){
 //    graphdb.CreateDictionary();
@@ -371,11 +380,27 @@ app.use(function(req,res,next){
 //});
 
 //use app in https server
+//http to https redirection 
+const http = require('http');
+
+
+
+//app.use((req, res, next) => {
+//    if(req.protocol === 'http') {
+//        res.redirect(301, 'https://$(req.headers.host)$(req.url)');
+//    }
+//    next();
+//});
+
+const httpServer = http.createServer(app);
+httpServer.listen(httpPort);
+//end redirection
+
 https.createServer({
     key: fs.readFileSync('./key.pem'),
     cert: fs.readFileSync('./cert.pem'),
-    passphrase: 'aitam'
-},app).listen(3000,function(){
+    passphrase: credentials.passPhrase
+},app).listen(httpsPort,function(){
     graphdb.CreateDictionary()
-    console.log('Server started on port 3000...');
+    console.log('Server started on port ' + httpsPort.toString() +'...');
 });
