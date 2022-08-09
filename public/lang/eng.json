@@ -112,7 +112,7 @@
 			"tooltip":""
 		},
 		"recommendationCloseCreateRecommendation":{
-			"name":"Close and create Recommendation",
+			"name":"Close this and create new",
 			"tooltip":""
 		},
 		"recommendationTrackReport":{
@@ -135,7 +135,7 @@
 			"auditID": "Audit ID",
 			"auitTitle": "Audit title",
 			"auditBackground":"Audit background",
-			"auditScope":"Audit objectives (GUID 5100/5.2 ISSAI 100/30) and scope (GUID 5100/5.4 ISSAI 100/48)"
+			"auditScope":"Audit objectives (ISSAI 100/30, GUID 5100/5.2) and scope (ISSAI 100/48, GUID 5100/5.4)"
 		},
 		"timeline" : {
 			"pageTitle": "Audit control dashboard",

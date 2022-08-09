@@ -374,9 +374,9 @@ app.use(function(req,res,next){
 });
 
 //use app in http server
-//app.listen(3000,function(){
+//app.listen(httpsPort,function(){
 //    graphdb.CreateDictionary();
-//    console.log('Server started on port 80...');
+//    console.log('Server started on port ' + httpsPort + '...');
 //});
 
 //use app in https server

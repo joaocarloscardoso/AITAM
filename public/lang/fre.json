@@ -112,7 +112,7 @@
 			"tooltip":""
 		},
 		"recommendationCloseCreateRecommendation":{
-			"name":"Fermer et créer une recommandation",
+			"name":"Fermez ceci et créez une nouvelle",
 			"tooltip":""
 		},
 		"recommendationTrackReport":{
@@ -135,15 +135,15 @@
 			"auditID": "ID de l'Audit",
 			"auitTitle": "Titre de l'audit",
 			"auditBackground":"Contexte de l'audit",
-			"auditScope":"Objectifs de l'audit (GUID 5100/5.2 ISSAI 100/30) et étendue (GUID 5100/5.4 ISSAI 100/48)"
+			"auditScope":"Objectifs de l'audit (ISSAI 100/30, GUID 5100/5.2) et étendue (ISSAI 100/48, GUID 5100/5.4)"
 		},
 		"timeline" : {
 			"pageTitle": "Tableau de bord de contrôle de l'audit",
-			"referenceFilled":"Informations de référence d'audit enregistrées !",
-			"referencePartialFilled":"Informations de référence d'audit partiellement enregistrées !",
-			"referenceNotFilled":"Informations de référence d'audit non enregistrées !",
-			"pluginsSelected":" plugins sélectionnés !",
-			"pluginsNotSelected":"Aucun plugin sélectionné !",
+			"referenceFilled":"Informations de référence d'audit enregistrées!",
+			"referencePartialFilled":"Informations de référence d'audit partiellement enregistrées!",
+			"referenceNotFilled":"Informations de référence d'audit non enregistrées!",
+			"pluginsSelected":" plugins sélectionnés!",
+			"pluginsNotSelected":"Aucun plugin sélectionné!",
 			"preassessmentFilled":"Informations des activités préliminaires enregistrées!",
 			"preassessmentNotFilled":"Informations des activités préliminaires non enregistrées!",
 			"planFilled":"Les informations sur la planification sont enregistrées!",

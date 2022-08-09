@@ -112,7 +112,7 @@
 			"tooltip":""
 		},
 		"recommendationCloseCreateRecommendation":{
-			"name":"إغلاق وإنشاء التوصية",
+			"name":"قم بإغلاق هذا وإنشاء جديد",
 			"tooltip":""
 		},
 		"recommendationTrackReport":{
@@ -135,7 +135,7 @@
 			"auditID": "معرّف التدقيق",
 			"auitTitle": "عنوان التدقيق",
 			"auditBackground":"خلفية التدقيق",
-			"auditScope":"أهداف التدقيق (GUID 5100 / 5.2 ISSAI 100/30) والنطاق (GUID 5100 / 5.4 ISSAI 100/48)"
+			"auditScope":"أهداف التدقيق (ISSAI 100/30, GUID 5100 / 5.2) والنطاق (ISSAI 100/48, GUID 5100 / 5.4)"
 		},
 		"timeline" : {
 			"pageTitle": "لوحة التحكم في المراجعة",

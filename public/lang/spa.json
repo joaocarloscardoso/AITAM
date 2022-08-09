@@ -112,7 +112,7 @@
 			"tooltip":""
 		},
 		"recommendationCloseCreateRecommendation":{
-			"name":"Cerrar y crear recomendación",
+			"name":"Cerrar esta y crear nueva",
 			"tooltip":""
 		},
 		"recommendationTrackReport":{
@@ -135,7 +135,7 @@
 			"auditID": "ID de la Auditoría",
 			"auitTitle": "Título de la auditoría",
 			"auditBackground":"Antecedentes de la auditoría",
-			"auditScope":"Objetivos de auditoría (GUID 5100/5.2 ISSAI 100/30) y alcance (GUID 5100/5.4 ISSAI 100/48)"
+			"auditScope":"Objetivos de auditoría (ISSAI 100/30, GUID 5100/5.2) y alcance (ISSAI 100/48, GUID 5100/5.4)"
 		},
 		"timeline" : {
 			"pageTitle": "Tablero de control de auditoría",
