@@ -14,29 +14,33 @@
 	"pageNavigation":{
 		"home": "Inicio",
 		"audit": {
-			"menu_title":"La auditoría",
+			"menu_title":"Visión general",
+			"menu_plan":"Plan",
+			"menu_findings":"Resultados",
+			"menu_recommendations":"Recomendaciones",
+			"menu_download":"Descargar",
 			"timeline": "Tablero de control de auditoría",
 			"WorkingAreas":{
 				"menu_title":"Áreas de trabajo",
 				"reference": "Referencia",
 				"plug_ins":"Complementos",
 				"preliminary": "Actividades preliminares",
-				"plan":"Plan",
-				"findings":"Resultados",
-				"recommendations":"Recomendaciones"
+				"plan":"Tabla de riesgos",
+				"findings":"Tabla de resultados",
+				"recommendations":"Tabla de recomendaciones"
 			},
 			"analytics":{
 				"menu_title":"Analítica",
 				"treemap": "Mapa del árbol de auditoría",
 				"dommain_characterization": "Caracterización de dominio",
 				"hints": "Sugerencias",
-				"findings_analysis": "Análisis de resultados",
-				"sentiment_analysis_findings":"Análisis de sentimiento sobre los resultados",
-				"recommendations_tracking":"Seguimiento de recomendaciones",
+				"findings_analysis": "Análisis",
+				"sentiment_analysis_findings":"Análisis de sentimiento",
+				"recommendations_tracking":"Seguimiento",
 				"raw_data":"Exportar datos analíticos",
 				"procedure_data":"Exportar los procedimientos"
 			},
-			"download":"Descargar",
+			"download":"Descargar archivo de auditoría (XML)",
 			"close":"Cerrar archivo de auditoría"
 		},
 		"tool":"Herramienta",
@@ -133,7 +137,7 @@
 		"reference" : {
 			"pageTitle": "Referencia de la auditoría",
 			"auditID": "ID de la Auditoría",
-			"auitTitle": "Título de la auditoría",
+			"auditTitle": "Título de la auditoría",
 			"auditBackground":"Antecedentes de la auditoría",
 			"auditScope":"Objetivos de auditoría (ISSAI 100/30, GUID 5100/5.2) y alcance (ISSAI 100/48, GUID 5100/5.4)"
 		},
@@ -257,7 +261,7 @@
 				"acceptedTooltip":"Recomendación aceptada por el auditado",
 				"categorizing":"Categorizar la recomendación de auditoría",
 				"categorizingTooltip":"Categorización de la recomendación de auditoría (máximo 100 caracteres)",
-				"repetead":"¿Repetido en auditorías anteriores? (registrar en el campo de comentarios el historial)",
+				"repeated":"¿Repetido en auditorías anteriores? (registrar en el campo de comentarios el historial)",
 				"repeteadTooltip":"Recomendación repetida en auditorías anteriores",
 				"actionPlan":"Plan de accion",
 				"actionPlanTooltip":"Plan de acción / remedio propuesto",

@@ -1,0 +1,72 @@
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <!--selected menu item controlled through class="current" in li element -->
+                    <%  if (action == 'home') { %>
+                        <li class="current">
+                    <% } else { %>
+                        <li>
+                    <% } %>
+                    <a href="/index"><%=nav.home %></a></li>
+                    <%  if (audit) { %>
+                    <li>
+                        <a href="#"><%=nav.audit.menu_title %></a>
+                        <ul>
+                            <li><a href="/toolaudit/toolauditline"><%=nav.audit.timeline %></a></li>
+                            <li>
+                                <a href="#"><%=nav.audit.WorkingAreas.menu_title %></a>
+                                <ul>
+                                    <li><a href="/toolaudit/toolauditreference?src=tbl"><%=nav.audit.WorkingAreas.reference %></a></li>
+                                    <li><a href="/toolaudit/toolauditplugins"><%=nav.audit.WorkingAreas.plug_ins %></a></li>
+                                    <li><a href="/preassessaudit/auditpreassessment"><%=nav.audit.WorkingAreas.preliminary %></a></li>
+                                    <li><a href="/planaudit/auditplanning"><%=nav.audit.WorkingAreas.plan %></a></li>
+                                    <li><a href="/findingaudit/auditfindings"><%=nav.audit.WorkingAreas.findings %></a></li>
+                                    <li><a href="/auditrec/auditrecs"><%=nav.audit.WorkingAreas.recommendations %></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><%=nav.audit.analytics.menu_title %></a>
+                                <ul>
+                                    <li><a href="/analytics/AuditMap"><%=nav.audit.analytics.treemap %></a></li>
+                                    <li><a href="/toolaudit/auditstatistics"><%=nav.audit.analytics.dommain_characterization %></a></li>
+                                    <li><a href="/analytics/Recommendations"><%=nav.audit.analytics.hints %></a></li>
+                                    <li><a href="/analytics/Findings"><%=nav.audit.analytics.findings_analysis %></a></li>
+                                    <li><a href="/analytics/SentimentFindings"><%=nav.audit.analytics.sentiment_analysis_findings %></a></li>
+                                    <li><a href="/analytics/StatsRecommendations"><%=nav.audit.analytics.recommendations_tracking %></a></li>
+                                    <li><a href="/generatedocs/analyticalrawdata"><%=nav.audit.analytics.raw_data %></a></li>
+                                    <li><a href="/generatedocs/proceduredata"><%=nav.audit.analytics.procedure_data %></a></li>
+                                </ul>
+                            </li>
+                            <li><a target="_blank" href="/toolaudit/work/download"><%=nav.audit.download %></a></li>
+                            <li><a href="/toolaudit/work/onclose"><%=nav.audit.close %></a></li>
+                        </ul>
+                    </li>
+                    <% } %>
+                    <%  if (action == 'tool') { %>
+                        <li class="current">
+                    <% } else { %>
+                        <li>
+                    <% } %>
+                    <a href="/portal/tool"><%=nav.tool %></a></li>
+                    <%  if (action == 'project') { %>
+                        <li class="current">
+                    <% } else { %>
+                        <li>
+                    <% } %>
+                    <%  if (rectracking == 'Yes') { %>
+                        <%  if (user == '') { %>
+                            <a href="/portal/rectracking"><%=nav.recommendations.menu_title %></a>
+                        <% } else { %>
+                            <a href="#"><%=nav.recommendations.menu_title %></a>
+                            <ul>
+                                <li><a href="/portal/rectracking"><%=nav.recommendations.browse %></a></li>
+                                <li><a href="/portal/recmanagement"><%=nav.recommendations.manage %></a></li>
+                            </ul>
+                        <% } %>
+                    <% } %>
+                    </li>
+                    <li><a href="/portal/project"><%=nav.project %></a></li>
+                    <li><a href="#contact"><%=nav.get_in_touch %></a></li>
+                    <li><a href="/portal/language"><%=nav.change_language %></a></li>
+                </ul>
+            </nav>

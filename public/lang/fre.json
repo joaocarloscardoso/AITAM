@@ -14,29 +14,33 @@
 	"pageNavigation":{
 		"home": "Accueil ",
 		"audit": {
-			"menu_title":"L'audit",
+			"menu_title":"Aperçu",
+			"menu_plan":"Plan",
+			"menu_findings":"Résultats",
+			"menu_recommendations":"Recommandations",
+			"menu_download":"Télécharger",
 			"timeline": "Tableau de bord de contrôle de l'audit",
 			"WorkingAreas":{
 				"menu_title":"Zones de travail",
 				"reference": "Référence",
 				"plug_ins":"Plug-ins",
 				"preliminary": "Activités préliminaires",
-				"plan":"Plan",
-				"findings":"Résultats",
-				"recommendations":"Recommandations"
+				"plan":"Tableau des risques",
+				"findings":"Tableau des résultats",
+				"recommendations":"Tableau des recommandations"
 			},
 			"analytics":{
 				"menu_title":"Analytique",
 				"treemap": "Carte de l'arborescence d'audit",
 				"dommain_characterization": "Caractérisation de domaine",
 				"hints": "Conseils",
-				"findings_analysis": "Analyse des résultats",
-				"sentiment_analysis_findings":"Analyse des sentiments sur les résultats",
-				"recommendations_tracking":"Suivi des recommandations",
+				"findings_analysis": "Analyse",
+				"sentiment_analysis_findings":"Analyse des sentiments",
+				"recommendations_tracking":"Suivi",
 				"raw_data":"Exporter des données d'analyse",
 				"procedure_data":"Exporter les procédures"
 			},
-			"download":"Télécharger",
+			"download":"Télécharger le fichier d'audit (XML)",
 			"close":"Fermer le fichier d'audit"
 		},
 		"tool":"Outil",
@@ -133,7 +137,7 @@
 		"reference" : {
 			"pageTitle": "Référence de l'audit",
 			"auditID": "ID de l'Audit",
-			"auitTitle": "Titre de l'audit",
+			"auditTitle": "Titre de l'audit",
 			"auditBackground":"Contexte de l'audit",
 			"auditScope":"Objectifs de l'audit (ISSAI 100/30, GUID 5100/5.2) et étendue (ISSAI 100/48, GUID 5100/5.4)"
 		},
@@ -257,7 +261,7 @@
 				"acceptedTooltip":"Recommandation acceptée par l'audité",
 				"categorizing":"Catégorisation de la recommandation d'audit",
 				"categorizingTooltip":"Catégorisation de la recommandation d'audit (100 caractères maximum)",
-				"repetead":"Répété lors des audits précédents? (enregistrer dans le champ des remarques l'historique)",
+				"repeated":"Répété lors des audits précédents? (enregistrer dans le champ des remarques l'historique)",
 				"repeteadTooltip":"Recommandation répétée lors des audits précédents",
 				"actionPlan":"Plan d'action",
 				"actionPlanTooltip":"Plan d'action / correctif proposé",

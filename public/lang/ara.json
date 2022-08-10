@@ -14,29 +14,33 @@
 	"pageNavigation":{
 		"home": "الصفحة الرئيسية",
 		"audit": {
-			"menu_title":"التدقيق",
+			"menu_title":"ملخص",
+			"menu_plan":"الخطة",
+			"menu_findings":"النتائج",
+			"menu_recommendations":"التوصيات",
+			"menu_download":"تحميل",
 			"timeline": "لوحة التحكم في المراجعة",
 			"WorkingAreas":{
 				"menu_title":"مناطق العمل",
 				"reference": "المرجع",
 				"plug_ins":"المكونات الإضافية",
 				"preliminary": "الأنشطة الأولية",
-				"plan":"الخطة",
-				"findings":"النتائج",
-				"recommendations":"التوصيات"
+				"plan":"جدول المخاطر",
+				"findings":"جدول النتائج",
+				"recommendations":"جدول التوصيات"
 			},
 			"analytics":{
 				"menu_title":"تحليلات",
 				"treemap": "الخطة الشجرية للتدقيق",
 				"dommain_characterization": "وصف المجال",
 				"hints": "تلميحات",
-				"findings_analysis": "تحليل النتائج",
-				"sentiment_analysis_findings":"تحليل الآراء للنتائج",
-				"recommendations_tracking":"متابعة التوصيات",
+				"findings_analysis": "التحليلات",
+				"sentiment_analysis_findings":"تحليل المشاعر",
+				"recommendations_tracking":"تتبع",
 				"raw_data":"تصدير بيانات التحليلات",
 				"procedure_data":"تصدير الإجراءات"
 			},
-			"download":"تحميل",
+			"download":"تنزيل ملف التدقيق (XML)",
 			"close":"أغلاق ملف التدقيق"
 		},
 		"tool":"أداة",
@@ -133,7 +137,7 @@
 		"reference" : {
 			"pageTitle": "مرجع التدقيق",
 			"auditID": "معرّف التدقيق",
-			"auitTitle": "عنوان التدقيق",
+			"auditTitle": "عنوان التدقيق",
 			"auditBackground":"خلفية التدقيق",
 			"auditScope":"أهداف التدقيق (ISSAI 100/30, GUID 5100 / 5.2) والنطاق (ISSAI 100/48, GUID 5100 / 5.4)"
 		},
@@ -164,7 +168,8 @@
 			"selectedHeader": "المحدد",
 			"selectedValues": {
 				"Yes":"أجل",
-				"No":"لا"},
+				"No":"لا"
+			},
 			"descriptionHeader": "وصف",
 			"versionHeader": "الإصدار",
 			"fileHeader": "ملف"
@@ -256,7 +261,7 @@
 				"acceptedTooltip":"قبول التوصية من قبل الجهة الخاضعة للرقابة",
 				"categorizing":"تصنيف توصية التدقيق",
 				"categorizingTooltip":"تصنيف توصية التدقيق (بحد أقصى 100 حرف)",
-				"repetead":"متكرر في عملية/(ات) التدقيق السابقة؟ (سجل تاريخ التوصيات في خانة الملاحظات)",
+				"repeated":"متكرر في عملية/(ات) التدقيق السابقة؟ (سجل تاريخ التوصيات في خانة الملاحظات)",
 				"repeteadTooltip":"تكرار التوصية في عملية/(ات) تدقيق سابقة",
 				"actionPlan":"خطة العمل",
 				"actionPlanTooltip":"خطة العمل / العلاج المقترحة",

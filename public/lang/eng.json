@@ -14,29 +14,33 @@
 	"pageNavigation":{
 		"home": "Home",
 		"audit": {
-			"menu_title":"The audit",
+			"menu_title":"Overview",
+			"menu_plan":"Plan",
+			"menu_findings":"Findings",
+			"menu_recommendations":"Recommendations",
+			"menu_download":"Download",
 			"timeline": "Audit control dashboard",
 			"WorkingAreas":{
 				"menu_title":"Working areas",
 				"reference": "Reference",
 				"plug_ins":"Plug-ins",
 				"preliminary": "Preliminary activities",
-				"plan":"Plan",
-				"findings":"Findings",
-				"recommendations":"Recommendations"	
+				"plan":"Risk table",
+				"findings":"Findings table",
+				"recommendations":"Recommendations table"	
 			},
 			"analytics":{
 				"menu_title":"Analytics",
 				"treemap": "Audit tree map",
 				"dommain_characterization": "Domain characterization",
 				"hints": "Hints",
-				"findings_analysis": "Findings analysis",
-				"sentiment_analysis_findings":"Sentiment analysis on findings",
-				"recommendations_tracking":"Recommendations tracking",
+				"findings_analysis": "Analysis",
+				"sentiment_analysis_findings":"Sentiment analysis",
+				"recommendations_tracking":"Tracking",
 				"raw_data":"Export analytics data",
 				"procedure_data":"Export procedures"
 			},
-			"download":"Download",
+			"download":"Download Audit File (XML)",
 			"close":"Close Audit File"
 		},
 		"tool":"Tool",
@@ -133,7 +137,7 @@
 		"reference" : {
 			"pageTitle": "Audit Reference",
 			"auditID": "Audit ID",
-			"auitTitle": "Audit title",
+			"auditTitle": "Audit title",
 			"auditBackground":"Audit background",
 			"auditScope":"Audit objectives (ISSAI 100/30, GUID 5100/5.2) and scope (ISSAI 100/48, GUID 5100/5.4)"
 		},
@@ -257,7 +261,7 @@
 				"acceptedTooltip":"Recommendation accepted by the auditee",
 				"categorizing":"Categorizing the audit recommendation",
 				"categorizingTooltip":"Categorizing the audit recommendation (max 100 characters)",
-				"repetead":"Repeated in previous audit(s)? (register in remarks field the history)",
+				"repeated":"Repeated in previous audit(s)? (register in remarks field the history)",
 				"repeteadTooltip":"Recommendation repeated in previous audit(s)",
 				"actionPlan":"Action plan",
 				"actionPlanTooltip":"Action/remedial plan proposed",
