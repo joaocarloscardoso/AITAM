@@ -1,4 +1,4 @@
-{
+{ 
 	"messages":{
 		"mail_adress":"Invalid email!",
 		"mail_name":"Name must be at least 3 chars long!",
@@ -100,7 +100,7 @@
 			"tooltip":""
 		},
 		"findingCloseCreateFinding": {
-			"name": "Close and create finding", 
+			"name": "Close this and create new", 
 			"tooltip":""
 		},
 		"findingExecutiveSummary": {

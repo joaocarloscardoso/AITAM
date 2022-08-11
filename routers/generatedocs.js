@@ -18,6 +18,7 @@ var log = require('../lib/log.js');
 var appLang = require('../lib/language.js');
 //common business functions
 var commonF = require('../lib/common.js');
+var FileAuditID = require('../lib/planning.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');
@@ -512,6 +513,7 @@ generatedocs.get('/heatmatrix',function(req,res){
 generatedocs.get('/analyticalrawdata',function(req,res){
     //res.send('Hello e-gov');
     //res.json(persons);
+    var file = credentials.WorkSetPath + req.sessionID + '.xml'
     var NewAuditFile = credentials.WorkSetPath;
     NewAuditFile = NewAuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
@@ -520,16 +522,25 @@ generatedocs.get('/analyticalrawdata',function(req,res){
     var NewDocFile = credentials.WorkSetPath;
     NewDocFile = NewDocFile + req.sessionID + '.xlsx';
 
-    req.session.lang = commonF.GetLang(req);
+    req.session.lang = commonF.GetLang(req); 
 
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        var newFileName = FileAuditID.GetAuditID(file);
+        if (newFileName == '') {
+            newFileName  = req.sessionID;
+        }
+        newFileName  = newFileName + '_AnalyticalData_' + req.session.lang.toUpperCase().substring(0, 2)+'.xlsx';
+
         var workbook = Excel.GenerateRawData(NewAuditFile, req.session.lang);
         workbook.xlsx.writeFile(NewDocFile)
             .then(function() {
             // 
-            res.redirect('/document/work/' + req.sessionID + '.xlsx');
+            //res.redirect('/document/work/' + req.sessionID + '.xlsx');
+            var fileOut = credentials.WorkSetPath + req.sessionID + '.xlsx';
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });  
     } else {
         res.render('login/login', {
@@ -548,6 +559,7 @@ generatedocs.get('/analyticalrawdata',function(req,res){
 generatedocs.get('/proceduredata',function(req,res){ 
     //res.send('Hello e-gov');
     //res.json(persons);
+    var file = credentials.WorkSetPath + req.sessionID + '.xml'
     var NewAuditFile = credentials.WorkSetPath;
     NewAuditFile = NewAuditFile + req.sessionID + '.xml';
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
@@ -561,11 +573,20 @@ generatedocs.get('/proceduredata',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        var newFileName = FileAuditID.GetAuditID(file);
+        if (newFileName == '') {
+            newFileName  = req.sessionID;
+        }
+        newFileName  = newFileName + '_Procedures_' + req.session.lang.toUpperCase().substring(0, 2) + '.xlsx';
+
         var workbook = Excel.GenerateProcedureData(NewAuditFile, req.session.lang);
         workbook.xlsx.writeFile(NewDocFile)
             .then(function() {
             // 
-            res.redirect('/document/work/' + req.sessionID + '.xlsx');
+            //res.redirect('/document/work/' + req.sessionID + '.xlsx');
+            var fileOut = credentials.WorkSetPath + req.sessionID + '.xlsx';
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });  
     } else {
         res.render('login/login', {

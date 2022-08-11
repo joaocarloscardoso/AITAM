@@ -100,7 +100,7 @@
 			"tooltip":""
 		},
 		"findingCloseCreateFinding": {
-			"name": "إغلاق وإنشاء أدلة التدقيق", 
+			"name": "قم بإغلاق هذا وإنشاء جديد", 
 			"tooltip":""
 		},
 		"findingExecutiveSummary": {

@@ -279,7 +279,7 @@ app.get(('/toolaudit/work/download'),function(req,res){
     if (newFileName == '') {
         newFileName  = req.sessionID;
     }
-    newFileName  = newFileName + '.xml'
+    newFileName  = newFileName + '_' + req.session.lang.toUpperCase().substring(0, 2) +'.xml';
     if (status) {
         var file = file.replace("/","\\");
         res.download(file, newFileName); // Set disposition and send it.

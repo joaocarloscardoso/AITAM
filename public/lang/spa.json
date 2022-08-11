@@ -96,7 +96,7 @@
 			"tooltip":"Esta funcionalidad genera la colección de matrices de todos los elementos incluidos en la auditoría"
 		},
 		"findingCreateFinding": {
-			"name": "Crear evidencia de auditoría", 
+			"name": "Cerrar esta y crear nueva", 
 			"tooltip":""
 		},
 		"findingCloseCreateFinding": {

@@ -100,7 +100,7 @@
 			"tooltip":""
 		},
 		"findingCloseCreateFinding": {
-			"name": "Fermer et créer des preuves d'audit", 
+			"name": "Fermez ceci et créez une nouvelle", 
 			"tooltip":""
 		},
 		"findingExecutiveSummary": {
