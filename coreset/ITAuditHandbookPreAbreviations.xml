@@ -1,4 +1,4 @@
-<ActiveITAuditDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ActiveITAuditDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 	<About id="AITAM">
 		<version id="20210101" name="main"/>
 		<title>
@@ -11,7 +11,7 @@
 	</About>
 	<Domain nr="01">
 		<title>
-			<tx l="eng" name="IT Governance" />
+			<tx l="eng" name="IT Governance"/>
 			<tx l="spa" name="Gobierno de TI"/>
 			<tx l="fre" name="Gouvernance informatique"/>
 			<tx l="ara" name="حوكمة تقنية المعلومات"/>
@@ -32,10 +32,10 @@
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Business Needs Identification, Direction and Monitoring" abr="Business Needs"/>
-				<tx l="spa" name="Identificación, dirección y seguimiento de las necesidades de negocio" abr=""/>
-				<tx l="fre" name="Identification, direction et surveillance des besoins de l'entreprise" abr=""/>
-				<tx l="ara" name="تحديد احتياجات العمل والتوجيه والمراقبة" abr=""/>
+				<tx l="eng" name="Business Needs Identification, Direction and Monitoring"/>
+				<tx l="spa" name="Identificación, dirección y seguimiento de las necesidades de negocio"/>
+				<tx l="fre" name="Identification, direction et surveillance des besoins de l'entreprise"/>
+				<tx l="ara" name="تحديد احتياجات العمل والتوجيه والمراقبة"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -53,7 +53,7 @@
 			</Narrative>
 			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
-					<tx l="eng" name="Defining IT requirements" />
+					<tx l="eng" name="Defining IT requirements"/>
 					<tx l="spa" name="Definición de requisitos de TI"/>
 					<tx l="fre" name="Définition des besoins de TI"/>
 					<tx l="ara" name="تحديد متطلبات تكنولوجيا المعلومات"/>
@@ -407,10 +407,10 @@ Interviewer la direction pour déterminer comment l'organisation prend des déci
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="IT Strategy and Planning" abr="IT Strategy"/>
-				<tx l="spa" name="Planificación y estrategia de TI" abr=""/>
-				<tx l="fre" name="Stratégie et planification informatiques" abr=""/>
-				<tx l="ara" name="استراتيجية تكنولوجيا المعلومات والتخطيط" abr=""/>
+				<tx l="eng" name="IT Strategy and Planning"/>
+				<tx l="spa" name="Planificación y estrategia de TI"/>
+				<tx l="fre" name="Stratégie et planification informatiques"/>
+				<tx l="ara" name="استراتيجية تكنولوجيا المعلومات والتخطيط"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -483,6 +483,7 @@ Compte-rendu des réunions du comité de pilotage informatique et organisations
 
 محاضر الاجتماعات من اجتماعات اللجنة التوجيهية لتكنولوجيا المعلومات والمنظمات
 "/>
+
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
@@ -624,10 +625,10 @@ Interviewer la direction ou examiner les procès-verbaux de réunion pour déter
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Organisational structures, Standards, Policies and Procedures" abr="Organisation"/>
-				<tx l="spa" name="Estructuras organizativas, estándares, políticas y procedimientos" abr=""/>
-				<tx l="fre" name="Structures organisationnelles, normes, politiques et procédures" abr=""/>
-				<tx l="ara" name="الهياكل التنظيمية والمعايير والسياسات والإجراءات" abr=""/>
+				<tx l="eng" name="Organisational structures, Standards, Policies and Procedures"/>
+				<tx l="spa" name="Estructuras organizativas, estándares, políticas y procedimientos"/>
+				<tx l="fre" name="Structures organisationnelles, normes, politiques et procédures"/>
+				<tx l="ara" name="الهياكل التنظيمية والمعايير والسياسات والإجراءات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -916,10 +917,10 @@ Passez en revue les politiques pour déterminer l'adéquation en recherchant (à
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="People and Resources" abr="HR"/>
-				<tx l="spa" name="Personas y recursos" abr=""/>
-				<tx l="fre" name="Personnes et ressources" abr=""/>
-				<tx l="ara" name="الناس والموارد" abr=""/>
+				<tx l="eng" name="People and Resources"/>
+				<tx l="spa" name="Personas y recursos"/>
+				<tx l="fre" name="Personnes et ressources"/>
+				<tx l="ara" name="الناس والموارد"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1055,10 +1056,10 @@ Passez en revue le plan stratégique informatique pour vous assurer qu'il contie
 		</Area>
 		<Area nr="05">
 			<title>
-				<tx l="eng" name="Risk Assessment and Compliance mechanisms" abr="Assessment"/>
-				<tx l="spa" name="Mecanismos de evaluación de riesgos y cumplimiento" abr=""/>
-				<tx l="fre" name="Mécanismes d'évaluation des risques et de conformité" abr=""/>
-				<tx l="ara" name="آليات تقييم المخاطر والامتثال" abr=""/>
+				<tx l="eng" name="Risk Assessment and Compliance mechanisms"/>
+				<tx l="spa" name="Mecanismos de evaluación de riesgos y cumplimiento"/>
+				<tx l="fre" name="Mécanismes d'évaluation des risques et de conformité"/>
+				<tx l="ara" name="آليات تقييم المخاطر والامتثال"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1221,10 +1222,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="IT Service Continuity management" abr="Continuity"/>
-				<tx l="spa" name="Gestión de la continuidad del servicio de TI" abr=""/>
-				<tx l="fre" name="Gestion de la continuité des services informatiques" abr=""/>
-				<tx l="ara" name="إدارة استمرارية خدمة تكنولوجيا المعلومات" abr=""/>
+				<tx l="eng" name="IT Service Continuity management"/>
+				<tx l="spa" name="Gestión de la continuidad del servicio de TI"/>
+				<tx l="fre" name="Gestion de la continuité des services informatiques"/>
+				<tx l="ara" name="إدارة استمرارية خدمة تكنولوجيا المعلومات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1590,10 +1591,10 @@ Vérifiez si les paramètres de l'accord de niveau de service sont examinés pé
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Capacity Management" abr="Capacity"/>
-				<tx l="spa" name="Gestión de capacidad" abr=""/>
-				<tx l="fre" name="Gestion de la capacité" abr=""/>
-				<tx l="ara" name="إدارة القدرات" abr=""/>
+				<tx l="eng" name="Capacity Management"/>
+				<tx l="spa" name="Gestión de capacidad"/>
+				<tx l="fre" name="Gestion de la capacité"/>
+				<tx l="ara" name="إدارة القدرات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1859,10 +1860,10 @@ Passez en revue les procès-verbaux des réunions et vérifiez si les problèmes
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Problem and incident management" abr="Problem Management"/>
-				<tx l="spa" name="Gestión de incidentes y problemas" abr=""/>
-				<tx l="fre" name="Gestion des problèmes et des incidents" abr=""/>
-				<tx l="ara" name="إدارة المشاكل والحوادث" abr=""/>
+				<tx l="eng" name="Problem and incident management"/>
+				<tx l="spa" name="Gestión de incidentes y problemas"/>
+				<tx l="fre" name="Gestion des problèmes et des incidents"/>
+				<tx l="ara" name="إدارة المشاكل والحوادث"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2212,10 +2213,10 @@ Vérifiez si l'équipe d'intervention en cas d'incident enregistre en détail to
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Change Management" abr=""/>
-				<tx l="spa" name="Gestión del cambio" abr=""/>
-				<tx l="fre" name="La gestion du changement" abr=""/>
-				<tx l="ara" name="إدارة التغيير" abr=""/>
+				<tx l="eng" name="Change Management"/>
+				<tx l="spa" name="Gestión del cambio"/>
+				<tx l="fre" name="La gestion du changement"/>
+				<tx l="ara" name="إدارة التغيير"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2645,7 +2646,7 @@ Examiner les mécanismes existants pour mettre à jour les processus métier pou
 	</Domain>
 	<Domain nr="03">
 		<title>
-			<tx l="eng" name="Development and Acquisition" abr="Development"/>
+			<tx l="eng" name="Development and Acquisition"/>
 			<tx l="spa" name="Desarrollo y Adquisición"/>
 			<tx l="fre" name="Développement et acquisition"/>
 			<tx l="ara" name="التطوير والاستحواذ"/>
@@ -2666,10 +2667,10 @@ Examiner les mécanismes existants pour mettre à jour les processus métier pou
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Requirements Development and Management" abr="Requirements"/>
-				<tx l="spa" name="Desarrollo y gestión de requisitos" abr=""/>
-				<tx l="fre" name="Développement et gestion des exigences" abr=""/>
-				<tx l="ara" name="تطوير وإدارة المتطلبات" abr=""/>
+				<tx l="eng" name="Requirements Development and Management"/>
+				<tx l="spa" name="Desarrollo y gestión de requisitos"/>
+				<tx l="fre" name="Développement et gestion des exigences"/>
+				<tx l="ara" name="تطوير وإدارة المتطلبات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2890,10 +2891,10 @@ Passez en revue les critères de priorité des exigences pour déterminer s'ils 
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Project Management and Control" abr="Project Management"/>
-				<tx l="spa" name="Gestión y control de proyectos" abr=""/>
-				<tx l="fre" name="Gestion et contrôle de projet" abr=""/>
-				<tx l="ara" name="إدارة المشروع والتحكم فيه" abr=""/>
+				<tx l="eng" name="Project Management and Control"/>
+				<tx l="spa" name="Gestión y control de proyectos"/>
+				<tx l="fre" name="Gestion et contrôle de projet"/>
+				<tx l="ara" name="إدارة المشروع والتحكم فيه"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3222,10 +3223,10 @@ Examiner le procès-verbal de la réunion pour s'assurer que les risques sont di
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Quality Assurance and Testing" abr="QA"/>
-				<tx l="spa" name="Aseguramiento de la calidad y las pruebas" abr=""/>
-				<tx l="fre" name="L'assurance de la qualité et des tests" abr=""/>
-				<tx l="ara" name="جودة الضمان والاختبار" abr=""/>
+				<tx l="eng" name="Quality Assurance and Testing"/>
+				<tx l="spa" name="Aseguramiento de la calidad y las pruebas"/>
+				<tx l="fre" name="L'assurance de la qualité et des tests"/>
+				<tx l="ara" name="جودة الضمان والاختبار"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3462,10 +3463,10 @@ Interviewer l'agent contractuel des organisations pour déterminer comment ils g
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Solicitation" abr=""/>
-				<tx l="spa" name="Solicitación" abr=""/>
-				<tx l="fre" name="Sollicitation" abr=""/>
-				<tx l="ara" name="الإغراء" abr=""/>
+				<tx l="eng" name="Solicitation"/>
+				<tx l="spa" name="Solicitación"/>
+				<tx l="fre" name="Sollicitation"/>
+				<tx l="ara" name="الإغراء"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3682,10 +3683,10 @@ Passez en revue la matrice de notation du fournisseur ou l'équivalent pour conf
 		</Area>
 		<Area nr="05">
 			<title>
-				<tx l="eng" name="Configuration Management" abr="Configuration"/>
-				<tx l="spa" name="Gestión de la configuración" abr=""/>
-				<tx l="fre" name="Gestion de la configuration" abr=""/>
-				<tx l="ara" name="إدارة التكوين" abr=""/>
+				<tx l="eng" name="Configuration Management"/>
+				<tx l="spa" name="Gestión de la configuración"/>
+				<tx l="fre" name="Gestion de la configuration"/>
+				<tx l="ara" name="إدارة التكوين"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3919,10 +3920,10 @@ Interroger le personnel chargé d'autoriser les modifications du système de pro
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Outsourcing Policy" abr=""/>
-				<tx l="spa" name="Política de subcontratación" abr=""/>
-				<tx l="fre" name="Politique d'externalisation" abr=""/>
-				<tx l="ara" name="سياسة الاستعانة بمصادر خارجية" abr=""/>
+				<tx l="eng" name="Outsourcing Policy"/>
+				<tx l="spa" name="Política de subcontratación"/>
+				<tx l="fre" name="Politique d'externalisation"/>
+				<tx l="ara" name="سياسة الاستعانة بمصادر خارجية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4084,10 +4085,10 @@ Examen des documents pour évaluer que la politique comprend l'identification de
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Solicitation" abr=""/>
-				<tx l="spa" name="Solicitación" abr=""/>
-				<tx l="fre" name="Sollicitation" abr=""/>
-				<tx l="ara" name="الإغراء" abr=""/>
+				<tx l="eng" name="Solicitation"/>
+				<tx l="spa" name="Solicitación"/>
+				<tx l="fre" name="Sollicitation"/>
+				<tx l="ara" name="الإغراء"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4230,10 +4231,10 @@ Rencontrer le bureau contractuel pour s'assurer que le niveau de gestion appropr
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Vendor or Contract Management" abr="Contracts"/>
-				<tx l="spa" name="Gestión de proveedores o contratos" abr=""/>
-				<tx l="fre" name="Gestion des fournisseurs ou des contrats" abr=""/>
-				<tx l="ara" name="إدارة البائعين أو العقد" abr=""/>
+				<tx l="eng" name="Vendor or contract Management"/>
+				<tx l="spa" name="Gestión de proveedores o contratos"/>
+				<tx l="fre" name="Gestion des fournisseurs ou des contrats"/>
+				<tx l="ara" name="إدارة البائعين أو العقد"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4365,10 +4366,10 @@ Examen des avis et des rapports sur les mesures prises pour que les mesures pris
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Data Rights" abr=""/>
-				<tx l="spa" name="Derechos de datos" abr=""/>
-				<tx l="fre" name="DDroits de données" abr=""/>
-				<tx l="ara" name="حقوق البيانات" abr=""/>
+				<tx l="eng" name="Data Rights"/>
+				<tx l="spa" name="Derechos de datos"/>
+				<tx l="fre" name="DDroits de données"/>
+				<tx l="ara" name="حقوق البيانات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4522,10 +4523,10 @@ Vérifiez si la divulgation d'informations par une agence externalisée est auto
 		</Area>
 		<Area nr="05">
 			<title>
-				<tx l="eng" name="Overseas Service Provider" abr="Overseas"/>
-				<tx l="spa" name="Proveedor de servicios en el extranjero" abr=""/>
-				<tx l="fre" name="Fournisseur de services à l'étranger" abr=""/>
-				<tx l="ara" name="مزود الخدمة في الخارج" abr=""/>
+				<tx l="eng" name="Overseas Service Provider"/>
+				<tx l="spa" name="Proveedor de servicios en el extranjero"/>
+				<tx l="fre" name="Fournisseur de services à l'étranger"/>
+				<tx l="ara" name="مزود الخدمة في الخارج"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4685,10 +4686,10 @@ Examen des documents pour évaluer que tout écart par rapport à l'accord de ni
 		</Area>
 		<Area nr="06">
 			<title>
-				<tx l="eng" name="Retaining Business Knowledge" abr="Knowledge Uphold"/>
-				<tx l="spa" name="Conservación del conocimiento de la organización" abr=""/>
-				<tx l="fre" name="Conserver les connaissances de l'entreprise" abr=""/>
-				<tx l="ara" name="الاحتفاظ بالمعرفة التجارية" abr=""/>
+				<tx l="eng" name="Retaining Business Knowledge"/>
+				<tx l="spa" name="Conservación del conocimiento de la organización"/>
+				<tx l="fre" name="Conserver les connaissances de l'entreprise"/>
+				<tx l="ara" name="الاحتفاظ بالمعرفة التجارية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4839,10 +4840,10 @@ Examiner les procès-verbaux des réunions avec l'entrepreneur pour s'assurer qu
 		</Area>
 		<Area nr="07">
 			<title>
-				<tx l="eng" name="Cost control and management" abr="Cost"/>
-				<tx l="spa" name="Control y gestión de costes" abr=""/>
-				<tx l="fre" name="Contrôle et gestion des coûts" abr=""/>
-				<tx l="ara" name="مراقبة التكاليف وإدارتها" abr=""/>
+				<tx l="eng" name="Cost control and management"/>
+				<tx l="spa" name="Control y gestión de costes"/>
+				<tx l="fre" name="Contrôle et gestion des coûts"/>
+				<tx l="ara" name="مراقبة التكاليف وإدارتها"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4994,10 +4995,10 @@ Examen de la performance du fournisseur de services sur une activité / fonction
 		</Area>
 		<Area nr="08">
 			<title>
-				<tx l="eng" name="Service Level Agreement" abr="SLA"/>
-				<tx l="spa" name="Acuerdo de nivel de servicio" abr=""/>
-				<tx l="fre" name="Accord de niveau de service" abr=""/>
-				<tx l="ara" name="اتفاقية مستوى الخدمة" abr=""/>
+				<tx l="eng" name="Service Level Agreement"/>
+				<tx l="spa" name="Acuerdo de nivel de servicio"/>
+				<tx l="fre" name="Accord de niveau de service"/>
+				<tx l="ara" name="اتفاقية مستوى الخدمة"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -5145,10 +5146,10 @@ Examen de l'action de l'organisation sur les coûts supplémentaires / escalade 
 		</Area>
 		<Area nr="09">
 			<title>
-				<tx l="eng" name="Security" abr=""/>
-				<tx l="spa" name="Seguridad" abr=""/>
-				<tx l="fre" name="Sécurité" abr=""/>
-				<tx l="ara" name="حماية" abr=""/>
+				<tx l="eng" name="Security"/>
+				<tx l="spa" name="Seguridad"/>
+				<tx l="fre" name="Sécurité"/>
+				<tx l="ara" name="حماية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -5304,10 +5305,10 @@ Vérifiez si l'organisation reçoit des rapports réguliers et agit sur les info
 		</Area>
 		<Area nr="10">
 			<title>
-				<tx l="eng" name="Back up and disaster recovery for outsourced services" abr="BCP-DRP in outsourcing"/>
-				<tx l="spa" name="Copia de seguridad y recuperación ante desastres para servicios subcontratados" abr=""/>
-				<tx l="fre" name="Sauvegarde et reprise après sinistre pour les services externalisés" abr=""/>
-				<tx l="ara" name="النسخ الاحتياطي والتعافي من الكوارث لخدمات الاستعانة بمصادر خارجية" abr=""/>
+				<tx l="eng" name="Back up and disaster recovery for outsourced services"/>
+				<tx l="spa" name="Copia de seguridad y recuperación ante desastres para servicios subcontratados"/>
+				<tx l="fre" name="Sauvegarde et reprise après sinistre pour les services externalisés"/>
+				<tx l="ara" name="النسخ الاحتياطي والتعافي من الكوارث لخدمات الاستعانة بمصادر خارجية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -5449,9 +5450,9 @@ Examiner les rapports périodiques pour s'assurer que les procédures ont été 
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Risk Assessment" abr=""/>
-				<tx l="spa" name="Evaluación de riesgos" abr=""/>
-				<tx l="fre" name="L'évaluation des risques" abr=""/>
+				<tx l="eng" name="Risk Assessment"/>
+				<tx l="spa" name="Evaluación de riesgos"/>
+				<tx l="fre" name="L'évaluation des risques"/>
 				<tx l="ara" name="تقييم المخاطر"/>
 			</title>
 			<Narrative>
@@ -5755,6 +5756,7 @@ Rapports d'activité périodiques.
 							<tx l="ara" name="تقارير التعامل مع المشكلة / الحادث.
 تقارير النشاط الدورية.
 "/>
+
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
@@ -5798,10 +5800,10 @@ Tenez compte du fait que les rapports de problème / incident peuvent être inco
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Security Policy" abr=""/>
-				<tx l="spa" name="Politica de seguridad" abr=""/>
-				<tx l="fre" name="Politique de sécurité" abr=""/>
-				<tx l="ara" name="نهج الأمان" abr=""/>
+				<tx l="eng" name="Security Policy"/>
+				<tx l="spa" name="Politica de seguridad"/>
+				<tx l="fre" name="Politique de sécurité"/>
+				<tx l="ara" name="نهج الأمان"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -6063,10 +6065,10 @@ Vérifier que des mesures de gestion sur de telles violations ont été commises
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Organisation of IT Security" abr=""/>
-				<tx l="spa" name="Organización de la seguridad informática" abr=""/>
-				<tx l="fre" name="Organisation de la sécurité informatique" abr=""/>
-				<tx l="ara" name="تنظيم أمن تكنولوجيا المعلومات" abr=""/>
+				<tx l="eng" name="Organisation of IT Security"/>
+				<tx l="spa" name="Organización de la seguridad informática"/>
+				<tx l="fre" name="Organisation de la sécurité informatique"/>
+				<tx l="ara" name="تنظيم أمن تكنولوجيا المعلومات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -6398,10 +6400,10 @@ Vérifiez si les rapports de panne en matière de sécurité sont traités confo
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Communications and Operations Management" abr="Communications and Operations"/>
-				<tx l="spa" name="Gestión de comunicaciones y operaciones" abr=""/>
-				<tx l="fre" name="Gestion des communications et des opérations" abr=""/>
-				<tx l="ara" name="إدارة الاتصالات والعمليات" abr=""/>
+				<tx l="eng" name="Communications and Operations Management"/>
+				<tx l="spa" name="Gestión de comunicaciones y operaciones"/>
+				<tx l="fre" name="Gestion des communications et des opérations"/>
+				<tx l="ara" name="إدارة الاتصالات والعمليات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -6707,10 +6709,10 @@ Assurez-vous que les outils sont à jour (en examinant les numéros de version d
 		</Area>
 		<Area nr="05">
 			<title>
-				<tx l="eng" name="Asset Management" abr=""/>
-				<tx l="spa" name="Gestión de activos" abr=""/>
-				<tx l="fre" name="La gestion d'actifs" abr=""/>
-				<tx l="ara" name="إدارة الأصول" abr=""/>
+				<tx l="eng" name="Asset Management"/>
+				<tx l="spa" name="Gestión de activos"/>
+				<tx l="fre" name="La gestion d'actifs"/>
+				<tx l="ara" name="إدارة الأصول"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -6846,10 +6848,10 @@ Renseignez-vous auprès des personnes et vérifiez les dispositions garantissant
 		</Area>
 		<Area nr="06">
 			<title>
-				<tx l="eng" name="Human Resources IT Security" abr="HR in IT Security"/>
-				<tx l="spa" name="Seguridad informática de recursos humanos" abr=""/>
-				<tx l="fre" name="Sécurité informatique des ressources humaines" abr=""/>
-				<tx l="ara" name="أمن تكنولوجيا المعلومات للموارد البشرية" abr=""/>
+				<tx l="eng" name="Human Resources IT Security"/>
+				<tx l="spa" name="Seguridad informática de recursos humanos"/>
+				<tx l="fre" name="Sécurité informatique des ressources humaines"/>
+				<tx l="ara" name="أمن تكنولوجيا المعلومات للموارد البشرية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -7099,10 +7101,10 @@ Inspectez la politique pour déterminer les exigences de formation. Confirmez qu
 		</Area>
 		<Area nr="07">
 			<title>
-				<tx l="eng" name="Intrusion Detection and Protection" abr="Intrusion"/>
-				<tx l="spa" name="Detección y protección de intrusiones" abr=""/>
-				<tx l="fre" name="Détection et protection contre les intrusions" abr=""/>
-				<tx l="ara" name="كشف التسلل والحماية" abr=""/>
+				<tx l="eng" name="Intrusion Detection and Protection"/>
+				<tx l="spa" name="Detección y protección de intrusiones"/>
+				<tx l="fre" name="Détection et protection contre les intrusions"/>
+				<tx l="ara" name="كشف التسلل والحماية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -7258,17 +7260,17 @@ Passez en revue les alertes et / ou évaluez la manière dont elles sont signal�
 					<narr l="eng">
 						<ak>Organizational and physical measures ensure no unauthorized access.</ak>
 					</narr>
-				
-				<narr l="spa">
-					<ak>Las medidas organizativas y físicas garantizan que no haya acceso no autorizado.</ak>
-				</narr>
-				<narr l="fre">
-					<ak>Des mesures organisationnelles et physiques garantissent aucun accès non autorisé.</ak>
-				</narr>
-				<narr l="ara">
-					<ak>تضمن التدابير التنظيمية والمادية عدم الوصول غير المصرح به.</ak>
-				</narr>
-				</Narrative><Matrix id="Physical Security">
+				</Narrative>
+					<narr l="spa">
+						<ak>Las medidas organizativas y físicas garantizan que no haya acceso no autorizado.</ak>
+					</narr>
+					<narr l="fre">
+						<ak>Des mesures organisationnelles et physiques garantissent aucun accès non autorisé.</ak>
+					</narr>
+					<narr l="ara">
+						<ak>تضمن التدابير التنظيمية والمادية عدم الوصول غير المصرح به.</ak>
+					</narr>
+				<Matrix id="Physical Security">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To prevent theft or damage of IT hardware, unauthorized access, and copying or viewing of sensitive information."/>
@@ -7496,10 +7498,10 @@ Vérifiez si l'organisation a un bureau clair ou une politique d'écran propre p
 		</Area>
 		<Area nr="08">
 			<title>
-				<tx l="eng" name="Access Control" abr=""/>
-				<tx l="spa" name="Control de acceso" abr=""/>
-				<tx l="fre" name="Control de acceso" abr=""/>
-				<tx l="ara" name="صلاحية التحكم صلاحية الدخول" abr=""/>
+				<tx l="eng" name="Access Control"/>
+				<tx l="spa" name="Control de acceso"/>
+				<tx l="fre" name="Control de acceso"/>
+				<tx l="ara" name="صلاحية التحكم صلاحية الدخول"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -7770,10 +7772,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Business Continuity Policy, Plan and Organisation" abr="BC Plan"/>
-				<tx l="spa" name="Política, plan y organización de continuidad del negocio" abr=""/>
-				<tx l="fre" name="Politique, plan et organisation de continuité des activités" abr=""/>
-				<tx l="ara" name="سياسة وخطة وتنظيم استمرارية الأعمال" abr=""/>
+				<tx l="eng" name="Business Continuity Policy, Plan and Organisation"/>
+				<tx l="spa" name="Política, plan y organización de continuidad del negocio"/>
+				<tx l="fre" name="Politique, plan et organisation de continuité des activités"/>
+				<tx l="ara" name="سياسة وخطة وتنظيم استمرارية الأعمال"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -7897,26 +7899,26 @@ Examiner la politique pour déterminer qui l'a approuvée et quand a-t-elle ét�
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Establishment of Business Continuity Function" abr="BC Function"/>
-				<tx l="spa" name="Establecimiento de la función de continuidad del negocio" abr=""/>
-				<tx l="fre" name="Mise en place de la fonction de continuité des activités" abr=""/>
-				<tx l="ara" name="تأسيس وظيفة استمرارية الأعمال" abr=""/>
+				<tx l="eng" name="Establishment of Business Continuity Function"/>
+				<tx l="spa" name="Establecimiento de la función de continuidad del negocio"/>
+				<tx l="fre" name="Mise en place de la fonction de continuité des activités"/>
+				<tx l="ara" name="تأسيس وظيفة استمرارية الأعمال"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>The business continuity management team must be organised to represent all appropriate business functions. Senior management and other related officials must support a continuity program and be associated with the process of developing the policy.</ak>
 				</narr>
-			
-			<narr l="spa">
-				<ak>El equipo de gestión de la continuidad del negocio debe estar organizado para representar todas las funciones del negocio apropiadas. La alta gerencia y otros funcionarios relacionados deben apoyar un programa de continuidad y estar asociados con el proceso de desarrollo de la política.</ak>
-			</narr>
-			<narr l="fre">
-				<ak>L'équipe de gestion de la continuité des activités doit être organisée pour représenter toutes les fonctions métier appropriées. La haute direction et les autres fonctionnaires concernés doivent soutenir un programme de continuité et être associés au processus d'élaboration de la politique.</ak>
-			</narr>
-			<narr l="ara">
-				<ak>Tيجب تنظيم فريق إدارة استمرارية الأعمال لتمثيل جميع وظائف العمل المناسبة. يجب أن تدعم الإدارة العليا والمسؤولون الآخرون ذوو الصلة برنامج الاستمرارية وأن يكونوا مرتبطين بعملية تطوير السياسة.</ak>
-			</narr>
-			</Narrative><Issue nr="01" RiskWeight="1" Include="No" Remarks="">
+			</Narrative>
+				<narr l="spa">
+					<ak>El equipo de gestión de la continuidad del negocio debe estar organizado para representar todas las funciones del negocio apropiadas. La alta gerencia y otros funcionarios relacionados deben apoyar un programa de continuidad y estar asociados con el proceso de desarrollo de la política.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>L'équipe de gestion de la continuité des activités doit être organisée pour représenter toutes les fonctions métier appropriées. La haute direction et les autres fonctionnaires concernés doivent soutenir un programme de continuité et être associés au processus d'élaboration de la politique.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>Tيجب تنظيم فريق إدارة استمرارية الأعمال لتمثيل جميع وظائف العمل المناسبة. يجب أن تدعم الإدارة العليا والمسؤولون الآخرون ذوو الصلة برنامج الاستمرارية وأن يكونوا مرتبطين بعملية تطوير السياسة.</ak>
+				</narr>
+			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Business continuity team or equivalent function"/>
 					<tx l="spa" name="Equipo de continuidad del negocio o función equivalente"/>
@@ -8032,10 +8034,10 @@ Interrogez un échantillon de personnel de l'équipe de continuité des activit�
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Business Impact Assessment and Risk Management" abr="Impact"/>
-				<tx l="spa" name="Evaluación de impacto empresarial y gestión de riesgos" abr=""/>
-				<tx l="fre" name="Évaluation de l’impact sur l’entreprise et gestion des risques" abr=""/>
-				<tx l="ara" name="تقييم تأثير الأعمال وإدارة المخاطر" abr=""/>
+				<tx l="eng" name="Business Impact Assessment and Risk Management"/>
+				<tx l="spa" name="Evaluación de impacto empresarial y gestión de riesgos"/>
+				<tx l="fre" name="Évaluation de l’impact sur l’entreprise et gestion des risques"/>
+				<tx l="ara" name="تقييم تأثير الأعمال وإدارة المخاطر"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -8316,10 +8318,10 @@ Examiner les procès-verbaux des réunions ou la liste des risques pour détermi
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Preventive and environmental controls" abr="Environtmental Controls"/>
-				<tx l="spa" name="Controles preventivos y ambientales" abr=""/>
-				<tx l="fre" name="Contrôles préventifs et environnementaux" abr=""/>
-				<tx l="ara" name="الضوابط الوقائية والبيئية" abr=""/>
+				<tx l="eng" name="Preventive and environmental controls"/>
+				<tx l="spa" name="Controles preventivos y ambientales"/>
+				<tx l="fre" name="Contrôles préventifs et environnementaux"/>
+				<tx l="ara" name="الضوابط الوقائية والبيئية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -8391,8 +8393,7 @@ Liste des mesures d'atténuation de l'environnement entreprises.
 							<tx l="ara" name="برنامج مراقبة البيئة.
 قائمة بالمخاطر البيئية المحتملة التي تم تحديدها أثناء تقييم المخاطر مع المواقع (وثيقة تقييم المخاطر).
 قائمة خطوات التخفيف من البيئة التي تم اتخاذها.
-"/>
-						</inf>
+"/>						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
@@ -8451,10 +8452,10 @@ Les mesures de contrôle de l'environnement sont transmises et respectées par t
 		</Area>
 		<Area nr="05">
 			<title>
-				<tx l="eng" name="Disaster Recovery Plan" abr="DR Plan"/>
-				<tx l="spa" name="Plan de recuperación en un desastre" abr=""/>
-				<tx l="fre" name="Plan de reprise après sinistre" abr=""/>
-				<tx l="ara" name="خطة التعافي من الكوارث" abr=""/>
+				<tx l="eng" name="Disaster Recovery Plan"/>
+				<tx l="spa" name="Plan de recuperación en un desastre"/>
+				<tx l="fre" name="Plan de reprise après sinistre"/>
+				<tx l="ara" name="خطة التعافي من الكوارث"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -8637,10 +8638,10 @@ Examen des documents pour évaluer que le personnel concerné a été formé aux
 		</Area>
 		<Area nr="06">
 			<title>
-				<tx l="eng" name="Testing" abr=""/>
-				<tx l="spa" name="Pruebas" abr=""/>
-				<tx l="fre" name="Essai" abr=""/>
-				<tx l="ara" name="اختبارات" abr=""/>
+				<tx l="eng" name="Testing"/>
+				<tx l="spa" name="Pruebas"/>
+				<tx l="fre" name="Essai"/>
+				<tx l="ara" name="اختبارات"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -8788,10 +8789,10 @@ Examen des documents pour évaluer que les recommandations de test font l'objet 
 		</Area>
 		<Area nr="07">
 			<title>
-				<tx l="eng" name="Security" abr=""/>
-				<tx l="spa" name="Seguridad" abr=""/>
-				<tx l="fre" name="Sécurité" abr=""/>
-				<tx l="ara" name="حماية" abr=""/>
+				<tx l="eng" name="Security"/>
+				<tx l="spa" name="Seguridad"/>
+				<tx l="fre" name="Sécurité"/>
+				<tx l="ara" name="حماية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -8911,10 +8912,10 @@ Vérifiez s'il y a eu une violation de la sécurité en examinant les journaux d
 		</Area>
 		<Area nr="08">
 			<title>
-				<tx l="eng" name="Back-up and data recovery for outsourced services" abr="BCP-DRP in outsourcing"/>
-				<tx l="spa" name="Copia de seguridad y recuperación de datos para servicios subcontratados" abr=""/>
-				<tx l="fre" name="Sauvegarde et récupération de données pour les services externalisés" abr=""/>
-				<tx l="ara" name="النسخ الاحتياطي واستعادة البيانات لخدمات الاستعانة بمصادر خارجية" abr=""/>
+				<tx l="eng" name="Back-up and data recovery for outsourced services"/>
+				<tx l="spa" name="Copia de seguridad y recuperación de datos para servicios subcontratados"/>
+				<tx l="fre" name="Sauvegarde et récupération de données pour les services externalisés"/>
+				<tx l="ara" name="النسخ الاحتياطي واستعادة البيانات لخدمات الاستعانة بمصادر خارجية"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -8970,7 +8971,7 @@ Vérifiez s'il y a eu une violation de la sécurité en examinant les journaux d
 						</cri>
 					</Criteria>
 					<InformationRequired>
-						<inf>
+						<inf>.
 							<tx l="eng" name="Inventory of data, application software and hardware of the organization with the outsourced agency.
 Inventory of back up data files and application software of the organization with the outsourced agency.
 Access control logs of the data files, application software as well as hardware with the outsourced agency.
@@ -9080,10 +9081,10 @@ Vérifiez si l'organisation s'est assurée que la continuité des activités est
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Input Controls" abr="Input"/>
-				<tx l="spa" name="Controles de entrada" abr=""/>
-				<tx l="fre" name="Contrôles d'entrée" abr=""/>
-				<tx l="ara" name="ضوابط الإدخال" abr=""/>
+				<tx l="eng" name="Input Controls"/>
+				<tx l="spa" name="Controles de entrada"/>
+				<tx l="fre" name="Contrôles d'entrée"/>
+				<tx l="ara" name="ضوابط الإدخال"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -9550,10 +9551,10 @@ Déterminez s'il existe une table de séparation des tâches (SOD) et examinez p
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Processing Controls" abr="Processing"/>
-				<tx l="spa" name="Controles de procesamiento" abr=""/>
-				<tx l="fre" name="Contrôles de traitement" abr=""/>
-				<tx l="ara" name="ضوابط المعالجة" abr=""/>
+				<tx l="eng" name="Processing Controls"/>
+				<tx l="spa" name="Controles de procesamiento"/>
+				<tx l="fre" name="Contrôles de traitement"/>
+				<tx l="ara" name="ضوابط المعالجة"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -9806,10 +9807,10 @@ Vérifiez que les fichiers d'attente sont correctement et systématiquement prod
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Output Controls" abr="Output"/>
-				<tx l="spa" name="Controles de salida" abr=""/>
-				<tx l="fre" name="Contrôles de sortie" abr=""/>
-				<tx l="ara" name="ضوابط الإخراج" abr=""/>
+				<tx l="eng" name="Output Controls"/>
+				<tx l="spa" name="Controles de salida"/>
+				<tx l="fre" name="Contrôles de sortie"/>
+				<tx l="ara" name="ضوابط الإخراج"/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -10026,10 +10027,10 @@ Vérifiez s'il existe des procédures documentées pour étiqueter la sortie d'a
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Application security controls" abr="Application Security"/>
-				<tx l="spa" name="Controles de seguridad de la aplicación" abr=""/>
-				<tx l="fre" name="Contrôles de sécurité des applications" abr=""/>
-				<tx l="ara" name="ضوابط أمان التطبيق" abr=""/>
+				<tx l="eng" name="Application security controls"/>
+				<tx l="spa" name="Controles de seguridad de la aplicación"/>
+				<tx l="fre" name="Contrôles de sécurité des applications"/>
+				<tx l="ara" name="ضوابط أمان التطبيق"/>
 			</title>
 			<Narrative>
 				<narr l="eng">

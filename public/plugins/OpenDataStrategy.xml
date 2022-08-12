@@ -16,25 +16,7 @@
 			<tx l="fre" name="Gouvernance informatique"/>
 			<tx l="ara" name="حوكمة تقنية المعلومات"/>
 		</title>
-		<narr l="eng">
-			<ak/>
-		</narr>
-		<narr l="spa">
-			<ak/>
-		</narr>
-		<narr l="fre">
-			<ak/>
-		</narr>
-		<narr l="ara">
-			<ak/>
-		</narr>
-		<Area nr="01">
-			<title>
-				<tx l="eng" name="IT Open Data Strategy and Planning"/>
-				<tx l="spa" name="Estrategia y planificación de datos abiertos de TI"/>
-				<tx l="fre" name="Stratégie et planification des données ouvertes informatiques"/>
-				<tx l="ara" name="استراتيجية البيانات المفتوحة لتكنولوجيا المعلومات والتخطيط"/>
-			</title>
+		<Narrative>
 			<narr l="eng">
 				<ak/>
 			</narr>
@@ -47,13 +29,15 @@
 			<narr l="ara">
 				<ak/>
 			</narr>
-			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
-				<title>
-					<tx l="eng" name="Leadership"/>
-					<tx l="spa" name="Liderazgo"/>
-					<tx l="fre" name="Leadership"/>
-					<tx l="ara" name="قيادة"/>
-				</title>
+		</Narrative>
+		<Area nr="01">
+			<title>
+				<tx l="eng" name="IT Open Data Strategy and Planning" abr=""/>
+				<tx l="spa" name="Estrategia y planificación de datos abiertos de TI" abr=""/>
+				<tx l="fre" name="Stratégie et planification des données ouvertes informatiques" abr=""/>
+				<tx l="ara" name="استراتيجية البيانات المفتوحة لتكنولوجيا المعلومات والتخطيط" abr=""/>
+			</title>
+			<Narrative>
 				<narr l="eng">
 					<ak/>
 				</narr>
@@ -66,6 +50,28 @@
 				<narr l="ara">
 					<ak/>
 				</narr>
+			</Narrative>
+			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
+				<title>
+					<tx l="eng" name="Leadership"/>
+					<tx l="spa" name="Liderazgo"/>
+					<tx l="fre" name="Leadership"/>
+					<tx l="ara" name="قيادة"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Leadership">
 					<Objectives>
 						<obj>
@@ -145,18 +151,20 @@ Pour vérifier si la transparence et les données ouvertes sont présentes dans 
 					<tx l="fre" name="Stratégie"/>
 					<tx l="ara" name="إستراتيجية"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Strategy ">
 					<Objectives>
 						<obj>
@@ -236,18 +244,20 @@ S'assurer que la haute direction ou les parties prenantes appropriées ont été
 					<tx l="fre" name="Plan des données ouvertes"/>
 					<tx l="ara" name="خطة البيانات المفتوحة"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Open Data Plan">
 					<Objectives>
 						<obj>
@@ -307,18 +317,20 @@ S'assurer que la haute direction ou les parties prenantes appropriées ont été
 					<tx l="fre" name="Alignement du plan"/>
 					<tx l="ara" name="محاذاة الخطة"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Plan Alignment ">
 					<Objectives>
 						<obj>
@@ -390,18 +402,20 @@ Plan stratégique informatique.
 					<tx l="fre" name="Surveillance"/>
 					<tx l="ara" name="يراقب"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Monitoring Open Data">
 					<Objectives>
 						<obj>
@@ -473,18 +487,20 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 					<tx l="fre" name="Propriété"/>
 					<tx l="ara" name="ملكية"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Ownership">
 					<Objectives>
 						<obj>
@@ -544,18 +560,20 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 					<tx l="fre" name="Ensembles de données"/>
 					<tx l="ara" name="مجموعات البيانات"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Datasets Priority">
 					<Objectives>
 						<obj>
@@ -617,25 +635,7 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 			<tx l="fre" name="Information et cybersécurité"/>
 			<tx l="ara" name="المعلومات والأمن السيبراني"/>
 		</title>
-		<narr l="eng">
-			<ak/>
-		</narr>
-		<narr l="spa">
-			<ak/>
-		</narr>
-		<narr l="fre">
-			<ak/>
-		</narr>
-		<narr l="ara">
-			<ak/>
-		</narr>
-		<Area nr="01">
-			<title>
-				<tx l="eng" name="Security Policy"/>
-				<tx l="spa" name="Politica de seguridad"/>
-				<tx l="fre" name="Politique de sécurité"/>
-				<tx l="ara" name="نهج الأمان"/>
-			</title>
+		<Narrative>
 			<narr l="eng">
 				<ak/>
 			</narr>
@@ -648,13 +648,15 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 			<narr l="ara">
 				<ak/>
 			</narr>
-			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
-				<title>
-					<tx l="eng" name="Security Policy"/>
-					<tx l="spa" name="Politica de seguridad"/>
-					<tx l="fre" name="Politique de sécurité"/>
-					<tx l="ara" name="نهج الأمان"/>
-				</title>
+		</Narrative>
+		<Area nr="01">
+			<title>
+				<tx l="eng" name="Security Policy" abr=""/>
+				<tx l="spa" name="Politica de seguridad" abr=""/>
+				<tx l="fre" name="Politique de sécurité" abr=""/>
+				<tx l="ara" name="نهج الأمان" abr=""/>
+			</title>
+			<Narrative>
 				<narr l="eng">
 					<ak/>
 				</narr>
@@ -667,6 +669,28 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 				<narr l="ara">
 					<ak/>
 				</narr>
+			</Narrative>
+			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
+				<title>
+					<tx l="eng" name="Security Policy"/>
+					<tx l="spa" name="Politica de seguridad"/>
+					<tx l="fre" name="Politique de sécurité"/>
+					<tx l="ara" name="نهج الأمان"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Open Data Security Policy">
 					<Objectives>
 						<obj>
@@ -726,18 +750,20 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 					<tx l="fre" name="La mise en œuvre de la politique"/>
 					<tx l="ara" name="تنفيذ السياسات"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Only public data is made available">
 					<Objectives>
 						<obj>
@@ -793,30 +819,12 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Communications and Operations Management"/>
-				<tx l="spa" name="Gestión de comunicaciones y operaciones"/>
-				<tx l="fre" name="Gestion des communications et des opérations"/>
+				<tx l="eng" name="Communications and Operations Management" abr=""/>
+				<tx l="spa" name="Gestión de comunicaciones y operaciones" abr=""/>
+				<tx l="fre" name="Gestion des communications et des opérations" abr=""/>
 				<tx l="ara" name="إدارة الاتصالات والعمليات"/>
 			</title>
-			<narr l="eng">
-				<ak/>
-			</narr>
-			<narr l="spa">
-				<ak/>
-			</narr>
-			<narr l="fre">
-				<ak/>
-			</narr>
-			<narr l="ara">
-				<ak/>
-			</narr>
-			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
-				<title>
-					<tx l="eng" name="Access"/>
-					<tx l="spa" name="El acceso"/>
-					<tx l="fre" name="L'accès"/>
-					<tx l="ara" name="وصول"/>
-				</title>
+			<Narrative>
 				<narr l="eng">
 					<ak/>
 				</narr>
@@ -829,6 +837,28 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 				<narr l="ara">
 					<ak/>
 				</narr>
+			</Narrative>
+			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
+				<title>
+					<tx l="eng" name="Access"/>
+					<tx l="spa" name="El acceso"/>
+					<tx l="fre" name="L'accès"/>
+					<tx l="ara" name="وصول"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Access to open data is communicated and un-restricted as required">
 					<Objectives>
 						<obj>
@@ -885,18 +915,20 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 				<title>
 					<tx l="eng" name="Communications"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Open data availability is communicated">
 					<Objectives>
 						<obj>
@@ -958,25 +990,7 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 			<tx l="fre" name="Contrôles d'application"/>
 			<tx l="ara" name="ضوابط التطبيق"/>
 		</title>
-		<narr l="eng">
-			<ak/>
-		</narr>
-		<narr l="spa">
-			<ak/>
-		</narr>
-		<narr l="fre">
-			<ak/>
-		</narr>
-		<narr l="ara">
-			<ak/>
-		</narr>
-		<Area nr="01">
-			<title>
-				<tx l="eng" name="Output Controls"/>
-				<tx l="spa" name="Controles de salida"/>
-				<tx l="fre" name="Contrôles de sortie"/>
-				<tx l="ara" name="ضوابط الإخراج"/>
-			</title>
+		<Narrative>
 			<narr l="eng">
 				<ak/>
 			</narr>
@@ -989,13 +1003,15 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 			<narr l="ara">
 				<ak/>
 			</narr>
-			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
-				<title>
-					<tx l="eng" name="Catalog"/>
-					<tx l="spa" name="Catálogo"/>
-					<tx l="fre" name="Catalogue"/>
-					<tx l="ara" name="فهرس"/>
-				</title>
+		</Narrative>
+		<Area nr="01">
+			<title>
+				<tx l="eng" name="Output Controls" abr=""/>
+				<tx l="spa" name="Controles de salida" abr=""/>
+				<tx l="fre" name="Contrôles de sortie" abr=""/>
+				<tx l="ara" name="ضوابط الإخراج" abr=""/>
+			</title>
+			<Narrative>
 				<narr l="eng">
 					<ak/>
 				</narr>
@@ -1008,6 +1024,28 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 				<narr l="ara">
 					<ak/>
 				</narr>
+			</Narrative>
+			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
+				<title>
+					<tx l="eng" name="Catalog"/>
+					<tx l="spa" name="Catálogo"/>
+					<tx l="fre" name="Catalogue"/>
+					<tx l="ara" name="فهرس"/>
+				</title>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Catalog">
 					<Objectives>
 						<obj>
@@ -1067,18 +1105,20 @@ Les rapports contiennent-ils les informations requises dans le plan et/ou la str
 					<tx l="fre" name="Accès"/>
 					<tx l="ara" name="وصول"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Access To Web Portal">
 					<Objectives>
 						<obj>
@@ -1154,18 +1194,20 @@ S'il existe un portail de données ouvert centralisé, pour vérifier si des ens
 					<tx l="fre" name="Métadonnées"/>
 					<tx l="ara" name="البيانات الوصفية"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Metadata Availability">
 					<Objectives>
 						<obj>
@@ -1225,18 +1267,20 @@ S'il existe un portail de données ouvert centralisé, pour vérifier si des ens
 					<tx l="fre" name="Mettre à jour"/>
 					<tx l="ara" name="تحديث"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="Update to open data">
 					<Objectives>
 						<obj>
@@ -1296,18 +1340,20 @@ S'il existe un portail de données ouvert centralisé, pour vérifier si des ens
 					<tx l="fre" name="Formats de données"/>
 					<tx l="ara" name="تنسيقات البيانات"/>
 				</title>
-				<narr l="eng">
-					<ak/>
-				</narr>
-				<narr l="spa">
-					<ak/>
-				</narr>
-				<narr l="fre">
-					<ak/>
-				</narr>
-				<narr l="ara">
-					<ak/>
-				</narr>
+				<Narrative>
+					<narr l="eng">
+						<ak/>
+					</narr>
+					<narr l="spa">
+						<ak/>
+					</narr>
+					<narr l="fre">
+						<ak/>
+					</narr>
+					<narr l="ara">
+						<ak/>
+					</narr>
+				</Narrative>
 				<Matrix id="General Best Practices For Open Data">
 					<Objectives>
 						<obj>

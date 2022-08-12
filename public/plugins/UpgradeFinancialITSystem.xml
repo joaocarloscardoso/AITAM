@@ -46,9 +46,9 @@
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Upgrade Preparations"/>
-				<tx l="spa" name="Preparativos de actualización"/>
-				<tx l="fre" name="Préparations de mise à niveau"/>
+				<tx l="eng" name="Upgrade Preparations" abr=""/>
+				<tx l="spa" name="Preparativos de actualización" abr=""/>
+				<tx l="fre" name="Préparations de mise à niveau" abr=""/>
 				<tx l="ara" name="ترقية الاستعدادات"/>
 			</title>
 			<Narrative>
@@ -607,9 +607,9 @@ D'autre part, les experts externes doivent trouver dans l'organisation une équi
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Upgrade Implementation"/>
-				<tx l="spa" name="Implementación de actualización"/>
-				<tx l="fre" name="Mise en œuvre de la mise à niveau"/>
+				<tx l="eng" name="Upgrade Implementation" abr=""/>
+				<tx l="spa" name="Implementación de actualización" abr=""/>
+				<tx l="fre" name="Mise en œuvre de la mise à niveau" abr=""/>
 				<tx l="ara" name="تنفيذ الترقية"/>
 			</title>
 			<Narrative>
@@ -803,10 +803,10 @@ Utilisez la partie du manuel d'audit informatique sur les contrôles des applica
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Post-Upgrade Review"/>
-				<tx l="spa" name="Revisión posterior a la actualización"/>
-				<tx l="fre" name="Examen post-mise à niveau"/>
-				<tx l="ara" name="مراجعة ما بعد الترقية"/>
+				<tx l="eng" name="Post-Upgrade Review" abr=""/>
+				<tx l="spa" name="Revisión posterior a la actualización" abr=""/>
+				<tx l="fre" name="Examen post-mise à niveau" abr=""/>
+				<tx l="ara" name="مراجعة ما بعد الترقية" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">

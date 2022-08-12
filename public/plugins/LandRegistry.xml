@@ -32,10 +32,10 @@
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="IT Service Continuity Management"/>
-				<tx l="spa" name="Gestión de la continuidad del servicio de TI"/>
-				<tx l="fre" name="Gestion de la continuité des services informatiques"/>
-				<tx l="ara" name="إدارة استمرارية خدمة تكنولوجيا المعلومات"/>
+				<tx l="eng" name="IT Service Continuity Management" abr=""/>
+				<tx l="spa" name="Gestión de la continuidad del servicio de TI" abr=""/>
+				<tx l="fre" name="Gestion de la continuité des services informatiques" abr=""/>
+				<tx l="ara" name="إدارة استمرارية خدمة تكنولوجيا المعلومات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -143,9 +143,9 @@ Vérifiez si les paramètres de l'accord de niveau de service ont été examiné
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Capacity Management"/>
-				<tx l="spa" name="Gestión de capacidad"/>
-				<tx l="fre" name="Gestion de la capacité"/>
+				<tx l="eng" name="Capacity Management" abr=""/>
+				<tx l="spa" name="Gestión de capacidad" abr=""/>
+				<tx l="fre" name="Gestion de la capacité" abr=""/>
 				<tx l="ara" name="إدارة القدرات"/>
 			</title>
 			<Narrative>
@@ -254,9 +254,9 @@ Comparez les paramètres de référence des performances (à savoir la disponibi
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Problem and Incident Management"/>
-				<tx l="spa" name="Gestión de incidentes y problemas"/>
-				<tx l="fre" name="Gestion des problèmes et des incidents"/>
+				<tx l="eng" name="Problem and Incident Management" abr=""/>
+				<tx l="spa" name="Gestión de incidentes y problemas" abr=""/>
+				<tx l="fre" name="Gestion des problèmes et des incidents" abr=""/>
 				<tx l="ara" name="إدارة المشاكل والحوادث"/>
 			</title>
 			<Narrative>
@@ -377,10 +377,10 @@ Interrogez un échantillon d'utilisateurs professionnels dans l'ensemble de l'or
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Change Management"/>
-				<tx l="spa" name="Gestión del cambio"/>
-				<tx l="fre" name="Gestion du changement"/>
-				<tx l="ara" name="إدارة التغيير"/>
+				<tx l="eng" name="Change Management" abr=""/>
+				<tx l="spa" name="Gestión del cambio" abr=""/>
+				<tx l="fre" name="Gestion du changement" abr=""/>
+				<tx l="ara" name="إدارة التغيير" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -484,10 +484,10 @@ Procédures de sauvegarde et de restauration.
 	</Domain>
 	<Domain nr="05">
 		<title>
-			<tx l="eng" name="Information and Cyber Security"/>
-			<tx l="spa" name="Información y ciberseguridad"/>
-			<tx l="fre" name="Information et cybersécurité"/>
-			<tx l="ara" name="المعلومات والأمن السيبراني"/>
+			<tx l="eng" name="Information and Cyber Security" abr=""/>
+			<tx l="spa" name="Información y ciberseguridad" abr=""/>
+			<tx l="fre" name="Information et cybersécurité" abr=""/>
+			<tx l="ara" name="المعلومات والأمن السيبراني" abr=""/>
 		</title>
 		<Narrative>
 			<narr l="eng">
@@ -1345,9 +1345,9 @@ Test de validation 2 : Gestion des mots de passe : vérifiez que les exigence
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Business Continuity Policy, Plan and Organisation"/>
-				<tx l="spa" name="Política, plan y organización de continuidad del negocio"/>
-				<tx l="fre" name="Politique, plan et organisation de continuité des activités"/>
+				<tx l="eng" name="Business Continuity Policy, Plan and Organisation" abr=""/>
+				<tx l="spa" name="Política, plan y organización de continuidad del negocio" abr=""/>
+				<tx l="fre" name="Politique, plan et organisation de continuité des activités" abr=""/>
 				<tx l="ara" name="سياسة وخطة وتنظيم استمرارية الأعمال"/>
 			</title>
 			<Narrative>
@@ -1468,10 +1468,10 @@ Examinez la politique pour déterminer qui l'a approuvée et quand a-t-elle ét�
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Establishment of Business Continuity Function"/>
-				<tx l="spa" name="Establecimiento de la función de continuidad del negocio"/>
-				<tx l="fre" name="Établissement de la fonction de continuité des activités"/>
-				<tx l="ara" name="تأسيس وظيفة استمرارية الأعمال"/>
+				<tx l="eng" name="Establishment of Business Continuity Function" abr=""/>
+				<tx l="spa" name="Establecimiento de la función de continuidad del negocio" abr=""/>
+				<tx l="fre" name="Établissement de la fonction de continuité des activités" abr=""/>
+				<tx l="ara" name="تأسيس وظيفة استمرارية الأعمال" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1599,10 +1599,10 @@ Interrogez un échantillon d'employés de l'équipe de continuité des activité
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Disaster Recovery Plan"/>
-				<tx l="spa" name="Plan de recuperación en un desastre"/>
-				<tx l="fre" name="Plan de reprise après sinistre"/>
-				<tx l="ara" name="خطة التعافي من الكوارث"/>
+				<tx l="eng" name="Disaster Recovery Plan" abr=""/>
+				<tx l="spa" name="Plan de recuperación en un desastre" abr=""/>
+				<tx l="fre" name="Plan de reprise après sinistre" abr=""/>
+				<tx l="ara" name="خطة التعافي من الكوارث" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1782,10 +1782,10 @@ Examen des documents pour évaluer que le personnel concerné a été formé sur
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Testing"/>
-				<tx l="spa" name="Pruebas"/>
-				<tx l="fre" name="Essai"/>
-				<tx l="ara" name="اختبارات"/>
+				<tx l="eng" name="Testing" abr=""/>
+				<tx l="spa" name="Pruebas" abr=""/>
+				<tx l="fre" name="Essai" abr=""/>
+				<tx l="ara" name="اختبارات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1933,10 +1933,10 @@ Examen des documents pour évaluer que les recommandations de test sont adéquat
 		</Area>
 		<Area nr="05">
 			<title>
-				<tx l="eng" name="Security"/>
-				<tx l="spa" name="Seguridad"/>
-				<tx l="fre" name="Sécurité"/>
-				<tx l="ara" name="حماية"/>
+				<tx l="eng" name="Security" abr=""/>
+				<tx l="spa" name="Seguridad" abr=""/>
+				<tx l="fre" name="Sécurité" abr=""/>
+				<tx l="ara" name="حماية" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2069,10 +2069,10 @@ Vérifiez s'il y a eu une violation de la sécurité en examinant les journaux d
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Input Controls"/>
-				<tx l="spa" name="Controles de entrada"/>
-				<tx l="fre" name="Contrôles d'entrée"/>
-				<tx l="ara" name="ضوابط الإدخال"/>
+				<tx l="eng" name="Input Controls" abr=""/>
+				<tx l="spa" name="Controles de entrada" abr=""/>
+				<tx l="fre" name="Contrôles d'entrée" abr=""/>
+				<tx l="ara" name="ضوابط الإدخال" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2539,10 +2539,10 @@ Déterminez s'il existe une table de séparation des tâches (SOD) et examinez p
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Processing Controls"/>
-				<tx l="spa" name="Controles de procesamiento"/>
-				<tx l="fre" name="Contrôles de traitement"/>
-				<tx l="ara" name="ضوابط المعالجة"/>
+				<tx l="eng" name="Processing Controls" abr=""/>
+				<tx l="spa" name="Controles de procesamiento" abr=""/>
+				<tx l="fre" name="Contrôles de traitement" abr=""/>
+				<tx l="ara" name="ضوابط المعالجة" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2795,10 +2795,10 @@ Vérifiez que les fichiers d'attente sont correctement et systématiquement prod
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Output Controls"/>
-				<tx l="spa" name="Controles de salida"/>
-				<tx l="fre" name="Contrôles de sortie"/>
-				<tx l="ara" name="ضوابط الإخراج"/>
+				<tx l="eng" name="Output Controls" abr=""/>
+				<tx l="spa" name="Controles de salida" abr=""/>
+				<tx l="fre" name="Contrôles de sortie" abr=""/>
+				<tx l="ara" name="ضوابط الإخراج" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3015,10 +3015,10 @@ Vérifiez s'il existe des procédures documentées pour étiqueter la sortie d'a
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Application security controls"/>
-				<tx l="spa" name="Controles de seguridad de la aplicación"/>
-				<tx l="fre" name="Contrôles de sécurité des applications"/>
-				<tx l="ara" name="ضوابط أمان التطبيق"/>
+				<tx l="eng" name="Application security controls" abr=""/>
+				<tx l="spa" name="Controles de seguridad de la aplicación" abr=""/>
+				<tx l="fre" name="Contrôles de sécurité des applications" abr=""/>
+				<tx l="ara" name="ضوابط أمان التطبيق" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">

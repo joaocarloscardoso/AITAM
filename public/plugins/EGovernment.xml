@@ -32,9 +32,9 @@
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Mechanism"/>
-				<tx l="spa" name="Mecanismo"/>
-				<tx l="fre" name="Mécanisme"/>
+				<tx l="eng" name="Mechanism" abr=""/>
+				<tx l="spa" name="Mecanismo" abr=""/>
+				<tx l="fre" name="Mécanisme" abr=""/>
 				<tx l="ara" name="آلية"/>
 			</title>
 			<Narrative>
@@ -190,10 +190,10 @@ Passez en revue les procès-verbaux du comité de pilotage.
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Capacity Management"/>
-				<tx l="spa" name="Gestión de capacidad"/>
-				<tx l="fre" name="Gestion de la capacité"/>
-				<tx l="ara" name="إدارة القدرات"/>
+				<tx l="eng" name="Capacity Management" abr=""/>
+				<tx l="spa" name="Gestión de capacidad" abr=""/>
+				<tx l="fre" name="Gestion de la capacité" abr=""/>
+				<tx l="ara" name="إدارة القدرات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -285,10 +285,10 @@ Passez en revue les procès-verbaux du comité de pilotage.
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Problem and Incident Management"/>
-				<tx l="spa" name="Gestión de incidentes y problemas"/>
-				<tx l="fre" name="Gestion des problèmes et des incidents"/>
-				<tx l="ara" name="إدارة المشاكل والحوادث"/>
+				<tx l="eng" name="Problem and Incident Management" abr=""/>
+				<tx l="spa" name="Gestión de incidentes y problemas" abr=""/>
+				<tx l="fre" name="Gestion des problèmes et des incidents" abr=""/>
+				<tx l="ara" name="إدارة المشاكل والحوادث" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -572,10 +572,10 @@ Examinez les procès-verbaux des réunions et déterminez si les problèmes de p
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Service Management"/>
-				<tx l="spa" name="Gestión De Servicios"/>
-				<tx l="fre" name="La gestion des services"/>
-				<tx l="ara" name="Sإدارة الخدمات"/>
+				<tx l="eng" name="Service Management" abr=""/>
+				<tx l="spa" name="Gestión De Servicios" abr=""/>
+				<tx l="fre" name="La gestion des services" abr=""/>
+				<tx l="ara" name="Sإدارة الخدمات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -718,7 +718,10 @@ Interviewez un échantillon d'utilisateurs pour comprendre le niveau de sensibil
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Project Management &amp; Control"/>
+				<tx l="eng" name="Project Management and Control" abr=""/>
+				<tx l="spa" name="Gestión y Control de Proyectos" abr=""/>
+				<tx l="fre" name="Gestion et contrôle de projet" abr=""/>
+				<tx l="ara" name="إدارة المشروع والتحكم فيه" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -866,10 +869,10 @@ Passez en revue la formation ou d'autres mécanismes de diffusion (courriel, mé
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Requirements Development and Management"/>
-				<tx l="spa" name="Desarrollo y gestión de requisitos"/>
-				<tx l="fre" name="Développement et gestion des exigences"/>
-				<tx l="ara" name="تطوير وإدارة المتطلبات"/>
+				<tx l="eng" name="Requirements Development and Management" abr=""/>
+				<tx l="spa" name="Desarrollo y gestión de requisitos" abr=""/>
+				<tx l="fre" name="Développement et gestion des exigences" abr=""/>
+				<tx l="ara" name="تطوير وإدارة المتطلبات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1391,10 +1394,10 @@ Interviewez l'agent des contrats de l'organisation pour déterminer comment elle
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Data Rights"/>
-				<tx l="spa" name="Derechos de datos"/>
-				<tx l="fre" name="Droits sur les données"/>
-				<tx l="ara" name="حقوق البيانات"/>
+				<tx l="eng" name="Data Rights" abr=""/>
+				<tx l="spa" name="Derechos de datos" abr=""/>
+				<tx l="fre" name="Droits sur les données" abr=""/>
+				<tx l="ara" name="حقوق البيانات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1538,10 +1541,10 @@ Vérifiez si la divulgation d'informations par l'agence externalisée est autori
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Security"/>
-				<tx l="spa" name="Seguridad"/>
-				<tx l="fre" name="Sécurité"/>
-				<tx l="ara" name="أمن"/>
+				<tx l="eng" name="Security" abr=""/>
+				<tx l="spa" name="Seguridad" abr=""/>
+				<tx l="fre" name="Sécurité" abr=""/>
+				<tx l="ara" name="أمن" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1697,10 +1700,10 @@ Vérifiez si l'organisation reçoit des rapports réguliers et agit sur la base 
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Service Level Agreement"/>
-				<tx l="spa" name="Acuerdo de nivel de servicio"/>
-				<tx l="fre" name="Accord de niveau de service"/>
-				<tx l="ara" name="اتفاقية مستوى الخدمة"/>
+				<tx l="eng" name="Service Level Agreement" abr=""/>
+				<tx l="spa" name="Acuerdo de nivel de servicio" abr=""/>
+				<tx l="fre" name="Accord de niveau de service" abr=""/>
+				<tx l="ara" name="اتفاقية مستوى الخدمة" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1839,10 +1842,10 @@ Vérifier les mesures prises par l'organisation pour les écarts par rapport à 
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Vendor or Contract Monitoring"/>
-				<tx l="spa" name="Monitoreo de proveedores o contratos"/>
-				<tx l="fre" name="Surveillance des fournisseurs ou des contrats"/>
-				<tx l="ara" name="مراقبة البائع أو العقد"/>
+				<tx l="eng" name="Vendor or Contract Monitoring" abr=""/>
+				<tx l="spa" name="Monitoreo de proveedores o contratos" abr=""/>
+				<tx l="fre" name="Surveillance des fournisseurs ou des contrats" abr=""/>
+				<tx l="ara" name="مراقبة البائع أو العقد" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1992,10 +1995,10 @@ Examen des avis et des rapports sur les mesures prises pour que les mesures pris
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Access Control"/>
-				<tx l="spa" name="Control de acceso"/>
-				<tx l="fre" name="Contrôle d'accès"/>
-				<tx l="ara" name="صلاحية التحكم صلاحية الدخول"/>
+				<tx l="eng" name="Access Control" abr=""/>
+				<tx l="spa" name="Control de acceso" abr=""/>
+				<tx l="fre" name="Contrôle d'accès" abr=""/>
+				<tx l="ara" name="صلاحية التحكم صلاحية الدخول" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2242,10 +2245,10 @@ Test de validation 2 : Gestion des mots de passe : vérifiez que les exigences 
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Communications and Operations Management"/>
-				<tx l="spa" name="Gestión de comunicaciones y operaciones"/>
-				<tx l="fre" name="Gestion des communication et opérations"/>
-				<tx l="ara" name="إدارة الاتصالات والعمليات"/>
+				<tx l="eng" name="Communications and Operations Management" abr=""/>
+				<tx l="spa" name="Gestión de comunicaciones y operaciones" abr=""/>
+				<tx l="fre" name="Gestion des communication et opérations" abr=""/>
+				<tx l="ara" name="إدارة الاتصالات والعمليات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2612,10 +2615,10 @@ Déterminer:
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Risk Assessment"/>
-				<tx l="spa" name="Evaluación de riesgos"/>
-				<tx l="fre" name="L'évaluation des risques"/>
-				<tx l="ara" name="تقييم المخاطر"/>
+				<tx l="eng" name="Risk Assessment" abr=""/>
+				<tx l="spa" name="Evaluación de riesgos" abr=""/>
+				<tx l="fre" name="L'évaluation des risques" abr=""/>
+				<tx l="ara" name="تقييم المخاطر" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2948,6 +2951,9 @@ Tenez compte du fait que les rapports de problèmes/incidents peuvent être inco
 	<Domain nr="06">
 		<title>
 			<tx l="eng" name="BCP-DRP"/>
+			<tx l="spa" name="BCP-DRP"/>
+			<tx l="fre" name="BCP-DRP"/>
+			<tx l="ara" name="BCP-DRP"/>
 		</title>
 		<Narrative>
 			<narr l="eng">
@@ -2965,10 +2971,10 @@ Tenez compte du fait que les rapports de problèmes/incidents peuvent être inco
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="BCP-DRP"/>
-				<tx l="spa" name="BCP-DRP"/>
-				<tx l="fre" name="BCP-DRP"/>
-				<tx l="ara" name="BCP-DRP"/>
+				<tx l="eng" name="BCP-DRP" abr=""/>
+				<tx l="spa" name="BCP-DRP" abr=""/>
+				<tx l="fre" name="BCP-DRP" abr=""/>
+				<tx l="ara" name="BCP-DRP" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3395,10 +3401,10 @@ Examen des documents/Interview du personnel pour évaluer que le personnel conce
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Input"/>
-				<tx l="spa" name="Entrada"/>
-				<tx l="fre" name="Entrée"/>
-				<tx l="ara" name="إدخال"/>
+				<tx l="eng" name="Input" abr=""/>
+				<tx l="spa" name="Entrada" abr=""/>
+				<tx l="fre" name="Entrée" abr=""/>
+				<tx l="ara" name="إدخال" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3873,10 +3879,10 @@ Déterminez quelles interfaces existent avec l'application. Ces interfaces pourr
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Processing"/>
-				<tx l="spa" name="Procesando"/>
-				<tx l="fre" name="Traitement"/>
-				<tx l="ara" name="معالجة"/>
+				<tx l="eng" name="Processing" abr=""/>
+				<tx l="spa" name="Procesando" abr=""/>
+				<tx l="fre" name="Traitement" abr=""/>
+				<tx l="ara" name="معالجة" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4016,10 +4022,10 @@ Inspectez la description fonctionnelle et les informations de conception sur la 
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Output"/>
-				<tx l="spa" name="Producción"/>
-				<tx l="fre" name="Production"/>
-				<tx l="ara" name="انتاج |"/>
+				<tx l="eng" name="Output" abr=""/>
+				<tx l="spa" name="Producción" abr=""/>
+				<tx l="fre" name="Production" abr=""/>
+				<tx l="ara" name="انتاج |" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">

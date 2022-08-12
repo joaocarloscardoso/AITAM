@@ -1,4 +1,4 @@
-<Audit><About id="audit001" descriptionfile=""><version id="1.0" name=""/><title><tx l="eng" name="teste teste" rem=""/></title><WorkingLanguage wl="eng"/></About><Background><ak></ak></Background><Scope><ak></ak></Scope><Preassessment>
+<Audit><About id="teste" descriptionfile=""><version id="1.0" name=""/><title><tx l="eng" name="teste" rem=""/></title><WorkingLanguage wl="eng"/></About><Background><ak/></Background><Scope><ak/></Scope><Preassessment>
 	<About id="PreactIS">
 		<version id="20210101" name="main"/>
 		<title>
@@ -665,7 +665,7 @@
 							<tx l="ara" name="Low"/>
 						</val>
 					</paElement>
-				<Instances l="eng" name="High"><IElement nr="01|01_01" l="eng" name="High"/><IElement nr="01|01_02" l="eng" name="High"/><IElement nr="01|01_03" l="eng" name="High"/><IElement nr="01|01_04" l="eng" name="High"/><IElement nr="01|01_05|01" l="eng" name="Medium"/><IElement nr="01|01_05|02" l="eng" name="High"/><IElement nr="01|01_05|03" l="eng" name="Low"/><IElement nr="01|01_05|04" l="eng" name="Low"/><IElement nr="01|01_05|05" l="eng" name="Low"/><IElement nr="01|02_01" l="eng" name="Low"/><IElement nr="01|02_02" l="eng" name="Low"/><IElement nr="01|02_03" l="eng" name="Low"/><IElement nr="01|02_04" l="eng" name="Low"/><IElement nr="01|02_05|01" l="eng" name="Low"/><IElement nr="01|02_05|02" l="eng" name="Low"/><IElement nr="01|02_05|03" l="eng" name="Low"/><IElement nr="01|02_05|04" l="eng" name="Low"/><IElement nr="01|03_01" l="eng" name="Low"/><IElement nr="01|03_02" l="eng" name="Low"/><IElement nr="01|03_03" l="eng" name="Low"/><IElement nr="01|03_04" l="eng" name="Low"/><IElement nr="01|03_05|01" l="eng" name="Low"/><IElement nr="01|03_05|02" l="eng" name="Low"/><IElement nr="01|03_05|03" l="eng" name="Low"/><IElement nr="01|03_05|04" l="eng" name="Low"/><IElement nr="01|03_05|05" l="eng" name="Low"/><IElement nr="01|04_01" l="eng" name="Low"/><IElement nr="01|04_02" l="eng" name="Low"/><IElement nr="01|04_03" l="eng" name="Low"/><IElement nr="01|04_04" l="eng" name="Low"/><IElement nr="01|04_05|01" l="eng" name="Low"/><IElement nr="01|04_05|02" l="eng" name="Low"/><IElement nr="01|04_05|03" l="eng" name="Low"/><IElement nr="01|04_05|04" l="eng" name="Low"/><IElement nr="01|04_05|05" l="eng" name="Low"/><IElement nr="01|04_05|06" l="eng" name="Low"/><IElement nr="01|04_05|07" l="eng" name="Low"/><IElement nr="01|04_05|08" l="eng" name="Low"/><IElement nr="01|04_05|09" l="eng" name="Low"/><IElement nr="01|04_05|10" l="eng" name="Low"/><IElement nr="01|05_01" l="eng" name="Low"/><IElement nr="01|05_02" l="eng" name="Low"/><IElement nr="01|05_03" l="eng" name="Low"/><IElement nr="01|05_04" l="eng" name="Low"/><IElement nr="01|05_05|01" l="eng" name="Low"/><IElement nr="01|05_05|02" l="eng" name="Low"/><IElement nr="01|05_05|03" l="eng" name="Low"/><IElement nr="01|05_05|04" l="eng" name="Low"/><IElement nr="01|05_05|05" l="eng" name="Low"/><IElement nr="01|05_05|06" l="eng" name="Low"/><IElement nr="01|05_05|07" l="eng" name="Low"/><IElement nr="01|05_05|08" l="eng" name="Low"/><IElement nr="01|06_01" l="eng" name="Low"/><IElement nr="01|06_02" l="eng" name="Low"/><IElement nr="01|06_03" l="eng" name="Low"/><IElement nr="01|06_04" l="eng" name="Low"/><IElement nr="01|06_05|01" l="eng" name="Low"/><IElement nr="01|06_05|02" l="eng" name="Low"/><IElement nr="01|06_05|03" l="eng" name="Low"/><IElement nr="01|06_05|04" l="eng" name="Low"/><IElement nr="01|06_05|05" l="eng" name="Low"/><IElement nr="01|06_05|06" l="eng" name="Low"/><IElement nr="01|06_05|07" l="eng" name="Low"/><IElement nr="01|06_05|08" l="eng" name="Low"/><IElement nr="01|07_01" l="eng" name="Low"/><IElement nr="01|07_02" l="eng" name="Low"/><IElement nr="01|07_03" l="eng" name="Low"/><IElement nr="01|07_04" l="eng" name="Low"/><IElement nr="01|07_05|01" l="eng" name="Low"/><IElement nr="01|07_05|02" l="eng" name="Low"/><IElement nr="01|07_05|03" l="eng" name="Low"/><IElement nr="01|07_05|04" l="eng" name="Low"/></Instances></paSection>
+				<Instances l="eng" name="High"><IElement nr="01|01_01" l="eng" name="High"/><IElement nr="01|01_02" l="eng" name="High"/><IElement nr="01|01_03" l="eng" name="Medium"/><IElement nr="01|01_04" l="eng" name="High"/><IElement nr="01|01_05|01" l="eng" name="High"/><IElement nr="01|01_05|02" l="eng" name="Medium"/><IElement nr="01|01_05|03" l="eng" name="High"/><IElement nr="01|01_05|04" l="eng" name="High"/><IElement nr="01|01_05|05" l="eng" name="High"/><IElement nr="01|02_01" l="eng" name="Low"/><IElement nr="01|02_02" l="eng" name="Low"/><IElement nr="01|02_03" l="eng" name="Low"/><IElement nr="01|02_04" l="eng" name="Low"/><IElement nr="01|02_05|01" l="eng" name="Low"/><IElement nr="01|02_05|02" l="eng" name="Low"/><IElement nr="01|02_05|03" l="eng" name="Low"/><IElement nr="01|02_05|04" l="eng" name="Low"/><IElement nr="01|03_01" l="eng" name="Low"/><IElement nr="01|03_02" l="eng" name="Low"/><IElement nr="01|03_03" l="eng" name="Low"/><IElement nr="01|03_04" l="eng" name="Low"/><IElement nr="01|03_05|01" l="eng" name="Low"/><IElement nr="01|03_05|02" l="eng" name="Low"/><IElement nr="01|03_05|03" l="eng" name="Low"/><IElement nr="01|03_05|04" l="eng" name="Low"/><IElement nr="01|03_05|05" l="eng" name="Low"/><IElement nr="01|04_01" l="eng" name="Low"/><IElement nr="01|04_02" l="eng" name="Low"/><IElement nr="01|04_03" l="eng" name="Low"/><IElement nr="01|04_04" l="eng" name="Low"/><IElement nr="01|04_05|01" l="eng" name="Low"/><IElement nr="01|04_05|02" l="eng" name="Low"/><IElement nr="01|04_05|03" l="eng" name="Low"/><IElement nr="01|04_05|04" l="eng" name="Low"/><IElement nr="01|04_05|05" l="eng" name="Low"/><IElement nr="01|04_05|06" l="eng" name="Low"/><IElement nr="01|04_05|07" l="eng" name="Low"/><IElement nr="01|04_05|08" l="eng" name="Low"/><IElement nr="01|04_05|09" l="eng" name="Low"/><IElement nr="01|04_05|10" l="eng" name="Low"/><IElement nr="01|05_01" l="eng" name="Low"/><IElement nr="01|05_02" l="eng" name="Low"/><IElement nr="01|05_03" l="eng" name="Low"/><IElement nr="01|05_04" l="eng" name="Low"/><IElement nr="01|05_05|01" l="eng" name="Low"/><IElement nr="01|05_05|02" l="eng" name="Low"/><IElement nr="01|05_05|03" l="eng" name="Low"/><IElement nr="01|05_05|04" l="eng" name="Low"/><IElement nr="01|05_05|05" l="eng" name="Low"/><IElement nr="01|05_05|06" l="eng" name="Low"/><IElement nr="01|05_05|07" l="eng" name="Low"/><IElement nr="01|05_05|08" l="eng" name="Low"/><IElement nr="01|06_01" l="eng" name="Low"/><IElement nr="01|06_02" l="eng" name="Low"/><IElement nr="01|06_03" l="eng" name="Low"/><IElement nr="01|06_04" l="eng" name="Low"/><IElement nr="01|06_05|01" l="eng" name="Low"/><IElement nr="01|06_05|02" l="eng" name="Low"/><IElement nr="01|06_05|03" l="eng" name="Low"/><IElement nr="01|06_05|04" l="eng" name="Low"/><IElement nr="01|06_05|05" l="eng" name="Low"/><IElement nr="01|06_05|06" l="eng" name="Low"/><IElement nr="01|06_05|07" l="eng" name="Low"/><IElement nr="01|06_05|08" l="eng" name="Low"/><IElement nr="01|07_01" l="eng" name="Low"/><IElement nr="01|07_02" l="eng" name="Low"/><IElement nr="01|07_03" l="eng" name="Low"/><IElement nr="01|07_04" l="eng" name="Low"/><IElement nr="01|07_05|01" l="eng" name="Low"/><IElement nr="01|07_05|02" l="eng" name="Low"/><IElement nr="01|07_05|03" l="eng" name="Low"/><IElement nr="01|07_05|04" l="eng" name="Low"/></Instances></paSection>
 			</paMatrix>
 		</paIssue>
 		<paIssue nr="03">
@@ -894,10 +894,10 @@
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Business Needs Identification, Direction and Monitoring"/>
-				<tx l="spa" name="Identificación, dirección y seguimiento de las necesidades de negocio"/>
-				<tx l="fre" name="Identification, direction et surveillance des besoins de l&apos;entreprise"/>
-				<tx l="ara" name="تحديد احتياجات العمل والتوجيه والمراقبة"/>
+				<tx l="eng" name="Business Needs Identification, Direction and Monitoring" abr="Business Needs"/>
+				<tx l="spa" name="Identificación, dirección y seguimiento de las necesidades de negocio" abr=""/>
+				<tx l="fre" name="Identification, direction et surveillance des besoins de l&apos;entreprise" abr=""/>
+				<tx l="ara" name="تحديد احتياجات العمل والتوجيه والمراقبة" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -913,7 +913,7 @@
 					<ak>تقوم قيادة المنظمة بتوجيه وتقييم ومراقبة استخدام تكنولوجيا المعلومات بشكل فعال في المنظمة من أجل تحقيق مهمة المنظمة.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 				<title>
 					<tx l="eng" name="Defining IT requirements"/>
 					<tx l="spa" name="Definición de requisitos de TI"/>
@@ -1022,7 +1022,7 @@
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+			<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 				<title>
 					<tx l="eng" name="Leadership"/>
 					<tx l="spa" name="Liderazgo"/>
@@ -1113,7 +1113,7 @@
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+			<Issue nr="03" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 				<title>
 					<tx l="eng" name="IT Investments"/>
 					<tx l="spa" name="Inversiones en TI"/>
@@ -1185,10 +1185,10 @@
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="IT Strategy and Planning"/>
-				<tx l="spa" name="Planificación y estrategia de TI"/>
-				<tx l="fre" name="Stratégie et planification informatiques"/>
-				<tx l="ara" name="استراتيجية تكنولوجيا المعلومات والتخطيط"/>
+				<tx l="eng" name="IT Strategy and Planning" abr="IT Strategy"/>
+				<tx l="spa" name="Planificación y estrategia de TI" abr=""/>
+				<tx l="fre" name="Stratégie et planification informatiques" abr=""/>
+				<tx l="ara" name="استراتيجية تكنولوجيا المعلومات والتخطيط" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1204,7 +1204,7 @@
 					<ak>تمثل استراتيجية تكنولوجيا المعلومات المواءمة المتبادلة بين استراتيجية تكنولوجيا المعلومات والأهداف الاستراتيجية للأعمال. يجب أن تراعي الأهداف الإستراتيجية لتكنولوجيا المعلومات الاحتياجات الحالية والمستقبلية للأعمال ، وقدرة تكنولوجيا المعلومات الحالية على تقديم الخدمات ومتطلبات الموارد.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+			<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 				<title>
 					<tx l="eng" name="Quality of IT strategy"/>
 					<tx l="spa" name="Calidad de la estrategia de TI"/>
@@ -1249,7 +1249,6 @@
 							<tx l="spa" name="Plan estratégico de TI o documento equivalente  Actas de reuniones de las reuniones del comité directivo de TI y organizaciones "/>
 							<tx l="fre" name="Plan stratégique informatique ou document équivalent  Compte-rendu des réunions du comité de pilotage informatique et organisations "/>
 							<tx l="ara" name="الخطة الإستراتيجية لتكنولوجيا المعلومات ، أو وثيقة معادلة  محاضر الاجتماعات من اجتماعات اللجنة التوجيهية لتكنولوجيا المعلومات والمنظمات "/>
-
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
@@ -1278,7 +1277,7 @@
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+			<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 				<title>
 					<tx l="eng" name="Risk management"/>
 					<tx l="spa" name="Gestión de riesgos"/>
@@ -1354,10 +1353,10 @@
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Organisational structures, Standards, Policies and Procedures"/>
-				<tx l="spa" name="Estructuras organizativas, estándares, políticas y procedimientos"/>
-				<tx l="fre" name="Structures organisationnelles, normes, politiques et procédures"/>
-				<tx l="ara" name="الهياكل التنظيمية والمعايير والسياسات والإجراءات"/>
+				<tx l="eng" name="Organisational structures, Standards, Policies and Procedures" abr="Organisation"/>
+				<tx l="spa" name="Estructuras organizativas, estándares, políticas y procedimientos" abr=""/>
+				<tx l="fre" name="Structures organisationnelles, normes, politiques et procédures" abr=""/>
+				<tx l="ara" name="الهياكل التنظيمية والمعايير والسياسات والإجراءات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1373,7 +1372,7 @@
 					<ak>تعتبر الهياكل التنظيمية عنصرًا أساسيًا في حوكمة تقنية المعلومات في توضيح أدوار مختلف هيئات الإدارة والحوكمة عبر الأعمال وصنع القرار. يجب عليهم تعيين تفويض محدد بوضوح لاتخاذ القرار ومراقبة الأداء. يجب دعم الهياكل التنظيمية بالمعايير والسياسات والإجراءات المناسبة التي ينبغي أن تعزز القدرة على اتخاذ القرار.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Low; ">
+			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 				<title>
 					<tx l="eng" name="Structure of the IT Organization"/>
 					<tx l="spa" name="Estructura de la organización de TI"/>
@@ -1446,7 +1445,7 @@
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Low; ">
+			<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 				<title>
 					<tx l="eng" name="Policy and procedures"/>
 					<tx l="spa" name="Política y procedimientos"/>
@@ -1522,10 +1521,10 @@
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="People and Resources"/>
-				<tx l="spa" name="Personas y recursos"/>
-				<tx l="fre" name="Personnes et ressources"/>
-				<tx l="ara" name="الناس والموارد"/>
+				<tx l="eng" name="People and Resources" abr="HR"/>
+				<tx l="spa" name="Personas y recursos" abr=""/>
+				<tx l="fre" name="Personnes et ressources" abr=""/>
+				<tx l="ara" name="الناس والموارد" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1541,7 +1540,7 @@
 					<ak>تتعامل سياسة الموارد البشرية (HR) مع التوظيف والتدريب وإنهاء الوظيفة وغيرها من وظائف منظمة الموارد البشرية. إنه يتعامل مع أدوار ومسؤوليات مختلف الموظفين داخل المنظمة بالإضافة إلى المهارات أو التدريب المطلوب المطلوب منهم امتلاكه لأداء واجباتهم.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Low; ">
+			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 				<title>
 					<tx l="eng" name="HR and logistics"/>
 					<tx l="spa" name="Recursos humanos y logística"/>
@@ -1617,10 +1616,10 @@
 		</Area>
 		<Area nr="05">
 			<title>
-				<tx l="eng" name="Risk Assessment and Compliance mechanisms"/>
-				<tx l="spa" name="Mecanismos de evaluación de riesgos y cumplimiento"/>
-				<tx l="fre" name="Mécanismes d&apos;évaluation des risques et de conformité"/>
-				<tx l="ara" name="آليات تقييم المخاطر والامتثال"/>
+				<tx l="eng" name="Risk Assessment and Compliance mechanisms" abr="Assessment"/>
+				<tx l="spa" name="Mecanismos de evaluación de riesgos y cumplimiento" abr=""/>
+				<tx l="fre" name="Mécanismes d&apos;évaluation des risques et de conformité" abr=""/>
+				<tx l="ara" name="آليات تقييم المخاطر والامتثال" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1636,7 +1635,7 @@
 					<ak>يجب أن تشكل إدارة مخاطر تكنولوجيا المعلومات جزءًا لا يتجزأ من استراتيجية وسياسات إدارة المخاطر في الشركة. تحتاج المنظمات إلى آلية امتثال تضمن اتباع جميع السياسات والإجراءات المرتبطة بها.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Low; ">
+			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 				<title>
 					<tx l="eng" name="Mechanism"/>
 					<tx l="spa" name="Mecanismo"/>
@@ -1735,10 +1734,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="IT Service Continuity management"/>
-				<tx l="spa" name="Gestión de la continuidad del servicio de TI"/>
-				<tx l="fre" name="Gestion de la continuité des services informatiques"/>
-				<tx l="ara" name="إدارة استمرارية خدمة تكنولوجيا المعلومات"/>
+				<tx l="eng" name="IT Service Continuity management" abr="Continuity"/>
+				<tx l="spa" name="Gestión de la continuidad del servicio de TI" abr=""/>
+				<tx l="fre" name="Gestion de la continuité des services informatiques" abr=""/>
+				<tx l="ara" name="إدارة استمرارية خدمة تكنولوجيا المعلومات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -1976,10 +1975,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Capacity Management"/>
-				<tx l="spa" name="Gestión de capacidad"/>
-				<tx l="fre" name="Gestion de la capacité"/>
-				<tx l="ara" name="إدارة القدرات"/>
+				<tx l="eng" name="Capacity Management" abr="Capacity"/>
+				<tx l="spa" name="Gestión de capacidad" abr=""/>
+				<tx l="fre" name="Gestion de la capacité" abr=""/>
+				<tx l="ara" name="إدارة القدرات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2217,10 +2216,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Problem and incident management"/>
-				<tx l="spa" name="Gestión de incidentes y problemas"/>
-				<tx l="fre" name="Gestion des problèmes et des incidents"/>
-				<tx l="ara" name="إدارة المشاكل والحوادث"/>
+				<tx l="eng" name="Problem and incident management" abr="Problem Management"/>
+				<tx l="spa" name="Gestión de incidentes y problemas" abr=""/>
+				<tx l="fre" name="Gestion des problèmes et des incidents" abr=""/>
+				<tx l="ara" name="إدارة المشاكل والحوادث" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2458,10 +2457,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Change Management"/>
-				<tx l="spa" name="Gestión del cambio"/>
-				<tx l="fre" name="La gestion du changement"/>
-				<tx l="ara" name="إدارة التغيير"/>
+				<tx l="eng" name="Change Management" abr=""/>
+				<tx l="spa" name="Gestión del cambio" abr=""/>
+				<tx l="fre" name="La gestion du changement" abr=""/>
+				<tx l="ara" name="إدارة التغيير" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2764,7 +2763,7 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 	</Domain>
 	<Domain nr="03">
 		<title>
-			<tx l="eng" name="Development and Acquisition"/>
+			<tx l="eng" name="Development and Acquisition" abr="Development"/>
 			<tx l="spa" name="Desarrollo y Adquisición"/>
 			<tx l="fre" name="Développement et acquisition"/>
 			<tx l="ara" name="التطوير والاستحواذ"/>
@@ -2785,10 +2784,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Requirements Development and Management"/>
-				<tx l="spa" name="Desarrollo y gestión de requisitos"/>
-				<tx l="fre" name="Développement et gestion des exigences"/>
-				<tx l="ara" name="تطوير وإدارة المتطلبات"/>
+				<tx l="eng" name="Requirements Development and Management" abr="Requirements"/>
+				<tx l="spa" name="Desarrollo y gestión de requisitos" abr=""/>
+				<tx l="fre" name="Développement et gestion des exigences" abr=""/>
+				<tx l="ara" name="تطوير وإدارة المتطلبات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -2953,10 +2952,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Project Management and Control"/>
-				<tx l="spa" name="Gestión y control de proyectos"/>
-				<tx l="fre" name="Gestion et contrôle de projet"/>
-				<tx l="ara" name="إدارة المشروع والتحكم فيه"/>
+				<tx l="eng" name="Project Management and Control" abr="Project Management"/>
+				<tx l="spa" name="Gestión y control de proyectos" abr=""/>
+				<tx l="fre" name="Gestion et contrôle de projet" abr=""/>
+				<tx l="ara" name="إدارة المشروع والتحكم فيه" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3194,10 +3193,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Quality Assurance and Testing"/>
-				<tx l="spa" name="Aseguramiento de la calidad y las pruebas"/>
-				<tx l="fre" name="L&apos;assurance de la qualité et des tests"/>
-				<tx l="ara" name="جودة الضمان والاختبار"/>
+				<tx l="eng" name="Quality Assurance and Testing" abr="QA"/>
+				<tx l="spa" name="Aseguramiento de la calidad y las pruebas" abr=""/>
+				<tx l="fre" name="L&apos;assurance de la qualité et des tests" abr=""/>
+				<tx l="ara" name="جودة الضمان والاختبار" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3362,10 +3361,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Solicitation"/>
-				<tx l="spa" name="Solicitación"/>
-				<tx l="fre" name="Sollicitation"/>
-				<tx l="ara" name="الإغراء"/>
+				<tx l="eng" name="Solicitation" abr=""/>
+				<tx l="spa" name="Solicitación" abr=""/>
+				<tx l="fre" name="Sollicitation" abr=""/>
+				<tx l="ara" name="الإغراء" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3530,10 +3529,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="05">
 			<title>
-				<tx l="eng" name="Configuration Management"/>
-				<tx l="spa" name="Gestión de la configuración"/>
-				<tx l="fre" name="Gestion de la configuration"/>
-				<tx l="ara" name="إدارة التكوين"/>
+				<tx l="eng" name="Configuration Management" abr="Configuration"/>
+				<tx l="spa" name="Gestión de la configuración" abr=""/>
+				<tx l="fre" name="Gestion de la configuration" abr=""/>
+				<tx l="ara" name="إدارة التكوين" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3720,10 +3719,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Outsourcing Policy"/>
-				<tx l="spa" name="Política de subcontratación"/>
-				<tx l="fre" name="Politique d&apos;externalisation"/>
-				<tx l="ara" name="سياسة الاستعانة بمصادر خارجية"/>
+				<tx l="eng" name="Outsourcing Policy" abr=""/>
+				<tx l="spa" name="Política de subcontratación" abr=""/>
+				<tx l="fre" name="Politique d&apos;externalisation" abr=""/>
+				<tx l="ara" name="سياسة الاستعانة بمصادر خارجية" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3815,10 +3814,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Solicitation"/>
-				<tx l="spa" name="Solicitación"/>
-				<tx l="fre" name="Sollicitation"/>
-				<tx l="ara" name="الإغراء"/>
+				<tx l="eng" name="Solicitation" abr=""/>
+				<tx l="spa" name="Solicitación" abr=""/>
+				<tx l="fre" name="Sollicitation" abr=""/>
+				<tx l="ara" name="الإغراء" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -3910,10 +3909,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Vendor or contract Management"/>
-				<tx l="spa" name="Gestión de proveedores o contratos"/>
-				<tx l="fre" name="Gestion des fournisseurs ou des contrats"/>
-				<tx l="ara" name="إدارة البائعين أو العقد"/>
+				<tx l="eng" name="Vendor or Contract Management" abr="Contracts"/>
+				<tx l="spa" name="Gestión de proveedores o contratos" abr=""/>
+				<tx l="fre" name="Gestion des fournisseurs ou des contrats" abr=""/>
+				<tx l="ara" name="إدارة البائعين أو العقد" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4005,10 +4004,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Data Rights"/>
-				<tx l="spa" name="Derechos de datos"/>
-				<tx l="fre" name="DDroits de données"/>
-				<tx l="ara" name="حقوق البيانات"/>
+				<tx l="eng" name="Data Rights" abr=""/>
+				<tx l="spa" name="Derechos de datos" abr=""/>
+				<tx l="fre" name="DDroits de données" abr=""/>
+				<tx l="ara" name="حقوق البيانات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4100,10 +4099,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="05">
 			<title>
-				<tx l="eng" name="Overseas Service Provider"/>
-				<tx l="spa" name="Proveedor de servicios en el extranjero"/>
-				<tx l="fre" name="Fournisseur de services à l&apos;étranger"/>
-				<tx l="ara" name="مزود الخدمة في الخارج"/>
+				<tx l="eng" name="Overseas Service Provider" abr="Overseas"/>
+				<tx l="spa" name="Proveedor de servicios en el extranjero" abr=""/>
+				<tx l="fre" name="Fournisseur de services à l&apos;étranger" abr=""/>
+				<tx l="ara" name="مزود الخدمة في الخارج" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4195,10 +4194,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="06">
 			<title>
-				<tx l="eng" name="Retaining Business Knowledge"/>
-				<tx l="spa" name="Conservación del conocimiento de la organización"/>
-				<tx l="fre" name="Conserver les connaissances de l&apos;entreprise"/>
-				<tx l="ara" name="الاحتفاظ بالمعرفة التجارية"/>
+				<tx l="eng" name="Retaining Business Knowledge" abr="Knowledge Uphold"/>
+				<tx l="spa" name="Conservación del conocimiento de la organización" abr=""/>
+				<tx l="fre" name="Conserver les connaissances de l&apos;entreprise" abr=""/>
+				<tx l="ara" name="الاحتفاظ بالمعرفة التجارية" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4290,10 +4289,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="07">
 			<title>
-				<tx l="eng" name="Cost control and management"/>
-				<tx l="spa" name="Control y gestión de costes"/>
-				<tx l="fre" name="Contrôle et gestion des coûts"/>
-				<tx l="ara" name="مراقبة التكاليف وإدارتها"/>
+				<tx l="eng" name="Cost control and management" abr="Cost"/>
+				<tx l="spa" name="Control y gestión de costes" abr=""/>
+				<tx l="fre" name="Contrôle et gestion des coûts" abr=""/>
+				<tx l="ara" name="مراقبة التكاليف وإدارتها" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4385,10 +4384,10 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 		</Area>
 		<Area nr="08">
 			<title>
-				<tx l="eng" name="Service Level Agreement"/>
-				<tx l="spa" name="Acuerdo de nivel de servicio"/>
-				<tx l="fre" name="Accord de niveau de service"/>
-				<tx l="ara" name="اتفاقية مستوى الخدمة"/>
+				<tx l="eng" name="Service Level Agreement" abr="SLA"/>
+				<tx l="spa" name="Acuerdo de nivel de servicio" abr=""/>
+				<tx l="fre" name="Accord de niveau de service" abr=""/>
+				<tx l="ara" name="اتفاقية مستوى الخدمة" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4484,10 +4483,10 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 		</Area>
 		<Area nr="09">
 			<title>
-				<tx l="eng" name="Security"/>
-				<tx l="spa" name="Seguridad"/>
-				<tx l="fre" name="Sécurité"/>
-				<tx l="ara" name="حماية"/>
+				<tx l="eng" name="Security" abr=""/>
+				<tx l="spa" name="Seguridad" abr=""/>
+				<tx l="fre" name="Sécurité" abr=""/>
+				<tx l="ara" name="حماية" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4579,10 +4578,10 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 		</Area>
 		<Area nr="10">
 			<title>
-				<tx l="eng" name="Back up and disaster recovery for outsourced services"/>
-				<tx l="spa" name="Copia de seguridad y recuperación ante desastres para servicios subcontratados"/>
-				<tx l="fre" name="Sauvegarde et reprise après sinistre pour les services externalisés"/>
-				<tx l="ara" name="النسخ الاحتياطي والتعافي من الكوارث لخدمات الاستعانة بمصادر خارجية"/>
+				<tx l="eng" name="Back up and disaster recovery for outsourced services" abr="BCP-DRP in outsourcing"/>
+				<tx l="spa" name="Copia de seguridad y recuperación ante desastres para servicios subcontratados" abr=""/>
+				<tx l="fre" name="Sauvegarde et reprise après sinistre pour les services externalisés" abr=""/>
+				<tx l="ara" name="النسخ الاحتياطي والتعافي من الكوارث لخدمات الاستعانة بمصادر خارجية" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -4696,9 +4695,9 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Risk Assessment"/>
-				<tx l="spa" name="Evaluación de riesgos"/>
-				<tx l="fre" name="L&apos;évaluation des risques"/>
+				<tx l="eng" name="Risk Assessment" abr=""/>
+				<tx l="spa" name="Evaluación de riesgos" abr=""/>
+				<tx l="fre" name="L&apos;évaluation des risques" abr=""/>
 				<tx l="ara" name="تقييم المخاطر"/>
 			</title>
 			<Narrative>
@@ -4906,7 +4905,6 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 							<tx l="spa" name="Informes de manejo de problemas / incidentes. Informes periódicos de actividad. "/>
 							<tx l="fre" name="Rapports de gestion des problèmes / incidents. Rapports d&apos;activité périodiques. "/>
 							<tx l="ara" name="تقارير التعامل مع المشكلة / الحادث. تقارير النشاط الدورية. "/>
-
 						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
@@ -4938,10 +4936,10 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Security Policy"/>
-				<tx l="spa" name="Politica de seguridad"/>
-				<tx l="fre" name="Politique de sécurité"/>
-				<tx l="ara" name="نهج الأمان"/>
+				<tx l="eng" name="Security Policy" abr=""/>
+				<tx l="spa" name="Politica de seguridad" abr=""/>
+				<tx l="fre" name="Politique de sécurité" abr=""/>
+				<tx l="ara" name="نهج الأمان" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -5106,10 +5104,10 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Organisation of IT Security"/>
-				<tx l="spa" name="Organización de la seguridad informática"/>
-				<tx l="fre" name="Organisation de la sécurité informatique"/>
-				<tx l="ara" name="تنظيم أمن تكنولوجيا المعلومات"/>
+				<tx l="eng" name="Organisation of IT Security" abr=""/>
+				<tx l="spa" name="Organización de la seguridad informática" abr=""/>
+				<tx l="fre" name="Organisation de la sécurité informatique" abr=""/>
+				<tx l="ara" name="تنظيم أمن تكنولوجيا المعلومات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -5347,10 +5345,10 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Communications and Operations Management"/>
-				<tx l="spa" name="Gestión de comunicaciones y operaciones"/>
-				<tx l="fre" name="Gestion des communications et des opérations"/>
-				<tx l="ara" name="إدارة الاتصالات والعمليات"/>
+				<tx l="eng" name="Communications and Operations Management" abr="Communications and Operations"/>
+				<tx l="spa" name="Gestión de comunicaciones y operaciones" abr=""/>
+				<tx l="fre" name="Gestion des communications et des opérations" abr=""/>
+				<tx l="ara" name="إدارة الاتصالات والعمليات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -5576,10 +5574,10 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 		</Area>
 		<Area nr="05">
 			<title>
-				<tx l="eng" name="Asset Management"/>
-				<tx l="spa" name="Gestión de activos"/>
-				<tx l="fre" name="La gestion d&apos;actifs"/>
-				<tx l="ara" name="إدارة الأصول"/>
+				<tx l="eng" name="Asset Management" abr=""/>
+				<tx l="spa" name="Gestión de activos" abr=""/>
+				<tx l="fre" name="La gestion d&apos;actifs" abr=""/>
+				<tx l="ara" name="إدارة الأصول" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -5671,10 +5669,10 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 		</Area>
 		<Area nr="06">
 			<title>
-				<tx l="eng" name="Human Resources IT Security"/>
-				<tx l="spa" name="Seguridad informática de recursos humanos"/>
-				<tx l="fre" name="Sécurité informatique des ressources humaines"/>
-				<tx l="ara" name="أمن تكنولوجيا المعلومات للموارد البشرية"/>
+				<tx l="eng" name="Human Resources IT Security" abr="HR in IT Security"/>
+				<tx l="spa" name="Seguridad informática de recursos humanos" abr=""/>
+				<tx l="fre" name="Sécurité informatique des ressources humaines" abr=""/>
+				<tx l="ara" name="أمن تكنولوجيا المعلومات للموارد البشرية" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -5839,10 +5837,10 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 		</Area>
 		<Area nr="07">
 			<title>
-				<tx l="eng" name="Intrusion Detection and Protection"/>
-				<tx l="spa" name="Detección y protección de intrusiones"/>
-				<tx l="fre" name="Détection et protection contre les intrusions"/>
-				<tx l="ara" name="كشف التسلل والحماية"/>
+				<tx l="eng" name="Intrusion Detection and Protection" abr="Intrusion"/>
+				<tx l="spa" name="Detección y protección de intrusiones" abr=""/>
+				<tx l="fre" name="Détection et protection contre les intrusions" abr=""/>
+				<tx l="ara" name="كشف التسلل والحماية" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -5942,17 +5940,17 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 					<narr l="eng">
 						<ak>Organizational and physical measures ensure no unauthorized access.</ak>
 					</narr>
-				</Narrative>
-					<narr l="spa">
-						<ak>Las medidas organizativas y físicas garantizan que no haya acceso no autorizado.</ak>
-					</narr>
-					<narr l="fre">
-						<ak>Des mesures organisationnelles et physiques garantissent aucun accès non autorisé.</ak>
-					</narr>
-					<narr l="ara">
-						<ak>تضمن التدابير التنظيمية والمادية عدم الوصول غير المصرح به.</ak>
-					</narr>
-				<Matrix id="Physical Security">
+				
+				<narr l="spa">
+					<ak>Las medidas organizativas y físicas garantizan que no haya acceso no autorizado.</ak>
+				</narr>
+				<narr l="fre">
+					<ak>Des mesures organisationnelles et physiques garantissent aucun accès non autorisé.</ak>
+				</narr>
+				<narr l="ara">
+					<ak>تضمن التدابير التنظيمية والمادية عدم الوصول غير المصرح به.</ak>
+				</narr>
+				</Narrative><Matrix id="Physical Security">
 					<Objectives>
 						<obj>
 							<tx l="eng" name="To prevent theft or damage of IT hardware, unauthorized access, and copying or viewing of sensitive information."/>
@@ -6080,10 +6078,10 @@ L'accord de niveau de service doit définir les services que le fournisseur est 
 		</Area>
 		<Area nr="08">
 			<title>
-				<tx l="eng" name="Access Control"/>
-				<tx l="spa" name="Control de acceso"/>
-				<tx l="fre" name="Control de acceso"/>
-				<tx l="ara" name="صلاحية التحكم صلاحية الدخول"/>
+				<tx l="eng" name="Access Control" abr=""/>
+				<tx l="spa" name="Control de acceso" abr=""/>
+				<tx l="fre" name="Control de acceso" abr=""/>
+				<tx l="ara" name="صلاحية التحكم صلاحية الدخول" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -6274,10 +6272,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Business Continuity Policy, Plan and Organisation"/>
-				<tx l="spa" name="Política, plan y organización de continuidad del negocio"/>
-				<tx l="fre" name="Politique, plan et organisation de continuité des activités"/>
-				<tx l="ara" name="سياسة وخطة وتنظيم استمرارية الأعمال"/>
+				<tx l="eng" name="Business Continuity Policy, Plan and Organisation" abr="BC Plan"/>
+				<tx l="spa" name="Política, plan y organización de continuidad del negocio" abr=""/>
+				<tx l="fre" name="Politique, plan et organisation de continuité des activités" abr=""/>
+				<tx l="ara" name="سياسة وخطة وتنظيم استمرارية الأعمال" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -6369,26 +6367,26 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Establishment of Business Continuity Function"/>
-				<tx l="spa" name="Establecimiento de la función de continuidad del negocio"/>
-				<tx l="fre" name="Mise en place de la fonction de continuité des activités"/>
-				<tx l="ara" name="تأسيس وظيفة استمرارية الأعمال"/>
+				<tx l="eng" name="Establishment of Business Continuity Function" abr="BC Function"/>
+				<tx l="spa" name="Establecimiento de la función de continuidad del negocio" abr=""/>
+				<tx l="fre" name="Mise en place de la fonction de continuité des activités" abr=""/>
+				<tx l="ara" name="تأسيس وظيفة استمرارية الأعمال" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
 					<ak>The business continuity management team must be organised to represent all appropriate business functions. Senior management and other related officials must support a continuity program and be associated with the process of developing the policy.</ak>
 				</narr>
-			</Narrative>
-				<narr l="spa">
-					<ak>El equipo de gestión de la continuidad del negocio debe estar organizado para representar todas las funciones del negocio apropiadas. La alta gerencia y otros funcionarios relacionados deben apoyar un programa de continuidad y estar asociados con el proceso de desarrollo de la política.</ak>
-				</narr>
-				<narr l="fre">
-					<ak>L'équipe de gestion de la continuité des activités doit être organisée pour représenter toutes les fonctions métier appropriées. La haute direction et les autres fonctionnaires concernés doivent soutenir un programme de continuité et être associés au processus d'élaboration de la politique.</ak>
-				</narr>
-				<narr l="ara">
-					<ak>Tيجب تنظيم فريق إدارة استمرارية الأعمال لتمثيل جميع وظائف العمل المناسبة. يجب أن تدعم الإدارة العليا والمسؤولون الآخرون ذوو الصلة برنامج الاستمرارية وأن يكونوا مرتبطين بعملية تطوير السياسة.</ak>
-				</narr>
-			<Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
+			
+			<narr l="spa">
+				<ak>El equipo de gestión de la continuidad del negocio debe estar organizado para representar todas las funciones del negocio apropiadas. La alta gerencia y otros funcionarios relacionados deben apoyar un programa de continuidad y estar asociados con el proceso de desarrollo de la política.</ak>
+			</narr>
+			<narr l="fre">
+				<ak>L'équipe de gestion de la continuité des activités doit être organisée pour représenter toutes les fonctions métier appropriées. La haute direction et les autres fonctionnaires concernés doivent soutenir un programme de continuité et être associés au processus d'élaboration de la politique.</ak>
+			</narr>
+			<narr l="ara">
+				<ak>Tيجب تنظيم فريق إدارة استمرارية الأعمال لتمثيل جميع وظائف العمل المناسبة. يجب أن تدعم الإدارة العليا والمسؤولون الآخرون ذوو الصلة برنامج الاستمرارية وأن يكونوا مرتبطين بعملية تطوير السياسة.</ak>
+			</narr>
+			</Narrative><Issue nr="01" RiskWeight="1" Include="No" Remarks="Pre-Assessment: Domain - Low;  Area - Low; ">
 				<title>
 					<tx l="eng" name="Business continuity team or equivalent function"/>
 					<tx l="spa" name="Equipo de continuidad del negocio o función equivalente"/>
@@ -6464,10 +6462,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Business Impact Assessment and Risk Management"/>
-				<tx l="spa" name="Evaluación de impacto empresarial y gestión de riesgos"/>
-				<tx l="fre" name="Évaluation de l’impact sur l’entreprise et gestion des risques"/>
-				<tx l="ara" name="تقييم تأثير الأعمال وإدارة المخاطر"/>
+				<tx l="eng" name="Business Impact Assessment and Risk Management" abr="Impact"/>
+				<tx l="spa" name="Evaluación de impacto empresarial y gestión de riesgos" abr=""/>
+				<tx l="fre" name="Évaluation de l’impact sur l’entreprise et gestion des risques" abr=""/>
+				<tx l="ara" name="تقييم تأثير الأعمال وإدارة المخاطر" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -6632,10 +6630,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Preventive and environmental controls"/>
-				<tx l="spa" name="Controles preventivos y ambientales"/>
-				<tx l="fre" name="Contrôles préventifs et environnementaux"/>
-				<tx l="ara" name="الضوابط الوقائية والبيئية"/>
+				<tx l="eng" name="Preventive and environmental controls" abr="Environtmental Controls"/>
+				<tx l="spa" name="Controles preventivos y ambientales" abr=""/>
+				<tx l="fre" name="Contrôles préventifs et environnementaux" abr=""/>
+				<tx l="ara" name="الضوابط الوقائية والبيئية" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -6695,7 +6693,8 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 							<tx l="eng" name="Environment Control program. List of probable environment hazards identified during risk assessment with locations (risk assessment document). List of environment mitigating steps undertaken. "/>
 							<tx l="spa" name="Programa de control ambiental. Lista de probables peligros ambientales identificados durante la evaluación de riesgos con ubicaciones (documento de evaluación de riesgos). Lista de medidas de mitigación ambiental emprendidas. "/>
 							<tx l="fre" name="Programme de contrôle de l&apos;environnement. Liste des dangers environnementaux probables identifiés lors de l&apos;évaluation des risques avec emplacements (document d&apos;évaluation des risques). Liste des mesures d&apos;atténuation de l&apos;environnement entreprises. "/>
-							<tx l="ara" name="برنامج مراقبة البيئة. قائمة بالمخاطر البيئية المحتملة التي تم تحديدها أثناء تقييم المخاطر مع المواقع (وثيقة تقييم المخاطر). قائمة خطوات التخفيف من البيئة التي تم اتخاذها. "/>						</inf>
+							<tx l="ara" name="برنامج مراقبة البيئة. قائمة بالمخاطر البيئية المحتملة التي تم تحديدها أثناء تقييم المخاطر مع المواقع (وثيقة تقييم المخاطر). قائمة خطوات التخفيف من البيئة التي تم اتخاذها. "/>
+						</inf>
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
@@ -6726,10 +6725,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 		<Area nr="05">
 			<title>
-				<tx l="eng" name="Disaster Recovery Plan"/>
-				<tx l="spa" name="Plan de recuperación en un desastre"/>
-				<tx l="fre" name="Plan de reprise après sinistre"/>
-				<tx l="ara" name="خطة التعافي من الكوارث"/>
+				<tx l="eng" name="Disaster Recovery Plan" abr="DR Plan"/>
+				<tx l="spa" name="Plan de recuperación en un desastre" abr=""/>
+				<tx l="fre" name="Plan de reprise après sinistre" abr=""/>
+				<tx l="ara" name="خطة التعافي من الكوارث" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -6821,10 +6820,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 		<Area nr="06">
 			<title>
-				<tx l="eng" name="Testing"/>
-				<tx l="spa" name="Pruebas"/>
-				<tx l="fre" name="Essai"/>
-				<tx l="ara" name="اختبارات"/>
+				<tx l="eng" name="Testing" abr=""/>
+				<tx l="spa" name="Pruebas" abr=""/>
+				<tx l="fre" name="Essai" abr=""/>
+				<tx l="ara" name="اختبارات" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -6916,10 +6915,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 		<Area nr="07">
 			<title>
-				<tx l="eng" name="Security"/>
-				<tx l="spa" name="Seguridad"/>
-				<tx l="fre" name="Sécurité"/>
-				<tx l="ara" name="حماية"/>
+				<tx l="eng" name="Security" abr=""/>
+				<tx l="spa" name="Seguridad" abr=""/>
+				<tx l="fre" name="Sécurité" abr=""/>
+				<tx l="ara" name="حماية" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -7011,10 +7010,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 		<Area nr="08">
 			<title>
-				<tx l="eng" name="Back-up and data recovery for outsourced services"/>
-				<tx l="spa" name="Copia de seguridad y recuperación de datos para servicios subcontratados"/>
-				<tx l="fre" name="Sauvegarde et récupération de données pour les services externalisés"/>
-				<tx l="ara" name="النسخ الاحتياطي واستعادة البيانات لخدمات الاستعانة بمصادر خارجية"/>
+				<tx l="eng" name="Back-up and data recovery for outsourced services" abr="BCP-DRP in outsourcing"/>
+				<tx l="spa" name="Copia de seguridad y recuperación de datos para servicios subcontratados" abr=""/>
+				<tx l="fre" name="Sauvegarde et récupération de données pour les services externalisés" abr=""/>
+				<tx l="ara" name="النسخ الاحتياطي واستعادة البيانات لخدمات الاستعانة بمصادر خارجية" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -7070,7 +7069,7 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 						</cri>
 					</Criteria>
 					<InformationRequired>
-						<inf>.
+						<inf>
 							<tx l="eng" name="Inventory of data, application software and hardware of the organization with the outsourced agency. Inventory of back up data files and application software of the organization with the outsourced agency. Access control logs of the data files, application software as well as hardware with the outsourced agency. Test results of backup plan and disaster recovery plan at the outsourced agency. Security plan for the back up site and disaster recovery site at the outsourced agency site. Strategy to ensure continuity in case of takeover of the service provider by another organization. Information on any takeover of the service provider. "/>
 							<tx l="spa" name="Inventario de datos, software de aplicación y hardware de la organización con la agencia subcontratada Inventario de archivos de datos de respaldo y software de aplicación de la organización con la agencia subcontratada. Acceda a los registros de control de los archivos de datos, software de aplicación y hardware con la agencia subcontratada. Pruebe los resultados del plan de respaldo y el plan de recuperación ante desastres en la agencia subcontratada. Plan de seguridad para el sitio de respaldo y el sitio de recuperación ante desastres en el sitio de la agencia subcontratada. Estrategia para asegurar la continuidad en caso de adquisición del proveedor de servicios por otra organización. Información sobre cualquier adquisición del proveedor de servicios. "/>
 							<tx l="fre" name="Inventaire des données, des logiciels d&apos;application et du hardware de l&apos;organisation avec l&apos;agence externalisée. Inventaire des fichiers de sauvegarde et des logiciels d&apos;application de l&apos;organisation avec l&apos;agence externalisée. Accédez aux logs de contrôle des fichiers de données, des logiciels applicatifs ainsi que du matériel avec l&apos;agence externalisée. Tester les résultats du plan de sauvegarde et du plan de reprise après sinistre dans l&apos;agence externalisée. Plan de sécurité pour le site de sauvegarde et le site de reprise après sinistre sur le site de l&apos;agence externalisée. Stratégie pour assurer la continuité en cas de reprise du prestataire de services par une autre organisation. Informations sur tout rachat du fournisseur de services. "/>
@@ -7128,10 +7127,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Narrative>
 		<Area nr="01">
 			<title>
-				<tx l="eng" name="Input Controls"/>
-				<tx l="spa" name="Controles de entrada"/>
-				<tx l="fre" name="Contrôles d&apos;entrée"/>
-				<tx l="ara" name="ضوابط الإدخال"/>
+				<tx l="eng" name="Input Controls" abr="Input"/>
+				<tx l="spa" name="Controles de entrada" abr=""/>
+				<tx l="fre" name="Contrôles d&apos;entrée" abr=""/>
+				<tx l="ara" name="ضوابط الإدخال" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -7442,10 +7441,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 		<Area nr="02">
 			<title>
-				<tx l="eng" name="Processing Controls"/>
-				<tx l="spa" name="Controles de procesamiento"/>
-				<tx l="fre" name="Contrôles de traitement"/>
-				<tx l="ara" name="ضوابط المعالجة"/>
+				<tx l="eng" name="Processing Controls" abr="Processing"/>
+				<tx l="spa" name="Controles de procesamiento" abr=""/>
+				<tx l="fre" name="Contrôles de traitement" abr=""/>
+				<tx l="ara" name="ضوابط المعالجة" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -7610,10 +7609,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 		<Area nr="03">
 			<title>
-				<tx l="eng" name="Output Controls"/>
-				<tx l="spa" name="Controles de salida"/>
-				<tx l="fre" name="Contrôles de sortie"/>
-				<tx l="ara" name="ضوابط الإخراج"/>
+				<tx l="eng" name="Output Controls" abr="Output"/>
+				<tx l="spa" name="Controles de salida" abr=""/>
+				<tx l="fre" name="Contrôles de sortie" abr=""/>
+				<tx l="ara" name="ضوابط الإخراج" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -7778,10 +7777,10 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 		<Area nr="04">
 			<title>
-				<tx l="eng" name="Application security controls"/>
-				<tx l="spa" name="Controles de seguridad de la aplicación"/>
-				<tx l="fre" name="Contrôles de sécurité des applications"/>
-				<tx l="ara" name="ضوابط أمان التطبيق"/>
+				<tx l="eng" name="Application security controls" abr="Application Security"/>
+				<tx l="spa" name="Controles de seguridad de la aplicación" abr=""/>
+				<tx l="fre" name="Contrôles de sécurité des applications" abr=""/>
+				<tx l="ara" name="ضوابط أمان التطبيق" abr=""/>
 			</title>
 			<Narrative>
 				<narr l="eng">
@@ -7946,4 +7945,4 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 	</Domain>
 </ActiveITAuditDomains>
-<PlugIns/><Cases><Case nr="F20220811-083536" nm="aaa" eff="aaa" act="aaa" doc="aaa" Include="Yes" number="1" name="aaa"><cts source="AITAM" domain="01 IT Governance" area="02 IT Strategy and Planning" issue="01 Quality of IT strategy"/><quote type="description">aaa</quote><quote type="recommendation">aaa</quote></Case></Cases></Audit>
+<PlugIns/><Cases><Case nr="F20220812-070946" nm="causa" eff="result" act="act" doc="rep" Include="Yes" number="1" name="find1"><cts source="AITAM" domain="01 IT Governance" area="01 Business Needs Identification, Direction and Monitoring" issue="01 Defining IT requirements"/><quote type="description">description</quote><quote type="recommendation">comment</quote></Case><Case nr="F20220812-071032" nm="sdfsdf" eff="sdfdsf" act="sfds" doc="sdfdsf" Include="Yes" number="2" name="sfsd"><cts source="AITAM" domain="01 IT Governance" area="04 People and Resources" issue="01 HR and logistics"/><quote type="description">sfsdf</quote><quote type="recommendation">sffd</quote></Case></Cases><Recommendations><Recommendation nr="R20220812-071112" priority="Urgent" risk="Governance" riskevaluation="State" accepted="Yes" repeated="No" importance="Strategic" category="def" number="1"><quote type="description">rec1</quote><quote type="aplan">aaa</quote><quote type="responsible">aa</quote><quote type="timeline">aaa</quote><quote type="outcome">aa</quote><quote type="remarks">aa</quote><findings><finding nr="F20220812-070946"/></findings><monitoring xmlns="null"/></Recommendation></Recommendations></Audit>
