@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <!-- based on no-side bar template -->
+    <%- include('../partials/head'); %>
+
+    <style type="text/css">
+        #viz {
+            width: 900px;
+            height: 700px;
+        }
+    </style>
+
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<%- include('../partials/header'); %>
+
+			<!-- Main -->
+            <div class="container">
+                <section class="col-6 col-12-narrower">
+					<div class="container">
+						<div id="content">
+							<!-- Content -->
+                            <article>
+                                <section id="contact" class="col-6 col-12-narrower">
+                                    <header>
+                                        <h2></h2>
+                                        <h2>Hints for the audit (graph)</h2>
+                                        <p></p>
+                                    </header>
+                                    <div class="container">
+                                        <div id="viz"></div>
+                                    </div>
+                                    <p></p>
+                                    <% if(DataTable.length > 0) { %>
+                                        Hits for the audit (text)
+                                        <table id='tablecatalog'>
+                                            <thead>
+                                                <%- include('../partials/audit_analytics/recauditheader'); %>
+                                            </thead>    
+                                            <tbody>
+                                                <%- include('../partials/audit_analytics/recauditrow'); %>
+                                            </tbody>
+                                        </table>
+                                    <% } %>
+                                    </section>
+                            </article>
+						</div>
+					</div>
+				</section>
+            </div>
+			<!-- Footer -->
+			<%- include('../partials/footer'); %>
+
+		</div>
+
+        <script type="text/javascript">
+            // create an array with nodes
+            //if recommendation is not linked with finding, at least it will linked with root node: the audit himself
+            var nodes = new vis.DataSet(
+                <%- JSON.stringify(visNodes) %>
+            );
+            
+            // create an array with edges
+            var edges = new vis.DataSet(
+                <%- JSON.stringify(visEdges) %>
+            );
+    
+            // create a network
+            var container = document.getElementById('viz');
+    
+            // provide the data in the vis format
+            var data = {
+                nodes: nodes,
+                edges: edges
+            };
+            var options = {
+                nodes: {
+                    shape: 'dot',
+                    size: 30,
+                    font: {
+                        size: 12,
+                        color: '#000000'
+                    },
+                    borderWidth: 2,
+                    shadow:true
+                },
+                edges: {
+                    width: 2,
+                    smooth: true,
+                    arrows: { to: true },
+                    shadow:true
+                }
+            };
+    
+            // initialize your network!
+            var network = new vis.Network(container, data, options);
+
+        </script>
+
+
+		<!-- Scripts -->
+		<%- include('../partials/scripts'); -%>
+
+	</body>
+</html>

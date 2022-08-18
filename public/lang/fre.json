@@ -298,7 +298,9 @@
 				"noteTitle" : "Noter:",
 				"noteDescription" : "Veuillez considérer plusieurs éléments, tels que le type d'images (agissant comme des signifiants visuels), les branches, les couleurs et les mots-clés, afin de faciliter la structuration et le rappel des informations:",
 				"legendAudit" : "L'audit et le point de départ d'une arborescence d'audit",
-				"legendPlan" : "Les domaines informatiques sélectionnés, les zones et les item respectifs",
+				"legendPlanDomain" : "Les domaines informatiques sélectionnés dans le tableau des risques (plan))",
+				"legendPlanArea" : "Les zones informatiques sélectionnés dans le tableau des risques (plan)",
+				"legendPlanIssue" : "Les items informatiques sélectionnés dans le tableau des risques (plan)",
 				"legendFinding" : "Les constatations d'audit pertinentes trouvées",
 				"legendRec" : "Les recommandations formulées, en lien avec les constats d'audit",
 				"actionNote" : "Cliquez sur un nœud pour obtenir plus d'informations."

@@ -178,13 +178,16 @@ analyticsaudit.post('/Recommendations',function(req,res){
         VectorFile = VectorFile + req.sessionID + '.vec';
         //var CypherQuery = nlp.GetCypherQuery(VectorFile);
         var CypherTableQuery = nlp.GetTableQuery(VectorFile);
-
         const session = driver.session();
 
         session
             .run(CypherTableQuery)
             .then(result => {
                 var NodeResults = [];
+                //#155
+                var visNodes = [];
+                var visEdges =  [];
+                //end #155
                 result.records.forEach(function(record){
                     //create object to featurize collection (unique audits, with urls and relations)
                     //order them by number of relations desc
@@ -198,6 +201,23 @@ analyticsaudit.post('/Recommendations',function(req,res){
                         for (i=0; i < record._fields[1].length; i++)
                         {
                             vRelation = vRelation + record._fields[1][i].properties.Definition + '; ';
+                            //#155
+                            if (! visNodes.some(e => e.id === record._fields[1][i].identity.low)) {
+                                var objTopic = {
+                                    id: record._fields[1][i].identity.low,
+                                    label: record._fields[1][i].properties.Definition,
+                                    title: record._fields[1][i].labels[0] + ": " + record._fields[1][i].properties.Definition,
+                                    shape:"dot",
+                                    group:1
+                                };
+                                visNodes.push(objTopic);
+                            };
+                            var objRelation = {
+                                from: record._fields[0].identity.low,
+                                to: record._fields[1][i].identity.low
+                            };
+                            visEdges.push(objRelation);
+                            //end #155
                         }
                         var objElement = {
                             Id: record._fields[0].identity.low,
@@ -210,10 +230,26 @@ analyticsaudit.post('/Recommendations',function(req,res){
                         };
                         // console.log(objElement);
                         NodeResults.push(objElement);
+                        //#155
+                        var objAudit = {
+                            id: record._fields[0].identity.low,
+                            label: "Audit Report",
+                            title:"Audit: " + record._fields[0].properties.Title,
+                            shape:"ellipse",
+                            group:0
+                        };
+                        visNodes.push(objAudit);
+                        //end #155
                     //}
                 });
+
+                //console.log(visNodes);
+                //console.log(visEdges);
+
                 //console.log(NodeResults.sort(nlp.sort_by('Number', true, parseFloat)));
                 var CypherQuery = nlp.GetCypherQuery(VectorFile);
+                /*
+                //old form, pre #155
                 res.render('toolaudit/analyticsvis', {
                     action: 'audit',
                     operation: 'recommendationvis',
@@ -222,6 +258,23 @@ analyticsaudit.post('/Recommendations',function(req,res){
                     ServerUser: credentials.neo4j.user,
                     ServerPassword: credentials.neo4j.password,
                     InitialCypher: CypherQuery,
+                    DataTable: NodeResults.sort(nlp.sort_by('Number', true, parseFloat)),
+                    msg: '',
+                    auditfile: 'work/' + req.sessionID + '.xml',
+                    audit: status,
+                    rectracking: credentials.portfolio,
+                    user: user,
+                    sessionlang: req.session.lang,
+                    nav: appObjects.pageNavigation
+                });        
+                */
+                //new form, post #155 
+                res.render('toolaudit/analyticsvis1', {
+                    action: 'audit',
+                    operation: 'recommendationvis',
+                    AuditErrors: '',
+                    visEdges: visEdges,
+                    visNodes: visNodes,
                     DataTable: NodeResults.sort(nlp.sort_by('Number', true, parseFloat)),
                     msg: '',
                     auditfile: 'work/' + req.sessionID + '.xml',

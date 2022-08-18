@@ -298,7 +298,9 @@
 				"noteTitle" : "Note:",
 				"noteDescription" : "Please consider several elements, such as the images type (act as visual signifiers), branches, colors and keywords, in order to make it easier to structure and recall information:",
 				"legendAudit" : "The audit and the starting point of an audit tree map",
-				"legendPlan" : "The selected IT domains, respective areas and issues",
+				"legendPlanDomain" : "The selected IT domains in risk table (plan)",
+				"legendPlanArea" : "The selected IT areas in risk table (plan)",
+				"legendPlanIssue" : "The selected IT issues in risk table (plan)",
 				"legendFinding" : "The relevant findings found",
 				"legendRec" : "The recommendations formulated, in relation with findings",
 				"actionNote" : "Click on a node to obtain more information."

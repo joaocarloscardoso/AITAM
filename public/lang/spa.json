@@ -298,7 +298,9 @@
 				"noteTitle" : "Nota:",
 				"noteDescription" : "Considere varios elementos, como el tipo de imágenes (actúan como significantes visuales), ramas, colores y palabras clave, para que sea más fácil estructurar y recordar la información:",
 				"legendAudit" : "La auditoría y el punto de partida de un mapa de árbol de auditoría",
-				"legendPlan" : "The selected IT domains, respective areas and issues",
+				"legendPlanDomain" : "Los dominios de TI seleccionados en la tabla de riesgos (plan)",
+				"legendPlanArea" : "Las áreas de TI seleccionadas en la tabla de riesgos (plan)",
+				"legendPlanIssue" : "Los elementos de TI seleccionados en la tabla de riesgos (plan)",
 				"legendFinding" : "Los resultados relevantes encontrados",
 				"legendRec" : "Las recomendaciones formuladas, en relación con los resultados",
 				"actionNote" : "Haga clic en un nodo para obtener más información."
