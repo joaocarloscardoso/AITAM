@@ -56,6 +56,12 @@ generatedocs.get('/docplanMatrix',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    var newFileName = FileAuditID.GetAuditID(NewAuditFile);
+    if (newFileName == '') {
+        newFileName  = req.sessionID;
+    }
+    newFileName  = newFileName + '_planmatrix_' + req.session.lang.toUpperCase().substring(0, 2)+ '.' + credentials.ReportFormat;
+
     if (status) {
         var data = Matrices.LoadPlanMatrix(NewAuditFile, req.query.plugin, req.query.domain, req.query.area, req.query.issue, req.session.lang);
         carbone.render('./public/templates/PlanMatrix.' + credentials.ReportFormat, data, function(err, result){
@@ -64,7 +70,11 @@ generatedocs.get('/docplanMatrix',function(req,res){
             }
             // write the result
             fs.writeFileSync(NewDocFile, result);
-            res.redirect('/document/work/' + req.sessionID + '.' + credentials.ReportFormat);
+            //res.redirect('/document/work/' + req.sessionID + '.' + credentials.ReportFormat);
+            var fileOut = NewDocFile;
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
+
         });
     } else {
         res.render('login/login', {
@@ -95,6 +105,12 @@ generatedocs.get('/docpreassessMatrix',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    var newFileName = FileAuditID.GetAuditID(NewAuditFile);
+    if (newFileName == '') {
+        newFileName  = req.sessionID;
+    }
+    newFileName  = newFileName + '_preassessmatrix_' + req.session.lang.toUpperCase().substring(0, 2)+ '.' + credentials.ReportFormat;
+
     if (status) {
         var data = Matrices.LoadPreAssessMatrix(NewAuditFile, req.query.area, req.query.issue, req.session.lang);
         carbone.render('./public/templates/PreAssessMatrix.'+ credentials.ReportFormat, data, function(err, result){
@@ -103,7 +119,10 @@ generatedocs.get('/docpreassessMatrix',function(req,res){
             }
             // write the result
             fs.writeFileSync(NewDocFile, result);
-            res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            //res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            var fileOut = NewDocFile;
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });
     } else {
         res.render('login/login', {
@@ -134,6 +153,12 @@ generatedocs.get('/docfindingMatrix',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    var newFileName = FileAuditID.GetAuditID(NewAuditFile);
+    if (newFileName == '') {
+        newFileName  = req.sessionID;
+    }
+    newFileName  = newFileName + '_findingmatrix_' + req.session.lang.toUpperCase().substring(0, 2)+ '.' + credentials.ReportFormat;
+
     if (status) {
         var data = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang);
         carbone.render('./public/templates/FindingMatrix.'+ credentials.ReportFormat, data, function(err, result){
@@ -142,7 +167,10 @@ generatedocs.get('/docfindingMatrix',function(req,res){
             }
             // write the result
             fs.writeFileSync(NewDocFile, result);
-            res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            //res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            var fileOut = NewDocFile;
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });
     } else {
         res.render('login/login', {
@@ -173,6 +201,12 @@ generatedocs.get('/docrecMatrix',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    var newFileName = FileAuditID.GetAuditID(NewAuditFile);
+    if (newFileName == '') {
+        newFileName  = req.sessionID;
+    }
+    newFileName  = newFileName + '_recommendationmatrix_' + req.session.lang.toUpperCase().substring(0, 2)+ '.' + credentials.ReportFormat;
+
     if (status) {
         var data = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id, req.session.lang);
         carbone.render('./public/templates/RecMatrix.'+ credentials.ReportFormat, data, function(err, result){
@@ -181,7 +215,10 @@ generatedocs.get('/docrecMatrix',function(req,res){
             }
             // write the result
             fs.writeFileSync(NewDocFile, result);
-            res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            //res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            var fileOut = NewDocFile;
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });
     } else {
         res.render('login/login', {
@@ -212,6 +249,12 @@ generatedocs.get('/docauditprogramme',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    var newFileName = FileAuditID.GetAuditID(NewAuditFile);
+    if (newFileName == '') {
+        newFileName  = req.sessionID;
+    }
+    newFileName  = newFileName + '_programme_' + req.session.lang.toUpperCase().substring(0, 2)+ '.' + credentials.ReportFormat;
+
     if (status) {
         var data = Docs.LoadAuditProgramme(NewAuditFile, req.session.lang);
         carbone.render('./public/templates/AuditProgramme.'+ credentials.ReportFormat, data, function(err, result){
@@ -220,7 +263,10 @@ generatedocs.get('/docauditprogramme',function(req,res){
             }
             // write the result
             fs.writeFileSync(NewDocFile, result);
-            res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            //res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            var fileOut = NewDocFile;
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });
     } else {
         res.render('login/login', {
@@ -251,6 +297,12 @@ generatedocs.get('/docexecutivesummary',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    var newFileName = FileAuditID.GetAuditID(NewAuditFile);
+    if (newFileName == '') {
+        newFileName  = req.sessionID;
+    }
+    newFileName  = newFileName + '_executivesummary_' + req.session.lang.toUpperCase().substring(0, 2)+ '.' + credentials.ReportFormat;
+
     if (status) {
         var data = Docs.LoadExecutiveSummary(NewAuditFile, req.session.lang);
         carbone.render('./public/templates/AuditExecutiveSummary.'+ credentials.ReportFormat, data, function(err, result){
@@ -259,7 +311,10 @@ generatedocs.get('/docexecutivesummary',function(req,res){
             }
             // write the result
             fs.writeFileSync(NewDocFile, result);
-            res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            //res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            var fileOut = NewDocFile;
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });
     } else {
         res.render('login/login', {
@@ -290,6 +345,12 @@ generatedocs.get('/docplanList',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    var newFileName = FileAuditID.GetAuditID(NewAuditFile);
+    if (newFileName == '') {
+        newFileName  = req.sessionID;
+    }
+    newFileName  = newFileName + '_planlist_' + req.session.lang.toUpperCase().substring(0, 2)+ '.' + credentials.ReportFormat;
+
     if (status) {
         var data = Planning.LoadPlanning2Doc(NewAuditFile, req.query.op, req.session.lang);
         carbone.render('./public/templates/PlanList.' + credentials.ReportFormat, data, function(err, result){
@@ -297,8 +358,11 @@ generatedocs.get('/docplanList',function(req,res){
                 return log.info('document (plan list) generation error:  ' +err);
             }
             // write the result
-            fs.writeFileSync(NewDocFile, result);
-            res.redirect('/document/work/' + req.sessionID + '.' + credentials.ReportFormat);
+            fs.writeFileSync(NewDocFile, result);            
+            //res.redirect('/document/work/' + req.sessionID + '.' + credentials.ReportFormat);
+            var fileOut = NewDocFile;
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });
     } else {
         res.render('login/login', {
@@ -329,6 +393,12 @@ generatedocs.get('/docmatriceslist',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    var newFileName = FileAuditID.GetAuditID(NewAuditFile);
+    if (newFileName == '') {
+        newFileName  = req.sessionID;
+    }
+    newFileName  = newFileName + '_planmatriceslist_' + req.session.lang.toUpperCase().substring(0, 2)+ '.' + credentials.ReportFormat;
+
     if (status) {
         var data = Docs.LoadMatricesCollection(NewAuditFile, req.session.lang);
         carbone.render('./public/templates/PlanMatrixCollection.'+ credentials.ReportFormat, data, function(err, result){
@@ -337,7 +407,10 @@ generatedocs.get('/docmatriceslist',function(req,res){
             }
             // write the result
             fs.writeFileSync(NewDocFile, result);
-            res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            //res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            var fileOut = NewDocFile;
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });
     } else {
         res.render('login/login', {
@@ -368,6 +441,12 @@ generatedocs.get('/rectrackreport',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    var newFileName = FileAuditID.GetAuditID(NewAuditFile);
+    if (newFileName == '') {
+        newFileName  = req.sessionID;
+    }
+    newFileName  = newFileName + '_rectrackingreport_' + req.session.lang.toUpperCase().substring(0, 2)+ '.' + credentials.ReportFormat;
+
     if (status) {
         var data = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile, req.session.lang);
         carbone.render('./public/templates/RecTrackReport.'+ credentials.ReportFormat, data, function(err, result){
@@ -376,7 +455,10 @@ generatedocs.get('/rectrackreport',function(req,res){
             }
             // write the result
             fs.writeFileSync(NewDocFile, result);
-            res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            //res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            var fileOut = NewDocFile;
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });
     } else {
         res.render('login/login', {
@@ -407,6 +489,12 @@ generatedocs.get('/docexecutivesummarywrecs',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    var newFileName = FileAuditID.GetAuditID(NewAuditFile);
+    if (newFileName == '') {
+        newFileName  = req.sessionID;
+    }
+    newFileName  = newFileName + '_executivesummarywrecs_' + req.session.lang.toUpperCase().substring(0, 2)+ '.' + credentials.ReportFormat;
+
     if (status) {
         var data = Docs.LoadExecutiveSummaryWRecs(NewAuditFile, req.session.lang);
         carbone.render('./public/templates/AuditExecutiveSummaryWRecs.'+ credentials.ReportFormat, data, function(err, result){
@@ -415,7 +503,10 @@ generatedocs.get('/docexecutivesummarywrecs',function(req,res){
             }
             // write the result
             fs.writeFileSync(NewDocFile, result);
-            res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            //res.redirect('/document/work/' + req.sessionID + '.'+ credentials.ReportFormat);
+            var fileOut = NewDocFile;
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });
     } else {
         res.render('login/login', {
@@ -446,13 +537,22 @@ generatedocs.get('/docmethodmatrix',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    var newFileName = FileAuditID.GetAuditID(NewAuditFile);
+    if (newFileName == '') {
+        newFileName  = req.sessionID;
+    }
+    newFileName  = newFileName + '_methodmatrix_' + req.session.lang.toUpperCase().substring(0, 2)+ '.xlsx';
+
     if (status) {
         var data = Docs.LoadAuditProgramme(NewAuditFile, req.session.lang);
         var workbook = Excel.GenerateMethologicalMatrix(data);
         workbook.xlsx.writeFile(NewDocFile)
             .then(function() {
             // 
-            res.redirect('/document/work/' + req.sessionID + '.xlsx');
+            //res.redirect('/document/work/' + req.sessionID + '.xlsx');
+            var fileOut = NewDocFile;
+            fileOut=fileOut.replace("/","\\");
+            res.download(fileOut, newFileName);
         });  
     } else {
         res.render('login/login', {

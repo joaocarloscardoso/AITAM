@@ -1,4 +1,4 @@
-<Audit><About id="teste" descriptionfile=""><version id="1.0" name=""/><title><tx l="eng" name="teste" rem=""/></title><WorkingLanguage wl="eng"/></About><Background><ak/></Background><Scope><ak/></Scope><Preassessment>
+<Audit><About id="" descriptionfile=""><version id="1.0" name=""/><title><tx l="eng" name="" rem=""/></title><WorkingLanguage wl="eng"/></About><Background><ak/></Background><Scope><ak/></Scope><Preassessment>
 	<About id="PreactIS">
 		<version id="20210101" name="main"/>
 		<title>
@@ -665,7 +665,7 @@
 							<tx l="ara" name="Low"/>
 						</val>
 					</paElement>
-				<Instances l="eng" name="High"><IElement nr="01|01_01" l="eng" name="High"/><IElement nr="01|01_02" l="eng" name="High"/><IElement nr="01|01_03" l="eng" name="Medium"/><IElement nr="01|01_04" l="eng" name="High"/><IElement nr="01|01_05|01" l="eng" name="High"/><IElement nr="01|01_05|02" l="eng" name="Medium"/><IElement nr="01|01_05|03" l="eng" name="High"/><IElement nr="01|01_05|04" l="eng" name="High"/><IElement nr="01|01_05|05" l="eng" name="High"/><IElement nr="01|02_01" l="eng" name="Low"/><IElement nr="01|02_02" l="eng" name="Low"/><IElement nr="01|02_03" l="eng" name="Low"/><IElement nr="01|02_04" l="eng" name="Low"/><IElement nr="01|02_05|01" l="eng" name="Low"/><IElement nr="01|02_05|02" l="eng" name="Low"/><IElement nr="01|02_05|03" l="eng" name="Low"/><IElement nr="01|02_05|04" l="eng" name="Low"/><IElement nr="01|03_01" l="eng" name="Low"/><IElement nr="01|03_02" l="eng" name="Low"/><IElement nr="01|03_03" l="eng" name="Low"/><IElement nr="01|03_04" l="eng" name="Low"/><IElement nr="01|03_05|01" l="eng" name="Low"/><IElement nr="01|03_05|02" l="eng" name="Low"/><IElement nr="01|03_05|03" l="eng" name="Low"/><IElement nr="01|03_05|04" l="eng" name="Low"/><IElement nr="01|03_05|05" l="eng" name="Low"/><IElement nr="01|04_01" l="eng" name="Low"/><IElement nr="01|04_02" l="eng" name="Low"/><IElement nr="01|04_03" l="eng" name="Low"/><IElement nr="01|04_04" l="eng" name="Low"/><IElement nr="01|04_05|01" l="eng" name="Low"/><IElement nr="01|04_05|02" l="eng" name="Low"/><IElement nr="01|04_05|03" l="eng" name="Low"/><IElement nr="01|04_05|04" l="eng" name="Low"/><IElement nr="01|04_05|05" l="eng" name="Low"/><IElement nr="01|04_05|06" l="eng" name="Low"/><IElement nr="01|04_05|07" l="eng" name="Low"/><IElement nr="01|04_05|08" l="eng" name="Low"/><IElement nr="01|04_05|09" l="eng" name="Low"/><IElement nr="01|04_05|10" l="eng" name="Low"/><IElement nr="01|05_01" l="eng" name="Low"/><IElement nr="01|05_02" l="eng" name="Low"/><IElement nr="01|05_03" l="eng" name="Low"/><IElement nr="01|05_04" l="eng" name="Low"/><IElement nr="01|05_05|01" l="eng" name="Low"/><IElement nr="01|05_05|02" l="eng" name="Low"/><IElement nr="01|05_05|03" l="eng" name="Low"/><IElement nr="01|05_05|04" l="eng" name="Low"/><IElement nr="01|05_05|05" l="eng" name="Low"/><IElement nr="01|05_05|06" l="eng" name="Low"/><IElement nr="01|05_05|07" l="eng" name="Low"/><IElement nr="01|05_05|08" l="eng" name="Low"/><IElement nr="01|06_01" l="eng" name="Low"/><IElement nr="01|06_02" l="eng" name="Low"/><IElement nr="01|06_03" l="eng" name="Low"/><IElement nr="01|06_04" l="eng" name="Low"/><IElement nr="01|06_05|01" l="eng" name="Low"/><IElement nr="01|06_05|02" l="eng" name="Low"/><IElement nr="01|06_05|03" l="eng" name="Low"/><IElement nr="01|06_05|04" l="eng" name="Low"/><IElement nr="01|06_05|05" l="eng" name="Low"/><IElement nr="01|06_05|06" l="eng" name="Low"/><IElement nr="01|06_05|07" l="eng" name="Low"/><IElement nr="01|06_05|08" l="eng" name="Low"/><IElement nr="01|07_01" l="eng" name="Low"/><IElement nr="01|07_02" l="eng" name="Low"/><IElement nr="01|07_03" l="eng" name="Low"/><IElement nr="01|07_04" l="eng" name="Low"/><IElement nr="01|07_05|01" l="eng" name="Low"/><IElement nr="01|07_05|02" l="eng" name="Low"/><IElement nr="01|07_05|03" l="eng" name="Low"/><IElement nr="01|07_05|04" l="eng" name="Low"/></Instances></paSection>
+				<Instances l="eng" name="High"><IElement nr="01|01_01" l="eng" name="High"/><IElement nr="01|01_02" l="eng" name="High"/><IElement nr="01|01_03" l="eng" name="High"/><IElement nr="01|01_04" l="eng" name="High"/><IElement nr="01|01_05|01" l="eng" name="Medium"/><IElement nr="01|01_05|02" l="eng" name="High"/><IElement nr="01|01_05|03" l="eng" name="High"/><IElement nr="01|01_05|04" l="eng" name="High"/><IElement nr="01|01_05|05" l="eng" name="Medium"/><IElement nr="01|02_01" l="eng" name="Low"/><IElement nr="01|02_02" l="eng" name="Low"/><IElement nr="01|02_03" l="eng" name="Low"/><IElement nr="01|02_04" l="eng" name="Low"/><IElement nr="01|02_05|01" l="eng" name="Low"/><IElement nr="01|02_05|02" l="eng" name="Low"/><IElement nr="01|02_05|03" l="eng" name="Low"/><IElement nr="01|02_05|04" l="eng" name="Low"/><IElement nr="01|03_01" l="eng" name="Low"/><IElement nr="01|03_02" l="eng" name="Low"/><IElement nr="01|03_03" l="eng" name="Low"/><IElement nr="01|03_04" l="eng" name="Low"/><IElement nr="01|03_05|01" l="eng" name="Low"/><IElement nr="01|03_05|02" l="eng" name="Low"/><IElement nr="01|03_05|03" l="eng" name="Low"/><IElement nr="01|03_05|04" l="eng" name="Low"/><IElement nr="01|03_05|05" l="eng" name="Low"/><IElement nr="01|04_01" l="eng" name="Low"/><IElement nr="01|04_02" l="eng" name="Low"/><IElement nr="01|04_03" l="eng" name="Low"/><IElement nr="01|04_04" l="eng" name="Low"/><IElement nr="01|04_05|01" l="eng" name="Low"/><IElement nr="01|04_05|02" l="eng" name="Low"/><IElement nr="01|04_05|03" l="eng" name="Low"/><IElement nr="01|04_05|04" l="eng" name="Low"/><IElement nr="01|04_05|05" l="eng" name="Low"/><IElement nr="01|04_05|06" l="eng" name="Low"/><IElement nr="01|04_05|07" l="eng" name="Low"/><IElement nr="01|04_05|08" l="eng" name="Low"/><IElement nr="01|04_05|09" l="eng" name="Low"/><IElement nr="01|04_05|10" l="eng" name="Low"/><IElement nr="01|05_01" l="eng" name="Low"/><IElement nr="01|05_02" l="eng" name="Low"/><IElement nr="01|05_03" l="eng" name="Low"/><IElement nr="01|05_04" l="eng" name="Low"/><IElement nr="01|05_05|01" l="eng" name="Low"/><IElement nr="01|05_05|02" l="eng" name="Low"/><IElement nr="01|05_05|03" l="eng" name="Low"/><IElement nr="01|05_05|04" l="eng" name="Low"/><IElement nr="01|05_05|05" l="eng" name="Low"/><IElement nr="01|05_05|06" l="eng" name="Low"/><IElement nr="01|05_05|07" l="eng" name="Low"/><IElement nr="01|05_05|08" l="eng" name="Low"/><IElement nr="01|06_01" l="eng" name="Low"/><IElement nr="01|06_02" l="eng" name="Low"/><IElement nr="01|06_03" l="eng" name="Low"/><IElement nr="01|06_04" l="eng" name="Low"/><IElement nr="01|06_05|01" l="eng" name="Low"/><IElement nr="01|06_05|02" l="eng" name="Low"/><IElement nr="01|06_05|03" l="eng" name="Low"/><IElement nr="01|06_05|04" l="eng" name="Low"/><IElement nr="01|06_05|05" l="eng" name="Low"/><IElement nr="01|06_05|06" l="eng" name="Low"/><IElement nr="01|06_05|07" l="eng" name="Low"/><IElement nr="01|06_05|08" l="eng" name="Low"/><IElement nr="01|07_01" l="eng" name="Low"/><IElement nr="01|07_02" l="eng" name="Low"/><IElement nr="01|07_03" l="eng" name="Low"/><IElement nr="01|07_04" l="eng" name="Low"/><IElement nr="01|07_05|01" l="eng" name="Low"/><IElement nr="01|07_05|02" l="eng" name="Low"/><IElement nr="01|07_05|03" l="eng" name="Low"/><IElement nr="01|07_05|04" l="eng" name="Low"/></Instances></paSection>
 			</paMatrix>
 		</paIssue>
 		<paIssue nr="03">
@@ -913,7 +913,7 @@
 					<ak>تقوم قيادة المنظمة بتوجيه وتقييم ومراقبة استخدام تكنولوجيا المعلومات بشكل فعال في المنظمة من أجل تحقيق مهمة المنظمة.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+			<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 				<title>
 					<tx l="eng" name="Defining IT requirements"/>
 					<tx l="spa" name="Definición de requisitos de TI"/>
@@ -1022,7 +1022,7 @@
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+			<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 				<title>
 					<tx l="eng" name="Leadership"/>
 					<tx l="spa" name="Liderazgo"/>
@@ -1113,7 +1113,7 @@
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="03" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+			<Issue nr="03" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 				<title>
 					<tx l="eng" name="IT Investments"/>
 					<tx l="spa" name="Inversiones en TI"/>
@@ -1204,7 +1204,7 @@
 					<ak>تمثل استراتيجية تكنولوجيا المعلومات المواءمة المتبادلة بين استراتيجية تكنولوجيا المعلومات والأهداف الاستراتيجية للأعمال. يجب أن تراعي الأهداف الإستراتيجية لتكنولوجيا المعلومات الاحتياجات الحالية والمستقبلية للأعمال ، وقدرة تكنولوجيا المعلومات الحالية على تقديم الخدمات ومتطلبات الموارد.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 				<title>
 					<tx l="eng" name="Quality of IT strategy"/>
 					<tx l="spa" name="Calidad de la estrategia de TI"/>
@@ -1277,7 +1277,7 @@
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="02" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
+			<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
 				<title>
 					<tx l="eng" name="Risk management"/>
 					<tx l="spa" name="Gestión de riesgos"/>
@@ -1635,7 +1635,7 @@
 					<ak>يجب أن تشكل إدارة مخاطر تكنولوجيا المعلومات جزءًا لا يتجزأ من استراتيجية وسياسات إدارة المخاطر في الشركة. تحتاج المنظمات إلى آلية امتثال تضمن اتباع جميع السياسات والإجراءات المرتبطة بها.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="Pre-Assessment: Domain - High;  Area - High; ">
+			<Issue nr="01" RiskWeight="3" Include="No" Remarks="Pre-Assessment: Domain - High;  Area - Medium; ">
 				<title>
 					<tx l="eng" name="Mechanism"/>
 					<tx l="spa" name="Mecanismo"/>
@@ -7945,4 +7945,4 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 	</Domain>
 </ActiveITAuditDomains>
-<PlugIns/><Cases><Case nr="F20220812-070946" nm="causa" eff="result" act="act" doc="rep" Include="Yes" number="1" name="find1"><cts source="AITAM" domain="01 IT Governance" area="01 Business Needs Identification, Direction and Monitoring" issue="01 Defining IT requirements"/><quote type="description">description</quote><quote type="recommendation">comment</quote></Case><Case nr="F20220812-071032" nm="sdfsdf" eff="sdfdsf" act="sfds" doc="sdfdsf" Include="Yes" number="2" name="sfsd"><cts source="AITAM" domain="01 IT Governance" area="04 People and Resources" issue="01 HR and logistics"/><quote type="description">sfsdf</quote><quote type="recommendation">sffd</quote></Case></Cases><Recommendations><Recommendation nr="R20220812-071112" priority="Urgent" risk="Governance" riskevaluation="State" accepted="Yes" repeated="No" importance="Strategic" category="def" number="1"><quote type="description">rec1</quote><quote type="aplan">aaa</quote><quote type="responsible">aa</quote><quote type="timeline">aaa</quote><quote type="outcome">aa</quote><quote type="remarks">aa</quote><findings><finding nr="F20220812-070946"/></findings><monitoring xmlns="null"/></Recommendation></Recommendations></Audit>
+<PlugIns/><Cases/></Audit>
