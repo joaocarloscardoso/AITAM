@@ -287,14 +287,18 @@ Passez en revue les rapports d'état du projet (ou toute autre documentation ind
 					<Objectives>
 						<obj>
 							<tx l="eng" name="Assess whether the organization leadership effectively direct, evaluate and monitor IT use in the organization in order to fulfill the organization’s mission."/>
-							<tx l="fre" name="Vlerësimi nëse menaxhimi i organizatës drejton, vlerëson dhe monitoron efektivisht përdorimin e IT në organizatë, me qëllim përmbushjen e misionit të organizatës."/>
+							<tx l="fre" name="Évaluer si la direction de l'organisation dirige, évalue et surveille efficacement l'utilisation de l'informatique dans l'organisation afin de remplir la mission de l'organisation."/>
+							<tx l="ara" name="قم بتقييم ما إذا كانت قيادة المؤسسة توجه بشكل فعال وتقيم وتراقب استخدام تكنولوجيا المعلومات في المؤسسة من أجل تحقيق مهمة المنظمة."/>
+							<tx l="spa" name="Evaluar si el liderazgo de la organización dirige, evalúa y monitorea de manera efectiva el uso de TI en la organización para cumplir con la misión de la organización."/>
 						</obj>
 					</Objectives>
 					<AuditIssue>IT Investments - How does the organization manage IT investments?</AuditIssue>
 					<Criteria>
 						<cri>
 							<tx l="eng" name="Organizations should manage their IT projects and investments in manner that maximizes benefits and considers elements such as risk, capabilities, needs, and prioritization among competing investments."/>
-							<tx l="fre" name="Organizatat duhet të menaxhojnë projektet dhe investimet e tyre të IT, me qëllim maksimizimi e përfitimeve dhe konsiderimin e elementëve, të tillë si risku, kapacitetet, dhe prioritarizimi midis investimeve konkuruese"/>
+							<tx l="fre" name="Les organisations doivent gérer leurs projets et investissements informatiques de manière à maximiser les avantages et à prendre en compte des éléments tels que le risque, les capacités, les besoins et la hiérarchisation des investissements concurrents."/>
+							<tx l="ara" name="يجب على المؤسسات إدارة مشاريعها واستثماراتها في مجال تكنولوجيا المعلومات بطريقة تزيد من الفوائد وتراعي عناصر مثل المخاطر والقدرات والاحتياجات وتحديد الأولويات بين الاستثمارات المتنافسة."/>
+							<tx l="spa" name="Las organizaciones deben administrar sus proyectos e inversiones de TI de manera que maximicen los beneficios y consideren elementos como el riesgo, las capacidades, las necesidades y la priorización entre inversiones competitivas."/>
 						</cri>
 					</Criteria>
 					<InformationRequired>

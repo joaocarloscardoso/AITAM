@@ -1,0 +1,8 @@
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2022-09-07 11:07:10"}
+{"message":"Session created received the id:9b046406-215e-42a6-9cc0-1fbd3fc55d22","level":"\u001b[34minfo\u001b[39m","timestamp":"2022-09-07 11:08:25"}
+{"message":"Session created received the id:9b046406-215e-42a6-9cc0-1fbd3fc55d22","level":"\u001b[34minfo\u001b[39m","timestamp":"2022-09-07 11:08:38"}
+{"message":"404 - Not Found","level":"\u001b[33mwarn\u001b[39m","timestamp":"2022-09-07 11:08:38"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2022-09-07 11:09:14"}
+{"message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","level":"\u001b[34minfo\u001b[39m","timestamp":"2022-09-07 11:10:02"}
+{"message":"garbage collector deleted  gazetteer.dic on folder: C:\\develop\\nodejs\\projects\\aitam\\work\\, path: C:\\develop\\nodejs\\projects\\aitam\\work\\gazetteer.dic","level":"\u001b[34minfo\u001b[39m","timestamp":"2022-09-07 11:15:00"}
+{"message":"garbage collector deleted  gazetteer.dic on folder: C:\\develop\\nodejs\\projects\\aitam\\work\\, path: C:\\develop\\nodejs\\projects\\aitam\\work\\gazetteer.dic","level":"\u001b[34minfo\u001b[39m","timestamp":"2022-09-07 11:15:00"}
