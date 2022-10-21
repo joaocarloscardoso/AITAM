@@ -8,7 +8,7 @@
                         <li>
                     <% } %>
                     <%  if (audit) { %>
-                        <a href="#"><%=nav.home %></a>
+                        <a href="/index"><%=nav.home %></a>
                         <ul>
                             <li><a href="/toolaudit/work/onclose"><%=nav.audit.close %></a></li>
                             <li><a href="/portal/toolindex">Start new Audit</a></li> 
@@ -22,7 +22,7 @@
                     </li>
                     <%  if (audit) { %>
                     <li>
-                        <a href="#"><%=nav.audit.menu_title %></a>
+                        <a href="/toolaudit/toolauditline"><%=nav.audit.menu_title %></a>
                         <ul>
                             <li><a href="/toolaudit/toolauditline"><%=nav.audit.timeline %></a></li>
                             <li><a href="/toolaudit/toolauditreference?src=tbl"><%=nav.audit.WorkingAreas.reference %></a></li>
@@ -30,7 +30,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><%=nav.audit.menu_plan %></a>
+                        <a href="/planaudit/auditplanning"><%=nav.audit.menu_plan %></a>
                         <ul>
                             <li><a href="/preassessaudit/auditpreassessment"><%=nav.audit.WorkingAreas.preliminary %></a></li>
                             <li><a href="/planaudit/auditplanning"><%=nav.audit.WorkingAreas.plan %></a></li>
@@ -40,7 +40,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><%=nav.audit.menu_findings %></a>
+                        <a href="/findingaudit/auditfindings"><%=nav.audit.menu_findings %></a>
                         <ul>
                             <li><a href="/findingaudit/auditfindings"><%=nav.audit.WorkingAreas.findings %></a></li>
                             <li><a href="/analytics/Findings"><%=nav.audit.analytics.findings_analysis %></a></li>
@@ -48,7 +48,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><%=nav.audit.menu_recommendations %></a>
+                        <a href="/auditrec/auditrecs"><%=nav.audit.menu_recommendations %></a>
                         <ul>
                             <li><a href="/auditrec/auditrecs"><%=nav.audit.WorkingAreas.recommendations %></a></li>
                             <li><a href="/analytics/StatsRecommendations"><%=nav.audit.analytics.recommendations_tracking %></a></li>
