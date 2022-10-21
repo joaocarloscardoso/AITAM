@@ -50,3 +50,13 @@
 {"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-10-21 13:10:19"}
 {"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":928411,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\20ae0800-1fe5-4f07-bc26-85888e6f70af.xml\",\"name\":\"Audit 2-2022_EN (5).xml\",\"type\":\"text/xml\",\"mtime\":\"2022-10-21T13:10:24.220Z\"}}","timestamp":"2022-10-21 13:10:24"}
 {"level":"\u001b[34minfo\u001b[39m","message":"audit file download: C:\\develop\\nodejs\\projects\\aitam\\work\\20ae0800-1fe5-4f07-bc26-85888e6f70af.xml","timestamp":"2022-10-21 13:10:45"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-10-21 16:41:29"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-10-21 16:41:33"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:16a91bad-1813-40e0-b30a-598846022d64","timestamp":"2022-10-21 16:41:37"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-10-21 16:41:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-10-21 16:41:51"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:a423ddfd-2715-41b4-a7db-9d9931b06ecc","timestamp":"2022-10-21 16:41:53"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-10-21 16:42:02"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-10-21 16:42:02"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-10-21 16:42:02"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":928790,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\d4c67513-87aa-4066-9696-1cadeee15209.xml\",\"name\":\"Audit 2-2022_EN (7).xml\",\"type\":\"text/xml\",\"mtime\":\"2022-10-21T16:42:07.451Z\"}}","timestamp":"2022-10-21 16:42:07"}

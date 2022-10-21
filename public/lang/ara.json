@@ -329,8 +329,8 @@
 		},
 		"Recommendation": {
 			"Priority": {
-				"Urgent":{ "name":"عاجلة","value":"0" },
-				"Regular":{ "name":"عادية", "value":"0" }
+				"Regular":{ "name":"عادية", "value":"0" },
+				"Urgent":{ "name":"عاجلة","value":"0" }
 			},
 			"RiskCharacterization": {
 				"Governance":{ "name":"الحاكمية", "value":"0" },
@@ -348,8 +348,8 @@
 				"Entity":{ "name":"الهيئة", "value":"0" }
 			},
 			"Importance": {
-				"Strategic":{ "name":"استراتيجية", "value":"0" },
-				"Important":{ "name":"مهم ، لكنه ليس ضروريًا", "value":"0" }
+				"Important":{ "name":"التشغيل", "value":"0" },
+				"Strategic":{ "name":"استراتيجية", "value":"0" }
 			},
 			"ImplementationStatus": {
 				"Implemented":{ "name":"منفذ", "value":"0" },

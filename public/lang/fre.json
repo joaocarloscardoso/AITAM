@@ -329,8 +329,8 @@
 		},
 		"Recommendation": {
 			"Priority": {
-				"Urgent":{ "name":"Urgent","value":"0" },
-				"Regular":{ "name":"Régulier", "value":"0" }
+				"Regular":{ "name":"Régulier", "value":"0" },
+				"Urgent":{ "name":"Urgent","value":"0" }
 			},
 			"RiskCharacterization": {
 				"Governance":{ "name":"Gouvernance", "value":"0" },
@@ -348,8 +348,8 @@
 				"Entity":{ "name":"Entité", "value":"0" }
 			},
 			"Importance": {
-				"Strategic":{ "name":"Stratégique", "value":"0" },
-				"Important":{ "name":"Important, mais pas essentiel", "value":"0" }
+				"Important":{ "name":"Opérationnel", "value":"0" },
+				"Strategic":{ "name":"Stratégique", "value":"0" }
 			},
 			"ImplementationStatus": {
 				"Implemented":{ "name":"Mis en œuvre", "value":"0" },

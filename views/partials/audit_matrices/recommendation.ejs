@@ -265,6 +265,7 @@
         "</td>" +
         "<td>" +
             "<select name='RF_" + Total +"' id='RF_" + Total +"' size='1' autofocus onchange='GetFindingInfo(this.id);'>" +
+                "<option value='0'>(Select Option))</option>""
                 <% Matrix.Findings.forEach(function(colitem) { -%>
                 "<option value='<%= colitem.FindingId %>''><%= colitem.Number %></option>" +
                 <% }) -%>         

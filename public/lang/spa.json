@@ -349,7 +349,7 @@
 			},
 			"Importance": {
 				"Strategic":{ "name":"Estratégico", "value":"0" },
-				"Important":{ "name":"Importante, pero no esencial", "value":"0" }
+				"Important":{ "name":"Operacional", "value":"0" }
 			},
 			"ImplementationStatus": {
 				"Implemented":{ "name":"Implementado", "value":"0" },
