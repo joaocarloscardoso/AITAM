@@ -1,35 +1,35 @@
-work process design|Function|0
-product-service purchase|Function|0
-purchase|Function|0
-finance|Function|0
-regulation|Function|0
-IT|Function|0
-governance|Function|0
-development and research|Function|0
-infrastructure|Function|0
-human resources|Function|0
-security|Function|0
-logistics|Function|0
-assets management|Function|0
-product service delivery|Function|0
-project methodology|Function|0
-documentation|Function|0
-regulations|Function|0
-strategy|Function|0
-planning|Function|0
-analysis|Function|0
-data processing|Function|0
-product-service delivery|Function|0
-outsourcing|Function|0
-monitoring|Function|0
-coordination|Function|0
-training|Function|0
-archives|Function|0
-good health and well-being|Goal|0
-consumption production|Goal|0
-quality education|Goal|0
-institutions justice|Goal|0
-energy|Goal|0
+United States of America|Country|0
+Lithuania|Country|0
+Hungary|Country|0
+Czech Republic|Country|0
+Switzerland|Country|0
+Malaysia|Country|0
+United Kingdom of Great Britain and Northern Ireland|Country|0
+Estonia|Country|0
+Germany|Country|0
+Poland|Country|0
+Australia|Country|0
+Denmark|Country|0
+Netherlands|Country|0
+Norway|Country|0
+Latvia|Country|0
+Sweden|Country|0
+Georgia|Country|0
+Slovenia|Country|0
+USA|Country|0
+India|Country|0
+Finland|Country|0
+Korea, Republic of|Country|0
+Turkey|Country|0
+Portugal|Country|0
+OLACEFS|Country|0
+Slovakia|Country|0
+Kuwait|Country|0
+Japan|Country|0
+Austria|Country|0
+Canada|Country|0
+Bulgaria|Country|0
+Serbia|Country|0
 responsible consumption and production|Goal|0
 peace, justice and strong institutions|Goal|0
 industry, innovation and infrastructure|Goal|0
@@ -39,149 +39,11 @@ useful service|Goal|0
 effective state|Goal|0
 better settlements|Goal|0
 inclusive industrialisation|Goal|0
-planning|Process|0
-implementation|Process|0
-review-audit|Process|0
-measurement|Process|0
-registering|Process|0
-monitoring-supervision|Process|0
-coordination|Process|0
-reporting|Process|0
-authorization|Process|0
-testing|Process|0
-requirements management|Topics|0
-information society|Topics|0
-large scale undertaking|Topics|0
-system maintenance |Topics|0
-business continuity management |Topics|0
-protection of information |Topics|0
-education institutions premises|Topics|0
-population register|Topics|0
-vendor lockin|Topics|0
-product marking|Topics|0
-relocation of government jobs|Topics|0
-system maintenance|Topics|0
-government eService|Topics|0
-cost estimation|Topics|0
-digitalization|Topics|0
-emergency preparedness|Topics|0
-forest protection|Topics|0
-migration abroad|Topics|0
-web solution|Topics|0
-phasing out old systems|Topics|0
-public trust|Topics|0
-repayments|Topics|0
-homelessness|Topics|0
-IT service quality |Topics|0
-government�s key priorities|Topics|0
-dry ports|Topics|0
-immigrant students|Topics|0
-process maturity|Topics|0
-application confidence|Topics|0
-public e-�services|Topics|0
-website|Topics|0
-combating terrorism|Topics|0
-cyber security|Topics|0
-internal audit|Topics|0
-data transmission|Topics|0
-legacy systems|Topics|0
-management dashboard|Topics|0
-agile projects|Topics|0
-data center consolidation|Topics|0
-IT software delevopment|Topics|0
-IT architecture|Topics|0
-business continuity management|Topics|0
-IT investment|Topics|0
-IT procurement|Topics|0
-measurement of project success|Topics|0
-state-owned companies|Topics|0
-personal data protection|Topics|0
-IT governance|Topics|0
-civil service staff|Topics|0
-consultants|Topics|0
-temporary staff|Topics|0
-internal control|Topics|0
-public e-services|Topics|0
-service center|Topics|0
-taxation systems|Topics|0
-small business|Topics|0
-interoperability|Topics|0
-user friendliness|Topics|0
-performance measurement|Topics|0
-application controls|Topics|0
-compliance costs|Topics|0
-organizations IT services|Topics|0
-bridges|Topics|0
-IT government|Topics|0
-conflicts of interest|Topics|0
-job scheduling|Topics|0
-cyber-security|Topics|0
-protection of information|Topics|0
-government IT agency|Topics|0
-database|Topics|0
-data centers|Topics|0
-IT service quality|Topics|0
-local government-owned companies|Topics|0
-overheads accounting|Topics|0
-records and documents management|Topics|0
-IT service quality   |Topics|0
-regulators|Topics|0
-research infrastructure|Topics|0
-data protection|Topics|0
-outsourced systems|Topics|0
-large scale project|Topics|0
-staff scheduling|Topics|0
-organizations IT services   |Topics|0
-management of innovation|Topics|0
-costs reporting|Topics|0
-acquiring an IT system|Topics|0
-user-friendliness|Topics|0
-VAT abuse|Topics|0
-service level|Topics|0
-alternative financing|Topics|0
-digital transformation|Topics|0
-civil service system|Topics|0
-open data|Topics|0
-digitization|Topics|0
-Society|Topics|0
-Citizen|Topics|0
-User|Topics|0
-Supplier|Topics|0
-Public opinion|Topics|0
-Entity|Topics|0
-Government|Topics|0
-Public service|Topics|0
-Ministry|Topics|0
-Department|Topics|0
-Company|Topics|0
-Association|Topics|0
-Foundation|Topics|0
-Agency|Topics|0
-INSTITUTION|Topics|0
-Audience|Topics|0
-Parliament|Topics|0
-Partner|Topics|0
-Customer|Topics|0
-STAKEHOLDER|Topics|0
-Directorate|Topics|0
-Taxpayer|Topics|0
-Collaborator|Topics|0
-Regulator|Topics|0
-Municipality|Topics|0
-County|Topics|0
-health |ActivityDomain|0
-geodata|ActivityDomain|0
-energy|ActivityDomain|0
-regions|ActivityDomain|0
-veterinary|ActivityDomain|0
-internal affairs|ActivityDomain|0
-economic affairs|ActivityDomain|0
-consumer protection|ActivityDomain|0
-law enforcement|ActivityDomain|0
-space management|ActivityDomain|0
-telecommunication|ActivityDomain|0
-commerce|ActivityDomain|0
-law enforcement |ActivityDomain|0
+good health and well-being|Goal|0
+consumption production|Goal|0
+quality education|Goal|0
+institutions justice|Goal|0
+energy|Goal|0
 health|ActivityDomain|0
 science and development|ActivityDomain|0
 tax-customs|ActivityDomain|0
@@ -208,22 +70,35 @@ State property|ActivityDomain|0
 research|ActivityDomain|0
 communication|ActivityDomain|0
 interior affairs|ActivityDomain|0
-housing|ActivityDomain|0
+railways|ActivityDomain|0
 tourism|ActivityDomain|0
 logistics|ActivityDomain|0
 Police|ActivityDomain|0
+regional development|ActivityDomain|0
+housing|ActivityDomain|0
 Communication|ActivityDomain|0
 General Public Service|ActivityDomain|0
 tax - customs|ActivityDomain|0
 financial services|ActivityDomain|0
 foreign affairs|ActivityDomain|0
-railways|ActivityDomain|0
 roads|ActivityDomain|0
 municipalities|ActivityDomain|0
+regions|ActivityDomain|0
+veterinary|ActivityDomain|0
+internal affairs|ActivityDomain|0
+economic affairs|ActivityDomain|0
+consumer protection|ActivityDomain|0
+law enforcement|ActivityDomain|0
+space management|ActivityDomain|0
+telecommunication|ActivityDomain|0
+commerce|ActivityDomain|0
+law enforcement |ActivityDomain|0
+health |ActivityDomain|0
+geodata|ActivityDomain|0
+energy|ActivityDomain|0
 law enforcement   |ActivityDomain|0
 public order and safety   |ActivityDomain|0
 general public services |ActivityDomain|0
-regional development|ActivityDomain|0
 Budget|ActivityDomain|0
 Research|ActivityDomain|0
 Law enforcement|ActivityDomain|0
@@ -273,19 +148,21 @@ Work|ActivityDomain|0
 Control|ActivityDomain|0
 Production|ActivityDomain|0
 Performance|ActivityDomain|0
-Forests|ActivityDomain|0
-Health|ActivityDomain|0
-Roads|ActivityDomain|0
-Traffic|ActivityDomain|0
-Regions|ActivityDomain|0
-Agriculture|ActivityDomain|0
-Conformity|ActivityDomain|0
-Website|ActivityDomain|0
-Planning|ActivityDomain|0
-Security|ActivityDomain|0
-Access|ActivityDomain|0
-Delivery|ActivityDomain|0
+Radio|ActivityDomain|0
+Broadcasting|ActivityDomain|0
+Television|ActivityDomain|0
+Data|ActivityDomain|0
+TEAM|ActivityDomain|0
+MEASURE|ActivityDomain|0
+Reporting|ActivityDomain|0
+Understanding|ActivityDomain|0
+Staff|ActivityDomain|0
+Insight|ActivityDomain|0
+Analysis|ActivityDomain|0
+Information technology|ActivityDomain|0
+Interact|ActivityDomain|0
 Customs|ActivityDomain|0
+Traffic|ActivityDomain|0
 Border|ActivityDomain|0
 Airline|ActivityDomain|0
 Taxes|ActivityDomain|0
@@ -296,25 +173,34 @@ Greatest|ActivityDomain|0
 Intelligence|ActivityDomain|0
 Check|ActivityDomain|0
 Knowledge|ActivityDomain|0
-Data|ActivityDomain|0
-MEASURE|ActivityDomain|0
+Access|ActivityDomain|0
 INFORM|ActivityDomain|0
 Capability|ActivityDomain|0
 Calculation|ActivityDomain|0
-Radio|ActivityDomain|0
-Broadcasting|ActivityDomain|0
-Television|ActivityDomain|0
-TEAM|ActivityDomain|0
-Reporting|ActivityDomain|0
-Understanding|ActivityDomain|0
-Staff|ActivityDomain|0
-Insight|ActivityDomain|0
-Analysis|ActivityDomain|0
-Information technology|ActivityDomain|0
-Interact|ActivityDomain|0
+Forests|ActivityDomain|0
+Health|ActivityDomain|0
+Roads|ActivityDomain|0
+Regions|ActivityDomain|0
+Agriculture|ActivityDomain|0
+Conformity|ActivityDomain|0
+Website|ActivityDomain|0
+Planning|ActivityDomain|0
+Security|ActivityDomain|0
+Delivery|ActivityDomain|0
+Justice|ActivityDomain|0
+Crime|ActivityDomain|0
+Defence|ActivityDomain|0
+Science|ActivityDomain|0
 Increase|ActivityDomain|0
 Change|ActivityDomain|0
+Quick|ActivityDomain|0
 Decrease|ActivityDomain|0
+Detail|ActivityDomain|0
+Rapid|ActivityDomain|0
+Investigation|ActivityDomain|0
+Cyber|ActivityDomain|0
+Training|ActivityDomain|0
+Identification|ActivityDomain|0
 Dependency|ActivityDomain|0
 Network|ActivityDomain|0
 Electronic|ActivityDomain|0
@@ -322,17 +208,6 @@ Broadband|ActivityDomain|0
 Development|ActivityDomain|0
 Investment|ActivityDomain|0
 Infrastructure|ActivityDomain|0
-Justice|ActivityDomain|0
-Crime|ActivityDomain|0
-Defence|ActivityDomain|0
-Science|ActivityDomain|0
-Quick|ActivityDomain|0
-Detail|ActivityDomain|0
-Rapid|ActivityDomain|0
-Investigation|ActivityDomain|0
-Cyber|ActivityDomain|0
-Training|ActivityDomain|0
-Identification|ActivityDomain|0
 Public property|ActivityDomain|0
 Register|ActivityDomain|0
 Involvement|ActivityDomain|0
@@ -340,3 +215,144 @@ PROCESS|ActivityDomain|0
 Water|ActivityDomain|0
 Air transport|ActivityDomain|0
 Testing|ActivityDomain|0
+Procedure|ActivityDomain|0
+Self-service|ActivityDomain|0
+Federal government|ActivityDomain|0
+Housing|ActivityDomain|0
+Import|ActivityDomain|0
+Review|ActivityDomain|0
+Communications|ActivityDomain|0
+Economics|ActivityDomain|0
+Effort|ActivityDomain|0
+General public services|ActivityDomain|0
+Cost|ActivityDomain|0
+Bid|ActivityDomain|0
+Procurement|ActivityDomain|0
+Modelling|ActivityDomain|0
+Public service|ActivityDomain|0
+Fast|ActivityDomain|0
+Realistic|ActivityDomain|0
+Approach|ActivityDomain|0
+Roll-out|ActivityDomain|0
+Defense|ActivityDomain|0
+Decision|ActivityDomain|0
+Level|ActivityDomain|0
+legacy systems|Topics|0
+management dashboard|Topics|0
+agile projects|Topics|0
+data center consolidation|Topics|0
+IT software delevopment|Topics|0
+IT architecture|Topics|0
+business continuity management|Topics|0
+state-owned companies|Topics|0
+IT investment|Topics|0
+IT procurement|Topics|0
+measurement of project success|Topics|0
+personal data protection|Topics|0
+IT governance|Topics|0
+public e-services|Topics|0
+civil service staff|Topics|0
+consultants|Topics|0
+temporary staff|Topics|0
+internal control|Topics|0
+service center|Topics|0
+organizations IT services|Topics|0
+bridges|Topics|0
+alternative financing|Topics|0
+taxation systems|Topics|0
+small business|Topics|0
+interoperability|Topics|0
+user friendliness|Topics|0
+performance measurement|Topics|0
+application controls|Topics|0
+compliance costs|Topics|0
+IT government|Topics|0
+conflicts of interest|Topics|0
+cyber-security|Topics|0
+protection of information|Topics|0
+job scheduling|Topics|0
+government IT agency|Topics|0
+data centers|Topics|0
+database|Topics|0
+IT service quality|Topics|0
+digital transformation|Topics|0
+civil service system|Topics|0
+open data|Topics|0
+digitization|Topics|0
+digitalization|Topics|0
+government eService|Topics|0
+emergency preparedness|Topics|0
+cost estimation|Topics|0
+web solution|Topics|0
+phasing out old systems|Topics|0
+forest protection|Topics|0
+migration abroad|Topics|0
+homelessness|Topics|0
+public trust|Topics|0
+IT service quality |Topics|0
+government�s key priorities|Topics|0
+repayments|Topics|0
+dry ports|Topics|0
+immigrant students|Topics|0
+process maturity|Topics|0
+application confidence|Topics|0
+cyber security|Topics|0
+public e-�services|Topics|0
+website|Topics|0
+combating terrorism|Topics|0
+internal audit|Topics|0
+data transmission|Topics|0
+local government-owned companies|Topics|0
+overheads accounting|Topics|0
+IT service quality   |Topics|0
+regulators|Topics|0
+requirements management|Topics|0
+large scale undertaking|Topics|0
+information society|Topics|0
+system maintenance |Topics|0
+business continuity management |Topics|0
+protection of information |Topics|0
+education institutions premises|Topics|0
+population register|Topics|0
+vendor lockin|Topics|0
+product marking|Topics|0
+system maintenance|Topics|0
+relocation of government jobs|Topics|0
+research infrastructure|Topics|0
+data protection|Topics|0
+outsourced systems|Topics|0
+large scale project|Topics|0
+staff scheduling|Topics|0
+organizations IT services   |Topics|0
+management of innovation|Topics|0
+user-friendliness|Topics|0
+costs reporting|Topics|0
+acquiring an IT system|Topics|0
+VAT abuse|Topics|0
+service level|Topics|0
+Society|Topics|0
+Citizen|Topics|0
+User|Topics|0
+Supplier|Topics|0
+Public opinion|Topics|0
+Entity|Topics|0
+Government|Topics|0
+Public service|Topics|0
+Ministry|Topics|0
+Department|Topics|0
+Company|Topics|0
+Association|Topics|0
+Foundation|Topics|0
+Agency|Topics|0
+Audience|Topics|0
+Parliament|Topics|0
+Partner|Topics|0
+Customer|Topics|0
+INSTITUTION|Topics|0
+STAKEHOLDER|Topics|0
+Directorate|Topics|0
+Taxpayer|Topics|0
+Collaborator|Topics|0
+Municipality|Topics|0
+Regulator|Topics|0
+County|Topics|0

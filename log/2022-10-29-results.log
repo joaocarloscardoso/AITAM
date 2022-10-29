@@ -1,0 +1,14 @@
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-10-29 23:39:02"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:5646caef-1f1e-4ffd-81aa-1e5e12f5ff87","timestamp":"2022-10-29 23:39:40"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2022-10-29 23:39:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-10-29 23:39:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-10-29 23:39:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-10-29 23:39:49"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2022-10-29 23:41:21"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-10-29 23:46:55"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:efc034a3-6b6d-4b5f-b3f8-142aa1330f8e","timestamp":"2022-10-29 23:47:16"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2022-10-29 23:47:17"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-10-29 23:47:26"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-10-29 23:47:26"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-10-29 23:47:26"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":928864,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\ce17e09d-e093-42d8-97c9-c3220315cb10.xml\",\"name\":\"Audit 2-2022_EN (9).xml\",\"type\":\"text/xml\",\"mtime\":\"2022-10-29T23:47:32.461Z\"}}","timestamp":"2022-10-29 23:47:32"}
