@@ -1,0 +1,27 @@
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-12-12 08:41:45"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-12-12 08:41:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:6582eb83-11dd-4f87-a2eb-c9e3a9c308f9","timestamp":"2022-12-12 08:42:12"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-12-12 08:42:14"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2022-12-12 08:42:16"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-12-12 08:42:18"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:f32b4deb-ad10-4a17-8388-61bde37f9a6c","timestamp":"2022-12-12 08:42:27"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-12-12 08:42:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-12-12 08:42:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-12-12 08:42:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\5208b638-14bd-4e03-a84c-1a22ba9c237d.xml","timestamp":"2022-12-12 08:42:43"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":928864,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\5208b638-14bd-4e03-a84c-1a22ba9c237d.xml\",\"name\":\"Audit 2-2022_EN (9).xml\",\"type\":\"text/xml\",\"mtime\":\"2022-12-12T08:43:04.188Z\"}}","timestamp":"2022-12-12 08:43:04"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2022-12-12 08:43:10"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2022-12-12 08:43:27"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2022-12-12 08:43:27"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2022-12-12 08:43:27"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":928864,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\083668e9-f010-4e94-ba8a-826194605b52.xml\",\"name\":\"Audit 2-2022_EN (9).xml\",\"type\":\"text/xml\",\"mtime\":\"2022-12-12T08:43:34.768Z\"}}","timestamp":"2022-12-12 08:43:34"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector deleted  ce17e09d-e093-42d8-97c9-c3220315cb10.src on folder: C:\\develop\\nodejs\\projects\\aitam\\work\\, path: C:\\develop\\nodejs\\projects\\aitam\\work\\ce17e09d-e093-42d8-97c9-c3220315cb10.src","timestamp":"2022-12-12 08:45:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector deleted  ce17e09d-e093-42d8-97c9-c3220315cb10.tkn on folder: C:\\develop\\nodejs\\projects\\aitam\\work\\, path: C:\\develop\\nodejs\\projects\\aitam\\work\\ce17e09d-e093-42d8-97c9-c3220315cb10.tkn","timestamp":"2022-12-12 08:45:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector deleted  ce17e09d-e093-42d8-97c9-c3220315cb10.vec on folder: C:\\develop\\nodejs\\projects\\aitam\\work\\, path: C:\\develop\\nodejs\\projects\\aitam\\work\\ce17e09d-e093-42d8-97c9-c3220315cb10.vec","timestamp":"2022-12-12 08:45:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector deleted  ce17e09d-e093-42d8-97c9-c3220315cb10.xml on folder: C:\\develop\\nodejs\\projects\\aitam\\work\\, path: C:\\develop\\nodejs\\projects\\aitam\\work\\ce17e09d-e093-42d8-97c9-c3220315cb10.xml","timestamp":"2022-12-12 08:45:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector deleted  gazetteer.dic on folder: C:\\develop\\nodejs\\projects\\aitam\\work\\, path: C:\\develop\\nodejs\\projects\\aitam\\work\\gazetteer.dic","timestamp":"2022-12-12 08:45:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector error:  Error: Can't delete C:\\develop\\nodejs\\projects\\aitam\\work\\ce17e09d-e093-42d8-97c9-c3220315cb10.src","timestamp":"2022-12-12 08:45:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector error:  Error: Can't delete C:\\develop\\nodejs\\projects\\aitam\\work\\ce17e09d-e093-42d8-97c9-c3220315cb10.tkn","timestamp":"2022-12-12 08:45:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector error:  Error: Can't delete C:\\develop\\nodejs\\projects\\aitam\\work\\ce17e09d-e093-42d8-97c9-c3220315cb10.xml","timestamp":"2022-12-12 08:45:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector error:  Error: Can't delete C:\\develop\\nodejs\\projects\\aitam\\work\\ce17e09d-e093-42d8-97c9-c3220315cb10.vec","timestamp":"2022-12-12 08:45:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector error:  Error: Can't delete C:\\develop\\nodejs\\projects\\aitam\\work\\gazetteer.dic","timestamp":"2022-12-12 08:45:00"}

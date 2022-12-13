@@ -144,6 +144,7 @@ tooleaudit.get('/toolauditline',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    //20221213
     if (status) {
         //change to get interactions info : statisticsService
         var TimeLineCatalog = statisticsService.GetTimelineStatus(NewAuditFile, req.session.lang);
@@ -302,6 +303,31 @@ tooleaudit.post('/tooleditaudit', function(req, res){
         //var CheckedAuditFile = credentials.WorkSetPath;
         //CheckedAuditFile = CheckedAuditFile + req.sessionID + '.xml';
 
+        //20221213
+        var TimeLineCatalog = statisticsService.GetTimelineStatus(AuditFile, req.session.lang);
+        res.render('toolaudit/auditlinevis', {
+            action: 'audit',
+            operation: 'audit_line',
+            AuditErrors: '',
+            catalog: TimeLineCatalog,
+            /*
+            GeneralDomainCatalog: GeneralDomainCatalog,
+            GeneralRiskCatalog: GeneralRiskCatalog,
+            GeneralFindingCatalog: GeneralFindingCatalog,
+            data: DataRecommendations,
+            PluginsCatalog: PluginsCatalog,
+            */
+            msg: '',
+            auditfile: 'work/' + req.sessionID + '.xml',
+            audit: status,
+            rectracking: credentials.portfolio,
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
+        });
+        /*
         return res.render('toolaudit/toolwork', {
             action: 'audit',
             operation: 'audit_creation',
@@ -315,6 +341,7 @@ tooleaudit.post('/tooleditaudit', function(req, res){
             sessionlang: req.session.lang,
             nav: appObjects.pageNavigation
         });
+        */
     });
     /*
     form.on('error', function(err) {
