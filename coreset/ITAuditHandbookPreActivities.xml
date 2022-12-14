@@ -626,9 +626,9 @@
 					<paElement nr="03" relatesto="" type="list" value="Low|Medium|High">
 						<title>
 							<tx l="eng" name="Sufficient regulation"/>
-							<tx l="eng" name="Regulación suficiente "/>
-							<tx l="eng" name="Réglementation suffisante"/>
-							<tx l="eng" name="تنظيم كاف "/>
+							<tx l="spa" name="Regulación suficiente "/>
+							<tx l="fre" name="Réglementation suffisante"/>
+							<tx l="ara" name="تنظيم كاف "/>
 						</title>
 						<val>
 							<tx l="eng" name="Low"/>
@@ -640,9 +640,9 @@
 					<paElement nr="04" relatesto="" type="list" value="Low|Medium|High">
 						<title>
 							<tx l="eng" name="Explanatory and clear documentation"/>
-							<tx l="eng" name="Documentación clara y explicativa"/>
-							<tx l="eng" name="Documentation explicative et claire"/>
-							<tx l="eng" name="التوثيق التوضيحي والواضح"/>
+							<tx l="spa" name="Documentación clara y explicativa"/>
+							<tx l="fre" name="Documentation explicative et claire"/>
+							<tx l="ara" name="التوثيق التوضيحي والواضح"/>
 						</title>
 						<val>
 							<tx l="eng" name="Low"/>
@@ -773,16 +773,16 @@
 				<paSection nr="05" relatesto="">
 					<title>
 						<tx l="eng" name="Other Issues that have to be considered in planning the IT-audit"/>
-						<tx l="eng" name="Otras cuestiones que deben tenerse en cuenta al planificar la auditoría de TI"/>
-						<tx l="eng" name="Autres problèmes à prendre en compte lors de la planification de l'audit informatique"/>
-						<tx l="eng" name="القضايا الأخرى التي يجب أخذها في الاعتبار عند التخطيط لتدقيق تكنولوجيا المعلومات"/>
+						<tx l="spa" name="Otras cuestiones que deben tenerse en cuenta al planificar la auditoría de TI"/>
+						<tx l="fre" name="Autres problèmes à prendre en compte lors de la planification de l'audit informatique"/>
+						<tx l="ara" name="القضايا الأخرى التي يجب أخذها في الاعتبار عند التخطيط لتدقيق تكنولوجيا المعلومات"/>
 					</title>
 					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
 							<tx l="eng" name="Specialist competence needs"/>
-							<tx l="eng" name="Necesidades de competencias especializadas"/>
-							<tx l="eng" name="Besoins en compétences spécialisées"/>
-							<tx l="eng" name="احتياجات الكفاءة المتخصصة"/>
+							<tx l="spa" name="Necesidades de competencias especializadas"/>
+							<tx l="fre" name="Besoins en compétences spécialisées"/>
+							<tx l="ara" name="احتياجات الكفاءة المتخصصة"/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -794,9 +794,9 @@
 					<paElement nr="02" relatesto="" type="text" value="">
 						<title>
 							<tx l="eng" name="Need for special audit methodology"/>
-							<tx l="eng" name="Necesidad de una metodología de auditoría especial"/>
-							<tx l="eng" name="Besoin d'une méthodologie d'audit spéciale"/>
-							<tx l="eng" name="الحاجة إلى منهجية تدقيق خاصة"/>
+							<tx l="spa" name="Necesidad de una metodología de auditoría especial"/>
+							<tx l="fre" name="Besoin d'une méthodologie d'audit spéciale"/>
+							<tx l="ara" name="الحاجة إلى منهجية تدقيق خاصة"/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -808,9 +808,9 @@
 					<paElement nr="03" relatesto="" type="text" value="">
 						<title>
 							<tx l="eng" name="Supplementary investigation / analysis needs"/>
-							<tx l="eng" name="Necesidades complementarias de investigación / análisis"/>
-							<tx l="eng" name="Besoins d'enquête / d'analyse supplémentaires"/>
-							<tx l="eng" name="احتياجات التحقيق / التحليل التكميلي"/>
+							<tx l="spa" name="Necesidades complementarias de investigación / análisis"/>
+							<tx l="fre" name="Besoins d'enquête / d'analyse supplémentaires"/>
+							<tx l="ara" name="احتياجات التحقيق / التحليل التكميلي"/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -822,9 +822,9 @@
 					<paElement nr="04" relatesto="" type="text" value="">
 						<title>
 							<tx l="eng" name="Take into consideration the work done by Internal Auditors in these areas if any"/>
-							<tx l="eng" name="Tenga en cuenta el trabajo realizado por los auditores internos en estas áreas, si lo hubiere"/>
-							<tx l="eng" name="Prendre en considération le travail effectué par les auditeurs internes dans ces domaines le cas échéant"/>
-							<tx l="eng" name="ضع في الاعتبار العمل الذي قام به المدققون الداخليون في هذه المجالات إن وجدت"/>
+							<tx l="spa" name="Tenga en cuenta el trabajo realizado por los auditores internos en estas áreas, si lo hubiere"/>
+							<tx l="fre" name="Prendre en considération le travail effectué par les auditeurs internes dans ces domaines le cas échéant"/>
+							<tx l="ara" name="ضع في الاعتبار العمل الذي قام به المدققون الداخليون في هذه المجالات إن وجدت"/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -837,9 +837,9 @@
 				<paSection nr="06" relatesto="">
 					<title>
 						<tx l="eng" name="What staffmembers will perform the audit, when will it be performed and how much time is allocated for this IT-audit"/>
-						<tx l="eng" name="Qué miembros del personal realizarán la auditoría, cuándo se realizará y cuánto tiempo se asignará para esta auditoría de TI"/>
-						<tx l="eng" name="Quels membres du personnel effectueront l'audit, quand sera-t-il effectué et combien de temps sera alloué à cet audit informatique"/>
-						<tx l="eng" name="ما هو أعضاء فريق العمل الذين سيقومون بإجراء التدقيق ، ومتى يتم إجراؤه ، ومقدار الوقت المخصص لتدقيق تقنية المعلومات هذا"/>
+						<tx l="spa" name="Qué miembros del personal realizarán la auditoría, cuándo se realizará y cuánto tiempo se asignará para esta auditoría de TI"/>
+						<tx l="fre" name="Quels membres du personnel effectueront l'audit, quand sera-t-il effectué et combien de temps sera alloué à cet audit informatique"/>
+						<tx l="ara" name="ما هو أعضاء فريق العمل الذين سيقومون بإجراء التدقيق ، ومتى يتم إجراؤه ، ومقدار الوقت المخصص لتدقيق تقنية المعلومات هذا"/>
 					</title>
 					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
