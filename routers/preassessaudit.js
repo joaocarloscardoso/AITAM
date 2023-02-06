@@ -10,6 +10,8 @@ var credentials = require('../credentials.js');
 var PreAssessment = require('../lib/preassessment.js');
 //logging system
 var log = require('../lib/log.js');
+//trace system
+var trace = require('../lib/audittrace.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
 //common business functions
@@ -44,6 +46,8 @@ preassessaudit.get('/auditpreassessment',function(req,res){
 
     var user = commonF.GetUser(req);
     req.session.lang = commonF.GetLang(req);
+
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Preliminary activities area accessed');
     
     var appObjects = appLang.GetData(req.session.lang);
 

@@ -10,6 +10,8 @@ var credentials = require('../credentials.js');
 var Planning = require('../lib/planning.js');
 //logging system
 var log = require('../lib/log.js');
+//trace system
+var trace = require('../lib/audittrace.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
 //common business functions
@@ -46,6 +48,7 @@ planaudit.get('/auditplanning',function(req,res){
     req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Risk table accessed');
 
     if (status) {
         var plancatalog = Planning.LoadPlanning(NewAuditFile, req.session.lang);
@@ -110,6 +113,9 @@ planaudit.post('/auditplanning', function(req, res){
             }
             //save plugins selected for audit
             var status = Planning.SavePlanning(NewAuditFile, Catalog);
+
+            trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Risk table edited');
+
             var plancatalog = Planning.LoadPlanning(NewAuditFile, req.session.lang);
             //Issue #52: Automatic save/download on conclusion of key activities
             res.redirect('/toolaudit/work/download');
@@ -154,6 +160,9 @@ planaudit.get('/syncauditplanning',function(req,res){
 
     if (status) {
         var status = Planning.SyncPreAssessmentWithRiskAnalysis(NewAuditFile, req.session.lang);
+
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Sync between Risk table and Preliminary Activities done');
+
         var plancatalog = Planning.LoadPlanning(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',
