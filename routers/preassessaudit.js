@@ -47,7 +47,7 @@ preassessaudit.get('/auditpreassessment',function(req,res){
     var user = commonF.GetUser(req);
     req.session.lang = commonF.GetLang(req);
 
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Preliminary activities area accessed');
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Preliminary activities area accessed');
     
     var appObjects = appLang.GetData(req.session.lang);
 

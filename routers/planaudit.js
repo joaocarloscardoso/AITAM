@@ -48,7 +48,7 @@ planaudit.get('/auditplanning',function(req,res){
     req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Risk table accessed');
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Risk table accessed');
 
     if (status) {
         var plancatalog = Planning.LoadPlanning(NewAuditFile, req.session.lang);
@@ -114,7 +114,7 @@ planaudit.post('/auditplanning', function(req, res){
             //save plugins selected for audit
             var status = Planning.SavePlanning(NewAuditFile, Catalog);
 
-            trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Risk table edited');
+            trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Risk table modified');
 
             var plancatalog = Planning.LoadPlanning(NewAuditFile, req.session.lang);
             //Issue #52: Automatic save/download on conclusion of key activities
@@ -161,7 +161,7 @@ planaudit.get('/syncauditplanning',function(req,res){
     if (status) {
         var status = Planning.SyncPreAssessmentWithRiskAnalysis(NewAuditFile, req.session.lang);
 
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Sync between Risk table and Preliminary Activities done');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Sync between Risk table and Preliminary Activities done');
 
         var plancatalog = Planning.LoadPlanning(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {

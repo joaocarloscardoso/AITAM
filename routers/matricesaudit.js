@@ -10,6 +10,8 @@ var credentials = require('../credentials.js');
 var Matrices = require('../lib/matrices.js');
 //logging system
 var log = require('../lib/log.js');
+//trace system
+var trace = require('../lib/audittrace.js');
 //portfolios
 var portfolio = require('../lib/portfolio.js');
 //multilanguage support
@@ -48,6 +50,8 @@ matricesaudit.get('/planMatrix',function(req,res){
     req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
+
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Risk Table > Plan Matrix accessed');
 
     if (status) {
         var PlanMatrix = Matrices.LoadPlanMatrix(NewAuditFile, req.query.plugin, req.query.domain, req.query.area, req.query.issue, req.session.lang);
@@ -94,6 +98,8 @@ matricesaudit.get('/findingMatrix',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Findings > Findings Table > Finding Matrix accessed');
+
     if (status) {
         var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang, req.query.number);
         res.render('toolaudit/supportmatrix', {
@@ -138,6 +144,8 @@ matricesaudit.get('/FindingData',function(req,res){
     req.session.lang = commonF.GetLang(req);
     
     var appObjects = appLang.GetData(req.session.lang);
+
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Findings > Findings Table > Finding Matrix accessed');
 
     if (status) {
         var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang);
@@ -185,6 +193,8 @@ matricesaudit.get('/recMatrix',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
     //console.log(req.session.passport.user);
 
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Recommendations > Recommendations Table > Recommendation Matrix accessed');
+
     if (status) {
         var RecommendationMatrix = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id, req.session.lang, req.query.number);
         res.render('toolaudit/supportmatrix', {
@@ -230,6 +240,8 @@ matricesaudit.get('/preassessMatrix',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Preliminary Activities > Preliminary Activity Matrix accessed');
+    
     if (status) {
         var preassessMatrix = Matrices.LoadPreAssessMatrix(NewAuditFile, req.query.area, req.query.issue, req.session.lang);
         res.render('toolaudit/supportmatrix', {
@@ -273,7 +285,9 @@ matricesaudit.post('/preassessMatrix', function(req, res){
     req.session.lang = commonF.GetLang(req);
     
     var appObjects = appLang.GetData(req.session.lang);
-    
+
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Preliminary Activities > Preliminary Activity Matrix modified');
+
     if (status) {
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
@@ -340,7 +354,9 @@ matricesaudit.post('/planMatrix', function(req, res){
     req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
-    
+
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Risk Table > Plan Matrix modified');
+
     if (status) {
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
@@ -400,6 +416,8 @@ matricesaudit.post('/findingMatrix', function(req, res){
     req.session.lang = commonF.GetLang(req);
     
     var appObjects = appLang.GetData(req.session.lang);
+
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Findings > Findings Table > Finding Matrix modified');
 
     if (status) {
         //check if req.body is filled
@@ -474,6 +492,8 @@ matricesaudit.post('/recMatrix', function(req, res){
     req.session.lang = commonF.GetLang(req);
     
     var appObjects = appLang.GetData(req.session.lang);
+
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Recommendations > Recommendations Table > Recommendation Matrix modified');
 
     if (status) {
         //check if req.body is filled

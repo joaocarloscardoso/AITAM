@@ -56,7 +56,7 @@ tooleaudit.get('/toolauditreference',function(req,res){
     req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Audit Reference accessed');
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Overview > Audit Reference accessed');
 
     if (status) {
         var AuditReference = InitialAudit.GetAuditReference(NewAuditFile, req.session.lang);
@@ -103,7 +103,7 @@ tooleaudit.get('/toolauditplugins',function(req,res){
     req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plugins accessed');
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Plug-ins accessed');
 
     if (status) {
         var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile, req.session.lang);
@@ -153,6 +153,9 @@ tooleaudit.get('/toolauditline',function(req,res){
     if (status) {
         //change to get interactions info : statisticsService
         var TimeLineCatalog = statisticsService.GetTimelineStatus(NewAuditFile, req.session.lang);
+
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Overview > Audit Control Dashboard accessed');
+
 /*
         var PluginsCatalog = statisticsService.GetPluginsUsed(NewAuditFile, req.session.lang);
         var GeneralDomainCatalog = statisticsService.GeneralDomainCharacterization(NewAuditFile, req.session.lang);
@@ -209,7 +212,7 @@ tooleaudit.get('/auditstatistics',function(req,res){
     req.session.lang = commonF.GetLang(req);
 
     var appObjects = appLang.GetData(req.session.lang);
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Audit statistics accessed');
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Domain Characterization accessed');
 
     if (status) {
         var GeneralDomainCatalog = statisticsService.GeneralDomainCharacterization(NewAuditFile, req.session.lang);
@@ -436,7 +439,7 @@ tooleaudit.post('/toolauditreference', [
         //Save reference on audit file
         var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
         InitialAudit.SetAuditReference(AuditFile, AuditReference, req.session.lang)
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Audit Reference edited');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Overview > Audit Reference modified');
 
         //Issue #52: Automatic save/download on conclusion of key activities
         res.redirect('/toolaudit/work/download');
@@ -480,7 +483,7 @@ tooleaudit.post('/toolauditplugins', function(req, res){
             }
             //save plugins selected for audit
             var status = pluginsService.setPluginsForAudit(PlugIns2Audit, NewAuditFile);
-            trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plugins selected for audit');
+            trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Plug-ins selected for audit');
 
             //reload plugins list and present save status
             var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile, req.session.lang);
