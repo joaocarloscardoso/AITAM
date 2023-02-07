@@ -10,7 +10,7 @@ var credentials = require('../credentials.js');
 var Matrices = require('../lib/matrices.js');
 //logging system
 var log = require('../lib/log.js');
-//trace system
+//trace system library
 var trace = require('../lib/audittrace.js');
 //portfolios
 var portfolio = require('../lib/portfolio.js');
