@@ -10,6 +10,8 @@ var credentials = require('../credentials.js');
 var Findings = require('../lib/findings.js');
 //logging system
 var log = require('../lib/log.js');
+//trace system
+var trace = require('../lib/audittrace.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
 //common business functions
