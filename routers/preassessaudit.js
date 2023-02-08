@@ -46,12 +46,12 @@ preassessaudit.get('/auditpreassessment',function(req,res){
 
     var user = commonF.GetUser(req);
     req.session.lang = commonF.GetLang(req);
-
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Preliminary activities area accessed');
     
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', NewAuditFile, 0, 'Plan > Preliminary activities area accessed');
+
         var preassesscatalog = PreAssessment.LoadPreAssessment(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',

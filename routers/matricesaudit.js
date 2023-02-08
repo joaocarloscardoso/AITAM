@@ -51,9 +51,9 @@ matricesaudit.get('/planMatrix',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Risk Table > Plan Matrix accessed');
-
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', NewAuditFile, 0, 'Plan > Risk Table > Plan Matrix accessed');
+        
         var PlanMatrix = Matrices.LoadPlanMatrix(NewAuditFile, req.query.plugin, req.query.domain, req.query.area, req.query.issue, req.session.lang);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
@@ -98,9 +98,9 @@ matricesaudit.get('/findingMatrix',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Findings > Findings Table > Finding Matrix accessed');
-
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', NewAuditFile, 0, 'Findings > Findings Table > Finding Matrix accessed');
+    
         var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang, req.query.number);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
@@ -145,9 +145,9 @@ matricesaudit.get('/FindingData',function(req,res){
     
     var appObjects = appLang.GetData(req.session.lang);
 
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Findings > Findings Table > Finding Matrix accessed');
-
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', NewAuditFile, 0, 'Findings > Findings Table > Finding Matrix accessed');
+
         var FindingMatrix = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
@@ -193,9 +193,9 @@ matricesaudit.get('/recMatrix',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
     //console.log(req.session.passport.user);
 
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Recommendations > Recommendations Table > Recommendation Matrix accessed');
+     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', NewAuditFile, 0, 'Recommendations > Recommendations Table > Recommendation Matrix accessed');
 
-    if (status) {
         var RecommendationMatrix = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id, req.session.lang, req.query.number);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
@@ -240,9 +240,9 @@ matricesaudit.get('/preassessMatrix',function(req,res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Preliminary Activities > Preliminary Activity Matrix accessed');
-    
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', NewAuditFile, 0, 'Plan > Preliminary Activities > Preliminary Activity Matrix accessed');
+        
         var preassessMatrix = Matrices.LoadPreAssessMatrix(NewAuditFile, req.query.area, req.query.issue, req.session.lang);
         res.render('toolaudit/supportmatrix', {
             action: 'audit',
@@ -286,9 +286,9 @@ matricesaudit.post('/preassessMatrix', function(req, res){
     
     var appObjects = appLang.GetData(req.session.lang);
 
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Preliminary Activities > Preliminary Activity Matrix modified');
-
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', NewAuditFile, 1, 'Plan > Preliminary Activities > Preliminary Activity Matrix modified');
+
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
             log.warn('Object req.body missing on tool audit matrix');
@@ -355,9 +355,9 @@ matricesaudit.post('/planMatrix', function(req, res){
 
     var appObjects = appLang.GetData(req.session.lang);
 
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Plan > Risk Table > Plan Matrix modified');
-
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', NewAuditFile, 1, 'Plan > Risk Table > Plan Matrix modified');
+
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
             log.warn('Object req.body missing on tool audit matrix');
@@ -417,9 +417,9 @@ matricesaudit.post('/findingMatrix', function(req, res){
     
     var appObjects = appLang.GetData(req.session.lang);
 
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Findings > Findings Table > Finding Matrix modified');
-
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', NewAuditFile, 1, 'Findings > Findings Table > Finding Matrix modified');
+
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
             log.warn('Object req.body missing on tool audit matrix');
@@ -493,9 +493,9 @@ matricesaudit.post('/recMatrix', function(req, res){
     
     var appObjects = appLang.GetData(req.session.lang);
 
-    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', 'Recommendations > Recommendations Table > Recommendation Matrix modified');
-
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', NewAuditFile, 1, 'Recommendations > Recommendations Table > Recommendation Matrix modified');
+
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
             log.warn('Object req.body missing on tool audit matrix');
