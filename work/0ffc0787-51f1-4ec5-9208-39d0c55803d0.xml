@@ -1,4 +1,4 @@
-<Audit><About id="teste1" descriptionfile=""><version id="1.0" name=""/><title><tx l="eng" name="Tax administration aa" rem=""/></title><WorkingLanguage wl="eng"/></About><Background><ak>aaaaaa</ak></Background><Scope><ak>aaaaaa</ak></Scope><Preassessment>
+<Audit><About id="wtwert" descriptionfile=""><version id="1.0" name=""/><title><tx l="eng" name="wtwert" rem=""/></title><WorkingLanguage wl="eng"/></About><Background><ak>wetewrtew</ak></Background><Scope><ak>erwtertew</ak></Scope><Preassessment>
 	<About id="PreactIS">
 		<version id="20210101" name="main"/>
 		<title>
@@ -626,9 +626,9 @@
 					<paElement nr="03" relatesto="" type="list" value="Low|Medium|High">
 						<title>
 							<tx l="eng" name="Sufficient regulation"/>
-							<tx l="spa" name="Regulación suficiente "/>
-							<tx l="fre" name="Réglementation suffisante"/>
-							<tx l="ara" name="تنظيم كاف "/>
+							<tx l="eng" name="Regulación suficiente "/>
+							<tx l="eng" name="Réglementation suffisante"/>
+							<tx l="eng" name="تنظيم كاف "/>
 						</title>
 						<val>
 							<tx l="eng" name="Low"/>
@@ -640,9 +640,9 @@
 					<paElement nr="04" relatesto="" type="list" value="Low|Medium|High">
 						<title>
 							<tx l="eng" name="Explanatory and clear documentation"/>
-							<tx l="spa" name="Documentación clara y explicativa"/>
-							<tx l="fre" name="Documentation explicative et claire"/>
-							<tx l="ara" name="التوثيق التوضيحي والواضح"/>
+							<tx l="eng" name="Documentación clara y explicativa"/>
+							<tx l="eng" name="Documentation explicative et claire"/>
+							<tx l="eng" name="التوثيق التوضيحي والواضح"/>
 						</title>
 						<val>
 							<tx l="eng" name="Low"/>
@@ -773,16 +773,16 @@
 				<paSection nr="05" relatesto="">
 					<title>
 						<tx l="eng" name="Other Issues that have to be considered in planning the IT-audit"/>
-						<tx l="spa" name="Otras cuestiones que deben tenerse en cuenta al planificar la auditoría de TI"/>
-						<tx l="fre" name="Autres problèmes à prendre en compte lors de la planification de l&apos;audit informatique"/>
-						<tx l="ara" name="القضايا الأخرى التي يجب أخذها في الاعتبار عند التخطيط لتدقيق تكنولوجيا المعلومات"/>
+						<tx l="eng" name="Otras cuestiones que deben tenerse en cuenta al planificar la auditoría de TI"/>
+						<tx l="eng" name="Autres problèmes à prendre en compte lors de la planification de l&apos;audit informatique"/>
+						<tx l="eng" name="القضايا الأخرى التي يجب أخذها في الاعتبار عند التخطيط لتدقيق تكنولوجيا المعلومات"/>
 					</title>
 					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
 							<tx l="eng" name="Specialist competence needs"/>
-							<tx l="spa" name="Necesidades de competencias especializadas"/>
-							<tx l="fre" name="Besoins en compétences spécialisées"/>
-							<tx l="ara" name="احتياجات الكفاءة المتخصصة"/>
+							<tx l="eng" name="Necesidades de competencias especializadas"/>
+							<tx l="eng" name="Besoins en compétences spécialisées"/>
+							<tx l="eng" name="احتياجات الكفاءة المتخصصة"/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -794,9 +794,9 @@
 					<paElement nr="02" relatesto="" type="text" value="">
 						<title>
 							<tx l="eng" name="Need for special audit methodology"/>
-							<tx l="spa" name="Necesidad de una metodología de auditoría especial"/>
-							<tx l="fre" name="Besoin d&apos;une méthodologie d&apos;audit spéciale"/>
-							<tx l="ara" name="الحاجة إلى منهجية تدقيق خاصة"/>
+							<tx l="eng" name="Necesidad de una metodología de auditoría especial"/>
+							<tx l="eng" name="Besoin d&apos;une méthodologie d&apos;audit spéciale"/>
+							<tx l="eng" name="الحاجة إلى منهجية تدقيق خاصة"/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -808,9 +808,9 @@
 					<paElement nr="03" relatesto="" type="text" value="">
 						<title>
 							<tx l="eng" name="Supplementary investigation / analysis needs"/>
-							<tx l="spa" name="Necesidades complementarias de investigación / análisis"/>
-							<tx l="fre" name="Besoins d&apos;enquête / d&apos;analyse supplémentaires"/>
-							<tx l="ara" name="احتياجات التحقيق / التحليل التكميلي"/>
+							<tx l="eng" name="Necesidades complementarias de investigación / análisis"/>
+							<tx l="eng" name="Besoins d&apos;enquête / d&apos;analyse supplémentaires"/>
+							<tx l="eng" name="احتياجات التحقيق / التحليل التكميلي"/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -822,9 +822,9 @@
 					<paElement nr="04" relatesto="" type="text" value="">
 						<title>
 							<tx l="eng" name="Take into consideration the work done by Internal Auditors in these areas if any"/>
-							<tx l="spa" name="Tenga en cuenta el trabajo realizado por los auditores internos en estas áreas, si lo hubiere"/>
-							<tx l="fre" name="Prendre en considération le travail effectué par les auditeurs internes dans ces domaines le cas échéant"/>
-							<tx l="ara" name="ضع في الاعتبار العمل الذي قام به المدققون الداخليون في هذه المجالات إن وجدت"/>
+							<tx l="eng" name="Tenga en cuenta el trabajo realizado por los auditores internos en estas áreas, si lo hubiere"/>
+							<tx l="eng" name="Prendre en considération le travail effectué par les auditeurs internes dans ces domaines le cas échéant"/>
+							<tx l="eng" name="ضع في الاعتبار العمل الذي قام به المدققون الداخليون في هذه المجالات إن وجدت"/>
 						</title>
 						<val>
 							<tx l="eng" name=""/>
@@ -837,9 +837,9 @@
 				<paSection nr="06" relatesto="">
 					<title>
 						<tx l="eng" name="What staffmembers will perform the audit, when will it be performed and how much time is allocated for this IT-audit"/>
-						<tx l="spa" name="Qué miembros del personal realizarán la auditoría, cuándo se realizará y cuánto tiempo se asignará para esta auditoría de TI"/>
-						<tx l="fre" name="Quels membres du personnel effectueront l&apos;audit, quand sera-t-il effectué et combien de temps sera alloué à cet audit informatique"/>
-						<tx l="ara" name="ما هو أعضاء فريق العمل الذين سيقومون بإجراء التدقيق ، ومتى يتم إجراؤه ، ومقدار الوقت المخصص لتدقيق تقنية المعلومات هذا"/>
+						<tx l="eng" name="Qué miembros del personal realizarán la auditoría, cuándo se realizará y cuánto tiempo se asignará para esta auditoría de TI"/>
+						<tx l="eng" name="Quels membres du personnel effectueront l&apos;audit, quand sera-t-il effectué et combien de temps sera alloué à cet audit informatique"/>
+						<tx l="eng" name="ما هو أعضاء فريق العمل الذين سيقومون بإجراء التدقيق ، ومتى يتم إجراؤه ، ومقدار الوقت المخصص لتدقيق تقنية المعلومات هذا"/>
 					</title>
 					<paElement nr="01" relatesto="" type="text" value="">
 						<title>
@@ -2385,7 +2385,7 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="03" RiskWeight="2" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Effectiveness of response"/>
 					<tx l="spa" name="Eficacia de la respuesta"/>
@@ -2807,7 +2807,7 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 					<ak>بالنسبة لأي تطوير أو استحواذ لمشروع ، تحتاج المنظمة إلى توثيق متطلبات ما يريدون وإدارة تلك المتطلبات. تتضمن إدارة المتطلبات تحديد أولوياتها باستخدام المعايير المعتمدة (على سبيل المثال الحرجية والتكلفة والتعقيد) وتقسيمها إلى مراحل إذا كان لا يمكن تنفيذها جميعًا في نظام أولي واحد.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="Identify user requirements for IT Systems"/>
 					<tx l="spa" name="Identificar los requisitos de los usuarios para los sistemas de TI."/>
@@ -2975,7 +2975,7 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 					<ak>تتضمن إدارة المشروع تحديد خطة المشروع وأنشطة المراقبة. تتضمن إدارة المشروع تحديد التكلفة والجدول الزمني الأساسي ، وتحديد الجداول الزمنية للمشروع ، وإشراك أصحاب المصلحة في الأنشطة الرئيسية. تتضمن مراقبة المشروع الإشراف وإعداد التقارير الدورية لاتخاذ الإجراءات التصحيحية عندما لا يتوافق أداء المشروع مع الخطة.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="Plan for the development or acquisition of IT projects"/>
 					<tx l="spa" name="Planificar el desarrollo o adquisición de proyectos de TI"/>
@@ -3048,7 +3048,7 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="Control IT projects"/>
 					<tx l="spa" name="Control de proyectos de TI"/>
@@ -3121,7 +3121,7 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="03" RiskWeight="2" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="Project related risk management"/>
 					<tx l="spa" name="Gestión de riesgos relacionados con el proyecto"/>
@@ -3384,7 +3384,7 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 					<ak>طلب تقديم العروض هو عملية توثيق متطلبات العمل وجمع المواد المرجعية الأخرى التي ستساعد البائع في توفير حل تكنولوجيا المعلومات. يتضمن إنشاء حزمة الالتماس وطرحها للمزايدة والحصول على العروض والاختيار بين مختلف البائعين.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="01" RiskWeight="2" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="Plan or procedure of solicitation activities"/>
 					<tx l="spa" name="Plan o procedimiento de actividades de licitación"/>
@@ -3457,7 +3457,7 @@ etranglements et de planifier les changements de capacité anticipés (matériel
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="02" RiskWeight="3" Include="No" Remarks="">
 				<title>
 					<tx l="eng" name="Selecting a vendor"/>
 					<tx l="spa" name="Seleccionar un proveedor"/>
@@ -7537,7 +7537,7 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="Application controls"/>
 					<tx l="spa" name="Controles de aplicación"/>

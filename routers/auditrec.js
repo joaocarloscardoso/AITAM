@@ -10,6 +10,8 @@ var credentials = require('../credentials.js');
 var AuditRecommendations = require('../lib/auditrec.js');
 //logging system
 var log = require('../lib/log.js');
+//trace system
+var trace = require('../lib/audittrace.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
 //common business functions
@@ -50,6 +52,8 @@ auditrec.get('/auditrecs',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Recommendations > Recommendations Table accessed');
+
         var reccatalog = AuditRecommendations.LoadAuditRecommendations(NewAuditFile, req.session.lang);
         //var teste = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
         res.render('toolaudit/toolwork', {
@@ -96,6 +100,8 @@ auditrec.get('/deleteauditrec/:auditrecId',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Recommendations > Recommendation deleted');
+
         var status = AuditRecommendations.DeleteAuditRecommendation(NewAuditFile, req.params.auditrecId);
         var reccatalog = AuditRecommendations.LoadAuditRecommendations(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {

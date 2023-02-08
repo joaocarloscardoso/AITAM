@@ -50,7 +50,9 @@ findingaudit.get('/auditfindings',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Findings Table accessed');
         var findingscatalog = Findings.LoadFindings(NewAuditFile, req.session.lang);
+
         //var teste = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
         res.render('toolaudit/toolwork', {
             action: 'audit',
@@ -93,6 +95,8 @@ findingaudit.post('/auditfindings', function(req, res){
     var appObjects = appLang.GetData(req.session.lang);
     
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Findings > Findings Table modified');
+
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
             log.warn('Object req.body missing on tool audit findings');
@@ -152,6 +156,8 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Findings > Findingdeleted');
+
         var status = Findings.DeleteFinding(NewAuditFile, req.params.findingId);
         var findingscatalog = Findings.LoadFindings(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {
