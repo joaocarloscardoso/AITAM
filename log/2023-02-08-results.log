@@ -95,3 +95,4 @@
 {"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2023-02-08 19:32:52"}
 {"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file-upload\":{\"size\":920393,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\b64a4c89-f18d-41a8-9c16-8010abbcca2c.xml\",\"name\":\"a549f860-51a6-462a-b935-831cff832ff3 (1).xml\",\"type\":\"text/xml\",\"mtime\":\"2023-02-08T19:32:56.547Z\"}}","timestamp":"2023-02-08 19:32:56"}
 {"level":"\u001b[34minfo\u001b[39m","message":"audit file download: C:\\develop\\nodejs\\projects\\aitam\\work\\b64a4c89-f18d-41a8-9c16-8010abbcca2c.xml","timestamp":"2023-02-08 19:33:15"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-02-08 19:35:31"}
