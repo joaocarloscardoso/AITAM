@@ -1,0 +1,4 @@
+Audit Created|4f633f5d-c729-42f7-bb8c-445be6466495|fcf98a2df2fddeabc4b86f74adb6e843|C:\develop\nodejs\projects\aitam\work\4f633f5d-c729-42f7-bb8c-445be6466495.xml|2023-02-09 12:30:34
+Plan > Preliminary Activities > Preliminary Activity Matrix modified|4f633f5d-c729-42f7-bb8c-445be6466495|bb95847651a0b230f8be116dfe63bfb3|C:\develop\nodejs\projects\aitam\work\4f633f5d-c729-42f7-bb8c-445be6466495.xml|2023-02-09 12:32:04
+Plan > Sync between Risk table and Preliminary Activities done|4f633f5d-c729-42f7-bb8c-445be6466495|6e934a7478d05b82099edb72c598679a|C:\develop\nodejs\projects\aitam\work\4f633f5d-c729-42f7-bb8c-445be6466495.xml|2023-02-09 12:32:10
+Plan > Sync between Risk table and Preliminary Activities done|4f633f5d-c729-42f7-bb8c-445be6466495|3766fe619a7d4b1bef70bff2f1e2abbb|C:\develop\nodejs\projects\aitam\work\4f633f5d-c729-42f7-bb8c-445be6466495.xml|2023-02-09 12:32:40
