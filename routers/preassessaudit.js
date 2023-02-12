@@ -50,7 +50,7 @@ preassessaudit.get('/auditpreassessment',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Preliminary activities area accessed');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Preliminary activities area accessed', 'Plan');
 
         var preassesscatalog = PreAssessment.LoadPreAssessment(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {

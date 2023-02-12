@@ -52,7 +52,7 @@ auditrec.get('/auditrecs',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Recommendations > Recommendations Table accessed');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Recommendations > Recommendations Table accessed', 'Recommendations');
 
         var reccatalog = AuditRecommendations.LoadAuditRecommendations(NewAuditFile, req.session.lang);
         //var teste = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
@@ -100,7 +100,7 @@ auditrec.get('/deleteauditrec/:auditrecId',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Recommendations > Recommendation deleted');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Recommendations > Recommendation deleted', 'Recommendations');
 
         var status = AuditRecommendations.DeleteAuditRecommendation(NewAuditFile, req.params.auditrecId);
         var reccatalog = AuditRecommendations.LoadAuditRecommendations(NewAuditFile, req.session.lang);

@@ -50,7 +50,7 @@ findingaudit.get('/auditfindings',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Findings Table accessed');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Findings Table accessed', 'Findings');
         var findingscatalog = Findings.LoadFindings(NewAuditFile, req.session.lang);
 
         //var teste = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
@@ -95,7 +95,7 @@ findingaudit.post('/auditfindings', function(req, res){
     var appObjects = appLang.GetData(req.session.lang);
     
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Findings > Findings Table modified');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Findings > Findings Table modified', 'Findings');
 
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
@@ -156,7 +156,7 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Findings > Findingdeleted');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Findings > Finding deleted', 'Findings');
 
         var status = Findings.DeleteFinding(NewAuditFile, req.params.findingId);
         var findingscatalog = Findings.LoadFindings(NewAuditFile, req.session.lang);
