@@ -261,6 +261,69 @@ tooleaudit.get('/auditstatistics',function(req,res){
     }
 });
 
+tooleaudit.get('/auditlog',function(req,res){
+    //res.send('Hello e-gov');
+    //res.json(persons);
+    var NewAuditFile = credentials.WorkSetPath;
+    NewAuditFile = NewAuditFile + req.sessionID + '.xml';
+    var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
+    var status = InitialAudit.VerifyAuditFile(NewAuditFile);
+
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
+    var appObjects = appLang.GetData(req.session.lang);
+
+    if (status) {
+        var GeneralOpCatalog = trace.GeneralOpCharacterization(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.session.lang);
+
+        var GeneralDomainCatalog = statisticsService.GeneralDomainCharacterization(NewAuditFile, req.session.lang);
+        var GeneralRiskCatalog = statisticsService.GeneralRiskCharacterization(NewAuditFile, req.session.lang);
+        var Domain01Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '01', req.session.lang);
+        var Domain02Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '02', req.session.lang);
+        var Domain03Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '03', req.session.lang);
+        var Domain04Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '04', req.session.lang);
+        var Domain05Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '05', req.session.lang);
+        var Domain06Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '06', req.session.lang);
+        var Domain07Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '07', req.session.lang);
+        res.render('toolaudit/toolwork', {
+            action: 'audit',
+            operation: 'audit_stats',
+            AuditErrors: '',
+            GeneralDomainCatalog: GeneralDomainCatalog,
+            GeneralRiskCatalog: GeneralRiskCatalog,
+            Domain01Catalog: Domain01Catalog,
+            Domain02Catalog: Domain02Catalog,
+            Domain03Catalog: Domain03Catalog,
+            Domain04Catalog: Domain04Catalog,
+            Domain05Catalog: Domain05Catalog,
+            Domain06Catalog: Domain06Catalog,
+            Domain07Catalog: Domain07Catalog,
+            msg: '',
+            auditfile: 'work/' + req.sessionID + '.xml',
+            audit: status,
+            rectracking: credentials.portfolio,
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
+        });
+    } else {
+        res.render('login/login', {
+            action: 'login',
+            //persons: persons,
+            auditfile: '',
+            audit: status,
+            rectracking: credentials.portfolio,
+            user:'',
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
+        });
+    }
+});
+
+
 tooleaudit.post('/tooleditaudit', function(req, res){
     var form = new formidable.IncomingForm();
     form.uploadDir = credentials.WorkSetPath;
