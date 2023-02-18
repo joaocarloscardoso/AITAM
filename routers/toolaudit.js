@@ -277,28 +277,11 @@ tooleaudit.get('/auditlog',function(req,res){
     if (status) {
         var GeneralOpCatalog = trace.GeneralOpCharacterization(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.session.lang);
 
-        var GeneralDomainCatalog = statisticsService.GeneralDomainCharacterization(NewAuditFile, req.session.lang);
-        var GeneralRiskCatalog = statisticsService.GeneralRiskCharacterization(NewAuditFile, req.session.lang);
-        var Domain01Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '01', req.session.lang);
-        var Domain02Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '02', req.session.lang);
-        var Domain03Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '03', req.session.lang);
-        var Domain04Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '04', req.session.lang);
-        var Domain05Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '05', req.session.lang);
-        var Domain06Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '06', req.session.lang);
-        var Domain07Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '07', req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',
-            operation: 'audit_stats',
+            operation: 'audit_history',
             AuditErrors: '',
-            GeneralDomainCatalog: GeneralDomainCatalog,
-            GeneralRiskCatalog: GeneralRiskCatalog,
-            Domain01Catalog: Domain01Catalog,
-            Domain02Catalog: Domain02Catalog,
-            Domain03Catalog: Domain03Catalog,
-            Domain04Catalog: Domain04Catalog,
-            Domain05Catalog: Domain05Catalog,
-            Domain06Catalog: Domain06Catalog,
-            Domain07Catalog: Domain07Catalog,
+            GeneralOpCatalog: GeneralOpCatalog,
             msg: '',
             auditfile: 'work/' + req.sessionID + '.xml',
             audit: status,
