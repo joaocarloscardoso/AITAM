@@ -76,52 +76,52 @@
 		},
 		"planExportList": {
 			"name": "Export list", 
-			"tooltip":"This functionality generates a word processing document containing the planning list"
+			"tooltip":"Generates a Word document containing the planning list"
 		},
 		"planAuditProgramme": {
 			"name": "Audit programme", 
-			"tooltip":"This functionality generates a word processing document containing the audit programme"
+			"tooltip":"Word document containing the audit programme"
 		},
 		"planAuditMatrix": {
 			"name": "Audit matrix", 
-			"tooltip":"This functionality generates the methodological audit matrix"
+			"tooltip":"Generates the methodological audit matrix"
 		},
 		"planRiskHeatMatrix": {
 			"name": "Risk heat matrix", 
-			"tooltip":"This functionality generates the risk heat matrix",
+			"tooltip":"Creates the risk heat matrix",
 			"introduction": "For a complete picture please use the "
 		},
 		"planCollectionMatrices": {
 			"name": "Collection of matrices", 
-			"tooltip":"This functionality generates the matrices collection of all issues included in audit"
+			"tooltip":"Word document containing all matrices included in the audit"
 		},
 		"findingCreateFinding": {
 			"name": "Create finding", 
-			"tooltip":""
+			"tooltip":"Opens form of a new finding"
 		},
 		"findingCloseCreateFinding": {
 			"name": "Close this and create new", 
-			"tooltip":""
+			"tooltip":"Save first!"
 		},
 		"findingExecutiveSummary": {
 			"name": "Executive summary", 
-			"tooltip":"This functionality generates a word processing document containing the Executive summary"
+			"tooltip":"Generates a Word document containing the Executive Summary"
 		},
 		"findingExecutiveSummaryRecommendations": {
 			"name": "Executive summary (include recommendations)", 
-			"tooltip":"This functionality generates a word processing document containing the Executive summary with recommendations"
+			"tooltip":"Generates a word processing document containing the Executive Summary with recommendations"
 		},
 		"recommendationCreateRecommendation":{
 			"name":"Create Recommendation",
-			"tooltip":""
+			"tooltip":"Opens form of a new recommendation"
 		},
 		"recommendationCloseCreateRecommendation":{
 			"name":"Close this and create new",
-			"tooltip":""
+			"tooltip":"Save first!"
 		},
 		"recommendationTrackReport":{
 			"name":"Track report",
-			"tooltip":"This functionality generates a word processing document containing the audit recommendations track report"
+			"tooltip":"Word document containing the audit recommendations track report"
 		},
 		"recommendationsAddFinding":{
 			"name":"add new item...",
