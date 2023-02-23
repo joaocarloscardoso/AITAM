@@ -125,7 +125,7 @@
 		},
 		"recommendationsAddFinding":{
 			"name":"add new item...",
-			"tooltip":""
+			"tooltip":"Select connected recommendation(s)"
 		},
 		"recommendationsDeleteFinding":{
 			"name":"Delete...",
