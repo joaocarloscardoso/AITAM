@@ -913,7 +913,7 @@
 					<ak>تقوم قيادة المنظمة بتوجيه وتقييم ومراقبة استخدام تكنولوجيا المعلومات بشكل فعال في المنظمة من أجل تحقيق مهمة المنظمة.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="Defining IT requirements"/>
 					<tx l="spa" name="Definición de requisitos de TI"/>
@@ -946,7 +946,7 @@
 					<AuditIssue>Defining IT requirements</AuditIssue>
 					<Criteria>
 						<cri>
-							<tx l="eng" name="How does the organization identify and approve business and IT requirements?"/>
+							<tx l="eng" name="How does the organization identify and approve business and IT requirements?The organization has a plan on how they identify emerging business or IT needs and the Steering Committee approving requirements has sufficient information to make their decisions."/>
 							<tx l="spa" name="¿Cómo identifica y aprueba la organización los requisitos de negocio y de TI?"/>
 							<tx l="fre" name="Comment l&apos;organisation identifie-t-elle et approuve-t-elle les besoins de l&apos;entreprise et informatiques?"/>
 							<tx l="ara" name="كيف تحدد المنظمة وتوافق على متطلبات الأعمال وتكنولوجيا المعلومات؟"/>
@@ -960,7 +960,7 @@
 					</Criteria>
 					<InformationRequired>
 						<inf>
-							<tx l="eng" name="Requirements management process"/>
+							<tx l="eng" name="Requirements management processSteering committee minutesSteering committee charter and operating principles including approval and reject thresholds.List of approved and rejected requirement."/>
 							<tx l="spa" name="Proceso de gestión de requisitos"/>
 							<tx l="fre" name="Processus de gestion des besoins"/>
 							<tx l="ara" name="عملية إدارة المتطلبات"/>
@@ -986,7 +986,7 @@
 					</InformationRequired>
 					<AnalysisMethod>
 						<anm>
-							<tx l="eng" name="Review of documents to ensure that new business requirements are identified and analyzed according to the organization’s requirements management process."/>
+							<tx l="eng" name="Review of documents to ensure that new business requirements are identified and analyzed according to the organization’s requirements management process.Review of approved or rejected requirements to ensure that these are in accordance with accepted operating principles.Interview management or others responsible for approving projects to ensure that they take into account the IT organizations capabilities, skills, resources, and training, and the ability of the users to utilize the new tools and methods or procedures."/>
 							<tx l="spa" name="Revisión de documentos para garantizar que los nuevos requisitos de negocio se identifiquen y analicen de acuerdo con el proceso de gestión de requisitos de la organización."/>
 							<tx l="fre" name="Examen des documents pour s&apos;assurer que les nouvelles exigences opérationnelles sont identifiées et analysées conformément au processus de gestion des exigences de l&apos;organisation."/>
 							<tx l="ara" name="مراجعة المستندات لضمان تحديد متطلبات العمل الجديدة وتحليلها وفقًا لعملية إدارة متطلبات المؤسسة."/>
@@ -1022,7 +1022,7 @@
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="02" RiskWeight="2" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="Leadership"/>
 					<tx l="spa" name="Liderazgo"/>
@@ -1113,7 +1113,7 @@
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="03" RiskWeight="3" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="IT Investments"/>
 					<tx l="spa" name="Inversiones en TI"/>
@@ -7949,4 +7949,4 @@ La planification de reprise après sinistre (DRP) est le processus de planificat
 		</Area>
 	</Domain>
 </ActiveITAuditDomains>
-<PlugIns/><Cases><Case nr="F20230221-155839" nm="aaaa" eff="aaa" act="test" doc="tes" Include="Yes" number="1" name="a1"><cts source="AITAM" domain="03 Development and Acquisition" area="01 Requirements Development and Management" issue="01 Identify user requirements for IT Systems"/><quote type="description">teste</quote><quote type="recommendation">test</quote></Case></Cases></Audit>
+<PlugIns/><Cases><Case nr="F20230221-155839" nm="aaaa" eff="aaa" act="test" doc="tes" Include="Yes" number="1" name="a1"><cts source="AITAM" domain="03 Development and Acquisition" area="01 Requirements Development and Management" issue="01 Identify user requirements for IT Systems"/><quote type="description">teste</quote><quote type="recommendation">test</quote></Case></Cases><Recommendations><Recommendation nr="R20230303-120840" priority="Urgent" risk="Governance" riskevaluation="State" accepted="Yes" repeated="No" importance="Strategic" category="adsad" number="1"><quote type="description">asdasda</quote><quote type="aplan">asdadasd</quote><quote type="responsible"/><quote type="timeline"/><quote type="outcome"/><quote type="remarks"/><findings><finding nr="F20230221-155839"/></findings><monitoring/></Recommendation></Recommendations></Audit>

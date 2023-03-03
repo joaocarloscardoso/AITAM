@@ -913,7 +913,7 @@
 					<ak>تقوم قيادة المنظمة بتوجيه وتقييم ومراقبة استخدام تكنولوجيا المعلومات بشكل فعال في المنظمة من أجل تحقيق مهمة المنظمة.</ak>
 				</narr>
 			</Narrative>
-			<Issue nr="01" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="01" RiskWeight="3" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="Defining IT requirements"/>
 					<tx l="spa" name="Definición de requisitos de TI"/>
@@ -1022,7 +1022,7 @@
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="02" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="02" RiskWeight="3" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="Leadership"/>
 					<tx l="spa" name="Liderazgo"/>
@@ -1113,7 +1113,7 @@
 					</Conclusion>
 				</Matrix>
 			</Issue>
-			<Issue nr="03" RiskWeight="1" Include="No" Remarks="">
+			<Issue nr="03" RiskWeight="2" Include="Yes" Remarks="">
 				<title>
 					<tx l="eng" name="IT Investments"/>
 					<tx l="spa" name="Inversiones en TI"/>
