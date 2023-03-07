@@ -275,6 +275,7 @@ tooleaudit.get('/auditlog',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Audit history', 'Analytical');
         var GeneralOpCatalog = trace.GeneralOpCharacterization(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.session.lang);
 
         res.render('toolaudit/toolwork', {
