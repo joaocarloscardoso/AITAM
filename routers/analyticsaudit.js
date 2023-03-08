@@ -10,6 +10,8 @@ var credentials = require('../credentials.js');
 var Findings = require('../lib/findings.js');
 //logging system
 var log = require('../lib/log.js');
+//trace system
+var trace = require('../lib/audittrace.js');
 //nlp
 var nlp = require('../lib/nlp.js');
 //multilanguage support
@@ -60,6 +62,8 @@ analyticsaudit.get('/Findings',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Analysis accessed', 'Findings');
+
         var GeneralDomainCatalog = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile, req.session.lang);
         var Domain01Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '01', req.session.lang);
         //console.log('d01');
@@ -122,6 +126,8 @@ analyticsaudit.get('/Recommendations',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Hints accessed (1)', 'Plan');
+
         var CrawlerFile = credentials.WorkSetPath;
         CrawlerFile = CrawlerFile + req.sessionID + '.src';
         var TokenizerFile = credentials.WorkSetPath;
@@ -174,6 +180,8 @@ analyticsaudit.post('/Recommendations',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Hints accessed (2)', 'Plan');
+
         var VectorFile = credentials.WorkSetPath;
         VectorFile = VectorFile + req.sessionID + '.vec';
         //var CypherQuery = nlp.GetCypherQuery(VectorFile);
@@ -317,6 +325,8 @@ analyticsaudit.get('/SentimentFindings',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Sentiment Analysis accessed (1)', 'Findings');
+
         var SentimentFile = credentials.WorkSetPath;
         SentimentFile = SentimentFile + req.sessionID + '.sent';
         Vector = nlp.NLPSentimentFindings(NewAuditFile, SentimentFile, req.session.lang);
@@ -362,6 +372,8 @@ analyticsaudit.get('/SentimentFindingsDetailed',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Sentiment Analysis accessed (2)', 'Findings');
+
         var SentimentFile = credentials.WorkSetPath;
         SentimentFile = SentimentFile + req.sessionID + '.sent';
         Vector = nlp.NLPSentimentFindingsDetailed(SentimentFile, req.query.id, req.session.lang);
@@ -409,6 +421,8 @@ analyticsaudit.get('/StatsRecommendations',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Recommendations > Tracking accessed', 'Recommendations');
+
         var SentimentFile = credentials.WorkSetPath;
         SentimentFile = SentimentFile + req.sessionID + '.sent';
         var DataRecommendations = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile, req.session.lang);
@@ -454,6 +468,8 @@ analyticsaudit.get('/AuditMap',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Overview > Audit Tree Map accessed', 'Load/General');
+
         //var AuditMapFile = credentials.WorkSetPath;
         //AuditMapFile = AuditMapFile + 'test.map';
         //var DataAuditMap = AuditMap.LoadAuditMap(AuditMapFile);

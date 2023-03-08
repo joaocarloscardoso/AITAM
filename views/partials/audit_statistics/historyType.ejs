@@ -1,0 +1,15 @@
+<h1>Activities by Type</h1>
+<canvas id="chartjs-GRC" class="chartjs" width="undefined" height="undefined"></canvas>
+<script>new Chart(document.getElementById("chartjs-GRC"),
+    {"type":"doughnut",
+        "data":{"labels":["Load/General","Plan","Findings", "Recommendations","Analytical"],
+        "datasets":[
+        {
+            "label":"My First Dataset",
+            "data": [<%= GeneralOpCatalog.wType %>],
+            "backgroundColor":["rgb(54, 162, 235)","rgb(255, 205, 86)", "rgb(255, 99, 132)", "rgb(2, 90, 90)", "rgb(100, 100, 100)"]
+        }
+        ]}
+    }
+);
+</script>

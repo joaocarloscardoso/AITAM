@@ -14,7 +14,8 @@ var Recommendations = require('../lib/auditrec.js');
 var Excel = require('../lib/excel.js');
 //logging system
 var log = require('../lib/log.js');
-//multilanguage support
+//trace system
+var trace = require('../lib/audittrace.js');
 var appLang = require('../lib/language.js');
 //common business functions
 var commonF = require('../lib/common.js');
@@ -64,6 +65,9 @@ generatedocs.get('/docplanMatrix',function(req,res){
 
     if (status) {
         var data = Matrices.LoadPlanMatrix(NewAuditFile, req.query.plugin, req.query.domain, req.query.area, req.query.issue, req.session.lang);
+
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (plan matrix) generated', 'Plan');
+
         carbone.render('./public/templates/PlanMatrix.' + credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (plan matrix) generation error:  ' +err);
@@ -113,6 +117,8 @@ generatedocs.get('/docpreassessMatrix',function(req,res){
 
     if (status) {
         var data = Matrices.LoadPreAssessMatrix(NewAuditFile, req.query.area, req.query.issue, req.session.lang);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (preassessment matrix) generation', 'Plan');
+
         carbone.render('./public/templates/PreAssessMatrix.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (preassessment matrix) generation error:  ' +err);
@@ -161,6 +167,8 @@ generatedocs.get('/docfindingMatrix',function(req,res){
 
     if (status) {
         var data = Matrices.LoadFindingMatrix(NewAuditFile, req.query.id, req.session.lang);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (finding matrix) generation', 'Findings');
+
         carbone.render('./public/templates/FindingMatrix.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (finding matrix) generation error:  ' +err);
@@ -209,6 +217,8 @@ generatedocs.get('/docrecMatrix',function(req,res){
 
     if (status) {
         var data = Matrices.LoadRecommendationMatrix(NewAuditFile, req.query.id, req.session.lang);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (recommendation matrix) generation', 'Recommendations');
+
         carbone.render('./public/templates/RecMatrix.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (recommendation matrix) generation error:  ' +err);
@@ -257,6 +267,8 @@ generatedocs.get('/docauditprogramme',function(req,res){
 
     if (status) {
         var data = Docs.LoadAuditProgramme(NewAuditFile, req.session.lang);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (Audit Programme) generation', 'Plan');
+
         carbone.render('./public/templates/AuditProgramme.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (Audit Programme) generation error:  ' +err);
@@ -305,6 +317,8 @@ generatedocs.get('/docexecutivesummary',function(req,res){
 
     if (status) {
         var data = Docs.LoadExecutiveSummary(NewAuditFile, req.session.lang);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (Executive Summary) generation', 'Findings');
+
         carbone.render('./public/templates/AuditExecutiveSummary.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (Executive Summary) generation error:  ' +err);
@@ -353,6 +367,8 @@ generatedocs.get('/docplanList',function(req,res){
 
     if (status) {
         var data = Planning.LoadPlanning2Doc(NewAuditFile, req.query.op, req.session.lang);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (plan list) generation', 'Plan');
+
         carbone.render('./public/templates/PlanList.' + credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (plan list) generation error:  ' +err);
@@ -401,6 +417,8 @@ generatedocs.get('/docmatriceslist',function(req,res){
 
     if (status) {
         var data = Docs.LoadMatricesCollection(NewAuditFile, req.session.lang);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (Collection of Planning Matrices) generation', 'Plan');
+
         carbone.render('./public/templates/PlanMatrixCollection.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (Collection of Planning Matrices) generation error:  ' +err);
@@ -449,6 +467,8 @@ generatedocs.get('/rectrackreport',function(req,res){
 
     if (status) {
         var data = Recommendations.LoadAuditRecommendationsForAnalysis(NewAuditFile, req.session.lang);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (recommendations tracking report) generation', 'Plan');
+
         carbone.render('./public/templates/RecTrackReport.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (recommendations tracking report) generation error:  ' +err);
@@ -497,6 +517,8 @@ generatedocs.get('/docexecutivesummarywrecs',function(req,res){
 
     if (status) {
         var data = Docs.LoadExecutiveSummaryWRecs(NewAuditFile, req.session.lang);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (Executive Summary with recommendations) generation', 'Findings');
+
         carbone.render('./public/templates/AuditExecutiveSummaryWRecs.'+ credentials.ReportFormat, data, function(err, result){
             if (err) {
                 return log.info('document (Executive Summary with recommendations) generation error:  ' +err);
@@ -545,6 +567,8 @@ generatedocs.get('/docmethodmatrix',function(req,res){
 
     if (status) {
         var data = Docs.LoadAuditProgramme(NewAuditFile, req.session.lang);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (Method Matrix) generation', 'Plan');
+
         var workbook = Excel.GenerateMethologicalMatrix(data);
         workbook.xlsx.writeFile(NewDocFile)
             .then(function() {
@@ -583,6 +607,8 @@ generatedocs.get('/heatmatrix',function(req,res){
 
     if (status) {
         var heatdata = Docs.LoadPlanHeatMatrix(NewAuditFile, req.session.lang);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (Heat Matrix) generation', 'Plan');
+
         res.render('toolaudit/heatmatrix', {
             action: 'heatmatrix',
             operation: 'audit_plan_heatmatrix',
@@ -633,6 +659,8 @@ generatedocs.get('/analyticalrawdata',function(req,res){
         }
         newFileName  = newFileName + '_AnalyticalData_' + req.session.lang.toUpperCase().substring(0, 2)+'.xlsx';
 
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (analytical raw data) generation', 'Analytical');
+
         var workbook = Excel.GenerateRawData(NewAuditFile, req.session.lang);
         workbook.xlsx.writeFile(NewDocFile)
             .then(function() {
@@ -678,6 +706,8 @@ generatedocs.get('/proceduredata',function(req,res){
             newFileName  = req.sessionID;
         }
         newFileName  = newFileName + '_Procedures_' + req.session.lang.toUpperCase().substring(0, 2) + '.xlsx';
+
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Document (procedures) generation', 'Analytical');
 
         var workbook = Excel.GenerateProcedureData(NewAuditFile, req.session.lang);
         workbook.xlsx.writeFile(NewDocFile)

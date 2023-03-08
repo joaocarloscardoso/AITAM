@@ -10,6 +10,8 @@ var credentials = require('../credentials.js');
 var Findings = require('../lib/findings.js');
 //logging system
 var log = require('../lib/log.js');
+//trace system
+var trace = require('../lib/audittrace.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
 //common business functions
@@ -48,7 +50,9 @@ findingaudit.get('/auditfindings',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Findings Table accessed', 'Findings');
         var findingscatalog = Findings.LoadFindings(NewAuditFile, req.session.lang);
+
         //var teste = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile);
         res.render('toolaudit/toolwork', {
             action: 'audit',
@@ -91,6 +95,8 @@ findingaudit.post('/auditfindings', function(req, res){
     var appObjects = appLang.GetData(req.session.lang);
     
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Findings > Findings Table modified', 'Findings');
+
         //check if req.body is filled
         if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
             log.warn('Object req.body missing on tool audit findings');
@@ -150,6 +156,8 @@ findingaudit.get('/deleteauditfinding/:findingId',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Findings > Finding deleted', 'Findings');
+
         var status = Findings.DeleteFinding(NewAuditFile, req.params.findingId);
         var findingscatalog = Findings.LoadFindings(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {

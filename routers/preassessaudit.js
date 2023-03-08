@@ -10,6 +10,8 @@ var credentials = require('../credentials.js');
 var PreAssessment = require('../lib/preassessment.js');
 //logging system
 var log = require('../lib/log.js');
+//trace system library
+var trace = require('../lib/audittrace.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
 //common business functions
@@ -48,6 +50,8 @@ preassessaudit.get('/auditpreassessment',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Preliminary activities area accessed', 'Plan');
+
         var preassesscatalog = PreAssessment.LoadPreAssessment(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',

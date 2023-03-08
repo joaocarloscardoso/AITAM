@@ -14,6 +14,8 @@ var pluginsService = require('../lib/catplugins.js')(credentials.PlugInsPath);
 var statisticsService = require('../lib/statistics.js');
 //logging system
 var log = require('../lib/log.js');
+//trace system library
+var trace = require('../lib/audittrace.js');
 //multilanguage support
 var appLang = require('../lib/language.js');
 //common business functions
@@ -55,6 +57,7 @@ tooleaudit.get('/toolauditreference',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Overview > Audit Reference accessed', 'Load/General');
         var AuditReference = InitialAudit.GetAuditReference(NewAuditFile, req.session.lang);
         //console.log(AuditReference);
         res.render('toolaudit/toolwork', {
@@ -101,6 +104,7 @@ tooleaudit.get('/toolauditplugins',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Plug-ins accessed', 'Plan');
         var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile, req.session.lang);
         res.render('toolaudit/toolwork', {
             action: 'audit',
@@ -148,6 +152,9 @@ tooleaudit.get('/toolauditline',function(req,res){
     if (status) {
         //change to get interactions info : statisticsService
         var TimeLineCatalog = statisticsService.GetTimelineStatus(NewAuditFile, req.session.lang);
+
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Overview > Audit Control Dashboard accessed', 'Load/General');
+
 /*
         var PluginsCatalog = statisticsService.GetPluginsUsed(NewAuditFile, req.session.lang);
         var GeneralDomainCatalog = statisticsService.GeneralDomainCharacterization(NewAuditFile, req.session.lang);
@@ -206,6 +213,8 @@ tooleaudit.get('/auditstatistics',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Domain Characterization accessed','Plan');
+
         var GeneralDomainCatalog = statisticsService.GeneralDomainCharacterization(NewAuditFile, req.session.lang);
         var GeneralRiskCatalog = statisticsService.GeneralRiskCharacterization(NewAuditFile, req.session.lang);
         var Domain01Catalog = statisticsService.SpecificDomainCharacterization(NewAuditFile, '01', req.session.lang);
@@ -251,6 +260,53 @@ tooleaudit.get('/auditstatistics',function(req,res){
         });
     }
 });
+
+tooleaudit.get('/auditlog',function(req,res){
+    //res.send('Hello e-gov');
+    //res.json(persons);
+    var NewAuditFile = credentials.WorkSetPath;
+    NewAuditFile = NewAuditFile + req.sessionID + '.xml';
+    var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
+    var status = InitialAudit.VerifyAuditFile(NewAuditFile);
+
+    var user = commonF.GetUser(req);
+    req.session.lang = commonF.GetLang(req);
+
+    var appObjects = appLang.GetData(req.session.lang);
+
+    if (status) {
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Audit history', 'Analytical');
+        var GeneralOpCatalog = trace.GeneralOpCharacterization(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.session.lang);
+
+        res.render('toolaudit/toolwork', {
+            action: 'audit',
+            operation: 'audit_history',
+            AuditErrors: '',
+            GeneralOpCatalog: GeneralOpCatalog,
+            msg: '',
+            auditfile: 'work/' + req.sessionID + '.xml',
+            audit: status,
+            rectracking: credentials.portfolio,
+            user: user,
+            appButtons:  appObjects.buttons,
+            appAudit: appObjects.audit,
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
+        });
+    } else {
+        res.render('login/login', {
+            action: 'login',
+            //persons: persons,
+            auditfile: '',
+            audit: status,
+            rectracking: credentials.portfolio,
+            user:'',
+            sessionlang: req.session.lang,
+            nav: appObjects.pageNavigation
+        });
+    }
+});
+
 
 tooleaudit.post('/tooleditaudit', function(req, res){
     var form = new formidable.IncomingForm();
@@ -299,6 +355,7 @@ tooleaudit.post('/tooleditaudit', function(req, res){
             });
         }
         log.info(`User (` +  req.session.passport.user + `) uploaded a file: ${JSON.stringify(files)}`);
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, AuditFile, 1, 'Audit Uploaded', 'Load/General');
         //res.redirect(303, '/thank-you');
         //var CheckedAuditFile = credentials.WorkSetPath;
         //CheckedAuditFile = CheckedAuditFile + req.sessionID + '.xml';
@@ -367,6 +424,7 @@ tooleaudit.post('/toolnewaudit', function(req, res){
     //Create new audit file
     var InitialAudit = require('../lib/initialaudit.js')(NewAuditFile);
     InitialAudit.CreateInitialAuditXML();
+    trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 1, 'Audit Created', 'Load/General');
     //res.redirect(303, '/thank-you');
     return res.render('toolaudit/toolwork', {
         action: 'audit',
@@ -428,6 +486,8 @@ tooleaudit.post('/toolauditreference', [
         //Save reference on audit file
         var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
         InitialAudit.SetAuditReference(AuditFile, AuditReference, req.session.lang)
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, AuditFile, 1, 'Overview > Audit Reference modified', 'Load/General');
+
         //Issue #52: Automatic save/download on conclusion of key activities
         res.redirect('/toolaudit/work/download');
         //
@@ -470,6 +530,7 @@ tooleaudit.post('/toolauditplugins', function(req, res){
             }
             //save plugins selected for audit
             var status = pluginsService.setPluginsForAudit(PlugIns2Audit, NewAuditFile);
+            trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Plug-ins selected for audit', 'Plan');
 
             //reload plugins list and present save status
             var PluginsCatalog = pluginsService.getPluginsForAudit(NewAuditFile, req.session.lang);

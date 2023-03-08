@@ -26,7 +26,7 @@
                                     <p>Choose action to take</p>
                                 </header>
                                 <div class="row gtr-50">
-                                    <form method="POST"  action="/toolaudit/toolnewaudit">
+                                    <form method="POST" action="/toolaudit/toolnewaudit">
                                         <div class="col-12">
                                             <ul class="actions">
                                                 <li><input type="submit" class="button alt" value="Create New Audit...   " /></li>
@@ -37,14 +37,19 @@
                                 <hr>
                                 <br/>
                                 <div class="row gtr-50">
-                                    <div class="col-12">
-                                        <form id="upload-widget" style="width: 50%; border: 3px dashed rgba(7, 124, 173, 0.8);" method="post" action="/toolaudit/tooleditaudit" class="dropzone">
-                                        </form>
-                                        <br/>
-                                        <ul class="actions">
-                                            <li><a href="/toolaudit/toolauditline" class="button">Load and Edit Audit...</a></li>
-                                        </ul>
-                                    </div>
+                                    <form method="POST" enctype="multipart/form-data" action="/toolaudit/tooleditaudit">
+                                        <div class="col-6 col-12-mobilep">
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="fa fa-cloud-upload"></i> Search File
+                                            </label>
+                                            <input name="file-upload" id="file-upload" type="file" required accept=".xml"/>
+                                        </div>
+                                        <div class="col-12">
+                                            <ul class="actions">
+                                                <li><input type="submit" class="button alt" value="Load and Edit Audit..." /></li>
+                                            </ul>
+                                        </div>
+                                    </form>
                                 </div>
                             </article>
 						</div>
@@ -58,12 +63,6 @@
 
 		<!-- Scripts -->
 		<%- include('../partials/scripts'); -%>
-        <script>
-            Dropzone.options.uploadWidget = {
-                maxFiles: 1,
-                acceptedFiles: '.xml',
-                addRemoveLinks: true
-            };
-        </script>
+
 	</body>
 </html>
