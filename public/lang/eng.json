@@ -1,6 +1,6 @@
 { 
 	"messages":{
-		"mail_adress":"Invalid email!",
+		"mail_adress":"Invalid email address!",
 		"mail_name":"Name must be at least 3 chars long!",
 		"mail_message":"Message must be at least 3 chars long!",
 		"audit_file_version":"The audit file loaded belongs to an early version of AITAM. To ensure compatibility, working language will switch automatically to english!",
