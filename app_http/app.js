@@ -169,6 +169,7 @@ app.get('/',function(req,res){
 });
 
 app.get('/index',function(req,res){
+    //comment next line
     graphdb.CreateDictionary();
     log.info('Session created received the id:' + req.sessionID);
     var AuditFile = credentials.WorkSetPath;
@@ -364,10 +365,11 @@ app.use(function(req,res,next){
 
 
 //use app in http server
- app.listen(3000,function(){
-     graphdb.CreateDictionary();
-     console.log('Server started on port 3000...');
- });
+app.listen(3000,function(){
+    //comment next line
+    graphdb.CreateDictionary();
+    console.log('Server started on port 3000...');
+});
 
 //use app in https server
 /*

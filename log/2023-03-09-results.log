@@ -1,0 +1,24 @@
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\faktoria\\aitam\\work\\","timestamp":"2023-03-09 09:11:17"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\faktoria\\aitam\\work\\","timestamp":"2023-03-09 09:23:32"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\faktoria\\aitam\\work\\","timestamp":"2023-03-09 09:26:37"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:32f90bc2-e2e4-4ced-95c5-3e453ef43ccd","timestamp":"2023-03-09 09:28:52"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2023-03-09 09:28:53"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-03-09 09:29:14"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-03-09 09:29:31"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f01vvg\"}","timestamp":"2023-03-09 09:29:31"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f01vvg\",\"email\":\"NIK01@aitam.org\",\"password\":\"$2a$10$OZPJk4OGRtzN7qx7iQFNNeBYl9.n20F5YCRX3s0wov.Il3t9kjyS2\"}","timestamp":"2023-03-09 09:29:31"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\faktoria\\aitam\\work\\","timestamp":"2023-03-09 09:39:43"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:8389724e-9c7f-44ed-a4da-772cfc3d5983","timestamp":"2023-03-09 09:40:17"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2023-03-09 09:40:18"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:415a6d5a-581c-4054-a5d2-7f05c9383d78","timestamp":"2023-03-09 09:41:41"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:990deab1-8ccf-41c6-931a-76e50418e71a","timestamp":"2023-03-09 09:42:09"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2023-03-09 09:42:10"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-03-09 09:42:42"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f01vvg\"}","timestamp":"2023-03-09 09:42:42"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f01vvg\",\"email\":\"NIK01@aitam.org\",\"password\":\"$2a$10$OZPJk4OGRtzN7qx7iQFNNeBYl9.n20F5YCRX3s0wov.Il3t9kjyS2\"}","timestamp":"2023-03-09 09:42:42"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f01vvg) uploaded a file: {\"file\":{\"size\":868492,\"path\":\"C:\\\\faktoria\\\\aitam\\\\work\\\\5c06d2e3-e686-4151-b0c1-63f9181c7fb5.xml\",\"name\":\"ITAuditHandbook.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-03-09T08:43:26.798Z\"}}","timestamp":"2023-03-09 09:43:26"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\faktoria\\aitam\\work\\","timestamp":"2023-03-09 09:46:17"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-03-09 09:46:42"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f01vvg\"}","timestamp":"2023-03-09 09:46:42"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f01vvg\",\"email\":\"NIK01@aitam.org\",\"password\":\"$2a$10$OZPJk4OGRtzN7qx7iQFNNeBYl9.n20F5YCRX3s0wov.Il3t9kjyS2\"}","timestamp":"2023-03-09 09:46:42"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f01vvg) uploaded a file: {\"file\":{\"size\":193206,\"path\":\"C:\\\\faktoria\\\\aitam\\\\work\\\\72b059d5-6106-4558-b566-4a89d42f4ad2.xml\",\"name\":\"example_PI-oriented_pb-SchemaRemastered_withFinding.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-03-09T08:46:57.785Z\"}}","timestamp":"2023-03-09 09:46:57"}
