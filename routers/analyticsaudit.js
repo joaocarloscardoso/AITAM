@@ -62,7 +62,7 @@ analyticsaudit.get('/Findings',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Analysis accessed', 'Findings');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Analysis accessed', 'Analytical');
 
         var GeneralDomainCatalog = Findings.FindingsForGeneralDomainsAnalysis(NewAuditFile, req.session.lang);
         var Domain01Catalog = Findings.FindingsForSpecificDomainsAnalysis(NewAuditFile, '01', req.session.lang);
@@ -126,7 +126,7 @@ analyticsaudit.get('/Recommendations',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Hints accessed (1)', 'Plan');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Hints accessed (1)', 'Analytical');
 
         var CrawlerFile = credentials.WorkSetPath;
         CrawlerFile = CrawlerFile + req.sessionID + '.src';
@@ -180,7 +180,7 @@ analyticsaudit.post('/Recommendations',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Hints accessed (2)', 'Plan');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Plan > Hints accessed (2)', 'Analytical');
 
         var VectorFile = credentials.WorkSetPath;
         VectorFile = VectorFile + req.sessionID + '.vec';
@@ -325,7 +325,7 @@ analyticsaudit.get('/SentimentFindings',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Sentiment Analysis accessed (1)', 'Findings');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Sentiment Analysis accessed (1)', 'Analytical');
 
         var SentimentFile = credentials.WorkSetPath;
         SentimentFile = SentimentFile + req.sessionID + '.sent';
@@ -372,7 +372,7 @@ analyticsaudit.get('/SentimentFindingsDetailed',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Sentiment Analysis accessed (2)', 'Findings');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Findings > Sentiment Analysis accessed (2)', 'Analytical');
 
         var SentimentFile = credentials.WorkSetPath;
         SentimentFile = SentimentFile + req.sessionID + '.sent';
@@ -421,7 +421,7 @@ analyticsaudit.get('/StatsRecommendations',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Recommendations > Tracking accessed', 'Recommendations');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Recommendations > Tracking accessed', 'Analytical');
 
         var SentimentFile = credentials.WorkSetPath;
         SentimentFile = SentimentFile + req.sessionID + '.sent';
@@ -468,7 +468,7 @@ analyticsaudit.get('/AuditMap',function(req,res){
     var appObjects = appLang.GetData(req.session.lang);
 
     if (status) {
-        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Overview > Audit Tree Map accessed', 'Load/General');
+        trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, NewAuditFile, 0, 'Overview > Audit Tree Map accessed', 'Analytical');
 
         //var AuditMapFile = credentials.WorkSetPath;
         //AuditMapFile = AuditMapFile + 'test.map';
