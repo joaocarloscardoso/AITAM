@@ -155,7 +155,10 @@ app.use(passport.session());
 
 
 app.get('/',function(req,res){
-    graphdb.CreateDictionary();
+    
+    if (credentials.neo4jUse=="Yes"){
+        graphdb.CreateDictionary();
+    }
     log.info('Session created received the id:' + req.sessionID);
     var AuditFile = credentials.WorkSetPath;
     AuditFile = AuditFile + req.sessionID + '.xml';
@@ -180,7 +183,9 @@ app.get('/',function(req,res){
 });
 
 app.get('/index',function(req,res){
-    graphdb.CreateDictionary();
+    if (credentials.neo4jUse=="Yes"){
+        graphdb.CreateDictionary();
+    }
     log.info('Session created received the id:' + req.sessionID);
     var AuditFile = credentials.WorkSetPath;
     AuditFile = AuditFile + req.sessionID + '.xml';
@@ -401,6 +406,8 @@ https.createServer({
     cert: fs.readFileSync('./cert.pem'),
     passphrase: credentials.passPhrase
 },app).listen(httpsPort,function(){
-    graphdb.CreateDictionary()
+    if (credentials.neo4jUse=="Yes"){
+        graphdb.CreateDictionary();
+    }
     console.log('Server started on port ' + httpsPort.toString() +'...');
 });
