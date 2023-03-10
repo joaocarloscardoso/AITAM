@@ -1,0 +1,1 @@
+{"type":"Load/General", "operation":"Audit Uploaded", "session":"46cf0fd2-942c-4e7f-b096-a6f0245fb679", "snapshot":"85a73a8d8bfb7dda6c330308d5fff795", "auditFile":"C:|faktoria|aitam|work|46cf0fd2-942c-4e7f-b096-a6f0245fb679.xml", "event":"2023-03-10 06:40:59"},
