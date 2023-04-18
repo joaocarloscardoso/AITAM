@@ -1,2 +1,0 @@
-{"type":"Load/General", "operation":"Audit Uploaded", "session":"e4301079-ea0c-4a92-a5db-decb8578b036", "snapshot":"8f657a74934f23a167498fc2ab924d6f", "auditFile":"C:|faktoria|aitam|work|e4301079-ea0c-4a92-a5db-decb8578b036.xml", "event":"2023-03-10 07:05:47"},
-{"type":"Load/General", "operation":"Audit Uploaded", "session":"e4301079-ea0c-4a92-a5db-decb8578b036", "snapshot":"96334c3e7b1598a6908854cc3bc511d3", "auditFile":"C:|faktoria|aitam|work|e4301079-ea0c-4a92-a5db-decb8578b036.xml", "event":"2023-03-10 07:06:14"},

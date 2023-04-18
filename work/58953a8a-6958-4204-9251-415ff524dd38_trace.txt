@@ -1,2 +1,0 @@
-{"type":"Load/General", "operation":"Audit Uploaded", "session":"58953a8a-6958-4204-9251-415ff524dd38", "snapshot":"7dee89126f5afc2cccfe682a4d4a338d", "auditFile":"C:|develop|nodejs|projects|aitam|work|58953a8a-6958-4204-9251-415ff524dd38.xml", "event":"2023-03-10 14:47:59"},
-{"type":"Plan", "operation":"Plan > Risk table modified", "session":"58953a8a-6958-4204-9251-415ff524dd38", "snapshot":"507f8e731090685be9d4f5cbe678522c", "auditFile":"C:|develop|nodejs|projects|aitam|work|58953a8a-6958-4204-9251-415ff524dd38.xml", "event":"2023-03-10 14:48:07"},

@@ -1,4 +1,5 @@
-
+dgfd
+dfhdgfh
 Implication of the identified risk factor
 Assess whether the organization leadership effectively direct, evaluate and monitor IT use in the organization in order to fulfill the organization’s mission.
 How does the leadership direct and monitor the performance of business and IT objectives on a periodic basis?.
@@ -47,12 +48,6 @@ Compare project cost and schedule baselines with project status reports to asses
 Review the project management plan or risk management plan to determine that risks have been identified for the project, risks are categorized and have been assigned to individuals or groups to be monitored or mitigated as appropriate. Review risks management plan or interview project managers to determine whether they are following the organizational policy in managing their risks. Review minutes of meeting to ensure that risks are discussed periodically and that they are tracked and new risks if identified are entered into the risk register or wherever the complete set of risks for the project are documented. .
 Review the solicitation plan to ensure it covers areas such as user involvement, getting bids on a competitive basis, conducting market research prior to contract on areas as applicable, and that vendor selection is based on objective criteria. Interview key contracting personnel to assess how they ensure that the solicitation package is complete (for example by getting users, stakeholders, experts as appropriate to review it). Interview users or business owners to ensure that they were consulted during the generation of requirements or approved the technical requirements of the solicitation and / or the final bid package. Interview contracting officer(s) to assess how they ensure that the solicitation process follows applicable laws and regulations. .
 Analysis Method(s): Assess whether the application have adequate validity checks in place to ensure processing integrity. Inspect the functionality and design for the presence of sequence and duplication errors, referential integrity checks, control, and hash totals. Inspect reconciliations and other documents to verify whether input counts are coherent with output counts to ensure completeness of data processing. Trace transactions through the process to verify that reconciliations effectively determine whether file totals match or the out-of-balance condition is reported. Inquire whether control files are used to record transaction counts and monetary values, and that the values are compared after posting. Verify that reports are generated identifying out-of-balance conditions and that the reports are reviewed, approved and distributed to the appropriate personnel. Take a sample of data input transactions. Use appropriate automated analysis and search tools to identify cases where errors were identified erroneously and cases where errors were not detected. Inquire whether and confirm that utilities are used, where possible, to automatically maintain the integrity of data during unexpected interruptions in data processing. Inspect the audit trail and other documents, plans, policies and procedures to verify that system capabilities are effectively designed to automatically maintain data integrity. Inspect the functional description and design information on transaction data entry to verify whether transactions failing validation routines are posted to suspense files. Verify that suspense files are correctly and consistently produced and that users are informed of transactions posted to suspense accounts. For a sample of transaction systems, verify that suspense accounts and suspense files for transactions failing validation routines contain only recent errors. Confirm that older failing transactions have been appropriately remediated. .
-
-
-
-
-
-
 
 
 
