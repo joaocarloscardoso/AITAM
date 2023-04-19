@@ -229,7 +229,8 @@
 				"recommendation":"التعليقات / الملاحظات الداخلية",
 				"referenceLegalAct":"إشارة إلى البند القانوني",
 				"referenceReport":"إشارة إلى التقرير",
-				"domainsAreasIssuesMap": "خريطة المجالات والمناطق والمسائل"
+				"domainsAreasIssuesMap": "خريطة المجالات والمناطق والمسائل",
+				"noplan": "لم يتم إجراء تقييم للمخاطر أو تضمينه في المراجعة! (زر حفظ معطل)"
 			}
 		},
 		"recommendations": {

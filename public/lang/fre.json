@@ -229,7 +229,8 @@
 				"recommendation":"Commentaires internes / Remarques",
 				"referenceLegalAct":"Référence à l'acte juridique",
 				"referenceReport":"Référence dans le rapport",
-				"domainsAreasIssuesMap": "Carte des domaines, des zones et des éléments"
+				"domainsAreasIssuesMap": "Carte des domaines, des zones et des éléments",
+				"noplan": "Aucune évaluation des risques effectuée ou incluse dans l'audit ! (Le bouton Sauvegarder est désactivé)"
 			}
 		},
 		"recommendations": {
