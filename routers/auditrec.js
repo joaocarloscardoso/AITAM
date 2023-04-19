@@ -17,7 +17,7 @@ var appLang = require('../lib/language.js');
 //common business functions
 var commonF = require('../lib/common.js');
 //multilanguage support
-var appLang = require('../lib/language.js');
+//var appLang = require('../lib/language.js');
 
 //generation of uuid
 //const uuid = require('uuid/v4');

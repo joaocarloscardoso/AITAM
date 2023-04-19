@@ -17,6 +17,8 @@ var log = require('./lib/log.js');
 var appLang = require('./lib/language.js');
 //common business functions
 var commonF = require('./lib/common.js');
+//trace system
+var trace = require('./lib/audittrace.js');
 //generation of uuid
 //old method bellow deprecated: https://github.com/uuidjs/uuid#deep-requires-now-deprecated
 //const uuid = require('uuid/v4');
@@ -165,6 +167,8 @@ app.get('/',function(req,res){
     var InitialAudit = require('./lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
 
+    trace.DeleteActivity(req.sessionID);
+    
     var user = commonF.GetUser(req);
     req.session.lang = commonF.GetLang(req);
 
@@ -191,6 +195,8 @@ app.get('/index',function(req,res){
     AuditFile = AuditFile + req.sessionID + '.xml';
     var InitialAudit = require('./lib/initialaudit.js')(AuditFile);
     var status = InitialAudit.VerifyAuditFile(AuditFile);
+
+    trace.DeleteActivity(req.sessionID);
 
     var user = commonF.GetUser(req);
     req.session.lang = commonF.GetLang(req);
@@ -244,8 +250,10 @@ app.post(('/work/delete'),function(req,res){
     var user = commonF.GetUser(req);
     req.session.lang = commonF.GetLang(req);
 
-    var appObjects = appLang.GetData(req.session.lang);
+    //delete history
+    trace.DeleteActivity(req.sessionID);
 
+    var appObjects = appLang.GetData(req.session.lang);
     if (status) {
         vDocfile = vDocfile.replace("/","\\");
 

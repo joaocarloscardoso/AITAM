@@ -1,0 +1,2 @@
+{"type":"Load/General", "operation":"Audit Uploaded", "session":"cbcbe5e4-a492-4bf6-a399-3aa31511979b", "snapshot":"9394b0c3384c30d015d2de176ab46412", "auditFile":"C:|develop|nodejs|projects|aitam|work|cbcbe5e4-a492-4bf6-a399-3aa31511979b.xml", "event":"2023-04-19 09:51:11"},
+{"type":"Load/General", "operation":"Overview > Audit Control Dashboard accessed", "session":"cbcbe5e4-a492-4bf6-a399-3aa31511979b", "snapshot":"", "auditFile":"C:|develop|nodejs|projects|aitam|work|cbcbe5e4-a492-4bf6-a399-3aa31511979b.xml", "event":"2023-04-19 09:51:13"},
