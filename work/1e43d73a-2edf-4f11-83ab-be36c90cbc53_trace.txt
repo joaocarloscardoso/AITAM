@@ -1,0 +1,1 @@
+{"type":"Load/General", "operation":"Audit Created", "session":"1e43d73a-2edf-4f11-83ab-be36c90cbc53", "snapshot":"ed9f97b67e873a2d5fa9d48a5ac27b7e", "auditFile":"C:|develop|nodejs|projects|aitam|work|1e43d73a-2edf-4f11-83ab-be36c90cbc53.xml", "event":"2023-04-19 09:56:36"},
