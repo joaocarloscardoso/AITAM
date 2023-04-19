@@ -229,7 +229,8 @@
 				"recommendation":"Comentarios / observaciones internas",
 				"referenceLegalAct":"Referencia a acto legal",
 				"referenceReport":"Referencia en el informe",
-				"domainsAreasIssuesMap": "Mapa de dominios, áreas y elementos"
+				"domainsAreasIssuesMap": "Mapa de dominios, áreas y elementos",
+				"noplan": "¡Ninguna evaluación de riesgos realizada o incluida en la auditoría! (El botón Guardar está deshabilitado)"
 			}
 		},
 		"recommendations": {

@@ -19,6 +19,13 @@
             </p>
         </div>
         <% } %>
+        <% if(Matrix.Domains == ''){ %>
+        <div class="col-12" id="err_auditmatrix">
+            <p>
+                <span class="errformtext">* <%=appAudit.findings.matrix.noplan %></span><br/>
+            </p>
+        </div>
+        <% } %>
         <form method="POST" action="/auditMatrices/findingMatrix">
             <div class="row gtr-50">
                 <div class="col-12">
@@ -32,7 +39,11 @@
                             <li><a href="/findingaudit/auditfindings" class="button"><%=appButtons.close.name %></a></li>
                         <% } %>
                         <li><a href="/auditMatrices/findingMatrix?id=New&number=<%= Matrix.Number %>" class="button"><%=appButtons.findingCloseCreateFinding.name %></a></li>
-                        <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
+                        <% if(Matrix.Domains == ''){ %>
+                            <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" disabled/></li>
+                        <% } else { %>
+                            <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
+                        <% } %>
                     </ul>
                 </div>
                 <div class="col-12">
@@ -136,7 +147,11 @@
                             <li><a href="/findingaudit/auditfindings" class="button"><%=appButtons.close.name %></a></li>
                         <% } %>
                         <li><a href="/auditMatrices/findingMatrix?id=New&number=<%= Matrix.Number %>" class="button"><%=appButtons.findingCloseCreateFinding.name %></a></li>
-                        <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
+                        <% if(Matrix.Domains == ''){ %>
+                            <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" disabled/></li>
+                        <% } else { %>
+                            <li><input type="submit" class="button alt" value="<%=appButtons.save.name %>" /></li>
+                        <% } %>
                     </ul>
                 </div>
             </div>
