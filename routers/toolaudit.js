@@ -537,6 +537,7 @@ tooleaudit.post('/toolauditreference', [
     else {
         //Save reference on audit file
         var InitialAudit = require('../lib/initialaudit.js')(AuditFile);
+
         InitialAudit.SetAuditReference(AuditFile, AuditReference, req.session.lang)
         trace.AddActivity(credentials.WorkSetPath + req.sessionID + '_trace.txt', req.sessionID, AuditFile, 1, 'Overview > Audit Reference modified', 'Load/General');
 
