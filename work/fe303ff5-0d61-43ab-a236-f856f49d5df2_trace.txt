@@ -1,0 +1,2 @@
+{"type":"Load/General", "operation":"Audit Created", "session":"fe303ff5-0d61-43ab-a236-f856f49d5df2", "snapshot":"4dc0c496f181a1bca0ef6a013929b91a", "auditFile":"C:|develop|nodejs|projects|aitam|work|fe303ff5-0d61-43ab-a236-f856f49d5df2.xml", "event":"2023-05-08 08:20:06"},
+{"type":"Load/General", "operation":"Overview > Audit Reference accessed", "session":"fe303ff5-0d61-43ab-a236-f856f49d5df2", "snapshot":"", "auditFile":"C:|develop|nodejs|projects|aitam|work|fe303ff5-0d61-43ab-a236-f856f49d5df2.xml", "event":"2023-05-08 08:20:08"},
