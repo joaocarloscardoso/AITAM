@@ -133,3 +133,53 @@
 {"level":"\u001b[34minfo\u001b[39m","message":"working audit file closed and deleted : C:\\develop\\nodejs\\projects\\aitam\\work\\03c6f9ea-9ddf-4662-8c7b-167f0b93957f.xml","timestamp":"2023-05-08 10:22:48"}
 {"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file\":{\"size\":922363,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\03c6f9ea-9ddf-4662-8c7b-167f0b93957f.xml\",\"name\":\"4366da29-2735-427b-8473-72399d9e54ae_EN.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-05-08T09:22:54.613Z\"}}","timestamp":"2023-05-08 10:22:54"}
 {"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-05-08 10:24:25"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-05-08 10:24:34"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-05-08 10:29:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2023-05-08 10:29:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2023-05-08 10:29:00"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file\":{\"size\":922363,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\da8a1715-7b4b-4419-97eb-9cc083405a90.xml\",\"name\":\"4366da29-2735-427b-8473-72399d9e54ae_EN.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-05-08T09:37:58.284Z\"}}","timestamp":"2023-05-08 10:37:58"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-05-08 12:28:08"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:5668d703-e68d-4f40-84cc-1e1d424bb5e9","timestamp":"2023-05-08 12:29:04"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2023-05-08 12:29:05"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-05-08 12:29:13"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2023-05-08 12:29:13"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2023-05-08 12:29:13"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file\":{\"size\":922363,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\ad24d7ff-e43d-4a10-8326-82d3612b15b1.xml\",\"name\":\"4366da29-2735-427b-8473-72399d9e54ae_EN.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-05-08T11:29:23.592Z\"}}","timestamp":"2023-05-08 12:29:23"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-05-08 12:32:19"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:916e538c-2661-4530-8056-a9057ce36efd","timestamp":"2023-05-08 12:32:25"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-05-08 12:32:35"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2023-05-08 12:32:35"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2023-05-08 12:32:35"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file\":{\"size\":922363,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\ab1df165-d5aa-45e4-b558-a26b41465945.xml\",\"name\":\"4366da29-2735-427b-8473-72399d9e54ae_EN.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-05-08T11:32:46.961Z\"}}","timestamp":"2023-05-08 12:32:47"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-05-08 12:33:26"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:e1678e84-e419-46ed-9961-5d07d81caf3b","timestamp":"2023-05-08 12:33:33"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-05-08 12:33:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2023-05-08 12:33:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2023-05-08 12:33:40"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file\":{\"size\":922363,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\6e5b5c84-1b56-4dc6-8755-9461f9122415.xml\",\"name\":\"4366da29-2735-427b-8473-72399d9e54ae_EN.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-05-08T11:33:46.276Z\"}}","timestamp":"2023-05-08 12:33:46"}
+{"level":"\u001b[34minfo\u001b[39m","message":"audit file download: C:\\develop\\nodejs\\projects\\aitam\\work\\6e5b5c84-1b56-4dc6-8755-9461f9122415.xml","timestamp":"2023-05-08 12:33:57"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-05-08 12:35:25"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:2bbccd4f-1035-4414-8374-41aba7fcb052","timestamp":"2023-05-08 12:35:28"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-05-08 12:35:34"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2023-05-08 12:35:34"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2023-05-08 12:35:34"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file\":{\"size\":922363,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\9f215276-fed2-442b-ba47-689adbd5a8b4.xml\",\"name\":\"4366da29-2735-427b-8473-72399d9e54ae_EN.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-05-08T11:35:39.416Z\"}}","timestamp":"2023-05-08 12:35:39"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-05-08 12:42:51"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:6c299c68-0748-4442-9d8b-88feed13b744","timestamp":"2023-05-08 12:43:05"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-05-08 12:43:13"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2023-05-08 12:43:13"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2023-05-08 12:43:13"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file\":{\"size\":922363,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\dda95fd1-db46-4261-8f4f-ea05bcaa6ed0.xml\",\"name\":\"4366da29-2735-427b-8473-72399d9e54ae_EN.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-05-08T11:43:18.438Z\"}}","timestamp":"2023-05-08 12:43:18"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-05-08 12:43:38"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:59c3c04c-0d6f-4234-ae0a-e2c0ea55412e","timestamp":"2023-05-08 12:43:42"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-05-08 12:43:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2023-05-08 12:43:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2023-05-08 12:43:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file\":{\"size\":922363,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\a969d5e1-e1a4-4b35-8bb0-be5dd483cac9.xml\",\"name\":\"4366da29-2735-427b-8473-72399d9e54ae_EN.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-05-08T11:43:52.943Z\"}}","timestamp":"2023-05-08 12:43:53"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-05-08 12:46:19"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-05-08 12:51:32"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:b7f59f75-d428-4fd5-9677-ac9ccc614f01","timestamp":"2023-05-08 12:51:39"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-05-08 12:51:45"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2023-05-08 12:51:45"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2023-05-08 12:51:45"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file\":{\"size\":922363,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\df6e3d8f-a815-428c-8df3-4d4ceae5d79b.xml\",\"name\":\"4366da29-2735-427b-8473-72399d9e54ae_EN.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-05-08T11:51:49.049Z\"}}","timestamp":"2023-05-08 12:51:49"}
