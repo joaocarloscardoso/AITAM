@@ -330,6 +330,7 @@
 		},
 		"Recommendation": {
 			"Priority": {
+				" ":{ "name":" ", "value":"0" },
 				"Regular":{ "name":"عادية", "value":"0" },
 				"Urgent":{ "name":"عاجلة","value":"0" }
 			},
@@ -349,6 +350,7 @@
 				"Entity":{ "name":"الهيئة", "value":"0" }
 			},
 			"Importance": {
+				" ":{ "name":" ", "value":"0" },
 				"Important":{ "name":"التشغيل", "value":"0" },
 				"Strategic":{ "name":"استراتيجية", "value":"0" }
 			},
