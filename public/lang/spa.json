@@ -330,6 +330,7 @@
 		},
 		"Recommendation": {
 			"Priority": {
+				" ":{ "name":" ", "value":"0" },
 				"Urgent":{ "name":"Urgente","value":"0" },
 				"Regular":{ "name":"Regular", "value":"0" }
 			},
@@ -349,6 +350,7 @@
 				"Entity":{ "name":"Entidad", "value":"0" }
 			},
 			"Importance": {
+				" ":{ "name":" ", "value":"0" },
 				"Strategic":{ "name":"Estratégico", "value":"0" },
 				"Important":{ "name":"Operacional", "value":"0" }
 			},

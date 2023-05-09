@@ -78,6 +78,7 @@
             );
             
             var source = <%- JSON.stringify(data.edges) %>; 
+            var sourceNodes = <%- JSON.stringify(data.nodes) %>; 
 
             // create an array with edges
             var edges = new vis.DataSet(
@@ -137,6 +138,22 @@
                 return null;
             };
             
+            var keep = function(collection, value) {
+                var group=0
+                for (var j=0; j<collection.length; j++) {
+                    if (collection[j].id == value){
+                        group=collection[j].group;
+                        break;
+                    };
+                }
+                for (var j=0; j<collection.length; j++) {
+                    if (collection[j].group != group && collection[j].group != "0"){
+                        nodes.remove({id: collection[j].id});
+                    };
+                }
+                return null;
+            };
+
             network.on("click", function (params) {
                 var vButtonVisibility = true;
                 params.event = "[original event]";
@@ -162,6 +179,12 @@
                                 className: "red-bg",
                                 closeModal: true,
                             },
+                            DeleteOther: {
+                                text: "Hide others",
+                                value: "deleteotherbranch",
+                                className: "red-bg",
+                                closeModal: true,
+                            },
                             Close: {
                                 text: "Close",
                                 value: true,
@@ -175,6 +198,10 @@
                                 var vNode = params.nodes;
                                 traverse(source, params.nodes); 
                                 nodes.remove({id: parseInt(vNode)});
+                                break;
+                            case "deleteotherbranch":
+                                var vNode = params.nodes;
+                                keep(sourceNodes, params.nodes); 
                                 break;
                             case "matrix":
                                 window.location.href = supporNodes[params.nodes].matrix;
