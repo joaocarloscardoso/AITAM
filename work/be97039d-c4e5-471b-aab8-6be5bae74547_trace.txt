@@ -1,2 +1,0 @@
-{"type":"Load/General", "operation":"Audit Created", "session":"be97039d-c4e5-471b-aab8-6be5bae74547", "snapshot":"e76fa91761562320aee15fe169d7ff58", "auditFile":"C:|develop|nodejs|projects|aitam|work|be97039d-c4e5-471b-aab8-6be5bae74547.xml", "event":"2023-04-19 13:50:21"},
-{"type":"Plan", "operation":"Plan > Plug-ins accessed", "session":"be97039d-c4e5-471b-aab8-6be5bae74547", "snapshot":"", "auditFile":"C:|develop|nodejs|projects|aitam|work|be97039d-c4e5-471b-aab8-6be5bae74547.xml", "event":"2023-04-19 13:50:24"},

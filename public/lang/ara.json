@@ -139,7 +139,9 @@
 			"auditID": "معرّف التدقيق",
 			"auditTitle": "عنوان التدقيق",
 			"auditBackground":"خلفية التدقيق",
-			"auditScope":"أهداف التدقيق (ISSAI 100/30, GUID 5100 / 5.2) والنطاق (ISSAI 100/48, GUID 5100 / 5.4)"
+			"auditScope":"أهداف التدقيق (ISSAI 100/30, GUID 5100 / 5.2) والنطاق (ISSAI 100/48, GUID 5100 / 5.4)",
+			"scope": "نطاق المراجعة",
+			"approach": "نهج التدقيق"
 		},
 		"timeline" : {
 			"pageTitle": "لوحة التحكم في المراجعة",

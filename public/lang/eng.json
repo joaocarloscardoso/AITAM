@@ -139,7 +139,9 @@
 			"auditID": "Audit ID",
 			"auditTitle": "Audit title",
 			"auditBackground":"Audit background",
-			"auditScope":"Audit objectives (ISSAI 100/30, GUID 5100/5.2) and scope (ISSAI 100/48, GUID 5100/5.4)"
+			"auditScope":"Audit objectives (ISSAI 100/30, GUID 5100/5.2) and scope (ISSAI 100/48, GUID 5100/5.4)",
+			"scope": "Audit scope",
+			"approach": "Audit approach"
 		},
 		"timeline" : {
 			"pageTitle": "Audit control dashboard",
