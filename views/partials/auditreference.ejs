@@ -35,6 +35,12 @@
                 <textarea name="scope" id="scope" placeholder="<%=appAudit.reference.auditScope %>" rows="5"><%= AuditReference.Scope %></textarea>
             </div>
             <div class="col-12">
+                <textarea name="auditscope" id="auditscope" placeholder="<%=appAudit.reference.scope %>" rows="5"><%= AuditReference.AuditScope %></textarea>
+            </div>
+            <div class="col-12">
+                <textarea name="auditapproach" id="auditapproach" placeholder="<%=appAudit.reference.approach %>" rows="5"><%= AuditReference.AuditApproach %></textarea>
+            </div>
+            <div class="col-12">
                 <ul class="actions">
                     <% if (source === "map") { %>
                         <li><a href="/analytics/AuditMap" class="button"><%=appButtons.close.name %></a></li>

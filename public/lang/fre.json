@@ -139,7 +139,9 @@
 			"auditID": "ID de l'Audit",
 			"auditTitle": "Titre de l'audit",
 			"auditBackground":"Contexte de l'audit",
-			"auditScope":"Objectifs de l'audit (ISSAI 100/30, GUID 5100/5.2) et étendue (ISSAI 100/48, GUID 5100/5.4)"
+			"auditScope":"Objectifs de l'audit (ISSAI 100/30, GUID 5100/5.2) et étendue (ISSAI 100/48, GUID 5100/5.4)",
+			"scope": "Portée de la vérification",
+			"approach": "Approche d'audit"
 		},
 		"timeline" : {
 			"pageTitle": "Tableau de bord de contrôle de l'audit",

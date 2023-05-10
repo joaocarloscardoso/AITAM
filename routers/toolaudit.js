@@ -502,7 +502,9 @@ tooleaudit.post('/toolauditreference', [
         AuditId: req.body.auditid,
         Title: req.body.title,
         Background: req.body.background,
-        Scope: req.body.scope
+        Scope: req.body.scope,
+        AuditScope: req.body.auditscope,
+        AuditApproach: req.body.auditapproach
     };
 
     var AuditFile = credentials.WorkSetPath;
