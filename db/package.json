@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.1",
-    "npm-check-updates": "^16.7.4"
+    "json-server": "^0.17.3",
+    "npm-check-updates": "^16.10.12"
   }
 }
