@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.3",
-    "npm-check-updates": "^16.10.12"
+    "npm-check-updates": "^16.10.17"
   }
 }
