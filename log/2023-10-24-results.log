@@ -1,0 +1,30 @@
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:5947adca-1566-4268-baf4-32b203e0537f","timestamp":"2023-10-24 18:40:03"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:9694d6fc-0075-41c7-8910-e20fdc30f8ef","timestamp":"2023-10-24 19:26:41"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:2af9b8d3-c953-467c-8e07-acf82bd431db","timestamp":"2023-10-24 19:32:08"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:2af9b8d3-c953-467c-8e07-acf82bd431db","timestamp":"2023-10-24 19:32:21"}
+{"level":"\u001b[34minfo\u001b[39m","message":"plug-in download: C:\\develop\\nodejs\\projects\\aitam-Offline\\public/plugins/EGovernment.xml","timestamp":"2023-10-24 19:32:46"}
+{"level":"\u001b[34minfo\u001b[39m","message":"plug-in download: C:\\develop\\nodejs\\projects\\aitam-Offline\\public/plugins/LandRegistry.xml","timestamp":"2023-10-24 19:33:03"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:2af9b8d3-c953-467c-8e07-acf82bd431db","timestamp":"2023-10-24 19:33:28"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:85de39ad-e472-4576-b9ce-df135572ff2a","timestamp":"2023-10-24 19:37:19"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:01c9b67f-f104-4b64-ad9e-cc37db1de609","timestamp":"2023-10-24 19:40:54"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:e770e36a-668f-4202-bc3d-c56d25dd1250","timestamp":"2023-10-24 19:42:09"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:37fa5bd8-6540-43be-b0a6-fcefef87a8f4","timestamp":"2023-10-24 19:49:14"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:b6ab8c68-ff47-4bb5-8c5a-937fb4fef158","timestamp":"2023-10-24 19:50:06"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:b6ab8c68-ff47-4bb5-8c5a-937fb4fef158","timestamp":"2023-10-24 19:50:20"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:b6ab8c68-ff47-4bb5-8c5a-937fb4fef158","timestamp":"2023-10-24 19:50:36"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:a0bdd443-a5cd-4b9d-a1f2-90ae7a0fe6ab","timestamp":"2023-10-24 20:08:38"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:f7583bd7-2c7b-4175-9564-e540c69b6bb1","timestamp":"2023-10-24 20:10:17"}
+{"level":"\u001b[34minfo\u001b[39m","message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam\\work\\f7583bd7-2c7b-4175-9564-e540c69b6bb1.xml","timestamp":"2023-10-24 20:10:24"}
+{"level":"\u001b[34minfo\u001b[39m","message":"audit file download: C:\\develop\\nodejs\\projects\\aitam\\work\\f7583bd7-2c7b-4175-9564-e540c69b6bb1.xml","timestamp":"2023-10-24 20:10:38"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:fe9c0912-2841-4ab8-b76f-d4d610e3e048","timestamp":"2023-10-24 20:53:50"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:7542f1de-bf92-478f-a848-04e3f9286e03","timestamp":"2023-10-24 21:06:44"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:50686f9e-7d12-4a5e-ae9c-039995a417fb","timestamp":"2023-10-24 21:09:22"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:50686f9e-7d12-4a5e-ae9c-039995a417fb","timestamp":"2023-10-24 21:09:36"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:a6c38d64-1248-4991-a625-9bd69d223a04","timestamp":"2023-10-24 21:10:59"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:e3d72a5b-8d91-4554-ba06-628cf897d217","timestamp":"2023-10-24 21:11:49"}
+{"level":"\u001b[34minfo\u001b[39m","message":"New audit file created:C:\\develop\\nodejs\\projects\\aitam-Offline\\work\\e3d72a5b-8d91-4554-ba06-628cf897d217.xml","timestamp":"2023-10-24 21:12:06"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:e3d72a5b-8d91-4554-ba06-628cf897d217","timestamp":"2023-10-24 21:12:30"}
+{"level":"\u001b[34minfo\u001b[39m","message":"audit file download: C:\\develop\\nodejs\\projects\\aitam-Offline\\work\\e3d72a5b-8d91-4554-ba06-628cf897d217.xml","timestamp":"2023-10-24 21:14:26"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2023-10-24 21:14:59"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:11778ba8-5ce2-4468-8bff-927cca02d504","timestamp":"2023-10-24 21:16:34"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:e2d88c41-4fb3-4c9e-a606-9563b50d080d","timestamp":"2023-10-24 21:27:49"}
