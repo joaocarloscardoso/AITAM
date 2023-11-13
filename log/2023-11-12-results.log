@@ -1,0 +1,7 @@
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-11-12 22:40:59"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:f22cc999-7413-4b10-ad3c-7aa1623dd07b","timestamp":"2023-11-12 22:41:08"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"404 - Not Found","timestamp":"2023-11-12 22:41:08"}
+{"level":"\u001b[34minfo\u001b[39m","message":"req.user: undefined","timestamp":"2023-11-12 22:41:15"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session id started: {\"user\":\"2f24vvg\"}","timestamp":"2023-11-12 22:41:15"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User logged in: {\"id\":\"2f24vvg\",\"email\":\"test@test.com\",\"password\":\"$2a$10$A2g6pbxxhLA9MNYRJ0rnzOf/7Ara76B0KcRdjzUcsIBIclRuas/fG\"}","timestamp":"2023-11-12 22:41:15"}
+{"level":"\u001b[34minfo\u001b[39m","message":"User (2f24vvg) uploaded a file: {\"file\":{\"size\":954456,\"path\":\"C:\\\\develop\\\\nodejs\\\\projects\\\\aitam\\\\work\\\\79003af0-24b2-400b-be3c-c9c07daa334d.xml\",\"name\":\"HRMIS-1_EN.xml\",\"type\":\"text/xml\",\"mtime\":\"2023-11-12T22:41:27.063Z\"}}","timestamp":"2023-11-12 22:41:27"}

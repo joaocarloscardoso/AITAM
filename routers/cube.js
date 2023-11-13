@@ -52,104 +52,134 @@ cube.get('/kgraph', (req, res) => {
 });
 
 cube.get('/aigraph', (req,res)=>{
+       const vReqSource = req.query.auditid; 
+       var vSources=[]
+       console.log(vReqSource);
+       if (vReqSource != '' && typeof vReqSource !== 'undefined') {
+              var vSources=vReqSource.split("|");
+       };     
+       var TotalTokens=0;
+       var WhereQuery1="";
+       var WhereQuery2="";
+
+       if (vSources.length > 0) {
+              TotalTokens = vSources.length;
+       };
+
+       for (i=0; i < TotalTokens; i++){
+              if (WhereQuery1 == ''){
+                     WhereQuery1 = 'a1.URL="http://egov.nik.gov.pl/g/egov/' + vSources[i] + '"';
+                     WhereQuery2 = 'y1.URL="http://egov.nik.gov.pl/g/egov/' + vSources[i] + '"';
+              } else {
+                     WhereQuery1 = WhereQuery1 + ' OR a1.URL= "http://egov.nik.gov.pl/g/egov/' + vSources[i] + '"';
+                     WhereQuery2 = WhereQuery2 + ' OR y1.URL= "http://egov.nik.gov.pl/g/egov/' + vSources[i] + '"';
+              }
+       }
+
        var CypherTableQuery='MATCH (a1:Audit)-[r1:COVER|PERFORM|IDENTIFIED]-(n1) WHERE '
-       CypherTableQuery = CypherTableQuery + 'a1.URL="http://egov.nik.gov.pl/g/egov/CH/2017/BuildingProjects/alg_BuildingProjects.html" '
-       CypherTableQuery = CypherTableQuery + 'OR a1.URL="http://egov.nik.gov.pl/g/egov/DE/2016/Bridges/alg_Bridges.html"'
+       //CypherTableQuery = CypherTableQuery + 'a1.URL="http://egov.nik.gov.pl/g/egov/CH/2017/BuildingProjects/alg_BuildingProjects.html" '
+       //CypherTableQuery = CypherTableQuery + 'OR a1.URL="http://egov.nik.gov.pl/g/egov/DE/2016/Bridges/alg_Bridges.html"'
+       CypherTableQuery = CypherTableQuery + WhereQuery1;
        CypherTableQuery = CypherTableQuery + ' return a1, n1 ';
        CypherTableQuery = CypherTableQuery + ' union ';
        CypherTableQuery=  CypherTableQuery + 'MATCH (y1:Audit)-[r1:COVER|PERFORM|IDENTIFIED]-(a1)-[r2:RESULTING_IN]-(n1) WHERE '
-       CypherTableQuery = CypherTableQuery + 'y1.URL="http://egov.nik.gov.pl/g/egov/CH/2017/BuildingProjects/alg_BuildingProjects.html" '
-       CypherTableQuery = CypherTableQuery + 'OR y1.URL="http://egov.nik.gov.pl/g/egov/DE/2016/Bridges/alg_Bridges.html"'
+       //CypherTableQuery = CypherTableQuery + 'y1.URL="http://egov.nik.gov.pl/g/egov/CH/2017/BuildingProjects/alg_BuildingProjects.html" '
+       //CypherTableQuery = CypherTableQuery + 'OR y1.URL="http://egov.nik.gov.pl/g/egov/DE/2016/Bridges/alg_Bridges.html"'
+       CypherTableQuery = CypherTableQuery + WhereQuery2;
        CypherTableQuery = CypherTableQuery + ' return a1, n1 ';
        console.log(CypherTableQuery)
        const session = driver.session();
-
-       
-       session
-       .run(CypherTableQuery)
-       .then(result => {
-              var vGroup=0;
-              var vLabel='';
-              var nodesIds = [];
-              var visNodes = [];
-              var visEdges =  [];
-              result.records.forEach(function(record){
-                     switch (record._fields[0].labels[0]) {
-                     case 'Audit':
-                            vGroup=0;
-                            vLabel=record._fields[0].labels[0];
-                            break;
-                     case 'Topics':
-                            vGroup=1;
-                            vLabel=record._fields[0].properties.Definition;
-                            break;
-                     case 'Risk_Case':
-                            vGroup=2;
-                            vLabel=record._fields[0].labels[0];
-                            break;
-                     case 'Function':
-                            vGroup=3;
-                            vLabel=record._fields[0].properties.Definition;
-                            break;
-                     default: //'Observation':
-                            vGroup=4;
-                            vLabel=record._fields[0].labels[0];
-                     };
-                     if (nodesIds.includes(record._fields[0].identity.low)== false)
-                     {
-                            var objAudit = {
-                                   id: record._fields[0].identity.low,
-                                   label: vLabel,
-                                   title:record._fields[0].labels[0] + ": " + record._fields[0].properties.Title,
-                                   group:vGroup
+       if (TotalTokens > 0){
+              session
+              .run(CypherTableQuery)
+              .then(result => {
+                     var vGroup=0;
+                     var vLabel='';
+                     var nodesIds = [];
+                     var visNodes = [];
+                     var visEdges =  [];
+                     result.records.forEach(function(record){
+                            switch (record._fields[0].labels[0]) {
+                            case 'Audit':
+                                   vGroup=0;
+                                   vLabel=record._fields[0].labels[0];
+                                   break;
+                            case 'Topics':
+                                   vGroup=1;
+                                   vLabel=record._fields[0].properties.Definition;
+                                   break;
+                            case 'Risk_Case':
+                                   vGroup=2;
+                                   vLabel=record._fields[0].labels[0];
+                                   break;
+                            case 'Function':
+                                   vGroup=3;
+                                   vLabel=record._fields[0].properties.Definition;
+                                   break;
+                            default: //'Observation':
+                                   vGroup=4;
+                                   vLabel=record._fields[0].labels[0];
                             };
-                            visNodes.push(objAudit);
-                            nodesIds.push(record._fields[0].identity.low);
-                     }
-                     switch (record._fields[1].labels[0]) {
-                     case 'Audit':
-                            vGroup=0;
-                            vLabel=record._fields[1].properties.Definition;
-                            break;
-                     case 'Topics':
-                            vGroup=1;
-                            vLabel=record._fields[1].properties.Definition;
-                            break;
-                     case 'Risk_Case':
-                            vGroup=2;
-                            vLabel=record._fields[1].labels[0];
-                            break;
-                     case 'Function':
-                            vGroup=3;
-                            vLabel=record._fields[1].properties.Definition;
-                            break;
-                     default:
-                            vGroup=4;
-                            vLabel=record._fields[1].labels[0];
-                     };
-                     if (nodesIds.includes(record._fields[1].identity.low)== false)
-                     {
-                            var objAudit = {
-                                   id: record._fields[1].identity.low,
-                                   label: vLabel,
-                                   title:record._fields[1].labels[0] + ": " + record._fields[1].properties.Definition,
-                                   group:vGroup
+                            if (nodesIds.includes(record._fields[0].identity.low)== false)
+                            {
+                                   var objAudit = {
+                                          id: record._fields[0].identity.low,
+                                          label: vLabel,
+                                          title:record._fields[0].labels[0] + ": " + record._fields[0].properties.Title,
+                                          group:vGroup
+                                   };
+                                   visNodes.push(objAudit);
+                                   nodesIds.push(record._fields[0].identity.low);
+                            }
+                            switch (record._fields[1].labels[0]) {
+                            case 'Audit':
+                                   vGroup=0;
+                                   vLabel=record._fields[1].properties.Definition;
+                                   break;
+                            case 'Topics':
+                                   vGroup=1;
+                                   vLabel=record._fields[1].properties.Definition;
+                                   break;
+                            case 'Risk_Case':
+                                   vGroup=2;
+                                   vLabel=record._fields[1].labels[0];
+                                   break;
+                            case 'Function':
+                                   vGroup=3;
+                                   vLabel=record._fields[1].properties.Definition;
+                                   break;
+                            default:
+                                   vGroup=4;
+                                   vLabel=record._fields[1].labels[0];
                             };
-                            visNodes.push(objAudit);
-                            nodesIds.push(record._fields[1].identity.low);
-                     }
-                     var objRelation = {
-                            from: record._fields[0].identity.low,
-                            to: record._fields[1].identity.low
-                     };
-                     visEdges.push(objRelation);
-              });
-
-              res.render('cube/aigraph', {
-                     visEdges: visEdges,
-                     visNodes: visNodes
-              });
-       })
+                            if (nodesIds.includes(record._fields[1].identity.low)== false)
+                            {
+                                   var objAudit = {
+                                          id: record._fields[1].identity.low,
+                                          label: vLabel,
+                                          title:record._fields[1].labels[0] + ": " + record._fields[1].properties.Definition,
+                                          group:vGroup
+                                   };
+                                   visNodes.push(objAudit);
+                                   nodesIds.push(record._fields[1].identity.low);
+                            }
+                            var objRelation = {
+                                   from: record._fields[0].identity.low,
+                                   to: record._fields[1].identity.low
+                            };
+                            visEdges.push(objRelation);
+                     });
+                     res.render('cube/aigraph', {
+                            visEdges: visEdges,
+                            visNodes: visNodes
+                     });
+              })
+       } else {
+              log.warn('404 - Not Found');
+              res.type('text/html');
+              res.status(404);
+              res.render('404');
+       };
 });
 
 
