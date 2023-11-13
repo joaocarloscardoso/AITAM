@@ -15,3 +15,5 @@
 {"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-11-13 09:32:23"}
 {"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-11-13 09:32:47"}
 {"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:0d4c6d12-2486-4c22-bcf2-ca59053f9aff","timestamp":"2023-11-13 09:33:12"}
+{"level":"\u001b[34minfo\u001b[39m","message":"garbage collector started on path: C:\\develop\\nodejs\\projects\\aitam\\work\\","timestamp":"2023-11-13 09:35:53"}
+{"level":"\u001b[34minfo\u001b[39m","message":"Session created received the id:241109ab-c9e9-48c8-bc05-059c3d4ab68b","timestamp":"2023-11-13 09:57:53"}
